@@ -1,0 +1,44 @@
+{
+	icon: "tinkerscalibration:hymon_arrow"
+	id: "127E9EA787E46F1D"
+	loot_size: 17
+	order_index: 51
+	rewards: [
+		{ count: 4, item: "tinkerscalibration:corundum" }
+		{ count: 4, item: "tinkerscalibration:tourmaline" }
+		{ count: 4, item: "tinkerscalibration:spinel" }
+		{ count: 4, item: "tinkerscalibration:vibrating_crystal" }
+		{ count: 4, item: "tinkerscalibration:topaz_crystal" }
+		{ count: 4, item: "tinkerscalibration:iceland_spar_crystal" }
+		{ count: 4, item: "tinkerscalibration:steamium_ingot" }
+		{ count: 4, item: "tinkerscalibration:lindsteel_ingot" }
+		{ count: 4, item: "tinkerscalibration:lizanite_crystal" }
+		{ count: 4, item: "tinkerscalibration:fazelle_ingot" }
+		{ count: 4, item: "tinkerscalibration:halleium_ingot" }
+		{ count: 4, item: "tinkerscalibration:moonsteel_ingot" }
+		{ count: 4, item: "tinkerscalibration:titanium_ingot" }
+		{ count: 4, item: "tinkerscalibration:mandite_ingot" }
+		{ count: 4, item: "tinkerscalibration:alumite_ingot" }
+		{ count: 4, item: "tinkerscalibration:soulgold_ingot" }
+		{ count: 4, item: "tinkerscalibration:jazz_ingot" }
+		{ count: 4, item: "tinkerscalibration:magiga_ingot" }
+		{ count: 4, item: "tinkerscalibration:emperorslime_ingot" }
+		{ count: 4, item: "tinkerscalibration:immersed_silver_ingot" }
+		{ count: 4, item: "tinkerscalibration:stellarium_ingot" }
+		{ count: 4, item: "tinkerscalibration:inert_witherium_ingot" }
+		{ count: 4, item: "tinkerscalibration:oraclium_ingot" }
+		{ count: 4, item: "tinkerscalibration:tonium_ingot" }
+		{ count: 4, item: "tinkerscalibration:witherium_ingot" }
+		{ count: 4, item: "tinkerscalibration:hothium_ingot" }
+		{ count: 4, item: "tinkerscalibration:bamboo_steel" }
+		{ count: 4, item: "tinkerscalibration:breashell" }
+		{ count: 4, item: "tinkerscalibration:refinedquartz" }
+		{ count: 4, item: "tinkerscalibration:mangobberslime_ingot" }
+		{ count: 4, item: "tinkerscalibration:fiberglass" }
+		{ count: 4, item: "tinkerscalibration:prehnite_block" }
+		{ count: 4, item: "tinkerscalibration:grain_ingot" }
+		{ count: 4, item: "tinkerscalibration:hymon" }
+		{ count: 4, item: "tinkerscalibration:gravity_ingot" }
+	]
+	title: "王之书-校准-半身-抽奖"
+}

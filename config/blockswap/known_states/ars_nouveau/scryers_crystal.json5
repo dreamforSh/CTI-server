@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "down",
+			"being_viewed": "true"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "up",
+			"being_viewed": "true"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"being_viewed": "true"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"being_viewed": "true"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"being_viewed": "true"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"being_viewed": "true"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "down",
+			"being_viewed": "false"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "up",
+			"being_viewed": "false"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"being_viewed": "false"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"being_viewed": "false"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"being_viewed": "false"
+		},
+		"Name": "ars_nouveau:scryers_crystal"
+	}
+]

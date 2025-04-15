@@ -1,0 +1,1309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twi"
+	group: "4CD374CEABFCA3D3"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "0D31D2C4CEC75F52"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["由我来向你介绍如何前往这满是昏暗的世界，一颗钻石，是暮色旅途的必需品。"]
+			icon: "minecraft:diamond"
+			id: "28B43FED5EE1CB55"
+			rewards: [{
+				description: ""
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "1F2F7047882E48A0"
+				title: "启程，迈向深夜"
+				type: "toast"
+			}]
+			size: 2.0d
+			subtitle: "钻石怎么找啊？"
+			tasks: [
+				{
+					id: "391DA79CEF0AAC1B"
+					type: "checkmark"
+				}
+				{
+					id: "38AB5AA890562877"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "暮色森林的必要条件"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28B43FED5EE1CB55"]
+			dependency_requirement: "one_completed"
+			description: [
+				"收到我送的花了吗，像这样把他们摆成一圈然后在里面放上四格水，最后把钻石扔进去"
+				"{image:kubejs:textures/ftbq_images/muse1.png width:150 height:100 align:1}"
+				"伴随一声雷响，暮色的大门就向你打开了。"
+			]
+			hide_dependency_lines: false
+			id: "618C2EB86502B010"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B055F1BF1675208"
+				table_id: 8345516078804118212L
+				type: "random"
+			}]
+			size: 2.0d
+			subtitle: "我们曾征服星辰，如今也一样"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "01C4A0DE5B80E815"
+				title: "初入暮色"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["一只乌鸦，通常在黑曜石柱子旁边生成，去那边转一圈并击杀它拿到羽毛，跑了一圈你也有点饿了吧，来吃点东西吧。"]
+			id: "4EFC56555EBEFBD7"
+			rewards: [{
+				id: "34EB2E2AFB68C02E"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			subtitle: "杀死那只知更鸦"
+			tasks: [{
+				id: "6E5FB751B89C997C"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			title: "有笔可写"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5AE5B41871E321B5"
+				"5CD7CE1CDC32005D"
+				"4EFC56555EBEFBD7"
+				"618C2EB86502B010"
+			]
+			description: ["全部拿到之后就可以做地图了，有了它你就能知道自己旁边都是些什么boss了。"]
+			icon: "twilightforest:magic_map"
+			id: "5F1EC840A286C89F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D36174BA419FA09"
+				table_id: 8345516078804118212L
+				type: "random"
+			}]
+			shape: "circle"
+			subtitle: "这个，这个......还有这个，以后都是要打的"
+			tasks: [
+				{
+					id: "23949425CA12AE3C"
+					item: "twilightforest:magic_map_focus"
+					type: "item"
+				}
+				{
+					id: "158475B4DD6A0DE7"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			title: "制作魔法地图来方便地寻找boss"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["杀死森林建筑中的骷髅德鲁伊掉落，同时在暮色的地底下会生成，可以自己去找找。"]
+			id: "5AE5B41871E321B5"
+			rewards: [{
+				id: "6992397891A246E8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "好吃(╹ڡ╹ )"
+			tasks: [{
+				id: "3F110163C1DD7528"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			title: "神奇小浆果"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["我觉得你有可能找不到火炬浆果，所以我就送你一个吧。"]
+			id: "5CD7CE1CDC32005D"
+			rewards: [{
+				id: "32DF03C8FBE66274"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			subtitle: "除了地狱暮色矿山里也有荧石粉哦"
+			tasks: [{
+				id: "0867040A9FAD9AD9"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			title: "撒上秘制粉末"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["618C2EB86502B010"]
+			description: ["一只娜迦会出现在迷宫里，如果你找不到它，那就去给我老老实实做地图吧"]
+			id: "336F092EF762E283"
+			rewards: [{
+				id: "2D31A43B1447164D"
+				table_id: 8345516078804118212L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "不是那只飞龙！"
+			tasks: [{
+				id: "7A222A51C7324746"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "森林深处的绿色猛兽"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["336F092EF762E283"]
+			description: ["巫妖在高塔主塔的最上层，打得时候建议封闭入口防止刷的怪物上来，如果需要书的话也可以在高塔里转转，有专门的图书区。ps.护盾可以用治疗药水或者伽钢材料的武器打破"]
+			id: "2F8D37886C95666A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52E738403E42BF1F"
+				table_id: 8345516078804118212L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "他可能曾是某位王者，但惹到你的下场只有长眠"
+			tasks: [{
+				id: "5E47E64F9A7DC35C"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "不死者的长眠"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F8D37886C95666A"]
+			description: ["没想到你轻而易举就击败了娜迦和巫妖，我对你有点刮目相看了，来吧，选点东西，这是你应得的。"]
+			icon: "minecraft:enchanted_golden_apple"
+			id: "71D21D88ED76B8F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01E27C2AE6CED720"
+				table_id: 4099866735571295913L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "你到中转站了，接下来你有三条分支。"
+			tasks: [{
+				id: "1AEF09BE6B7A121B"
+				type: "checkmark"
+			}]
+			title: "STOP!"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D21D88ED76B8F2"]
+			description: ["一只雪怪平常都待在巢穴里，他的抱摔有些棘手，如果要打的话我建议带桶水(多带一桶，以备不时之需)将水放在他脚下，然后欣赏他的嚎哭。ps.先处理小怪会好打一点"]
+			id: "3E3AB82BB0E312F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FCF4571E097E5F0"
+				table_id: 4099866735571295913L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "他长得可真吓人！"
+			tasks: [{
+				id: "3426B5FE206ECCF3"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "风雪过境"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D21D88ED76B8F2"]
+			description: ["迷宫最下层最大的房间里生活着一只半牛马?还是人牛?这不重要，重要的是你要用你的武器击碎他的战斧，取其头颅！ps.可以先把房间围起来再用远程武器耗死他"]
+			id: "0AB2558FBB682858"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BC54D9CF40E2020"
+				table_id: 4099866735571295913L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "红线不是用来记路线的，是用来勒死你的!"
+			tasks: [{
+				id: "2E1D77AD60E87E82"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "纯爱战神之怒"
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			description: ["这个东西太超模了，被ban了，就这么简单。不过你可以来这拿点吃的，别告诉别人哦。"]
+			icon: "twilightforest:uncrafting_table"
+			id: "0D6FAC6E455D1166"
+			rewards: [{
+				count: 16
+				id: "340F082C99FBE593"
+				item: "extradelight:pumpkin_pie_slice"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "拆解台之死"
+			tasks: [{
+				id: "1BCA90C8322BA9DD"
+				title: "关于拆解台"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["71D21D88ED76B8F2"]
+			description: ["往黑暗森林里面走(记得看地图)，会找到迷宫的入口，将随意一位暮色boss的奖杯放在上面会激活入口，然后你就能进去翻箱倒柜了，幻影骑士没什么需要注意的点。ps.打不过可以用远程武器拉扯一下。"]
+			id: "070539B7C73ED745"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CF79E6F15AF8B14"
+				table_id: 4099866735571295913L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "巨人还是风车?"
+			tasks: [{
+				id: "5178451AAC390D10"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "堂吉诃德之风"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E3AB82BB0E312F4"]
+			description: ["极光宫殿是冰雪女王的容身之处，你要做的很简单，登上去，杀死她。ps.旋转的冰块会帮她抵挡伤害，如果不想正常打，可以上去开个洞向下射箭来逃课。"]
+			id: "41159BD319F93FC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02545E343C9204F5"
+				table_id: 3943400324310342838L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "想做个雪人吗？"
+			tasks: [{
+				id: "4A8A1FFDA31C14CA"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "冬夜圆舞曲"
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AB2558FBB682858"]
+			description: ["九头蛇会在火焰沼泽中的半圆形巢穴中等你，在他张嘴时用弓箭射掉他的头可以有效地削弱他，建议使用远程武器来攻略此boss。ps.如果执意使用近战武器，尝试反弹他的火球吧。"]
+			id: "4331F5A92B7B3B11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2471B5643CE3B592"
+				table_id: 3943400324310342838L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "战斗，暮色大地的主流"
+			tasks: [{
+				id: "4E8DEC6CD6A38F4B"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "蛇生九头，栖于烈火"
+			x: 24.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["070539B7C73ED745"]
+			description: ["暮初恶魂就在黑暗高塔的最上层，在与其战斗时需要注意的是他挨打过多会红温，在受到18点或更高伤害时，暮初恶魂将停止攻击，并开始降下对头盔产生大量损伤的泪雨并尝试在塔顶的房间生成砷铅铁恶灵且尝试吸收回血，此时要去激活恶魂陷阱打断其回血。"]
+			id: "1318FCFA271CA3DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30A5AF67B29335A8"
+				table_id: 3943400324310342838L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "血泪纵横昏暗林，炽焰燃尽来者血"
+			tasks: [{
+				id: "6EC1C5D597E26FAD"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "\"夜久语声绝，如闻泣幽咽\""
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			icon: "tconstruct:gold_item_frame"
+			id: "0CF78E663E9EAFBD"
+			rewards: [{
+				count: 16
+				id: "1CC36809E166B733"
+				item: "create_central_kitchen:pumpkin_pie_slice"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 4.0d
+			subtitle: "来搞点稀奇古怪的小玩意吧"
+			tasks: [{
+				id: "7368F14AC20BFB01"
+				title: "收集"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			description: ["时光树树苗成长后生成时光树，树的占地面积比较大，主要由时光树原木、时光树树叶和一个时光树时钟所组成，时光树树苗在树洞的宝箱中有几率获得，原木与树叶除了装饰外没有任何作用，时钟会以自身为中心，加快一定范围内的时间流动，主要用于加快作物与生物的成长。"]
+			id: "770424D2F64F25BD"
+			subtitle: "簇拥我上天堂的，正是时光树啊！"
+			tasks: [{
+				id: "6C03BA8741D39853"
+				item: "twilightforest:time_sapling"
+				type: "item"
+			}]
+			title: "天堂制造"
+			x: 18.5d
+			y: 14.5d
+		}
+		{
+			description: ["矿石树树苗成长后生成矿石书，树的形象像一把镐子，主要由矿石树原木、矿石树树叶和一个矿石树核心所组成。原木与树叶除了装饰外没有任何作用，核心会以自身为中心，把半径14格内的矿石吸引到自己身边。被吸引到身边的矿石的原来位置会被石头填充。"]
+			id: "3BD893732A0C9F8C"
+			subtitle: "强大的吸附力"
+			tasks: [{
+				id: "622372D745FA0E0E"
+				item: "twilightforest:mining_sapling"
+				type: "item"
+			}]
+			title: "我来组成吸矿"
+			x: 16.5d
+			y: 12.5d
+		}
+		{
+			description: ["变化树树苗成长后生成变化树，树叶会飘落奇妙的符文，主要由变化树原木、变化树树叶和一个变化树心脏所组成，变化树树苗在树洞的宝箱中有几率获得。原木与树叶除了装饰外没有任何作用，心脏会把半径15格的圆形范围内的生物群系逐渐变为魔法森林生物群系。"]
+			id: "6F0CB96DDD507380"
+			subtitle: "夭寿啦，神圣之地蔓延了"
+			tasks: [{
+				id: "21B4C4704A391E75"
+				item: "twilightforest:transformation_sapling"
+				type: "item"
+			}]
+			title: "以变应不变"
+			x: 18.5d
+			y: 12.5d
+		}
+		{
+			description: ["分类树苗成长后生成变化树，树的高度比较矮，可以种植在房间内，主要由分类树原木、分类树树叶和一个分类树的引擎所组成，分类树苗在树洞的宝箱中有几率获得，原木与树叶除了装饰外没有任何作用。引擎会以自身为中心，把小范围中普通箱子内的物品不断的整理归类。"]
+			id: "23E77F24873E7473"
+			subtitle: "你去那个箱子，你来这里"
+			tasks: [{
+				id: "6FDD9E734BA07BB4"
+				item: "twilightforest:sorting_sapling"
+				type: "item"
+			}]
+			title: "分类狂"
+			x: 16.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"23E77F24873E7473"
+				"6F0CB96DDD507380"
+				"770424D2F64F25BD"
+				"3BD893732A0C9F8C"
+			]
+			description: ["每种树的树苗都可以在巨大暮色树上的树洞里找到（在最上面的树叶里）"]
+			icon: "twilightforest:rainbow_oak_sapling"
+			id: "5301BEE7E8A00882"
+			rewards: [{
+				id: "018AF2540FF54FA9"
+				item: "twilightforest:rainbow_oak_sapling"
+				type: "item"
+			}]
+			subtitle: "不识四树五金六以太，竟敢叫七八米子，十分大胆！"
+			tasks: [{
+				id: "315BEFCB3B29D54A"
+				title: "暮色四树"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"2DB740AE027E71B5"
+				"0484798E22C5FBD4"
+				"205729C971D2DFE5"
+				"5ECC03C7D163FCF6"
+			]
+			description: ["没什么大用。只有收藏价值了。"]
+			icon: {
+				Count: 1b
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "l2complements:frozen"
+				}
+			}
+			id: "6A0F6ADD0AA5E2ED"
+			subtitle: "冰雪女皇珍藏的四把玩具"
+			tasks: [{
+				id: "75EA2BC1E752F29A"
+				title: "女皇四弓"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: 13.5d
+		}
+		{
+			description: ["顾名思义，是一次能射出三发箭的弓。"]
+			id: "205729C971D2DFE5"
+			subtitle: "三连击！"
+			tasks: [{
+				id: "737410D1E88C5F23"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "一击三发"
+			x: 28.5d
+			y: 12.5d
+		}
+		{
+			description: ["顾名思义，是能自动追踪的弓。"]
+			id: "5ECC03C7D163FCF6"
+			subtitle: "他在跟着我！"
+			tasks: [{
+				id: "0D97DF0F5BDA8A4A"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "咬死不放"
+			x: 26.5d
+			y: 14.5d
+		}
+		{
+			description: ["顾名思义，可以冻住别人。"]
+			id: "2DB740AE027E71B5"
+			subtitle: "夏天必备"
+			tasks: [{
+				id: "31296A0D6D0E41ED"
+				item: {
+					Count: 1b
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "冰冻三尺非一日之寒"
+			x: 28.5d
+			y: 14.5d
+		}
+		{
+			description: ["顾名思义，与射中的人交换位置。"]
+			id: "0484798E22C5FBD4"
+			subtitle: "以形换位"
+			tasks: [{
+				id: "21A0D999FD40CAB1"
+				item: {
+					Count: 1b
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "缩地成寸"
+			x: 26.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1AB66887503C48D2"]
+			description: [
+				"杀死伪物？不，也许只是世界上另一个你罢了，参照盖亚守护者（植魔）"
+				"和巨型黑曜石一样，这里有着巨型的橡木、圆石和树叶，多有创新之处，但貌似仅限于此，不免感到遗憾。"
+			]
+			id: "0F3F4E75ECFEB151"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29E60A12A401797E"
+				table_id: 3943400324310342838L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "世界上另外的你？"
+			tasks: [{
+				advancement: "twilightforest:giants"
+				criterion: ""
+				id: "7B7DAE1BD8EDC9FE"
+				type: "advancement"
+			}]
+			title: "立于云端的巨人"
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1318FCFA271CA3DE"
+				"4331F5A92B7B3B11"
+				"41159BD319F93FC4"
+			]
+			description: ["你需要先杀死巨魔获取魔豆，用魔豆去天上空岛的下方种植然后直达巨人所在之地（当然你可以不用这个方法），杀死巨人获取的巨人镐用来破坏巨型黑曜石，里面的箱子会有你想要的东西。"]
+			icon: "twilightforest:giant_obsidian"
+			id: "1AB66887503C48D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31C070534891029C"
+				table_id: 3943400324310342838L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "其实挺可爱的不是吗"
+			tasks: [
+				{
+					advancement: "twilightforest:troll"
+					criterion: ""
+					id: "24B941D7BA8A189E"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:progress_merge"
+					criterion: ""
+					id: "6B250575C3C1253D"
+					type: "advancement"
+				}
+			]
+			title: "隐于地下的巨魔"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F3F4E75ECFEB151"
+				"1AB66887503C48D2"
+			]
+			description: [
+				"这个灯会烧毁这一切，还记得在巨型黑曜石里有什么吗？"
+				"来自被遗忘的森林（误）"
+			]
+			id: "6BBDBA4F12A5C1CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55593124798326F9"
+				table_id: 3943400324310342838L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "前往城堡的最后防线"
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "72B2CB58943D3CDB"
+				type: "advancement"
+			}]
+			title: "荆棘丛生之处"
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BBDBA4F12A5C1CA"]
+			id: "7E04EDDCCA04750E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64CFE9335723F9DA"
+					table_id: 3943400324310342838L
+					type: "random"
+				}
+				{
+					id: "2D0EA8A04C5028EE"
+					item: "twilightdelight:twilight_spring"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "至少敲一块砖回来吧？"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_thorns"
+					criterion: ""
+					id: "095E47B02914B493"
+					type: "advancement"
+				}
+				{
+					id: "5DBF5362C3BDCE4E"
+					item: "twilightforest:castle_brick"
+					type: "item"
+				}
+			]
+			title: "未能实现的最终之战"
+			x: 41.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["618C2EB86502B010"]
+			id: "6B7B62BDEBBA5898"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A7266A12CE8BF7"
+				table_id: 8345516078804118212L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "也许你能通过一些方法实现自动化？"
+			tasks: [{
+				id: "6A85986002407682"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			title: "隐于魔法森林的愚者"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"40EDE23106D661CF"
+				"6413DD8FF1033E39"
+				"1A183844D6A20BD4"
+				"564EB8FC8854431A"
+			]
+			icon: "twilightforest:lich_spawn_egg"
+			id: "5236E26F9002F13F"
+			tasks: [
+				{
+					id: "16ECAB333879B6DE"
+					type: "checkmark"
+				}
+				{
+					advancement: "twilightforest:lich_scepters"
+					criterion: ""
+					id: "777D70D9E1BCEAEF"
+					type: "advancement"
+				}
+			]
+			title: "巫妖先生的权能之力"
+			x: 22.5d
+			y: 13.5d
+		}
+		{
+			id: "1A183844D6A20BD4"
+			tasks: [{
+				id: "1351D04CEB01B23F"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 12.5d
+		}
+		{
+			id: "6413DD8FF1033E39"
+			tasks: [{
+				id: "64AB7CA477138720"
+				item: {
+					Count: 1b
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.5d
+		}
+		{
+			id: "564EB8FC8854431A"
+			tasks: [{
+				id: "797E50C92D36B620"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.5d
+		}
+		{
+			id: "40EDE23106D661CF"
+			tasks: [{
+				id: "374D69F6C85D9704"
+				item: {
+					Count: 1b
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"483381AF0ACD04A4"
+				"549588AA4774A71C"
+				"06AEA351012DC0EF"
+				"4F876755FB0D1150"
+			]
+			icon: "twilightforest:redcap_sapper_spawn_egg"
+			id: "4D25720540B1A071"
+			tasks: [{
+				id: "241A81D6AF5D904E"
+				type: "checkmark"
+			}]
+			title: "矿山的馈赠"
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			id: "549588AA4774A71C"
+			tasks: [{
+				id: "705E22DE36DF3DD3"
+				item: "twilightforest:transformation_powder"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.5d
+		}
+		{
+			id: "483381AF0ACD04A4"
+			tasks: [{
+				id: "39243EF38E11EC8B"
+				item: {
+					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			id: "4F876755FB0D1150"
+			tasks: [{
+				id: "57F6F3AA1A058058"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.5d
+		}
+		{
+			id: "06AEA351012DC0EF"
+			tasks: [{
+				id: "23D3B343FFDCED17"
+				item: {
+					Count: 1b
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.5d
+		}
+		{
+			id: "551F844C360CDF61"
+			tasks: [{
+				id: "60109D43380E11D1"
+				type: "checkmark"
+			}]
+			title: "奇妙无用与隐藏物品"
+			x: 32.5d
+			y: 11.5d
+		}
+		{
+			id: "14232F0443064C47"
+			shape: "diamond"
+			subtitle: "对目标造成10s冻结III效果"
+			tasks: [{
+				id: "4A586F4C1EFC8D17"
+				item: {
+					Count: 1b
+					id: "twilightforest:ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.5d
+			y: 13.5d
+		}
+		{
+			id: "617CE6B9E9E12C42"
+			shape: "diamond"
+			subtitle: "仅此一击40伤害，透过剑身可看到水下的一切"
+			tasks: [{
+				id: "5BEF3D26206FC14D"
+				item: {
+					Count: 1b
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.0d
+			y: 14.0d
+		}
+		{
+			description: [
+				"刷巨魔掉落/用肥沃土壤催生的豆茎叶可以批量生产"
+				"魔豆、巨茎和豆茎叶都可以堆肥，豆茎叶可以用作树叶类型合成。"
+				"但是还是没什么用"
+			]
+			id: "58196FAA4E7A13EA"
+			shape: "diamond"
+			subtitle: "可以直接耸入云端（貌似只能用来堆肥）"
+			tasks: [{
+				id: "34A1C3EF06F79013"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 13.0d
+		}
+		{
+			description: [
+				"点燃方块和目标，利用修复护符可以充当无限点火器（貌似除了点燃目标都可以被打火石取代）"
+				"完成进度的必须之物"
+			]
+			id: "693678CB237CE000"
+			shape: "diamond"
+			subtitle: "青春版火焰喷射器"
+			tasks: [{
+				id: "6AE793D33A65A8A6"
+				item: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.0d
+			y: 13.0d
+		}
+		{
+			description: ["貌似可循环"]
+			id: "1C2AA7D062217F8B"
+			shape: "diamond"
+			subtitle: "更多的能吃时运的火炬浆果植物（？）但是只能在巨魔洞穴结构生长"
+			tasks: [{
+				id: "3A9E0A576E5A9980"
+				item: "twilightforest:trollber"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 14.5d
+		}
+		{
+			id: "3F8978A4149E0E1F"
+			shape: "diamond"
+			subtitle: "破坏一些常见的方块，具体可查询jei"
+			tasks: [{
+				id: "37E10F22B9BB62D6"
+				item: {
+					Count: 1b
+					id: "twilightforest:crumble_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			id: "48C3CD19031B8622"
+			shape: "diamond"
+			tasks: [{
+				id: "05B0F59443D52687"
+				item: {
+					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 13.5d
+		}
+		{
+			id: "7D6CD7650178B8DF"
+			shape: "diamond"
+			tasks: [{
+				id: "19669F8DF7B8CD33"
+				item: "twilightforest:smoker"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 15.5d
+		}
+		{
+			id: "487A0C2DD68A698E"
+			shape: "diamond"
+			tasks: [{
+				id: "3959EE4FF8E8A3FB"
+				item: "twilightforest:fire_jet"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 15.0d
+		}
+		{
+			id: "7C3505DE68E5C95E"
+			shape: "diamond"
+			subtitle: "发出的光可以透过方块和黑暗"
+			tasks: [{
+				id: "58D9C10196B06CA6"
+				item: "twilightforest:red_thread"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 13.5d
+		}
+		{
+			description: [
+				"迷宫地图核心需要杀死米诺菇迷宫中的牛头人获得，也可以开箱（同前面的地点）"
+				"虽然说是迷宫专用，但实际原理和体验其实可以用来探明地下洞穴的分布，对于原版来说算是不错的地图。"
+			]
+			id: "0F4C0D8A2F109813"
+			shape: "rsquare"
+			subtitle: "这是迷宫专用地图（幻影和米诺菇）"
+			tasks: [{
+				id: "67212416268B0164"
+				item: "twilightforest:maze_map"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F4C0D8A2F109813"]
+			description: [
+				"可以看到迷宫的全貌以及探测矿石的分布"
+				"前者也许可以找到隐藏房间，后者可以找到大量的矿物（甚至远超成本）"
+			]
+			id: "17B163E9CB113439"
+			shape: "rsquare"
+			subtitle: "昂贵的地图，但是具有某些价值"
+			tasks: [{
+				id: "491BCF7C59DED735"
+				item: "twilightforest:ore_map"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2A92DE154179E33D"
+				"46D73C4494E1E547"
+				"384E33F8D1ED3D9D"
+				"7B5EF1050A7EBD63"
+				"401779BC7CF9ABFB"
+				"0BD34B3DA6319865"
+				"126DF0BF83CF5FA6"
+				"4308A49136387F6E"
+			]
+			id: "640CB5A714B49393"
+			tasks: [{
+				id: "26B89E5CECEF6CD2"
+				type: "checkmark"
+			}]
+			title: "矿锭与材料"
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			id: "4308A49136387F6E"
+			tasks: [{
+				id: "41FF9B7A2F08C330"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			id: "2A92DE154179E33D"
+			tasks: [{
+				id: "61E1792D63E83EE1"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			id: "46D73C4494E1E547"
+			tasks: [{
+				id: "2B2DFE94778C1241"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			id: "401779BC7CF9ABFB"
+			tasks: [{
+				id: "14B0CEADA29A21CE"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			id: "384E33F8D1ED3D9D"
+			tasks: [{
+				id: "365521E007BA4A92"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			id: "126DF0BF83CF5FA6"
+			tasks: [{
+				id: "19BD643DEA3CFE25"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			id: "0BD34B3DA6319865"
+			tasks: [{
+				id: "5F57B42A0BF616CF"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			id: "7B5EF1050A7EBD63"
+			tasks: [{
+				id: "14AB5B064748B839"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			id: "14EBAFD8530843E0"
+			shape: "diamond"
+			subtitle: "减轻90%的落地伤害"
+			tasks: [{
+				id: "42376B8ECE74CEE5"
+				item: "twilightforest:arctic_fur_block"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"693678CB237CE000"
+				"2A92DE154179E33D"
+				"40EDE23106D661CF"
+				"384E33F8D1ED3D9D"
+				"7B5EF1050A7EBD63"
+				"23E77F24873E7473"
+				"4308A49136387F6E"
+				"4F876755FB0D1150"
+				"7C3505DE68E5C95E"
+				"1C2AA7D062217F8B"
+				"2DB740AE027E71B5"
+				"487A0C2DD68A698E"
+				"549588AA4774A71C"
+				"0484798E22C5FBD4"
+				"14EBAFD8530843E0"
+				"5ECC03C7D163FCF6"
+				"58196FAA4E7A13EA"
+				"48C3CD19031B8622"
+				"770424D2F64F25BD"
+				"6413DD8FF1033E39"
+				"14232F0443064C47"
+				"617CE6B9E9E12C42"
+				"401779BC7CF9ABFB"
+				"205729C971D2DFE5"
+				"1A183844D6A20BD4"
+				"3BD893732A0C9F8C"
+				"3F8978A4149E0E1F"
+				"7D6CD7650178B8DF"
+				"6F0CB96DDD507380"
+				"46D73C4494E1E547"
+				"483381AF0ACD04A4"
+				"0BD34B3DA6319865"
+				"126DF0BF83CF5FA6"
+				"564EB8FC8854431A"
+				"06AEA351012DC0EF"
+			]
+			hide_dependency_lines: true
+			icon: "twilightforest:thorn_rose"
+			id: "6705326E457BE4CF"
+			rewards: [{
+				id: "4E5DEBF6DBCD24B6"
+				item: "twilightforest:cube_of_annihilation"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "轻拿轻放"
+			tasks: [{
+				id: "7DDAA9D122CAF256"
+				type: "checkmark"
+			}]
+			title: "全收集"
+			x: 23.0d
+			y: 9.5d
+		}
+		{
+			description: ["强烈的光影效果，但是光照等级只有1（荧光蘑菇的光照等级是3）"]
+			id: "47ADB8DF75634C06"
+			shape: "diamond"
+			subtitle: "炽烈之光，掩于其内"
+			tasks: [{
+				id: "1938C22D2D9B9466"
+				item: "twilightforest:fiery_block"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 12.5d
+		}
+		{
+			description: ["加强版仙人掌（可相接伤害更高），即使是原版也可自动化产出"]
+			hide: true
+			id: "0B9240B8F03437BD"
+			shape: "diamond"
+			subtitle: "骑士之秩，刃而不锋"
+			tasks: [{
+				id: "315632859FAAA853"
+				item: "twilightforest:knightmetal_block"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 15.0d
+		}
+		{
+			id: "69B4F616CF4A3C61"
+			shape: "diamond"
+			tasks: [{
+				id: "35B161A9E9E2F0F3"
+				item: "twilightforest:giant_obsidian"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 14.5d
+		}
+	]
+	subtitle: [
+		"大佬，我的拆解台怎么用不了.png"
+		" -by 牢蘑菇锭"
+	]
+	title: "暮色森林 —— 经典，永不过时"
+}

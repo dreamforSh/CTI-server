@@ -1,0 +1,40 @@
+{
+	id: "79CD744962A78B14"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 32, item: "ae2:certus_quartz_crystal", weight: 15.0f }
+		{ count: 32, item: "ae2:fluix_crystal", weight: 5.0f }
+		{ count: 8, item: "ae2:speed_card" }
+		{
+			item: {
+				Count: 1b
+				id: "ae2:item_storage_cell_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ae2:fluid_storage_cell_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "appmek:chemical_storage_cell_16k"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "ae2:blank_pattern", weight: 3.0f }
+		{ count: 16, item: "ae2:logic_processor", weight: 3.0f }
+		{ count: 16, item: "ae2:calculation_processor", weight: 3.0f }
+		{ count: 16, item: "ae2:engineering_processor", weight: 3.0f }
+		{ count: 8, item: "ae2:fluix_pearl", weight: 3.0f }
+		{ count: 4, item: "ae2:singularity", weight: 0.5f }
+		{ count: 8, item: "ae2:formation_core", weight: 3.0f }
+		{ count: 8, item: "ae2:annihilation_core", weight: 3.0f }
+	]
+	title: "ae_reward_1"
+}

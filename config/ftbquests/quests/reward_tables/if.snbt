@@ -1,0 +1,12 @@
+{
+	id: "271AEDDE57FBE866"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 4, item: "pneumaticcraft:plastic" }
+		{ count: 4, item: "minecraft:iron_block" }
+		{ item: "industrialforegoing:latex_bucket" }
+		{ count: 8, item: "minecraft:redstone_block" }
+	]
+	title: "IF奖励（一阶）"
+}

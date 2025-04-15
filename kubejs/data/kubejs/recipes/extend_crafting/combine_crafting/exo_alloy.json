@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 2000000000,
+  "powerRate": 500000000,
+  "input": {
+    "item": "kubejs:halfdone_exoalloy"
+  },
+  "ingredients": [
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    },
+    {
+      "item": "extendedcrafting:flux_star"
+    }
+  ],
+  "result": {
+    "item": "etshtinker:exo_alloy"
+  }
+}

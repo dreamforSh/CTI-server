@@ -1,0 +1,70 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "board",
+			"facing": "north"
+		},
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "base",
+			"facing": "south"
+		},
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "board",
+			"facing": "south"
+		},
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "base",
+			"facing": "west"
+		},
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "board",
+			"facing": "west"
+		},
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "base",
+			"facing": "east"
+		},
+		"Name": "cfm:diving_board"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"part": "board",
+			"facing": "east"
+		},
+		"Name": "cfm:diving_board"
+	}
+]

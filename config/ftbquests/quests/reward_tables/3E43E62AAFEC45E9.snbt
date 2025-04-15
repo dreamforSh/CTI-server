@@ -1,0 +1,22 @@
+{
+	icon: "tinkersinnovation:teleport_core"
+	id: "3E43E62AAFEC45E9"
+	loot_size: 6
+	order_index: 54
+	rewards: [
+		{ count: 4, item: "tinkersinnovation:slimton_ingot" }
+		{ count: 4, item: "tinkersinnovation:polychrome_alloy_ingot" }
+		{ count: 4, item: "tinkersinnovation:void_crystal_ingot" }
+		{ count: 4, item: "tinkersinnovation:hostilium_ingot" }
+		{ count: 4, item: "tinkersinnovation:fools_gold_ingot" }
+		{ count: 4, item: "tinkersinnovation:enchantment_ingot" }
+		{ count: 4, item: "tinkersinnovation:decline_ingot" }
+		{ count: 4, item: "tinkersinnovation:soul_bone" }
+		{ count: 4, item: "tinkersinnovation:honey_bone" }
+		{ count: 4, item: "tinkersinnovation:slime_bone" }
+		{ count: 4, item: "tinkersinnovation:cooked_bone" }
+		{ count: 4, item: "tinkersinnovation:blood_bone" }
+		{ count: 4, item: "tinkersinnovation:gorgon_hair" }
+	]
+	title: "王之书-创新-半身-抽奖"
+}

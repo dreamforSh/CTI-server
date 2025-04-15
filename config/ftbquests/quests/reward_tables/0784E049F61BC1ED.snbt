@@ -1,0 +1,24 @@
+{
+	icon: "drinkbeer:spice_frozen_persimmon"
+	id: "0784E049F61BC1ED"
+	loot_size: 1
+	order_index: 77
+	rewards: [
+		{ count: 10, item: "drinkbeer:spice_frozen_persimmon" }
+		{ count: 10, item: "drinkbeer:spice_roasted_pecans" }
+		{ count: 10, item: "drinkbeer:spice_silver_needle_white_tea" }
+		{ count: 10, item: "drinkbeer:spice_golden_cinnamon_powder" }
+		{ count: 10, item: "drinkbeer:spice_dried_selaginella" }
+		{ count: 10, item: "drinkbeer:spice_blaze_paprika" }
+		{ count: 10, item: "drinkbeer:spice_dried_eglia_bud" }
+		{ count: 10, item: "drinkbeer:spice_smoked_eglia_bud" }
+		{ count: 10, item: "drinkbeer:spice_amethyst_nigella_seeds" }
+		{ count: 10, item: "drinkbeer:spice_citrine_nigella_seeds" }
+		{ count: 10, item: "drinkbeer:spice_ice_mint" }
+		{ count: 10, item: "drinkbeer:spice_ice_patchouli" }
+		{ count: 10, item: "drinkbeer:spice_storm_shards" }
+		{ count: 10, item: "drinkbeer:spice_roasted_red_pine_nuts" }
+		{ count: 10, item: "drinkbeer:spice_glace_goji_berries" }
+	]
+	title: "香料大全"
+}

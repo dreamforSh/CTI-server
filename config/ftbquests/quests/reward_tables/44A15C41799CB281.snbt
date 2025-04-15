@@ -1,0 +1,12 @@
+{
+	id: "44A15C41799CB281"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "thermal:blizz_rod" }
+		{ item: "thermal:basalz_rod" }
+		{ item: "thermal:blitz_rod" }
+		{ item: "minecraft:blaze_rod" }
+	]
+	title: "元素奖励"
+}

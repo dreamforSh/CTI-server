@@ -1,0 +1,3304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmandfood"
+	group: "4CD374CEABFCA3D3"
+	icon: "tofucraft:tofudiamond"
+	id: "7499383303D8F7BB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"欢迎来到农业版块，这里是你们的老朋友天雨冰痕。"
+				"CTI虽然是科技向匠魂整合包，但却内置了&2农夫乐事全家桶&r等诸多农业模组，与&6大豆种植、豆腐生产&r相关的&2豆腐纬度&r也是重要的可探索纬度，并且&2生活调味料模组&r的加入也为游戏带来了最主要的&2血上限&r增加方式——&3进食&r不同食物。"
+				"也就是说，在本包中，农业将会是重要的游戏部分。"
+				"{@pagebreak}"
+				"考虑到包内的农业模组各有各的特点，我将在这里帮助大家对这些模组进行&b入门教学&r，也会介绍一些简单的农业自动化。"
+				"最终目标当然是——本包顶级材料&2厨神锭&r（笑）"
+				"送你一本食物手册，按着里面没吃过的东西开吃吧！"
+			]
+			icon: "solcarrot:food_book"
+			id: "051EEE4D91451A1D"
+			rewards: [{
+				id: "54C6BA168420BED2"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "民以食为天"
+			tasks: [{
+				id: "1C16FBFBB8283001"
+				type: "checkmark"
+			}]
+			title: "欢迎来到吃货天堂"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"砧板，农夫乐事的核心方块之一。"
+				"通过将食材放置在砧板上后用小刀左键，便可以对食材进行分割处理。"
+				"分割后的食材虽然在饱食度上是原食材的一半，但可以作为原食材直接用于烹饪中，相当于食材翻倍使用。"
+				"除了食材分割外，配合斧头也可以给原木剥皮，并获得副产物树皮。"
+			]
+			hide: true
+			id: "23AFBE695C48D3B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "256B3FC38BC24391"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "虽然是砧板，但并不超模（"
+			tasks: [{
+				id: "68462CABF505DE39"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "厨子的案板"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23AFBE695C48D3B5"]
+			description: [
+				"&a小刀&r是农夫乐事中最重要的工具，可以作为武器使用，但主要是在&e砧板&r上参与合成。"
+				"并且，用刀破坏草丛等会额外掉落草杆、击杀动物必定掉落稀有掉落物，&a火腿&r等特殊食材也需要&a小刀击杀&r来获得。"
+				"还有许多特殊作物也需要小刀来收割。"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_thinking:knife"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tinkersinnovation:enchantment_essence"
+						"tinkersinnovation:enchantment_essence"
+						"tinkersinnovation:enchantment_essence"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tinkersinnovation:enchantment"
+						}
+						{
+							level: 3
+							name: "tconstruct:shiny"
+						}
+						{
+							level: 1
+							name: "tconstruct:antiaquatic"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:durability": 0.8f
+						"tconstruct:mining_speed": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 4.136f
+						"tconstruct:attack_speed": 1.98f
+						"tconstruct:durability": 326.80002f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 5.04f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:rarity": 3
+						"tconstruct:shiny": 1b
+						upgrades: 3
+					}
+				}
+			}
+			id: "6F0FEDBC6F763F25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "091F790258DE4833"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "功夫再高，也怕菜刀"
+			tasks: [{
+				id: "3EA04DF0AB9B2E84"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "Any #farmersdelight:tools/knives"
+				type: "item"
+			}]
+			title: "农夫小刀"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23AFBE695C48D3B5"]
+			description: [
+				"匠心独运为匠魂于农夫乐事在工具层面提供联动——匠魂风格的小刀"
+				"通过在工匠台上使用两个窄刃与一个工具手柄，便可以制作出匠魂小刀。"
+				"匠魂小刀不仅有原版小刀的所有能力，还可以拥有匠魂材料的独特词条，并对水生生物有着额外增伤！"
+				"也许你能拿着小刀去砍利维坦？"
+			]
+			id: "3589370F22CF79B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "269EFC0811B05745"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "都来玩匠魂包了，还在用传统厨刀？"
+			tasks: [{
+				id: "119613DB2A7FFA4F"
+				item: "tinkers_thinking:narrow_blade_gold_cast"
+				type: "item"
+			}]
+			title: "匠魂特色厨子"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3589370F22CF79B2"
+				"6F0FEDBC6F763F25"
+			]
+			description: [
+				"&a厨锅&r与&a煎锅&r是农夫乐事添加的两种重要厨具。"
+				"通过架设在&e热源&r上，两种锅可以进行烹饪。"
+				"其中，厨锅拥有独特的6格烹饪gui，用于制作农夫乐事的特色菜品，并使用&a对应的餐具&r将食品&a盛出&r；煎锅则类似于营火，可以不消耗燃料烧制食材。"
+				"此外，煎锅可以作为武器使用（伤害等同于下界合金剑），是前期出色的应急武器。"
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "522BC27C9AF57A67"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C838857DB0E99DE"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "红太狼专武？"
+			tasks: [
+				{
+					id: "2E15A1071CB1564F"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "3121D690CE3C25D3"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "双锅合璧，天下无敌"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["522BC27C9AF57A67"]
+			description: [
+				"为了准备食物，厨锅下方必须有热源为其提供热量。通过观察厨锅上是否有气泡冒出或厨锅的 GUI 中是否有火焰可判断是否成功被加温。默认有以下几种热源，它们位于厨锅正下方一格处时可以为厨锅提供热量，在此之外也可以通过添加 farmersdelight:heat_sources 标签使方块成为热源。在 farmersdelight:heat_conductors 标签内的方块（默认支持原版漏斗和机械动力的溜槽）可以被放置在热源与厨锅之间，此时厨锅也被认为成功被加温。"
+				"{@pagebreak}"
+				"前面的文字是我直接抄的mc百科，你们要是烹饪直接用营火或者岩浆块就好，需要自动化可以考虑烈焰人加热室"
+			]
+			icon: "farmersdelight:stove"
+			id: "4FE9E408AB524BB3"
+			rewards: [
+				{
+					id: "2F541F4B58492763"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EC1D308A815BFCF"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "对热源系统的简单介绍"
+			tasks: [{
+				id: "4B39279E523CE999"
+				title: "看个大概就好"
+				type: "checkmark"
+			}]
+			title: "炉灶与热源"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"蜂蜜，在原版之中是最被忽视的材料之一——毕竟原版养蜂收益低效率低，除了建筑党给铜块上蜡以外毫无用处。"
+				"但在乐事全家桶之中，蜂蜜是一样重要的原材料，很多食物依赖蜂蜜才能烹饪。"
+				"所以，学会养蜂是个重要的事情——不过有蜂箱漏斗可以帮你自动化。"
+			]
+			hide: true
+			icon: "minecraft:bee_nest"
+			id: "604A5A1FC71E428F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "549F97366C27B39A"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "原版最被忽视的农业项目"
+			tasks: [
+				{
+					id: "1FE36A21E22E3AF0"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "2214F17FB6AFA943"
+					item: "tofucraft:soymilk_honey"
+					type: "item"
+				}
+			]
+			title: "养蜜蜂"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"水产品模组为游戏添加了大量鱼类、与农夫乐事兼容的菜谱和更有乐趣的客制化鱼竿系统。"
+				"并且，钓鱼还有机会钓上来惊喜满满的&e小盲盒&r，也是游戏内获得海王锭的唯一途径。"
+				"不过在成为赛博钓鱼佬之前，还是先搞一根属于自己的鱼竿罢。"
+			]
+			hide: true
+			id: "3EA232B6B5A96F95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6889C039845D230D"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "老登与海"
+			tasks: [{
+				id: "72F18866DCAF8680"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/fishing_rods"
+					}
+				}
+				title: "Any #forge:tools/fishing_rods"
+				type: "item"
+			}]
+			title: "赛博钓鱼"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EA232B6B5A96F95"]
+			description: [
+				"钓具盒，水产品模组的重要方块。"
+				"通过钓具盒，你可以将各种附件安装到心爱的鱼竿上，也能将多余的渔具与鱼饵收纳并随身携带。"
+			]
+			id: "4D660BAFA08EA161"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E25939838953D83"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "钓鱼佬的妙妙工具箱"
+			tasks: [{
+				id: "75200B28D5DF2832"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D660BAFA08EA161"]
+			description: [
+				"在钓具盒中，你可以为鱼竿安装鱼钩、浮标、鱼线与鱼饵四个部件。"
+				"其中，浮标与鱼线可以进行染色，但其作用也只是装饰改色。"
+				"鱼饵可以提升钓到鱼的几率，可以使用蚯蚓、鲦鱼和水蛭作为鱼饵。鱼饵一旦装上便无法去下，直到消耗完毕为止。"
+				"{@pagebreak}"
+				"部件之中最重要的是鱼钩——不同的鱼钩可以为钓鱼提供不同的特效加持，比如耐久提升、声音提示、提升幸运等。"
+				"鱼钩可以随时在钓具盒中进行更换，并存储在钓具盒中。"
+			]
+			icon: {
+				Count: 1b
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C2777097F511EA6"
+			rewards: [
+				{
+					id: "7A44FCC3084362C1"
+					item: "aquaculture:note_hook"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D1DDF5889531A07"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "一日钓鱼百日恩啊honey❤"
+			tasks: [
+				{
+					id: "61B2E1827AEE67D3"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "1292B1700AA42A07"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "783996274A21A6FF"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "33A5A72762B9895B"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+			]
+			title: "钓界基头四"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C2777097F511EA6"]
+			id: "57C7034FD8B3E070"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2723D84CB0B2C12F"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "在本包中的作用就像正义联盟里面的海王、复仇者联盟里的鹰眼一样——主打一个没啥存在感"
+			tasks: [{
+				id: "521FD1EB0FBF22DC"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"懒人厨房（傻瓜厨房），为拥有众多食材的农业模组（指万恶之源潘马斯）准备的辅助向模组。"
+				"虽然包里没有潘马斯，但是乐事全家桶和热力农业的加入也使得懒人厨房的一键合成有其实用性。"
+				"并且，&e水槽&r可是工业发展的重要一环！"
+			]
+			hide: true
+			id: "4A4EBAE1C63BF75E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09B253C7829EB145"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "放心，包里没有潘马斯"
+			tasks: [{
+				id: "3A32417810901690"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			title: "懒人厨房"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A4EBAE1C63BF75E"]
+			description: [
+				"&a烹饪桌&r是懒人厨房最核心的机器，通过使用&a厨房地板&r连接烤箱、冰箱等机械，便可以构造出&n厨房网络&r，以点击配方的方式自动调用材料快速&n合成&r或&n烧制&r可制作的食物。"
+				"需要注意的是，多方块厨房网络&e并不兼容&r乐事全家桶的&e厨锅、水壶等拥有独立gui和独立互动操作的厨具&r，但通过合成台方式合成的食物配方仍然可以兼容。。"
+			]
+			hide_dependent_lines: true
+			icon: "cookingforblockheads:cooking_table"
+			id: "38409FF2BE1015D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45DA40EE72209B70"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "妈妈再也不用担心食物的套娃合成了"
+			tasks: [
+				{
+					id: "7C0DF04A462954AC"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+				{
+					id: "282D1A07A5C756E5"
+					item: "cookingforblockheads:white_kitchen_floor"
+					type: "item"
+				}
+			]
+			title: "厨房整合系统"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A4EBAE1C63BF75E"]
+			description: [
+				"水槽，本职工作是为厨房网络提供可从烹饪桌直接调用的一格无限水，此外在被动输入流体时可被当做流体垃圾桶"
+				"但是在科技发展中，水槽却是个十足的&e超模怪&r"
+				"&a可连接管道抽水！无限水源！只占地一格！&r"
+				"输出水量只取决于你的&n抽水效率&r，无论是瓜聚变还是核裂变冷却，需要用水的地方都可以使用水槽！"
+				"&e伟大！无需多言！&r"
+			]
+			icon: "cookingforblockheads:sink"
+			id: "586272A0E61EDCB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F980286F830BF2B"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "懒人厨房真正的精华"
+			tasks: [{
+				id: "1E17D11D74826FCF"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "&a&l无限水！"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38409FF2BE1015D9"]
+			description: [
+				"为多方块厨房网络提供牛奶——不过要手动添加。"
+				"觉得很麻烦？感觉不如直接在厨房里养牛？那就跟着任务接着往下看。"
+			]
+			id: "31662F6EE181CA16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EAA3C2A143D07ED"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5859A844943896D0"
+				item: "cookingforblockheads:milk_jar"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31662F6EE181CA16"]
+			description: [
+				"使用&e铁砧&r，将一头成年奶牛直接&e砸&r进罐子里。"
+				"你便能得到一只装在罐子里的牛。"
+				"没错，就像用铁砧砸人那样把牛砸进罐子里！之后厨房网络就能从罐子里直接给奶牛挤奶了。"
+			]
+			id: "6B256847560BA3D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175DEDFA6B138B35"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "将奶牛装进瓶子里要几步？"
+			tasks: [{
+				id: "2714C3FC3EB065F2"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			title: "桌上奶牛"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38409FF2BE1015D9"]
+			description: [
+				"可进行现代化改造的烤炉，一次可以烤制9个食材，并且在接入厨房网络后可以直接使用烹饪桌来控制。"
+				"送你一个小改造，直接用电驱动吧。"
+			]
+			id: "33E4E1F90A40D710"
+			rewards: [
+				{
+					id: "3925758583D318FF"
+					item: "cookingforblockheads:heating_unit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E9D649080680384"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "超级烤炉"
+			tasks: [{
+				id: "065BA65CD7609AFF"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38409FF2BE1015D9"]
+			description: [
+				"通过在&n多方块厨房网络&r中安置&a厨房终端&r，便可以将&n厨房网络&r与&nAE网络连接&r在一起，使&a烹饪桌&r可以直接调用AE网络中存储的食材进行烹饪."
+				"需要注意的是，就和&aae无线终端&r一样，&a厨房终端&r必须要在&e&nME安全终端&r内进行配置后才能放置使用。"
+			]
+			id: "4761C3A56BD62E12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67AD751A3B38DD31"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "数字化食材调用"
+			tasks: [{
+				id: "7818A565EFCCA0F9"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			title: "AE厨房"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38409FF2BE1015D9"]
+			description: [
+				"与厨房网络连接后可以为厨房储存和提供食材，在加装升级后还可以为烹饪桌提供冰块。"
+				"但是，在有ae网络支援的情况下，冰箱除了用来摆设，也就只能拿来制冰了。"
+			]
+			id: "65A3E5B5EC0D9BE3"
+			rewards: [
+				{
+					id: "61939F9AFB3EB899"
+					item: "cookingforblockheads:ice_unit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50AC511E88653DBC"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "制冰用"
+			tasks: [{
+				id: "0E308542CC05EAFE"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"通过使用小刀打草、砧板处理水稻等作物、石磨处理水稻，可以得到草杆。"
+				"可别小瞧草杆，这可有着大用处——搓绳子、织布，乃至堆肥都需要它。"
+			]
+			hide: true
+			icon: "farmersdelight:straw"
+			id: "40DF17C0CC5342C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79E9A12CF5B613CD"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "废物利用"
+			tasks: [{
+				id: "49618D27CF3970F0"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "救命稻草"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40DF17C0CC5342C1"]
+			description: [
+				"通过将腐肉、骨头、树皮、草杆等废物按照一定比例混合，便能得到有机肥料。"
+				"将有机肥料放置出来便可以随着时间流逝堆肥成沃土。"
+				"附近有沃土或有机肥料、附近有水、接受到光照、在有机肥料上种蘑菇都可以加快堆肥进度。"
+				"{@pagebreak}"
+				"沃土为可种植的作物提供土壤，并将其上种植的作物生长过程&a随机加速&r，这一加速过程可作用于甘蔗、仙人掌、甜浆果、茶树等&e不需要耕地即可种植的作物&r；"
+				"由沃土耕作的耕地不会因为缺水、踩踏等原因变成干地（但有水还是会加速的）"
+			]
+			id: "458F8100BB4649A2"
+			rewards: [
+				{
+					id: "4EE4EC04C2CC3A23"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BDB989C8BF95A4F"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "绿色环保"
+			tasks: [{
+				id: "19EF773A2D0AEB1D"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "生物堆肥"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["458F8100BB4649A2"]
+			description: [
+				"与生物肥料类似，但灵魂肥料必须在下界进行堆肥才能变成灵魂沃土。"
+				"且加速堆肥的要素为周围有火焰与熔岩、种植下界菌类、放置灵魂堆肥等。"
+				"灵魂沃土主要用于种植下界作物并提供增速，且可以种植下界菌类的菌群版。"
+				"此外在黑烟环境下时，上方会随机生成拟康乃馨（虽然这玩意没啥用）"
+				"&a另外，这玩意似乎在服务器有bug，无法在服务器堆肥转化&r"
+			]
+			id: "00B48D794199F5A0"
+			rewards: [
+				{
+					id: "27F427DFB98CB658"
+					item: "nethersdelight:rich_soul_soil"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F15FA218B16AB20"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "下界堆肥"
+			tasks: [{
+				id: "6236E17D9F39E93A"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40DF17C0CC5342C1"]
+			id: "489EACA3448BED7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1744D1E3EACE4137"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "可以作为梯子来攀爬，也可以用于种番茄"
+			tasks: [{
+				id: "5B7C4D3D81932249"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["522BC27C9AF57A67"]
+			description: [
+				"水壶与厨锅一样，需要放置在热源上工作，并且拥有独特的gui。"
+				"向内部填充一桶水（三水瓶）并放入对应材料，便可以自动冲泡茶饮，冲泡好的茶饮需要对应容器盛出。"
+				"破坏水壶时，内部的茶饮可以得到保留。"
+			]
+			id: "5028FEEE599C884A"
+			rewards: [
+				{
+					id: "2B922841B0B485B0"
+					item: "farmersrespite:tea_seeds"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CCB46363D2A51CA"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "三点几嘞，饮茶先啦"
+			tasks: [{
+				id: "451E7AB69AC3F4E6"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "昏睡红茶"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["522BC27C9AF57A67"]
+			description: [
+				"前面说过，烈焰人燃烧室可以作为厨锅与水壶的热源使用。"
+				"但是，烈焰人非常聪明，不仅会开火车，还会做饭。"
+				"只要给烈焰人燃烧室一份菜谱，她就能化身大厨，指挥机械臂进行烹饪。"
+				"这也是厨锅等厨具自动化的最好方法。"
+			]
+			icon: "create:blaze_burner"
+			id: "62FD415FA19A1E66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77C5115E2857B71C"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "黑奴自动化厨房"
+			tasks: [
+				{
+					id: "6E74634978785F83"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_central_kitchen:cooking_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "60893E3E85D3153B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								NeedWater: 0b
+							}
+						}
+						id: "create_central_kitchen:brewing_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "73B82E98AE6C9F97"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "烈焰人大厨"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"&e额外乐事&r，农夫乐事全家桶的超大型附属模组，添加了多种烹饪工作站与菜谱，也提供了很多种厨房主题的装饰方块。"
+				"由于添加的菜谱较多，请活用&anei R键查询功能&r来查询合成表"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "extradelight:food_display"
+			id: "4D3E29981536AC9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "604E08A9CBE71414"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "更真实、更新颖、更复杂"
+			tasks: [{
+				id: "3CBD840080BDC6BA"
+				type: "checkmark"
+			}]
+			title: "额外乐事"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: [
+				"与农夫乐事绝大多数的锅具一样，烤炉也需要放置在热源上才能进行烹饪，并且需要配合相应的烤盘才能进行对应菜谱的烹饪。"
+				"烤炉拥有9个格子，既可以一次性烤制9个食材，也可以按照配方制作大型菜肴。"
+			]
+			icon: "extradelight:oven"
+			id: "0EE26FD3EE74A352"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20B6A67B1D4B91D0"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "烤蛋糕"
+			tasks: [
+				{
+					id: "533A4802A65FC2F8"
+					item: "extradelight:oven"
+					type: "item"
+				}
+				{
+					id: "498033974D192D0F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "extradelight:baking_trays"
+						}
+					}
+					title: "Any #extradelight:baking_trays"
+					type: "item"
+				}
+			]
+			title: "烘焙大师"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: ["揉面板类似于切石机，能将面团制作出对应数量的千层面面条、通心粉、生意面等食材"]
+			id: "363ECFB00ABB1B09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B10BEC48D35EA85"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "你看这个面它又长又宽"
+			tasks: [{
+				id: "4000910055A1EAF4"
+				item: "extradelight:dough_shaping"
+				type: "item"
+			}]
+			title: "拉面大师"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: [
+				"对放置在&a砧板&r上的特定食材，可以使用擦丝器来右键，制作特殊的食材。"
+				"虽然叫做擦丝器，但是产物更多都是碎末……"
+			]
+			id: "73F79639BC9705F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3652A5900C26476B"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "其实更像擦泥器"
+			tasks: [{
+				id: "64A8162D1E5BCBD0"
+				item: {
+					Count: 1b
+					id: "extradelight:grater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: [
+				"搅拌是许多食物与食材产出的重要方式（比如说奶油）"
+				"将食材右键放入搅拌碗后，手持搅拌勺右击搅拌碗多次便可以制作产物。"
+				"具体配方请参阅nei"
+			]
+			icon: "extradelight:mixing_bowl"
+			id: "2062BB94FE187D96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12ADD6C44D51BF25"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "左三圈右三圈"
+			tasks: [
+				{
+					id: "0263160E76C6D8B5"
+					item: "extradelight:mixing_bowl"
+					type: "item"
+				}
+				{
+					id: "6D3A18ED24EDE9F2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:spoons"
+						}
+					}
+					title: "Any #forge:spoons"
+					type: "item"
+				}
+			]
+			title: "搅搅更健康"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: [
+				"研磨是额外乐事获得许多材料的重要方法。"
+				"手持食材右击研磨碗，将食材放入碗中，然后手持研杵不断右键研磨碗对食材进行研磨。"
+				"具体研磨配方可参照nei"
+			]
+			icon: "extradelight:mortar_amethyst"
+			id: "2160DEBDC50275EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77DF8BB3FB3EA9DA"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "铁杵磨成针"
+			tasks: [
+				{
+					id: "0E01EE534AC12F11"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:mortars"
+						}
+					}
+					title: "Any #forge:mortars"
+					type: "item"
+				}
+				{
+					id: "097CBC6ADC14327F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pestles"
+						}
+					}
+					title: "Any #forge:pestles"
+					type: "item"
+				}
+			]
+			title: "研磨用具"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: ["手持食材右键晾干架便可以将食材放在上面进行晾制，单个晾干架最多可同时晾制8个物品"]
+			id: "1966868F6684642D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE4236FCD57B7EF"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "晒足一百八十天"
+			tasks: [{
+				id: "488F4CAE3E50F53C"
+				item: "extradelight:drying_rack_item"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: [
+				"醋与酵母是额外乐事之中重要的调味料，但获得需要一定工作。"
+				"通过合成获得的醋壶与酵母罐并不会立刻产生醋与酵母，而是在&a放置在世界&r中一段时间发酵后才可以使用空瓶右键盛出。"
+				"不要心急，醋与酵母的发酵是需要&n很长很长很长很长时间的&r（真的很长）"
+			]
+			id: "0DA05A1528E5B422"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DCBE2A986C5EA23"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "好酸"
+			tasks: [
+				{
+					id: "13CE7D12F793B784"
+					item: "extradelight:vinegar_pot"
+					type: "item"
+				}
+				{
+					id: "58B4F087A5F4A3DE"
+					item: "extradelight:yeast_pot"
+					type: "item"
+				}
+			]
+			title: "打翻那个醋坛子"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D660BAFA08EA161"]
+			description: ["与原版堆肥桶使用方法一样，但产物是蚯蚓"]
+			id: "72394A0154397B70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7293271B7A742E64"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "堆肥，只不过堆出来的是蚯蚓"
+			tasks: [{
+				id: "463A704D31972CDA"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"大豆，豆腐的原材料。"
+				"就和一般的作物种子一样，通过清理杂草有几率掉落，可以在耕地上耕种。"
+			]
+			hide: true
+			icon: "tofucraft:seeds_soybeans"
+			id: "38FA72AF5EB6F797"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "785DD3C4E56F3386"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "颗颗大豆喂骡马"
+			tasks: [{
+				id: "4F88B42E75B96C56"
+				item: "tofucraft:seeds_soybeans"
+				type: "item"
+			}]
+			title: "豆腐之源"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38FA72AF5EB6F797"]
+			description: [
+				"通过将大豆与空桶合成，可以得到一桶豆奶。"
+				"如果在合成的时候加入滤布，则可以额外获得一份豆渣。"
+				"豆奶可以装瓶喝，也可以做成豆腐——用卤水做豆腐。"
+			]
+			id: "30EAD6D04E920B1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A113622D541902D"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "榨豆浆"
+			tasks: [{
+				id: "75379B693CBA00E1"
+				item: "tofucraft:bucket_soymilk"
+				type: "item"
+			}]
+			title: "豆奶特浓"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["458F8100BB4649A2"]
+			description: [
+				"沃土与有机肥料可以无视光照种植蘑菇，在经历一段时间后蘑菇便会形成菌落。"
+				"菌落共有四个生长阶段，可以在菌落彻底成熟后用&a剪刀&r左击破坏收割&e整个菌落&r（空手撸则是掉落5个蘑菇），右击则是收获单个蘑菇并减少一层菌盖。"
+				"菌落形态下的蘑菇可以被骨粉催熟，但如果蘑菇没有形成菌落就催熟……会直接形成蘑菇树：）"
+			]
+			icon: "farmersdelight:brown_mushroom_colony"
+			id: "0AB9598CE0720222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42A510E0DA93AA00"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "It's me! Mario"
+			tasks: [{
+				id: "6DFB67984106C806"
+				type: "checkmark"
+			}]
+			title: "种蘑菇"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["604A5A1FC71E428F"]
+			description: [
+				"蜂箱漏斗，蜂蜜自动化的重要机械。"
+				"通过在蜂箱（或蜂巢）下面安放蜂箱漏斗，蜂箱漏斗就能自动提取蜂箱中的蜂蜜与蜜脾。"
+				"而且与手动提取相比，蜂箱漏斗可以同时提取两种产物，算是一种增产。"
+				"提取出的蜂蜜可以通过管道来运送到其他机械内。"
+			]
+			icon: "thermal:device_hive_extractor"
+			id: "166BB3A62A7AAD51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7449665D5FC54BF0"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "来自热力"
+			tasks: [{
+				id: "2BF918E772F24FC0"
+				item: "thermal:device_hive_extractor"
+				type: "item"
+			}]
+			title: "蜂蜜自动化"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30EAD6D04E920B1E"]
+			description: [
+				"盐场可以连续放置相互连接成一处大盐场。"
+				"向盐场内灌入水后，条件适宜时，盐场中的水会被晒干，右击可以让其中的盐掉落，露出剩下的浅色液体——盐卤。"
+				"盐卤用空玻璃瓶右击可以取出。"
+				"晒盐需&a满足&r以下条件："
+				"&e盐场上方无方块遮挡"
+				"所在生物群系必须是&e温暖且干燥&r的群系"
+				"&e晴朗的白天"
+			]
+			id: "64B5E05D40BACF90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D5A516950A1741"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "古法晒盐"
+			tasks: [{
+				id: "6AE19F699967CBF4"
+				item: "tofucraft:blocksaltpan"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30EAD6D04E920B1E"]
+			description: [
+				"向盐炉内填充水（最多三桶），放入燃料点燃，盐炉里的水便会慢慢烤干，产生出盐与盐卤。"
+				"盐卤需要使用空瓶提取。"
+			]
+			id: "2C8C853CF0252CFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E57AFD7558FFC95"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "古法煮盐"
+			tasks: [{
+				id: "2131BD6891439CB8"
+				item: "tofucraft:salt_furnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64B5E05D40BACF90"
+				"2C8C853CF0252CFE"
+			]
+			description: [
+				"当你有了豆浆和卤水后，就可以点豆腐了。"
+				"将豆浆倒在世界中，并&a用卤水右击豆浆（完整的水源方块）&r，就会消耗卤水，使豆浆凝固为嫩豆腐。"
+				"将嫩豆腐打碎，你便可以获得四块嫩豆腐。"
+				"但四块嫩豆腐重新合成获得的则是普通的豆腐。"
+			]
+			id: "4C90C3503BF38695"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3190FE6F0317B011"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "卤水点豆腐"
+			tasks: [{
+				id: "3C44151ECA468716"
+				item: "tofucraft:tofukinu"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4C90C3503BF38695"
+				"3CB33BB3B641FFD7"
+			]
+			description: [
+				"将一块豆腐方块放置在两块圆石（或nei中允许的石头方块）之间，豆腐方块变回出现冒水的粒子动画开始压制。"
+				"压制一定时间后，豆腐就会变成石豆腐。石豆腐再压制一会，便会被压制为钢豆腐。"
+				"钢豆腐是前期性价比较高的材料，但也只是在前期有用。"
+			]
+			id: "4596B32F9DD8DA1F"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "6BE5489E45D68A55"
+					item: "tofucraft:tofumetal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65CDB057AAE249E5"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "阿姨压一压——"
+			tasks: [{
+				id: "397ADAC8F6DEE5AF"
+				item: "tofucraft:blocktofuishi"
+				type: "item"
+			}]
+			title: "豆腐压制"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38FA72AF5EB6F797"]
+			description: [
+				"得益于机械动力对豆腐工艺的兼容配方，如果你的机械动力功底够扎实，可以直接跳过常规的豆腐制取方法，直接使用机械动力搭建流水线大批量生产豆腐。"
+				"为了证明你的确有这样的实力，请拿一组嫩豆腐来——毕竟进入豆腐世界所需要的豆腐可不止这点"
+			]
+			id: "3CB33BB3B641FFD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C0072F09162053C"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "还得是机械动力"
+			tasks: [
+				{
+					id: "16A14C5F0F58C599"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0BABFA359BD6850A"
+					item: "tofucraft:tofukinu"
+					type: "item"
+				}
+			]
+			title: "全自动豆腐产线"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4C90C3503BF38695"
+				"3CB33BB3B641FFD7"
+			]
+			description: ["现在豆腐魔杖不能通过合成获得，只能通过寻找海洋中生成的箱子来获得。"]
+			id: "0B5788ED1F42E193"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB4AF5E5EB81E97"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "豆腐世界的钥匙"
+			tasks: [{
+				id: "70FE8564859FC0ED"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofustick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B5788ED1F42E193"]
+			description: [
+				"现在你的手里已经有了足够多的豆腐（做成烤豆腐块）来搭建前往豆腐世界的大门，也有了豆腐世界的通行证。"
+				"接下来便是搭建豆腐传送门了。"
+				"{@pagebreak}"
+				"豆腐传送门分两层，第一层以&e实心4*4&r的方式铺设一层烤豆腐块，第二层以&e空心4*4&r的方式围一圈烤豆腐块，中间2*2的空间填充豆浆（&e要填满！&r）"
+				"看着是不是很熟悉？这个传送门的结构和暮色传送门很像。"
+				"接下来，用豆腐魔杖右键豆浆，然后纵身一跃，前往豆腐的世界吧！"
+			]
+			id: "530F2DA3C537F6E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1422273EC24D64DB"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			shape: "pentagon"
+			subtitle: "吃豆腐吃到嘴软"
+			tasks: [{
+				dimension: "tofucraft:tofu_world"
+				id: "1F5F1CC0FF6CBB7B"
+				type: "dimension"
+			}]
+			title: "豆腐世界"
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["530F2DA3C537F6E2"]
+			description: ["直接挖掘只会掉落豆腐钻石粒，而一个钻石豆腐需要9个粒……"]
+			id: "537B80CB4D864C61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "422A096808DAACB6"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "深藏在豆腐世界的地下"
+			tasks: [{
+				id: "0875F2A2DD20022C"
+				item: "tofucraft:tofudiamond"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30EAD6D04E920B1E"]
+			description: ["连续饮用豆奶有独特buff加成，但buff加成公式较繁琐，建议去mc百科参考老“豆腐工艺”模组资料。"]
+			id: "7CADD1323CFF2380"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07CA8CBBCCA6AB14"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "每天（指游戏内一昼夜）都喝一杯豆奶，会有惊喜发生"
+			tasks: [{
+				id: "7F2EDFC206C4324A"
+				item: "tofucraft:soymilk"
+				type: "item"
+			}]
+			title: "每天一杯（豆）奶，强壮mc人"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38FA72AF5EB6F797"]
+			description: ["和普通大豆差不多，只不过一个要种在下界岩上，一个要种在灵魂沙上。"]
+			id: "37A30C2E0244308C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C796115DCD0E3F7"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "来自地狱"
+			tasks: [
+				{
+					id: "1C00380D4B3C0C60"
+					item: "tofucraft:seeds_soybeans_nether"
+					type: "item"
+				}
+				{
+					id: "5CF5B6CCF8938E6B"
+					item: "tofucraft:seeds_soybeans_soul"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"整合包中的模组提供了许多好用的机械与小道具，从前期的纯手动农业到后期的全自动农业应有尽有。"
+				"发挥自己的想象力，运用这些机械与道具来搭建一个高效率的自动化农场吧！"
+				""
+				"{@pagebreak}"
+				"当然，想要充分发挥自动化农场的力量，&m我建议你偷偷安个神秘农业&r"
+				"我相信etsh不会看到这段的：）"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:scythe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:coronation_alloy"
+						"etshtinker:coronation_alloy"
+						"etshtinker:coronation_alloy"
+						"etshtinker:coronation_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "etshtinker:plasmawaveslashmodifier"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_aoe_shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 2.5f
+						"tconstruct:mining_speed": 0.45f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 8.925f
+						"tconstruct:attack_speed": 0.875f
+						"tconstruct:durability": 2250.0f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.4125f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "59F002AE8AC37218"
+			size: 1.5d
+			subtitle: "效率，自动，智能"
+			tasks: [{
+				id: "2DFB0792B58B339E"
+				type: "checkmark"
+			}]
+			title: "工具与机械"
+			x: 1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4D3E29981536AC9A"]
+			description: [
+				"I got you 我想抽！"
+				"I got you All My Mind!"
+				"抽不了兜着走，"
+				"走 走走 走走走走———"
+			]
+			icon: {
+				Count: 1b
+				id: "extradelight:corn_cob_pipe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77A420602A3C93EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55CE82E5E18041FA"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "抽赛博香烟，做电子丁真（还是王源？）"
+			tasks: [{
+				id: "47187D3D157BC012"
+				item: {
+					Count: 1b
+					id: "extradelight:corn_cob_pipe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "1！5！"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"这里收录了绝大多数nei上没有显示的食材获得方法。"
+				"如果还有什么无法获得的材料，建议查阅&eMC百科&r"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "minecraft:apple"
+			id: "400DD90AC4505EC1"
+			size: 1.5d
+			subtitle: "这里是一些需要独特技巧才能获得的食材"
+			tasks: [{
+				id: "462A6C5C7190BE1D"
+				type: "checkmark"
+			}]
+			title: "种植小贴士"
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:mattock"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.1f
+						"tconstruct:durability": 1.25f
+						"tconstruct:mining_speed": 1.1f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 2.31f
+						"tconstruct:attack_speed": 0.99f
+						"tconstruct:durability": 96.25f
+						"tconstruct:harvest_tier": "minecraft:wood"
+						"tconstruct:mining_speed": 2.2f
+						"tconstruct:use_item_speed": 0.5f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "27E862D804EA381F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36D5AAC16E8372B8"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "前期的铲子兼锄头"
+			tasks: [{
+				id: "17ECAB5467D40781"
+				item: {
+					Count: 1b
+					id: "tconstruct:mattock"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 1.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.31f
+							"tconstruct:attack_speed": 0.99f
+							"tconstruct:durability": 96.25f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:mining_speed": 2.2f
+							"tconstruct:use_item_speed": 0.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "鹤嘴锄"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			id: "0FAFC5B103EE1568"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D33766EA271AC25"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "范围垦地、收割，是手动工具的豪杰"
+			tasks: [{
+				id: "0443AA99666D2028"
+				item: {
+					Count: 1b
+					id: "tconstruct:scythe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+							"tcintegrations:livingrock"
+							"tconstruct:bamboo"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "tconstruct:stonebound"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.5f
+							"tconstruct:mining_speed": 0.45f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.75f
+							"tconstruct:attack_speed": 0.77f
+							"tconstruct:durability": 192.5f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:mining_speed": 0.9f
+							"tconstruct:use_item_speed": 0.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "镰刀"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			id: "187BB0FA370DE287"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AC640A9E143D347"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "前期的剪刀兼锄头"
+			tasks: [{
+				id: "7580873CE96D7098"
+				item: {
+					Count: 1b
+					id: "tconstruct:kama"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+							"tcintegrations:livingrock"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "tconstruct:stonebound"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.875f
+							"tconstruct:attack_speed": 1.7600001f
+							"tconstruct:durability": 77.0f
+							"tconstruct:harvest_tier": "minecraft:wood"
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:use_item_speed": 0.4f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "短刃镰"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			id: "295A6A4728472729"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FAAA18D9FD6DF64"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "本质是大范围武器，作物收割只是顺带的"
+			tasks: [{
+				id: "0D91BE40CC1E0FE6"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:bigsickle"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+							"tconstruct:bamboo"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:reaper"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:durability": 1.7f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.743125f
+							"tconstruct:attack_speed": 1.0486875f
+							"tconstruct:durability": 279.65f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "宽刃镰"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["522BC27C9AF57A67"]
+			description: [
+				"饮酒作乐模组作为乐事全家桶的组成部分，为游戏提供了&a发酵桶&r来生产食物与饮品。"
+				"但是，发酵桶有着极其麻烦的&e温度系统&r，不同的食物饮品制作有不同的温度需求，而温度由发酵桶周围&e（3*3*3空间内）&r的方块决定。"
+				"{@pagebreak}"
+				"将发酵桶更改至冷冻状态&e（寒冷与冷）&r需要冷冻方块。"
+				"冷冻方块是本模组给出的带有cold_blocks标签的方块，默认情况下包括：&a冰、浮冰、蓝冰和雪块&r四种方块，也可以在模组文件cold_blocks.json中手动添加。"
+				"冷状态需要空间内有&a2-4个&r冷冻方块，而寒冷状态需要&a5个以上&r。"
+				"{@pagebreak}"
+				"将发酵桶更改至受热状态&e（温暖与热）&r需要热源."
+				"热源方块与农夫乐事模组的热源要求一样，前面的任务已经提过了。"
+				"温暖状态需要空间内有&a2-4个&r热源方块，而热状态需要&a5个以上&r。"
+				"{@pagebreak}"
+				"发酵桶不仅使用麻烦，生产效率还低的吓人(酿造速度慢，且一次只能酿造一杯啤酒）。"
+				"所以我&e并不推荐&r你使用发酵桶来制作啤酒，而是用&a喝啤酒啦&r模组提供的&e啤酒桶&r来生产啤酒。"
+			]
+			id: "34AD2CBA4C00B923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0989510286D476BB"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "冰火两重天"
+			tasks: [{
+				id: "0F0824A04644E62F"
+				item: "brewinandchewin:keg"
+				type: "item"
+			}]
+			title: "饮酒作乐"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["522BC27C9AF57A67"]
+			description: [
+				"喝啤酒啦模组的啤酒桶虽然酿造速度比饮酒乐事的酿造桶还慢，但是一次能酿造四杯啤酒，并且对环境没有严苛的温度要求，而且酿造好的啤酒还能进一步调酒客制化。"
+				"通过放入对应的材料，啤酒便会自动酿造。"
+			]
+			id: "32629FD86D89001B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AEFDF36FFE44572"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "擦！大哥！"
+			tasks: [{
+				id: "1A923B5D82618C2C"
+				item: "drinkbeer:beer_barrel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32629FD86D89001B"]
+			description: [
+				"调酒桌可以调配鸡尾酒。"
+				"手持同模组啤酒右键可以打开调酒面板，放入啤酒与香料来调制鸡尾酒。"
+				"香料仅可通过易货箱获取。"
+			]
+			id: "21C4602A542547F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0912640063B43D5B"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "我喝香飘飘奶茶就好：）"
+			tasks: [{
+				id: "0E5702C5CA186A8E"
+				item: "drinkbeer:bartending_table_normal"
+				type: "item"
+			}]
+			title: "麻烦给我的爱人来一杯mojito"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["522BC27C9AF57A67"]
+			description: [
+				"炽铁锅是厨锅的暮色森林换皮升级版，可以在没有热源的情况下工作，并以更快的速度烹饪暮色特有的食品。"
+				"迷宫炉灶同样也是换皮升级版，能对烹饪暮色特有食品的厨具进行加速。"
+				"两者烹饪速度可叠加,仅需5秒便可烹饪完一道来自暮色的大型菜品。"
+			]
+			icon: "twilightdelight:fiery_cooking_pot"
+			id: "6C9EF592C73C4E05"
+			rewards: [
+				{
+					id: "553B01100BC26EDB"
+					item: "twilightdelight:lily_chicken_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080CB44E9C7C3B26"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+			]
+			subtitle: "无昼之地的恩惠"
+			tasks: [
+				{
+					id: "328EB7D28C1FC646"
+					item: "twilightdelight:fiery_cooking_pot"
+					type: "item"
+				}
+				{
+					id: "6D255374571CF4EE"
+					item: "twilightdelight:maze_stove"
+					type: "item"
+				}
+			]
+			title: "暮色炫彩皮肤"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"机械动力通过动力犁与动力收割机可以进行土地开垦、作物收割、地面杂草清除等功能。"
+				"在农业上多作为收割设备来配合其他模组的高效率耕地，并且对于某些种植方式特殊的作物收割起来有奇效。"
+				"但是，机械动力本身的效率与其他模组比起来并不占优势，而且对电脑的性能要求也更高。"
+			]
+			icon: "create:mechanical_harvester"
+			id: "7CEB72E003861313"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46C5472877D16F42"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "浪漫——又浪费又慢"
+			tasks: [
+				{
+					id: "1FC04B9DA7E72E9A"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "5C540DF8BABAFAB5"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+			]
+			title: "机械动力自动化"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23AFBE695C48D3B5"]
+			description: [
+				"机械动力模组与农夫乐事有着高度联动，如使用石磨（或者粉碎轮）对水稻和小麦进行处理，又或者是通过机械手直接在传送带流水线上对食材进行分割加工——"
+				"这意味着你可以使用机械动力来将自己的砧板换成全自动切割，又或者制造一条汉堡生产流水线……"
+			]
+			icon: "create:millstone"
+			id: "7C1C3108D03DA8C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AAA66E030DFDA1F"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "农夫乐事——机械动力大型附属模组：）"
+			tasks: [
+				{
+					id: "3E1B8F10E91E1D4F"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "116B6DD5DDE31BA4"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "食材处理自动化"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32629FD86D89001B"]
+			description: [
+				"易货箱是获取调酒香料的唯一方式，通过交付指定物品来获得随机材料与香料。"
+				"交易有cd限制，初次放置易货箱需要5分钟，后续交易需要4分钟。"
+				"&l&o&4注：已被ban，因为能通过漏斗刷物品，勿念&l&o&4"
+			]
+			id: "77F0AF509B077059"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1775F7722C3DC466"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "远方的商人带来香料的消息"
+			tasks: [{
+				id: "1C75EC6D1EC5ECDD"
+				item: "drinkbeer:trade_box_normal"
+				type: "item"
+			}]
+			title: "以物易物"
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"对作物生长进行加速。"
+				"仅对放置在黑土上方的方块进行加速。"
+			]
+			id: "7CB92A47007CDE0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3188DCA74C2B9300"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "加速作物生长，类似神秘农业生长加速器"
+			tasks: [{
+				id: "260193AE33DD529D"
+				item: "cyclic:terra_preta"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"来自工业先锋的三台机器，对比其他模组的机器来说范围较小。"
+				"但优点在于可以种植花草与树木，适合用于建造树场。"
+				"机器的具体使用方法参见工业先锋板块相关任务"
+			]
+			icon: "industrialforegoing:plant_sower"
+			id: "1188CA167BC63B93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A6F0019195B74FA"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "更适合种树"
+			tasks: [
+				{
+					id: "66F5CE9954F5C455"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+				{
+					id: "76EA1C654A0B7D14"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "4CB14D0C8134E25C"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+			]
+			title: "工业先锋自动化体系"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"高投入、高花费，换来的是兼容神秘农业资源体系的高收益高回报，这就是水培床。"
+				"但是，本包没有神秘农业，性价比与效率都更占优势的有机灌注器显然更强……"
+			]
+			id: "674794AE6DFEA760"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1539009A28E96749"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "神秘农业第一超模耕地"
+			tasks: [{
+				id: "38E50DA30AABF45D"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			title: "水培床"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"仅占据一格体积的农业自动化机器，只需要布置好土壤，通入水电便可开始农业自动生产，输入肥料与安装升级还可以提高产量与效率。"
+				"在没有神秘农业的情况下，有机灌注器凭借高效率高拓展性成为了本包最强农业机器。"
+			]
+			id: "4760618B7518A419"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C3488F808E1C891"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "效率与性价比的平衡"
+			tasks: [{
+				id: "7FD06A35B9C725B1"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"与有机灌注器师出同门，极限效率与可拓展性都不如有机灌注器，但在对其他模组的兼容上要更优秀（因为有些植物有机灌注器没配方）。"
+				"通过通电来代替施肥，催熟通量植育土上的作物。"
+				"还是那句话，本包没有神秘农业，打不过有机灌注器，不过更便宜。"
+			]
+			icon: "thermal:device_soil_infuser"
+			id: "020B59BFC543DF70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2492B1E2FF736619"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "神秘农业第二超模耕地"
+			tasks: [
+				{
+					id: "68ED8C7E253D5507"
+					item: "thermal:device_soil_infuser"
+					type: "item"
+				}
+				{
+					id: "1C2B7F30D41E1968"
+					item: "thermal:phytosoil"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"可放入mc原版堆肥桶中堆肥的物品均可以输入到批量堆肥器中进行堆肥回收，并生产出堆肥。"
+				"堆肥虽然没有植育一号那样耐用，但胜在造价低廉，也可以作为有机灌注器的肥料使用"
+			]
+			id: "49D74421F8B74225"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F0A3023C767CA2E"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "作物回收"
+			tasks: [{
+				id: "0C8746A61E7AFF15"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: ["使用时有75%概率不消耗的强大肥料，既可以单独使用，也可以配合有机灌注器来使用。"]
+			id: "0D07CF5A37EB8E87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C2B1FBF452E692F"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "一袋能顶两袋撒"
+			tasks: [{
+				id: "251CC13D70AAAFDF"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			title: "金坷垃！"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D07CF5A37EB8E87"]
+			description: ["手榴弹版植育一号，影响范围更广"]
+			id: "5E284031554924D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E4196186725E58E"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "小麦亩产一千八"
+			tasks: [{
+				id: "7EADAC9911D93E59"
+				item: "thermal:phyto_grenade"
+				type: "item"
+			}]
+			title: "金坷垃手榴弹"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EA232B6B5A96F95"]
+			description: [
+				"热力的水产捕捞器是唯一一个从&l&a前方水源&r进行鱼类捕捞的机器。"
+				"捕捞速率与产物受生物群系、工作范围内完整水源总数、天气、机器增强等影响。"
+				"通过调整放入机器的鱼饵还能调整捕捞产物。"
+			]
+			hide_dependency_lines: true
+			id: "13230143EED1D848"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30B6452824A63BBE"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "热力自动捕鱼方案"
+			tasks: [{
+				id: "462FF48462429D58"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"循环收割机需要配合物品收集器使用。"
+				"优势在于造价低廉、效率适中、单台机器可收割区域大，模组兼容性强。"
+				"是中期配合常规耕地（如沃土、通量泥土）的不二之选，也是部分特殊作物（如苹果芽）的唯一选择。"
+			]
+			icon: "cyclic:harvester"
+			id: "0CAC9D373244F87C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2706B51F5B3F86E6"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "便宜大碗"
+			tasks: [
+				{
+					id: "161198D3C09AA65E"
+					item: "cyclic:harvester"
+					type: "item"
+				}
+				{
+					id: "504D8C2CE096C99D"
+					item: "cyclic:collector"
+					type: "item"
+				}
+			]
+			title: "循环收割"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"能加速以玩家为中心12*12范围内的大多数植物生长，包括瓜类、竹子、甘蔗、茶树等……"
+				"如果你喜欢亲自收割，那农民戒指十分适合你。"
+			]
+			id: "52F0E2CC6B7A1C8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B85CE69D8C4F0D1"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "生草神器"
+			tasks: [{
+				id: "1307D79DA53A649B"
+				item: "gobber2:gobber2_ring_farmer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"52F0E2CC6B7A1C8A"
+				"23981D3D6DB53CC9"
+			]
+			id: "1F4D7AE2D4BA6238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CF91AA24ED1062F"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "融合升级版"
+			tasks: [{
+				id: "75007CC3A162AD43"
+				item: "gobber2:gobber2_staff_farmer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			id: "23981D3D6DB53CC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F5A0D7A60C79A1E"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "超大范围镰刀"
+			tasks: [{
+				id: "18A67B70E22E3D32"
+				item: "gobber2:gobber2_staff_harvest"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"使十方块内的动物强行交配繁殖。"
+				"不过动物交配仍受繁殖周期影响。"
+				"但如果你希望看到冰火传说中的5级龙与1级龙小孩开大车，那你倒是可以用这个……"
+			]
+			id: "7B5AB15945813E30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34F69B699AF74A24"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "母猪的产后护理"
+			tasks: [{
+				id: "04983575BA9534E5"
+				item: "gobber2:gobber2_ring_husbandry"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			id: "47D75E9366D79AD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B1B8DDE44E8F4D8"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "金坷垃超究极豪华pro ultra max plus "
+			tasks: [{
+				id: "3919E940B5C4246E"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"园艺玻璃罩，通水通电即可自动化生产作物的机器。"
+				"其优点在于造价低廉、运行花费少且性价比高。"
+				"在前期，我会推荐你使用园艺玻璃罩来搓MEK燃气瓜聚变。"
+				"但这里是CTI，如果你可以在燃气发电机能做出来的时候量产有机灌注器，那我还是更推荐上限与体积都更优秀的有机灌注器来做瓜聚变。"
+			]
+			id: "70A1401EE4C26B3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4827B58F3DBFA3E1"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "前中期自动化农业的优质选择"
+			tasks: [{
+				id: "414B800C257820AA"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"农夫乐事的稻米与豆腐工艺的稻米在标签上通用，种植方法也是一样的——"
+				"将水稻种植在被一格水淹没的泥土（沃土等土地也可以），而后等待生长。"
+				"水稻长成后会长出水面一格，徒手收获请只打掉水面上部分，水下部分还会长出新的来。"
+			]
+			icon: "farmersdelight:rice"
+			id: "030AD67E0AE4221E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "406C2B289EB2D94B"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "锄禾日当午"
+			tasks: [
+				{
+					id: "7BBD956720A2FD65"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "766862A26A9F3341"
+					item: "tofucraft:seeds_rice"
+					type: "item"
+				}
+			]
+			title: "水稻种植"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"薄荷会随机生成在寒冷的地形……"
+				"但是，薄荷会以&e极快的速度&r在裸露的泥土上增值&6增殖&r！"
+				"如果你不希望收获大量的薄荷叶，或是不想让薄荷叶污染你的家，请摧毁你见到的&e任何&r薄荷！"
+				"如果你希望收获大量薄荷叶，也请摧毁你见到的任何野生薄荷，并在人工种植时做好&e隔离&r。"
+			]
+			id: "5CAE2DB0BF7610E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72057E7063140207"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "斩草要除根！"
+			tasks: [{
+				id: "0C9F797830C0849C"
+				item: "extradelight:mint"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: ["与一般的植物不同，姜并不依靠种子繁殖，而是通过种植姜皮——没错，就是姜皮。"]
+			id: "5B68ED86C9A58D44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5030781265A7D0CD"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "姜还是老的辣"
+			tasks: [{
+				id: "2FF8F74DA98D0AFC"
+				item: "extradelight:ginger_cutting"
+				type: "item"
+			}]
+			title: "生姜种植"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: ["将你的斧头对准肉桂树干右键，当你给肉桂木脱皮的同时，你也得到了肉桂皮。"]
+			id: "3CF53C559931ABEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EDD6356E973805C"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "桂林？"
+			tasks: [{
+				id: "4237BD84F881A277"
+				item: "extradelight:cinnamon_bark"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"在番茄植株上放置绳子，番茄便会在合适的时间顺着绳子向上生长——也就是说你可以同时收获两份番茄。"
+				"并且，如果你用正确的方法采摘番茄，长到绳子上的番茄植株并不会消失，而是会继续结果。"
+			]
+			id: "150D1CC7D9A7DC21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F52515E06FC32F8"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "小西红柿也许是水果，但西红柿绝对不是：）"
+			tasks: [{
+				advancement: "farmersdelight:main/harvest_ropelogged_tomato"
+				criterion: ""
+				id: "287683B9DF3AD6D2"
+				type: "advancement"
+			}]
+			title: "更高的番茄"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: ["毛豆想要获取，需要采集&e尚未完全成熟的大豆植株&r（生长进度大于71%）。"]
+			id: "3BF0C2A13950BE5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F3A963C3B7A778A"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "俊达萌的小俊巴（"
+			tasks: [{
+				id: "5737D71E10A0D9C0"
+				item: "tofucraft:edamame"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"农夫暇事的咖啡浆果自然生长在&a下界&r的&e玄武岩三角洲群系&r，右键成熟的树枝可以收获一个咖啡浆果。"
+				"如果你想要人工种植，只能种植在玄武岩及其变种和岩浆块上，并且在下界才能正常生长。"
+				"倘若你执意要在主世界种植咖啡，那么就要在咖啡树的周围种植其他常规农作物。这些常规农作物会被咖啡树转化为凋零根须，每株作物可使咖啡树生长一个阶段。主世界的咖啡树只有这样才能生长结果。"
+			]
+			id: "62DB6A20889DAC31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A115FE90152AEE1"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "谁家咖啡带凋零啊？"
+			tasks: [{
+				id: "0519EB3B3BEF141B"
+				item: "farmersrespite:coffee_berries"
+				type: "item"
+			}]
+			title: "地狱咖啡豆"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"野生茶树生成于&a沼泽生物群系&r，数量&e十分稀少&r，破坏后掉落一个茶籽，但用&e剪刀&r可以完整采集。"
+				"茶籽可以直接种植在任意土壤上，生长缓慢且&a无法用骨粉催熟&r。"
+				"幼苗长大后共有四个成熟阶段，破坏后掉落茶籽、茶叶与木棍，用&e剪刀右键采集&r可以保留幼苗。"
+				"不同成熟阶段采摘得到的茶叶也不一样："
+				"绿色：1-3绿茶叶；"
+				"黄色：1-3黄茶叶；"
+				"黄褐色：1-2红茶叶，1-2黄茶叶；"
+				"褐色：1-3红茶叶。"
+			]
+			id: "20A126AA69C06D06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53ABABF04765F383"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "心机の小绿茶"
+			tasks: [{
+				id: "0722936709757095"
+				item: "farmersrespite:tea_seeds"
+				type: "item"
+			}]
+			title: "茶叶种植"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"枪药草茎自然生成于&a绯红森林或下界荒地群系&r，也可以在&a下界岩、灵魂沙等方块上&r进行种植。"
+				"&e与生物接触、被弹射物击中或不使用刀破坏时将会发生小型爆炸并留下火焰。&r"
+				"所以枪药草茎的危险性非常大。"
+				"右击顶端成熟的果实可以采集枪药珠，用&e小刀&r破坏任意部分则可以安全获取枪药草杆。&8还可以通过与猪灵交易获取&8"
+				"为了安全起见，最好将你遇到的每一株枪药都给采集干净，人工种植最好在密封环境。"
+			]
+			id: "2E1170095BC3FC0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "762789137BE5598F"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "说话这么冲？"
+			tasks: [{
+				id: "001C490C85ADF1DB"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			title: "你是吃枪药了吗？"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			id: "6AA989C9BE8674B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72DD433E95B6043C"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "剪刀采集玫瑰花丛后放置在砧板上用小刀切割获得"
+			tasks: [{
+				id: "0285F4060B7FB762"
+				item: "farmersrespite:rose_hips"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"苹果芽放置在树叶下（无论是自然生成还是人工放置），便可以开始种植苹果。"
+				"其间可以使用骨粉等肥料催熟。"
+				"当苹果成熟时，破坏苹果会掉落若干个苹果与苹果芽。"
+				"但如果使用正确的方法收割（例如使用循环模组自己的收割机）便可以保留苹果芽。"
+			]
+			id: "4419FC32976B094F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76CE8E4B5FEBE314"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "循环之力"
+			tasks: [{
+				id: "7370D078A7103478"
+				item: "cyclic:apple_sprout"
+				type: "item"
+			}]
+			title: "种苹果"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			id: "29F8869C84F77F64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B18BD3E6EA7DFD"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "因为蛋壳过于坚硬，只有使用下界之星才能在砧板上敲开。"
+			tasks: [{
+				id: "37990AA5B7A77104"
+				item: "ends_delight:non_hatchable_dragon_egg"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: ["将合成好的豆曲之种放在物品栏中携带一段时间，豆曲之种会自动转变为豆曲（&m大概是闷出来的&r）"]
+			id: "7104A049D631B4D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1091A1D1E23A0FB0"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "酱油之源"
+			tasks: [{
+				id: "1810F374B8FF7EF7"
+				item: {
+					Count: 1b
+					id: "tofucraft:koujibase"
+					tag: {
+						Fermentation: 60
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["62FD415FA19A1E66"]
+			description: ["你要是真能纯手搓也算你厉害"]
+			icon: "solidarytinker:saint_chief_ingot"
+			id: "6B828019AE585A42"
+			rewards: [
+				{
+					id: "19C2CD349AEA8A8F"
+					item: {
+						Count: 1b
+						id: "tinkers_thinking:knife"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§a§r这是你作为厨神的证明——一把永不损毁的菜刀\"}"
+									"{\"text\":\"§3也仅仅是一把菜刀罢了……\"}"
+								]
+								Name: "{\"text\":\"§4§k1234§6§l厨神菜刀§4§k1234\"}"
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:mangobberslime"
+								"tinkerscalibration:mangobberslime"
+								"tinkerscalibration:mangobberslime"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkersinnovation:eternal"
+								}
+								{
+									level: 3
+									name: "tinkerscalibration:gobber_unbreakable"
+								}
+								{
+									level: 3
+									name: "tinkerscalibration:united"
+								}
+								{
+									level: 3
+									name: "cti:endergobberbless"
+								}
+								{
+									level: 1
+									name: "tconstruct:antiaquatic"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.8f
+								"tconstruct:durability": 0.8f
+								"tconstruct:mining_speed": 1.2f
+							}
+							tic_name: "厨神菜刀"
+							tic_persistent: {
+								abilities: -1
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 47.36f
+								"tconstruct:attack_speed": 5.7599998f
+								"tconstruct:durability": 9830.399f
+								"tconstruct:harvest_tier": "gobber2:end_gobber"
+								"tconstruct:mining_speed": 46.08f
+							}
+							tic_upgrades: [{
+								level: 1
+								name: "tinkersinnovation:eternal"
+							}]
+							tic_volatile_data: {
+								abilities: 5
+								upgrades: 9
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5097993979002F77"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E9B087BFDE80848"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+				{
+					id: "655CF67F1F3BD1D5"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "用你前面学过的厨房自动化，来让自己成为真正的厨圣（？）"
+			tasks: [{
+				count: 64L
+				id: "443EA7B7BED9FF98"
+				item: "solidarytinker:saint_chief_ingot"
+				type: "item"
+			}]
+			title: "挑战：你是厨圣吗？"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EA232B6B5A96F95"]
+			description: [
+				"为其提供能量并放置在3*3水源上时，将自动钓鱼，包括钓鱼战利品表中的物品都能钓到。"
+				"&a但是海王锭由于海王箱判定问题无法获得&r"
+				"默认5秒一钓，可通过组建进行升级。"
+			]
+			hide_dependency_lines: true
+			id: "26271ECB5E923DF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B2ADA865F8F51"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "工业先锋捕鱼方案"
+			tasks: [{
+				id: "471DB442601848A3"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EA232B6B5A96F95"]
+			description: [
+				"需要玩家提供钓竿的自动捕鱼机，消耗能量与钓竿耐久捕鱼。"
+				"建议配合管道等传输方式进行收集。"
+				"优势是便宜。"
+				"如果使用经验修补钓竿，可以不用担心钓竿耐久"
+			]
+			hide_dependency_lines: true
+			id: "406472AF7F01F6FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "700D0DB7ABCBEC34"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "循环自动钓鱼方案"
+			tasks: [{
+				id: "419D3DF33FFB70B7"
+				item: "cyclic:fisher"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EA232B6B5A96F95"]
+			description: [
+				"一次性小道具，随机从水中抓出一条鱼或垃圾。"
+				"纯图一乐的小玩意。"
+			]
+			hide_dependency_lines: true
+			id: "6FDA20B6A3236A25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "466AC72E6E329DF9"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "循环的奇奇怪怪小道具"
+			tasks: [{
+				id: "1818CB925C7D1BFB"
+				item: "cyclic:ender_fishing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"右击可加快范围内作物生长，可在单方块模式与3*3模式（加装增强可解锁更大浇水范围）之间切换。"
+				"热力水壶浇水前需要提前填充水，但etsh本体貌似没有这种限制。"
+				"&6&o小水壶，你果然有几分她（&5&m神秘农业&r）&6&o的影子——&r"
+			]
+			id: "47CA98881A0AB1A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE927D56D9B7F7E"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "恶徒水壶本体：）"
+			tasks: [{
+				id: "48B7760EEFFBF070"
+				item: {
+					Count: 1b
+					id: "thermal:watering_can"
+					tag: {
+						Augments: [
+							{
+								Count: 1b
+								id: "thermal:upgrade_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal:fluid_tank_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:area_radius_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:area_radius_augment"
+							}
+						]
+						Enchantments: [{
+							id: "cofh_core:holding"
+							lvl: 4
+						}]
+						Fluid: {
+							Amount: 192000
+							FluidName: "minecraft:water"
+						}
+						Mode: 0
+						Properties: {
+							BaseMod: 4.0f
+							FluidCre: 1.0f
+							FluidMax: 4.0f
+							Radius: 2.0f
+						}
+						display: {
+							Name: "{\"text\":\"这是恶徒水壶，你可以用它浇花\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "热力小水壶"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"如果在有神秘农业的情况下，配合神秘农业的洒水壶，玩家模拟器可以快速对作物进行催熟，且效率不亚于秒表。"
+				"但是，这个包里没有洒水壶，玩家模拟器的作用也仅限于配合部分道具自动化。"
+				"&m&l&o&0但实际上仍然非常强大（）&l&o&0&m"
+			]
+			id: "2A185B817CF13CDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14C2D0251208F318"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "没有神秘农业的第一天，想你……"
+			tasks: [{
+				id: "7A96A4B8F8A8A114"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4596B32F9DD8DA1F"]
+			description: [
+				"酱油、味增、味增豆腐的获得不能通过普通合成方式获取，而是要先合成味增桶与味增豆腐桶，而后进行压制。"
+				"压制好的味增豆腐桶与味增桶颜色会变深。"
+				"对压制好的味增桶使用玻璃瓶，可以获得酱油；将压制好的味增桶与味增豆腐桶破坏，则可以获得味增与味增豆腐。"
+			]
+			id: "04C327A799E715A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE15131F4DA7552"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "晒足……压足一百八十天！"
+			tasks: [
+				{
+					id: "19971445BD66E2AF"
+					item: "tofucraft:barrel_miso"
+					type: "item"
+				}
+				{
+					id: "647CBFF0063E9B5B"
+					item: "tofucraft:barrel_misotofu"
+					type: "item"
+				}
+			]
+			title: "其他需要压制的食材"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["537B80CB4D864C61"]
+			description: [
+				"左手持&a回响碎片&r，右手持&a豆腐喇叭&r，对一只&e豆腐蜘蛛&r吹响喇叭，便可以使豆腐蜘蛛进化为强大无比的臭豆腐蜘蛛。"
+				"击杀臭豆腐蜘蛛，会掉落很多掉落物，其中最重要的是臭豆腐和幽匿豆腐。"
+				"幽匿豆腐可以使你的钻石豆腐装备得到进一步升级——虽然在匠魂包里这个材料基本没啥用。"
+			]
+			id: "5EAC0BACE30687DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EC872E2D5C6D38E"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "3EE2D5F0F52ED3D1"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "臭豆腐腐乳加柠檬，你看这波行不行 "
+			tasks: [{
+				id: "6D448CBE8AD47B3C"
+				item: "tofucraft:soy_sculk_bone"
+				type: "item"
+			}]
+			title: "臭豆腐蜘蛛与幽匿豆腐"
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["530F2DA3C537F6E2"]
+			description: [
+				"在豆腐世界，有一座藏在森林中的豆腐宫殿，相传那里存放着一把强大的&e毛豆泥神弓&r"
+				"（大概是拿俊达萌做的罢）"
+				"来都来了，不去转一转吗？"
+			]
+			icon: "tofucraft:tofugem"
+			id: "49918D5E668D2273"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CDB36CDC1EA97AC"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "寻找神弓之旅"
+			tasks: [{
+				id: "5F22E9085F33A6F6"
+				structure: "tofucraft:tofu_castle"
+				type: "structure"
+			}]
+			title: "豆腐城堡"
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49918D5E668D2273"]
+			description: [
+				"在城堡的最高层，豆腐战神守在了最后一道大门前，阻挡你的道路。"
+				"去吧，一刀砍死它，然后将毛豆泥神弓带回来！"
+				"（&m它会招小兵，如果你想的话可以利用这些小兵来疯狂刷材料&r）"
+			]
+			icon: {
+				Count: 1b
+				id: "tofucraft:zunda_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5497A255E9FA8A8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "427CD395C72F1569"
+					table_id: 2563876056126530764L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "389C4448D494A861"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "我，我，我，我豆腐战神啊！！！"
+			tasks: [{
+				entity: "tofucraft:tofu_gandlem"
+				id: "664DF290650C0F56"
+				type: "kill"
+				value: 1L
+			}]
+			title: "豆腐战神"
+			x: -14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["400DD90AC4505EC1"]
+			description: [
+				"豆腐罐（豆芽罐）是用来生产豆芽的器械。"
+				"在黑暗环境下，向豆芽罐填充水，并放置大豆，等待一段时间便能得到豆芽"
+			]
+			id: "405B73C0AE36BCE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F871AAC63BE3867"
+				table_id: 2563876056126530764L
+				type: "choice"
+			}]
+			subtitle: "明明叫豆腐罐，实际用处却是种豆芽的。"
+			tasks: [
+				{
+					id: "1BE1694CC6237D7C"
+					item: "tofucraft:sprouts"
+					type: "item"
+				}
+				{
+					id: "77B8B2DE0CAACBCB"
+					item: "tofucraft:blocksproutsjar"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D07CF5A37EB8E87"]
+			description: ["更贵、更好、更耐用的化肥，同样可用于有机灌注器中使用"]
+			id: "0DAD0F3FE6C3374B"
+			subtitle: "囸本的粮食再也不用从莓果进口啦！"
+			tasks: [{
+				id: "3A79E27637243500"
+				item: "kubejs:phytogro_zero"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: ["自动收集周围的鸡蛋。"]
+			id: "164D832950321F32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EB9C7CC9159CE19"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "鸡窝托斯"
+			tasks: [{
+				id: "5BBEC02D9B447801"
+				item: "farmingforblockheads:chicken_nest"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F002AE8AC37218"]
+			description: [
+				"放入对应饲料后可以自动喂养周围可喂养的生物并繁殖。"
+				"作用范围为八格，且范围内动物数量达到8只停止繁殖"
+			]
+			id: "193444C9FD1C994C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC78311E2BDDBD0"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "动物自动繁殖"
+			tasks: [{
+				id: "4178E168EC56D47B"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: [
+				"通过小市场，你可以买到很多难以获取的种子……"
+				"但不是所有种子都能直接买……"
+				"&l&o&4注：特定操作下会吞掉&6绿宝石&4。。。&o&l"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "5AE7951CEFB38667"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0183962ABD66C224"
+				table_id: 2563876056126530764L
+				type: "loot"
+			}]
+			subtitle: "买种子吗？"
+			tasks: [{
+				id: "4026CC9630B8F893"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["604A5A1FC71E428F"]
+			description: [
+				"众所周知，cti里提供了很多刷怪方式。"
+				"通过&6冶炼炉来冶炼生物&r获取蜂蜜的效率可比等着蜜蜂慢悠悠采集蜂蜜要高效的多……"
+			]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "tconstruct:smeltery_controller"
+				tag: {
+					texture: "tconstruct:seared_stone"
+				}
+			}
+			id: "5AD5493C67579E38"
+			subtitle: "更暴力，更先进，更高效"
+			tasks: [{
+				count: 16L
+				id: "68902BC810A27A03"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			title: "匠魂的养蜂小技巧？"
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	subtitle: [
+		"并非星期四"
+		"-by 天雨冰痕"
+	]
+	title: "乐事全家桶与豆腐工艺 —— 吃货天堂"
+}

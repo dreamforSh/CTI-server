@@ -1,0 +1,1538 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "north"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "south"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "west"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "true",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "true",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "true",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "true",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "true",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"vial_4": "false",
+			"vial_3": "false",
+			"vial_2": "false",
+			"vial_1": "false",
+			"vial_0": "false",
+			"facing": "east"
+		},
+		"Name": "biomancy:vial_holder"
+	}
+]

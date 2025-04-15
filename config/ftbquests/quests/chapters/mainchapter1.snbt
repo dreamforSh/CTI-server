@@ -1,0 +1,6892 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mainchapter1"
+	group: "7741820127317059"
+	icon: "etshtinker:hardlead_plate"
+	id: "0B9221D9E4CE1EFA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: 29.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "biomancy:item/loot/living_flesh"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/ftbq_images/chuizi.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/ftbq_images/humujing.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "kubejs:textures/ftbq_images/hui.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftblibrary:icons/down"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D3A2EFDBF3F1320"]
+			description: [
+				"机械动力是你在本章需要接触的第一个模组"
+				""
+				"没玩过也&a不用担心&r，在各种其他模组的加持下这个模组已经变得&a极其简单&r"
+				""
+				"并且机械动力还自带强大的思索系统，对着不懂的方块按住w即可思索"
+				""
+				"快发动寻思之力吧！"
+				""
+				"还记得前面送的&6工程师锤&r吗，这次咱们来玩点不一样的流程,敲板子会&c消耗其耐久&r，这里再送你一把吧"
+			]
+			id: "0ED937A115776F3E"
+			rewards: [
+				{
+					id: "428FA51DE95A9B76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "734EA049DD52D556"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18448CDD950353C1"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "机械动力，启动！"
+			tasks: [{
+				id: "689199A4CF7DB346"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "章节介绍"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["673842350B281F50"]
+			description: [
+				"你可能会诧异难道上来就做&c锅炉&r吗"
+				""
+				"是的！"
+				""
+				"&e工程师锤&r可以绕过前面繁琐的水车风车和辊压机步骤，这里你可以直接起锅炉"
+				""
+				"锅炉在&9蓝图里面有哦&r，可以用&9蓝图大炮&r直接打出来现成的"
+				""
+				"这里还有一些东西是锅炉需要用到的，尝试收集一下任务目标需要的吧！"
+				""
+				"如果你是新手并且用的整合包自带的蓝图，请看一下第二页"
+				""
+				"{@pagebreak}"
+				""
+				"由于机械动力蓝图文件本身的问题，如果你是&a任务预设的那个蓝图&r，你还需要手动铺一下&a9根传动杆&r，实际上很省事"
+				""
+				"{image:kubejs:textures/ftbq_images/p4.png width:130 height:100 align:1}"
+				""
+				"图中去掉了引擎方便演示，一定要保证是竖向的"
+				""
+				"水槽旁边的管道也记得调为抽取"
+				""
+				"烈焰人燃烧室全部用&a吸管右键&r（包括中间那个），就可以放&c熔岩&r启动了"
+			]
+			icon: "create:steam_engine"
+			id: "2858F1DE39B9D1CD"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "47948167AA94FDC1"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "02CE80E76B4A9DFA"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "是的，你没看错"
+			tasks: [
+				{
+					count: 36L
+					id: "7D3886A70F36C203"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6E7D2C4DF6509A70"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6C19253A8AF610AA"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "锅炉，启动!"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0ED937A115776F3E"]
+			description: [
+				"&9蓝图大炮&r是机械动力中非常好用的一个小工具，它可以让你&a&l轻而易举&r的建造出来各种&a预设好的结构&r"
+				""
+				"本包内置了沉浸工程全多方块结构和部分实用结构（如锅炉）的蓝图，这可以帮你节省很大一部分时间"
+				""
+				"如果你是&a新手&r，&e不会用蓝图&r,那么可以按&a&l任务翻页键&r来学习一下用法，真的&a超级简单&r的"
+				""
+				"如果你是&d机械动力大手子&r请直接前往下个任务点"
+				""
+				"{@pagebreak}"
+				""
+				"首先你需要一个叫做&6蓝图桌&r的东西"
+				""
+				"{image:kubejs:textures/ftbq_images/p0.png width:150 height:100 align:1}"
+				""
+				"把它放在地面上，&a像工作台一样右键打开&r即可查看"
+				""
+				"选择你需要的图纸，然后按下“(对号)”即可将你选定的图纸写到放置蓝图上"
+				""
+				"{@pagebreak}"
+				""
+				"拿着蓝图对着地面&a右键&r即可放置蓝图，根据&9下方提示&r将蓝图调整到&a合适的位置&r"
+				""
+				""
+				"{image:kubejs:textures/ftbq_images/p1.png width:150 height:100 align:1}"
+				""
+				"注意事项：切记要保证范围内&a干净规整&r，因为占用的方块会被直接&c吞掉&r，以免造成不必要的损失还是要检查一下"
+				""
+				"{@pagebreak}"
+				" "
+				"把蓝图放到&a蓝图大炮&r里面，你还需要向其中填入&7火药&r来驱动它"
+				""
+				"{image:kubejs:textures/ftbq_images/p3.png width:150 height:100 align:1}"
+				""
+				"大炮横向临格放置&6箱子/木桶等容器&r来提供建筑所用的方块"
+				""
+				"在大炮中放置&d书&r后拿出来可以查看清单(前提是你有容器）"
+				""
+				"按照书上收集齐就可以&b点击开始按钮&r开始打印了"
+				""
+				"{@pagebreak}"
+				"有些蓝图由于格式和部分方块的信息问题，打印出来可能和预期不一样，需要略作调整"
+			]
+			icon: "create:schematicannon"
+			id: "1EF9EE87D5E78AFC"
+			rewards: [{
+				count: 8
+				id: "39FF9702ADD277EF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04A915357149F95B"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "4471597C8EF0126E"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "64BE0585BE77328F"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EBBB8752760FDD9"]
+			description: [
+				"机械动力使用&c熔岩&r当燃料是极其明智的方法"
+				""
+				"你可能会担心去哪里能找到这么&c大的岩浆池&r呢，&4下界&r其实很多的哦"
+				""
+				"知道你前期跑图不容易，这里就勉为其难送你一瓶飞行药水吧，用在赶路上嗷。&d3分钟&r绝对足够你找到&c岩浆海&r了"
+				""
+				"将&6软管滑轮&r放置在&c熔岩层&r上方，在转轴面接上&7手摇曲柄&r（&a&lshift右击会顺时针旋转，直接右击是逆时针&r），将其软管伸到&c熔岩层深处&r，确保其周围相连有&e10000&r格熔岩"
+				""
+				"{image:kubejs:textures/ftbq_images/p2.png width:200 height:100 align:1}"
+				""
+				"此时你已经接好缓存开始抽取并且戴&e工程师护目镜&r望向软管滑轮它会提示\"&e视为无限\""
+				"&r"
+				"如果你使用&bPipez模组的流体管道&r并且将其改为&b抽取&r的话，它&a不需要动力也可以抽取熔岩&r，不过你&a需要接上容器类的东西"
+				""
+				"这时候你的任务就完成了，为了确保稳定运行，你还需要在这个区块&b放置一下区块加载器或者其他保持区块加载的东西&r"
+				""
+				"F3+G可以查看区块边界"
+				""
+				"这里送你一个&d指路石&r，后面还需要来哦"
+			]
+			icon: "minecraft:lava_bucket"
+			id: "716A41CB9E96C7AA"
+			rewards: [{
+				count: 2
+				id: "335A0305D798BA32"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "内容略长,耐心看完"
+			tasks: [
+				{
+					id: "489D7B9DC9CA9C68"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+				{
+					id: "3ACDD94BE2145C0F"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "1E043B93D092D884"
+					item: "chunkloaders:basic_chunk_loader"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "前期的无限熔岩的方法"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["716A41CB9E96C7AA"]
+			description: [
+				"你可能会好奇，有&c无限熔岩&r了，如何运回你的基地呢"
+				""
+				"&a循环加入了流体传输节点&r，这是前期&a极其便宜且强大的无线传输流体&r手段"
+				""
+				"而且可以&d跨纬度&r"
+				""
+				"&aGPS&r卡对着&a流体传输节点shift右键&r即可记录其信息"
+				""
+				"使用方法也很简单，只需要在&c“源头”&r的内部插入&c你想要输出到的方块的gps卡对应的位置&r，意思就是，&a&l卡指向哪个方块，就向哪个方块传输其中的流体&r"
+				""
+				"当你想要1对多的时候可以尝试一下&b嵌套&r(1号节点放2号的GPS卡，2号节点放3号的GPS卡......)"
+			]
+			icon: "cyclic:wireless_fluid"
+			id: "61C91163DFC92FCA"
+			rewards: [{
+				count: 9
+				id: "38449A193668FA11"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			subtitle: "必做的"
+			tasks: [
+				{
+					count: 2L
+					id: "7AFB12F10582FF23"
+					item: "cyclic:wireless_fluid"
+					type: "item"
+				}
+				{
+					id: "0E17174257F57E97"
+					item: "cyclic:location_data"
+					type: "item"
+				}
+			]
+			title: "无线，且跨纬度"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ED937A115776F3E"]
+			description: [
+				"机械动力中最为基础的材料，传动杆和很多机器都需要它"
+				""
+				"所以下矿时候看到安山岩或者闪长岩记得挖取一些吧，闪长岩可以和圆石合成安山岩"
+				""
+				"对着&a去皮的木头右键&r即可形成&6安山机壳&r，很神奇吧"
+				""
+				"其他机壳同理，铜机壳就用铜右键，黄铜机壳就用黄铜右键"
+				""
+				"机壳对着传动杆和传送带右键是可以将其装饰的"
+			]
+			icon: "create:andesite_alloy"
+			id: "333B832015A14FCE"
+			rewards: [{
+				count: 32
+				id: "008379DC182DF036"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "三废石终于少了俩"
+			tasks: [
+				{
+					id: "67FD4C58DBD09645"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "56A71EFEF492657E"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0637668E953F51C9"]
+			description: [
+				"&a锌和铜&r合金形成的一种合金"
+				""
+				"&b你可以直接在匠魂炉子中制作出来这种合金&r，无需烈焰人燃烧室也可以"
+				""
+				"是制作很多机器，结构所需的材料"
+			]
+			icon: "create:brass_ingot"
+			id: "248DC6FE865D1EAF"
+			rewards: [{
+				count: 16
+				id: "722ADB6FC1A3B3DE"
+				item: "create:zinc_ingot"
+				random_bonus: 10
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "真正的合金"
+			tasks: [
+				{
+					id: "02F6C29BF4B8C317"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "53D579ED5D385AB0"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["62EF52A9B2083245"]
+			description: ["传动的基本手段是靠这俩"]
+			icon: "create:shaft"
+			id: "0B3A07672A93D749"
+			rewards: [{
+				id: "55E2CA412892394A"
+				item: "minecraft:andesite"
+				random_bonus: 10
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0409429D78FE4C4C"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "7CBC4785D694A8B3"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62EF52A9B2083245"]
+			description: [
+				"正常而言你需要做出来&e精密构件&r才可以做这个，但是我们开始送了"
+				""
+				"&9&m毕竟谁也不喜欢堆一大堆变速齿轮，你说对吧&r"
+				""
+				"需要在其上部分狭槽部分插入&6大齿轮&r，然后齿轮或者下方传动杆处二选一输入应力，即可将另一端变成你设置的转速和方向"
+				""
+				"对着数字处&a按住右键&r可以调整转速和方向"
+			]
+			id: "14CE888145232CCB"
+			rewards: [{
+				id: "3A3AA3F175644786"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			subtitle: "压缩结构大小的神"
+			tasks: [{
+				id: "0B4FF6E143D66621"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62EF52A9B2083245"]
+			description: [
+				"可以1个地方输入应力，另外3个地方输出应力"
+				""
+				"这个&b会用到很多&r，所以放心&a多做点&r就可以"
+			]
+			icon: "create:gearbox"
+			id: "06F0A6289ED2078E"
+			rewards: [{
+				id: "4B798A0FD7E8D0D8"
+				item: "create:andesite_casing"
+				random_bonus: 10
+				type: "item"
+			}]
+			subtitle: "结构转向等等会用到很多很多"
+			tasks: [{
+				id: "145437A5BF492CF5"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"一只手玫瑰石英，一只手拿砂纸按住右键即可&m啃干净&r磨平滑石英"
+				""
+				"你也可以用机械手拿砂纸来自动磨制，后面也可以用mek的东西来制作"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "3827DE957366CB9F"
+			rewards: [{
+				count: 8
+				id: "1F7B334AD779C6B6"
+				item: "create:polished_rose_quartz"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "动作看起来像是在吃石英（"
+			tasks: [{
+				id: "738E6475C1A66A23"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7687FDCCA0CED7F7"
+				"333B832015A14FCE"
+				"1EF9EE87D5E78AFC"
+			]
+			description: [
+				"在其中可以购买各种植物（如海带等等），妈妈再也不用担心我满世界找作物了"
+				""
+				"这颗橡胶树是新手礼包送的，珍惜一些嗷"
+			]
+			id: "2EBBB8752760FDD9"
+			rewards: [{
+				id: "1437C33A25916A41"
+				item: "thermal:rubberwood_sapling"
+				type: "item"
+			}]
+			subtitle: "你绝对会用的上的"
+			tasks: [{
+				id: "282FFFCE39919D62"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"机械动力模组主要的的&c热源&r来源方式"
+				""
+				"用空的烈焰人燃烧室右键&6刷怪笼/烈焰人&r均可直接转化"
+				""
+				"有三种加热模式"
+				""
+				"默认状态就是无区别的&6&l0级火焰&r"
+				""
+				"加入熔岩等燃料就是&c&l1级火焰&r，也就是&c&l普通加热&r"
+				""
+				"喂食烈焰蛋糕或者柴油等可以转化为&b&l超级加热&r，会有更高的热能等级"
+				""
+				"其实这个东西还可以代替鼓风机的&c熔岩热源&r"
+			]
+			icon: "create:blaze_burner"
+			id: "673842350B281F50"
+			rewards: [{
+				count: 3
+				id: "1B73EE78ECF027D2"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "你也有今天"
+			tasks: [
+				{
+					count: 9L
+					id: "04BCE98E3D8FB8E5"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1D9B722567024150"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["673842350B281F50"]
+			description: [
+				"CCA添加的一种工具，可以将烈焰人燃烧室转化为流体燃烧模式"
+				""
+				"这种情况下烈焰人燃烧室类似于储罐，可以接受流体并且可以缓存部分流体"
+				""
+				"喂岩浆超级好用的，也可以喂柴油等等奇奇怪怪的燃料（想喂烈焰血也不是不行）"
+				""
+				"具体支持哪些燃料可以看jei"
+				""
+				"大部分情况下建议无脑流体管道通岩浆"
+				""
+				"注：&4&l直接储罐右键这个方块会吞东西，切记不要直接用mek之类的储罐右键它&r"
+			]
+			id: "0FCFF3678833E4C0"
+			rewards: [{
+				id: "57646B5FDAD6E958"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			subtitle: "为什么不喂它烈焰血"
+			tasks: [{
+				id: "7ACA5B4D09A5A201"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: [
+				"老生常谈的四种加热方式，具体可以直接看&a思索&r，简单易懂的"
+				""
+				"&6熔岩/烈焰人燃烧室                                    高炉熔炼&r"
+				""
+				"&e篝火/空烈焰人（点火状态）/火焰     烟熏模式&r"
+				""
+				"&9水                                                                       洗涤模式&r"
+				""
+				"&b灵魂火                                                             缠魂模式&r"
+				""
+				"注意小心点&c别伤到自己&r"
+				""
+				"转速越快格数越远"
+				""
+				"效率和鼓风机数量相关"
+			]
+			id: "2DAFD112A48A1F69"
+			rewards: [{
+				count: 4
+				id: "0FD50F388FA2C92E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "粒子加工"
+			tasks: [{
+				id: "27479543F0860A66"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"248DC6FE865D1EAF"
+				"3827DE957366CB9F"
+			]
+			description: [
+				"这位更是神"
+				""
+				"它&a可以代替你完成一些工作&r，甚至是&a钓海王&r，就像你本人一样"
+				""
+				"另外也是&a序列装配上放置物品&r能用到的"
+				""
+				"不过本包对假玩家略做了限制，使其伤害对10000血以上生物无效化"
+				""
+				"所以&c不要想着用这个磨死boss了&r"
+			]
+			id: "71B37EFF402B0C2B"
+			rewards: [{
+				count: 10
+				id: "7A752722CB485404"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "假玩家"
+			tasks: [{
+				id: "154FA495A8F8C9C8"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"机械动力附属添加的小玩意"
+				""
+				"可以用&a电量转化为应力&r"
+				""
+				"虽然&a不如锅炉耐用，但是方便&r啊"
+				""
+				"当然，这个东西的&c制作相当麻烦&r"
+				""
+				"起步阶段还是先锅炉吧"
+			]
+			id: "3BD3D6DDCE21E1D7"
+			optional: true
+			rewards: [{
+				id: "1F2463FA7C5C901B"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "237789AC5645B7E7"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62EF52A9B2083245"]
+			description: [
+				"无线传输应力的好手段"
+				""
+				"是的，这个东西很&d昂贵&r，如果你用不起我更推荐用&a矿车装配站搞移动式&r锅炉"
+			]
+			id: "6DFE93EE38F058EA"
+			rewards: [{
+				id: "06E39B7E5447CAA9"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E386F453C86F58A"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"01E0A6C792C60A8D"
+				"29E21F219F641A8B"
+			]
+			description: [
+				"这或许是你做机械动力最想要的一个东西吧"
+				""
+				"具体&a矿脉可以在JEI查看&r，值得注意的是，部分矿脉只有在&c特定群系&r才会刷新"
+				""
+				"不过我想你肯定奔着&8铋&r去的"
+				""
+				"探矿方式可以查看下面的任务"
+			]
+			icon: "createoreexcavation:drilling_machine"
+			id: "28E2122722681099"
+			optional: true
+			rewards: [
+				{
+					count: 10
+					id: "7DC87659F1FC8B36"
+					item: "minecraft:deepslate_diamond_ore"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "09B5C7587F541862"
+					item: "thermal:deepslate_silver_ore"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "有铋了"
+			tasks: [
+				{
+					id: "5B568BA5EB8B1AD5"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "37FE385BA91E716B"
+					item: "createoreexcavation:extractor"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0ED937A115776F3E"]
+			description: [
+				"机械动力中需要很多&a板材&r，虽然&7辊压机&r可以无损耗的做，但是在本包起步阶段我更推荐你用&e工程师锤&r直接敲出来,&a工作台合成&r即可"
+				""
+				"前期很缺铁，多补点"
+			]
+			icon: "create:iron_sheet"
+			id: "7687FDCCA0CED7F7"
+			rewards: [
+				{
+					count: 16
+					id: "2F593B8A0CC5C5D5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "653A072E4573FA04"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "需要好多"
+			tasks: [
+				{
+					count: 32L
+					id: "2713786ED7189C9D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/copper"
+						}
+					}
+					title: "Any #forge:plates/copper"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "43B42F14E4623B0D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/iron"
+						}
+					}
+					title: "Any #forge:plates/iron"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "09C7977A3A274DA1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/gold"
+						}
+					}
+					title: "Any #forge:plates/gold"
+					type: "item"
+				}
+			]
+			title: "一些板材"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3BD3D6DDCE21E1D7"
+				"307690994A9D4B28"
+				"15BCC233ABB91FEC"
+				"3D00C704E1989C35"
+				"61C91163DFC92FCA"
+				"2858F1DE39B9D1CD"
+			]
+			description: ["电动马达，锅炉，风车水车均可以提供应力，不过先做锅炉肯定是最为简便的"]
+			icon: "create:cogwheel"
+			id: "6150C4F647A5EA69"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5F0D21390ABAA0AA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "充足的应力是发展的必要条件"
+			tasks: [{
+				id: "7D78B063BC6F9CEA"
+				title: "充足的应力"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"需要配合强力胶使用"
+				""
+				"粘合结构后右键轴承即可运行"
+				""
+				"基础转速很慢，而且吃羊毛"
+				""
+				"在本包不是很推荐"
+			]
+			id: "15BCC233ABB91FEC"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "7164FE4D497746B5"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2CA7B19EFA38841B"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1701434252530722"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"原版必做的东西，是为了过渡到锅炉选择的大多数应力源"
+				""
+				"不过如果你已经有锅炉了就不需要这个了"
+			]
+			id: "307690994A9D4B28"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "1AA899A3145B016E"
+				item: "minecraft:oak_log"
+				random_bonus: 20
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ECB3A3F7B04C286"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"最为纯粹的人力驱动"
+				""
+				"并不要认为这个是一无是处的"
+				""
+				"在调试结构的时候这个很方便"
+				""
+				"使用的时候会快速消耗饱食度"
+			]
+			id: "3D00C704E1989C35"
+			optional: true
+			rewards: [{
+				id: "363C9B6A0CDD615A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "这个当然也是应力源了"
+			tasks: [{
+				id: "7150CAB24B28DCB3"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333B832015A14FCE"]
+			description: ["传输动力是不得不考虑的问题，这些东西你或许用的上"]
+			icon: "create:adjustable_chain_gearshift"
+			id: "62EF52A9B2083245"
+			rewards: [{
+				id: "367ACD92BCA352F2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FB83214F5190ABA"
+				type: "checkmark"
+			}]
+			title: "传动的好手段"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19DBCA14E3B7A773"]
+			description: [
+				"先看思索"
+				""
+				"记得要保证旋转方向正确"
+				""
+				"&a水平放置/垂直放置&r均可"
+				""
+				"&4他会对玩家造成很高的伤害，要小心！&r"
+			]
+			id: "3D7A4B793E16B94B"
+			rewards: [{
+				count: 10
+				id: "30D3CC1B3260DCCA"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			subtitle: "注意旋转方向"
+			tasks: [{
+				count: 2L
+				id: "2C841C5276515C30"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: [
+				"搭配机壳底盘和机械手可以形成非常好用的树场结构"
+				""
+				"而且有更高的传动杆转换效率"
+			]
+			id: "3CE2792550860C89"
+			rewards: [{
+				count: 5
+				id: "3D52BBC6FEA58CFE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E1435598155E52C"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0637668E953F51C9"]
+			description: [
+				"需要下方有&7工作盆&r，并且&7转速>32RPM&r才会工作"
+				""
+				"它也可以用于自动酿药，比如&d飞行药水&r..."
+				""
+				"如果你想用&a自动酿药&r，记得工作盆叠成&a阶梯状&r，这样可以顺着流程往下做"
+				""
+				"&c切记如果自动酿药，一定要把 &l  豆腐世界  的  盐 &r&c 加入黑名单过滤列表&r"
+			]
+			id: "323C7AED40D42454"
+			rewards: [
+				{
+					id: "0C6EC02BFBCA1D0E"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "7FC3620F9A3B0CB6"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+				{
+					id: "1CF297411DF03A41"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+			]
+			subtitle: "更进一步"
+			tasks: [{
+				id: "531D15A8E15D8CB2"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0637668E953F51C9"]
+			description: [
+				"可以无损耗的制作各种&b板材&r"
+				""
+				"当然也是制作&6高炉砖&r的必须机器"
+				""
+				"如果是“&a压块塑形&r”模式则需要下方有&7&l工作盆&r"
+			]
+			id: "428C454348391A3A"
+			rewards: [{
+				count: 8
+				id: "51EDE94E90F59709"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "锵"
+			tasks: [{
+				id: "2328ABDCDD17DF7E"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: [
+				"当有应力接入时候他会自动挖掘面前的方块"
+				""
+				"或许你可以尝试一下把他&a接入动态结构&r？"
+			]
+			id: "659EBDD5A77C72BE"
+			rewards: [{
+				id: "172C95911F6CC587"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "盾构机？"
+			tasks: [{
+				id: "1A87395FE7E382CE"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6150C4F647A5EA69"]
+			description: [
+				"做&6高炉砖&r的必需品"
+				""
+				"侧面框框有&b标记位置&r，可以放置&e物品/过滤器&r来过滤"
+				""
+				"常规情况下他并&c不会主动输出&r，想要用管道抽出产物你或需要过滤管道"
+				""
+				"但是如果你在它的&c侧面的斜下方位置&r有其他&a工作盆/传送带&r，他就会&a自动弹出产物&r"
+				""
+				"&b你学会了吗&r"
+			]
+			id: "0637668E953F51C9"
+			rewards: [{
+				count: 8
+				id: "3ED9FAB96C7A70C5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5BC9468679D19056"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0637668E953F51C9"]
+			description: [
+				"&c&l做高炉砖之前一定要做&r"
+				""
+				"可以过滤掉其他配方"
+				""
+				"只需要&aJEI左键拖到里面的框中&r即可，而且是默认的“&a白名单模式&r”"
+				""
+				"他还有个好姐妹叫&6属性过滤器&r，可以根据物品的部分性质（比如tag，是否能烧炼等）过滤物品。"
+			]
+			id: "3D466C8685F99675"
+			rewards: [{
+				count: 10
+				id: "5954F28372875FA9"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "必做"
+			tasks: [{
+				id: "4DD8C5BF2E3FAFD1"
+				item: "create:filter"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"323C7AED40D42454"
+				"3D466C8685F99675"
+				"428C454348391A3A"
+			]
+			description: [
+				"到这里，你就可以正式发展&e沉浸工程&r了"
+				""
+				"高炉基础版本只需要摆出来&a3x3x3的正方体&r即可，随后用工程师锤子敲击侧面中心"
+				""
+				"现在你可以做&7&l钢&r了"
+				""
+				"普通高炉&c工作速度较慢&r，因此你&a要有耐心一些&r"
+				""
+				"高炉支持的燃料可以在JEI查看"
+			]
+			icon: "immersiveengineering:blast_furnace"
+			id: "463BD743941643C1"
+			rewards: [{
+				count: 18
+				id: "28FC160546C10BB9"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 27L
+				id: "3030377C1F3C99DE"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "高炉"
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["463BD743941643C1"]
+			description: [
+				"钢在沉浸工程中是被&a大量使用&r的材料"
+				""
+				"原版沉浸需要&b60秒才能出1钢锭&r，不过本包将其时间&a&l降低了一半&r，而且&a前面需要的量并不大，因此不用过于担心&r"
+				""
+				"后面会有更高效的钢方案的"
+			]
+			icon: "ad_astra:steel_ingot"
+			id: "22BEC8AD4E4BE9DD"
+			rewards: [{
+				count: 9
+				id: "1A1F5BC3D3E17221"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "终于...做出来了"
+			tasks: [{
+				id: "3D2106A9AF9DC932"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "钢"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["463BD743941643C1"]
+			description: [
+				"更为高级的高炉，你需要给&a高炉预热器供电&r"
+				""
+				"供电后冶炼速度会被大幅提升"
+				""
+				"&b原料从上方&c炉口&r输入&r，&b成品和炉渣&r从&a下方的前后面&r输出"
+			]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "04C95E604429B1E9"
+			rewards: [{
+				id: "3ACEB6FC77BAE44D"
+				item: "gobber2:gobber2_foo_end"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "更高效的冶炼"
+			tasks: [
+				{
+					count: 27L
+					id: "40F43F0BFCB888F0"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "1B57CE33F8348073"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6CC6E7B43A1D0E27"
+					item: "immersiveengineering:blastfurnace_preheater"
+					type: "item"
+				}
+			]
+			title: "强化高炉"
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"22BEC8AD4E4BE9DD"
+				"098CE362D16572B2"
+			]
+			description: [
+				"前中期乃至星球阶段都能用得上的矿机"
+				""
+				"在饱和度最高点放置斗轮的下尖点即可通电启动并且享受最高效率（实际上不用那么强迫症）"
+				""
+				"输出口可以尝试用精妙存储的磁铁升级配合收集"
+				""
+				"具体有哪些矿脉可以在JEI查看"
+				""
+				"不过你肯定奔着辉铋矿去的"
+				""
+				"当然前期遇到了末影络合物矿脉你肯定也是无法拒绝的"
+			]
+			icon: "immersiveengineering:excavator"
+			id: "798EEA04C62A3F92"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "65DA496382E1C698"
+				item: "immersiveengineering:storage_steel"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "挖穿地心"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "437DCD8E218E4BC1"
+				type: "advancement"
+			}]
+			title: "斗轮式挖掘机"
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"798EEA04C62A3F92"
+				"28E2122722681099"
+			]
+			description: [
+				" 历经万难你终于是挖到了这种虚空矿物"
+				""
+				"但是看到后面做奇点还需要它，会不会有点小担心呢"
+			]
+			icon: "etshtinker:bismuthinite_ore_deepslate"
+			id: "3EC6B61326AAA312"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 14
+				id: "3433256AA65B8BF1"
+				item: "thermal:deepslate_lead_ore"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "终于..."
+			tasks: [
+				{
+					id: "36B6874CCD9CDC56"
+					item: "etshtinker:bismuthinite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00F89469BBD2F8F7"
+					item: "etshtinker:bismuthinite_ore_deepslate"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "铋"
+			x: 29.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"右键地面可以显示当前区块矿脉"
+				""
+				"区块中：当前区块有"
+				""
+				"周围有：以你为中心的3x3区块有"
+				""
+				"有痕迹：以你为中心的5x5区块内有"
+				""
+				"&n注：将鼠标悬停在JEI页面的矿机大图标上可以查看矿脉名称。"
+				""
+				"树苗图标则是查看群系黑白名单"
+			]
+			id: "01E0A6C792C60A8D"
+			rewards: [{
+				id: "5CA5DD2C9E3D15B6"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			subtitle: "单有矿机没找到矿脉怎么行呢"
+			tasks: [{
+				id: "22C3089D0B248207"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2C0395D2766292D9"]
+			description: [
+				"用这个右键按住对着泥土等方块可以显示就近矿脉位置"
+				""
+				"按照其提示的大概距离能找到矿脉中心"
+				""
+				"当其提示过近的时候你就可以用岩芯钻井二次采样了"
+			]
+			id: "5F6CE5C41F11EE4C"
+			subtitle: "寻找踪迹"
+			tasks: [{
+				id: "245B3ADBF7283228"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["248DC6FE865D1EAF"]
+			description: [
+				"按照所需要做的物品的配方摆放完毕后接入应力"
+				""
+				"记得要&l&a调整内部指针朝向&r，&a使其最终能集中到一个格子上&r"
+			]
+			id: "19DBCA14E3B7A773"
+			rewards: [{
+				count: 9
+				id: "5D29220F92516050"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "麻烦但是浪漫"
+			tasks: [{
+				count: 21L
+				id: "7B360859CEE236E8"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6150C4F647A5EA69"]
+			description: ["一些你或许用得上的机器"]
+			hide_dependent_lines: true
+			id: "112E8741C3C8D87F"
+			shape: "rsquare"
+			tasks: [{
+				id: "48C69646FD98FA95"
+				title: "机械动力其他机器"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71B37EFF402B0C2B"]
+			description: [
+				"建议用传送带和机械手并行制作"
+				""
+				"需要循环&a3次&r（&m&l是的，原版是5次而且还有20%失败，已经降低难度了&r）"
+				""
+				"我知道这玩意很麻烦，所以送你一点吧"
+			]
+			id: "4CDDA19402DCCD1B"
+			rewards: [{
+				count: 3
+				id: "3FBD3BDEF1AEAEB8"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			subtitle: "手搓人的噩梦"
+			tasks: [{
+				id: "113998BE3C259AA0"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4CDDA19402DCCD1B"
+				"3D7A4B793E16B94B"
+			]
+			description: ["这个其实比精密构件简单"]
+			id: "29E21F219F641A8B"
+			rewards: [{
+				count: 10
+				id: "3BE6F4DE6912071D"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "也是制作火车的必需品"
+			tasks: [{
+				id: "021CC53D239FE5D8"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3EC6B61326AAA312"]
+			description: [
+				"不能自动输入输出真是坏文明"
+				""
+				"差评"
+				""
+				"不过它是产硬铅板利用率最高的设备，先凑合用一用吧，后面会有高效办法的。"
+			]
+			id: "456CF806DB52D39A"
+			optional: true
+			subtitle: "不能自动化的窑"
+			tasks: [{
+				count: 8L
+				id: "3B072DB21C5F3998"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			title: "合金窑"
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["456CF806DB52D39A"]
+			description: [
+				"截止到这里你就可以正式前往第二章了"
+				""
+				"但是这章其他东西还是建议你做一下"
+				""
+				"或许后面用得上呢？"
+			]
+			id: "70F43F36B88930CC"
+			rewards: [{
+				count: 16
+				id: "4F6A542451C2D16B"
+				item: "etshtinker:hardlead_plate"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "653B242B7C93AC4B"
+				item: "etshtinker:hardlead_plate"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: [
+				"小灌装机"
+				""
+				"而且你有些时候可以做一些独特的东西"
+				""
+				"比如&a好吃的奶油面包&r"
+			]
+			id: "0F59F24C63F8531C"
+			rewards: [{
+				id: "4EDD0056DE2AC84F"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "可以用于罐装一些物品"
+			tasks: [{
+				id: "4F6A468795B9A9EC"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: ["会分离出来&a桶/瓶子&r中的流体"]
+			id: "175CBF68128E526A"
+			rewards: [{
+				id: "449747AFBCEB75A4"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "建议配合传送带"
+			tasks: [{
+				id: "39D8FFDD7256849E"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: [
+				"在动态结构中会自动收割并且补种"
+				""
+				"很浪漫不是吗"
+			]
+			id: "3FD21DF2D47415C2"
+			shape: "rsquare"
+			subtitle: "需搭配动态结构"
+			tasks: [{
+				id: "79B725A7A7DA4A76"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["112E8741C3C8D87F"]
+			description: ["在动态结构中平杂草等东西的工具"]
+			id: "75F796400F3A10CF"
+			shape: "rsquare"
+			subtitle: "需要搭配动态结构"
+			tasks: [{
+				id: "4790240F2FD6A69C"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"会不会好奇这玩意有啥用"
+				""
+				"是的，这种材料可以&a凭空生成动物&r"
+				""
+				"只需要&a用其制作的工具对着训练人偶右键&r"
+				""
+				"不要想着让假玩家用它，会炸掉的，所以取消了假玩家判定"
+			]
+			icon: "tinkerscalibration:grain_ingot"
+			id: "71307D791FBF264C"
+			rewards: [{
+				count: 12
+				id: "37D6417595E21336"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			subtitle: "一种名为谷锭的材料"
+			tasks: [
+				{
+					id: "63B0C4093AD957DF"
+					item: "tinkerscalibration:grain_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74D32AAF85956612"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+			]
+			title: "欢迎来到血肉重铸"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71307D791FBF264C"]
+			description: [
+				"它本身的&a伤害很低，很难用&r"
+				""
+				"不过放在&a副手&r仍然生效"
+				""
+				"可以让你获取一些&a特殊的掉落物&r"
+			]
+			id: "5991CD600304C4CC"
+			rewards: [
+				{
+					count: 2
+					id: "431BC8E23BB1B78E"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "43BED6A1660B975C"
+					item: "biomancy:mob_claw"
+					type: "item"
+				}
+			]
+			subtitle: "开始血肉生涯"
+			tasks: [{
+				id: "5B5D7C0ECEC8F9B6"
+				item: {
+					Count: 1b
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5991CD600304C4CC"]
+			description: [
+				"你可以在jei搜索&c\"抽筋脱骨\"&r"
+				""
+				"可以看到一个&b匠魂强化&r"
+				""
+				"它的作用和抽筋脱骨附魔书一样，而且有&a更高的上限等级&r，可以&a帮你获取大量的血肉重铸专属物品&r"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "solidarytinker:despoil"
+				}
+			}
+			id: "455D745CF9463E5D"
+			subtitle: "有这玩意谁还用那个破镰刀"
+			tasks: [{
+				id: "3FF2363B9B8B25FC"
+				type: "checkmark"
+			}]
+			title: "匠魂强化"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5991CD600304C4CC"]
+			description: [
+				"&c不要拿贵重物品右键喂它!&r"
+				"&c不要拿贵重物品右键喂它!&r"
+				"&c不要拿贵重物品右键喂它!&r"
+				""
+				"喂食肉（&c别喂腐肉&r）类会增加其进度条（侧面的小眼睛紫色程度）"
+				""
+				"满了之后喂食&d治疗药水&r，短暂时间后有极高概率出来一个&c肉块&r小生物"
+				""
+				"击杀了就可以获得&c活肉&r了"
+				""
+				"也有概率失败，会在下方方块形成一个&c恶性肉块&r"
+				""
+				"记得如果失败了及时清除恶性经脉，不然会&c蔓延&r"
+				""
+				"如果失败了就再来一次！"
+			]
+			id: "4768F38F7B4A3BAB"
+			rewards: [
+				{
+					id: "0737667D57FB8D3F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A735D92374E9A38"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "这位更是重量级"
+			tasks: [{
+				id: "6550F9975CAC9696"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"本章主要涉及3个模组："
+				""
+				"&a机械动力（高炉前置）&r"
+				""
+				"&a沉浸工程（钢/硬铅）&r"
+				""
+				"&c血肉重铸（方便获取一些难获取的生物制品等）&r"
+				""
+				"其中&b血肉重铸和沉浸原油为可选内容&r，但是&a非常推荐做，因为会舒服很多&r（后面要用到部分油）"
+				""
+				"{@pagebreak}"
+				""
+				"时间比较紧迫，目前任务还是初版，部分东西描述可能不是很全，但主要部分已经完善"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/accept.png"
+				}
+			}
+			id: "4D3A2EFDBF3F1320"
+			rewards: [
+				{
+					id: "1DAA9C49D90C2E0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "705EF042B78DD127"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "43D78439D2E7E52D"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "本章须知"
+			tasks: [{
+				id: "6CBAF7F4EA428A27"
+				type: "checkmark"
+			}]
+			title: "第一章的开始"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4768F38F7B4A3BAB"]
+			description: ["据说它还在动"]
+			id: "44DA77E745886EAE"
+			rewards: [{
+				count: 5
+				id: "2F4FE04F6488F366"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			subtitle: "好恶心"
+			tasks: [{
+				id: "7BE637601DD9427C"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5991CD600304C4CC"]
+			description: [
+				"毒腺需要&8洞穴蜘蛛&r才可以"
+				""
+				"其他的都比较好获得"
+				""
+				"而且几个&a还可以吃&r，吃了会怎么样就不清楚了...反正&c别在低血量时候吃就行&r"
+			]
+			icon: "biomancy:mob_sinew"
+			id: "350558F695ACB4A4"
+			rewards: [{
+				description: ""
+				id: "70809E9757124DC6"
+				title: "泥旧逝生物专家，快把这些献给那张巨口吧"
+				type: "toast"
+			}]
+			subtitle: "独特掉落也就这些"
+			tasks: [
+				{
+					id: "57BF234805BDBBD2"
+					item: "biomancy:mob_sinew"
+					type: "item"
+				}
+				{
+					id: "2B988AF0AB56097A"
+					item: "biomancy:mob_fang"
+					type: "item"
+				}
+				{
+					id: "127AD4EFA9E24CE6"
+					item: "biomancy:mob_claw"
+					type: "item"
+				}
+				{
+					id: "5BCA54453868D237"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "129A7614F161C556"
+					item: "biomancy:withered_mob_marrow"
+					type: "item"
+				}
+				{
+					id: "3B8B040FEEE41377"
+					item: "biomancy:mob_gland"
+					type: "item"
+				}
+				{
+					id: "4FC18CF7E10BD354"
+					item: "biomancy:toxin_gland"
+					type: "item"
+				}
+				{
+					id: "2E99B03AE244BCA9"
+					item: "biomancy:volatile_gland"
+					type: "item"
+				}
+			]
+			title: "生物掉落大收集"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"44DA77E745886EAE"
+				"2D0B37E0F6B627FA"
+			]
+			description: [
+				"主要用于生产一些血肉重铸的原料，配方可以在JEI查看"
+				""
+				"&d怪异尘&r可以分解&d烈焰棒&r来获取（你前面都做了烈焰血自动化不会缺这个了吧）"
+				""
+				"头颅分解价值也极高，前面送的头颅有大用了呢😈"
+			]
+			id: "3466893A9AA38F62"
+			rewards: [{
+				count: 10
+				id: "200EB99B3880B18F"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			subtitle: "牙口真好"
+			tasks: [{
+				id: "6D3E619380237133"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"44DA77E745886EAE"
+				"2D0B37E0F6B627FA"
+			]
+			description: [
+				"可以制作一些生物制品"
+				""
+				"比较有用的有"
+				""
+				"末影珍珠"
+				""
+				"狂风人掉落物"
+				""
+				"暴雪人掉落物"
+				""
+				"岩石人掉落物"
+				""
+				"海绵"
+				""
+				"海龟鳞片"
+				""
+				"鹦鹉螺"
+			]
+			id: "03699BAF1A38B340"
+			rewards: [{
+				count: 4
+				id: "3EB044AC61B84908"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "“重铸”"
+			tasks: [{
+				id: "75E4C95A253454E1"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"03699BAF1A38B340"
+				"3466893A9AA38F62"
+				"2D0B37E0F6B627FA"
+			]
+			description: [
+				"像胃囊一样蠕动"
+				""
+				"可以喂给它&a各种杂七杂八的可消化&r的让它给你转化成&a营养膏&r"
+				""
+				"&a营养棒和营养膏&r都可以给血肉机器&a供能&r"
+				""
+				"营养膏看着很奇怪，但做成&a营养棒&r就可以嘎嘎吃了"
+				""
+				"毕竟加那么多呢"
+				""
+				"你问我喂它什么比较好？"
+				""
+				"&c去下界连锁一些下界疣块吧，能让你吃好久&r"
+			]
+			id: "2A828380CB6B019A"
+			rewards: [{
+				count: 64
+				id: "57AA69CCBBDB0BF5"
+				item: "minecraft:nether_wart_block"
+				type: "item"
+			}]
+			subtitle: "高效营养"
+			tasks: [{
+				id: "774A465028ADA652"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44DA77E745886EAE"]
+			description: [
+				"血肉重铸机器都是需要营养供给的，在你&a做出来消化器之前先用一些食物（如西瓜皮等）放在左边转化槽转化为营养&r"
+				""
+				"&6上方输入原料&r"
+				""
+				"&b侧面供给营养&r"
+				""
+				"&d下方输出产物&r"
+				""
+				"怎么感觉这么像&c熔炉&r呢"
+			]
+			id: "2D0B37E0F6B627FA"
+			subtitle: "看我一眼啊"
+			tasks: [{
+				id: "740572A6FB792032"
+				title: "注意事项"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A828380CB6B019A"]
+			description: [
+				"可以酿造一些生物药剂"
+				""
+				"具体药剂效果可以在信息显示查看"
+				""
+				"需要装载在这个扎针上&ashift右键&r才能注射给自己"
+				""
+				"&b值得注意的是如果被注射的生物有护甲将会有概率失败，护甲越高失败率越高，可以增加其模组自带的附魔来穿透（大多数时候都是给自己打针，记得脱甲打药就行）&r"
+				""
+				"直接右键生物就是注射给生物"
+				""
+				"这里特别提一下&a伤痛反应原液&r，这个东西虽然造价略高，但是可以给你无限的💛"
+				""
+				"说不定和某些材料有独特效果呢"
+			]
+			icon: "biomancy:bio_lab"
+			id: "29BE56A6D0556FF8"
+			rewards: [
+				{
+					id: "71CEB65E21C233A3"
+					item: "biomancy:mob_marrow"
+					type: "item"
+				}
+				{
+					id: "469181B10810F65D"
+					item: "biomancy:volatile_gland"
+					type: "item"
+				}
+				{
+					id: "1E303F04FE6C4D27"
+					item: "biomancy:withered_mob_marrow"
+					type: "item"
+				}
+			]
+			subtitle: "不是原版酿药"
+			tasks: [
+				{
+					id: "3ABB7D6479AD4E63"
+					item: "biomancy:bio_lab"
+					type: "item"
+				}
+				{
+					id: "3E64F6CF81856FD2"
+					item: {
+						Count: 1b
+						id: "biomancy:injector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["03699BAF1A38B340"]
+			description: [
+				"一种前期较为强势的材料"
+				""
+				"有腐蚀伤害和💛转攻击"
+				""
+				"但是面板较低"
+				""
+				"如果你爱玩血肉重铸或许可以尝试一下呢"
+			]
+			hide: true
+			id: "5998A2EBEE604DED"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "38163C99BAE9916C"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "想起来了Herobug"
+			tasks: [{
+				id: "0F2B2488D97B0320"
+				item: "solidarytinker:bloodmeat_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"和高炉类似，不过只需要扔进去煤和煤块即可"
+				""
+				"烧制时间极长，有耐心一些"
+				""
+				"后面需要杂酚油可以用热力的热解炉"
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "7BAAD3B7D64371EA"
+			rewards: [{
+				id: "4A81FDB7E995F18F"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			subtitle: "奔着杂酚油来的"
+			tasks: [{
+				count: 27L
+				id: "0514C5DF080C608F"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "焦炉"
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["065B8E498C3343AA"]
+			description: [
+				"沉浸工程和机械动力附属的发电都并不理想"
+				""
+				"所以前期我更推荐你用一下powah模组的发电，硬化级以下是绝对够用的,因为前期电量需求并不高"
+			]
+			icon: "powah:reactor_basic"
+			id: "2C0395D2766292D9"
+			rewards: [{
+				count: 10
+				id: "42EA6F429BA853AF"
+				item: "powah:uraninite_raw"
+				type: "item"
+			}]
+			subtitle: "二选一即可"
+			tasks: [
+				{
+					id: "2CEE335477DC30F8"
+					item: "powah:solar_panel_starter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5DA6A7075194A1A0"
+					item: "powah:reactor_basic"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "powah发电"
+			x: 26.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"      Powah!模组提供了大量的可配置的发电机，以及一种新的合成方式。在本包中，Powah!仅用于发电，作为可选章节。"
+				"&b      相比其它模组，powah的发电设施用起来简单，合成起来略微套娃（太阳能板除外）。本包也对部分配方进行了魔改使不同发电设备间具有一定分层。"
+			]
+			icon: "powah:energizing_rod_starter"
+			id: "065B8E498C3343AA"
+			rewards: [{
+				count: 10
+				id: "7DF00D7678EB079C"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "非常推荐的前期发电装置"
+			tasks: [
+				{
+					id: "2412AF05F952B5A1"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+				{
+					id: "4A7A83C5933B96B6"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+			]
+			title: "前期如何为这些巨大的机器供电呢？"
+			x: 26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2DCDC1FCFC6FCA62"
+				"22BEC8AD4E4BE9DD"
+				"2C0395D2766292D9"
+			]
+			icon: "immersivepetroleum:seismic_survey"
+			id: "3C20C368C57F9CD7"
+			rewards: [{
+				count: 10
+				id: "4885A69E6111422C"
+				item: "immersiveengineering:buckshot"
+				type: "item"
+			}]
+			subtitle: "探测石油等"
+			tasks: [
+				{
+					id: "79FCD78102A377AE"
+					item: "immersivepetroleum:seismic_survey"
+					type: "item"
+				}
+				{
+					id: "4DA7334BA31D68B4"
+					item: "immersiveengineering:buckshot"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BAAD3B7D64371EA"]
+			description: ["其他的辉光管啥的也是有用的"]
+			icon: "immersiveengineering:workbench"
+			id: "2DCDC1FCFC6FCA62"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "制作鹿弹需要用上"
+			tasks: [
+				{
+					id: "491D181C43C7D9D4"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+				{
+					id: "777E974E272D20D0"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C20C368C57F9CD7"]
+			description: [
+				"白色的明显区块说明有油藏"
+				""
+				"其他地方则无效，鼠标放上去会显示大致坐标"
+				""
+				"找油要有耐心一些，万一不是油呢"
+			]
+			id: "2AA13006A17C3981"
+			rewards: [{
+				id: "27C3903D6D43FDCF"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			subtitle: " 放置鹿弹后右击获得的图纸"
+			tasks: [{
+				id: "431C96038500F7E2"
+				item: {
+					Count: 1b
+					id: "immersivepetroleum:survey_result"
+					tag: {
+						surveyscan: {
+							map: [B;
+								-19b
+								87b
+								-47b
+								-92b
+								-73b
+								-112b
+								-63b
+								69b
+								118b
+								-66b
+								78b
+								-47b
+								-91b
+								59b
+								-77b
+								-40b
+								71b
+								75b
+								-126b
+								-99b
+								43b
+								111b
+								-91b
+								-108b
+								57b
+								-75b
+								80b
+								-112b
+								106b
+								59b
+								-119b
+								-96b
+								78b
+								-126b
+								-87b
+								69b
+								90b
+								69b
+								-63b
+								90b
+								-78b
+								-127b
+								-124b
+								103b
+								-63b
+								78b
+								96b
+								-71b
+								-56b
+								48b
+								-119b
+								-42b
+								61b
+								-36b
+								75b
+								57b
+								120b
+								61b
+								-42b
+								-71b
+								110b
+								-12b
+								66b
+								-1b
+								115b
+								-73b
+								85b
+								-47b
+								-101b
+								-12b
+								97b
+								111b
+								-38b
+								89b
+								-126b
+								69b
+								85b
+								82b
+								57b
+								-45b
+								-52b
+								89b
+								61b
+								-68b
+								-66b
+								59b
+								-112b
+								117b
+								-99b
+								57b
+								52b
+								75b
+								62b
+								-71b
+								89b
+								97b
+								80b
+								110b
+								-105b
+								117b
+								-75b
+								78b
+								-106b
+								124b
+								-92b
+								122b
+								104b
+								120b
+								92b
+								-117b
+								-91b
+								96b
+								-84b
+								62b
+								-49b
+								-84b
+								-99b
+								122b
+								-80b
+								-91b
+								-66b
+								-33b
+								-78b
+								-80b
+								62b
+								-15b
+								104b
+								-99b
+								-42b
+								-24b
+								-50b
+								-19b
+								59b
+								92b
+								-10b
+								-73b
+								103b
+								-64b
+								110b
+								43b
+								-40b
+								75b
+								47b
+								-73b
+								-49b
+								-115b
+								61b
+								99b
+								-63b
+								-80b
+								-115b
+								-78b
+								97b
+								-85b
+								-119b
+								-71b
+								59b
+								68b
+								-92b
+								-80b
+								-115b
+								-120b
+								104b
+								-117b
+								54b
+								117b
+								115b
+								122b
+								75b
+								-96b
+								78b
+								-92b
+								-112b
+								54b
+								-115b
+								99b
+								-92b
+								-68b
+								-113b
+								66b
+								-122b
+								106b
+								124b
+								-115b
+								122b
+								108b
+								-87b
+								69b
+								-47b
+								-113b
+								-45b
+								122b
+								-57b
+								75b
+								-92b
+								-124b
+								85b
+								-127b
+								-35b
+								-33b
+								-112b
+								-35b
+								-78b
+								-40b
+								108b
+								-96b
+								50b
+								-117b
+								85b
+								59b
+								61b
+								-63b
+								-80b
+								-127b
+								-84b
+								103b
+								47b
+								83b
+								54b
+								127b
+								50b
+								83b
+								-82b
+								-126b
+								-96b
+								-103b
+								73b
+								-110b
+								-127b
+								-110b
+								111b
+								111b
+								76b
+								78b
+								-78b
+								57b
+								80b
+								38b
+								40b
+								80b
+								115b
+								-78b
+								50b
+								94b
+								82b
+								-126b
+								-105b
+								-110b
+								-101b
+								94b
+								-35b
+								76b
+								76b
+								89b
+								104b
+								75b
+								124b
+								104b
+								94b
+								-35b
+								-33b
+								-28b
+								-77b
+								-57b
+								108b
+								96b
+								50b
+								-98b
+								94b
+								89b
+								-92b
+								-108b
+								59b
+								-108b
+								-82b
+								54b
+								61b
+								40b
+								57b
+								104b
+								-106b
+								106b
+								96b
+								40b
+								73b
+								-119b
+								-92b
+								80b
+								-94b
+								-124b
+								68b
+								-113b
+								-92b
+								45b
+								97b
+								52b
+								-94b
+								108b
+								76b
+								97b
+								78b
+								-112b
+								-101b
+								62b
+								-80b
+								36b
+								78b
+								-73b
+								-122b
+								-103b
+								43b
+								-71b
+								-113b
+								76b
+								-49b
+								-49b
+								-71b
+								-43b
+								-106b
+								-119b
+								-59b
+								-35b
+								-126b
+								-80b
+								73b
+								-80b
+								-126b
+								59b
+								-112b
+								-77b
+								50b
+								-82b
+								-45b
+								-84b
+								75b
+								125b
+								64b
+								64b
+								127b
+								127b
+								66b
+								41b
+								104b
+								-82b
+								99b
+								117b
+								-106b
+								38b
+								111b
+								45b
+								38b
+								43b
+								-119b
+								104b
+								125b
+								108b
+								31b
+								64b
+								50b
+								80b
+								55b
+								43b
+								106b
+								106b
+								-127b
+								41b
+								92b
+								-120b
+								89b
+								-84b
+								47b
+								-99b
+								-98b
+								-84b
+								78b
+								110b
+								117b
+								96b
+								122b
+								97b
+								-124b
+								-87b
+								87b
+								-84b
+								-59b
+								-96b
+								99b
+								-19b
+								85b
+								117b
+								64b
+								92b
+								-57b
+								-71b
+								75b
+								-94b
+								-52b
+								103b
+								-57b
+								-108b
+								97b
+								-70b
+								-85b
+								76b
+								73b
+								-89b
+								124b
+								69b
+								-80b
+								59b
+								104b
+								55b
+								99b
+								117b
+								52b
+								47b
+								71b
+								62b
+								-124b
+								97b
+								87b
+								31b
+								-99b
+								71b
+								31b
+								124b
+								-99b
+								-105b
+								87b
+								64b
+								47b
+								-112b
+								101b
+								103b
+								-110b
+								-103b
+								99b
+								120b
+								125b
+								64b
+								106b
+								-63b
+								-120b
+								-57b
+								96b
+								120b
+								92b
+								-101b
+								85b
+								127b
+								57b
+								127b
+								-126b
+								-45b
+								-10b
+								87b
+								-38b
+								-68b
+								75b
+								125b
+								73b
+								54b
+								-50b
+								75b
+								54b
+								-71b
+								-78b
+								-64b
+								113b
+								92b
+								122b
+								-87b
+								82b
+								120b
+								34b
+								96b
+								68b
+								80b
+								61b
+								111b
+								54b
+								122b
+								31b
+								75b
+								106b
+								73b
+								104b
+								-110b
+								80b
+								127b
+								75b
+								99b
+								69b
+								97b
+								113b
+								106b
+								80b
+								122b
+								-127b
+								-127b
+								110b
+								50b
+								73b
+								108b
+								-115b
+								-101b
+								41b
+								-92b
+								110b
+								-63b
+								127b
+								113b
+								-85b
+								54b
+								-94b
+								-54b
+								124b
+								103b
+								117b
+								76b
+								-91b
+								108b
+								-113b
+								125b
+								80b
+								-50b
+								-105b
+								-77b
+								66b
+								52b
+								64b
+								76b
+								57b
+								97b
+								78b
+								104b
+								101b
+								61b
+								-108b
+								69b
+								-117b
+								89b
+								-122b
+								80b
+								41b
+								52b
+								113b
+								27b
+								97b
+								115b
+								62b
+								-124b
+								87b
+								78b
+								101b
+								103b
+								50b
+								68b
+								-127b
+								-119b
+								92b
+								50b
+								110b
+								118b
+								117b
+								-105b
+								47b
+								57b
+								111b
+								38b
+								-124b
+								-71b
+								71b
+								73b
+								62b
+								82b
+								-56b
+								41b
+								47b
+								69b
+								-50b
+								-103b
+								-35b
+								108b
+								-54b
+								-122b
+								62b
+								64b
+								-43b
+								89b
+								55b
+								108b
+								-84b
+								-117b
+								-68b
+								40b
+								73b
+								-73b
+								-92b
+								57b
+								103b
+								103b
+								-94b
+								33b
+								-126b
+								82b
+								110b
+								117b
+								108b
+								71b
+								104b
+								55b
+								38b
+								76b
+								87b
+								47b
+								71b
+								117b
+								47b
+								64b
+								124b
+								78b
+								-120b
+								62b
+								-122b
+								82b
+								71b
+								75b
+								120b
+								117b
+								31b
+								43b
+								75b
+								-99b
+								52b
+								122b
+								87b
+								-94b
+								80b
+								66b
+								115b
+								41b
+								-73b
+								-50b
+								-49b
+								125b
+								111b
+								-71b
+								124b
+								-36b
+								-94b
+								-59b
+								-64b
+								-40b
+								-98b
+								-66b
+								-96b
+								69b
+								-98b
+								117b
+								-71b
+								-119b
+								96b
+								-122b
+								110b
+								122b
+								71b
+								-108b
+								103b
+								78b
+								41b
+								36b
+								78b
+								127b
+								92b
+								90b
+								110b
+								113b
+								89b
+								31b
+								66b
+								82b
+								94b
+								97b
+								40b
+								78b
+								68b
+								122b
+								-119b
+								50b
+								59b
+								90b
+								68b
+								-124b
+								96b
+								40b
+								96b
+								-122b
+								78b
+								104b
+								-119b
+								59b
+								108b
+								-87b
+								-80b
+								90b
+								40b
+								-126b
+								-68b
+								-59b
+								-57b
+								64b
+								-112b
+								118b
+								76b
+								-94b
+								-64b
+								-57b
+								-101b
+								45b
+								69b
+								87b
+								-63b
+								-68b
+								117b
+								-99b
+								82b
+								59b
+								-91b
+								113b
+								73b
+								-119b
+								82b
+								94b
+								-126b
+								31b
+								33b
+								64b
+								94b
+								-126b
+								118b
+								78b
+								127b
+								106b
+								111b
+								111b
+								50b
+								43b
+								120b
+								26b
+								36b
+								106b
+								110b
+								85b
+								124b
+								124b
+								90b
+								117b
+								80b
+								103b
+								125b
+								96b
+								-103b
+								41b
+								124b
+								122b
+								82b
+								99b
+								-91b
+								-80b
+								48b
+								127b
+								96b
+								106b
+								-91b
+								120b
+								125b
+								-35b
+								-68b
+								54b
+								-122b
+								-49b
+								-106b
+								82b
+								-57b
+								124b
+								96b
+								111b
+								59b
+								-105b
+								-80b
+								-120b
+								62b
+								85b
+								108b
+								43b
+								75b
+								47b
+								54b
+								-120b
+								48b
+								127b
+								127b
+								97b
+								96b
+								117b
+								31b
+								62b
+								64b
+								115b
+								68b
+								101b
+								45b
+								113b
+								48b
+								52b
+								115b
+								61b
+								61b
+								104b
+								36b
+								-127b
+								38b
+								104b
+								-117b
+								115b
+								31b
+								-108b
+								127b
+								45b
+								-106b
+								59b
+								52b
+								-99b
+								-84b
+								-103b
+								92b
+								69b
+								-98b
+								-56b
+								-112b
+								97b
+								-45b
+								-59b
+								47b
+								127b
+								52b
+								89b
+								101b
+								-96b
+								122b
+								-115b
+								73b
+								83b
+								69b
+								78b
+								34b
+								104b
+								55b
+								54b
+								71b
+								43b
+								-127b
+								108b
+								94b
+								62b
+								52b
+								124b
+								45b
+								47b
+								80b
+								69b
+								108b
+								38b
+								62b
+								78b
+								36b
+								85b
+								73b
+								61b
+								64b
+								62b
+								113b
+								31b
+								50b
+								68b
+								45b
+								80b
+								41b
+								34b
+								69b
+								-124b
+								-113b
+								29b
+								61b
+								75b
+								90b
+								94b
+								71b
+								-92b
+								76b
+								125b
+								-91b
+								-85b
+								-106b
+								-77b
+								68b
+								-66b
+								76b
+								-98b
+								-52b
+								54b
+								110b
+								-126b
+								-126b
+								-124b
+								82b
+								-103b
+								-87b
+								122b
+								73b
+								54b
+								78b
+								101b
+								45b
+								38b
+								54b
+								97b
+								45b
+								68b
+								59b
+								117b
+								69b
+								113b
+								24b
+								111b
+								54b
+								61b
+								71b
+								68b
+								103b
+								71b
+								108b
+								83b
+								40b
+								97b
+								76b
+								111b
+								27b
+								115b
+								33b
+								61b
+								85b
+								73b
+								54b
+								83b
+								103b
+								106b
+								38b
+								-115b
+								124b
+								115b
+								40b
+								82b
+								-92b
+								71b
+								125b
+								-80b
+								-127b
+								69b
+								97b
+								-112b
+								125b
+								-124b
+								45b
+								-119b
+								-98b
+								111b
+								120b
+								108b
+								36b
+								106b
+								90b
+								-122b
+								66b
+								78b
+								34b
+								82b
+								90b
+								118b
+								40b
+								45b
+								124b
+								27b
+								78b
+								45b
+								52b
+								111b
+								61b
+								101b
+								33b
+								57b
+								26b
+								47b
+								103b
+								26b
+								36b
+								26b
+								71b
+								50b
+								71b
+								75b
+								29b
+								57b
+								66b
+								50b
+								111b
+								71b
+								110b
+								33b
+								104b
+								110b
+								48b
+								87b
+								48b
+								64b
+								47b
+								40b
+								103b
+								90b
+								-108b
+								127b
+								124b
+								96b
+								-122b
+								103b
+								52b
+								125b
+								-78b
+								92b
+								118b
+								50b
+								-78b
+								94b
+								78b
+								-92b
+								38b
+								-101b
+								83b
+								90b
+								62b
+								94b
+								41b
+								45b
+								48b
+								103b
+								-126b
+								104b
+								54b
+								124b
+								80b
+								104b
+								82b
+								36b
+								94b
+								89b
+								57b
+								24b
+								20b
+								24b
+								33b
+								64b
+								82b
+								52b
+								87b
+								24b
+								82b
+								96b
+								99b
+								20b
+								27b
+								75b
+								94b
+								47b
+								69b
+								61b
+								26b
+								-126b
+								26b
+								69b
+								117b
+								55b
+								-124b
+								69b
+								-103b
+								127b
+								66b
+								59b
+								118b
+								-108b
+								-85b
+								125b
+								-120b
+								122b
+								-96b
+								-108b
+								62b
+								64b
+								68b
+								-92b
+								-89b
+								75b
+								99b
+								71b
+								-122b
+								-112b
+								110b
+								-108b
+								89b
+								52b
+								111b
+								117b
+								104b
+								68b
+								36b
+								73b
+								31b
+								64b
+								61b
+								75b
+								24b
+								38b
+								87b
+								26b
+								62b
+								29b
+								59b
+								71b
+								66b
+								85b
+								34b
+								40b
+								38b
+								57b
+								40b
+								48b
+								71b
+								103b
+								82b
+								50b
+								34b
+								54b
+								101b
+								61b
+								31b
+								33b
+								29b
+								54b
+								103b
+								-120b
+								89b
+								64b
+								-94b
+								85b
+								104b
+								96b
+								94b
+								127b
+								54b
+								52b
+								124b
+								75b
+								66b
+								50b
+								38b
+								41b
+								-113b
+								110b
+								124b
+								127b
+								-122b
+								-124b
+								40b
+								73b
+								-120b
+								108b
+								52b
+								104b
+								108b
+								110b
+								38b
+								101b
+								52b
+								76b
+								71b
+								40b
+								76b
+								71b
+								54b
+								45b
+								52b
+								38b
+								20b
+								27b
+								40b
+								27b
+								31b
+								17b
+								24b
+								80b
+								52b
+								20b
+								75b
+								64b
+								96b
+								52b
+								38b
+								57b
+								92b
+								96b
+								124b
+								-119b
+								62b
+								108b
+								87b
+								103b
+								34b
+								-98b
+								85b
+								-78b
+								52b
+								-64b
+								57b
+								99b
+								54b
+								69b
+								-68b
+								101b
+								69b
+								-108b
+								-101b
+								-84b
+								-122b
+								45b
+								76b
+								94b
+								78b
+								34b
+								83b
+								48b
+								113b
+								122b
+								89b
+								90b
+								94b
+								92b
+								43b
+								57b
+								89b
+								57b
+								31b
+								75b
+								73b
+								47b
+								17b
+								75b
+								45b
+								19b
+								69b
+								40b
+								76b
+								61b
+								61b
+								66b
+								47b
+								27b
+								45b
+								36b
+								71b
+								71b
+								50b
+								73b
+								36b
+								99b
+								101b
+								38b
+								113b
+								76b
+								31b
+								110b
+								89b
+								-126b
+								-110b
+								111b
+								104b
+								62b
+								45b
+								-85b
+								-101b
+								-94b
+								106b
+								-94b
+								106b
+								78b
+								-124b
+								-126b
+								45b
+								125b
+								47b
+								68b
+								-115b
+								38b
+								90b
+								96b
+								106b
+								61b
+								78b
+								64b
+								104b
+								66b
+								52b
+								80b
+								82b
+								78b
+								83b
+								66b
+								68b
+								57b
+								29b
+								29b
+								26b
+								55b
+								33b
+								31b
+								48b
+								36b
+								38b
+								68b
+								31b
+								50b
+								36b
+								38b
+								82b
+								24b
+								71b
+								59b
+								76b
+								61b
+								75b
+								48b
+								92b
+								118b
+								61b
+								-127b
+								89b
+								-126b
+								-96b
+								57b
+								71b
+								57b
+								-73b
+								96b
+								82b
+								103b
+								41b
+								-82b
+								89b
+								-115b
+								-115b
+								85b
+								-127b
+								120b
+								33b
+								55b
+								104b
+								52b
+								104b
+								66b
+								36b
+								101b
+								89b
+								99b
+								33b
+								41b
+								47b
+								83b
+								59b
+								52b
+								33b
+								57b
+								52b
+								36b
+								24b
+								27b
+								68b
+								13b
+								24b
+								61b
+								52b
+								38b
+								27b
+								26b
+								61b
+								55b
+								50b
+								47b
+								17b
+								87b
+								76b
+								24b
+								41b
+								101b
+								97b
+								47b
+								104b
+								103b
+								120b
+								97b
+								96b
+								48b
+								-119b
+								-120b
+								-103b
+								80b
+								-103b
+								-94b
+								106b
+								96b
+								124b
+								50b
+								-92b
+								-87b
+								-78b
+								-113b
+								-105b
+								80b
+								54b
+								64b
+								97b
+								125b
+								117b
+								-124b
+								50b
+								113b
+								45b
+								111b
+								31b
+								82b
+								38b
+								66b
+								61b
+								87b
+								61b
+								69b
+								66b
+								59b
+								54b
+								36b
+								36b
+								31b
+								52b
+								22b
+								57b
+								41b
+								47b
+								38b
+								38b
+								27b
+								13b
+								57b
+								52b
+								43b
+								78b
+								38b
+								76b
+								62b
+								92b
+								76b
+								36b
+								26b
+								120b
+								111b
+								29b
+								36b
+								73b
+								108b
+								38b
+								82b
+								94b
+								66b
+								45b
+								68b
+								54b
+								68b
+								110b
+								94b
+								-98b
+								-122b
+								-115b
+								54b
+								-113b
+								-108b
+								73b
+								99b
+								45b
+								71b
+								62b
+								64b
+								96b
+								90b
+								41b
+								26b
+								83b
+								26b
+								57b
+								68b
+								31b
+								80b
+								20b
+								52b
+								48b
+								19b
+								50b
+								34b
+								31b
+								40b
+								26b
+								34b
+								43b
+								17b
+								54b
+								52b
+								15b
+								33b
+								31b
+								43b
+								43b
+								24b
+								17b
+								36b
+								62b
+								75b
+								97b
+								45b
+								38b
+								111b
+								61b
+								87b
+								75b
+								75b
+								47b
+								-117b
+								104b
+								-98b
+								127b
+								-120b
+								96b
+								80b
+								90b
+								83b
+								78b
+								113b
+								45b
+								68b
+								89b
+								33b
+								-122b
+								89b
+								96b
+								92b
+								31b
+								85b
+								106b
+								122b
+								22b
+								75b
+								27b
+								73b
+								61b
+								73b
+								47b
+								48b
+								45b
+								24b
+								52b
+								47b
+								13b
+								15b
+								26b
+								13b
+								17b
+								43b
+								43b
+								38b
+								27b
+								36b
+								10b
+								41b
+								52b
+								48b
+								40b
+								15b
+								41b
+								54b
+								59b
+								87b
+								40b
+								71b
+								90b
+								48b
+								117b
+								57b
+								118b
+								97b
+								124b
+								55b
+								-115b
+								50b
+								47b
+								111b
+								110b
+								61b
+								73b
+								-77b
+								-63b
+								101b
+								110b
+								83b
+								-126b
+								110b
+								69b
+								78b
+								52b
+								62b
+								125b
+								34b
+								61b
+								125b
+								96b
+								69b
+								26b
+								31b
+								92b
+								82b
+								38b
+								61b
+								24b
+								54b
+								43b
+								57b
+								59b
+								50b
+								43b
+								24b
+								19b
+								33b
+								17b
+								15b
+								29b
+								20b
+								36b
+								36b
+								19b
+								10b
+								31b
+								17b
+								50b
+								33b
+								36b
+								36b
+								85b
+								61b
+								76b
+								83b
+								78b
+								64b
+								83b
+								27b
+								90b
+								66b
+								45b
+								38b
+								34b
+								71b
+								48b
+								-122b
+								89b
+								117b
+								52b
+								127b
+								41b
+								113b
+								122b
+								103b
+								92b
+								-101b
+								124b
+								-126b
+								104b
+								-127b
+								87b
+								69b
+								117b
+								94b
+								29b
+								52b
+								59b
+								87b
+								40b
+								19b
+								66b
+								36b
+								66b
+								19b
+								27b
+								15b
+								10b
+								26b
+								26b
+								31b
+								26b
+								19b
+								29b
+								31b
+								8b
+								36b
+								24b
+								22b
+								13b
+								31b
+								17b
+								33b
+								13b
+								40b
+								59b
+								64b
+								43b
+								50b
+								99b
+								33b
+								68b
+								76b
+								48b
+								80b
+								-120b
+								47b
+								80b
+								-113b
+								78b
+								-92b
+								-113b
+								75b
+								111b
+								110b
+								-78b
+								-64b
+								99b
+								78b
+								115b
+								66b
+								82b
+								-105b
+								73b
+								122b
+								-124b
+								-127b
+								111b
+								96b
+								45b
+								45b
+								45b
+								90b
+								59b
+								66b
+								27b
+								26b
+								41b
+								59b
+								33b
+								33b
+								26b
+								31b
+								26b
+								27b
+								19b
+								27b
+								17b
+								8b
+								17b
+								13b
+								10b
+								31b
+								12b
+								27b
+								22b
+								36b
+								43b
+								64b
+								54b
+								43b
+								78b
+								36b
+								20b
+								73b
+								69b
+								103b
+								62b
+								33b
+								40b
+								85b
+								41b
+								113b
+								31b
+								115b
+								-91b
+								-110b
+								-120b
+								82b
+								-106b
+								-80b
+								-96b
+								61b
+								68b
+								-106b
+								-101b
+								83b
+								78b
+								83b
+								55b
+								54b
+								36b
+								40b
+								48b
+								36b
+								29b
+								83b
+								71b
+								48b
+								68b
+								57b
+								15b
+								47b
+								50b
+								55b
+								24b
+								45b
+								12b
+								17b
+								29b
+								19b
+								6b
+								22b
+								12b
+								22b
+								19b
+								27b
+								19b
+								8b
+								31b
+								19b
+								12b
+								47b
+								27b
+								69b
+								29b
+								41b
+								80b
+								92b
+								92b
+								76b
+								40b
+								54b
+								71b
+								31b
+								69b
+								43b
+								80b
+								62b
+								92b
+								55b
+								-98b
+								43b
+								90b
+								36b
+								-117b
+								83b
+								-103b
+								57b
+								122b
+								43b
+								48b
+								29b
+								115b
+								85b
+								47b
+								110b
+								89b
+								38b
+								101b
+								108b
+								101b
+								33b
+								22b
+								48b
+								43b
+								41b
+								34b
+								26b
+								29b
+								29b
+								36b
+								15b
+								24b
+								27b
+								13b
+								12b
+								5b
+								12b
+								5b
+								19b
+								22b
+								27b
+								26b
+								17b
+								10b
+								24b
+								34b
+								55b
+								62b
+								26b
+								17b
+								57b
+								73b
+								71b
+								71b
+								34b
+								104b
+								106b
+								64b
+								83b
+								99b
+								85b
+								54b
+								104b
+								40b
+								-91b
+								62b
+								-127b
+								94b
+								62b
+								-87b
+								-117b
+								110b
+								85b
+								117b
+								-99b
+								-115b
+								94b
+								-124b
+								52b
+								82b
+								57b
+								45b
+								69b
+								55b
+								41b
+								54b
+								52b
+								61b
+								33b
+								61b
+								24b
+								27b
+								38b
+								22b
+								24b
+								19b
+								12b
+								10b
+								13b
+								15b
+								3b
+								8b
+								12b
+								8b
+								19b
+								5b
+								26b
+								15b
+								6b
+								24b
+								52b
+								24b
+								52b
+								73b
+								34b
+								48b
+								33b
+								22b
+								99b
+								59b
+								54b
+								96b
+								106b
+								59b
+								66b
+								43b
+								43b
+								-110b
+								118b
+								-120b
+								83b
+								-108b
+								-98b
+								-75b
+								104b
+								64b
+								85b
+								-96b
+								-101b
+								-122b
+								57b
+								-110b
+								111b
+								-122b
+								26b
+								47b
+								69b
+								73b
+								73b
+								52b
+								41b
+								82b
+								17b
+								76b
+								71b
+								13b
+								19b
+								24b
+								22b
+								24b
+								33b
+								19b
+								5b
+								17b
+								6b
+								1b
+								3b
+								3b
+								3b
+								8b
+								20b
+								13b
+								10b
+								31b
+								47b
+								29b
+								59b
+								57b
+								15b
+								61b
+								45b
+								90b
+								45b
+								48b
+								89b
+								29b
+								59b
+								110b
+								92b
+								122b
+								101b
+								-110b
+								101b
+								71b
+								127b
+								40b
+								57b
+								-85b
+								-77b
+								-78b
+								59b
+								-120b
+								76b
+								-105b
+								111b
+								103b
+								-126b
+								110b
+								40b
+								97b
+								24b
+								97b
+								22b
+								33b
+								38b
+								52b
+								85b
+								29b
+								19b
+								47b
+								55b
+								45b
+								26b
+								13b
+								27b
+								17b
+								20b
+								6b
+								13b
+								1b
+								1b
+								0b
+								3b
+								5b
+								5b
+								20b
+								20b
+								17b
+								27b
+								22b
+								12b
+								47b
+								40b
+								29b
+								45b
+								41b
+								85b
+								24b
+								43b
+								69b
+								99b
+								54b
+								125b
+								127b
+								73b
+								92b
+								34b
+								64b
+								38b
+								-92b
+								66b
+								108b
+								-99b
+								-117b
+								73b
+								-91b
+								78b
+								52b
+								78b
+								-112b
+								82b
+								76b
+								76b
+								106b
+								127b
+								38b
+								80b
+								45b
+								101b
+								89b
+								90b
+								62b
+								26b
+								40b
+								36b
+								20b
+								54b
+								22b
+								40b
+								13b
+								31b
+								22b
+								17b
+								6b
+								10b
+								5b
+								5b
+								3b
+								3b
+								8b
+								22b
+								8b
+								6b
+								38b
+								36b
+								31b
+								22b
+								26b
+								62b
+								29b
+								26b
+								38b
+								45b
+								48b
+								94b
+								82b
+								66b
+								97b
+								31b
+								-126b
+								-124b
+								-124b
+								87b
+								-124b
+								96b
+								-87b
+								-110b
+								64b
+								-127b
+								-75b
+								106b
+								40b
+								-98b
+								97b
+								59b
+								96b
+								120b
+								66b
+								110b
+								80b
+								106b
+								27b
+								45b
+								99b
+								85b
+								71b
+								71b
+								20b
+								20b
+								62b
+								59b
+								57b
+								48b
+								31b
+								27b
+								33b
+								31b
+								15b
+								20b
+								13b
+								6b
+								5b
+								8b
+								8b
+								12b
+								26b
+								26b
+								27b
+								15b
+								47b
+								12b
+								12b
+								47b
+								20b
+								15b
+								78b
+								83b
+								40b
+								83b
+								66b
+								66b
+								73b
+								43b
+								43b
+								69b
+								90b
+								57b
+								62b
+								-94b
+								90b
+								73b
+								-78b
+								52b
+								-117b
+								-120b
+								-126b
+								-108b
+								45b
+								-124b
+								94b
+								83b
+								29b
+								43b
+								89b
+								-127b
+								52b
+								27b
+								85b
+								68b
+								71b
+								22b
+								64b
+								73b
+								68b
+								61b
+								57b
+								26b
+								34b
+								13b
+								33b
+								29b
+								10b
+								17b
+								6b
+								12b
+								15b
+								10b
+								3b
+								5b
+								17b
+								19b
+								15b
+								12b
+								36b
+								48b
+								22b
+								57b
+								55b
+								64b
+								24b
+								73b
+								31b
+								64b
+								52b
+								59b
+								62b
+								48b
+								55b
+								96b
+								94b
+								-113b
+								-126b
+								-106b
+								104b
+								80b
+								80b
+								-98b
+								124b
+								-122b
+								117b
+								-75b
+								-85b
+								36b
+								113b
+								78b
+								43b
+								-106b
+								118b
+								73b
+								80b
+								118b
+								78b
+								78b
+								27b
+								85b
+								48b
+								43b
+								55b
+								36b
+								59b
+								26b
+								24b
+								43b
+								36b
+								36b
+								41b
+								27b
+								13b
+								15b
+								15b
+								10b
+								17b
+								22b
+								10b
+								29b
+								19b
+								15b
+								31b
+								13b
+								13b
+								52b
+								40b
+								24b
+								47b
+								80b
+								62b
+								62b
+								71b
+								80b
+								90b
+								54b
+								55b
+								29b
+								96b
+								38b
+								83b
+								111b
+								33b
+								71b
+								85b
+								66b
+								104b
+								38b
+								-71b
+								41b
+								85b
+								101b
+								54b
+								101b
+								94b
+								31b
+								94b
+								127b
+								111b
+								127b
+								54b
+								43b
+								85b
+								92b
+								101b
+								83b
+								57b
+								26b
+								41b
+								45b
+								36b
+								36b
+								12b
+								26b
+								27b
+								29b
+								40b
+								29b
+								17b
+								20b
+								17b
+								6b
+								22b
+								12b
+								20b
+								34b
+								17b
+								22b
+								48b
+								19b
+								57b
+								36b
+								15b
+								61b
+								43b
+								34b
+								64b
+								24b
+								68b
+								103b
+								41b
+								52b
+								41b
+								120b
+								124b
+								36b
+								43b
+								110b
+								50b
+								96b
+								-89b
+								40b
+								-96b
+								127b
+								76b
+								99b
+								97b
+								-78b
+								-92b
+								120b
+								43b
+								87b
+								-119b
+								87b
+								-127b
+								89b
+								61b
+								118b
+								62b
+								82b
+								80b
+								69b
+								54b
+								19b
+								73b
+								22b
+								43b
+								47b
+								34b
+								40b
+								31b
+								13b
+								34b
+								13b
+								20b
+								26b
+								15b
+								13b
+								8b
+								19b
+								19b
+								12b
+								36b
+								24b
+								19b
+								50b
+								64b
+								15b
+								73b
+								78b
+								43b
+								19b
+								26b
+								71b
+								106b
+								103b
+								27b
+								124b
+								50b
+								-126b
+								45b
+								110b
+								94b
+								127b
+								-96b
+								61b
+								-119b
+								87b
+								-91b
+								75b
+								-106b
+								118b
+								-89b
+								-119b
+								-126b
+								92b
+								85b
+								57b
+								-112b
+								62b
+								45b
+								36b
+								62b
+								68b
+								33b
+								99b
+								87b
+								27b
+								34b
+								75b
+								75b
+								50b
+								54b
+								57b
+								29b
+								12b
+								27b
+								20b
+								41b
+								13b
+								24b
+								38b
+								31b
+								10b
+								24b
+								10b
+								33b
+								41b
+								47b
+								47b
+								59b
+								64b
+								61b
+								52b
+								20b
+								85b
+								55b
+								103b
+								64b
+								29b
+								34b
+								55b
+								97b
+								-124b
+								36b
+								78b
+								62b
+								85b
+								62b
+								54b
+								-99b
+								-126b
+								-96b
+								-78b
+								108b
+								-113b
+								-94b
+								92b
+								111b
+								59b
+								-127b
+								85b
+								80b
+								92b
+								96b
+								76b
+								110b
+								85b
+								61b
+								50b
+								38b
+								76b
+								36b
+								89b
+								34b
+								48b
+								38b
+								20b
+								55b
+								50b
+								27b
+								12b
+								26b
+								40b
+								41b
+								22b
+								10b
+								45b
+								29b
+								13b
+								27b
+								15b
+								57b
+								17b
+								15b
+								34b
+								40b
+								61b
+								75b
+								41b
+								31b
+								52b
+								24b
+								90b
+								83b
+								29b
+								124b
+								71b
+								31b
+								78b
+								59b
+								103b
+								43b
+								103b
+								75b
+								113b
+								73b
+								-108b
+								-59b
+								-61b
+								-101b
+								-112b
+								-110b
+								92b
+								-119b
+								54b
+								110b
+								61b
+								47b
+								106b
+								43b
+								120b
+								40b
+								54b
+								73b
+								68b
+								43b
+								71b
+								76b
+								19b
+								41b
+								22b
+								15b
+								57b
+								17b
+								31b
+								41b
+								31b
+								12b
+								31b
+								50b
+								33b
+								26b
+								15b
+								38b
+								54b
+								24b
+								62b
+								20b
+								26b
+								55b
+								22b
+								73b
+								48b
+								54b
+								78b
+								89b
+								29b
+								108b
+								31b
+								82b
+								45b
+								115b
+								76b
+								50b
+								-103b
+								118b
+								104b
+								-106b
+								66b
+								-85b
+								92b
+								-66b
+								97b
+								-82b
+								-127b
+								118b
+								-127b
+								110b
+								-92b
+								96b
+								117b
+								-105b
+								97b
+								85b
+								117b
+								106b
+								59b
+								110b
+								85b
+								34b
+								103b
+								101b
+								76b
+								29b
+								40b
+								41b
+								19b
+								47b
+								61b
+								54b
+								47b
+								33b
+								50b
+								19b
+								38b
+								20b
+								33b
+								54b
+								27b
+								15b
+								12b
+								29b
+								69b
+								19b
+								52b
+								27b
+								24b
+								27b
+								29b
+								31b
+								38b
+								89b
+								111b
+								110b
+								33b
+								68b
+								45b
+								-122b
+								110b
+								104b
+								31b
+								43b
+								57b
+								-94b
+								97b
+								47b
+								120b
+								-71b
+								118b
+								59b
+								96b
+								-124b
+								96b
+								90b
+								82b
+								55b
+								-119b
+								73b
+								115b
+								103b
+								76b
+								64b
+								78b
+								52b
+								55b
+								92b
+								43b
+								38b
+								59b
+								29b
+								43b
+								29b
+								34b
+								19b
+								19b
+								20b
+								22b
+								59b
+								61b
+								17b
+								17b
+								52b
+								54b
+								20b
+								45b
+								26b
+								19b
+								54b
+								61b
+								26b
+								38b
+								75b
+								82b
+								68b
+								43b
+								110b
+								73b
+								22b
+								34b
+								83b
+								48b
+								54b
+								-120b
+								89b
+								-108b
+								92b
+								110b
+								-84b
+								73b
+								68b
+								-71b
+								-61b
+								78b
+								-63b
+								115b
+								-80b
+								85b
+								99b
+								-122b
+								127b
+								-103b
+								-101b
+								62b
+								38b
+								57b
+								80b
+								69b
+								89b
+								97b
+								62b
+								82b
+								68b
+								82b
+								82b
+								57b
+								90b
+								83b
+								43b
+								38b
+								22b
+								57b
+								24b
+								15b
+								52b
+								24b
+								20b
+								15b
+								19b
+								36b
+								24b
+								52b
+								22b
+								57b
+								24b
+								40b
+								54b
+								87b
+								94b
+								96b
+								26b
+								27b
+								24b
+								106b
+								61b
+								103b
+								38b
+								117b
+								87b
+								71b
+								64b
+								87b
+								94b
+								-103b
+								110b
+								103b
+								-89b
+								-84b
+								97b
+								94b
+								-115b
+								57b
+								52b
+								36b
+								97b
+								-126b
+								41b
+								96b
+								83b
+								96b
+								120b
+								90b
+								111b
+								-127b
+								69b
+								71b
+								26b
+								106b
+								78b
+								66b
+								50b
+								68b
+								82b
+								20b
+								38b
+								40b
+								64b
+								38b
+								40b
+								78b
+								66b
+								57b
+								76b
+								40b
+								17b
+								15b
+								75b
+								85b
+								57b
+								24b
+								48b
+								20b
+								22b
+								45b
+								71b
+								78b
+								101b
+								76b
+								87b
+								43b
+								87b
+								52b
+								127b
+								47b
+								117b
+								33b
+								80b
+								85b
+								78b
+								71b
+								101b
+								61b
+								43b
+								68b
+								124b
+								-73b
+								-117b
+								-75b
+								57b
+								85b
+								61b
+								68b
+								-110b
+								55b
+								43b
+								94b
+								127b
+								120b
+								124b
+								66b
+								59b
+								106b
+								66b
+								36b
+								61b
+								31b
+								92b
+								31b
+								40b
+								83b
+								27b
+								40b
+								41b
+								47b
+								17b
+								31b
+								73b
+								45b
+								41b
+								75b
+								20b
+								50b
+								31b
+								54b
+								27b
+								57b
+								41b
+								85b
+								87b
+								26b
+								47b
+								89b
+								78b
+								54b
+								111b
+								82b
+								62b
+								-127b
+								-119b
+								41b
+								57b
+								73b
+								68b
+								94b
+								118b
+								-99b
+								-92b
+								110b
+								-78b
+								-54b
+								-70b
+								-122b
+								-106b
+								55b
+								103b
+								104b
+								-108b
+								-106b
+								117b
+								103b
+								-124b
+								117b
+								45b
+								40b
+								40b
+								106b
+								120b
+								120b
+								111b
+								85b
+								71b
+								41b
+								90b
+								61b
+								61b
+								85b
+								75b
+								33b
+								82b
+								55b
+								29b
+								24b
+								41b
+								73b
+								54b
+								73b
+								82b
+								55b
+								43b
+								68b
+								31b
+								83b
+								106b
+								96b
+								34b
+								115b
+								38b
+								87b
+								40b
+								66b
+								125b
+								54b
+								-119b
+								48b
+								83b
+								-101b
+								68b
+								36b
+								78b
+								-101b
+								-126b
+								-73b
+								61b
+								-71b
+								104b
+								48b
+								-82b
+								47b
+								-110b
+								94b
+								125b
+								-108b
+								-108b
+								125b
+								54b
+								96b
+								55b
+								-108b
+								111b
+								62b
+								33b
+								103b
+								27b
+								94b
+								50b
+								99b
+								59b
+								92b
+								38b
+								69b
+								34b
+								38b
+								22b
+								92b
+								61b
+								61b
+								85b
+								92b
+								83b
+								33b
+								69b
+								68b
+								41b
+								80b
+								62b
+								36b
+								48b
+								73b
+								45b
+								96b
+								120b
+								69b
+								47b
+								66b
+								31b
+								73b
+								-127b
+								118b
+								-110b
+								50b
+								117b
+								108b
+								122b
+								106b
+								-105b
+								48b
+								-78b
+								-49b
+								106b
+								124b
+								111b
+								-78b
+								-126b
+								-91b
+								-87b
+								-120b
+								101b
+								50b
+								75b
+								64b
+								90b
+								-98b
+								101b
+								47b
+								31b
+								94b
+								125b
+								104b
+								27b
+								75b
+								96b
+								55b
+								104b
+								26b
+								66b
+								80b
+								29b
+								76b
+								101b
+								31b
+								64b
+								47b
+								54b
+								78b
+								101b
+								27b
+								50b
+								104b
+								75b
+								101b
+								40b
+								38b
+								59b
+								55b
+								55b
+								87b
+								115b
+								41b
+								106b
+								61b
+								120b
+								108b
+								99b
+								96b
+								-91b
+								-84b
+								-108b
+								71b
+								-103b
+								113b
+								-117b
+								120b
+								-61b
+								104b
+								90b
+								118b
+								115b
+								117b
+								50b
+								78b
+								-110b
+								118b
+								55b
+								-87b
+								-106b
+								68b
+								-106b
+								-112b
+								64b
+								89b
+								33b
+								45b
+								62b
+								75b
+								54b
+								87b
+								87b
+								36b
+								40b
+								75b
+								55b
+								29b
+								80b
+								54b
+								90b
+								103b
+								76b
+								59b
+								62b
+								45b
+								76b
+								22b
+								27b
+								90b
+								94b
+								55b
+								64b
+								47b
+								33b
+								38b
+								27b
+								110b
+								52b
+								101b
+								-120b
+								75b
+								-126b
+								110b
+								80b
+								82b
+								43b
+								82b
+								108b
+								-80b
+								-59b
+								-70b
+								-92b
+								41b
+								-120b
+								75b
+								-122b
+								92b
+								73b
+								92b
+								69b
+								92b
+								-117b
+								101b
+								-92b
+								68b
+								50b
+								-119b
+								104b
+								80b
+								33b
+								-110b
+								54b
+								87b
+								118b
+								104b
+								-124b
+								48b
+								110b
+								97b
+								117b
+								115b
+								57b
+								80b
+								94b
+								27b
+								68b
+								82b
+								40b
+								89b
+								43b
+								106b
+								115b
+								113b
+								64b
+								64b
+								52b
+								62b
+								41b
+								41b
+								52b
+								117b
+								76b
+								99b
+								80b
+								66b
+								43b
+								54b
+								66b
+								-117b
+								50b
+								104b
+								50b
+								125b
+								-84b
+								41b
+								113b
+								-113b
+								75b
+								80b
+								-52b
+								-98b
+								57b
+								99b
+								-61b
+								-66b
+								106b
+								50b
+								-110b
+								-77b
+								96b
+								101b
+								-98b
+								92b
+								-101b
+								97b
+								76b
+								104b
+								-115b
+								47b
+								-127b
+								87b
+								113b
+								69b
+								113b
+								92b
+								26b
+								106b
+								75b
+								83b
+								33b
+								62b
+								66b
+								83b
+								38b
+								94b
+								103b
+								61b
+								71b
+								45b
+								27b
+								76b
+								125b
+								97b
+								47b
+								-126b
+								122b
+								117b
+								122b
+								-110b
+								113b
+								-120b
+								115b
+								-105b
+								118b
+								-84b
+								62b
+								-113b
+								38b
+								-96b
+								120b
+								-115b
+								-98b
+								117b
+								118b
+								-98b
+								66b
+								89b
+								108b
+								-59b
+								52b
+								-122b
+								54b
+								94b
+								73b
+								-84b
+								-117b
+								104b
+								-103b
+								87b
+								45b
+								-105b
+								113b
+								117b
+								127b
+								80b
+								104b
+								47b
+								-127b
+								94b
+								50b
+								69b
+								117b
+								69b
+								61b
+								64b
+								24b
+								31b
+								80b
+								73b
+								80b
+								113b
+								82b
+								106b
+								118b
+								59b
+								111b
+								43b
+								-120b
+								127b
+								48b
+								103b
+								75b
+								54b
+								104b
+								97b
+								-108b
+								-89b
+								120b
+								36b
+								-119b
+								106b
+								-98b
+								-105b
+								64b
+								-49b
+								99b
+								89b
+								-38b
+								104b
+								-89b
+								108b
+								-108b
+								-106b
+								-63b
+								-89b
+								104b
+								-120b
+								-73b
+								40b
+								-99b
+								55b
+								106b
+								52b
+								83b
+								69b
+								-122b
+								-96b
+								110b
+								103b
+								120b
+								113b
+								29b
+								87b
+								117b
+								-117b
+								94b
+								80b
+								48b
+								103b
+								29b
+								54b
+								61b
+								120b
+								104b
+								66b
+								48b
+								36b
+								45b
+								127b
+								117b
+								103b
+								-113b
+								-113b
+								57b
+								108b
+								-106b
+								-122b
+								-124b
+								-115b
+								-98b
+								96b
+								80b
+								45b
+								-73b
+								117b
+								90b
+								59b
+								-103b
+								-117b
+								45b
+								125b
+								96b
+								78b
+								-105b
+								-35b
+								52b
+								54b
+								99b
+								87b
+								-87b
+								75b
+								50b
+								118b
+								83b
+								64b
+								127b
+								-77b
+								-98b
+								75b
+								113b
+								99b
+								-113b
+								73b
+								118b
+								75b
+								-120b
+								89b
+								57b
+								47b
+								75b
+								57b
+								85b
+								106b
+								45b
+								-127b
+								115b
+								33b
+								71b
+								73b
+								78b
+								33b
+								87b
+								-119b
+								38b
+								64b
+								57b
+								62b
+								29b
+								-117b
+								82b
+								90b
+								73b
+								76b
+								80b
+								40b
+								108b
+								57b
+								-78b
+								62b
+								110b
+								-106b
+								73b
+								90b
+								-112b
+								-63b
+								69b
+								80b
+								-54b
+								68b
+								-42b
+								-113b
+								-117b
+								-117b
+								-45b
+								-119b
+								83b
+								-115b
+								-70b
+								-92b
+								-119b
+								-105b
+								-78b
+								-105b
+								78b
+								61b
+								101b
+								-80b
+								-98b
+								62b
+								47b
+								103b
+								82b
+								62b
+								-119b
+								-120b
+								59b
+								99b
+								87b
+								73b
+								-117b
+								76b
+								50b
+								61b
+								52b
+								-112b
+								113b
+								-108b
+								92b
+								50b
+								36b
+								-110b
+								85b
+								-122b
+								-113b
+								52b
+								-94b
+								122b
+								62b
+								38b
+								-75b
+								-101b
+								-84b
+								-115b
+								-77b
+								61b
+								-78b
+								106b
+								115b
+								54b
+								90b
+								85b
+								54b
+								-66b
+								-68b
+								-96b
+								-45b
+								117b
+								-108b
+								-42b
+								120b
+								-40b
+								-101b
+								-78b
+								71b
+								122b
+								-99b
+								-61b
+								-122b
+								99b
+								69b
+								68b
+								82b
+								-106b
+								113b
+								-119b
+								-103b
+								57b
+								113b
+								101b
+								71b
+								82b
+								108b
+								38b
+								66b
+								68b
+								75b
+								57b
+								-112b
+								111b
+								-120b
+								120b
+								36b
+								50b
+								71b
+								80b
+								-105b
+								45b
+								-127b
+								92b
+								-119b
+								34b
+								71b
+								113b
+								68b
+								-89b
+								-106b
+								115b
+								38b
+								71b
+								-105b
+								-82b
+								-49b
+								122b
+								115b
+								90b
+								-42b
+								52b
+								-22b
+								-94b
+								-112b
+								-35b
+								-22b
+								52b
+								-115b
+								120b
+								87b
+								69b
+								-115b
+								125b
+								80b
+								-68b
+								90b
+								-120b
+								94b
+								-64b
+								127b
+								-103b
+								-78b
+								120b
+								-127b
+								59b
+								71b
+								-119b
+								-105b
+								125b
+								-126b
+								117b
+								52b
+								-99b
+								-122b
+								-103b
+								43b
+								-105b
+								73b
+								75b
+								83b
+								108b
+								82b
+								127b
+								-115b
+								87b
+								-122b
+								-122b
+								106b
+								66b
+								-99b
+								-89b
+								-96b
+								82b
+								-77b
+								-119b
+								73b
+								89b
+								-68b
+								103b
+								87b
+								-89b
+								111b
+								-82b
+								-66b
+								110b
+								-108b
+								-47b
+								-42b
+								83b
+								113b
+								62b
+								-38b
+								-106b
+								-64b
+								-45b
+								101b
+								-82b
+								68b
+								115b
+								-106b
+								54b
+								-78b
+								80b
+								-71b
+								-94b
+								71b
+								55b
+								115b
+								122b
+								110b
+								120b
+								36b
+								83b
+								118b
+								85b
+								80b
+								59b
+								43b
+								125b
+								-127b
+								113b
+								-110b
+								124b
+								104b
+								54b
+								59b
+								-101b
+								-89b
+								52b
+								-91b
+								118b
+								85b
+								82b
+								38b
+								-98b
+								55b
+								-87b
+								106b
+								-77b
+								-120b
+								104b
+								-106b
+								75b
+								-126b
+								-71b
+								68b
+								-78b
+								90b
+								54b
+								66b
+								-42b
+								78b
+								71b
+								-68b
+								82b
+								-17b
+								-57b
+								47b
+								-68b
+								-75b
+								-36b
+								62b
+								-70b
+								-45b
+								-77b
+								101b
+								-70b
+								104b
+								76b
+								78b
+								110b
+								-110b
+								-122b
+								47b
+								-75b
+								57b
+								80b
+								117b
+								83b
+								115b
+								48b
+								96b
+								122b
+								-94b
+								50b
+								104b
+								122b
+								55b
+								122b
+								71b
+								45b
+								73b
+								68b
+								-113b
+								34b
+								71b
+								94b
+								117b
+								-103b
+								-120b
+								-66b
+								-68b
+								59b
+								103b
+								-103b
+								85b
+								-61b
+								-119b
+								-99b
+								-84b
+								124b
+								-103b
+								96b
+								57b
+								-63b
+								59b
+								92b
+								-19b
+								-98b
+								-70b
+								-19b
+								90b
+								71b
+								124b
+								97b
+								-101b
+								-61b
+								87b
+								80b
+								87b
+								75b
+								-113b
+								-52b
+								64b
+								-85b
+								87b
+								71b
+								-96b
+								-70b
+								-117b
+								97b
+								127b
+								-110b
+								47b
+								-78b
+								-89b
+								45b
+								97b
+								97b
+								-112b
+								92b
+								83b
+								124b
+								-119b
+								-96b
+								57b
+								-78b
+								-77b
+								122b
+								117b
+								97b
+								-78b
+								69b
+								-117b
+								118b
+								-98b
+								-127b
+								124b
+								115b
+								64b
+								-77b
+								118b
+								-47b
+								99b
+								78b
+								110b
+								-87b
+								-108b
+								125b
+								54b
+								115b
+								-36b
+								-31b
+								59b
+								69b
+								125b
+								-78b
+								-59b
+								54b
+								-19b
+								62b
+								-103b
+								-35b
+								-92b
+								59b
+								69b
+								87b
+								73b
+								-54b
+								-63b
+								-108b
+								-110b
+								47b
+								103b
+								61b
+								99b
+								69b
+								54b
+								41b
+								78b
+								-99b
+								55b
+								-110b
+								117b
+								-117b
+								-78b
+								96b
+								87b
+								-126b
+								59b
+								-110b
+								-89b
+								40b
+								110b
+								-78b
+								108b
+								-85b
+								-101b
+								113b
+								-82b
+								48b
+								57b
+								-78b
+								-70b
+								104b
+								-52b
+								-50b
+								99b
+								-38b
+								-43b
+								76b
+								-126b
+								-49b
+								-8b
+								-120b
+								85b
+								-108b
+								-54b
+								-110b
+								66b
+								94b
+								-94b
+								-87b
+								-77b
+								115b
+								-63b
+								-77b
+								-112b
+								-127b
+								80b
+								115b
+								-70b
+								117b
+								68b
+								-119b
+								-75b
+								110b
+								71b
+								110b
+								90b
+								48b
+								117b
+								69b
+								48b
+								94b
+								-127b
+								82b
+								66b
+								54b
+								75b
+								-113b
+								127b
+								-105b
+								103b
+								-103b
+								59b
+								68b
+								-103b
+								-80b
+								69b
+								-59b
+								83b
+								-70b
+								-71b
+								110b
+								48b
+								127b
+								64b
+								101b
+								45b
+								64b
+								101b
+								125b
+								-45b
+								-43b
+								-112b
+								120b
+								-49b
+								-115b
+								-63b
+								-38b
+								-113b
+								-8b
+								-61b
+								-98b
+								-101b
+								62b
+								-15b
+								-59b
+								-56b
+								-28b
+								-92b
+								106b
+								-22b
+								-110b
+								-80b
+								-64b
+								57b
+								-119b
+								-98b
+								85b
+								104b
+								115b
+								115b
+								-124b
+								59b
+								-75b
+								-101b
+								85b
+								-124b
+								55b
+								124b
+								97b
+								99b
+								96b
+								-122b
+								-73b
+								83b
+								-66b
+								-63b
+								127b
+								41b
+								113b
+								55b
+								-98b
+								38b
+								-117b
+								96b
+								-115b
+								-119b
+								-98b
+								-43b
+								68b
+								-115b
+								92b
+								82b
+								-106b
+								-57b
+								-71b
+								110b
+								68b
+								-52b
+								54b
+								71b
+								-106b
+								-70b
+								61b
+								73b
+							]
+							uuid: [I;
+								1454829585
+								400244797
+								-1390683086
+								196681506
+							]
+							x: 365
+							z: 252
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 24.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2AA13006A17C3981"
+				"5F4D6E1B81A3F87C"
+			]
+			description: [
+				"沉浸多方块结构都推荐用蓝图加农炮建造，手搭实在折磨"
+				""
+				"钻井使用起来略微麻烦一些"
+				""
+				"首先在对应流体矿脉上方建造完毕"
+				""
+				"然后用沉浸工程模组的电动泵为其泵入混凝土，并且在机器内部预设好管道等"
+				""
+				"通电后就会开始自动钻管道"
+				""
+				"当混凝土足量后就可以输入水来进行最后的管道冷却"
+				""
+				"当进度100%时候石油会喷涌而出，&c切记提前在输出口放好储罐，不然会流失大量资源&r"
+				""
+				""
+				"{@pagebreak}"
+				"权重如下"
+				""
+				"原油80"
+				""
+				"熔融重金属和晶体40"
+				""
+				"蜂王浆15"
+			]
+			icon: "immersivepetroleum:derrick"
+			id: "0609EFB996A07C86"
+			rewards: [
+				{
+					count: 10
+					id: "264015D16D7A7CE3"
+					item: "industrialforegoing:advanced_black_hole_tank"
+					type: "item"
+				}
+				{
+					id: "6C49772389E5499C"
+					item: "industrialforegoing:black_hole_controller"
+					type: "item"
+				}
+			]
+			subtitle: "使用起来略微麻烦一些"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_derrick"
+				criterion: ""
+				id: "363B8307C4DB4196"
+				type: "advancement"
+			}]
+			title: "井架"
+			x: 24.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F6CE5C41F11EE4C"]
+			description: [
+				"可以精确显示当前方块对应的矿脉的饱和度等等信息"
+				""
+				"百分比越高能挖的矿脉矿石块数越多"
+				""
+				"饱和度百分比越高挖掘成功率越高"
+				""
+				"岩芯钻井不会损耗当前矿脉资源，仅仅用于采样"
+			]
+			id: "098CE362D16572B2"
+			subtitle: "更为精确"
+			tasks: [{
+				id: "7FAED7577C13D60A"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0609EFB996A07C86"
+				"66A8F9A272177683"
+			]
+			description: [
+				"前期没有好用的储罐，这里送一些，只需要把黑洞储罐放入控制器当中，并且管道直接通进控制器就可以自动存入并且分类"
+				""
+				"原油分出来的四种油"
+				""
+				"&b含硫柴油&r可以在高压精炼装置脱硫变为&b柴油&r和&a硫粉&r"
+				""
+				"石脑油可以在高压精炼装置裂化后再分馏出乙烯，苯和丙烯，也可以在炼油厂合成汽油"
+				""
+				"此外还有一些从&b流体提取井&r中开采的高温熔岩能在这分离为熔融矿物（&m厉害吧，沉浸科技&r）"
+				""
+				"&b柴油&r是&6压缩能源&r炉燃料的一个非常不错的候选者，&b汽油&r是一种性价比不错的匠魂燃料，&b乙炔&r则是从现在到第二章末尾间能获取的最高温匠魂燃料"
+			]
+			id: "6448110D39C4F5C0"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 5
+					id: "22E3B0F241F32472"
+					item: "industrialforegoing:advanced_black_hole_tank"
+					type: "item"
+				}
+				{
+					id: "3B730C90D9CBFECB"
+					item: "industrialforegoing:black_hole_controller"
+					type: "item"
+				}
+			]
+			subtitle: "原油处理"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_distillationtower"
+				criterion: ""
+				id: "3BF07D06711E426B"
+				type: "advancement"
+			}]
+			title: "蒸馏塔"
+			x: 24.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"是的，它主要是用于制作液态混凝土"
+				""
+				"当你存够足量混凝土你就可以继续下个任务点了"
+			]
+			id: "5F4D6E1B81A3F87C"
+			rewards: [{
+				id: "11EB0416DF639D15"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			subtitle: "液态混凝土的唯一获取方式"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_mixer"
+				criterion: ""
+				id: "0584F541326D6051"
+				type: "advancement"
+			}]
+			title: "混合机"
+			x: 23.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2DCDC1FCFC6FCA62"]
+			description: [
+				"      电弧炉电极的蓝图需要通过村民交易获取，这个村民的兴趣点是&e工程师工作台"
+				""
+				" &6     电弧炉需要3根电极插满才能工作"
+			]
+			id: "2FBDD55AD5FC5599"
+			tasks: [{
+				id: "7C9725F97569C80A"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2FBDD55AD5FC5599"
+				"22BEC8AD4E4BE9DD"
+			]
+			description: ["      电弧炉能用于熔炼耐钢、辉煌合金等材料，也可以较高速率处理第三章中的超致密矿、超质量质子矿这两种稀有矿物。"]
+			id: "08DC5E38614A870A"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "1E3DC9A7354D29F2"
+				type: "advancement"
+			}]
+			title: " 电弧炉"
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6448110D39C4F5C0"]
+			description: [
+				"使用起来很简单"
+				""
+				"顺带一提这个也可以制作PNC的塑料"
+			]
+			id: "643396D9A742BAD4"
+			subtitle: "用于裂化和脱硫"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_hydrotreater"
+				criterion: ""
+				id: "3B9F13A1DAE97412"
+				type: "advancement"
+			}]
+			x: 23.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6448110D39C4F5C0"]
+			description: [
+				"依次输入沥青和水，等待其慢慢加热，随后会在机器下方排出石油焦并且在流体输出口排出含硫石油"
+				""
+				"比较大件所以一定要用蓝图，不然累死"
+			]
+			id: "120EDD9CE023F2D7"
+			subtitle: "处理沥青"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_cokerunit"
+				criterion: ""
+				id: "691039E75EFB55B9"
+				type: "advancement"
+			}]
+			title: "焦炭塔"
+			x: 24.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0609EFB996A07C86"]
+			description: [
+				"用于抽取在压力散去之后的管道中残留的50%石油"
+				""
+				"相比较自然喷发，抽油机速率略慢，但也够用"
+				""
+				"要有耐心"
+				""
+				"抽油口要对上钻出来的管道口"
+			]
+			id: "6DD8FC8FA991B98F"
+			subtitle: "磕头机(bushi"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_pumpjack"
+				criterion: ""
+				id: "4F5A8D2EF6D12CAF"
+				type: "advancement"
+			}]
+			title: "抽油机"
+			x: 25.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29E21F219F641A8B"]
+			description: ["      使用/探测方法与矿物钻井相同，只是挖掘的是流体矿脉。"]
+			hide_dependent_lines: true
+			id: "66A8F9A272177683"
+			subtitle: "石油的另一种获取方式"
+			tasks: [{
+				id: "0F7BD02AD4754BDF"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.5d
+		}
+	]
+	subtitle: [
+		"前期的工业筑基------资源"
+		"-by 独爱流萤"
+	]
+	title: "第一章 —— 动力与工程师"
+}

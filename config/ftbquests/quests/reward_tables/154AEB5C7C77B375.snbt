@@ -1,0 +1,15 @@
+{
+	id: "154AEB5C7C77B375"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 8, item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:emerald" }
+		{ count: 12, item: "minecraft:amethyst_shard" }
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 12, item: "thermal:apatite" }
+		{ count: 12, item: "thermal:niter" }
+		{ count: 12, item: "thermal:sulfur" }
+	]
+	title: "宝石奖励"
+}

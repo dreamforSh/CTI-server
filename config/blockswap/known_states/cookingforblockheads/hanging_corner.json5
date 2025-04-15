@@ -1,0 +1,1157 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "white"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "orange"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "magenta"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "light_blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "yellow"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "lime"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "pink"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "light_gray"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "cyan"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "purple"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "blue"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "brown"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "green"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "red"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "north",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "north",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "south",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "south",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "west",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "west",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "true",
+			"facing": "east",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"has_color": "false",
+			"facing": "east",
+			"color": "black"
+		},
+		"Name": "cookingforblockheads:hanging_corner"
+	}
+]

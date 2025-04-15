@@ -1,0 +1,869 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "0"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "1"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "2"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "3"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "4"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "5"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "6"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "north",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "north",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "east",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "east",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "south",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "south",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "west",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "west",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "up",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "up",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"facing": "down",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"facing": "down",
+			"age": "7"
+		},
+		"Name": "biomancy:primal_bloom"
+	}
+]

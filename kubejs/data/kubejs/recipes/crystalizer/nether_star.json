@@ -1,0 +1,20 @@
+{
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {
+      "fluid": "tinkersinnovation:molten_decline",
+      "amount": 50
+    },
+    {
+      "count": 4,
+      "item": "etshtinker:os_induced_netherstarshard"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "energy": 50000
+}

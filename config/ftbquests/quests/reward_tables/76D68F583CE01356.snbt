@@ -1,0 +1,12 @@
+{
+	icon: "l2hostility:teleport"
+	id: "76D68F583CE01356"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "l2hostility:ragnarok" }
+		{ item: "l2hostility:dementor" }
+		{ item: "l2hostility:pulling" }
+	]
+	title: "凝聚的恶意"
+}

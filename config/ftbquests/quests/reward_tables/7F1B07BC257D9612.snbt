@@ -1,0 +1,13 @@
+{
+	id: "7F1B07BC257D9612"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 16, item: "thermal:tin_ingot" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 12, item: "minecraft:iron_ingot" }
+		{ count: 12, item: "minecraft:glass" }
+		{ count: 4, item: "thermal:steel_ingot" }
+	]
+	title: "热力奖励（一阶）"
+}

@@ -1,0 +1,29 @@
+{
+	icon: "tinkers_reforged:reforging_guide"
+	id: "6760CB9C15C82497"
+	loot_size: 6
+	order_index: 47
+	rewards: [
+		{ count: 3, item: "tinkers_reforged:hureaulite_block" }
+		{ count: 3, item: "tinkers_reforged:red_beryl_block" }
+		{ count: 9, item: "tinkers_reforged:ender_bone", random_bonus: 9, title: "9~18x 末影之骨" }
+		{ count: 3, item: "tinkers_reforged:epidote_block" }
+		{ count: 3, item: "tinkers_reforged:blazium_block" }
+		{ count: 3, item: "tinkers_reforged:duralumin_block" }
+		{ count: 3, item: "tinkers_reforged:durasteel_block" }
+		{ count: 3, item: "tinkers_reforged:bomin_block" }
+		{ count: 3, item: "tinkers_reforged:electric_copper_block" }
+		{ count: 3, item: "tinkers_reforged:ferobolt_block" }
+		{ count: 3, item: "tinkers_reforged:kepu_block" }
+		{ count: 3, item: "tinkers_reforged:etryx_block" }
+		{ count: 3, item: "tinkers_reforged:durasteel_block" }
+		{ count: 3, item: "tinkers_reforged:lavium_block" }
+		{ count: 3, item: "tinkers_reforged:qivium_block" }
+		{ count: 3, item: "tinkers_reforged:tiberium_block" }
+		{ count: 3, item: "tinkers_reforged:titanium_block" }
+		{ count: 3, item: "tinkers_reforged:mosite_block" }
+		{ count: 36, item: "tinkers_reforged:hornium_ingot" }
+		{ count: 30, item: "thermal:gold_coin" }
+	]
+	title: "王之书-再锻-全收集-抽奖"
+}

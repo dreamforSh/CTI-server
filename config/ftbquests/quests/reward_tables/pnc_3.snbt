@@ -1,0 +1,33 @@
+{
+	id: "12D0C353035B6A6E"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 12, item: "tinkerscalibration:titanium_ingot" }
+		{ count: 6, item: "tinkers_reforged:titanium_ingot" }
+		{ count: 6, item: "kubejs:compressed_hardlead" }
+		{ count: 64, item: "minecraft:emerald" }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "cti:electronium_ammo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "cti:protonium_ammo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 6, item: "pneumaticcraft:plastic" }
+	]
+	title: "PnC奖励（三阶）"
+}

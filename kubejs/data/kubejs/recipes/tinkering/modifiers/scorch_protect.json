@@ -1,0 +1,33 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:blue_ice",
+      "amount_needed": 8
+    },
+    {
+      "item": "minecraft:blue_ice",
+      "amount_needed": 8
+    },
+    {
+      "item": "minecraft:blue_ice",
+      "amount_needed": 8
+    },
+    {
+      "item": "solidarytinker:extremelycoldsteel_ingot",
+      "amount_needed": 1
+    },
+    {
+      "item": "solidarytinker:extremelycoldsteel_ingot",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": true,
+  "result":"cti:scorch_protect",
+  "level": {
+    "max": 5
+  }
+}

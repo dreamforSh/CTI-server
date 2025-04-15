@@ -1,0 +1,28 @@
+{
+	id: "1E233AD22E9E0524"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "thermal:upgrade_augment_3" }
+		{ item: "thermal:xp_storage_augment" }
+		{ item: "thermal:rf_coil_augment" }
+		{ item: "thermal:rf_coil_storage_augment" }
+		{ item: "thermal:rf_coil_xfer_augment" }
+		{ item: "thermal:fluid_tank_augment" }
+		{ count: 4, item: "thermal:item_filter_augment" }
+		{ count: 4, item: "thermal:fluid_filter_augment" }
+		{ count: 2, item: "thermal:machine_speed_augment" }
+		{ item: "thermal:machine_efficiency_augment" }
+		{ item: "thermal:machine_output_augment" }
+		{ item: "thermal:machine_catalyst_augment" }
+		{ item: "thermal:machine_cycle_augment" }
+		{ item: "thermal:machine_null_augment" }
+		{ item: "thermal:dynamo_output_augment" }
+		{ item: "thermal:dynamo_fuel_augment" }
+		{ item: "thermal:dynamo_throttle_augment" }
+		{ item: "thermal:area_radius_augment" }
+		{ item: "thermal:potion_amplifier_augment" }
+		{ item: "thermal:potion_duration_augment" }
+	]
+	title: "升级奖励（热力）"
+}

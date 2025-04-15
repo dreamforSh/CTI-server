@@ -1,0 +1,13 @@
+{
+	id: "0DD01703E7D9616F"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 16, item: "mekanism:alloy_infused" }
+		{ count: 12, item: "mekanism:alloy_reinforced" }
+		{ count: 8, item: "mekanism:alloy_atomic" }
+		{ count: 8, item: "mekanism:dust_refined_obsidian" }
+		{ count: 16, item: "mekanism:ingot_refined_glowstone" }
+	]
+	title: "mek合金奖励"
+}

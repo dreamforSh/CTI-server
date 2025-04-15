@@ -1,0 +1,30 @@
+{
+	id: "426AAD30F9C8F40B"
+	loot_size: 1
+	order_index: 39
+	rewards: [
+		{ item: "l2complements:warden_bone_shard" }
+		{ item: "l2complements:guardian_eye" }
+		{ item: "l2complements:force_field" }
+		{ item: "l2complements:sun_membrane" }
+		{ item: "l2complements:explosion_shard" }
+		{ item: "l2complements:captured_wind" }
+		{ item: "l2complements:captured_shulker_bullet" }
+		{ item: "l2complements:wind_capture_bottle" }
+		{ item: "l2complements:void_eye" }
+		{ item: "l2complements:cursed_droplet" }
+		{ count: 6, item: "l2complements:poseidite_nugget" }
+		{ count: 4, item: "l2complements:sculkium_nugget" }
+		{ item: "l2complements:eternium_nugget" }
+		{ count: 8, item: "l2complements:shulkerate_nugget" }
+		{ item: "l2hostility:book_of_reprint" }
+		{ item: "l2complements:soul_flame" }
+		{ item: "l2complements:blackstone_core" }
+		{ item: "l2complements:resonant_feather" }
+		{ item: "l2complements:hard_ice" }
+		{ count: 2, item: "l2complements:totemic_gold_nugget" }
+		{ item: "l2complements:storm_core" }
+		{ item: "l2complements:life_essence" }
+	]
+	title: "莱特兰1"
+}

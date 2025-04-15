@@ -1,0 +1,964 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "north",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "north",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "north",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "south",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "south",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "south",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "south",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "west",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "west",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "west",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "west",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "east",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "east",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "east",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "east",
+			"connected": "down"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "north",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "north",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "north",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "north",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "south",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "south",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "south",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "south",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "west",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "west",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "west",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "west",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "east",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "east",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "east",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "east",
+			"connected": "up"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "north",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "north",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "north",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "north",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "south",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "south",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "south",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "south",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "west",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "west",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "west",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "west",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "east",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "east",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "east",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "east",
+			"connected": "north"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "north",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "north",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "north",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "north",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "south",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "south",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "south",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "south",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "west",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "west",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "west",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "west",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "east",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "east",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "east",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "east",
+			"connected": "south"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "north",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "north",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "north",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "north",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "south",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "south",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "south",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "south",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "west",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "west",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "west",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "west",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "east",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "east",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "east",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "east",
+			"connected": "west"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "north",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "north",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "north",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "north",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "south",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "south",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "south",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "south",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "west",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "west",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "west",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "west",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"facing": "east",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"facing": "east",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"facing": "east",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"facing": "east",
+			"connected": "east"
+		},
+		"Name": "pneumaticcraft:kerosene_lamp"
+	}
+]

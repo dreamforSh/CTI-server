@@ -1,0 +1,19 @@
+{
+    "type": "mekanism:combining",
+    "extraInput": {
+      "ingredient": {
+        "item": "etshtinker:ultra_dense"
+      }
+    },
+    "mainInput": {
+      "amount": 2,
+      "ingredient": {
+        "tag": "forge:ingots/steel"
+      }
+    },
+    "output": {
+      "item": "kubejs:violium_alloy",
+      "count": 1
+    }
+  }
+  

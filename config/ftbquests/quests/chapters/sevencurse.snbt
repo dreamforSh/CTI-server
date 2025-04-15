@@ -1,0 +1,2725 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sevencurse"
+	group: "4CD374CEABFCA3D3"
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "35CEF8CA6F211FCA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"一切故事的开端，无数传说被揭露的开始"
+				"这意味着某个宇宙的半神决心重回巅峰"
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "4AD608A1A7B651AA"
+			rewards: [
+				{
+					id: "73F10958E2A2AEB3"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "4A5AB2C9AB3A4A9A"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "1A4B6887A417AFB7"
+				type: "advancement"
+			}]
+			title: "戴上它的一刻，一切都充满虚妄"
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: [
+				"此乃启示之证，它将伴随你的旅途，向你展露遗失在那个黄昏的遗物"
+				"&b神秘遗物的指南书，没想到这个带攻击属性吧（"
+				"&b而且还能升级&r&r"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:the_acknowledgment"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "575358CA5624567A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FB74F636A4E884C"
+					table_id: 2891706814726018842L
+					type: "random"
+				}
+				{
+					id: "1F0E3E8FC27B7C63"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "2F7EA46C54B4399B"
+				item: "enigmaticlegacy:the_acknowledgment"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "启示"
+			x: 13.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: ["来自另一维度的某个存在的造物，右键可试着唤醒它"]
+			hide: true
+			id: "2A30C906CA9D549B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55592CFE3202C849"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0ED75E3FA651532C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2A30C906CA9D549B"]
+			description: [
+				"你成功建立了与那一存在的连接，祂很期待你的演出"
+				"&b其实就是一个简简单单的饰品，就是话不少&r"
+			]
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_eye"
+				tag: {
+					ActivationAnimation: -1
+					IsDormant: 0b
+				}
+			}
+			id: "23164C0ABE2F4970"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "399FE8E152AA995E"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "54C0E3ACEB5EE1E3"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: {
+						ActivationAnimation: -1
+						IsDormant: 0b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "莫测之眼"
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4F8A187AABA1FF11"]
+			description: [
+				"自从你的第一次苏醒，它就伴随着你左右，当你陨落之时，它会遵守誓约保存你的一切物质，以待下一次轮回的到来"
+				"&b神秘护身符会在获得后随机变成一种，每种提供一个常驻属性&r"
+				"&b所有护身符都会在你死亡后在原地点生成一个“墓碑”以保留你的遗产&r"
+			]
+			hide: true
+			icon: "enigmaticlegacy:unwitnessed_amulet"
+			id: "367A799E1D8C8C62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24711F3605BED997"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "025B02D97FB8D4D1"
+				type: "checkmark"
+			}]
+			title: "神秘护身符"
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: ["往昔的残遗，未来的垂眸"]
+			hide: true
+			icon: "enigmaticlegacy:unwitnessed_amulet"
+			id: "4F8A187AABA1FF11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74E22707522DE48B"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "5DE4885CA9218E09"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.5f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.1f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.2f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.4f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.7f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.3f
+								}
+							}
+							{
+								Count: 1b
+								id: "enigmaticlegacy:enigmatic_amulet"
+								tag: {
+									AssignedColor: 0.6f
+								}
+							}
+						]
+					}
+				}
+				title: "神秘护身符"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "你相信命运吗"
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供血魔般的攻击力"
+				"&4+1.5攻击伤害&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			id: "7EE4B35122646BD8"
+			shape: "octagon"
+			tasks: [{
+				id: "1877DBF19EE7B30E"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.1f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "浴血之红"
+			x: 19.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供风暴般的速度"
+				"&b+15%冲刺速度&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.2f
+				}
+			}
+			id: "2EB230B6EE6C2293"
+			shape: "octagon"
+			tasks: [{
+				id: "776AF8A71A970E8A"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.2f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "踏风之蓝"
+			x: 21.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供扭转箭矢的力量"
+				"&5+15%弹射物偏移&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.3f
+				}
+			}
+			id: "06E60A8B42A2A409"
+			shape: "octagon"
+			tasks: [{
+				id: "751A0546016C8F11"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.3f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "破箭之紫"
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供轻盈的身体"
+				"&d-25%重力&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.4f
+				}
+			}
+			id: "0ED53A3996B76FF5"
+			shape: "octagon"
+			tasks: [{
+				id: "4041EEF3A31596EB"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.4f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "逐月之粉"
+			x: 19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供探寻宝藏的助力"
+				"&2+25%挖掘速度&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.5f
+				}
+			}
+			id: "09D7F622F1CBC980"
+			shape: "octagon"
+			tasks: [{
+				id: "534DFACB7A33E78D"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.5f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "地心之绿"
+			x: 21.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供摄魂的能力"
+				"&0+10%吸血&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.6f
+				}
+			}
+			id: "31C756C3EAABEA80"
+			shape: "octagon"
+			tasks: [{
+				id: "3D00515D7CF10020"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.6f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "黯魂之黑"
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["367A799E1D8C8C62"]
+			description: [
+				"为你提供海洋的祝福"
+				"&1+25%游泳速度&r"
+			]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.7f
+				}
+			}
+			id: "72EAB99A2C6D5D38"
+			shape: "octagon"
+			tasks: [{
+				id: "425DEB27C8221476"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_amulet"
+					tag: {
+						AssignedColor: 0.7f
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "咏海之靛"
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: ["你癫狂不已，禁忌的知识向你铺筑前路"]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:the_twist"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "75C617547548FDE3"
+			rewards: [
+				{
+					id: "0C392E336BD60BBB"
+					item: "enigmaticlegacy:twisted_potion"
+					type: "item"
+				}
+				{
+					id: "0C90EFF809268040"
+					item: {
+						Count: 1b
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "6C8DC6FA405F8B93"
+				type: "checkmark"
+			}]
+			title: "踏上不归之路"
+			x: 13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: [
+				"庆贺吧，深渊的使徒，祂注意到了你的虔诚"
+				"你耳边响起邪祟般的低语"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:the_infinitum"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "6F3D9B3722F6B35F"
+			rewards: [
+				{
+					id: "6308915DBE04220C"
+					item: "enigmaticlegacy:twisted_potion"
+					type: "item"
+				}
+				{
+					id: "2BAFDEDAFA85229F"
+					item: "enigmaticlegacy:twisted_heart"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "70DAD41788D7DD92"
+				type: "checkmark"
+			}]
+			title: "与深渊相拥"
+			x: 13.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: [
+				"在本源之地遗留的书籍，可获取微量知识"
+				"&b仨破书本之一，右键加一点经验&r"
+			]
+			hide: true
+			id: "6DC6B2E98B118152"
+			tasks: [{
+				id: "444DDA9046672EBB"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:tattered_tome"
+					tag: {
+						lastHolder: [I;
+							105453922
+							-1110887903
+							-1107985606
+							1148637359
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: ["在烬狱之地遗留的书籍，可获取少量知识"]
+			hide: true
+			id: "229628944A4F3078"
+			tasks: [{
+				id: "1B257CAB90F8BA38"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:withered_tome"
+					tag: {
+						lastHolder: [I;
+							105453922
+							-1110887903
+							-1107985606
+							1148637359
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: ["在终末之地遗留的书籍，可获取可观量的知识"]
+			hide: true
+			id: "3E5B7879E0D47791"
+			tasks: [{
+				id: "679F2D2932A55D69"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:corrupted_tome"
+					tag: {
+						lastHolder: [I;
+							105453922
+							-1110887903
+							-1107985606
+							1148637359
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: [
+				"七咒的可怕之处慢慢显现，每一次轮回，你的灵魂会被诅咒撕下一块碎片"
+				"&b每一次死亡会掉落灵魂碎片，你会因此损失最大生命值！&r"
+			]
+			hide: true
+			icon: "enigmaticlegacy:soul_crystal"
+			id: "4AEF3F1E21ECAD62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE96369FDE7428F"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "22F930EA7462D48A"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "对灵魂的诅咒"
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4AEF3F1E21ECAD62"]
+			description: [
+				"这是被诅咒者们的救赎之路，这是寻找残存自我的孤独之旅，这是来自开拓先驱们的遗留宝物"
+				"&b可以帮助你寻找丢失的灵魂水晶&r"
+			]
+			hide: true
+			id: "5F1135A121CB0996"
+			rewards: [{
+				id: "7CC2DBAE66DD1A39"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1FEFB07DE72EC7C7"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: 20.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6073CB9FDA3E3997"]
+			description: [
+				"“哦，我的老天”一位喜欢看热闹的神祇表示“可怜的羔羊们啊，如果？？？知道你们如此固执，我发誓ta一定会生气到把帽子顶飞出去”"
+				"“记住这是最后的机会，不要告诉ta是我出的手”"
+			]
+			id: "5FB605CA098BF6D6"
+			invisible: true
+			rewards: [{
+				id: "1BD892598FDC8399"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2C47B43431C5F756"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 20
+			}]
+			title: "你的坚持引起了意外的关注"
+			x: 23.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4AEF3F1E21ECAD62"]
+			description: ["一位爱好交易的神祇关注着被诅咒者们的宿命，或许是因为发现了商机，祂许诺，任何人向祂购买自己曾经遗失的灵魂碎片"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:thicc_scroll"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "54FEF7E120B88408"
+			rewards: [{
+				id: "16881CBF37AFDAB5"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3ED3BD158F325D2B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "来自一位神祇的交易契约"
+			x: 20.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: [
+				"一位主张慈悲的神祇关注着被诅咒者们的宿命，面对因无知而误入神之试炼的羔羊们，祂心生怜悯，同意了他们的呼唤，宽恕了他们的悔恨，赐予了他们毁坏诅咒的方法"
+				"&b你可以借助邪恶之石的力量摆脱并摧毁七咒之戒&r"
+			]
+			hide: true
+			icon: "enigmaticlegacy:cursed_stone"
+			id: "6073CB9FDA3E3997"
+			invisible: true
+			size: 2.0d
+			tasks: [{
+				id: "5A98EF55D0651AB5"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 5
+			}]
+			title: "误入歧途者的呼唤"
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: [
+				"神圣之瓶，神奇之瓶，神祝之瓶"
+				"它将洗涤你的双眸，得以观神明一目"
+				"&b可以获得一个饰品栏位，多次使用无效&r"
+			]
+			hide: true
+			id: "02ECC05FF225054B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "600985BE0D6BDF20"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "054FF00E6160FC67"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: [
+				"&b哦我的老天，你知道这是什么吗，你可以借助这个无与伦比的道具为你的工具、武器、护甲等可命名的物品打造一个非常coooool的名字和描述&r"
+				"&b这个道具还需要借助另外一个道具才能使用&r"
+			]
+			hide: true
+			id: "17348F45309C064B"
+			tasks: [{
+				id: "0C6BA00A426A5473"
+				item: "enigmaticlegacy:lore_inscriber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["17348F45309C064B"]
+			description: ["&b在这个道具写上你想要的描述和名字，颜色和字体可选择多种，具体操作方法建议查询百科&r"]
+			hide: true
+			id: "60AE0FB7F1FC5452"
+			tasks: [{
+				id: "334B54208F077F26"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:lore_fragment"
+					tag: {
+						display: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: [
+				"远古的守护者已然陨落，它将成为你旅途的一粒尘埃"
+				"&b神秘遗物的玩具一号&r"
+			]
+			hide: true
+			id: "47192EC271247CC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04CC897FC0181B0F"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C21F6224A60D418"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: ["&b字面意思，真的会有人做这个吗&r"]
+			hide: true
+			id: "4A35089FD444B96F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43C9B60D22B0E1A5"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E3B81E081D2A93B"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: [
+				"来自遗迹废墟的神秘仪器，可以为使用者提供源源不断的“圣水”"
+				"但，“圣水”究竟是恩惠，还是诅咒"
+			]
+			hide: true
+			id: "4A20031BF1AFC812"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6041438433868705"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CC7254C99014EFE"
+				item: "enigmaticlegacy:unholy_grail"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: ["击败愚蠢的猪灵们后，你在它们的宝藏中发现了这颗果实，其狰狞扭曲的样貌令你不寒而栗，其散发的邪恶气息又不断吸引你吃下它"]
+			hide: true
+			id: "4E5355C621D803EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE70D6C4F4C1984"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5300CEF9E3B3DB56"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: [
+				"来自地狱坚固要塞的一颗奇异基石，其蕴含的湮灭之力可以将一切被吸收的事物摧毁殆尽"
+				"&b其实说好听点，就是个垃圾桶&r"
+			]
+			hide: true
+			id: "5FD46B06743F828F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18DC76C63B67BA29"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D183E1BDCCAE0F5"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:void_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["17348F45309C064B"]
+			description: [
+				"&b可以自由更改你的名字，操作方法和lore片段类似，字体和颜色可更改&r"
+				"&b装备全知之眼的玩家可以看到你的真名&r"
+			]
+			hide: true
+			id: "570375DEE8D7F5B6"
+			tasks: [{
+				id: "48CF21B0D6C6CBE5"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:insignia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4E5355C621D803EB"]
+			description: ["食用禁忌之果后在所有轮回中你将不再需要食用任何食物，同时可以支配不洁圣杯的力量，但是代价是什么呢"]
+			hide: true
+			icon: "enigmaticlegacy:darkest_scroll"
+			id: "62BF2721B5EA7F94"
+			tasks: [{
+				id: "7B4838BA4AB35832"
+				type: "checkmark"
+			}]
+			title: "与恶魔的交易"
+			x: 9.5d
+			y: 17.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["62BF2721B5EA7F94"]
+			description: ["与另一位恶魔的交易，献祭一个历经风雨的灵魂，一个自己的灵魂碎片，去换取一次“救赎”的机会"]
+			hide: true
+			icon: "enigmaticlegacy:redemption_potion"
+			id: "28DC7F433D8DA7D7"
+			rewards: [{
+				id: "4D9FF5BCAC4AE83E"
+				item: "enigmaticlegacy:redemption_potion"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:wandering_trader"
+					id: "2743D93C6C29C86E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					consume_items: true
+					id: "08892C2981AAD125"
+					item: "enigmaticlegacy:soul_crystal"
+					type: "item"
+				}
+			]
+			title: "名为救赎，实则。。。"
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: ["受七个诅咒的影响，你对灵魂的影响更加熟练，因此你得以掠夺地狱王者的灵魂精魄"]
+			hide: true
+			id: "2FF2099EB821F662"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C65D3EEE2ED08E9"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1167E2A7BB0A6990"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2FF2099EB821F662"]
+			description: ["向其仔细聆听，可以隐约听见来自地狱的哀嚎，来自过去被诅咒者的沉吟，来自终末之地生物的警示"]
+			hide: true
+			id: "1E6BD873EE9336E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C9962492EAEF9C2"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00E7FAD0661DF253"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: ["本身的写作是不会产生力量的，但当魔法材料引导文字们成为“知识”后，其就会产生蜕变"]
+			hide: true
+			icon: "enigmaticlegacy:thicc_scroll"
+			id: "70F7F1B2576043BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "348BE224A4C84BA9"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "7EA33623B0A66F47"
+				type: "checkmark"
+			}]
+			title: "“知识”的力量"
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: ["&b你可以打造其他戒指，并选择性的升级&r"]
+			hide: true
+			icon: "enigmaticlegacy:iron_ring"
+			id: "705C2AC05796AC06"
+			size: 2.0d
+			tasks: [{
+				id: "4B5F247F07BB2E85"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			title: "不只七咒"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: [
+				"不同于术石，其诞生于地壳，诞生于本源，是更纯粹、更厚重的力量"
+				"这股力量无法直接使用，但可以借助锻成其他造物的方式引导出来"
+				"&b神秘遗物最珍贵的材料&r"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:earth_heart"
+				tag: {
+					isTainted: 1b
+				}
+			}
+			id: "3F616F31E5EF3E8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01BE585B013B5A5B"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5E77DB381BCD557B"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "大地元素之精华"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["54FEF7E120B88408"]
+			description: ["“想向我购买更多的灵魂碎片？当然可以，但是”祂耸了耸肩“你知道的，突破时空的束缚是一件很费力气的活儿”"]
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:darkest_scroll"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "6A40A5E26692DA79"
+			rewards: [{
+				id: "7423B2D24EF5C093"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "0C1640318E3BC2DC"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "“优惠结束了”"
+			x: 23.25d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"75C617547548FDE3"
+				"2FF2099EB821F662"
+			]
+			description: [
+				"借助地狱王者的灵魂，你对魔咒的窥探能力得以更上一层，对魔咒的掌握能力也更加强大"
+				"&b反正装备上也没损失，可以做一个省着附魔时回头拿青金石&r"
+			]
+			hide: true
+			id: "3E970709DA000A69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5242DA74D72A1D24"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F7BEDEB7BA6F01F"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: [
+				"“一个合格的猎人应当有这么一个徽章”"
+				""
+				"&b很不错，同时由于其材料的简单性从而容易被人忽略&r"
+			]
+			hide: true
+			id: "417C40E79777AFBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E3D084A5395EF0A"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2854821ADBDCA102"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: ["“你，也会想家吗”"]
+			hide: true
+			id: "481C15A4A08178A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7080C1A5EA21EC26"
+					table_id: 2891706814726018842L
+					type: "random"
+				}
+				{
+					id: "5F0B2C2058A41B05"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51B88DBF8D9E56EC"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: [
+				"“我们无从得知那只巨龙的构造和全部能力，但是”"
+				"“巨龙的口水有着特殊的魔力，它所蕴含的力量经过制炼之后会让我们破烂不堪的装备焕然一新”"
+				"&b可以修东西，不止装备，几乎有耐久的都能修&r"
+			]
+			hide: true
+			id: "244A160D07500BC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "144ED9C8206C21A5"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0247F4E19585C520"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: ["众元素之力在时间长河中的沉淀，其所拥有的秩序之力似乎可以做些什么"]
+			hide: true
+			id: "0DE4E9917A02FBF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62E93B617C59AC07"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A595B9A724F77A6"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: ["在废墟中度过了漫长岁月，这种神奇的材料终于流到了你的手里，外面的岩层掩盖不住从裂缝中渗出的缥缈"]
+			hide: true
+			id: "7F45169F3B84CE93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "679FB4CE3ABA156C"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61BEC6084D6C4869"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: [
+				"传说中，每一个受七咒诅咒之人在终末之地第一次开启宝藏之时，一定会找到这颗果实"
+				"有人说这是宿命的轮回，有人说这是众神的奖励，有人说这是恶魔的陷阱"
+				"无论如何，它神圣的味道和强大的力量不会欺骗你"
+				"但你总有一种隐隐约约的感觉，是这颗果实主动找到了你"
+				"&b会出现在你第一次打开的末地宝箱里，多次食用无效&r"
+			]
+			hide: true
+			id: "135CD41AB9B1D120"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BBFBA0DA2D83A1D"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C75ECA591584158"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			title: "绝妙的果实"
+			x: 11.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: [
+				"传说在遥远的时代，一个极其发达的文明遭受了灭顶之灾，幸存的掌握着超凡技术的人们逃到了虚空的边界，发现了这片贫瘠且充满？？？的土地，他们在这里建立了城市，成立了向外探索的舰队，创造了守卫这里的巨龙，我们无法得知传说的全貌，但依然能从这颗心脏窥视他们的结局"
+				"不要去试图理解它的本质！"
+			]
+			hide: true
+			id: "2F01988BBA2C8C89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4299B4064E1A6609"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C3F99C732590489"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: [
+				"“知识”是一种神奇的物质，它可以承载影响现实的魔法力量，我们通常称这些带有力量的知识为“魔咒”"
+				"正如渴求知识之人所望，此乃“杰作”，即承载“魔咒”之物"
+				"&b它可以转移所吸收装备的所有附魔&r"
+			]
+			hide: true
+			id: "7F8561AE06148B51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27C0A25CFC0F938C"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "770C462A367AA240"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"7F8561AE06148B51"
+				"75C617547548FDE3"
+			]
+			description: [
+				"比“求知”更极端，比“求道”更癫狂，这是向往深渊之人的狂欢"
+				"&b它可以转移所吸收装备的所有诅咒附魔&r"
+			]
+			hide: true
+			id: "4896A38173ACF6EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22CAA7B16974DD17"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F9056A21879B82A"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7F45169F3B84CE93"]
+			description: ["经过锻造，来自远古文明的材料为你所用，其散发的微微光泽向世界轻语它的归来"]
+			hide: true
+			id: "2C0AD8CED7CD00E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B49530889B1DC96"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FC86D2D355F5BC5"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "42FDD0CD0F5FF7B8"
+			tasks: [{
+				id: "6FACFBAE48DF50A2"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "4D9BE8A691F7351E"
+			tasks: [{
+				id: "2CEFDA5266610CDB"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "6BF0AF2CEEB0688B"
+			tasks: [{
+				id: "09EDEB1BFE34A9BA"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "4DC89CC8E8C6A1F4"
+			tasks: [{
+				id: "32200D277EE14A2D"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "256F5FFA87020FDE"
+			tasks: [{
+				id: "75F4C5A594FA383C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "4274DA6339481EE7"
+			tasks: [{
+				id: "02CFA0088808F562"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "741AB31132515BB6"
+			tasks: [{
+				id: "4F3A522B129F1A4F"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "49A80601BD466A49"
+			tasks: [{
+				id: "0DACD7EB9AACBAD3"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			hide: true
+			id: "437174366197743E"
+			tasks: [{
+				id: "2765C2CBA2E8561A"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"75C617547548FDE3"
+				"2FF2099EB821F662"
+			]
+			description: [
+				"虔诚得到了回应，启示之证终于完成了蜕变"
+				"它也将回应你，引领（？）你走向深渊"
+				"&b指南书进化！对boss特攻指南书&r"
+				"&b实际上在这个包作用不大&r"
+			]
+			hide: true
+			id: "2353BEA8C875ABAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A6A50E20924B963"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0926592EDEF21348"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2F01988BBA2C8C89"]
+			description: [
+				"有关名为“无止之言”的遗物的记录寥寥可数，最后一次记录中，其被发现于一个颇具名望的魔咒师的高塔中，一同被发现的还有那位魔咒师的尸体，他逝去的脸上残余着的狂喜之色令人不寒而栗"
+				"而关于它的所有记录中都存在着这样的受害者，我们曾试过派人去研究此遗物，结果全都是人与遗物离奇消失"
+				"因此我们告诫世人，若你也听到“低语”和“颂歌”，请"
+				"&4“若你听到低语和颂歌，请拥抱ta们，ta们会拯救你，ta们会治愈你，ta们会解放你”&r"
+				"&b指南书超进化！终极对boss特攻加欧皇苟命指南书&r"
+				"&b实际上作用依然不大，免死效果只有它在你主手位且副手无物品时才会生效&r"
+			]
+			hide: true
+			id: "5626B413CD25E550"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C0F878F5DA56161"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "254576B814538DDB"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["2FF2099EB821F662"]
+			description: [
+				"是时候给可恨的末影人们一些教训了"
+				"&b神秘遗物玩具二号&r"
+			]
+			hide: true
+			id: "77B243086D2656FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CC718FB380AB1E2"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5374F51751F68BC3"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0DE4E9917A02FBF8"]
+			description: [
+				"&b额。。。&r"
+				"&b马铃薯爱好协会感谢你的支持&r"
+			]
+			hide: true
+			id: "6C44EBE274019702"
+			rewards: [{
+				count: 64
+				id: "6EC1167C66BC426C"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77F03533CBF98464"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"7ABB3C799A2F493C"
+				"0DE4E9917A02FBF8"
+			]
+			description: [
+				"“你是说，你把拥有扭曲现实的强大力量的珍贵材料用来做一个蛋糕？”"
+				"一些热爱蛋糕的神祗对你的选择表示赞赏"
+			]
+			hide: true
+			id: "2420D4F9C1959542"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3638BB728D3E8C07"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CBC6CABC917C5B2"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			title: "获得寰宇之心的第一件事是？"
+			x: 13.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["0DE4E9917A02FBF8"]
+			description: [
+				"足以扭曲现实的强大力量，令星辰之上的众神都不由得为之一震"
+				"历经万难，你终于窥见了远古岁月中那些强大遗物的一角"
+				"&b神秘遗物的最终材料，可以合成传说中的遗物&r"
+				"&b有些遗物的配方被隐藏，须在进度解锁后在指南书中查询对应配方&r"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "7ABB3C799A2F493C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1040C7C33F8BF326"
+					table_id: 8409694950077344958L
+					type: "random"
+				}
+				{
+					id: "382A98F0FCC0018D"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "37BF46A5370150C9"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["0DE4E9917A02FBF8"]
+			description: ["&b以太工具整合升级版&r"]
+			hide: true
+			id: "6D80B9EB57B7FDE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F348A8219DAAB07"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "191C4C40C3728A40"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+						tic_persistent: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["481C15A4A08178A6"]
+			description: ["&b约等于可重复使用的召回药水&r"]
+			hide: true
+			id: "1F2C252351A9AFFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CF7914C4D0194C4"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3817A249B6390CEA"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["70F7F1B2576043BD"]
+			description: ["平平无奇的卷轴，等待着人来赋予它意义"]
+			hide: true
+			id: "3EF0CEE1C9F10138"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "596D25FD96BEBCAF"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0ECA13F6D7AAA527"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["70F7F1B2576043BD"]
+			description: [
+				"与地狱里坚不可摧的堡垒中发现的战利品，其魔力似乎与七咒有一丝关联，这或许是受七咒诅咒者们支配诅咒力量的关键线索"
+				"&b只会出现在藏宝室的中心宝箱&r"
+				"&b有的地牢结构会使用藏宝室的战利品列表，这意味着你可以在那些结构的宝箱里找到它&r"
+			]
+			hide: true
+			id: "4642E2061CBE498A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29D5B901F1CDDB4A"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "62F153890CB84F1D"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: [
+				"&b用来斩首确实不错，但是&r"
+				"&b如果想获取凋零骷髅头的话，这个包有其他更优选&r"
+			]
+			hide: true
+			id: "67F94DB9F9F74149"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "385985EB54529BE3"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B1E143360AB42E9"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3EF0CEE1C9F10138"]
+			description: [
+				"&b神奇的道具，会在死后把“墓碑”送回来并把自己留在那&r"
+				"&b玩家才能拾取&r"
+			]
+			hide: true
+			id: "1595417FDA0576AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5403B24A852852FC"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DDA9FE0824106D9"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3EF0CEE1C9F10138"]
+			description: ["&b可以在信标旁边飞行，但是这个包有其他更好的飞行手段，所以不推荐&r"]
+			hide: true
+			id: "655731453E9BE5B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2208050D7348357F"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B7404C85320FFBF"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["655731453E9BE5B2"]
+			description: ["&b天堂之礼的升级版，还是不推荐&r"]
+			hide: true
+			id: "26B5D92840F86CDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1460099105367066"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EA1F19D846606BD"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3EF0CEE1C9F10138"]
+			description: ["&b可以自由存取经验&r"]
+			hide: true
+			id: "77731A92BA2DB9B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F1E5EC04A8FEB10"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68FE07560C90A04F"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["575358CA5624567A"]
+			description: ["&b可以传送目标生物到指定位置，只在同一纬度起效&r"]
+			hide: true
+			id: "3BF01D66927B8341"
+			tasks: [{
+				id: "384C29CFB016B0E6"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4642E2061CBE498A"]
+			description: [
+				"优雅华贵的外表掩盖不住其散发的贪婪之色，尽管它会为使用者带来庞大的生意收入，甚至可以让使用者将被杀死生物的灵魂转化为绿宝石"
+				"但是，为何前人会警示其极度危险呢"
+				"&b可以加时运等级，交易方面带来的好处大小因人而异&r"
+			]
+			hide: true
+			id: "371AC64F66565B76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1224650019F94047"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CB7C94EA8382BD3"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4642E2061CBE498A"]
+			description: [
+				"被诅咒者们对抗诅咒的最终产物之一，是支配诅咒之力的究极遗物"
+				"&b非常强大，单是七咒之戒就可以提供七层加成，并且饰品的诅咒附魔也可以提供加成，推荐做一个&r"
+			]
+			hide: true
+			id: "60D2FC03EF6AD381"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A71AF83687A55E4"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C08BE04A59B099B"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4AD608A1A7B651AA"]
+			description: [
+				"远古时期，自然中存在着的强大元素能量被虚无包裹后，就会诞生术石，不同于其他遗物，术石拥有空前的强大力量，以至于让那个时代的文明前所未有的强盛，也因此，在无休的争斗之中，那些文明很快都迎来了消亡"
+				"现在大气中稀薄的元素力量无法支持新的术石诞生，但我们仍然可以去寻找已逝文明的遗产，去发掘被淹埋的辉煌"
+			]
+			hide: true
+			icon: "enigmaticlegacy:enigmatic_item"
+			id: "58C68A11DED1253A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A5DFE5EEBC34455"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "316B3671048B1712"
+				type: "checkmark"
+			}]
+			title: "自虚无诞生的见证者"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75C617547548FDE3"]
+			description: [
+				"&b一定要慎用，不然容易千里送人头&r"
+				"&b配方被隐藏了，请查询指南书&r"
+			]
+			hide: true
+			id: "10BA1ADD75A077CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35402C23736DEC85"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0998A2A59709F0FF"
+				item: "enigmaticlegacy:twisted_potion"
+				type: "item"
+			}]
+			title: "意外之神的馈赠"
+			x: 17.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["705C2AC05796AC06"]
+			description: ["&b其中立技能无效，但是幸运还是加的&r"]
+			hide: true
+			id: "3DAC2935C45CC7F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55AB6B15B6D52112"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6A4304315CB0BDB3"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 6.5d
+		}
+		{
+			dependencies: ["705C2AC05796AC06"]
+			description: [
+				"&b还在担心怪物掉落物被某些亡语炸掉？还在痛恨挖掉的矿物没吸到掉到了熔岩里？还在烦恼掉落物太分散不好收集？&r"
+				"&b做一个磁力戒指吧，可自由开关无需担心胡乱吸到垃圾&r"
+			]
+			hide: true
+			id: "1D2CC44C84B3B11A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2087B1119D9D5B18"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "38DDCF06E80FCF0B"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["705C2AC05796AC06"]
+			description: ["&b为佩戴者增加物品栏打开末影箱功能，如果你戴了七咒就不需要这个&r"]
+			hide: true
+			id: "3E96E48A4BD7F70A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A0AB6AA9561E02B"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7D58D3E96284E91F"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1D2CC44C84B3B11A"]
+			description: ["&b磁力戒指加强版&r"]
+			hide: true
+			id: "772B2DCB45F175B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CAE9BE09CB5FD22"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "345D47600B544D7D"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3DAC2935C45CC7F5"]
+			description: [
+				"借助深渊之心那扭曲现实的力量，你铸造了这枚不详的戒指，借用不可名状的能力你摆脱了那些本该中立却因七咒对你刀剑相向的生物，但是"
+				"“它是活物，切记不要让它察觉到你的异常”它会和七咒一样，一旦戴上就将永远伴随着你"
+				"这是与一个恐怖存在的契约"
+				"&b实际作用是否有用因人而异，但是由于其配方需要的虚空珍珠太过难得，故一般情况下不推荐&r"
+			]
+			hide: true
+			id: "47E53F88F79BCA1A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A09014F98EE178B"
+					table_id: 8409694950077344958L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A85AA8E281A6A42"
+					table_id: 8409694950077344958L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "43B7B03CBBEEE30E"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F616F31E5EF3E8A"]
+			description: ["&b无限用的超级骨粉，有点贵&r"]
+			hide: true
+			id: "6C5297DBF1C036A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55EB3435048CFE06"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "408CEFBEB33D3613"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F616F31E5EF3E8A"]
+			description: [
+				"借用大地元素的聚合体，你得以与大地的感知产生链接，这将成为你寻找宝藏的一大助力"
+				"&b很好用，加时运等级，推荐做一个&r"
+			]
+			hide: true
+			id: "1B09A7F0875B2CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5969E4DBC01F9046"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "40A738840D2102C6"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F616F31E5EF3E8A"]
+			description: [
+				"“拥护它，接受它，赞誉它”"
+				"“这不是诅咒，这是馈赠，这是赐福”"
+				"大地的化身已面目全非，现在静置在你手上的是纯粹的诅咒与邪恶"
+				"&b珍贵材料合成后的材料当然也是珍贵材料（&r"
+			]
+			hide: true
+			id: "6055E45C7FD9D0B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48D22F0162CC46A0"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "097EFBBB18321888"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6055E45C7FD9D0B5"]
+			description: ["&b防御能力相当不错，唯一缺点就是不怎么耐用，遇到五级冰火龙龙息那种高伤高频攻击其耐久会掉的飞快&r"]
+			hide: true
+			id: "21E6FD7F2AB479E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25746818D57C1C14"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "22A0A20F74B4FBFA"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6055E45C7FD9D0B5"]
+			description: [
+				"&b蘸豆，爽！&r"
+				"&b狂战士的最佳伙伴，推荐做一个&r"
+			]
+			hide: true
+			id: "35D1475C62823C57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FC057B34BC0E9B5"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0443DEACC3D093CE"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58C68A11DED1253A"]
+			description: [
+				"自然各个地方的众多元素最终凝聚成了六种不同的基石"
+				"&b神秘遗物最主要的饰品，在各个结构的战利品宝箱可以找到它们，不同的战利品列表对应着不同的术石&r"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:cosmic_heart"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "50DF2694E9E4B8B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21284F6B5BF63220"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				advancement: "enigmaticlegacy:main/discover_spellstone"
+				criterion: ""
+				id: "02DE720CFC06D137"
+				type: "advancement"
+			}]
+			title: "元素之力的极致"
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50DF2694E9E4B8B3"]
+			description: ["决心烬灭，此即为烈炎化身"]
+			hide: true
+			id: "24EFD0E020C1EFB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01034F4266D5D860"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1AB0EC1E30D9CBD0"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 17.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["50DF2694E9E4B8B3"]
+			description: ["传承遗失，此即为星影化身"]
+			hide: true
+			id: "53DB06A80B2E0D5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23B0DEFCDD06FC23"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3489EF40C254FDDB"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50DF2694E9E4B8B3"]
+			description: ["希望消逝，此即为虚无化身"]
+			hide: true
+			id: "643504894E08DE0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29E20086E1727237"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "101BE572EAE1E5A0"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50DF2694E9E4B8B3"]
+			description: ["怜惜无存，此即为海渊化身"]
+			hide: true
+			id: "1CAAD7FCCA55FB17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B72F53D6492D483"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4ECADD269169A7F5"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50DF2694E9E4B8B3"]
+			description: ["悲欢不再，此即为天雨化身"]
+			hide: true
+			id: "348F4EE727AEE0C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1B4C3E55D790AB"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0BF77F8C215054F4"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50DF2694E9E4B8B3"]
+			description: ["勇气崩裂，此即为魔峦化身"]
+			hide: true
+			id: "3FDB5BE44BD62C7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DB037D0D020EF26"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7235E13E1C4CD567"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.25d
+		}
+		{
+			dependencies: [
+				"50DF2694E9E4B8B3"
+				"643504894E08DE0C"
+				"53DB06A80B2E0D5C"
+				"348F4EE727AEE0C2"
+				"3FDB5BE44BD62C7E"
+				"24EFD0E020C1EFB9"
+				"1CAAD7FCCA55FB17"
+				"11F04D68636A6AB7"
+			]
+			description: [
+				"六大元素的集合，半神重回巅峰之路的终点，此时此刻，宇宙之力掌握在你的手中，你的位格临驾于三界之上"
+				"此物不灭，汝将永恒"
+			]
+			hide: true
+			id: "16E7D0CD1748CC7E"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B4FCB287C80A858"
+					table_id: 8409694950077344958L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61FFF6C54F2AEA90"
+					table_id: 8590509534707339916L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "71BD67FDAA4ED436"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			title: "成就壮举"
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"4AD608A1A7B651AA"
+				"16E7D0CD1748CC7E"
+				"7E0ED5CE16CB1208"
+			]
+			description: [
+				"世界的基石，无与伦比的强大，使用者将脱离凡间的尘苦，肉身永垂不朽，灵魂跳脱次元"
+				"通常来说只有成为正神才有足够的力量召唤它，但是众多次元的融合使你获得这绝无仅有成为万灵之上的机会"
+				"尽管无比艰难"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "enigmaticlegacy:enigmatic_item"
+			id: "2F770223197BB13D"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "7CC71CC7B1961B68"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			title: "凌驾于一切"
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6F3D9B3722F6B35F"]
+			description: [
+				"如烟火般壮丽，如流星般迅捷"
+				"&b相当于自带烟花动力的鞘翅，强大的动力可以冲破某些带吸引力的技能&r"
+			]
+			hide: true
+			id: "03E2FED34CD0A0B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1277E725EC1AB34C"
+				table_id: 8409694950077344958L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FAFA07B8A33AF2C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["2C0AD8CED7CD00E5"]
+			description: ["&b超级重生锚plus+&r"]
+			hide: true
+			id: "758ED5722035F600"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51294BC5B5872B6C"
+				table_id: 2891706814726018842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58228943DA1749AC"
+				item: "enigmaticlegacy:end_anchor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"4F8A187AABA1FF11"
+				"7ABB3C799A2F493C"
+			]
+			description: [
+				"借助寰宇之心的力量，你得以将平行宇宙中所有可能出现的能力都整合在你手中的这一个护身符上"
+				"飞升，升华，升格，无数形容无法描述这一奇迹"
+				"它是证明，是命运的破格者，是传说的见证者，是伟人的引导者"
+				"&b强大的遗物，拥有所有种类神秘护身符的常驻属性，但似乎还有其他用处&r"
+			]
+			hide: true
+			id: "7E0ED5CE16CB1208"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EDCC5D8BF77D651"
+					table_id: 8409694950077344958L
+					type: "random"
+				}
+				{
+					id: "40E94663B2777F65"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "624A96B67A0020BC"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.75d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7E0ED5CE16CB1208"
+				"4F8A187AABA1FF11"
+			]
+			description: [
+				"与七咒相处恒久，你备受折磨的同时也比任何人清楚诅咒力量的强大，因此在获得飞升证明的同时，你第二件事儿就是考虑如何灌输诅咒的力量"
+				"很幸运，深渊之心乐意帮你这个忙"
+				"升格不再，纯净是滋生扭曲最好的养料"
+				"你很庆幸，被完全腐化的奇迹给你带来了更大的力量"
+				"你很激动，被完全扭曲的圣物承诺将完全拯救你"
+				"&b强大的遗物，成本略贵，材料充裕的情况下推荐做一个&r"
+			]
+			hide: true
+			id: "4B8B8499B6449433"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D12E30E5CABF3B1"
+					table_id: 8409694950077344958L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BC700A8C11FE0B2"
+					table_id: 8590509534707339916L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5414051F15067A7C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.75d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"53DB06A80B2E0D5C"
+				"643504894E08DE0C"
+				"24EFD0E020C1EFB9"
+				"3FDB5BE44BD62C7E"
+				"348F4EE727AEE0C2"
+				"1CAAD7FCCA55FB17"
+			]
+			description: [
+				"历史上下，人们对术石的争夺和寻找从未停止，你不是唯一一个凑齐六种术石的人，也不是唯一一个试图融合术石的人，然而他们却都失败了"
+				"也许你需要足以扭曲现实的力量"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_item"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "11F04D68636A6AB7"
+			rewards: [{
+				id: "727E4C6335D27AC4"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "38ADC924D9AD28C7"
+				type: "checkmark"
+			}]
+			title: "这就是终点...吗？"
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F770223197BB13D"]
+			description: [
+				"历经万难，重登顶峰，目之过往皆为尘土"
+				"是什么，使你无论代价、放弃一切的行事"
+				"是什么，驱使着你不断向前、坚拒回首"
+				"是什么，令你此刻如此超脱、如此坦然"
+				"“只因此刻，吾将......”"
+			]
+			hide: true
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "5D1A6AC227BC16B7"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: {
+						ActivationAnimation: -1
+						IsDormant: 0b
+					}
+				}
+				id: "579BC9B114F8229E"
+				item: {
+					Count: 1b
+					id: "minecraft:command_block"
+					tag: {
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"“§k登神§r”\"}"
+						}
+					}
+				}
+				team_reward: false
+				title: "......"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3CDCD62AFAD0DFA1"
+				type: "checkmark"
+			}]
+			title: "问，何为答案"
+			x: 13.0d
+			y: -14.0d
+		}
+	]
+	subtitle: [
+		"非欧立方怎么合成.jpg"
+		"-by 墨"
+	]
+	title: "神秘遗物 —— 强力饰品在哪里"
+}

@@ -1,0 +1,68 @@
+{
+	icon: "enigmaticlegacy:the_infinitum"
+	id: "77379EE847D6528C"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ item: "enigmaticlegacy:unwitnessed_amulet", weight: 20.0f }
+		{ item: "enigmaticlegacy:twisted_heart", weight: 4.0f }
+		{ item: "enigmaticlegacy:abyssal_heart" }
+		{ item: "minecraft:nether_star", weight: 7.0f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					RepairCost: 7
+					StoredEnchantments: [
+						{
+							id: "minecraft:vanishing_curse"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticlegacy:sorrow"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:binding_curse"
+							lvl: 1s
+						}
+						{
+							id: "l2hostility:vanish"
+							lvl: 1s
+						}
+					]
+				}
+			}
+			weight: 15.0f
+		}
+		{ item: "enigmaticlegacy:cosmic_cake", weight: 6.0f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:cosmic_heart"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:earth_heart"
+				tag: {
+					isTainted: 1b
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "enigmaticlegacy:ichor_bottle", weight: 2.0f }
+		{ item: "enigmaticlegacy:darkest_scroll", weight: 3.0f }
+		{
+			description: "一阵奇怪的低语，似乎来源于其他维度"
+			title: "“？？？？？？”"
+			type: "toast"
+			weight: 35.0f
+		}
+	]
+	title: "神秘遗物3"
+}

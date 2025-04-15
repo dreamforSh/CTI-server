@@ -1,0 +1,2258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mainchapter0"
+	group: "7741820127317059"
+	icon: {
+		Count: 1b
+		id: "tconstruct:smeltery_controller"
+		tag: {
+			texture: "tconstruct:seared_bricks"
+		}
+	}
+	id: "602E731FF33BE768"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tconstruct:block/smeltery/controller/melter_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -4.3d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tconstruct:block/smeltery/controller/smeltery_unformed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tconstruct:block/smeltery/tank/ingot_gauge"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tconstruct:item/slot/upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/ftbq_images/tclogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/ic2_empty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/ic2_empty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/ic2_empty"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.8d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftblibrary:icons/down"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.8d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.8d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.8d
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.5d
+			y: 5.25d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"如你所见，你来到了这个世界......"
+				"&b不过，这个世界...似乎有些不一样？？？&r"
+				"不用因为佩戴了七咒而害怕铁傀儡攻击你，前提是你不主动惹他（"
+				"&a村庄&r是前期&a最安全的地方&r，外面的世界混杂着&c各种带有等级的怪物&r，并且&c会随着你的游戏的进程&r而变得&c越来越强大&r，"
+				"具体相关你可以到&d莱特兰章节&r来具体了解"
+				"而关于这枚&4戒指&r，你可以到&d神秘遗物章节&r了解"
+				""
+				"******游玩前提示：本包所有boss（包括原版的凋灵和末影龙）均受到恶意的诅咒而变得&c异常强大&r，&6在有一套足够强力的装备前不要去招惹任何boss生物！"
+				"正所谓知己知彼天下无敌，关于boss的描述请前往挑战章节中的&dboss收集册&r查看。"
+				""
+				"{@pagebreak}"
+				"这是一些&a前期或许用得上的装备&r"
+				"&9想要在这个地方生存下来，这点...远远不够"
+				"&r&a祝你好运&r！"
+			]
+			icon: "l2hostility:teleport"
+			id: "34A01824678F973A"
+			rewards: [
+				{
+					id: "02EB4C63011B38F8"
+					item: {
+						Count: 1b
+						id: "tconstruct:pickaxe"
+						tag: {
+							Damage: 0
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"角落里的矿工镐\"}"
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:seared_stone"
+								"tconstruct:wood"
+								"tconstruct:ancient_hide"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:searing"
+								}
+								{
+									level: 1
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 1
+									name: "tconstruct:fortune"
+								}
+								{
+									level: 1
+									name: "tconstruct:pierce"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_name: "一把平平无奇的镐子"
+							tic_persistent: {
+								upgrades: -1
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 2.5f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 337.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 6.5f
+							}
+							tic_upgrades: [{
+								level: 1
+								name: "tconstruct:emerald"
+							}]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D91A8B4BA62A932"
+					item: {
+						Count: 1b
+						id: "tinkers_things:makeshift_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 45.0f
+							}
+							tic_volatile_data: {
+								defense: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C1086297001C765"
+					item: {
+						Count: 1b
+						id: "tinkers_things:makeshift_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 3.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_volatile_data: {
+								defense: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "546893235B2DAB75"
+					item: {
+						Count: 1b
+						id: "tinkers_things:laminar_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tinkers_reforged:duralumin"
+								"tinkers_reforged:duralumin"
+								"tconstruct:bamboo"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tinkers_reforged:rock_solid"
+								}
+								{
+									level: 1
+									name: "tconstruct:unburdened"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 4.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 1619.9999f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CC3DDB09490E338"
+					item: {
+						Count: 1b
+						id: "tinkers_things:laminar_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tinkers_reforged:duralumin"
+								"tinkers_reforged:duralumin"
+								"tconstruct:bamboo"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "tinkers_reforged:rock_solid"
+								}
+								{
+									level: 1
+									name: "tconstruct:unburdened"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 1403.9999f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D31467481EF7636"
+					item: {
+						Count: 1b
+						id: "tconstruct:sword"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tinkersinnovation:andesite_alloy"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 1
+									name: "tconstruct:sturdy"
+								}
+								{
+									level: 2
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.1f
+								"tconstruct:mining_speed": 0.5f
+							}
+							tic_name: " 新手短剑"
+							tic_persistent: {
+								upgrades: -1
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 6.5f
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:durability": 929.77496f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:mining_speed": 3.5f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:sharpness"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29EF597017E11488"
+					item: {
+						Count: 1b
+						id: "tconstruct:hand_axe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 1
+									name: "tconstruct:stripping"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 6.0f
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:durability": 60.0f
+								"tconstruct:harvest_tier": "minecraft:wood"
+								"tconstruct:mining_speed": 2.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0BD52990BA5090A4"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "有些...不一样？"
+			tasks: [{
+				id: "4C6E1933FAAB7D73"
+				title: "万物的开始"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34A01824678F973A"]
+			description: [
+				"毕竟&a万物先撸树&r嘛，没有木头啥都不好做,圆石亦是需要获取一些的"
+				"先尝试收集&a16个吧"
+				"由于有&6连锁挖矿&r，所以你&a只需按住\"~\"键&r砍树/挖石头即可连锁"
+				""
+				"完成之后我会赠予你一些&e基础的加工台&r，你不必再自己做一套了"
+				""
+				"(反正任务目标是16根木头和16圆石，其实拆村民房子也行)"
+			]
+			icon: "minecraft:oak_log"
+			id: "388FD9256DBF317D"
+			rewards: [
+				{
+					id: "7B45A521F184B50F"
+					item: {
+						Count: 1b
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "348D52D4027A217E"
+					item: {
+						Count: 1b
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "43FDDAC73DE1D02A"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "41B6B0F77EAC36C2"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "753027DC99838C85"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 16L
+					id: "2C266F660E708D9C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0997A147E0F99330"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "兜兜转转还得从这开始"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["388FD9256DBF317D"]
+			description: [
+				"匠魂是一个&a强大的实用模组&r，也是&b本包的核心模组&r。你可以使用&a各种材料&r来制作&d能力独特&r的&d各种工具&r！"
+				""
+				"将&a部件制造台&r，&e工匠站&r放在地面上，&c右键&r即可打开其GUI"
+				""
+				"尝试做一个&7岩石&r的&b斧刃&r"
+				""
+				"&a如果你没有玩过&61.19.2的匠魂3&a，请耐心分页看完，&c别到最后连护甲都不会做&r"
+				"{@pagebreak}"
+				"这是&a部件制造台&r"
+				"{image:kubejs:textures/ftbq_images/initially1.png width:160 height:100 align:1}"
+				"依次对应&e模具槽&r，&e材料槽&r，&e部件类型选择&r，&e成品槽&r"
+				""
+				"&a模具槽&r可以用来放各种&a模具&r"
+				""
+				"&e沙子模具&r不同于1.18，现在可以&6直接在部件制作台选择对应的沙模"
+				"{image:kubejs:textures/ftbq_images/8b5f22cdfd58301ab4c62fd3008f81d92.png width:156 height:69 align:1}"
+				"{image:kubejs:textures/ftbq_images/8b75739e99c935952612e362f44d5670.png width:159 height:72 align:1}"
+				"&e金模具&r虽然只能&b固定一种类型&r，但是可以&b无消耗&r使用"
+				""
+				"&e木模具&r可以&e直接把手搓的材料做出来&r"
+				""
+				"&e材料槽&r用来放&e材料&r(&m我的天我在说什么啊&r）"
+				""
+				"&b材料值&r需求并非每个材料都是1，跟据作者填的&e价值&r来决定，满足&a材料值总和&r才能制作出来对应的部件"
+				""
+				"一些前期的小材料都是可以在部件加工台&e直接做的&r(也就是所谓的&b手搓&r)"
+				""
+				"&c更高级&r的或许需要&b熔融浇筑&r才能制作(后面会讲）"
+				""
+				"绝大部分仅部件台合成的材料不能合成护甲镶板，&a但是石是例外&r，只不过石质镶板&e不是用来制作装备&r的，&6而是用来合成铸膜&r的，往石镶板上浇筑金即可获得镶板的铸膜。"
+				""
+				"&e部件类型槽&r选定后即可按照&e你选定的&e去计算&a材料值&r等等"
+				""
+				"&e成品槽&r类似于工作台成品槽，不过遗憾的是，&c这个并不能自动化&r，只能你自己手动(&l&e&m匠人精神)"
+				"{@pagebreak}"
+				""
+				"{image:kubejs:textures/ftbq_images/initially2.png width:80 height:100 align:1}"
+				""
+				"在屏幕的右边可以预览&a属性，材料值，支持的部件，词条&r等等"
+				""
+				"关于每个&a属性&r是什么意思，你可以&d鼠标悬浮&r在上面，原作者应该都填写了对应的意思，&e词条同理"
+				""
+				"&r&l&b匠魂每个材料都是不一样的，因此跟据搭配选择合适的部件吧！&r"
+			]
+			id: "26CAE8F089150BDB"
+			rewards: [{
+				count: 16
+				id: "2B0D26E89EE32E00"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "真神登场"
+			tasks: [{
+				id: "03AD22D74700C038"
+				item: {
+					Count: 1b
+					id: "tconstruct:small_axe_head"
+					tag: {
+						Material: "tconstruct:rock"
+					}
+				}
+				type: "item"
+			}]
+			title: "匠魂部件"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			description: [
+				"这是&e工匠站&r的界面"
+				""
+				""
+				"依次对应&a工具选择，部件预览，成品预览和工具属性预览"
+				"{image:kubejs:textures/ftbq_images/initially3.png width:220 height:100 align:1}"
+				""
+				"组装一个工具的正确顺序"
+				""
+				"第一步，在左边众多工具中&e选择&r你想要制作的工具"
+				""
+				"第二步，将其&e需要的各种部件&r依次&a填满&r工匠站的预览槽，此时可以看到右边出来&d成品预览&r了，需要注意的是，&e部件的顺序或许会多少影响外观&r，如果你&e很注重外观&r你可以略微&e调一下材料对应部件的&b&l顺序&r和&b&l位置&r"
+				""
+				"第三步，单击&b成品槽&r，即可取出成品"
+				""
+				"现在，尝试组装一把&a任意材料的锹&r吧，它可以更快地帮助你&e挖掘泥土&r类"
+				"{@pagebreak}"
+				""
+				" 这么多&a琳琅满目的工具不知道想用哪个&r？你可以去&d&l工具收集册&r看看"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:tinker_station"
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			id: "05A59435093F9730"
+			rewards: [
+				{
+					id: "631A480EF25379A4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7420DE1FFF98F094"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "tconstruct:luck"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "任意材质的匠魂锹都可以完成这个任务"
+			tasks: [
+				{
+					id: "486B1C735492AEF2"
+					title: "按照我说的去做个铲子"
+					type: "checkmark"
+				}
+				{
+					id: "6B707E094E6BDDBE"
+					item: {
+						Count: 1b
+						id: "tinkers_things:shovel"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tinkers_ingenuity:dye_fire_material"
+								"tinkers_ingenuity:dye_fire_material"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:knockback"
+								}
+								{
+									level: 1
+									name: "tconstruct:pathing"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 2.5f
+								"tconstruct:harvest_tier": "minecraft:wood"
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "匠魂工具的组装"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			description: [
+				"{image:kubejs:textures/ftbq_images/initially5.png width:200 height:100 align:1}"
+				""
+				"像这样放一个&a工具&r上去，放入&a模具&r即可&a保底回收其中一个你最想要的&r部件，其他部件会根据&a耐久量&r返还部分"
+				""
+				"&a&m其实屏幕右侧写了&r"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:part_builder"
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			id: "6252EE377D9D66FC"
+			rewards: [{
+				id: "22F24ACC92B1DC51"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "其实它还可以回收工具"
+			tasks: [{
+				id: "11BB190ECE3206CA"
+				title: "没想到吧"
+				type: "checkmark"
+			}]
+			title: "其他妙用"
+			x: 4.2d
+			y: 2.4d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			description: [
+				"可以每格子容纳16物品但是种类双倍与木箱子的独特箱子"
+				"&m&8但是我更推荐循环的板条箱"
+			]
+			icon: "tconstruct:tinkers_chest"
+			id: "7E9675D9761EE59D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C6FCBD99D10B6B8"
+				table_id: 1021271035427133542L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7EF715F456D230AA"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			description: [
+				"可以用于存放各种做好的部件的箱子，槽位随着你放入部件数量而增多"
+				"&m&8(我为什么要做这么多多余部件）&r"
+			]
+			icon: "tconstruct:part_chest"
+			id: "0BB0365D0EFE4578"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "138B2D2CA078F85E"
+				table_id: 1021271035427133542L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53342B66812035AB"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			description: ["看似是更好用的工作台，可以直接读取相邻容器的物品。但其实这个不能适配背包整理模组的连续合成，并没有想象的那么好用"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:crafting_station"
+				tag: {
+					texture: "twilightforest:stripped_twilight_oak_wood"
+				}
+			}
+			id: "51B2E7473149CE13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C9D194DB139B1CC"
+				table_id: 1021271035427133542L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "085B7E6F972A2A74"
+				item: {
+					Count: 1b
+					id: "tconstruct:crafting_station"
+					tag: {
+						texture: "twilightforest:stripped_twilight_oak_wood"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["05A59435093F9730"]
+			description: [
+				"{image:kubejs:textures/ftbq_images/initially4.png width:200 height:100 align:1}"
+				""
+				"工具和部件一起放在工匠站/工匠砧，即可将对应位置的部件替换掉。不会返还原部件，强化仍然保留"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:hand_axe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tinkers_reforged:duralumin"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tinkers_reforged:rock_solid"
+						}
+						{
+							level: 2
+							name: "tconstruct:cultivated"
+						}
+						{
+							level: 1
+							name: "tconstruct:stripping"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 7.0f
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:durability": 690.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 6.5f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "02836AEAD1EBD692"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E161EC8F07297F9"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "4A1B00E9586AF0C7"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "想上更好材料但是不想做整把新的？"
+			tasks: [{
+				id: "1883E43868B3C28E"
+				title: "我学会了"
+				type: "checkmark"
+			}]
+			title: "部件的替换"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05A59435093F9730"]
+			description: [
+				"武器自带的词条或许已经不能满足你了"
+				""
+				"&r这时候你就需要手动给工具施加&a强化&r了"
+				""
+				"在&b&l工匠站(原料需求<=3)&r或&9&l工匠砧(原料需求>3)&r可以为工具施加&a强化"
+				""
+				"具体配方可以查看jei/匠魂宝典"
+				""
+				"部分词条由于没有&a标签&r,书上可能不全，如果要看最全的建议&a去JEI点击上方栏目显示全部强化&r来&b翻页查看&r，并且建议使用&b A&r 键标记需要的强化，因为实在太多了"
+				"{image:kubejs:textures/ftbq_images/initially12.png width:110 height:100 align:1}"
+				"{image:kubejs:textures/ftbq_images/initially15.png width:160 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tconstruct:luck"
+				}
+			}
+			id: "2447751E90712497"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D18D2BFFC30BD00"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "198141AF8A3F9E38"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "595E88CD64D280B1"
+				title: "我学会了"
+				type: "checkmark"
+			}]
+			title: "工具的强化"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05A59435093F9730"]
+			description: [
+				"&e砖泥&r是前期获取焦黑砖的&6唯一方式&r，需要的量略微大一些，现在，做一些&e砖泥&r吧"
+				""
+				"并且把它们全部放到熔炉里面&c烧制&r"
+				""
+				"&6它同时也是一种匠魂材料的原材料哦&r"
+				""
+				"这里送你一些&c熔岩&r用于下一步的教学，&4不要乱用哦&r"
+			]
+			id: "28932EFD933B505B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56A12EC749936BEA"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "5F0340A08106BF28"
+					item: {
+						Count: 1b
+						id: "tconstruct:seared_fuel_gauge"
+						tag: {
+							tank: {
+								Amount: 4000
+								FluidName: "minecraft:lava"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27087D731EA2DB3A"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+				{
+					id: "545D6E26D0669A1E"
+					item: "mekanism:ultimate_fluid_tank"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "想要尝试一下更高级的工具制作方式？"
+			tasks: [{
+				count: 32L
+				id: "625502F36449BBB9"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			title: "水泥水泥水泥工"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			icon: "tconstruct:blank_sand_cast"
+			id: "412D701FEECE2583"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DA23794434580CE"
+				table_id: 1021271035427133542L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "33DC7F42FB1382A3"
+				item: "tconstruct:blank_sand_cast"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28932EFD933B505B"]
+			description: [
+				"先收集齐任务所需的几个材料，然后&a摆放为像图中一样&r(前面&b已经送过&r你“&c装有熔岩的焦黑燃料容器&r”了哦，放在熔化炉下面即可)"
+				""
+				"{image:kubejs:textures/ftbq_images/initially6.png width:130 height:100 align:1}"
+				""
+				"{@pagebreak}"
+				"打开后应该像图中一样是这样一个GUI"
+				""
+				""
+				"{image:kubejs:textures/ftbq_images/initially7.png width:180 height:100 align:1}"
+				"左边是&a原料&r，中间是&b熔化炉储罐&r，右边是&c燃料槽&r"
+				""
+				"&a原料&r会随着你&c燃料温度&r的提升而提升，当满足&c温度&r，&3容量条件&r便可熔化后&b存储到熔化炉&r内."
+				""
+				"&b熔化炉储罐&r内存是&7固定&r的，存储流体的储罐,&e鼠标悬浮&r可以显示信息"
+				""
+				"&c燃料槽&r是提供&c燃料&r的，当你悬浮的时候你应该发现了，有&c温度&r的差别，温度会影响其可以熔化的物品，具体可以在&e jei&r查看对应&a原料&r所需要的&c燃料&r。燃料是&6向下兼容&r的，因此请选择合适的&c燃料&r。&c燃料总览&r可以在&5材料收集册章节&r看到。"
+				""
+				"对基础粗矿基本都有约&e1.3&r倍的额外增产"
+			]
+			icon: "tconstruct:seared_melter"
+			id: "3B992C82DAA58BD5"
+			rewards: [
+				{
+					count: 32
+					id: "7FA9A60D2B79CF32"
+					item: "tconstruct:seared_brick"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C653A344393B19D"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "3539CDDAE952DA01"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "是熔化炉，不是合金炉哦"
+			tasks: [
+				{
+					id: "6B4449139E275F7B"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "047D93EE8178D9A7"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "6AD5BFF18F8A640E"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "23EEB2663387299E"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B992C82DAA58BD5"]
+			description: [
+				"对着&b浇筑口&r&e右键&r即可排出其中物品"
+				""
+				"{image:kubejs:textures/ftbq_images/initially8.png width:100 height:100 align:1}"
+				""
+				"在满足条件之后，便会开始&b冷却&r，&b冷却结束&r后&e右键&r或者&6管道抽出&r即可获取浇筑的物品"
+				""
+				"图中是&a&l铸造盆，一般用于处理&a方块类&r，换成&a&l铸件台&r同理"
+				"{@pagebreak}"
+				""
+				"当你提前在&a铸件台/铸造盆&r上提前放置物品，便可将对应流体&b浇筑&r到其上，具体配方可以在jei查看"
+				""
+				"{image:kubejs:textures/ftbq_images/initially9.png width:120 height:100 align:1}"
+				"现在尝试浇筑出来&e金质筑膜&r和&8焦黑控制器&r吧"
+				""
+				"{@pagebreak}"
+				""
+				"有些部件&a只能通过筑膜&r来浇筑出来，比如铁等，具体配方见jei，都写得很详细"
+				""
+				"&e金质筑膜&r可以&e无限次数&r使用"
+				""
+				"&6沙质筑膜&r会在你浇筑一次后被销毁,而且你需要在&a部件制作台提前预设好&r或者&b压模&r才能使用(具体看jei)"
+				""
+				"其他的还有&7铝制筑膜&r等等，但是并不推荐，因为金是原生支持所有部件的"
+			]
+			icon: "tconstruct:ingot_cast"
+			id: "2B853183B942C783"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30931152F14D5A2D"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "3A35BC8BEDCFFCCB"
+					item: "tconstruct:mighty_smelting"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "066FFB127EA9D37A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:casts/gold"
+						}
+					}
+					optional_task: true
+					title: "Any #tconstruct:casts/gold"
+					type: "item"
+				}
+				{
+					id: "3715FC8611A87A6B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:casts/sand"
+						}
+					}
+					optional_task: true
+					title: "Any #tconstruct:casts/sand"
+					type: "item"
+				}
+				{
+					id: "0CE500AA908F2C35"
+					item: {
+						Count: 1b
+						id: "tconstruct:smeltery_controller"
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "筑模与浇筑"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B853183B942C783"]
+			description: [
+				"摆放为像图中一样即可形成结构,因为焦黑玻璃更好看所以我选择了焦黑玻璃"
+				""
+				"如果你实在看不懂，请打开前面送的&l&n&8\"大师熔炼术\"&r这本书，里面有详细的搭建规则"
+				""
+				"{image:kubejs:textures/ftbq_images/initially10.png width:130 height:100 align:1}"
+				""
+				""
+				"常见的注意事项"
+				"&b底面&r必须是焦黑砖块之类的&7焦黑石材&r，&c不能玻璃&r"
+				""
+				"&b单一平面&r必须是&a完整的&r，不然该层&b不计入&r"
+				""
+				"其他&a附件&r没有特殊讲究，放在哪里都可以，看个人习惯"
+				"{@pagebreak}"
+				"打开后内部是这样一个GUI"
+				""
+				""
+				"{image:kubejs:textures/ftbq_images/initially11.png width:150 height:100 align:1}"
+				"和前面的熔化炉类似，不同的是，这里面的空间会和你冶炼炉的大小相关"
+				""
+				"冶炼炉的&e物品输入输出&r可以直接从&6&l冶炼炉控制器&r接&a物品管道&r，不需要滑槽"
+				""
+				"冶炼炉的&b流体输入输出&r可以直接从&6&l排液口&r接&b流体管道&r，&7&l自动化的时候你会用得上的"
+				"{@pagebreak}"
+				""
+				"当冶炼炉内满足了&b合金&r的条件便会自动&b消耗燃料进行合金&r，&l&a具体配方和条件见JEI"
+				"{image:kubejs:textures/ftbq_images/initially14.png width:220 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:smeltery_controller"
+				tag: {
+					texture: "tconstruct:seared_bricks"
+				}
+			}
+			id: "52EEE06829BC1563"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B8A02BA96C8E5F3"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "3297635C52AFFD37"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2A16FF63DC16AD86"
+					item: {
+						Count: 1b
+						id: "tconstruct:smeltery_controller"
+						tag: {
+							texture: "tconstruct:seared_bricks"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "34986408D8007E18"
+					item: {
+						Count: 1b
+						id: "tconstruct:seared_drain"
+						tag: {
+							texture: "tconstruct:seared_stone"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52EEE06829BC1563"]
+			description: [
+				"专为熔炼&9生物&r所打造"
+				""
+				"还有很多有趣的匠魂炉建筑方块，你都可以在jei中搜索到"
+			]
+			id: "1C29C6B97DA6F072"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C02D4EACCE1F863"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "04E2968C11306B02"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+			]
+			subtitle: "1.19新增的一种焦黑玻璃，如其所说，可以让生物穿过。或许可以自动化？"
+			tasks: [{
+				id: "3C0F845845C43FBA"
+				item: "tconstruct:seared_soul_glass"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52EEE06829BC1563"]
+			description: [
+				"&e工匠青铜&r是&l匠心独运&r添加的一种&b廉价且好用的挖掘材料&r"
+				""
+				"只需要沙子和铜就可以合金合成"
+				""
+				"&b尝试做几块吧&r"
+				"{@pagebreak}"
+				"短暂的休憩时光"
+				""
+				"来杯🍺吧，庆祝一下你解锁了全部的工具"
+			]
+			icon: "tinkers_thinking:tinkers_bronze_ingot"
+			id: "7FCEF2EE1FE310FE"
+			rewards: [
+				{
+					count: 4
+					id: "130709D4B8DE2961"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "671BE1DCD92BDE8E"
+					item: "brewinandchewin:beer"
+					type: "item"
+				}
+			]
+			subtitle: "你的第一块合金"
+			tasks: [{
+				count: 27L
+				id: "47EE9955FC3157F0"
+				item: "tinkers_thinking:tinkers_bronze_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FCEF2EE1FE310FE"]
+			description: [
+				"和工匠站不同，它可以制作&e宽型工具&r了"
+				""
+				"&e宽型工具&r会有更多新的工具，如好用的&d劈刀&r"
+				""
+				"&d劈刀&r是非常适合前期使用的武器，因为它可以额外提升&4头颅&r的获取（&e劈刀自带&l&b肢解2&r），并且其属性也非常不错"
+				""
+				"在这个整合包&b劈刀被极大的加强了&r（不然被格伯剑爆了）自带&c肢解5&r并且自带&a抢夺2&r"
+				""
+				"现在，做一把劈刀吧，什么材质的都可以"
+			]
+			id: "09BC32B4F6BEB432"
+			rewards: [
+				{
+					count: 32
+					id: "15790A0B556378C6"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1286231BD345638E"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "0BFBA10656AF1E20"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "比工匠站更加全能"
+			tasks: [{
+				id: "7ECB988C54D62C2A"
+				item: {
+					Count: 1b
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "tinkers_thinking:tinkers_bronze_block"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09BC32B4F6BEB432"]
+			description: [
+				"由于&d七咒之戒&r的存在，&4下界&r前期而言&c异常危险&r，首当其冲的就是&c&l无法扑灭的火焰&r，其次还有周围&e&l虎视眈眈的猪灵&r"
+				""
+				"但是不用怕，我们此程的目的是&e烈焰人刷怪笼&r，从而获取&6烈焰血&r"
+				""
+				"因此我们需要做好&a充足的准备&r"
+				""
+				"&e首先你需要&c防火措施&r，最简单的就是一个叫&c岩浆瓶&r的东西，可以用&c岩浆块&r在匠魂炉&c熔炼后&r拿&e瓶子直接对着排液口右键&r获得，考虑到有人比较非，找不到岩浆块，所以我直接送你一瓶抗火吧"
+				""
+				"其次你需要有一套&a说得过去的装备&r，至少需要有&0黑曜石&r泡完&d火成&r,黑曜石是前期非常好用的装备，非常推荐你做一套"
+				""
+				"最后你可以做一个&6盾牌&r，这样可以抵御&e弹射物&r"
+				"{@pagebreak}"
+				"牢萤送了你一瓶&b召回药水&r，希望你拿完刷怪笼立马能&a平平安安的就回去&r，&m快说谢谢牢萤"
+				""
+				"喝了召回药水会返回你的&d重生点&r"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "636ADE09A34BB9F2"
+			rewards: [
+				{
+					id: "595F8B117DE8F20F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11E985EA759EC3AC"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_turtle_master"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7298E76F37C1C52F"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+				{
+					id: "4301D081552EB7D9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "cyclic:flight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FBE75CAB3ADE11E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "cyclic:flight"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "下界对于前期来说很危险，请做好充足准备"
+			tasks: [{
+				id: "41F837073FABF2CC"
+				title: "去下界前的一些准备"
+				type: "checkmark"
+			}]
+			x: 15.6d
+			y: 5.2d
+		}
+		{
+			dependencies: ["636ADE09A34BB9F2"]
+			description: [
+				"终于，你来到了这个&c炎热&r的地方"
+				""
+				"我们此程的目标是&e烈焰人刷怪笼&r，这样我们可以获得&e烈焰血&r"
+				""
+				"在&c下界堡垒&r的尽头你可以找到，如果你找不到的话是没法继续往下推进的"
+				""
+				"用这个叫做&e&l&o纸箱&r的东西&e&l&o右键刷怪笼&r，再&d&l&o破坏掉这个纸箱&r，就可以把刷怪笼拿走了。"
+				""
+				"还记得我前面送给你的&b召回药水&r吗？当你得手的时候不要贪，直接回家就可以，我们有更重要的事情要做"
+				""
+				"&b&o我相信你可以的&r，灵活运用你手中的&a药水和装备&r，以及&b&l工匠的头脑&r"
+			]
+			id: "71A49B6C2D816424"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BEAD384C4BFA0E4"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "1B8E8786637DEEC1"
+					item: "mekanism:cardboard_box"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "146480430D4461BD"
+				type: "dimension"
+			}]
+			title: "深入下界"
+			x: 13.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["71A49B6C2D816424"]
+			description: [
+				"穿戴这个制作的盔甲，你就仿佛穿上了&e金甲&r，&d猪灵不再会主动攻击你&r"
+				""
+				"或许前期你用的上"
+			]
+			id: "1612651925DCDED8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23AD68C16B4B908E"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "2FA33513CB688C76"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A33778B688188AD"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71A49B6C2D816424"]
+			description: [
+				"真要是不想手动找&c下界堡垒&r,你可以前往实用物品章节去购买一个&a探险家指南针&r"
+				""
+				"&e只要5金币买不了吃亏买不了上当&r"
+			]
+			id: "0EEAE7B123B2FFCC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04097B43185513D7"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "34424DCEE4675D55"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "75F443B6EA2BDACD"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71A49B6C2D816424"]
+			icon: "tconstruct:raw_cobalt"
+			id: "167D7D4B98ADBF9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E4280301B9A7C20"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "0F4DEED9DD9920AB"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7618196101E7F3B2"
+					item: "tconstruct:raw_cobalt"
+					type: "item"
+				}
+				{
+					id: "6D88B6CABCBB390C"
+					item: "tinkers_thinking:raw_ardite"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71A49B6C2D816424"]
+			description: [
+				"历经千辛万苦，你终于把&e烈焰人刷怪笼&r带回了你的基地"
+				""
+				"到这里为止，预备章就可以&d宣告结束了&r"
+				""
+				"我觉得有必要小小交代一下如何搭建&e熔融烈焰人&r的炉子"
+				""
+				"{@pagebreak}"
+				""
+				"&c生物熔炼&r是一种独特的获取资源的方式，其中最为&a重要&r的就是&e烈焰血&r和&2衰败&r了"
+				""
+				"首先我们已知&9刷怪笼刷怪范围&r是&e9x9x3&r，&c光照不能过高&r，并且烈焰人&e在没有攻击目标的时候会自然落地&r"
+				""
+				"因此我们可以像图中一样搭建"
+				"{image:kubejs:textures/ftbq_images/initially16.png width:150 height:100 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"烈焰血是一种&c更高温度&r的燃料，&a燃料温度会影响炉子的熔炼速度&r，更高的熔炼温度在后面你便可以知道"
+				""
+				"同时用这个你也可以轻松的做出来&6烈焰棒（浇筑）&r"
+				""
+				"更多配方可以看&4&l&ojei&r"
+			]
+			id: "2B25FFCF7AB3DD8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "474065DCFCD0E35A"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "5402363F84BBFBBB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6C0CB9BEE4C6587B"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["52EEE06829BC1563"]
+			description: [
+				"镕铸炉在书上有详细介绍，简单而言就是比&e冶炼炉大，功能不一样&r的炉子"
+				""
+				"其内部组件要换为“&a&l&o焦褐&r”开头对应的物品"
+				""
+				"熔铸炉&a不会提供任何增产，而会在熔炼时产出一些副产物&r，例如："
+				""
+				"1个粗铜会熔炼成1锭（90mb）的熔融铜和1粒（10mb）的熔融金。"
+				""
+				"1个远古残骸会熔炼成1锭的熔融残骸，1宝石（90mb）的熔融钻石和1锭的熔融金"
+				""
+				"熔铸炉的&e实体冶炼功能与冶炼炉完全相同&r"
+				""
+				"熔铸炉&c不能用于制造合金&r，这其实是一个优点，玩家不用担心炉中流体融合成各种奇怪的新流体"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"熔铸炉在搭建时&c不可省去棱角的方块&r，否则无法工作，这一点和冶炼炉大相径庭"
+				""
+				""
+				"{image:kubejs:textures/ftbq_images/initially17.png width:150 height:100 align:1}"
+			]
+			id: "508340027EE3C321"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E24935E417F77E0"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					id: "0D78F78C11B79252"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "现在你不需要做，但是迟早要做（"
+			tasks: [{
+				id: "75707DBF77D13CE4"
+				item: {
+					Count: 1b
+					id: "tconstruct:foundry_controller"
+					tag: {
+						texture: "tconstruct:scorched_bricks"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508340027EE3C321"]
+			description: [
+				"虽然名字叫&6“焦褐”&r，但&b并不是只有焦褐炉能用这个&r，因为其本身&c不隶属于多方块结构&r"
+				""
+				"其最大的优点在于，&c在其内部没有物品的时候不会接受浇筑&r"
+				""
+				"这一点看似没用，实则处理&c“加固板”&r等一系列&c需要流体浇筑物品的物品自动化&r的时候起着&c至关重要的作用&r"
+				""
+				"放置&e金栅栏或者金底座&r也可以空浇筑块之类的（&m&a但是这样我为何不用焦黑浇筑台）"
+			]
+			icon: "tconstruct:scorched_table"
+			id: "51E2E266AB33AF72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D09279EF2623A3"
+				table_id: 1021271035427133542L
+				type: "random"
+			}]
+			subtitle: "特殊情况下很好用"
+			tasks: [
+				{
+					id: "03AC7B22B95048F6"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "6BF559293996E936"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+			]
+			title: "焦褐炉妙妙小道具"
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B25FFCF7AB3DD8B"]
+			description: [
+				"到这里为止，匠魂的&2相关知识已经全部传授完毕&r，你可以&b正式开始你的科技之旅了&r！"
+				""
+				"&a可以动身前往第二章了&r"
+				""
+				"后面你会收集到各种&c强大的材料和强大的工具&r，&a期待你后面的旅程&r"
+			]
+			icon: "create:wrench"
+			id: "43C3634DBDAF6010"
+			rewards: [
+				{
+					id: "1B42F304259D98EC"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "77790C0D8433AC61"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "你已经是一位合格的工匠了"
+			tasks: [{
+				id: "0EAB3F88A62EEB17"
+				type: "checkmark"
+			}]
+			title: "短暂的结束"
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["34A01824678F973A"]
+			description: [
+				"使用这个可以让你很舒服的进行&6方块的摆放等等"
+				""
+				"他并&a没有调整获取方式&r，你可以&a前期直接做&r"
+			]
+			id: "7717A36741FBC926"
+			rewards: [{
+				id: "43BD8ACAA2B777AB"
+				item: {
+					Count: 1b
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "452ADE6D5E931D2A"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34A01824678F973A"]
+			description: [
+				"常玩整合包的应该都知道这个&e老朋友&r吧"
+				""
+				"它可以很轻松的帮你&e测试伤害&r，来选出合适的搭配"
+			]
+			id: "1B48B1588D9CCA70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51E6339C3988F9E0"
+				table_id: 1021271035427133542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "079D38549CDFAE95"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34A01824678F973A"]
+			description: [
+				"指路石是一个很好用的传送工具，前期想回家尝试多造一些这个的锚点吧"
+				"&l&o&0&m其实路上会有野生的指路石，你可以全部搬回家（）&l&o&m&0"
+			]
+			id: "3DF56FF0FB4CB03B"
+			rewards: [{
+				count: 3
+				id: "59F97E52FEF33A49"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "093A381810122AEB"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52EEE06829BC1563"]
+			description: [
+				"&d工匠戒指&r是&a工匠匠心&r添加的一种&e模块化饰品&r，由于并非官方添加，所以支持的材料并没有那么多（只有国内几个作者适配了一点点）"
+				"但是这并不影响其强大，可以&b极大提高你的基础属性&r"
+				"不要想着带多个，只能&a带一个&r哦"
+			]
+			id: "7B74AEA62497E476"
+			rewards: [{
+				id: "1E260518892E9F9C"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "必做"
+			tasks: [{
+				id: "3EB18609675E77F6"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:tinker_ring"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:bha"
+							}
+							{
+								level: 2
+								name: "solidarytinker:natived"
+							}
+							{
+								level: 2
+								name: "solidarytinker:watery"
+							}
+							{
+								level: 1
+								name: "cti:imprison"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tinkers_ingenuity:armor": 2.5f
+							"tinkers_ingenuity:armor_toughness": 2.5f
+							"tinkers_ingenuity:arrow_damage": 1.5f
+							"tinkers_ingenuity:damage": 1.5f
+							"tinkers_ingenuity:movement_speed": 0.2f
+						}
+						tic_volatile_data: {
+							abilities: -9999
+							defense: -10000
+							upgrades: -9999
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "工匠戒指"
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28932EFD933B505B"]
+			description: ["据说在村庄里面也有匠魂村民，下界也有对应的结构，处处都有可能有惊喜哦"]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							861461934
+							977357728
+							-1107628460
+							-1228579595
+						]
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Lore: [
+							"{\"italic\":false,\"color\":\"aqua\",\"translate\":\"tooltip.mythicbotany.sacrifice_entity1\"}"
+							"{\"italic\":false,\"color\":\"aqua\",\"translate\":\"tooltip.mythicbotany.sacrifice_entity2\"}"
+						]
+						Name: "{\"italic\":false,\"color\":\"dark_aqua\",\"translate\":\"entity.minecraft.wandering_trader\"}"
+					}
+				}
+			}
+			id: "1CCA226293A5A892"
+			rewards: [{
+				id: "1063755B41593CBC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "匠魂村民？"
+			tasks: [{
+				id: "63645A2A94A92E35"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+	]
+	subtitle: [
+		"初接触匠魂的建议仔细看"
+		"-by 独爱流萤"
+	]
+	title: "序章      —— 开始与匠魂"
+}

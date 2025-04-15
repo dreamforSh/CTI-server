@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 20,
+  "fluidInput": {
+    "amount": 50,
+    "fluid": "mekanism:hydrogen"
+  },
+  "gasInput": {
+    "amount": 50,
+    "gas": "mekanism:hydrogen"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "mekanism:hydrogen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "kubejs:gas_hydrate"
+    }
+  },
+  "itemOutput": {
+    "count": 2,
+    "item": "kubejs:graphene"
+  }
+}

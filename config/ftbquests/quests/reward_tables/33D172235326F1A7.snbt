@@ -1,0 +1,16 @@
+{
+	icon: "botania:fabulous_pool"
+	id: "33D172235326F1A7"
+	loot_size: 6
+	order_index: 31
+	rewards: [
+		{ item: "botania:manasteel_block" }
+		{ count: 9, item: "botania:livingrock" }
+		{ count: 9, item: "botania:livingwood_log" }
+		{ count: 9, item: "botania:mana_string" }
+		{ item: "botania:gaia_ingot", random_bonus: 8, title: "1~9x 盖亚魂锭", weight: 0.5f }
+		{ item: "mythicbotany:alfsteel_block", weight: 0.5f }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-植魔-全收集-抽奖"
+}

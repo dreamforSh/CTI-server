@@ -1,0 +1,24 @@
+{
+	id: "257E7164FA9C2D6D"
+	loot_size: 1
+	order_index: 76
+	rewards: [
+		{
+			auto: "disabled"
+			command: "/kill @s"
+			player_command: true
+			team_reward: false
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/execute as @s at @s in minecraft:overworld run tp @s 0 0 0"
+			exclude_from_claim_all: true
+			ignore_reward_blocking: true
+			player_command: true
+			team_reward: false
+			type: "command"
+		}
+	]
+	title: "disk_save"
+}

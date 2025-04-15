@@ -1,0 +1,16 @@
+{
+	id: "1B42640C6A146BEB"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 5, item: "pneumaticcraft:volume_upgrade", random_bonus: 5 }
+		{ item: "pneumaticcraft:dispenser_upgrade" }
+		{ count: 2, item: "pneumaticcraft:speed_upgrade", random_bonus: 3 }
+		{ item: "pneumaticcraft:search_upgrade" }
+		{ item: "pneumaticcraft:range_upgrade" }
+		{ item: "pneumaticcraft:security_upgrade" }
+		{ item: "pneumaticcraft:magnet_upgrade" }
+		{ item: "pneumaticcraft:inventory_upgrade" }
+	]
+	title: "升级奖励（PnC）"
+}

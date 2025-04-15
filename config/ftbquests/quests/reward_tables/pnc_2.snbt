@@ -1,0 +1,21 @@
+{
+	id: "56C9088A1C2F216D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 2, item: "kubejs:compressed_hardlead" }
+		{ count: 24, item: "etshtinker:hardlead_plate" }
+		{ item: "pneumaticcraft:etching_acid_bucket" }
+		{ count: 3, item: "avaritia:neutron_nugget" }
+		{
+			item: {
+				Count: 1b
+				id: "cti:ultradense_ammo"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "PnC奖励（二阶）"
+}

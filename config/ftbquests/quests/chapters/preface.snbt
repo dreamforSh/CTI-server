@@ -1,0 +1,1943 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "preface"
+	group: "5B9406893C138689"
+	icon: "botania:cosmetic_questgiver_mark"
+	id: "2888B6885A5ECEA5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"感谢你下载这个整合包，这是一个以&b科技&r为主题，&b匠魂&r为主要玩法的整合包"
+				"其中有整合包自己添加的&e材料&r，&9星系&r和&d独特配方&r&a等等&r"
+				""
+				"虽然我知道这很啰嗦，但是&c接下来请看完前言全部内容&r，这样可以解决很多你&9游玩时的疑问&r"
+				""
+				"特别是右边的bug反馈和相关已知问题部分，&a有些bug虽然整合包作者无力修复但是在玩家侧是可以避免的！"
+				""
+				"&b注：任务详情界面右下角的绿色箭头能用于翻页，现在先来试试吧！"
+				"{@pagebreak}"
+				""
+				"为了方便玩家查阅，部分任务可能不止会有一页，而这些任务的第二页有时也会包含一些重要信息，所以点开任务时请留意一下翻页图标！"
+				"{@pagebreak}"
+				"别告诉我你翻完页不知道怎么翻回去了"
+			]
+			icon: "ftbquests:book"
+			id: "46A086454F30A9DB"
+			rewards: [
+				{
+					id: "40DCEE7A22DAB2EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "486B28EEB1B2A59C"
+					item: "cti:flat_tablet"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "欢迎来到这个神奇的世界，朋友"
+			tasks: [{
+				id: "0AF95EBC46746E68"
+				title: "万物开始"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"整合包增加了&d莱特兰恶意，七咒之戒&r来增加&d怪物强度和生存难度&r"
+				""
+				"这对某些玩家来说或许会有些&d困难&r，&b&m实在不行可以考虑开创造摘掉&r"
+				""
+				"不使用&c创造模式或者指令&r&4无法去除&r , 具体的负面效果可以在&b七咒之戒描述&r看到"
+				""
+				"佩戴&d七咒之戒&r可以产出一些&5独特的东西&r,&d不佩戴有部分配方是没法使用的&r"
+				""
+				"有&d后悔药&r（邪恶之石）可以在&a商店&r购买，一旦摘除无法佩戴回去"
+				""
+				"&c***注：由于七咒模式已经有死亡惩罚了，建议以死亡不掉落模式游玩（&m当然这样就不能用邪恶之石摘七咒&r&c），否则可能会在捡装备的循环中失去大量生命上限然后死档"
+				""
+				"除了这些之外，整合包也对难度进行了改动，请翻到下一面查看。"
+				"{@pagebreak}"
+				"      1.近战武器的攻速超过2后，实际攻速将会更难提升，无论攻速再高依然存在一个最小攻击冷却时间。这个时间是："
+				"-&c困难模式 &r4tick   并且近战武器只生效80%的攻速"
+				"-&e普通模式 &r3tick"
+				"-&a简单模式 &r2tick"
+				"-&b和平模式 &r无"
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "1033FC65776BF06D"
+			rewards: [{
+				id: "1368765AEB71E776"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "默认佩戴"
+			tasks: [{
+				id: "4FA1DEFE05FD9EA3"
+				title: "难度"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46A086454F30A9DB"]
+			description: [
+				"开启&b作弊&r才能使用&bftb中的指令&r"
+				"&c并非鼓励作弊&r"
+				"我们不干涉玩家任何自由，&c无任何反作弊&r相关东西"
+				"&7如果游玩的时候适当开创能让你玩的开心，那又有什么呢&r"
+				"&c(但是别加加速火把，崩档概不负责)&r"
+				"毕竟，谁在乎呢"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "4FF708BA524C9D44"
+			rewards: [{
+				id: "1500F4AAC0DEC24B"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "但是请不要作弊"
+			tasks: [{
+				id: "2298CC312D82663B"
+				title: "请打开作弊"
+				type: "checkmark"
+			}]
+			title: "请打开“作弊模式”"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FF708BA524C9D44"]
+			description: ["宿管并非完全没有用，jei上有鞘翅的妙妙小配方"]
+			icon: "minecraft:phantom_membrane"
+			id: "60E76432659363EB"
+			rewards: [{
+				command: "/gamerule doInsomnia true"
+				id: "60F3E4B06DB89496"
+				type: "command"
+			}]
+			subtitle: "肿么，你想要幻翼？"
+			tasks: [{
+				id: "457F849EEE2782F0"
+				title: "幻翼的生成控制"
+				type: "checkmark"
+			}]
+			title: "开启幻翼"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FF708BA524C9D44"]
+			icon: "minecraft:phantom_membrane"
+			id: "72E0AC3E5AECCBAE"
+			rewards: [{
+				command: "/gamerule doInsomnia false"
+				id: "5B9F4A9A24EC16DF"
+				type: "command"
+			}]
+			subtitle: "因为幻翼真的很讨厌"
+			tasks: [{
+				id: "4632B97B3A8C546D"
+				title: "关闭幻翼"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"怪物强度的主要来源，具体内容会在莱特兰章节讲述"
+				"如果怪物出现了不认识的词条可以去看看"
+			]
+			icon: "l2hostility:ragnarok"
+			id: "3B7D45AACC2E94B9"
+			rewards: [{
+				id: "2456805AE6F236DA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "万恶之源，记得看专门的任务解释，里面有针对各个词条的对策"
+			tasks: [{
+				id: "449E3DCB04CBF3DE"
+				type: "checkmark"
+			}]
+			title: "莱特兰恶意"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46A086454F30A9DB"]
+			description: [
+				"      玩整合包遇到了一些小问题是很正常的事情，正确在于反馈到哪里"
+				""
+				"      "
+				"      点击下一页查看目前已知但&c无法修复&r的问题"
+				"{@pagebreak}"
+				"      1.&cmek流体储罐和IF的黑洞储罐&r给&b匠魂工具&r&e填充流体时&r会吞流体&r，请使用这两者之外的方式给匠魂工具装入流体（如AE终端、热力贮液器、循环的流体储罐）"
+				""
+				"      2.&aJEI&r不显示&bkubejs添加的战利品&r（这个会在物品信息上详细标明概率及生成）"
+				""
+				"      3.&c不同模组&r的提供&cFE存储&r的词条会冲突（比如EtST活化彩钢的&c通量装载&r会让工匠匠心的&b镭射枪&r无法发射），&a在为工具添加带有能量存储的词条前请留意词条/材料来源的模组。"
+				""
+				"      4.出于不明原因，启动游戏时有小概率&b部分配方会丢失&r（如匠魂材料的浇筑配方），对于&6单人模式&r，可以通过&e/reload&r指令重载数据包解决，服务器则只能尝试重启服务器。"
+			]
+			icon: "minecraft:barrier"
+			id: "1C85269C4423E472"
+			rewards: [{
+				id: "5F2AF5B7D265FDD6"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "326C5E4917F57FB5"
+				title: "bug反馈和相关已知问题"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"由于本包作者是&a匠魂附属&r作者，因此&a匠魂词条相关&r的问题可以&a直接反馈&r"
+				"虽然可以kubejs添加数据包覆盖词条，不过更建议&a去对应作者的Github/mc百科&r反馈"
+				"不确定具体问题来源模组，可以在整合包群内询问。"
+				"以下是一些&a匠魂附属的作者和对应模组名&r"
+				"{@pagebreak}"
+				"&a工匠匠心---tinkers_ingenuity------晓月&r"
+				"&a匠魂校准---tinkerscalibration------dddddsj&r"
+				"&a工匠创新---tinkersinnovation------gjhi&r"
+				"&a匠心独运---tinkers_thinking------爬行中的苦力怕&r"
+				"&b匠魂杂物---tinkers_things------匠魂官方附属&r"
+				"&b工匠再锻---tinkers_reforged------外国作者&r"
+				"&btcintegration---tcintegration------外国作者"
+				"&9乙硫醇的词条库---C2H6S tinker------EtSH&r"
+				"&9工匠联合---solidarytinker------独爱流萤&r"
+				"&9CTI---CTI------整合包专供模组"
+				"&a绿色&r为&a国内作者&r，&b水蓝&r为&b国外作者&r，&9蓝色&r为&9整合包制作人员&r"
+				"&a国内作者&r请到MC百科或者GitHub界面反馈"
+				"&b外国作者&r请到对应作者GitHub反馈"
+				"&9整合包&r内可以随便反馈（整合包连接下方/群聊内等等）"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:smeltery_controller"
+				tag: {
+					texture: "tconstruct:seared_bricks"
+				}
+			}
+			id: "770A84DDC91BCA5B"
+			rewards: [{
+				id: "2B586D4927161ADC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "注意区分作者，反馈bug建议截图/提出建议不要太指望作者们能看到"
+			tasks: [{
+				id: "2F078BF0C5A61490"
+				type: "checkmark"
+			}]
+			title: "匠魂相关bug反馈"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			description: ["比如植物魔法重力透镜等问题请到&a对应作者的GitHub&r反馈，模组问题没有工作区是没法修复的"]
+			icon: "botania:lens_storm"
+			id: "08DAC41841C950A3"
+			rewards: [{
+				id: "09521E62ECF5055C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "制作组并不是万能的，请区分模组作者和整合包作者的职责"
+			tasks: [{
+				id: "19248C129FECE973"
+				title: "模组本身问题"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["&b数据包添加的配方&r如果冲突都是可以通过&ekubejs&r修正的，因此可以随便反馈给整合包作者"]
+			icon: "minecraft:rose_bush"
+			id: "415497CA454C965A"
+			rewards: [{
+				id: "31C1C0E4320027D8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "记得分清冲突配方的来源"
+			tasks: [{
+				id: "56A246D3A6C25DCD"
+				title: "配方问题"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46A086454F30A9DB"]
+			description: ["参与了整合包开发的人员"]
+			icon: "twilightforest:thorn_rose"
+			id: "1532A60A49E51285"
+			rewards: [{
+				id: "124F53FD8D5D5AEE"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "28BAAF1842C92602"
+				title: "制作鸣谢"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1532A60A49E51285"]
+			description: [
+				"&e整合包作者/策划&r"
+				"一位热爱化学的理工大学生"
+				"同时也是&6C2H6S tinker&r的作者"
+				"负责了&bCTI的主要的代码部分&r和&9任务&r"
+				"{@pagebreak}"
+				"EtSH 赠予你一些金币，希望你玩的开心，快说谢谢EtSH"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-261543167
+							-93502267
+							-1700162595
+							757283990
+						]
+						Name: "Ethanethiol"
+						Properties: {
+							textures: [{
+								Signature: "oayCesXJe8R5Kp+jm0a0iNrJoEVL2ouoEqLVBWlrsMXZnLf/1DnTiNvel5cI7Y2Jw1R+omnB2kZaI0l+6HS9N9+2q/90ehkjknXaH0UBx5vZ4NJtzGPNLG53q986/5DupkaKZjIQ9aHOYfL9Acue4VcbqYrYlcMaXg1+Sza7zqdZFmj43IGFL1twvmf9nQXmNgJHsH3PTUD6UyPCcmgeb3GY6eIQdhFJY+S2VHrEVDF9EWWeTufZyI9rQTbP+srOeZbcZjh2kidbxkch2cbvk1jmk5Y0J7WRV5H00ppqhurFU/moD2exZh/rtcI1/u4Kz0JhH3jyX5Cj8K88NwK7H7ESYYDyrZLBWn6kgN0nMIPvdptUlGxaP6bvVFm8uZB6ZikA8YLlhM7nAHkkDrAREKC7kb/oV8JsEcGi48MHvlyMm04oCLVTZUxH3SGd249w3/j2C3xvoiIlog0/5VPstVQZykdAj+fIoiJOaKbAgumiEQxcDKSW7luhjAoFlM0ZJjwGLlh1cX+6dt3R6GSbDNqj11QAroETlNWFGmKjg8DN0EPyswyQvfLp+42O5BJFXOAfp9Q6RNwSUk6RIYgwJddnrRrnBi87loacT8jlZZKlR8BemjcymT7wO9/jVb0G85ZVWeCjLdL0L8h6tOPK/RioxT7y8jQrwiZfW+iGPrM="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg4NTAyNDYxMCwKICAicHJvZmlsZUlkIiA6ICJmMDY5MmIwMWZhNmQ0NGM1OWFhOTkzZGQyZDIzM2M5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdGhhbmV0aGlvbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWYzYjQzODNhZTU5YWNjZDdjNjJlMjY3MWZiZjZlNWE5NmYyNzgyY2E3NjdmYTE2ZDVlNWZhMTdlZTc3NjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "762B38DF1C0340D2"
+			rewards: [
+				{
+					id: "55F85519177BE627"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-261543167
+									-93502267
+									-1700162595
+									757283990
+								]
+								Name: "Ethanethiol"
+								Properties: {
+									textures: [{
+										Signature: "oayCesXJe8R5Kp+jm0a0iNrJoEVL2ouoEqLVBWlrsMXZnLf/1DnTiNvel5cI7Y2Jw1R+omnB2kZaI0l+6HS9N9+2q/90ehkjknXaH0UBx5vZ4NJtzGPNLG53q986/5DupkaKZjIQ9aHOYfL9Acue4VcbqYrYlcMaXg1+Sza7zqdZFmj43IGFL1twvmf9nQXmNgJHsH3PTUD6UyPCcmgeb3GY6eIQdhFJY+S2VHrEVDF9EWWeTufZyI9rQTbP+srOeZbcZjh2kidbxkch2cbvk1jmk5Y0J7WRV5H00ppqhurFU/moD2exZh/rtcI1/u4Kz0JhH3jyX5Cj8K88NwK7H7ESYYDyrZLBWn6kgN0nMIPvdptUlGxaP6bvVFm8uZB6ZikA8YLlhM7nAHkkDrAREKC7kb/oV8JsEcGi48MHvlyMm04oCLVTZUxH3SGd249w3/j2C3xvoiIlog0/5VPstVQZykdAj+fIoiJOaKbAgumiEQxcDKSW7luhjAoFlM0ZJjwGLlh1cX+6dt3R6GSbDNqj11QAroETlNWFGmKjg8DN0EPyswyQvfLp+42O5BJFXOAfp9Q6RNwSUk6RIYgwJddnrRrnBi87loacT8jlZZKlR8BemjcymT7wO9/jVb0G85ZVWeCjLdL0L8h6tOPK/RioxT7y8jQrwiZfW+iGPrM="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg4NTAyNDYxMCwKICAicHJvZmlsZUlkIiA6ICJmMDY5MmIwMWZhNmQ0NGM1OWFhOTkzZGQyZDIzM2M5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdGhhbmV0aGlvbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWYzYjQzODNhZTU5YWNjZDdjNjJlMjY3MWZiZjZlNWE5NmYyNzgyY2E3NjdmYTE2ZDVlNWZhMTdlZTc3NjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6994168008CCB005"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1296B9164F832A8B"
+					item: {
+						Count: 1b
+						id: "thermal:watering_can"
+						tag: {
+							Augments: [
+								{
+									Count: 1b
+									id: "thermal:upgrade_augment_3"
+								}
+								{
+									Count: 1b
+									id: "thermal:fluid_tank_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal:area_radius_augment"
+								}
+								{
+									Count: 1b
+									id: "thermal:area_radius_augment"
+								}
+							]
+							Enchantments: [{
+								id: "cofh_core:holding"
+								lvl: 4
+							}]
+							Fluid: {
+								Amount: 192000
+								FluidName: "minecraft:water"
+							}
+							Mode: 0
+							Properties: {
+								BaseMod: 4.0f
+								FluidCre: 1.0f
+								FluidMax: 4.0f
+								Radius: 2.0f
+							}
+							display: {
+								Name: "{\"text\":\"这是恶徒水壶，你可以用它浇花\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "给你头拿去纪念吧"
+			tasks: [{
+				id: "3C5720C783E4359D"
+				title: "就叫他etsh吧"
+				type: "checkmark"
+			}]
+			title: "EtSH"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1532A60A49E51285"]
+			description: [
+				"&e程序部分&r"
+				"也是一位热爱化学的大学生"
+				"你经常能在&a服务器&r看到他"
+				"&b服务端&r和&b部分汉化和优化，以及小内容&r"
+				"他降低了你的开局难度，快谢谢他。"
+				"{@pagebreak}"
+				"万一是废墟村庄，这张床就有用了。"
+				"灾厄村庄也是村庄。"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					RepairCost: 0
+					SkullOwner: {
+						Id: [I;
+							-1307877832
+							684999140
+							-1817135732
+							-1302534904
+						]
+						Name: "xinian66"
+						Properties: {
+							textures: [{
+								Signature: "dKU4QRmJ5nSaIAWxZDVkKiGZkcJynCcBBW9eo/v5X1DEDT5ZpFi/koWTWqvgXwfGCUsuQB16PJIj2QGUKIToITFch71/C+93wgG74PDaxg78j/1Z5+msCrOv3O95IQfmnnsNkAmGQC5gv9/ojPX8DnQgt6EgnBkFkTqN3oDVTxNjNAm2Hq6dcyJN0OsY+1Zxskiy//H2iCh+tqOh+M8DBZrHZs5dpgpDM5zygC1RkRkvIp0SDXvn7v1f1ufhAgQbQlok5u9FVOa5gNl5nVELg0u7Ds/Lr6DcClPhd+UGuSa78dBMPtf10JIbfIMP7GbMt4+F+vK4A2VCyM7sc+8rKDYSDO0KpsacOThb3HNGnVfW0GQws+U/6Vaen7xVNsp8obXjL1RZLdj92jGnFzxNAVUZnO9fLeojRACfrZyilCONXSDEeVfyQKQBqabYicDJOCZO+kmiiChq1kWv/MY+KcLqMJZXdG4+2pVyRcu/iWnxvE6aQ7b8akENenwyFuvswoEU4MN4A505dV6TQ9XL4G/jjjaowKlVqIfqsMr+rsu4c/yDi3iPgZD8hcf1h8d9tbZ1JQTAzWXF0qeVfQBDljcgXuyATKb7VG6guHDu6S+9dHbEg+Y2azMAw2cNCnJj5GMFrPUC/dLAbPMXqJ5uYCy/8OpwhPMsuDr83TA1Rto="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg5MTk0NDYzNywKICAicHJvZmlsZUlkIiA6ICJiMjBiNWUzODI4ZDQ0MWU0OTNiMGI1OGNiMjVjZTUwOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4aW5pYW42NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjJiYjQ1MDQwZWJkODNiYmJiNjk3ZDk3MWZmNTU4NWE2ZGY1NWJkZjRiMDIzOWFiZDVkM2Q4OGM3ZWQwYWU1IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"惜念的头\"}"
+					}
+				}
+			}
+			id: "0C5867E9E258CE1D"
+			rewards: [
+				{
+					id: "5BA2252098CC42A2"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							RepairCost: 0
+							SkullOwner: {
+								Id: [I;
+									-1307877832
+									684999140
+									-1817135732
+									-1302534904
+								]
+								Name: "xinian66"
+								Properties: {
+									textures: [{
+										Signature: "dKU4QRmJ5nSaIAWxZDVkKiGZkcJynCcBBW9eo/v5X1DEDT5ZpFi/koWTWqvgXwfGCUsuQB16PJIj2QGUKIToITFch71/C+93wgG74PDaxg78j/1Z5+msCrOv3O95IQfmnnsNkAmGQC5gv9/ojPX8DnQgt6EgnBkFkTqN3oDVTxNjNAm2Hq6dcyJN0OsY+1Zxskiy//H2iCh+tqOh+M8DBZrHZs5dpgpDM5zygC1RkRkvIp0SDXvn7v1f1ufhAgQbQlok5u9FVOa5gNl5nVELg0u7Ds/Lr6DcClPhd+UGuSa78dBMPtf10JIbfIMP7GbMt4+F+vK4A2VCyM7sc+8rKDYSDO0KpsacOThb3HNGnVfW0GQws+U/6Vaen7xVNsp8obXjL1RZLdj92jGnFzxNAVUZnO9fLeojRACfrZyilCONXSDEeVfyQKQBqabYicDJOCZO+kmiiChq1kWv/MY+KcLqMJZXdG4+2pVyRcu/iWnxvE6aQ7b8akENenwyFuvswoEU4MN4A505dV6TQ9XL4G/jjjaowKlVqIfqsMr+rsu4c/yDi3iPgZD8hcf1h8d9tbZ1JQTAzWXF0qeVfQBDljcgXuyATKb7VG6guHDu6S+9dHbEg+Y2azMAw2cNCnJj5GMFrPUC/dLAbPMXqJ5uYCy/8OpwhPMsuDr83TA1Rto="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg5MTk0NDYzNywKICAicHJvZmlsZUlkIiA6ICJiMjBiNWUzODI4ZDQ0MWU0OTNiMGI1OGNiMjVjZTUwOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4aW5pYW42NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjJiYjQ1MDQwZWJkODNiYmJiNjk3ZDk3MWZmNTU4NWE2ZGY1NWJkZjRiMDIzOWFiZDVkM2Q4OGM3ZWQwYWU1IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZDlkODJhYjE3ZmQ5MjAyMmRiZDRhODZjZGU0YzM4MmE3NTQwZTExN2ZhZTdiOWEyODUzNjU4NTA1YTgwNjI1IgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"惜念的头\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36C8A12299C4A281"
+					item: "minecraft:light_blue_bed"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0780A2158C9ADD8E"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5E787EDFDC85BEAE"
+				title: "惜念"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1532A60A49E51285"]
+			description: [
+				"&e程序部分/策划&r"
+				"17岁无业游民"
+				"同时也是&6工匠联合&r的作者"
+				"如果你有什么&9杂七杂八的问题&r，找他就对了，他&a超有耐心的&r"
+				"负责&bCTI部分配方，kubejs，任务等&r"
+				"{@pagebreak}"
+				"什么，你问我为什么用&e星野皮肤&r顶着&b流萤ID&r却起的&d三月七&r的账号？"
+				"我也不知道"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					RepairCost: 0
+					SkullOwner: {
+						Id: [I;
+							-1638468283
+							-789886655
+							-1673650310
+							-1377641694
+						]
+						Name: "fireflyislovely"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg5MjcyOTA2NCwKICAicHJvZmlsZUlkIiA6ICI5ZTU2ZjU0NWQwZWI0OTQxOWMzZTFmN2FhZGUyZGIyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlZmx5aXNsb3ZlbHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwMmNmYTg3NjFjN2Q5Y2IyYWYxNTE5M2Q1Y2Y5NzBmNDUxMTAyODg1YzZjMjdlNjU1MzEwNTkxODcxYjc2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"独爱流萤的头\"}"
+					}
+				}
+			}
+			id: "4D1675BC0C7B0D70"
+			rewards: [{
+				id: "67E7A26B5B79A646"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						RepairCost: 0
+						SkullOwner: {
+							Id: [I;
+								-1638468283
+								-789886655
+								-1673650310
+								-1377641694
+							]
+							Name: "fireflyislovely"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg5MjcyOTA2NCwKICAicHJvZmlsZUlkIiA6ICI5ZTU2ZjU0NWQwZWI0OTQxOWMzZTFmN2FhZGUyZGIyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlZmx5aXNsb3ZlbHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwMmNmYTg3NjFjN2Q5Y2IyYWYxNTE5M2Q1Y2Y5NzBmNDUxMTAyODg1YzZjMjdlNjU1MzEwNTkxODcxYjc2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"独爱流萤的头\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A32005CF167607B"
+				title: "独爱流萤"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46A086454F30A9DB"]
+			description: [
+				"当你第一次游玩的时候，建议多看看&aFTB任务&r"
+				"主线不仅介绍了玩法，而且还有很多&a小福利&r"
+				"整合包内兑换物品使用lightman这个mod的钱币，主要通过任务获取"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/accept.png"
+				}
+			}
+			id: "305A57A22D3A3387"
+			rewards: [
+				{
+					id: "65A23CC9FEECE4BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "601D0811D8E339FE"
+					item: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 18
+					id: "0B5D6DEE8C41C6E2"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "05FB73936F0E9E63"
+				type: "checkmark"
+			}]
+			title: "配合FTB任务食用整合包口感更佳哦"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["305A57A22D3A3387"]
+			description: ["每个模组都有其存在的意义，有的模组你或许真的不喜欢，但是请至少&a尝试一下&r"]
+			icon: "botania:cosmetic_tiny_potato_mask"
+			id: "0A11E6E038299568"
+			rewards: [{
+				id: "29F822CF01925997"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "6F0C3D0CA3D3877C"
+				type: "checkmark"
+			}]
+			title: "不要害怕困难"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1532A60A49E51285"]
+			description: [
+				"一个完整的整合包&b离不开大家每一个人的付出&r，&a我们在此纪念这些参与制作的贡献者们"
+				"（此处排名不分先后）"
+				"Zehn_bubble"
+				"momo__sensei(牢墨）"
+				"Alpha_Alps"
+				"lingshi(零食)"
+				"Urranium(铀铀)"
+				"rRickoll(白武男)"
+				"牢蘑菇锭"
+				"天宇冰痕"
+				"FaintGlow_FG"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:the_incinerator"
+			id: "1090F9ACA8F1F032"
+			rewards: [{
+				id: "648A2DF2C58FB7D3"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7142EB77C80F7AB6"
+				title: "贡献者们"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"zehn_bubble"
+				"传奇&5AE&r玩家"
+				"&9高数大手子&r"
+				"&eAE任务通篇撰写者&r"
+				""
+				"{@pagebreak}"
+				"(听零食老师说zehn的跑步配速转化过来是一秒二十米)"
+				""
+				""
+				"{@pagebreak}"
+				" &9近在咫尺，却邈以山河"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							218220092
+							-1213120094
+							-1900763031
+							1288099341
+						]
+						Name: "Zehn_bubble"
+						Properties: {
+							textures: [{
+								Signature: "DrI0Rq5SYXzIiqNgFii+imBxD7UGqzpqxl6RS+lK+ehGiKonHHDkhdrfu4ZQUEQYxY7Ox/YsxGA/AFS8tzW8eGTrIHfpFzCRvv8GeH494ULCRSurJmPtxxJ1kprYcYbidOyj9RhbNpatZv7XJsGa++ywXszgVa45i91825LszZf1cuHwpR06VAb3Gh3GnajYBOCygunXgdqxXxh1xCmDOj8Is+91WMfqB09zZNGeHuJ3e5IKflHJAEkJstScRrvPd9B8QeSFsno4qOh/Yo5i29MFtGBSc4PdSz68E6Rw7n3JlHWpeaIfmKZ1Nf+7R5Mu7DOXffJSf1pI0RHnlPOI7Ou+JTk/KW/7C7L/zY6Q9ceT6B8kuOTpNobfsHBmQj/sTF5OpIJIeN2XKLe7t/7ZYa05u6eNNvdixvZ4k/Try1+lplzH2/+Jcm3HwBBupTmdBMVw2EWUPeRE2RWSi5GySblkH/wV8s4D5Pv/XW+21yPQ59peBpUXUBmC8uKOg9Q/XGyCErU5HQLRjaZNgC2cn0+D4+IdajbB25o2XbPvO7QKHKsxqBpqYz7r9bqAri0z3biCd8KaWt8ke0tii1naq6196+Tmu1syUsV8NMbHtIRSV4FXz3DXHKjjcVDJWwW8vvSE6TFAa6WEa8VvTqO5rscAtlihhGcId5euB68aZ+s="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTU3NDI4ODAxOSwKICAicHJvZmlsZUlkIiA6ICIwZDAxYzYzY2I3YjE0MWEyOGViNGE4Njk0Y2M2ZDYwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZWhuX2J1YmJsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNjI5Mjg2ZmE2MzMyMWM3ZWUxYWNlYzA5ZTVmMTBiNTY1YzQ4ZmVjNDU3MDJiOTE2MDViNTA4MTU3NWI3YTk5IgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "47EF1F1531728D8A"
+			rewards: [
+				{
+					id: "7C949B1A078BAF4B"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									218220092
+									-1213120094
+									-1900763031
+									1288099341
+								]
+								Name: "Zehn_bubble"
+								Properties: {
+									textures: [{
+										Signature: "DrI0Rq5SYXzIiqNgFii+imBxD7UGqzpqxl6RS+lK+ehGiKonHHDkhdrfu4ZQUEQYxY7Ox/YsxGA/AFS8tzW8eGTrIHfpFzCRvv8GeH494ULCRSurJmPtxxJ1kprYcYbidOyj9RhbNpatZv7XJsGa++ywXszgVa45i91825LszZf1cuHwpR06VAb3Gh3GnajYBOCygunXgdqxXxh1xCmDOj8Is+91WMfqB09zZNGeHuJ3e5IKflHJAEkJstScRrvPd9B8QeSFsno4qOh/Yo5i29MFtGBSc4PdSz68E6Rw7n3JlHWpeaIfmKZ1Nf+7R5Mu7DOXffJSf1pI0RHnlPOI7Ou+JTk/KW/7C7L/zY6Q9ceT6B8kuOTpNobfsHBmQj/sTF5OpIJIeN2XKLe7t/7ZYa05u6eNNvdixvZ4k/Try1+lplzH2/+Jcm3HwBBupTmdBMVw2EWUPeRE2RWSi5GySblkH/wV8s4D5Pv/XW+21yPQ59peBpUXUBmC8uKOg9Q/XGyCErU5HQLRjaZNgC2cn0+D4+IdajbB25o2XbPvO7QKHKsxqBpqYz7r9bqAri0z3biCd8KaWt8ke0tii1naq6196+Tmu1syUsV8NMbHtIRSV4FXz3DXHKjjcVDJWwW8vvSE6TFAa6WEa8VvTqO5rscAtlihhGcId5euB68aZ+s="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTU3NDI4ODAxOSwKICAicHJvZmlsZUlkIiA6ICIwZDAxYzYzY2I3YjE0MWEyOGViNGE4Njk0Y2M2ZDYwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZWhuX2J1YmJsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNjI5Mjg2ZmE2MzMyMWM3ZWUxYWNlYzA5ZTVmMTBiNTY1YzQ4ZmVjNDU3MDJiOTE2MDViNTA4MTU3NWI3YTk5IgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17B569A25BAEA8E2"
+					item: "ae2:not_so_mysterious_cube"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0537FD5394B85593"
+				title: "zehn_bubble"
+				type: "checkmark"
+			}]
+			title: "Zehn_bubble"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"Alpha_Alps"
+				"参与了莱特兰恶意任务的编写和材料收集册的编写，还有一堆杂七杂八的东西（？）"
+				"老熬夜人了"
+				"{@pagebreak}"
+				"CTI淫乱头子"
+				"嘿嘿嘿，我的白夜大人，嘿嘿嘿……"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							706572461
+							1322403362
+							-2094698011
+							2018447042
+						]
+						Name: "Alpha_Alps"
+						Properties: {
+							textures: [{
+								Signature: "duwsCJHOhNfqIIOJy7vPx70V2uJE045FGwCm9dXHcIU20ouiiXk2QtRciyw2V10a2t6TlYL+71+PLP74YX9Zr+mOP10tSG7UYm/5Mz2KMzuxr/2h6fnR0v9VibUDwTNEfiZ4wN+ycJoXrd1+AZr9PJYA9SJSy5RsApFKp/5GQ3hdokZfyjuSx8pg/yIoopKReLlFlsJ6o+85AlkJE63Zst6QqF446Qw6+csGgSdn063RgQ5tyFvpSF2A2XMsWUFkh8DNZmeMYZLR2kZXVqxuvXrymZ55hSEpJQP8Xx2FIpYTSPw6VlT1eSFyXg964BpxolDFrm4GHyZ6BNu90SFYzBdWLJgEJvAhzYGtuMT/Gu9AbJ75JpVaGyj8MIBE21qh2581jk/gBThG7ugMK2GE2gmOJfe8LtuaWZz8ZCWBGQwX1PjnNNf6LlHFke0P0Cl6AH2B5tQIUeGJ8X6Icv11AN6U14ikAaVghqhfHX47eqi8RQ3CrIRKE8LnbxbOnNGETMQ9B0OXSJRl7Dt+AtA1CQOFyAhf72buE+5s0irhMxWmGECSJqgVEEp6ZXeey2Pds9S6BkT4QAtScYX4YtT4GdYZ+k7CsOsQ/CL+ffWs2BT+qMl9ygsTaA8h/0ad+kXxS1jjv6f8GOX/V1zneKG00IetgYoLKLNZrJSjyfme4yE="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDQ1NDk0OCwKICAicHJvZmlsZUlkIiA6ICIyYTFkNzBhZDRlZDI0NjIyODMyNTcxZTU3ODRmMGVjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBoYV9BbHBzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q3ZTZjNDAwMWI5Njc4OTRkOGJiZDNiZWIxNjUyMmJkYzYyZGRjNzYwMzU2ZmNjYWViZjI5YzAwMGY5YjExYmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "6B67AF8920900337"
+			rewards: [{
+				id: "12C9B76E348DF13C"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								706572461
+								1322403362
+								-2094698011
+								2018447042
+							]
+							Name: "Alpha_Alps"
+							Properties: {
+								textures: [{
+									Signature: "duwsCJHOhNfqIIOJy7vPx70V2uJE045FGwCm9dXHcIU20ouiiXk2QtRciyw2V10a2t6TlYL+71+PLP74YX9Zr+mOP10tSG7UYm/5Mz2KMzuxr/2h6fnR0v9VibUDwTNEfiZ4wN+ycJoXrd1+AZr9PJYA9SJSy5RsApFKp/5GQ3hdokZfyjuSx8pg/yIoopKReLlFlsJ6o+85AlkJE63Zst6QqF446Qw6+csGgSdn063RgQ5tyFvpSF2A2XMsWUFkh8DNZmeMYZLR2kZXVqxuvXrymZ55hSEpJQP8Xx2FIpYTSPw6VlT1eSFyXg964BpxolDFrm4GHyZ6BNu90SFYzBdWLJgEJvAhzYGtuMT/Gu9AbJ75JpVaGyj8MIBE21qh2581jk/gBThG7ugMK2GE2gmOJfe8LtuaWZz8ZCWBGQwX1PjnNNf6LlHFke0P0Cl6AH2B5tQIUeGJ8X6Icv11AN6U14ikAaVghqhfHX47eqi8RQ3CrIRKE8LnbxbOnNGETMQ9B0OXSJRl7Dt+AtA1CQOFyAhf72buE+5s0irhMxWmGECSJqgVEEp6ZXeey2Pds9S6BkT4QAtScYX4YtT4GdYZ+k7CsOsQ/CL+ffWs2BT+qMl9ygsTaA8h/0ad+kXxS1jjv6f8GOX/V1zneKG00IetgYoLKLNZrJSjyfme4yE="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDQ1NDk0OCwKICAicHJvZmlsZUlkIiA6ICIyYTFkNzBhZDRlZDI0NjIyODMyNTcxZTU3ODRmMGVjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBoYV9BbHBzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q3ZTZjNDAwMWI5Njc4OTRkOGJiZDNiZWIxNjUyMmJkYzYyZGRjNzYwMzU2ZmNjYWViZjI5YzAwMGY5YjExYmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6118C38A62FCFB1B"
+				title: "Alps"
+				type: "checkmark"
+			}]
+			title: "Alpha_Alps"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"零逝"
+				"(平时更喜欢叫他零食老师)"
+				"参与了材料收集册的编写和材料的测试"
+				"？。？"
+				""
+				"{@pagebreak}"
+				"骗你的，其实零逝老师是Ai(bushi"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							992666770
+							1919436647
+							-2004587183
+							-488716187
+						]
+						Name: "lingshi"
+						Properties: {
+							textures: [{
+								Signature: "ERbFMstJZN42fFlvWaXLPxeEIoxFxvJJAtHPbn3B9bzo1Us9Gma7V5S6fcS/c/FPwMKXuLo7UAiE5Kh16DEvYY9LVmIFa1XNSJQWSruf0TT0fOpw//rPodcncoYNHPber1J8zqzdH7ZkXwclpZxw5SJfsqOdj2YloRwUmqeVCFBWnNf8bZPjiX4gS8k4azAPLBKtC97hhz5F5ZWFWUaZH68hmDWByDb2VyZ/YSetQTMhFq9HzPGUQw9g2+xJiTqqvJxWwYX+EUxYn0udoYOnFr5/6FKvyAwtaaVkRlJvO92Xv+bkTKx0QSioosmL0OJsxIy38h7hHdtfdrMeM2xalWjeJTWPfEVrLFD31gvewl3UJ1QXdh88oWHbaSC8sVk3aopWYEDzQL+I5E2e+eAxxQrph1Xh9+L4VRF9Q1LjsH0Nff0Ws+6Zv8biY3kp49cIP/XSTOw+XW7nca2OgzXWRoOrIKD8uGZ74XAUCXiAE8nI0yfZzuSC4I9piY26WCBcLbadReZ3MzVA56DuSmAm9En+ntbSKjQ+KjwWscdWFSO0EN7z1ed+ODjUyesVFkZcwDB2UlcLSvGpH6g0UgcmyvCOMi38RBU79jhM0U++pBvht+kHItvhijH7WZhEypLlWCahFmsUF7FS0egbdrLWeHtFNRbNWoGTRA9sqwoj7qY="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDYyMDE2NCwKICAicHJvZmlsZUlkIiA6ICIzYjJhZTQ5MjcyNjg0NzY3ODg4NDZkNTFlMmRlYzg2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaW5nc2hpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2ZTc4MGQ4YWU2YTI0MmZmOTJjM2JjNjA5ZmZiNWM5MzY4NGI0MDMzYWI5MGU1ZDhiNzlhOTQ1NDdlOGQxMjEiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "4A48F38FF086370D"
+			rewards: [{
+				id: "194A8CFCE6A0224B"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								992666770
+								1919436647
+								-2004587183
+								-488716187
+							]
+							Name: "lingshi"
+							Properties: {
+								textures: [{
+									Signature: "ERbFMstJZN42fFlvWaXLPxeEIoxFxvJJAtHPbn3B9bzo1Us9Gma7V5S6fcS/c/FPwMKXuLo7UAiE5Kh16DEvYY9LVmIFa1XNSJQWSruf0TT0fOpw//rPodcncoYNHPber1J8zqzdH7ZkXwclpZxw5SJfsqOdj2YloRwUmqeVCFBWnNf8bZPjiX4gS8k4azAPLBKtC97hhz5F5ZWFWUaZH68hmDWByDb2VyZ/YSetQTMhFq9HzPGUQw9g2+xJiTqqvJxWwYX+EUxYn0udoYOnFr5/6FKvyAwtaaVkRlJvO92Xv+bkTKx0QSioosmL0OJsxIy38h7hHdtfdrMeM2xalWjeJTWPfEVrLFD31gvewl3UJ1QXdh88oWHbaSC8sVk3aopWYEDzQL+I5E2e+eAxxQrph1Xh9+L4VRF9Q1LjsH0Nff0Ws+6Zv8biY3kp49cIP/XSTOw+XW7nca2OgzXWRoOrIKD8uGZ74XAUCXiAE8nI0yfZzuSC4I9piY26WCBcLbadReZ3MzVA56DuSmAm9En+ntbSKjQ+KjwWscdWFSO0EN7z1ed+ODjUyesVFkZcwDB2UlcLSvGpH6g0UgcmyvCOMi38RBU79jhM0U++pBvht+kHItvhijH7WZhEypLlWCahFmsUF7FS0egbdrLWeHtFNRbNWoGTRA9sqwoj7qY="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDYyMDE2NCwKICAicHJvZmlsZUlkIiA6ICIzYjJhZTQ5MjcyNjg0NzY3ODg4NDZkNTFlMmRlYzg2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaW5nc2hpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2ZTc4MGQ4YWU2YTI0MmZmOTJjM2JjNjA5ZmZiNWM5MzY4NGI0MDMzYWI5MGU1ZDhiNzlhOTQ1NDdlOGQxMjEiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "23E9E3023DC9EC88"
+				title: "lingshi"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"momo__sensei"
+				"传奇人物"
+				"其牢墨一名源于其最开始的ID&9墨冰&r(是的，就是材料那个墨冰)"
+				"资深&6冒险&r玩家"
+				"撰写了神秘遗物通篇任务"
+				"肿么，妮不扶器？"
+				"🧐"
+				"{@pagebreak}"
+				"是的，他是玛丽厨"
+				"&b为什么要送转速控制器？&r"
+				"&b你猜&r"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							882278530
+							469713442
+							-1436580246
+							247281960
+						]
+						Name: "momo__sensei"
+						Properties: {
+							textures: [{
+								Signature: "m/rbEa9n2BQuJJLGVBOxrf8Zsg9vvnyXgiXR4uwKj7QRne5N0UTGRPiuQput1f7vFhoSTg4Pwm6r8zepv/1MjjPl0gqhTLeG88drgs/7Js1yx7DiXi/IhvJ5vTyKzjOoZ3izTwP4lhbKy7eN+savrUI+QxGsKx9aZtk6jObRozIFa5Z0O8NeEqX05aw2xRQSWjwlQIlpAYJwXTJQLLaDhVT9g4FoMlIAsRHCrB1O3K5rWUyml8oZdhV8+5mpAyv5sotvypsj/HmS0wYNSxzKNlUc+HZ5w4vuiBjXl5eWbE2CvRcauZIT0BtH+4L4v96r92Y96IhRs/Qx4Ahnf3kNGUYV15eRqBAJht4meMq0enCfD4Z20Sh/vqwL/ZzFlxbw3kQ4wyoad/iONEQGlyQbvr2Ro7Zp/jXZeZ9VyLdmT9YbFfNyoh4vFHF1GDY6bQQK250MbGpXqeLSWEENMSkzK4mmc4K1kX27ktPxYBhnE4ze7WpBoBsD5jRzMUmUkMBjpNOC3wMf32xMoC9dGidi+5UBT1D6E1vIBFGentc3t0oFS6jLgyIuVxaKb9J4A+NCNX54VNdabEe/qxx07eXmZD08z4+69Lup+DEQJSB1EE/MTufp+/Go1rykz979Uc1v7riASn3EUJxFDMk3N6e4wv4hZgmj4aljLoq1ggn+djo="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDY4MzUxMywKICAicHJvZmlsZUlkIiA6ICIzNDk2ODA4MjFiZmY0MjIyYWE1Zjg2NmEwZWJkMzkyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb21vX19zZW5zZWkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZkMmEwYjZkNzZlYmZlNTlhNWIyZjcyMDE0ZjFlNzMxMzYxMTM0ZDg1ZGNkZjY3MDIyNTVjMDMwMjJlZTBmZCIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "531D19968724B202"
+			rewards: [
+				{
+					id: "1AC797108BF163A0"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									882278530
+									469713442
+									-1436580246
+									247281960
+								]
+								Name: "momo__sensei"
+								Properties: {
+									textures: [{
+										Signature: "m/rbEa9n2BQuJJLGVBOxrf8Zsg9vvnyXgiXR4uwKj7QRne5N0UTGRPiuQput1f7vFhoSTg4Pwm6r8zepv/1MjjPl0gqhTLeG88drgs/7Js1yx7DiXi/IhvJ5vTyKzjOoZ3izTwP4lhbKy7eN+savrUI+QxGsKx9aZtk6jObRozIFa5Z0O8NeEqX05aw2xRQSWjwlQIlpAYJwXTJQLLaDhVT9g4FoMlIAsRHCrB1O3K5rWUyml8oZdhV8+5mpAyv5sotvypsj/HmS0wYNSxzKNlUc+HZ5w4vuiBjXl5eWbE2CvRcauZIT0BtH+4L4v96r92Y96IhRs/Qx4Ahnf3kNGUYV15eRqBAJht4meMq0enCfD4Z20Sh/vqwL/ZzFlxbw3kQ4wyoad/iONEQGlyQbvr2Ro7Zp/jXZeZ9VyLdmT9YbFfNyoh4vFHF1GDY6bQQK250MbGpXqeLSWEENMSkzK4mmc4K1kX27ktPxYBhnE4ze7WpBoBsD5jRzMUmUkMBjpNOC3wMf32xMoC9dGidi+5UBT1D6E1vIBFGentc3t0oFS6jLgyIuVxaKb9J4A+NCNX54VNdabEe/qxx07eXmZD08z4+69Lup+DEQJSB1EE/MTufp+/Go1rykz979Uc1v7riASn3EUJxFDMk3N6e4wv4hZgmj4aljLoq1ggn+djo="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDY4MzUxMywKICAicHJvZmlsZUlkIiA6ICIzNDk2ODA4MjFiZmY0MjIyYWE1Zjg2NmEwZWJkMzkyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb21vX19zZW5zZWkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZkMmEwYjZkNzZlYmZlNTlhNWIyZjcyMDE0ZjFlNzMxMzYxMTM0ZDg1ZGNkZjY3MDIyNTVjMDMwMjJlZTBmZCIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14B87AC8E4B86597"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73DBDCC03DEFBBFF"
+				type: "checkmark"
+			}]
+			title: "牢墨"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			id: "087BE3B9D4E78024"
+			shape: "diamond"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"牢蘑菇锭"
+				"编写了暮色森林相关任务"
+				"同时也是某位匠魂附属的作者"
+				"什么，你问他为什么叫蘑菇锭"
+				"是的，他厨蘑菇矿"
+				"很令人难以理解吧，我也不理解，然而他就是靠着这种毅力为了蘑菇矿去写了个匠魂附属的"
+			]
+			icon: "tinkers_thinking:shroomite_ingot"
+			id: "5C976E7758F7731E"
+			rewards: [{
+				id: "34B1889B9A70CDBC"
+				item: "tinkers_thinking:shroomite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2779D5C99E367FB9"
+				type: "checkmark"
+			}]
+			title: "牢蘑菇锭"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"Urranium"
+				"别名&a铀铀&r"
+				"参与了&a植物魔法&r+&d新生魔艺&r整大章的任务编写，部分任务的美化"
+				"休闲玩家"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							269248477
+							621039153
+							-2029080856
+							-1600597475
+						]
+						Name: "Urranium"
+						Properties: {
+							textures: [{
+								Signature: "xqDHFOGYsNzYwP0w+8/LD0hng3ZHYqmya8y6+cE3KbiaZp0vrYER3BTklfq6EUmHDEnK48Q1Xhjkh+M7CV9JIf4oqLP2DA1F98l+UasP+4Eb/AuMzYeaSoJ6qDrVzx0HzPWg3KbLGWiACH39jcULE+McIw4u4nrS6lojrwi9oa17358LYRVeoA0FT5MSdLzO+/U6cTSLpw0CKouKyZQzzFwD8yad/laegymaCeXK1OtOtdFCzBtHVS1+KBnaO9jhSXazXP9n8ApWx7ZMJwORQUGsKWCTiOtnelqM0FMZPg+3FApcyfBzofcJ27ZDb29sN4QbnJX0Ut5elbkpqA4AL5tHmOKI7kw+hcWz2OB++w0gg/ueqN3389wkO7yMWLxR6Dq/x6kurDgo3TnIBm/vHN44rELPvvYGFWvXy8W/06J1Qs6jsjaXc7qIGj105bGDgNLt/EUqziX/tbhc+0leUip+5gPJv4b6HYGAf3rCwQxv5fYG5RP8ePzmPAAisyFtMvq/CTj4zEvw7QilaOXzAEz+OZuKtjROZj8FvS9v3zMiF2vCC1wFJti8jQmtdT5YyHtBrPndeH8YTJl1BXNuNXvgvrOXJD9j3SIoA0re4zj8ZKFYdZ53Q3ySK7HnhNaD/2EUH3Y5D2d0K5/3aWtQGcvo8c7wMTLMQjX3lsA/zyA="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyOTY4MDY0OTE2MCwKICAicHJvZmlsZUlkIiA6ICIxMDBjNjdkZDI1MDQ0ZTMxODcwZWFlZThhMDk4ZDIxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJVcnJhbml1bSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNWYxNzIwYzc4MGE3OTU4YjQxZjE1M2U1MDY5ZGI2ODYxYmQyODFiZTQzMmU3YmM3OTQxMTRhN2Y0ZWM1MmZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "3DB96BED35BFB321"
+			rewards: [
+				{
+					id: "6640CF9491CB92A2"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									269248477
+									621039153
+									-2029080856
+									-1600597475
+								]
+								Name: "Urranium"
+								Properties: {
+									textures: [{
+										Signature: "p2doGVUeUQOuPHyyeZsi7GzR5yjwQV3KoByR/XEGYo0RzUnZBS6DAV/6olzwhp6Fo+1Naqxfzxvf4EAecw6KS5/s5aFVVdz+kX8IT86ac1PIf4G1+XUAz8H85rbC5rtHHhW2Ii+QnzMJsz7jYS4d20XcO6xD0Pmojn6lhAqKbVmTyRrIXq3sg67wkZ549mr67V/hf61pxl7ttMvLxLjW5t4IzGR0MQVQ5o5lxwnfIImNTseEtrwKhB7AjDAJjvGm++MykJBQuGhqtn8dCEbC4sY5osR68SXXDg2RbhKtWPkxuixXxZoJh6echDsZDGep873vWN4o+WqFZibQmyhcsHVNVcDzP1hNkkZllbL0nTZnEO5IoJxpIIPG55DtSO2Jpb8k0+7vRSWGl5hU8dH/rWALcHtjAVeP8jZeG/ZOq8fUjfi7Goy185+PQ2cBP2pfNLeg2J7k+7jJrk5LzYJx0ZlBdAfCLRvuEJQvrxv7EWWKe82c4yimc6lh53ef34RYghFJ8Ny2vBVamJ6tShr/CbEUaKjjo9aJID1lbRBLw6Cs3gRtXuyumGmyTfIRidDMEXoeLuk6dIgMChVB4b2nM/DqprftWoSmpoeSvxL3rmvlb+cNWce1PQ2QRx9K/UAVY6H6OhgH7W7/vlAp6R/Q+YPczQc+BumFSLZTMY0Gpjk="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDQ2MzY0NzYxNywKICAicHJvZmlsZUlkIiA6ICIxMDBjNjdkZDI1MDQ0ZTMxODcwZWFlZThhMDk4ZDIxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJVcnJhbml1bSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNWYxNzIwYzc4MGE3OTU4YjQxZjE1M2U1MDY5ZGI2ODYxYmQyODFiZTQzMmU3YmM3OTQxMTRhN2Y0ZWM1MmZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B7D588E263F3C7C"
+					item: "minecraft:oxeye_daisy"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F40A17A60641D7C"
+				title: "urranium"
+				type: "checkmark"
+			}]
+			title: "Urranium"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"天雨冰痕"
+				"贡献了农业相关的所有任务"
+				"资深种田玩家"
+				""
+				"{@pagebreak}"
+				"其实他还是某站的x文作者"
+				"{@pagebreak}"
+				"&b你说的对，但前面忘了，后面忘了，总之我写futa文有什么问题！&r"
+				"——天雨冰痕"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1609901113
+							-1492499890
+							-1501185678
+							-1001667129
+						]
+						Name: "thyh114514"
+						Properties: {
+							textures: [{
+								Signature: "xLB4NRNyQF4pm7VehauaWr/YQIyor38W90nbtJ0lqCUo4aA0WouuS2jHCRP+KIDQtRo/2MOlXPMx2K7iV+xhTSxycPExhfnZFPBoD2ns9UP7Oo82Apzl71uW6fwPlAyHS6Kj7cyzJ57EzYVoAD2QJxJT2AYIBOtWjNMaLXFzm//cbmozZihqe9OA9R0PWMSy7zgDvhM3pO7e5g+FmshS0fWaa/TPwG0KC+2WTBhzgaXhszUTonK+BrWD2NU45TptgZStsHoZZvznb9HV31H8QD0L1qxs1xuHRzrZTiPud5LPSpdWckPIkkGvSO20GFzThzHyD8javgIILfH8P7DUiTpaaCSXoh3k+ELnMLyWACLjmj2PMvty83K6V1SkRZZ3bt3SCmscekRRt1LL8gG1avk+QYDU9Giv6v1F+b3FLx315wswlzgjzdU54zGmmgKP0jXysTmMca1ajPXXjGhVRNPd58h3uVg/Nfsfmqy4QjjCh2UlufAXllD0qwaM/33N8KJ+JY8zC4aRfL2dbJJrX0NpaCsh93z8vLjwyw/oB7hTc7w4jogvhJwCm6CLq1qQpPHfaqnyUJfa07lY4RjxMsRNcyaXt/mvOHjb7bxy9TnPvOr4M9OWq7i/diJN/ANXT19qiIFg+eaaL0cnwRfOq8VLUnFNCV1EyyDMcz5l3zY="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDQ2Mzg0MTYwOSwKICAicHJvZmlsZUlkIiA6ICJhMDBhZGJjN2E3MGE0MjRlYTY4NWI5NzJjNDRiYzVjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aHloMTE0NTE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZiNTRhYmJkZjkzMGQ3OWZhZTVhNTZiMjlkOTk4M2FhOWE3NTE2OTc1MjE1NmFlNGU3YzhmYTIxNGY5MTA1NyIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "562DFB4E3FEE3856"
+			rewards: [
+				{
+					id: "06C6E85350A959B7"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1609901113
+									-1492499890
+									-1501185678
+									-1001667129
+								]
+								Name: "thyh114514"
+								Properties: {
+									textures: [{
+										Signature: "xLB4NRNyQF4pm7VehauaWr/YQIyor38W90nbtJ0lqCUo4aA0WouuS2jHCRP+KIDQtRo/2MOlXPMx2K7iV+xhTSxycPExhfnZFPBoD2ns9UP7Oo82Apzl71uW6fwPlAyHS6Kj7cyzJ57EzYVoAD2QJxJT2AYIBOtWjNMaLXFzm//cbmozZihqe9OA9R0PWMSy7zgDvhM3pO7e5g+FmshS0fWaa/TPwG0KC+2WTBhzgaXhszUTonK+BrWD2NU45TptgZStsHoZZvznb9HV31H8QD0L1qxs1xuHRzrZTiPud5LPSpdWckPIkkGvSO20GFzThzHyD8javgIILfH8P7DUiTpaaCSXoh3k+ELnMLyWACLjmj2PMvty83K6V1SkRZZ3bt3SCmscekRRt1LL8gG1avk+QYDU9Giv6v1F+b3FLx315wswlzgjzdU54zGmmgKP0jXysTmMca1ajPXXjGhVRNPd58h3uVg/Nfsfmqy4QjjCh2UlufAXllD0qwaM/33N8KJ+JY8zC4aRfL2dbJJrX0NpaCsh93z8vLjwyw/oB7hTc7w4jogvhJwCm6CLq1qQpPHfaqnyUJfa07lY4RjxMsRNcyaXt/mvOHjb7bxy9TnPvOr4M9OWq7i/diJN/ANXT19qiIFg+eaaL0cnwRfOq8VLUnFNCV1EyyDMcz5l3zY="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDQ2Mzg0MTYwOSwKICAicHJvZmlsZUlkIiA6ICJhMDBhZGJjN2E3MGE0MjRlYTY4NWI5NzJjNDRiYzVjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aHloMTE0NTE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZiNTRhYmJkZjkzMGQ3OWZhZTVhNTZiMjlkOTk4M2FhOWE3NTE2OTc1MjE1NmFlNGU3YzhmYTIxNGY5MTA1NyIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A9A9CA1BE769B57"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							author: "thyh114514"
+							pages: [
+								"{\"text\":\"  想什么呢，这里啥都没有，我要是打广告就会被etsh单杀。\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"别看了，真的没有广告，也没有涩涩。\"}"
+							]
+							title: "涩涩指南？"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1307F84986227FA5"
+				type: "checkmark"
+			}]
+			title: "天雨冰痕"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["762B38DF1C0340D2"]
+			hide: true
+			id: "28C1577B54F33BF3"
+			invisible: true
+			subtitle: "是的，这个人前期似了这么多次"
+			tasks: [{
+				id: "1E122275A8F155AB"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 53
+			}]
+			title: "恭喜你发现了彩蛋"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28C1577B54F33BF3"]
+			description: ["此彩蛋是群友偷偷加的（"]
+			hide: true
+			id: "5B2B8076537ADA1E"
+			rewards: [
+				{
+					count: 3
+					id: "28FAB4C7E8CD7FE8"
+					item: "cyclic:apple_diamond"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E6B44807DC02CF7"
+					item: "tinkers_ingenuity:orichalcum_ingot"
+					type: "item"
+				}
+				{
+					id: "34288388A58E5020"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-261543167
+									-93502267
+									-1700162595
+									757283990
+								]
+								Name: "Ethanethiol"
+								Properties: {
+									textures: [{
+										Signature: "oayCesXJe8R5Kp+jm0a0iNrJoEVL2ouoEqLVBWlrsMXZnLf/1DnTiNvel5cI7Y2Jw1R+omnB2kZaI0l+6HS9N9+2q/90ehkjknXaH0UBx5vZ4NJtzGPNLG53q986/5DupkaKZjIQ9aHOYfL9Acue4VcbqYrYlcMaXg1+Sza7zqdZFmj43IGFL1twvmf9nQXmNgJHsH3PTUD6UyPCcmgeb3GY6eIQdhFJY+S2VHrEVDF9EWWeTufZyI9rQTbP+srOeZbcZjh2kidbxkch2cbvk1jmk5Y0J7WRV5H00ppqhurFU/moD2exZh/rtcI1/u4Kz0JhH3jyX5Cj8K88NwK7H7ESYYDyrZLBWn6kgN0nMIPvdptUlGxaP6bvVFm8uZB6ZikA8YLlhM7nAHkkDrAREKC7kb/oV8JsEcGi48MHvlyMm04oCLVTZUxH3SGd249w3/j2C3xvoiIlog0/5VPstVQZykdAj+fIoiJOaKbAgumiEQxcDKSW7luhjAoFlM0ZJjwGLlh1cX+6dt3R6GSbDNqj11QAroETlNWFGmKjg8DN0EPyswyQvfLp+42O5BJFXOAfp9Q6RNwSUk6RIYgwJddnrRrnBi87loacT8jlZZKlR8BemjcymT7wO9/jVb0G85ZVWeCjLdL0L8h6tOPK/RioxT7y8jQrwiZfW+iGPrM="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg4NTAyNDYxMCwKICAicHJvZmlsZUlkIiA6ICJmMDY5MmIwMWZhNmQ0NGM1OWFhOTkzZGQyZDIzM2M5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdGhhbmV0aGlvbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWYzYjQzODNhZTU5YWNjZDdjNjJlMjY3MWZiZjZlNWE5NmYyNzgyY2E3NjdmYTE2ZDVlNWZhMTdlZTc3NjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22E0C503D1790FA0"
+					item: "minecraft:chorus_flower"
+					title: "紫颂果可以酿造飞行药水，紫颂花放末地石上可以长紫颂果"
+					type: "item"
+				}
+				{
+					id: "783EF24CE54A3614"
+					item: "minecraft:end_stone"
+					title: "把紫颂花放在上面就好，记得不要直接从底下摘除，要先单独挖紫颂花"
+					type: "item"
+				}
+				{
+					id: "40277B8BE885CAD0"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "cti:end_slayer"
+						}
+					}
+					title: "是的，弑末者强化就是因为这个而加进来的"
+					type: "item"
+				}
+				{
+					icon: "enigmaticlegacy:etherium_ingot"
+					id: "716261B9DFF3C11D"
+					item: "tinkers_ingenuity:auroral_alloy_ingot"
+					title: "你在哪里，以太锭"
+					type: "item"
+				}
+			]
+			subtitle: "致以红温的人"
+			tasks: [{
+				consume_items: true
+				id: "26B8FA01EF53CB99"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-261543167
+								-93502267
+								-1700162595
+								757283990
+							]
+							Name: "Ethanethiol"
+							Properties: {
+								textures: [{
+									Signature: "oayCesXJe8R5Kp+jm0a0iNrJoEVL2ouoEqLVBWlrsMXZnLf/1DnTiNvel5cI7Y2Jw1R+omnB2kZaI0l+6HS9N9+2q/90ehkjknXaH0UBx5vZ4NJtzGPNLG53q986/5DupkaKZjIQ9aHOYfL9Acue4VcbqYrYlcMaXg1+Sza7zqdZFmj43IGFL1twvmf9nQXmNgJHsH3PTUD6UyPCcmgeb3GY6eIQdhFJY+S2VHrEVDF9EWWeTufZyI9rQTbP+srOeZbcZjh2kidbxkch2cbvk1jmk5Y0J7WRV5H00ppqhurFU/moD2exZh/rtcI1/u4Kz0JhH3jyX5Cj8K88NwK7H7ESYYDyrZLBWn6kgN0nMIPvdptUlGxaP6bvVFm8uZB6ZikA8YLlhM7nAHkkDrAREKC7kb/oV8JsEcGi48MHvlyMm04oCLVTZUxH3SGd249w3/j2C3xvoiIlog0/5VPstVQZykdAj+fIoiJOaKbAgumiEQxcDKSW7luhjAoFlM0ZJjwGLlh1cX+6dt3R6GSbDNqj11QAroETlNWFGmKjg8DN0EPyswyQvfLp+42O5BJFXOAfp9Q6RNwSUk6RIYgwJddnrRrnBi87loacT8jlZZKlR8BemjcymT7wO9/jVb0G85ZVWeCjLdL0L8h6tOPK/RioxT7y8jQrwiZfW+iGPrM="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg4NTAyNDYxMCwKICAicHJvZmlsZUlkIiA6ICJmMDY5MmIwMWZhNmQ0NGM1OWFhOTkzZGQyZDIzM2M5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdGhhbmV0aGlvbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWYzYjQzODNhZTU5YWNjZDdjNjJlMjY3MWZiZjZlNWE5NmYyNzgyY2E3NjdmYTE2ZDVlNWZhMTdlZTc3NjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "这是耐似王的认可"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"负责了深暗之园任务的编写。"
+				""
+				"眼熟吗(x)"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1977371355
+							-2017508342
+							-1748111290
+							-472583542
+						]
+						Name: "Faintglow_FG"
+						Properties: {
+							textures: [{
+								Signature: "yMuTC1fO9QCo7sozONUPDQjF2tHmRvy/LZ83H9qZGv954V9LDV3JBfIPsCI69VXydnGXQkpO8TeJxoiiwmrSKxU4B7A90r8P0DvcUvvWww8dTIDEcibzTkBe7bO14JeHYMLty6b8I+qmKXF5TtJoXz4tXOnPiNclMGHeZZizbaD9ih0MzdGC2gGadnXYltWIJnUzcVQsk7SZYUaxpsvG95ZCi5V5R4Qe50UWc+GIqU5zY3KGKn9qGF9RsByxj7UU3dMCyjhnmqFKL7jCmmL6vGL+CSXhA9N+2tu2B+FV8udJGKDnOilzVPMvVuopzDLS+utKGkhjCSL4Mvvjfx8RPj9iCTbwdfa4zNFdNZ2ntaWHB2FuaskhUSEdhTgfvqd0ywaxd2IEotypPjYsdQdZRE+zyRKPu61QHc2WsNxeBuLfXDgT59xcRPA3r5bYdw8z1yCgP6vCYxMZ/kXw+pG3/JnDTalbIs1dN3Q71yLwLM0IRSKUltnDtPSXzIEhPfEQvhiPu2bqoRKWSL5GbWGW4y6uUx0C1OahcnHM+alaLb93+7BruOVnFnlcXFggeBiEIl6l5X97JVrr1xceNFpvM6jyjv7nKjjBdYaVFqaqelAdH2AH9Hd+/QtVyIm8v0ZEbud56b6m5vyc7vqP0XLTBs0kpcP4FwQJIuwqfZTYxns="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjE5NDgxNzc0NywKICAicHJvZmlsZUlkIiA6ICI4YTIzYjUyNTg3YmY0NDBhOTdjZGYwNDZlM2Q0ZjI4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWludGdsb3dfRkciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNmZDZjZDRmNzljMDc1OGFlMzU4MzYxY2MzMjFkMTZlYjFkOGE5Mzc3ODZlZDE5NTg5OGY3YWI5ZWZjYTIxZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "308FAC27E4417BF2"
+			rewards: [{
+				id: "60E6B14B15DC6D7A"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1977371355
+								-2017508342
+								-1748111290
+								-472583542
+							]
+							Name: "Faintglow_FG"
+							Properties: {
+								textures: [{
+									Signature: "yMuTC1fO9QCo7sozONUPDQjF2tHmRvy/LZ83H9qZGv954V9LDV3JBfIPsCI69VXydnGXQkpO8TeJxoiiwmrSKxU4B7A90r8P0DvcUvvWww8dTIDEcibzTkBe7bO14JeHYMLty6b8I+qmKXF5TtJoXz4tXOnPiNclMGHeZZizbaD9ih0MzdGC2gGadnXYltWIJnUzcVQsk7SZYUaxpsvG95ZCi5V5R4Qe50UWc+GIqU5zY3KGKn9qGF9RsByxj7UU3dMCyjhnmqFKL7jCmmL6vGL+CSXhA9N+2tu2B+FV8udJGKDnOilzVPMvVuopzDLS+utKGkhjCSL4Mvvjfx8RPj9iCTbwdfa4zNFdNZ2ntaWHB2FuaskhUSEdhTgfvqd0ywaxd2IEotypPjYsdQdZRE+zyRKPu61QHc2WsNxeBuLfXDgT59xcRPA3r5bYdw8z1yCgP6vCYxMZ/kXw+pG3/JnDTalbIs1dN3Q71yLwLM0IRSKUltnDtPSXzIEhPfEQvhiPu2bqoRKWSL5GbWGW4y6uUx0C1OahcnHM+alaLb93+7BruOVnFnlcXFggeBiEIl6l5X97JVrr1xceNFpvM6jyjv7nKjjBdYaVFqaqelAdH2AH9Hd+/QtVyIm8v0ZEbud56b6m5vyc7vqP0XLTBs0kpcP4FwQJIuwqfZTYxns="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjE5NDgxNzc0NywKICAicHJvZmlsZUlkIiA6ICI4YTIzYjUyNTg3YmY0NDBhOTdjZGYwNDZlM2Q0ZjI4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWludGdsb3dfRkciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNmZDZjZDRmNzljMDc1OGFlMzU4MzYxY2MzMjFkMTZlYjFkOGE5Mzc3ODZlZDE5NTg5OGY3YWI5ZWZjYTIxZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "29D36F2326480083"
+				type: "checkmark"
+			}]
+			title: "FaintGlow_FG"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"      为了避免按键冲突，所以很多附加功能的按键是未绑定的。如果你看到了这种情况："
+				"{image:kubejs:textures/ftbq_images/3fc852fdc9ed88b3115beba4be813c05.png width:150 height:36 align:1}"
+				"      这不是bug了，而是按键没有绑定。你可以在&b菜单-选项-控制-按键绑定&r里面找到对应项目绑定按键。下方的搜索框支持拼音搜索。"
+				""
+				"      另外如果大地图打不开，通常是因为按键冲突了，xaero的打开地图按键优先级非常低，只要冲突就打不开大地图。"
+			]
+			icon: "minecraft:stone_button"
+			id: "0710D7062CEB6A31"
+			rewards: [{
+				id: "7A46737EBC32EF44"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "游戏本体的按键设置文件保存在version文件夹的options.txt文件中"
+			tasks: [{
+				id: "3E6F6BDC0919D5F9"
+				type: "checkmark"
+			}]
+			title: "按键绑定"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			description: ["取出来钱再升级，不然会吞钱"]
+			id: "49D42AE20BC08ECC"
+			rewards: [{
+				count: 3
+				id: "5A63CD322B54736C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "!!!"
+			tasks: [{
+				id: "5036ACC960828EF8"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_copper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FF708BA524C9D44"]
+			description: [
+				"你或许在许多MC的视频中看到刷线机"
+				"并且想在此制作一个"
+				"但遗憾的是forge破坏了这个特性"
+				"但并非没有办法，按F3对准线的位置，用指令改变线的状态。"
+				"你都开作弊了，又何必在意这个刷线机。"
+			]
+			icon: "minecraft:string"
+			id: "6EA5F91830218B42"
+			rewards: [{
+				id: "01B4208DE4312960"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0427C910B60C7473"
+				title: "刷线机"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4FF708BA524C9D44"]
+			description: [
+				"在1.19.2FTB区块的防爆指的是防止TNT爆炸破坏，并不能阻止生物破坏，如凋零，苦力怕和eoe。"
+				"当然也有一些模组方块可以防止生物破坏。"
+				"生物不破坏方块指令/gamerule mobGriefing false"
+			]
+			icon: "minecraft:tnt"
+			id: "0A562C1B7E70CD84"
+			rewards: [{
+				command: "/gamerule mobGriefing false"
+				id: "6AB18DF1B6A221FA"
+				type: "command"
+			}]
+			subtitle: "并非bug"
+			tasks: [{
+				id: "5E84D45868F4734B"
+				type: "checkmark"
+			}]
+			title: "FTB的防爆"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"联机问题是一个复杂的网络环境和设备问题。"
+				"本整合包在联机测试上没有任何问题。"
+				"但要求最低16mbps（上下对等）的带宽，随人数上升对主机要求升高。"
+				"如果你遇到了任何联机上的问题，请自行检查网络环境和硬件设备，此类问题与整合包无关，请勿反馈。"
+			]
+			icon: "kubejs:overchargedultradense"
+			id: "6E8370730F5E8740"
+			rewards: [{
+				id: "64C5179535433E6D"
+				type: "xp"
+				xp: 3
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "638594E82072C341"
+				type: "checkmark"
+			}]
+			title: "联机须知"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6E8370730F5E8740"]
+			icon: "minecraft:name_tag"
+			id: "2B42448EC438AA18"
+			rewards: [{
+				id: "3B6E26A80AB8C66B"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "15B06D03B7B3BAF2"
+				type: "checkmark"
+			}]
+			title: "原版中的有用小指令（联机向）"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2B42448EC438AA18"]
+			description: [
+				"/gamerule playersSleepingPercentage <value>"
+				"value 可以设置 0 - 100 之间的百分比值（默认值：100）。例如，将此值设置为 50 意味着一半的玩家需要睡觉才能跳过夜晚。 "
+				"设0即有玩家睡觉即可跳过夜晚。"
+			]
+			icon: "minecraft:white_bed"
+			id: "181103BB4F690AB0"
+			rewards: [{
+				command: "/gamerule playersSleepingPercentage 0"
+				id: "704F13E1DC9B5315"
+				type: "command"
+			}]
+			tasks: [{
+				id: "13D7FB7D547AF44B"
+				title: "修改睡觉比例"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2B42448EC438AA18"]
+			description: ["字面意思"]
+			icon: {
+				Count: 1b
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "357109A31A185CD5"
+			rewards: [{
+				command: "/gamerule doFireTick false"
+				id: "0ED652173A2423CA"
+				type: "command"
+			}]
+			tasks: [{
+				id: "58CF815C6ECDF156"
+				title: "火焰不蔓延"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2B42448EC438AA18"]
+			description: ["和朋友联机时，看看谁更菜用的"]
+			icon: "minecraft:oak_sign"
+			id: "5B2E8C7EA3AF94A9"
+			rewards: [
+				{
+					command: "/scoreboard objectives add died deathCount \"女装意愿表\""
+					id: "13374BBA850D57F6"
+					type: "command"
+				}
+				{
+					command: "/scoreboard objectives setdisplay sidebar died"
+					id: "54B8CACD26C0135F"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "23AF3D5282317227"
+				title: "计分板"
+				type: "checkmark"
+			}]
+			title: "计分板-死亡榜"
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4FF708BA524C9D44"]
+			description: [
+				"死亡不掉落可以降低难度"
+				""
+				"但是非创造摘取七咒需要死亡掉落，而仍然会掉落灵魂水晶"
+				"gamerule keepWallet true 死亡不掉落钱包"
+			]
+			icon: "minecraft:birch_trapdoor"
+			id: "3B3EEE177807925D"
+			rewards: [
+				{
+					command: "/gamerule keepInventory true"
+					icon: {
+						Count: 1b
+						id: "tinkers_things:laminar_shield"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:marcoatom"
+								"etshtinker:marcoatom"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "etshtinker:unknown"
+								}
+								{
+									level: 2
+									name: "etshtinker:atomorigin"
+								}
+								{
+									level: 1
+									name: "tconstruct:blocking"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"etshtinker:fluid_efficiency": 2.48832f
+								"etshtinker:plasmarange": 0.0124416f
+								"tconstruct:armor_toughness": 0.0870912f
+								"tconstruct:block_amount": 0.49766397f
+								"tconstruct:block_angle": 1.6174079f
+								"tconstruct:durability": 186.53067f
+								"tconstruct:knockback_resistance": 0.0124416f
+								"tconstruct:use_item_speed": 0.4f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								defense: 2
+								upgrades: 4
+							}
+						}
+					}
+					id: "4CD5762BC921ACCB"
+					type: "command"
+				}
+				{
+					command: "/gamerule keepWallet true"
+					icon: {
+						Count: 1b
+						id: "lightmanscurrency:wallet_copper"
+						tag: { }
+					}
+					id: "42D1A87C1D12A8B4"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2D223C63CC5A387F"
+				title: "死亡不掉落"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			description: ["删除备份导致坏档无法解决，请自行承担责任"]
+			icon: "minecraft:chest"
+			id: "49D64FEF200C3789"
+			rewards: [{
+				id: "2ED4A4CF90F3731B"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "这边请看游戏文件夹：version/backup中的压缩包解压至version/saves"
+			tasks: [{
+				id: "417C4393DFF590F1"
+				title: "关于备份"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"整合包使用em+oculus，不兼容optifine，"
+				"有自带的光影photo-main,对于可能出现的任何光影不兼容的问题，请勿向整合包制作团队反馈，"
+				"你可以向光影作者或者oculus作者反馈这个问题。"
+			]
+			icon: "minecraft:lantern"
+			id: "237D8CEB44FEDD04"
+			rewards: [{
+				id: "367FA156D3D831E3"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "不兼容optifine"
+			tasks: [{
+				id: "0B42002A26ED1AC2"
+				title: "关于光影"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FF708BA524C9D44"]
+			description: ["防止鞘翅飞的过快被踢出"]
+			icon: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FEC5A14F0E1A151"
+			rewards: [{
+				command: "/gamerule disableElytraMovementCheck true"
+				id: "4483E607B3508C00"
+				type: "command"
+			}]
+			tasks: [{
+				id: "20E487EF5242125E"
+				title: "鞘翅"
+				type: "checkmark"
+			}]
+			title: "禁用鞘翅移动检测"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"      本包使用了IPN作为背包整理模组。别问我为什么，1.19.2没有更好的选择了。"
+				"      默认同时按R和C便可以打开IPN的配置，你可以在这里更改键位或关闭一些恼人的功能（比如自动重装）。"
+				"      在任意GUI右上角你可以找到两个正方形的，被FTB按钮挡住一半的&7灰色&r的按钮，分别能打开配置界面和调整容器GUI按钮的位置，有需要请自行配置。"
+			]
+			icon: {
+				Count: 1b
+				id: "thermal:satchel"
+				tag: { }
+			}
+			id: "158287822B60C07A"
+			rewards: [{
+				id: "79F65533766F3C11"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "当你的ui被奇怪按键挡住或者没有r键整理的时候。。。"
+			tasks: [{
+				id: "21E7E88F672D8D94"
+				type: "checkmark"
+			}]
+			title: "背包整理相关"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"      本包使用kubejs+blockswap将大部分常用材料的矿物生成和锭、块、粒、粉形态统一到一个模组去了，比如青铜无论是用冶金灌注机还是感应炉合成得到的都是热力的青铜。大部分热力有的材料都向热力统一了（因为好看）。"
+				"      "
+				"      钢比较特殊，钢的锭和粒采用了热力的，钢块则采用了沉浸工程的，这是因为沉浸工程的多方快结构仅支持沉浸工程自己的钢块。"
+				""
+				"      其余材料中，铝采用了沉浸工程的铝，铀则采用了mek的铀。"
+			]
+			icon: "immersiveengineering:storage_steel"
+			id: "24173D26C0996769"
+			rewards: [{
+				id: "5B8B5772A3730DCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			subtitle: "“为什么mek的钢锭没有配方，是不是禁了？？！”"
+			tasks: [{
+				id: "263DA8A8D211A8A5"
+				type: "checkmark"
+			}]
+			title: "关于标签统一"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["305A57A22D3A3387"]
+			description: [
+				"      在任务界面的左上角和右上角各有一个小三角形"
+				""
+				"      点击左边的那个小三角可以查看前置任务（如果前置任务没有完成完则为红色），试试看找到这个任务被哪个任务锁定了！"
+				""
+				"      若显示  +已隐藏x个则说明这个任务有不可见的前置，需要你猜到那个任务的完成方式或者意外完成那个任务才能解锁。"
+				""
+				"      右边的小三角则是查看任务附属，可以看到这个任务是哪些任务的前置。"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "0558C969AF2F82E0"
+			rewards: [{
+				id: "55253F6159829E57"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "“这个任务怎么解锁不了啊，是不是又出bug了！”"
+			tasks: [{
+				id: "08A9ED0472948A73"
+				type: "checkmark"
+			}]
+			title: "查看任务前置"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"      隐藏任务是指那些正常情况下不可见的任务，这些任务或是在解锁后才可见，或是完成后才可见。通常来说完成后可见的隐藏任务藏了一些关于隐藏内容的特殊信息。"
+				"    "
+				"      隐藏任务可以在查看任务前置和附属时被发现，但是不作弊的情况下无法点开。"
+				""
+				" &8     &m既然你发现了这个，那你一定点开了任务编辑模式是吧！"
+			]
+			hide_dependent_lines: true
+			icon: "etshtinker:lightless_alloy"
+			id: "3FC9216BAA2953BA"
+			invisible: true
+			rewards: [{
+				id: "2623677D8B076277"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "恭喜你发现了隐藏任务！"
+			tasks: [{
+				id: "2EFCF72F6FDDD6E3"
+				type: "checkmark"
+			}]
+			title: "被藏起来的任务"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"R+C可以打开设置"
+				""
+				"默认是shift+R进行背包整理"
+			]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:infinity_backpack"
+				tag: {
+					CanCharge: 1b
+					Energy: 9223372036854775807L
+					Selected: "ARTIFACT"
+					Special: 1b
+				}
+			}
+			id: "522A1ECF8EF61FCA"
+			rewards: [{
+				id: "28451BCDF1DB7FD0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "关于背包整理模组"
+			tasks: [{
+				id: "4067788F52DA62FC"
+				type: "checkmark"
+			}]
+			title: "背包整理"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			description: ["你也可以尝试写匠魂模组，在整合包百科界面有教程"]
+			icon: "minecraft:creeper_head"
+			id: "13D9D64EFDBC53DC"
+			rewards: [{
+				id: "582B9B2E67A94D24"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "匠魂附属还有一些，如果你喜欢你可以自己加上，但是并未经过平衡性调整，如果出了相关性问题请反馈到对应作者"
+			tasks: [{
+				id: "3CF09A97BD879A61"
+				type: "checkmark"
+			}]
+			title: "其他匠魂附属？"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["305A57A22D3A3387"]
+			description: [
+				"https://www.mcmod.cn/post/2856.html"
+				""
+				"如果你第一次玩MC整合包请先打开这个链接，在目录中点击  &b4 jei的的应用"
+				""
+				"本包添加了大量独有配方，而查看这些配方的唯一方法是JEI（对的，网上搜不到），所以学会JEI的基本用法十分重要！！！"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "5FFB78F2D00FA7FD"
+			rewards: [{
+				id: "0997184F121ABBFB"
+				item: "botania:cosmetic_tiny_potato_mask"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4551568331D3AF12"
+				type: "checkmark"
+			}]
+			title: "[胎教] JEI的使用"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"提示：1，&b刷怪笼激活器&r（气动工艺）：可以通过开箱获得，仅对&6原版刷怪笼&r生效"
+				"2，冰/火/电龙：&6战利品获取&r&4无法自动化&r（玩家模拟器和机械手均不可），&4&l&o不推荐大规模生成然后屠宰&r，由此引起的服务器实体占用问题自行解决"
+				"3，有关机器的输入输出：&a热力、工业先锋的设备&r大多具备自动读取/输出缓存物品的功能（意思是无需管道），&amek&r的设备&4仅能自动弹出&r，&a气动工艺&r的设备部分可以使用&6发射器升级&r（可指定设备任意相接的容器自动输出）4，德格米（新生魔艺）：具备特殊的实体机制即使在同一格中&6也不会发生实体挤压&r，但是&4仍然有实体占用&r（尽量减少德格米的数量）"
+				""
+				"{@pagebreak}"
+				""
+				"5，合成冲突：虽然本包已经对主要的冲突配方做了处理，但仍然有部分配方冲突，&bae&r&4无法合成&r&6多态配方&r，请使用&6原版工作台&r"
+				"6，血肉重铸的&6自动化&r：&a血肉重铸&r的设备仅有&6生物锻炉&r&4无法&r&6自动化&r，其他设备的逻辑等同于&6原版熔炉加强版&r，并无二致"
+				"7，关于&b经验泵升级（精妙存储）&r：由于模组&0本体&r&4删去&r了&6储罐升级&r，所以并无用处"
+				"8，管道的提示：&a物品管道&r（&l&4极不推荐mek物流&r）&a能量管道&r（&0&l绝不推荐&r&4pipez&r&0的能量管道&r）&a流体管道&r（推荐大量需求&6机械管道&r，高频需求&6pip和循环流体管道&r）&a气体管道&r（仅有mek和pip可以）热导线缆（mek的存在感不高，气动推荐&6电阻加热配合热管&r）ae线缆（&6分清粗细&r）"
+				"注：请确认你已经学会使用&6扳手调整管道模式&r（抽取/输出/无）&6管道过滤&r（自动化必须）&6管道机器交互&r（面对面与精准定向）"
+				""
+				"{@pagebreak}"
+				""
+				"9，方块容器中的流体：有转置需求的（最好是桶），可以使用&bmek&r的&6流体储罐&r作为中介（可以瞬间将容器中的流体倒出，并且可以接&6物品管道&r）"
+				"10，空间矿机的缓存读取：可以利用&atom&r的&6存储驱动器&r或&aae&r的&6me箱子/接口"
+				"&r11，海王锭：&b机械动力&r&6钓鱼机&r无法钓宝藏所以&4失效&r（仅能&e手动钓鱼获得&r，但本包有&6自动钓鱼和匠魂钓鱼竿&r）"
+				"12，关于下界/末地戈伯：可以通过下界/末地对应的&6戈伯幸运方块&r获取对应戈伯棒用&6电弧炉&r处理（沉浸工程）"
+				""
+				"{@pagebreak}"
+				""
+				"13，关于精灵钢自动化：背包磁铁升级和磁力戒指等部分同类功能&4无法影响&r&e制作出来的&r&6精灵钢&r（可以使用&a循环&r&6收集器&r）"
+				"14，&b戈伯&r&6下界剑&r可以&e秒杀凋灵骷髅必定掉头&r（&0不触发时运&r），但是本包又加强了&e下界戈伯锭的匠魂功能性词条&r（完全薄纱），所以还是推荐&6下界戈伯锭&r"
+				"15，减少套娃式随身携带存储（如&6背包、便携元件、板条箱、沉浸储存箱&r等）会很卡"
+				"16"
+			]
+			icon: "enigmaticlegacy:enchantment_transposer"
+			id: "21CC1D9D6FC253A4"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "5D3AFCC759C9FA25"
+				type: "checkmark"
+			}]
+			title: "这里是一些提示"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["！！重要！！一定要看！！"]
+	title: "游玩前须知"
+}

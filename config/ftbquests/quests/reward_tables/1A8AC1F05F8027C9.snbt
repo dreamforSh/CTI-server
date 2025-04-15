@@ -1,0 +1,18 @@
+{
+	icon: "thermal:ruby_ore"
+	id: "1A8AC1F05F8027C9"
+	loot_size: 4
+	order_index: 66
+	rewards: [
+		{ item: "mekanism:ingot_steel" }
+		{ item: "mekanism:ingot_lead" }
+		{ item: "iceandfire:silver_ingot" }
+		{ item: "tinkers_reforged:aluminum_ingot" }
+		{ item: "thermal:constantan_ingot" }
+		{ item: "mekanism:ingot_bronze" }
+		{ item: "thermal:electrum_ingot" }
+		{ item: "iceandfire:sapphire_gem" }
+		{ item: "thermal:ruby" }
+	]
+	title: "王之书-通用-半身-抽奖"
+}

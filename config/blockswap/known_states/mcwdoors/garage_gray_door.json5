@@ -1,0 +1,484 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "true",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "false",
+			"facing": "north"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "true",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "false",
+			"facing": "south"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "true",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "false",
+			"facing": "west"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "true",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"open": "false",
+			"facing": "east"
+		},
+		"Name": "mcwdoors:garage_gray_door"
+	}
+]

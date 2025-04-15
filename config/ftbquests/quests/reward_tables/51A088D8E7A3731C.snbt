@@ -1,0 +1,17 @@
+{
+	icon: "thermal:machine_frame"
+	id: "51A088D8E7A3731C"
+	loot_size: 4
+	order_index: 28
+	rewards: [
+		{ item: "thermal:enderium_ingot" }
+		{ item: "thermal:signalum_ingot" }
+		{ item: "thermal:lumium_ingot" }
+		{ item: "thermal:invar_ingot" }
+		{ item: "etshtinker:blitz_lumium" }
+		{ item: "etshtinker:basalz_signalum" }
+		{ item: "etshtinker:blizz_enderium" }
+		{ item: "etshtinker:activated_chroma_plate", weight: 0.75f }
+	]
+	title: "王之书-热力-半身-抽奖"
+}

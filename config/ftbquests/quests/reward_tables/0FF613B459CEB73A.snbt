@@ -1,0 +1,18 @@
+{
+	icon: "create:wrench"
+	id: "0FF613B459CEB73A"
+	loot_size: 6
+	order_index: 57
+	rewards: [
+		{ count: 4, item: "create:andesite_alloy_block" }
+		{ count: 4, item: "create:brass_block" }
+		{ count: 4, item: "gobber2:gobber2_block", weight: 0.75f }
+		{ count: 4, item: "gobber2:gobber2_block_nether", weight: 0.75f }
+		{ count: 4, item: "projecte:dark_matter_block", weight: 0.25f }
+		{ count: 4, item: "projecte:red_matter_block", weight: 0.25f }
+		{ count: 18, item: "cyclic:gem_amber", random_bonus: 18 }
+		{ count: 18, item: "cyclic:gem_obsidian" }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-机动-戈伯-等价-循环-全收集-抽奖"
+}

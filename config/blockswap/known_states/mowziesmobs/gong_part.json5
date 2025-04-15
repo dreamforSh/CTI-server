@@ -1,0 +1,724 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "north"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "south"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "west"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_left",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_left",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "side_right",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "side_right",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "true",
+			"gong_part": "center",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"powered": "false",
+			"gong_part": "center",
+			"facing": "east"
+		},
+		"Name": "mowziesmobs:gong_part"
+	}
+]

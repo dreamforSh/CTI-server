@@ -1,0 +1,34 @@
+{
+	icon: "tinkers_ingenuity:ender_residual_interest"
+	id: "3FE6CD1EC5786D8A"
+	loot_size: 6
+	order_index: 35
+	rewards: [
+		{ count: 18, item: "tinkers_ingenuity:frost_alloy_ingot" }
+		{ count: 18, item: "tinkers_ingenuity:labolas_ingot" }
+		{ count: 18, item: "tinkers_ingenuity:lefigaro_ingot" }
+		{ count: 18, item: "tinkers_ingenuity:red_maple_iron" }
+		{ item: "tinkers_ingenuity:gleiter_ingot", random_bonus: 8, title: "1~9x 格莱特" }
+		{ item: "tinkers_ingenuity:xuan_ming_ingot", random_bonus: 8, title: "1~9x 玄冥锭" }
+		{ item: "tinkers_ingenuity:sea_dream_ingot", random_bonus: 8, title: "1~9x 海梦合金" }
+		{ item: "tinkers_ingenuity:crocell_ingot", random_bonus: 8, title: "1~9x 克罗塞尔" }
+		{ item: "tinkers_ingenuity:sunlit_ingot", random_bonus: 8, title: "1~9x 日曜锭" }
+		{ item: "tinkers_ingenuity:simir_ingot", random_bonus: 8, title: "1~9x 希密尔" }
+		{ count: 18, item: "tinkers_ingenuity:prince_slime_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:auroral_alloy_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:blood_binding_ingot" }
+		{ count: 18, item: "tinkers_ingenuity:glasya_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:knight_crystal_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:ocean_alloy_ingot" }
+		{ count: 30, item: "thermal:gold_coin" }
+		{ count: 9, item: "tinkers_ingenuity:shine_alloy_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:blood_steel_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:teslin_alloy_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:bedrock_alloy_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:leaf_green_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:shine_gold_ingot" }
+		{ count: 9, item: "tinkers_ingenuity:dye_fire_alloy" }
+		{ count: 9, item: "tinkers_ingenuity:twilight_ingot" }
+	]
+	title: "王之书-工心-全收集-抽奖"
+}

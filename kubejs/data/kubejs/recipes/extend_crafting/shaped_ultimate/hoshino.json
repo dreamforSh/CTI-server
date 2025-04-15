@@ -1,0 +1,64 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABCDCBAA",
+    "AEEEEEEEA",
+    "FGGGHGGGF",
+    "IJKJILMLI",
+    "IKNKIMOMI",
+    "IJKJILMLI",
+    "FGGGHGGGF",
+    "AEEEEEEEA",
+    "AABHHHBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:life_essence"
+    },
+    "B": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "C": {
+      "item": "l2hostility:killer_aura"
+    },
+    "D": {
+      "item": "l2complements:void_eye"
+    },
+    "E": {
+      "item": "solidarytinker:violane"
+    },
+    "F": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "G": {
+      "item": "tconstruct:amethyst_bronze_ingot"
+    },
+    "H": {
+      "item": "minecraft:nether_star"
+    },
+    "I": {
+      "item": "industrialforegoing:pink_slime"
+    },
+    "J": {
+      "item": "mekanism:ingot_refined_glowstone"
+    },
+    "K": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "L": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "M": {
+      "item": "tinkerscalibration:moonsteel_ingot"
+    },
+    "N": {
+      "item": "kubejs:core_blaze"
+    },
+    "O": {
+      "item": "kubejs:core_diamond"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:starfall_ingot"
+  }
+}

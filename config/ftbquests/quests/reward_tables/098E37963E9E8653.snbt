@@ -1,0 +1,44 @@
+{
+	icon: "tinkerscalibration:queens_slime_reinforcement"
+	id: "098E37963E9E8653"
+	loot_size: 6
+	order_index: 52
+	rewards: [
+		{ count: 9, item: "tinkerscalibration:corundum_block" }
+		{ count: 9, item: "tinkerscalibration:spinel_block" }
+		{ count: 9, item: "tinkerscalibration:tourmaline_block" }
+		{ count: 9, item: "tinkerscalibration:vibrating_crystal_block" }
+		{ count: 9, item: "tinkerscalibration:topaz_block" }
+		{ count: 9, item: "tinkerscalibration:iceland_spar_block" }
+		{ count: 4, item: "tinkerscalibration:steamium_block" }
+		{ count: 4, item: "tinkerscalibration:lindsteel_block" }
+		{ count: 9, item: "tinkerscalibration:lizanite_block" }
+		{ count: 4, item: "tinkerscalibration:halleium_block" }
+		{ count: 4, item: "tinkerscalibration:fazelle_block", weight: 0.15f }
+		{ count: 18, item: "tinkerscalibration:moonsteel_ingot", random_bonus: 18, title: "18~36x 透晶钢锭" }
+		{ count: 4, item: "tinkerscalibration:titanium_block" }
+		{ count: 4, item: "tinkerscalibration:mandite_block" }
+		{ count: 4, item: "tinkerscalibration:alumite_block" }
+		{ count: 4, item: "jaopca:storage_blocks.soulgold", title: "4x 魂金块" }
+		{ count: 4, item: "tinkerscalibration:jazz_block" }
+		{ count: 4, item: "tinkerscalibration:magiga_block" }
+		{ count: 4, item: "tinkerscalibration:emperorslime_block" }
+		{ count: 4, item: "tinkerscalibration:stellarium_ingot" }
+		{ count: 4, item: "tinkerscalibration:inert_witherium_block" }
+		{ count: 4, item: "tinkerscalibration:oraclium_block" }
+		{ count: 4, item: "tinkerscalibration:tonium_block" }
+		{ count: 4, item: "tinkerscalibration:witherium_block" }
+		{ count: 4, item: "tinkerscalibration:hothium_block", weight: 0.15f }
+		{ count: 18, item: "tinkerscalibration:gravity_ingot", random_bonus: 18, title: "18~36x 重力合金锭" }
+		{ count: 18, item: "tinkerscalibration:bamboo_steel", random_bonus: 18, title: "18~36x 竹钢" }
+		{ count: 18, item: "tinkerscalibration:breashell", random_bonus: 18, title: "18~36x 残息之壳" }
+		{ count: 18, item: "tinkerscalibration:refinedquartz", random_bonus: 18, title: "18~36x 强化石英" }
+		{ count: 18, item: "tinkerscalibration:mangobberslime_ingot", random_bonus: 18, title: "18~36x 玛戈皇金锭", weight: 0.15f }
+		{ count: 18, item: "tinkerscalibration:fiberglass", random_bonus: 18, title: "18~36x 玻璃纤维" }
+		{ count: 18, item: "tinkerscalibration:prehnite_block", random_bonus: 18, title: "18~36x 葡萄石块", weight: 0.15f }
+		{ count: 36, item: "tinkerscalibration:hymon", weight: 0.4f }
+		{ count: 64, item: "tinkerscalibration:grain_ingot" }
+		{ count: 30, item: "thermal:gold_coin" }
+	]
+	title: "王之书-校准-全收集-抽奖"
+}

@@ -1,0 +1,2542 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss"
+	group: "273277F565C25044"
+	icon: "minecraft:nether_star"
+	id: "511944A4E6298591"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"由于次元规格力量的影响，这个世界比起原本的天地多出了很多前所未闻的传说，很多震撼人心的冒险，同时也充斥的对生命的威胁和对毅力的挑战，而你将成为征服一切的勇者。"
+				"&b此章节主要介绍该整合包各个boss的基本情况并向成功完成任务的玩家提供奖励&r"
+				"&4注意：由于莱特兰动态难度的影响，部分boss的hp和level采取模糊描述的方式恒定，其中hp的衡量方式为同等级阶级对比，例如："
+				"200level左右时，hp为很低的海蟒和塞壬为几百（100-500），hp为低的蛇发女妖为几百近千（700-900），hp为较低的独眼巨人为一千左右（1000-1200），hp为中等的冰火九头蛇为几千左右（1000-5000）"
+				"&4该具体数值不准确仅供参考&r，如50level时的冰火九头蛇的hp只有500左右，且&c通常不考虑重装词条&r&c（部分boss自带最低等级重装，此情况会被考虑到hp评测）&r"
+			]
+			hide_dependent_lines: true
+			icon: "enigmaticlegacy:monster_charm"
+			id: "6B5AE157E562DB3E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "221F0F3939CA916A"
+				title: "点击开始游戏"
+				type: "checkmark"
+			}]
+			title: "世界变得怪诞离奇了起来"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["如天堂般美丽的世界，驻立着赐予试炼的守护者"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "aether:aether_portal_frame"
+			id: "0749E394DC92CFA8"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "6DD25C9C960B6FBC"
+				title: "进入天境"
+				type: "dimension"
+			}]
+			title: "天境"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["我做了一场梦，一场叫做暮色森林的梦"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "72B482CDD14825BF"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "361BB65B8BCD1141"
+				title: "初入暮色"
+				type: "dimension"
+			}]
+			title: "暮色森林"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["所有全新旅程的开始，陪伴了无数个次元的老朋友们"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "minecraft:grass_block"
+			id: "3BD735DDFA413FB3"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "0DD1FB41D78C1C5D"
+				type: "advancement"
+			}]
+			title: "Minecraft"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["无名的勇士来到此处，只为反驳何为“灾”之真意"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "cataclysm:the_incinerator"
+			id: "54CB522EFEFA68DE"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "cataclysm:root"
+				criterion: ""
+				id: "15F3306B96E3EE6F"
+				type: "advancement"
+			}]
+			title: "灾变"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["只存在于传说中的生物，于此开始苏醒"]
+			hide: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragon_skull_fire"
+				tag: {
+					DragonAge: 75
+					Stage: 4
+				}
+			}
+			id: "1FA523662EB0EEEB"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/root"
+				criterion: ""
+				id: "3B4910F6ABEB5639"
+				type: "advancement"
+			}]
+			title: "冰火传说"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["暗无天日的世界里，诡异的怪物们蠢蠢欲动"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "undergarden:catalyst"
+			id: "69FEFDB46A9F5BDA"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "undergarden:deepturf_block"
+				id: "644E94AD1A9C4E6D"
+				title: "进入深园"
+				type: "dimension"
+			}]
+			title: "深暗之园"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["捏碎信物，迎接你渴求已久的鏖战"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "meetyourfight:haunted_bell"
+			id: "6E5CFB75961DC887"
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "35BB8D3AE06AC1B8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "meetyourfight:fossil_bait"
+							}
+							{
+								Count: 1b
+								id: "meetyourfight:haunted_bell"
+							}
+							{
+								Count: 1b
+								id: "meetyourfight:dusk_key"
+							}
+							{
+								Count: 1b
+								id: "meetyourfight:devils_ante"
+							}
+						]
+					}
+				}
+				title: "信物"
+				type: "item"
+			}]
+			title: "迎战"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["严峻困苦的冰寒之海，被遗忘的故事渐渐浮出水面"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "aquamirae:rune_of_the_storm"
+			id: "1F2463D5633888E7"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "aquamirae:adventure/find_ice_maze"
+				criterion: ""
+				icon: "aquamirae:rune_of_the_storm"
+				id: "6BF1BD1D941E08EA"
+				type: "advancement"
+			}]
+			title: "海灵物语"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["新兴魔法发展的过于迅速，直到孕育出了一个不该存在的怪物"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "49557F3647CC185F"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "ars_nouveau:root"
+				criterion: ""
+				id: "459473D8DD9F1B5D"
+				type: "advancement"
+			}]
+			title: "新生魔艺"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["次元融合，你的世界多出了一些从未见过的“本土”生物"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "mowziesmobs:logo"
+			id: "54AAC23B941E25E6"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:root"
+				criterion: ""
+				id: "5C7DCC1366BAEA4F"
+				type: "advancement"
+			}]
+			title: "Mowzie"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["为了提取大地女神力量的精华，必须进行精灵们的仪式"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "botania:lexicon"
+			id: "7FB7A360855D730A"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "botania:main/root"
+				criterion: ""
+				id: "4FED660986C5910F"
+				type: "advancement"
+			}]
+			title: "植物魔法"
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3BD735DDFA413FB3"]
+			description: [
+				"level：800+"
+				"hp：中等"
+				"仪式召唤"
+				"地狱的王者"
+				"经过莱特兰的洗礼后其实力不同往日（其实就是加了最低等级）"
+			]
+			hide: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "5F3D40B3680691A1"
+			rewards: [
+				{
+					count: 3
+					id: "58760ABA48FCBF25"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E44A082DD174C50"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "53D81C9078069212"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "000E68A82CA4E58C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3BD735DDFA413FB3"]
+			description: [
+				"level：450+"
+				"hp：低"
+				"末地主岛群系生成，仪式召唤"
+				"来自原版的最终boss"
+				"原定的终点尚未到达，随着它的陨落，故事才正式开始"
+			]
+			hide: true
+			icon: "minecraft:dragon_head"
+			id: "5FDF9AC1BD58DC0C"
+			rewards: [
+				{
+					count: 3
+					id: "48E2FE211E0389F1"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "1774378CB91D5B18"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "4703931E7D7C86B3"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					id: "50F7A14B2C37A68E"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2E0605EE0E031B2B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：500+"
+				"hp：2400+"
+				"结构生成"
+				"是驻守在末地堡垒的小boss，拥有一定战斗力"
+			]
+			hide: true
+			icon: "cataclysm:void_core"
+			id: "35E72A46234408DD"
+			rewards: [
+				{
+					count: 2
+					id: "52BAB35A8D550D6D"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4AF589671A282BD0"
+					item: "cataclysm:void_stone"
+					type: "item"
+				}
+				{
+					id: "11B2ED1ADCA57CBD"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "47497C91D6BE49C0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：3000+"
+				"hp：90909+"
+				"结构生成"
+				"血量相对于该模组其他boss不高，但是却拥有最高的防御力"
+				"比起其强悍的战斗力，你还要留意其场地的炸弹陷阱，该陷阱同样拥有不俗的伤害"
+			]
+			hide: true
+			icon: "cataclysm:void_eye"
+			id: "3D10B86CB92A3974"
+			rewards: [
+				{
+					count: 16
+					id: "38742E683DE153D8"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "12A288601A1E905A"
+					item: "cataclysm:void_stone"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5BE08F4EA0C1FEC8"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "46315E9D3D1B390B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"54CB522EFEFA68DE"
+				"202C2E9501CF8B69"
+			]
+			description: [
+				"level：5000+"
+				"hp：203850+"
+				"仪式召唤"
+				"（用炽燃余烬右键祭坛）"
+				"此整合包的钦定最终boss，拥有超多酷炫特效和技能，大部分攻击拥有吸血能力且其赋予的负面效果会降低百分比护甲，拥有强悍的战斗力"
+				"举盾时会格挡面前伤害，血量下降到一定程度会变为第二形态，赋予的负面效果等级会提高，血量进一步下降会变为第三形态，该形态其盾牌消失"
+				"{@pagebreak}"
+				"当阎魔被玩家首次击败后，下方会有提示“下界的亡灵已经苏醒”"
+				"此时炽燃狂魂开始在下界要塞生成，击败后可掉落材料用于合成阎魔的召唤材料"
+			]
+			hide: true
+			icon: "cataclysm:flame_eye"
+			id: "4090B4DEDD8A3726"
+			rewards: [
+				{
+					count: 25
+					id: "0540F4910B00D27F"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6D306798C6EB73F0"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "69B867B7ABFDFF8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：3500+"
+				"hp：159000+"
+				"结构生成"
+				"虽然其总共就拥有两个技能，但依然不影响其战斗力之强悍，其拥有的熔岩大炮技能对于佩戴七咒且无防火手段的玩家非常麻烦，不建议与其过早战斗"
+			]
+			hide: true
+			icon: "cataclysm:monstrous_eye"
+			id: "7F4D72770FF19581"
+			rewards: [
+				{
+					count: 17
+					id: "133D0530BE728544"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "650B1786E8CDC1D1"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "2F9F333A6EC7EB38"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：4500+"
+				"hp：159120+"
+				"仪式召唤"
+				"（初始处于休眠状态，需使用下界之星激活挑战）"
+				"其实就是变种凋灵，比凋灵多了些爆炸技能"
+			]
+			hide: true
+			icon: "cataclysm:mech_eye"
+			id: "6FDD3DC6CF7D96FE"
+			rewards: [
+				{
+					count: 23
+					id: "56D9BED74BFDAD33"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "667DD21D58531EC7"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "7D931C836DCE6FDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：4500+"
+				"hp：119680+"
+				"仪式召唤"
+				"（初始处于休眠状态，需玩家在其结构中找到沙漠项链激活挑战）"
+				"（用考古学的刷子清扫可疑沙子时有几率找到沙漠项链）"
+				"注意跳跃躲避其地震型技能"
+			]
+			hide: true
+			icon: "cataclysm:desert_eye"
+			id: "28226734ED8DD5BE"
+			rewards: [
+				{
+					count: 22
+					id: "69A2357E70C45AC2"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "068CC4A31B5FD390"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "7D21895523796746"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：3500+"
+				"hp：127200+"
+				"仪式召唤"
+				"（需合成深渊祭品右键祭坛）"
+				"灾变被人忽略的大哥，其炫酷的特效和技能丝毫不输于焰魔"
+				"一些技能会赋予独特负面效果，注意其中的凋零变种版和禁用生命恢复"
+				"半血时进入假死状态，随后开启第二形态（上方灾变自带血条在其假死时会显示空血，此为正常显示设置）"
+				"拥有处决技能，处决时释放大招深渊冲击波（口吐激光，又称原子吐息）冲击波为无视防御的特殊伤害"
+				"注意！"
+				"其在离开水面时会处于无敌状态，其拥有瞬移技能且仇恨追踪范围较广"
+			]
+			hide: true
+			icon: "cataclysm:abyss_eye"
+			id: "3253355A277C5B1C"
+			rewards: [
+				{
+					count: 18
+					id: "65ECF0E38B9B0BE1"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B16F555FF966EA2"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "6E91F739691B2C58"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：50+"
+				"hp：中等"
+				"结构生成"
+				"移动时会破坏阻挡方块，避免与其碰撞"
+				"拥有蓄力冲撞技能，可用盾牌阻挡，阻挡成功后可对其造成眩晕"
+			]
+			hide: true
+			icon: "twilightforest:naga_trophy"
+			id: "557873CC16567B65"
+			rewards: [
+				{
+					count: 5
+					id: "55B093BE90789EA0"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0AE8D61131E0ACC4"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "522D1A51D523A4E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：70+"
+				"hp：较低"
+				"结构生成"
+				"初始拥有5面盾牌抵挡伤害，对物理伤害吸收能力高但是对魔法伤害吸收能力差，可以用瞬间治疗药水快速破盾"
+				"可召唤小怪与分身，瞬移，破盾后会转换为近战攻击"
+			]
+			hide: true
+			icon: "twilightforest:lich_trophy"
+			id: "3C4A0AEC994C7F10"
+			rewards: [
+				{
+					count: 7
+					id: "00309207CCC03D8D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "304E4210D8A702E2"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "00125E498AFD3D50"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：120+"
+				"hp：中等"
+				"结构生成"
+				"蓄力一段时间后会冲刺"
+			]
+			hide: true
+			icon: "twilightforest:minoshroom_trophy"
+			id: "6B2CB295864AD630"
+			rewards: [
+				{
+					count: 12
+					id: "5E66DAB3E850B36A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "75594F588E943366"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+				{
+					id: "4D464589ECCDFA5E"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "727A542649343519"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：100+"
+				"hp：中等"
+				"结构生成"
+				"移动时会破坏阻挡方块，每隔一段时间会停止行动"
+			]
+			hide: true
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "0573C8343C5EF659"
+			rewards: [
+				{
+					count: 10
+					id: "73AC92F28CE12E10"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6C1B2549E04023F9"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "7CD47DA932119B20"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：200+"
+				"hp：极低"
+				"结构生成"
+				"该boss为6只同体，每只血量不高但是有不同攻击手段"
+			]
+			hide: true
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "6D7D599CC9048813"
+			rewards: [
+				{
+					count: 20
+					id: "4A1107FDA94651C0"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0F7370FF413C4BD7"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "27B76978B4980D75"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：300+"
+				"hp：较高"
+				"结构生成"
+				"需要至少食用过一次牛头人沙拉酱肉才能正常挑战"
+				"防御力很高，对头部攻击可以进行破坏，其头部被破坏后会增生双倍数量最高增生7个，每次增生其防御力会下降"
+				"对其腹部直接攻击造成的伤害会被大幅削减"
+				"其攻击多为火焰类型，可以被抗火免疫"
+			]
+			hide: true
+			icon: "twilightforest:hydra_trophy"
+			id: "4193877803FC4D57"
+			rewards: [
+				{
+					count: 30
+					id: "3B207527004E74F7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FEC68601DBFB164"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "41501D86BF776E7C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：300+"
+				"hp：中等"
+				"结构生成"
+				"会对正下方造成持续伤害，此攻击可被方块阻挡"
+				"其结构所带的机关激活时会牵引附近的boss并造成最大生命值的百分比伤害"
+				"机关需要击杀周围的迷你恶魂充能，充能后需要红石信号启动"
+			]
+			hide: true
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "7C3C9233B3D9382A"
+			rewards: [
+				{
+					count: 30
+					id: "475E694A41593CF7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D66F3BD0310C29B"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "049BC853DF170C73"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：300+"
+				"hp：中等"
+				"结构生成"
+				"会免疫来自下方的攻击，移动能力不强且攻击手段为近战碰撞，会召唤小怪"
+			]
+			hide: true
+			icon: "twilightforest:snow_queen_trophy"
+			id: "7C4884A724F96C81"
+			rewards: [
+				{
+					count: 30
+					id: "7B049FD257652B31"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51888AC082EB9E53"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "6405424C1F3DF5A9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6E5CFB75961DC887"]
+			description: [
+				"level：500+"
+				"hp：3200+"
+				"道具召唤"
+				"飞行且会穿墙，攻击弹幕有规律可躲"
+			]
+			hide: true
+			icon: "meetyourfight:haunted_bell"
+			id: "0C20EA07C057F0BD"
+			rewards: [
+				{
+					count: 2
+					id: "51608B0B3F73DCF4"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "54EE733174B61B88"
+					item: "meetyourfight:aether_glazed_cupcake"
+					type: "item"
+				}
+				{
+					id: "587823049F9921CC"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				id: "2DDAD28410F3FA2A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E5CFB75961DC887"]
+			description: [
+				"level：600+"
+				"hp：1900+"
+				"道具召唤"
+				"一般情况下会保持在玩家上空，每隔一定时间向下投掷炸掉，固定投掷三次后会向玩家冲撞一次"
+			]
+			hide: true
+			icon: "meetyourfight:fossil_bait"
+			id: "099F61FA29068E6C"
+			rewards: [
+				{
+					count: 2
+					id: "775D66699D04A7CC"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "692213CE98BFBECD"
+					item: "meetyourfight:marshy_delight"
+					type: "item"
+				}
+				{
+					id: "145A95C8F33424E2"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				id: "2C453AD53574A8AA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E5CFB75961DC887"]
+			description: [
+				"level：700+"
+				"hp：6600+"
+				"道具召唤"
+				"会飞且会穿墙，弹幕攻击有规律可躲"
+			]
+			hide: true
+			icon: "meetyourfight:devils_ante"
+			id: "02F302A3E169D8C1"
+			rewards: [
+				{
+					count: 3
+					id: "349615CA7AE11EE8"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "05784B48D1175BDD"
+					item: "meetyourfight:velvet_fortune"
+					type: "item"
+				}
+				{
+					id: "39A0675F8B887477"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				id: "08FDEF5166F6ADE9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E5CFB75961DC887"]
+			description: [
+				"level：800+"
+				"hp：12500+"
+				"道具召唤"
+				"有三种形态"
+				"第一种本体与（蔷薇怨灵，为方便理解此处我们称为灯笼）未展开灯笼无敌，需攻击周围展开的灯笼，灯笼全部死亡后进入第二形态"
+				"第二种为本体，多为近战攻击，伤害较高，半血后无敌并召唤未展开灯笼，击杀全部展开灯笼后进入第三形态"
+				"第三种为本体，无特殊机制"
+			]
+			hide: true
+			icon: "meetyourfight:dusk_key"
+			id: "1F0CC824D472DD95"
+			rewards: [
+				{
+					count: 6
+					id: "61106C3ACE8DE418"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "15D8B120BD4EF905"
+					item: "meetyourfight:petal_cream"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D62443698EB4405"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				id: "3B02CE88AAFED703"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F2463D5633888E7"]
+			description: [
+				"level：700+"
+				"hp:：13200+"
+				"道具召唤"
+				"（在冰海群系找到海盗船，击杀船长室的掠夺者可掉落）"
+				"（该道具只有在冰海群系内才可使用）"
+				"拥有很多强制生物移动的能力，且第一二次血量低于一半时会强制吸引玩家绕圈并恢复直到满血（强大的吸力，连火箭也无法逃脱），因此与其战斗体验极差"
+				"同时其拥有不俗的输出，建议有直接击杀能力时再来挑战"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "690E4F1360BF62AA"
+			rewards: [
+				{
+					count: 4
+					id: "0DFC62991CBF644B"
+					item: "aquamirae:abyssal_amethyst"
+					type: "item"
+				}
+				{
+					id: "480D8D2D210943C6"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2381D23DA297CEAB"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B7FD299A3AA9998"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "7986F617CCD4A90A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FB7A360855D730A"]
+			description: [
+				"level：无"
+				"hp：初始320，召唤时范围内每多一名玩家血量增加160"
+				"仪式召唤"
+				"有一定战斗力，血量下降到一定程度会转阶段，滞空无敌并召唤小怪，若其未完成转阶段被击杀则无掉落物"
+				"盖亚被击杀前玩家需至少击中其一次才可获得击杀奖励，若中途死亡过则需重新击中一次"
+			]
+			hide: true
+			icon: "botania:gaia_head"
+			id: "39D043898B7081CC"
+			rewards: [
+				{
+					count: 2
+					id: "269FAD5077E276F7"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D032BD2C08A417"
+					table_id: 3733891062111334823L
+					type: "random"
+				}
+				{
+					id: "66F78D2EF17AE3C9"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "3B4F95CAD9508D35"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69FEFDB46A9F5BDA"]
+			description: [
+				"level：浮动（1000+）"
+				"hp：较低"
+				"结构生成"
+				"移动速度慢，但移动时会破坏阻挡方块"
+				"其本身强度不高，但由于深园的最低等级为1000，因此不建议过早与之战斗"
+			]
+			hide: true
+			icon: "undergarden:forgotten_nugget"
+			id: "57CA8CA584188B49"
+			rewards: [
+				{
+					id: "590D2E57FD52A2D5"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BAEE560252EA02C"
+					item: "kubejs:aetherium_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01185D42FFA7D617"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "6C4C5DC1472A0F24"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49557F3647CC185F"]
+			description: [
+				"level：浮动"
+				"hp：较高"
+				"仪式召唤"
+				"总共有三种形态，死亡时会重生并转换至下一形态"
+				"会召唤小怪和产生猛烈爆炸"
+			]
+			hide: true
+			icon: "ars_nouveau:wilden_tribute"
+			id: "0ABB1015216BA76E"
+			rewards: [
+				{
+					count: 4
+					id: "6CE1584CD337D01B"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "008E25FAB5F5B2D3"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "22C693D83093BE81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72B482CDD14825BF"]
+			description: [
+				"level：无"
+				"hp：70"
+				"结构生成"
+				"这是一个小游戏"
+				"可以给予羊毛帮助其凑齐原版的全部16种颜色"
+				"完成后才会获得对应战利品"
+			]
+			hide: true
+			icon: "twilightforest:quest_ram_trophy"
+			id: "7D7D66B771389DD5"
+			rewards: [
+				{
+					count: 8
+					id: "7546B33369F07EE6"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "77EFA3B4DDFCFF01"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0DDFC73674BEFF1D"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			title: "谜题羊"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["54AAC23B941E25E6"]
+			description: [
+				"level：浮动"
+				"hp：中等"
+				"冰雪群系生成"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "155F8E3B7E39BBC3"
+			rewards: [
+				{
+					count: 2
+					id: "62319B75B22665F9"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "15615FCD76B3D129"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "7C8B01746C5B21EE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54AAC23B941E25E6"]
+			description: [
+				"level：浮动"
+				"hp：较低"
+				"结构生成"
+				"移动能力差，受到伤害时会召唤小怪为其回血，回血状态时无敌"
+				"（其实就是此模组之前版本的太阳酋长的换皮）"
+			]
+			hide: true
+			icon: "mowziesmobs:sol_visage"
+			id: "15B071A02EB3001D"
+			rewards: [
+				{
+					count: 3
+					id: "73E3E0E2DA2E1F08"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "331FB7C77C2BCC0C"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "1ABA63FE74257611"
+				type: "kill"
+				value: 1L
+			}]
+			title: "击杀：1x图腾鸟"
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54AAC23B941E25E6"]
+			description: [
+				"level：浮动"
+				"hp：很低"
+				"结构生成"
+				"斗蛐蛐的大哥，拥有极强防御机制，玩家需对准其背后的钻石剑攻击才能造成伤害，其攻击力较高不建议过早与之战斗"
+			]
+			hide: true
+			icon: "mowziesmobs:wrought_helmet"
+			id: "7CAF108A6E1D8F8B"
+			rewards: [
+				{
+					count: 4
+					id: "6AEA5336FD16C6DA"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "1981C36D461C27E6"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "3F0470FC201EFF99"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0749E394DC92CFA8"]
+			description: [
+				"level：浮动"
+				"hp：较高"
+				"结构生成"
+				"只有稿子才能对其造成伤害"
+			]
+			hide: true
+			icon: "aether:bronze_dungeon_key"
+			id: "14B39AE805D6F6C8"
+			rewards: [
+				{
+					count: 2
+					id: "660956FEB827ECBA"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1DD6FBA26213529E"
+					item: "tinkersinnovation:void_crystal_ore"
+					type: "item"
+				}
+				{
+					id: "6A2B1F0D9B1FFA83"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aether:slider"
+				id: "3C1A5D822E2E8170"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0749E394DC92CFA8"
+				"15DECDAD3FAA1D94"
+			]
+			description: [
+				"level：浮动"
+				"hp：较高"
+				"仪式召唤（与其对话提交道具可进行挑战）"
+				"挑战发起时中立，需玩家发起第一次攻击"
+			]
+			hide: true
+			icon: "aether:silver_dungeon_key"
+			id: "030CCEE65AE64095"
+			rewards: [
+				{
+					id: "3F4EB1996F34E8D6"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "38D6B9BEF0B01CA7"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "54FFF8D582B4B975"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0749E394DC92CFA8"]
+			description: [
+				"level：浮动"
+				"hp：很低"
+				"结构生成"
+				"通常处于待机状态，需玩家对其不停右键激怒其开启挑战"
+				"该boss通常状态无敌，每个一段时间后会发射火球和冰球，击打冰球可以快速射出，击中boss可造成伤害"
+				"然而此整合包内，其可以被某些材料造成的特殊伤害快速击杀"
+			]
+			hide: true
+			icon: "aether:gold_dungeon_key"
+			id: "18A4F6940B4D4C84"
+			rewards: [
+				{
+					id: "22FEE5BC222E5E39"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "105B6618FCE3F005"
+					item: "kubejs:violium_core"
+					type: "item"
+				}
+				{
+					id: "55AF8846F932A75A"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "57471C039335F15F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：中等"
+				"沼泽结构生成"
+				"自带强回血能力，处于燃烧状态下失效，拥有中距离攻击手段，会让人中毒"
+			]
+			hide: true
+			icon: "iceandfire:hydra_skull"
+			id: "36E1E9C76594A105"
+			rewards: [
+				{
+					count: 15
+					id: "63064AE6A52A601E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "70B90594531CBC7A"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "26DEF62BBBCBFF42"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：很低"
+				"随机海洋刷新"
+				"无机制，海上小长虫，不同个体存在大小之分，因此也导致血量产生第二次浮动"
+			]
+			hide: true
+			icon: "iceandfire:seaserpent_skull"
+			id: "724357FDF500F3CA"
+			rewards: [
+				{
+					count: 4
+					id: "7EDBAA62C8C99574"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "5F354016918E5D89"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "7DA0932988622E2C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：较低"
+				"野外随机刷新，海岸结构生成"
+				"有处决技能，按蹲键可挣脱，远程攻击击中眼睛一定程度可造成其失明"
+			]
+			hide: true
+			icon: "iceandfire:cyclops_skull"
+			id: "6AE99C11A08DF9AF"
+			rewards: [
+				{
+					id: "011FC1FF97AC2051"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "7906E1F8D0A7B2F6"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "7F934FD0C272733C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：很低"
+				"海洋礁石处生成"
+				"会在远处强制吸引玩家靠近，靠近后解除（可被效果免疫类免疫）"
+			]
+			hide: true
+			icon: "iceandfire:siren_tear"
+			id: "4D7724B37E62416C"
+			rewards: [
+				{
+					count: 3
+					id: "55820C3BF7AFC0C6"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0E40DBF33333D118"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "51683B39D34E6979"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：低"
+				"结构生成"
+				"不要直视它，它会石化敌人（机制型秒杀，对部分生物无效，被石化后无掉落物）"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "432F2B7D06E1BC71"
+			rewards: [
+				{
+					count: 6
+					id: "515AF8FE4AC4D0B0"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "468BA4B8CE64995F"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "21EF072D01F41DDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"&b非进度目标&r"
+				"恐蚁族初始中立，可以通过将蚁脂给予恐蚁劳工以增加其族对玩家的信任度，信任度到达一定程度会隶属于玩家门下，同时女皇开放恐蚁商店"
+			]
+			hide: true
+			icon: "iceandfire:myrmex_desert_swarm"
+			id: "7E666CD270F444DF"
+			rewards: [{
+				id: "4028C6E77A56204B"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6D50D51F1724A1DD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_jungle_swarm"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_desert_swarm"
+							}
+						]
+					}
+				}
+				title: "友谊的证明"
+				type: "item"
+			}]
+			title: "与恐蚁女皇结盟"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B5AE157E562DB3E"]
+			description: ["玩笑般的世界深藏着无人察觉的暗流"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "tofucraft:tofumomen"
+			id: "720E153F311B05DB"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "tofucraft:tofu_world"
+				icon: "tofucraft:tofumomen"
+				id: "2A214681AA3131F8"
+				title: "豆腐世界"
+				type: "dimension"
+			}]
+			title: "豆腐工艺"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["720E153F311B05DB"]
+			description: [
+				"level：浮动"
+				"hp：较高"
+				"仪式召唤"
+				"因该维度的难度偏低，故等级不高战斗力一般"
+				"但其拥有不低的基础血量"
+			]
+			hide: true
+			icon: "tofucraft:soy_sculk_bone"
+			id: "0198A4ED42744FCD"
+			rewards: [
+				{
+					count: 2
+					id: "62A540295DEF6DF2"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					id: "5E7B45897114231D"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "tofucraft:shudofuspider"
+				id: "61166B7121551EA0"
+				title: "击杀：1x臭豆腐蜘蛛"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["720E153F311B05DB"]
+			description: [
+				"level：浮动"
+				"hp：中等"
+				"结构生成"
+				"因该维度的难度偏低，故其等级不高战斗力一般"
+			]
+			hide: true
+			icon: "tofucraft:tofugem"
+			id: "7080A1029767AC13"
+			rewards: [
+				{
+					id: "0BB8CE387C4EDCE3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C2C9464B7B655AE"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "tofucraft:tofu_gandlem"
+				id: "6DB5E8390750C695"
+				type: "kill"
+				value: 1L
+			}]
+			title: "击杀：1x豆腐守卫"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BD735DDFA413FB3"]
+			description: [
+				"level：浮动"
+				"hp：很高"
+				"仪式召唤（尖啸体和幽匿方块也算仪式，嗯）"
+				"原版的最强精英怪，其战斗力不亚于一般boss，纯粹的数值，纯粹的强大"
+				"击败它有低概率掉落特殊武器，可对其造成较高伤害，并在击败后掉落特殊材料"
+			]
+			hide: true
+			icon: "minecraft:sculk_shrieker"
+			id: "0D6F18E72F6A8C46"
+			rewards: [
+				{
+					id: "09E6070E322E5D88"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D0BE6F45DD48D52"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "3762F61E86F2FFCD"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "4ED4BE6C72A7E2C8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F2463D5633888E7"]
+			description: [
+				"level：浮动（300+）"
+				"hp：中等"
+				"结构生成"
+				"不会移动，最低等级300，其掉落物中的死海卷轴&c切记不要乱用，否则后果自负"
+			]
+			hide: true
+			icon: "aquamirae:dead_sea_scroll"
+			id: "588528DDDEAECBE8"
+			rewards: [
+				{
+					id: "33AFCBB4C6BCC77E"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "484AFE37F70EA445"
+					item: "aquamirae:ship_graveyard_echo"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "59BAB7DC668FB16C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "775B6B62F44A913C"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "aquamirae:eel"
+				id: "137BBC37FC51BA42"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：中等-较高"
+				"结构生成（冰雪群系）"
+				"在此整合包中已削弱吐息伤害和索敌范围，但是其广范围巡逻的特征仍使其成为新手杀手"
+				"冰龙的吐息附带高减速和缚地（无法跳跃和飞行）"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragon_skull_ice"
+				tag: {
+					DragonAge: 75
+					Stage: 4
+				}
+			}
+			id: "105FD2D0C8A2D2E3"
+			rewards: [
+				{
+					count: 3
+					id: "2C23BA008EB27A34"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "641479AE8B33E950"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "5A018BAE69D73C60"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：中等-较高"
+				"结构生成（除丛林、热带草原、恶地以外的温暖群系）"
+				"火龙吐息附带燃烧效果"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragon_skull_fire"
+				tag: {
+					DragonAge: 75
+					Stage: 4
+				}
+			}
+			id: "1DF1DD6AD39B37D1"
+			rewards: [
+				{
+					count: 3
+					id: "3B339D025C4E9F63"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72306750E0D26052"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "3D4243F0E1807E35"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：浮动"
+				"hp：中等-较高"
+				"结构生成（丛林、热带草原、恶地群系）"
+				"电龙拥有伤害最高的吐息"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragon_skull_lightning"
+				tag: {
+					DragonAge: 75
+					Stage: 4
+				}
+			}
+			id: "60F074A5C01037AA"
+			rewards: [
+				{
+					count: 3
+					id: "4668F961D62D2FEA"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C159846D33B315C"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "5672531F5D089F06"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1FA523662EB0EEEB"]
+			description: [
+				"level：无"
+				"hp：120"
+				"沙漠或丛林结构生成"
+				"&b非进度目标&r"
+				"中立怪，生成时会创造对应结构"
+			]
+			hide: true
+			icon: "iceandfire:myrmex_desert_egg"
+			id: "1A21F9B47BC3D75C"
+			rewards: [{
+				id: "3BF1C26309C2552B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				id: "5FE0413865B02590"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：浮动"
+				"hp：低"
+				"结构生成"
+				"战斗力不强，其掉落物为召唤炎魔的道具"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "cataclysm:burning_ashes"
+			id: "202C2E9501CF8B69"
+			rewards: [
+				{
+					count: 5
+					id: "16E00D49378B7E40"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "066575FE1289B529"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					id: "37D1182E5B09A9D8"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "5AE4EFA2AE024447"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0749E394DC92CFA8"]
+			description: [
+				"level：浮动"
+				"hp：很低"
+				"结构刷新"
+				"&b非进度目标&r"
+				"其掉落的道具凑够数量可挑战该结构boss"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "aether:victory_medal"
+			id: "15DECDAD3FAA1D94"
+			rewards: [
+				{
+					count: 5
+					id: "04AF6CA3C25A05E3"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "723F91FC1D53D204"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "65A691E2120A3E89"
+				item: "aether:victory_medal"
+				type: "item"
+			}]
+			title: "击杀：?x女武神"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54CB522EFEFA68DE"]
+			description: [
+				"level：浮动"
+				"hp：较低"
+				"结构生成"
+				"其掉落物或许在之后的某些特殊配方可以用到"
+			]
+			hide: true
+			icon: "cataclysm:kobolediator_skull"
+			id: "2675E243E76F73D2"
+			rewards: [
+				{
+					count: 8
+					id: "20AB56EC2EA2397B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "5C6C4A9349CA50CE"
+					item: "kubejs:evil_mechanism"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "0A6BAB841E2E3EA4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D6F18E72F6A8C46"]
+			description: ["&b非进度目标&r"]
+			icon: "minecraft:sculk_catalyst"
+			id: "6898A551876F8739"
+			invisible: true
+			rewards: [{
+				id: "5C76B07176141DD7"
+				item: "etshtinker:ionized_cannon_prototype"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "53F8FD31EDAD39D4"
+				type: "kill"
+				value: 50L
+			}]
+			title: "没错，这是保底"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["57CA8CA584188B49"]
+			description: [
+				"&b非进度目标&r"
+				"吞咀者是深园的未完成boss，因此没有正常挑战的渠道"
+				"但这里你可以兑换其掉落材料来给你的装备敲一些强化"
+			]
+			hide: true
+			id: "0CB67656280760AD"
+			rewards: [{
+				count: 2
+				id: "3256421C5773D732"
+				item: "undergarden:masticator_scales"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2F2DF597FA93A1CB"
+				item: "undergarden:forgotten_block"
+				type: "item"
+			}]
+			title: "一则交易"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"557873CC16567B65"
+				"690E4F1360BF62AA"
+				"099F61FA29068E6C"
+				"7C4884A724F96C81"
+				"6FDD3DC6CF7D96FE"
+				"030CCEE65AE64095"
+				"155F8E3B7E39BBC3"
+				"588528DDDEAECBE8"
+				"3D10B86CB92A3974"
+				"0D6F18E72F6A8C46"
+				"28226734ED8DD5BE"
+				"7D7D66B771389DD5"
+				"5F3D40B3680691A1"
+				"0ABB1015216BA76E"
+				"7CAF108A6E1D8F8B"
+				"36E1E9C76594A105"
+				"35E72A46234408DD"
+				"57CA8CA584188B49"
+				"15B071A02EB3001D"
+				"0573C8343C5EF659"
+				"4193877803FC4D57"
+				"432F2B7D06E1BC71"
+				"6B2CB295864AD630"
+				"14B39AE805D6F6C8"
+				"5FDF9AC1BD58DC0C"
+				"7F4D72770FF19581"
+				"4D7724B37E62416C"
+				"0198A4ED42744FCD"
+				"0C20EA07C057F0BD"
+				"105FD2D0C8A2D2E3"
+				"1F0CC824D472DD95"
+				"1DF1DD6AD39B37D1"
+				"6AE99C11A08DF9AF"
+				"4090B4DEDD8A3726"
+				"39D043898B7081CC"
+				"3253355A277C5B1C"
+				"60F074A5C01037AA"
+				"724357FDF500F3CA"
+				"6D7D599CC9048813"
+				"7080A1029767AC13"
+				"02F302A3E169D8C1"
+				"18A4F6940B4D4C84"
+				"3C4A0AEC994C7F10"
+				"7C3C9233B3D9382A"
+				"2675E243E76F73D2"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:copper_ingot"
+			id: "67890C2401E0B2B0"
+			min_required_dependencies: 9
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB7AA1E35087370"
+				table_id: 9130761142537642857L
+				type: "random"
+			}]
+			tasks: [{
+				id: "620D1EECABFF93FE"
+				type: "checkmark"
+			}]
+			title: "20%"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"557873CC16567B65"
+				"690E4F1360BF62AA"
+				"099F61FA29068E6C"
+				"7C4884A724F96C81"
+				"6FDD3DC6CF7D96FE"
+				"030CCEE65AE64095"
+				"155F8E3B7E39BBC3"
+				"588528DDDEAECBE8"
+				"3D10B86CB92A3974"
+				"0D6F18E72F6A8C46"
+				"28226734ED8DD5BE"
+				"7D7D66B771389DD5"
+				"5F3D40B3680691A1"
+				"0ABB1015216BA76E"
+				"7CAF108A6E1D8F8B"
+				"36E1E9C76594A105"
+				"35E72A46234408DD"
+				"57CA8CA584188B49"
+				"15B071A02EB3001D"
+				"0573C8343C5EF659"
+				"4193877803FC4D57"
+				"432F2B7D06E1BC71"
+				"6B2CB295864AD630"
+				"14B39AE805D6F6C8"
+				"5FDF9AC1BD58DC0C"
+				"7F4D72770FF19581"
+				"4D7724B37E62416C"
+				"0198A4ED42744FCD"
+				"0C20EA07C057F0BD"
+				"105FD2D0C8A2D2E3"
+				"1F0CC824D472DD95"
+				"1DF1DD6AD39B37D1"
+				"6AE99C11A08DF9AF"
+				"4090B4DEDD8A3726"
+				"39D043898B7081CC"
+				"3253355A277C5B1C"
+				"60F074A5C01037AA"
+				"724357FDF500F3CA"
+				"6D7D599CC9048813"
+				"7080A1029767AC13"
+				"02F302A3E169D8C1"
+				"18A4F6940B4D4C84"
+				"3C4A0AEC994C7F10"
+				"7C3C9233B3D9382A"
+				"2675E243E76F73D2"
+			]
+			hide_dependency_lines: true
+			icon: "tconstruct:manyullyn_ingot"
+			id: "107418F6B043BE62"
+			min_required_dependencies: 18
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49FE80CBC25C2458"
+					table_id: 9130761142537642857L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2593C0C8558BAF8D"
+					table_id: 9130761142537642857L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C71C1ED93AB57D3"
+				type: "checkmark"
+			}]
+			title: "40%"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"557873CC16567B65"
+				"690E4F1360BF62AA"
+				"099F61FA29068E6C"
+				"7C4884A724F96C81"
+				"6FDD3DC6CF7D96FE"
+				"030CCEE65AE64095"
+				"155F8E3B7E39BBC3"
+				"588528DDDEAECBE8"
+				"3D10B86CB92A3974"
+				"0D6F18E72F6A8C46"
+				"28226734ED8DD5BE"
+				"7D7D66B771389DD5"
+				"5F3D40B3680691A1"
+				"0ABB1015216BA76E"
+				"7CAF108A6E1D8F8B"
+				"36E1E9C76594A105"
+				"35E72A46234408DD"
+				"57CA8CA584188B49"
+				"15B071A02EB3001D"
+				"0573C8343C5EF659"
+				"4193877803FC4D57"
+				"432F2B7D06E1BC71"
+				"6B2CB295864AD630"
+				"14B39AE805D6F6C8"
+				"5FDF9AC1BD58DC0C"
+				"7F4D72770FF19581"
+				"4D7724B37E62416C"
+				"0198A4ED42744FCD"
+				"0C20EA07C057F0BD"
+				"105FD2D0C8A2D2E3"
+				"1F0CC824D472DD95"
+				"1DF1DD6AD39B37D1"
+				"6AE99C11A08DF9AF"
+				"4090B4DEDD8A3726"
+				"39D043898B7081CC"
+				"3253355A277C5B1C"
+				"60F074A5C01037AA"
+				"724357FDF500F3CA"
+				"6D7D599CC9048813"
+				"7080A1029767AC13"
+				"02F302A3E169D8C1"
+				"18A4F6940B4D4C84"
+				"3C4A0AEC994C7F10"
+				"7C3C9233B3D9382A"
+				"2675E243E76F73D2"
+			]
+			hide_dependency_lines: true
+			icon: "etshtinker:electronium"
+			id: "33E02DBBA83FE495"
+			min_required_dependencies: 27
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "286EBD5A4F752C46"
+					table_id: 9130761142537642857L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "463A2AF7DA2630D0"
+					table_id: 3920763961856172815L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6EF9D53205B4C1B2"
+				type: "checkmark"
+			}]
+			title: "60%"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"557873CC16567B65"
+				"690E4F1360BF62AA"
+				"099F61FA29068E6C"
+				"7C4884A724F96C81"
+				"6FDD3DC6CF7D96FE"
+				"030CCEE65AE64095"
+				"155F8E3B7E39BBC3"
+				"588528DDDEAECBE8"
+				"3D10B86CB92A3974"
+				"0D6F18E72F6A8C46"
+				"28226734ED8DD5BE"
+				"7D7D66B771389DD5"
+				"5F3D40B3680691A1"
+				"0ABB1015216BA76E"
+				"7CAF108A6E1D8F8B"
+				"36E1E9C76594A105"
+				"35E72A46234408DD"
+				"57CA8CA584188B49"
+				"15B071A02EB3001D"
+				"0573C8343C5EF659"
+				"4193877803FC4D57"
+				"432F2B7D06E1BC71"
+				"6B2CB295864AD630"
+				"14B39AE805D6F6C8"
+				"5FDF9AC1BD58DC0C"
+				"7F4D72770FF19581"
+				"4D7724B37E62416C"
+				"0198A4ED42744FCD"
+				"0C20EA07C057F0BD"
+				"105FD2D0C8A2D2E3"
+				"1F0CC824D472DD95"
+				"1DF1DD6AD39B37D1"
+				"6AE99C11A08DF9AF"
+				"4090B4DEDD8A3726"
+				"39D043898B7081CC"
+				"3253355A277C5B1C"
+				"60F074A5C01037AA"
+				"724357FDF500F3CA"
+				"6D7D599CC9048813"
+				"7080A1029767AC13"
+				"02F302A3E169D8C1"
+				"18A4F6940B4D4C84"
+				"3C4A0AEC994C7F10"
+				"7C3C9233B3D9382A"
+				"2675E243E76F73D2"
+			]
+			hide_dependency_lines: true
+			icon: "etshtinker:exo_alloy"
+			id: "0030E168A72B9F5A"
+			min_required_dependencies: 36
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "483593A67A950C88"
+					table_id: 3920763961856172815L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05798697D983B603"
+					table_id: 3920763961856172815L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5703086331A156E8"
+				type: "checkmark"
+			}]
+			title: "80%"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"557873CC16567B65"
+				"690E4F1360BF62AA"
+				"099F61FA29068E6C"
+				"7C4884A724F96C81"
+				"6FDD3DC6CF7D96FE"
+				"030CCEE65AE64095"
+				"155F8E3B7E39BBC3"
+				"588528DDDEAECBE8"
+				"3D10B86CB92A3974"
+				"0D6F18E72F6A8C46"
+				"28226734ED8DD5BE"
+				"7D7D66B771389DD5"
+				"5F3D40B3680691A1"
+				"0ABB1015216BA76E"
+				"7CAF108A6E1D8F8B"
+				"36E1E9C76594A105"
+				"35E72A46234408DD"
+				"57CA8CA584188B49"
+				"15B071A02EB3001D"
+				"0573C8343C5EF659"
+				"4193877803FC4D57"
+				"432F2B7D06E1BC71"
+				"6B2CB295864AD630"
+				"14B39AE805D6F6C8"
+				"5FDF9AC1BD58DC0C"
+				"7F4D72770FF19581"
+				"4D7724B37E62416C"
+				"0198A4ED42744FCD"
+				"0C20EA07C057F0BD"
+				"105FD2D0C8A2D2E3"
+				"1F0CC824D472DD95"
+				"1DF1DD6AD39B37D1"
+				"6AE99C11A08DF9AF"
+				"4090B4DEDD8A3726"
+				"39D043898B7081CC"
+				"3253355A277C5B1C"
+				"60F074A5C01037AA"
+				"724357FDF500F3CA"
+				"6D7D599CC9048813"
+				"7080A1029767AC13"
+				"02F302A3E169D8C1"
+				"18A4F6940B4D4C84"
+				"3C4A0AEC994C7F10"
+				"7C3C9233B3D9382A"
+				"2675E243E76F73D2"
+			]
+			hide_dependency_lines: true
+			icon: "avaritia:infinity_ingot"
+			id: "2D5E7C3E60D40514"
+			min_required_dependencies: 45
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33EC87449642A583"
+					table_id: 3004279976020403908L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "703E77F33697B425"
+					table_id: 3004279976020403908L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DE230ABEAEE5756"
+					table_id: 3004279976020403908L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2F8C929994E5EA8B"
+				type: "checkmark"
+			}]
+			title: "100%"
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["-by 墨"]
+	title: "Boss全收集"
+}

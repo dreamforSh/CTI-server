@@ -1,0 +1,38 @@
+{
+	icon: "tinkers_thinking:chromatic_crystal"
+	id: "3323AB18B55DB7F1"
+	loot_size: 6
+	order_index: 37
+	rewards: [
+		{ count: 3, item: "tinkers_thinking:ardite_block" }
+		{ count: 3, item: "tinkers_thinking:beetron_block" }
+		{ count: 3, item: "tinkers_thinking:electrical_steel_block" }
+		{ count: 3, item: "tinkers_thinking:tinkers_bronze_block" }
+		{ count: 3, item: "tinkers_thinking:echo_bronze_block" }
+		{ count: 9, item: "tinkers_thinking:verdant_frogcroaking", random_bonus: 9, title: "9~18x 青翠蛙鸣体" }
+		{ count: 9, item: "tinkers_thinking:ochre_frogcroaking", random_bonus: 9, title: "9~18x 赭黄蛙鸣体" }
+		{ count: 9, item: "tinkers_thinking:pearlescent_frogcroaking", random_bonus: 9, title: "9~18x 珠光蛙鸣体" }
+		{ count: 3, item: "tinkers_thinking:obsidian_bronze_block" }
+		{ count: 27, item: "tinkers_thinking:black_chocolate" }
+		{ count: 27, item: "tinkers_thinking:white_chocolate" }
+		{ count: 3, item: "tinkers_thinking:chlorophyte_block", weight: 0.5f }
+		{ count: 3, item: "tinkers_thinking:spectre_block" }
+		{ count: 3, item: "tinkers_thinking:shroomite_block", weight: 0.5f }
+		{ count: 3, item: "tinkers_thinking:lightite_block" }
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:tank"
+				tag: {
+					Fluid: {
+						Amount: 36000
+						FluidName: "tconstruct:venom"
+					}
+				}
+			}
+		}
+		{ count: 9, item: "minecraft:rabbit_stew", random_bonus: 9, title: "9~18x 兔肉煲" }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-匠运-全收集-抽奖"
+}

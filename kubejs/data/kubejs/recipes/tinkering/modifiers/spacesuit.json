@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "minecraft:wool",
+      "amount_needed": 1
+    },
+    {
+      "tag": "minecraft:wool",
+      "amount_needed": 1
+    },
+    {
+      "item": "ad_astra:space_suit",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:plates/steel",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:plates/steel",
+      "amount_needed": 1
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "allow_crystal": false,
+  "result":"cti:space_suit",
+  "level":1
+}

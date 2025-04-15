@@ -1,0 +1,16 @@
+{
+	icon: "l2hostility:hostility_orb"
+	id: "454E1E68D447FF1F"
+	loot_size: 3
+	order_index: 58
+	rewards: [
+		{ count: 3, item: "l2hostility:chaos_ingot" }
+		{ count: 3, item: "l2hostility:miracle_ingot" }
+		{ count: 3, item: "l2complements:shulkerate_ingot" }
+		{ count: 3, item: "l2complements:sculkium_ingot" }
+		{ count: 3, item: "l2complements:poseidite_ingot" }
+		{ count: 3, item: "l2complements:eternium_ingot" }
+		{ count: 3, item: "l2complements:totemic_gold_ingot" }
+	]
+	title: "王之书-莱特兰-半身-抽奖"
+}

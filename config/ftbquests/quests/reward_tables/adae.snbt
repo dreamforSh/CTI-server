@@ -1,0 +1,61 @@
+{
+	icon: "cataclysm:flame_eye"
+	id: "5563D2F727876A6E"
+	loot_size: 5
+	order_index: 60
+	rewards: [
+		{ count: 3, item: "ad_astra:desh_ingot" }
+		{ count: 3, item: "ad_astra:calorite_ingot" }
+		{ count: 3, item: "ad_astra:ostrum_ingot" }
+		{ count: 3, item: "ae2:certus_quartz_crystal" }
+		{ count: 3, item: "ae2:fluix_crystal" }
+		{ count: 3, item: "ae2:silicon" }
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "tconstruct:bowstring"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "tinkers_ingenuity:gscore"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 3, item: "aquaculture:neptunium_ingot" }
+		{ count: 3, item: "tinkers_things:hematite" }
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "solidarytinker:mining_core"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "王之书-ad-ae-杂物-水产-灾变-半身-抽奖"
+}

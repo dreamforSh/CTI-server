@@ -1,0 +1,86 @@
+{
+	icon: "enigmaticlegacy:the_acknowledgment"
+	id: "28216806EE52171A"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ item: "enigmaticlegacy:astral_dust", weight: 2.0f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:void_stone"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:lore_fragment"
+				tag: {
+					display: { }
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "enigmaticlegacy:twisted_potion", weight: 20.0f }
+		{ item: "enigmaticlegacy:mending_mixture", weight: 6.0f }
+		{ item: "enigmaticlegacy:iron_ring", weight: 6.0f }
+		{ item: "enigmaticlegacy:enchantment_transposer", weight: 3.0f }
+		{ item: "enigmaticlegacy:magnet_ring", weight: 4.0f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:tattered_tome"
+				tag: {
+					lastHolder: [I;
+						105453922
+						-1110887903
+						-1107985606
+						1148637359
+					]
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:withered_tome"
+				tag: {
+					lastHolder: [I;
+						105453922
+						-1110887903
+						-1107985606
+						1148637359
+					]
+				}
+			}
+			weight: 6.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:corrupted_tome"
+				tag: {
+					lastHolder: [I;
+						105453922
+						-1110887903
+						-1107985606
+						1148637359
+					]
+				}
+			}
+			weight: 6.0f
+		}
+		{ item: "enigmaticlegacy:astral_potato", weight: 3.0f }
+		{ count: 4, item: "minecraft:diamond", weight: 10.0f }
+		{ count: 8, item: "minecraft:gold_ingot", weight: 8.0f }
+		{ item: "minecraft:golden_apple", weight: 6.0f }
+		{ count: 4, item: "minecraft:ender_pearl", weight: 10.0f }
+		{ count: 4, item: "minecraft:ender_eye", weight: 10.0f }
+		{ item: "enigmaticlegacy:recall_potion", weight: 8.0f }
+		{ item: "enigmaticlegacy:etherium_ore" }
+	]
+	title: "神秘遗物1"
+}

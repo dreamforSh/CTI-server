@@ -1,0 +1,30 @@
+{
+	icon: {
+		Count: 1b
+		id: "thermal:energy_cell"
+		tag: {
+			BlockEntityTag: {
+				Energy: 0
+				EnergyMax: 1000000
+				EnergyRecv: 1000
+				EnergySend: 1000
+			}
+		}
+	}
+	id: "341B74EAD9180210"
+	loot_size: 6
+	order_index: 29
+	rewards: [
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+		{ item: "thermal:enderium_block" }
+		{ item: "thermal:lumium_block" }
+		{ item: "thermal:signalum_block" }
+		{ item: "thermal:invar_block" }
+		{ item: "kubejs:blitz_luminium_block" }
+		{ count: 9, item: "etshtinker:basalz_signalum" }
+		{ count: 9, item: "etshtinker:blizz_enderium" }
+		{ item: "etshtinker:activated_chroma_plate", random_bonus: 8, title: "1~9x 活化彩钢板", weight: 0.75f }
+		{ item: "etshtinker:nights_alloy", random_bonus: 2, title: "1~3x 暗影复相钢锭", weight: 0.5f }
+	]
+	title: "王之书-热力-全收集-抽奖"
+}

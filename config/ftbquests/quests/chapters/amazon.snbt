@@ -1,0 +1,790 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "amazon"
+	group: "41CA0371CBDA61CC"
+	icon: {
+		Count: 1b
+		id: "pneumaticcraft:amadron_tablet"
+		tag: {
+			"pneumaticcraft:air": 30000
+		}
+	}
+	id: "19ED8654BCB6919D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["一位不愿意透露姓名的亚马龙游商的小店"]
+			icon: {
+				Count: 1b
+				id: "pneumaticcraft:amadron_tablet"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			id: "1F12B35B6655F7CF"
+			rewards: [{
+				id: "4ECDEE1A097CCC85"
+				type: "xp"
+				xp: 1
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "37D8BE014957EF3E"
+				type: "checkmark"
+			}]
+			title: "来自亚马龙的游商"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "0E6714F070A7FEF0"
+			rewards: [{
+				id: "7BEE1DDECDAE649C"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7602E6D7C3D0D249"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "探险家指南针"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "3AEFD2A7A6C967BD"
+			rewards: [{
+				id: "7B948FC935FDB374"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1AA01A78892FF104"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "自然指南针"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			description: ["可以直接在工匠砧上敲给你的工具哦"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tcintegrations:poseidon"
+				}
+			}
+			id: "5DA1508D3947EB68"
+			rewards: [{
+				id: "285DE43EC190F024"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "25113B45E6B371E6"
+				type: "checkmark"
+			}]
+			title: "一些匠魂强化"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			description: ["只需要&e500块钱&r哦，买不了吃亏买不了上当"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tconstruct:luck"
+				}
+			}
+			id: "434DEA27C3B38FE1"
+			rewards: [{
+				id: "3CFF92E3DDE1359D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:luck"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4AE9D0889284B067"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "幸运水晶"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "solidarytinker:crcs"
+				}
+			}
+			id: "77BC81B8E3694CFB"
+			rewards: [{
+				id: "085B532AC940F247"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:crcs"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7C8B2851040DEE88"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "风雨无阻水晶"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "solidarytinker:riptide"
+				}
+			}
+			id: "3B1B70BB0A462823"
+			rewards: [{
+				id: "520B3CCA8023ED8B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:riptide"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0249D2A6F17E1213"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "激流水晶"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "2A5CD029BB15E177"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "718DCB3B089B6444"
+				title: "杂物部分"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"这世界上总是有非酋和懒狗的"
+				"当然想要保底也可以，只是你要付出一定代价"
+			]
+			icon: "obscure_api:astral_dust"
+			id: "2E023B79F30CADC7"
+			rewards: [{
+				id: "68F7820FA988D2B1"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "63A91F14EE9AC3CA"
+				type: "checkmark"
+			}]
+			title: "稀有物品"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"制作海梦合金的必要物品，会在&b冻洋避难所&r的箱子刷新，不过你想直接换也不是不行..."
+				"一旦购买一个，便可以让这些&d星体&r浸泡在&b液体魔力&r中无限增殖"
+			]
+			icon: "obscure_api:astral_dust"
+			id: "08DC1B2E65FCB85D"
+			rewards: [{
+				id: "79054A2FFB75874A"
+				item: "obscure_api:astral_dust"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "2BC28DD5A80AF1CF"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "星体粉尘"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "08421351E0371522"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "5280CDBEC6B8E783"
+				title: "一些小道具"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			description: ["商店角落散发着的深渊气息引起了你的注意"]
+			icon: "enigmaticlegacy:the_infinitum"
+			id: "539AA140EB44C547"
+			rewards: [{
+				auto: "enabled"
+				id: "5C6761A5AD961903"
+				table_id: 8590509534707339916L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "78C9767843C86EC7"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "一份奇怪的契约"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["价钱也是真的黑"]
+			icon: "enigmaticlegacy:cursed_stone"
+			id: "0C637856C2A1F745"
+			rewards: [{
+				id: "266703EB2EB248FA"
+				item: "enigmaticlegacy:cursed_stone"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2E1208641C679748"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "黑市真是什么都有"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["435891F0D7E64C36"]
+			description: ["&b最常见的术石，没有之一&r"]
+			hide: true
+			icon: "enigmaticlegacy:golem_heart"
+			id: "30F6E2ECC98D4055"
+			rewards: [{
+				count: 5
+				id: "49B566A6C913DB1E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "77532756CF8B643B"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["435891F0D7E64C36"]
+			description: ["&b不上不下的东西，卡在这儿了&b"]
+			hide: true
+			icon: "enigmaticlegacy:blazing_core"
+			id: "2671FEF0CB9A37A1"
+			rewards: [{
+				id: "2602977C4C10694F"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "35BB3C2F3ADB2B4E"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["435891F0D7E64C36"]
+			hide: true
+			icon: "enigmaticlegacy:eye_of_nebula"
+			id: "2C14D90DE4EBF6F4"
+			rewards: [{
+				id: "4A58159D28703DF7"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "432E7C3345F35DB3"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["435891F0D7E64C36"]
+			description: ["&b原本它是第二难开的哥们，但是由于地牢浮现之时模组中，一个叫繁花之宫的结构开到它的几率非常大，所以被挤到了老三&r"]
+			hide: true
+			icon: "enigmaticlegacy:angel_blessing"
+			id: "4386285A76D49851"
+			rewards: [{
+				count: 7
+				id: "1E821484F956BB7A"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6C3EA7C57144B508"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["435891F0D7E64C36"]
+			description: ["&b第二难开的哥们&r"]
+			hide: true
+			icon: "enigmaticlegacy:ocean_stone"
+			id: "3B816D61EE7D914B"
+			rewards: [{
+				id: "6450E23A7AD72EC9"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1CF592387B4F21AE"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["435891F0D7E64C36"]
+			description: ["&b嘿，这个模拟战利品获得它的概率可是0.7%唉，真的要换吗&r"]
+			hide: true
+			icon: "enigmaticlegacy:void_pearl"
+			id: "31C0E096B1D8F6CC"
+			rewards: [{
+				count: 3
+				id: "059EA80741BA9EAF"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7EBB4CB7DF8880E7"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			description: ["“这里是黑市，任何东西都可以来这里交易，甚至是远古遗物”"]
+			icon: "enigmaticlegacy:enigmatic_item"
+			id: "435891F0D7E64C36"
+			tasks: [{
+				id: "24CFBDD65C933990"
+				title: "1"
+				type: "checkmark"
+			}]
+			title: "汝当真如此？"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["距离较短有cd，但是不消耗，泛用性高（&0&m甚至可以召唤玩家&m&0）"]
+			icon: {
+				Count: 1b
+				id: "cyclic:flute_summoning"
+				tag: {
+					"cyclic:magicnet_id": "ars_nouveau:whirlisprig"
+					flutename: "Whirlisprig"
+					uniquemagic: 204279
+				}
+			}
+			id: "31E62CB3E4E09751"
+			rewards: [{
+				id: "75164192F5A616B3"
+				item: "cyclic:flute_summoning"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "用来召唤标记生物"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "34AC0BB2EA6C1302"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "召唤笛"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"在没有大型存储的情况下几乎是集成存储的最佳选择，之后的进程中也不容易淘汰。"
+				"&d（注：不要使用碗装食物进行自动喂食，除非你想体验被填满的感觉）&d"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "204DED0BE9D0DB9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E8AE862C19EF936"
+				table_id: 4544334782073591041L
+				type: "loot"
+			}]
+			subtitle: "单模块多样化功能存储"
+			tasks: [{
+				consume_items: true
+				id: "7B4006906D9AA4E3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "背包"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"等价神力的小小震撼，但只对正常耐久机制的物品生效。"
+				"&m&0支持循环耐久类工具及饰品的强大力量&0&m"
+				"&a不生效的种类：沉浸的工程师锤类、滑翔翼与电极，匠魂材料组成的一切，海灵物语的贪婪匕首，特殊消耗类和充能类物品等&a"
+			]
+			icon: "projecte:repair_talisman"
+			id: "76FA56EA395AF415"
+			rewards: [{
+				id: "751F77C52C8C7D6F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "白嫖耐久的廉价饰品"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0646B4EB4479A246"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "修复护符"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "enigmaticlegacy:twisted_mirror"
+			id: "653A18EA37864339"
+			rewards: [{
+				id: "5985D6AA742F739D"
+				item: "enigmaticlegacy:twisted_mirror"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "450AC0D9676CBD7F"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "6DFB8144D2B7BDB8"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "etshtinker:phantomreforged"
+				}
+			}
+			id: "0BAF24285D554AD8"
+			rewards: [{
+				id: "5353AF8951ED0A06"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:phantomreforged"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "什么，你说你打不到灵锭？"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4C602A43484F8E8F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "灵质之锻水晶"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "etshtinker:warpengine"
+				}
+			}
+			id: "03B5CF7B88AEC013"
+			rewards: [{
+				count: 8
+				id: "04584A7B1884E092"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:warpengine"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "“航行模式启动”“曲率引擎启动”"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "5A02DCD7B943AD86"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "31274BB5C0AE46B9"
+					item: "kubejs:gravity_mechanism"
+					type: "item"
+				}
+			]
+			title: "曲率引擎水晶"
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "cti:end_slayer"
+				}
+			}
+			id: "319009C9754B6FD4"
+			rewards: [{
+				id: "6ED56DBF5455ECF5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:end_slayer"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "这可是前往下界和末地的必备强化哦~"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "43F1D8F603D577F0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "弑末者水晶"
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			description: ["      另外，生来之恶强化的增伤仅在武器生效，减伤仅在防具生效（这也是为什么会有这个任务）"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tinkers_ingenuity:born_with_evil"
+				}
+			}
+			id: "62ABCD8DA4911C74"
+			rewards: [{
+				count: 2
+				id: "32B98590C2DD58E1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:born_with_evil"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "七咒必备强化之一"
+			tasks: [
+				{
+					consume_items: true
+					id: "40F0E1FC840AAA17"
+					item: "tinkers_ingenuity:orichalcum_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3C55D8375DEAF116"
+					item: "enigmaticlegacy:cursed_stone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7980C83C7094DA8A"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "054633825EA08CC9"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			title: "生来之恶水晶"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			icon: "waystones:waystone"
+			id: "6ECA52F195AEB7E4"
+			rewards: [{
+				count: 8
+				id: "2F89687D952C9996"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "60451921CD6F121E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "指路石"
+			x: -3.0d
+			y: -7.0d
+		}
+	]
+	title: "来自亚马龙的游商"
+}

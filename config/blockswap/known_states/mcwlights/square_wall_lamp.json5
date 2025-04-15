@@ -1,0 +1,2564 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "white"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "orange"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "magenta"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "light_blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "yellow"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "lime"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "pink"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "light_gray"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "cyan"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "purple"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "blue"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "brown"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "green"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "red"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "north",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "north",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "south",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "south",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "west",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "west",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "true",
+			"facing": "east",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"lit": "false",
+			"facing": "east",
+			"dye_color": "black"
+		},
+		"Name": "mcwlights:square_wall_lamp"
+	}
+]

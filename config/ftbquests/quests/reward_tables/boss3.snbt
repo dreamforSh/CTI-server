@@ -1,0 +1,78 @@
+{
+	icon: {
+		Count: 1b
+		id: "avaritia:singularity"
+		tag: {
+			Id: "avaritia:diamond"
+		}
+	}
+	id: "29B158B88883E6C4"
+	loot_size: 1
+	order_index: 73
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "mechanisms"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "hostilities"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "glorious"
+				}
+			}
+		}
+	]
+	title: "boss进度3"
+}

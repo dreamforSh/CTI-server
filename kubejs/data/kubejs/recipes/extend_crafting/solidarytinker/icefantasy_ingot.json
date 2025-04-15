@@ -1,0 +1,41 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  HAH  ",
+    "  BAB  ",
+    "CBDEDBC",
+    "AAEFEAA",
+    "GBDEDBG",
+    "  BAB  ",
+    "  HAH  "
+  ],
+  "key": {
+    "A": {
+      "item": "tinkerscalibration:hymon"
+    },
+    "B": {
+      "item": "l2complements:poseidite_ingot"
+    },
+    "C": {
+      "item": "aquamirae:fin"
+    },
+    "D": {
+      "item": "tinkers_ingenuity:sea_dream_ingot"
+    },
+    "E": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "F": {
+      "item": "avaritia:star_fuel"
+    },
+    "G": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "H": {
+      "item": "etshtinker:coronation_alloy"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:icefantasy_ingot"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 1,
+    "tag": "forge:fusion_fuel"
+  },
+  "fluidOutput": {
+    "amount": 1,
+    "fluid": "mekanismgenerators:fusion_fuel"
+  },
+  "gasInput": {
+    "amount": 1,
+    "tag": "mekanism:fusion_fuel"
+  },
+  "gasOutput": {
+    "amount": 1,
+    "gas": "mekanismgenerators:fusion_fuel"
+  }
+}

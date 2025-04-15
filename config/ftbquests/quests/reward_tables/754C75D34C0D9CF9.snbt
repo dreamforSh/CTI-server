@@ -1,0 +1,37 @@
+{
+	icon: "tinkers_thinking:drying_rack"
+	id: "754C75D34C0D9CF9"
+	loot_size: 8
+	order_index: 36
+	rewards: [
+		{ count: 3, item: "tinkers_thinking:ardite_ingot" }
+		{ count: 3, item: "tinkers_thinking:beetron_ingot" }
+		{ count: 3, item: "tinkers_thinking:electrical_steel_ingot" }
+		{ count: 3, item: "tinkers_thinking:tinkers_bronze_ingot" }
+		{ count: 3, item: "tinkers_thinking:obsidian_bronze_ingot" }
+		{ count: 3, item: "tinkers_thinking:black_chocolate" }
+		{ count: 3, item: "tinkers_thinking:white_chocolate" }
+		{ count: 3, item: "tinkers_thinking:verdant_frogcroaking" }
+		{ count: 3, item: "tinkers_thinking:ochre_frogcroaking" }
+		{ count: 3, item: "tinkers_thinking:pearlescent_frogcroaking" }
+		{ count: 3, item: "tinkers_thinking:chlorophyte_ingot" }
+		{ count: 3, item: "tinkers_thinking:shroomite_ingot" }
+		{ count: 3, item: "tinkers_thinking:spectre_ingot" }
+		{ count: 3, item: "tinkers_thinking:lightite_ingot" }
+		{ count: 3, item: "tinkers_thinking:echo_bronze_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:tank"
+				tag: {
+					Fluid: {
+						Amount: 6000
+						FluidName: "tconstruct:venom"
+					}
+				}
+			}
+		}
+		{ count: 3, item: "minecraft:rabbit_stew" }
+	]
+	title: "王之书-匠运-半身-抽奖"
+}

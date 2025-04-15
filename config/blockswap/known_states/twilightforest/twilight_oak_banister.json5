@@ -1,0 +1,484 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "north",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "north",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "north",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "north",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "north",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "north",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "south",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "south",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "south",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "south",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "south",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "south",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "west",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "west",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "west",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "west",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "west",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "west",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "east",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "east",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "east",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "east",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "east",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "east",
+			"extended": "true"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "north",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "north",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "north",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "north",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "north",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "south",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "south",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "south",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "south",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "south",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "south",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "west",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "west",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "west",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "west",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "west",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "west",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "short",
+			"facing": "east",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "short",
+			"facing": "east",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "tall",
+			"facing": "east",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "tall",
+			"facing": "east",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "connected",
+			"facing": "east",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "connected",
+			"facing": "east",
+			"extended": "false"
+		},
+		"Name": "twilightforest:twilight_oak_banister"
+	}
+]

@@ -1,0 +1,422 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "left",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "right",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_tie",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_bottom",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_tie",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_bottom",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "single",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_single",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_wave",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_half_wave",
+			"facing": "north"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "none",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "left",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "right",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_tie",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_bottom",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_tie",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_bottom",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "single",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_single",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_wave",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_half_wave",
+			"facing": "south"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "none",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "left",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "right",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_tie",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_bottom",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_tie",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_bottom",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "single",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_single",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_wave",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_half_wave",
+			"facing": "west"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "none",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "left",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "right",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_tie",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_right_bottom",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_tie",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_left_bottom",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "single",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "half_single",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_wave",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"tied": "base_half_wave",
+			"facing": "east"
+		},
+		"Name": "mcwwindows:light_blue_curtain"
+	}
+]

@@ -1,0 +1,641 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mainchapter4"
+	group: "7741820127317059"
+	icon: "etshtinker:exo_alloy"
+	id: "1F905E753A948A11"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftblibrary:icons/up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2FA48748D7A15ABC"
+				"276FABAFB401FAE8"
+				"084A2FCF373F7F23"
+			]
+			id: "7E6F27BBF949A8FB"
+			rewards: [
+				{
+					count: 5
+					id: "41C527C3626645E6"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "20F7769B6B6AA3F7"
+					item: "kubejs:cosmic_mechanism"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "521A650A438A006B"
+					item: "etshtinker:exo_alloy"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "获得成就：解放CTI"
+			tasks: [{
+				id: "253DA9C8F3B3C15A"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5AFC1ACCA5354303"
+				"0C8D1E0722252A09"
+				"7D6223FECE39047C"
+				"0C88EEF59D0AF1AD"
+				"74056BE543A86EC5"
+			]
+			description: [""]
+			id: "2FA48748D7A15ABC"
+			rewards: [
+				{
+					id: "5F427B1652250773"
+					item: "mekanism:pellet_antimatter"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "4980F800E9DC09F0"
+					item: "avaritia:infinity_catalyst"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "由其他构象组合进行反物质湮灭诞生的一种承载着宇宙本源之力的能量"
+			tasks: [{
+				id: "13C1DF6A63A7E662"
+				item: "kubejs:cosmic_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "5AFC1ACCA5354303"
+			rewards: [{
+				id: "73AEC71729B93C53"
+				item: "kubejs:electro_magnetic_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD8860C7182B029"
+				item: "kubejs:electro_magnetic_mechanism"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "0C8D1E0722252A09"
+			rewards: [{
+				id: "720A75080C6A0A5A"
+				item: "kubejs:energy_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42102B9A7076239F"
+				item: "kubejs:energy_mechanism"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "0C88EEF59D0AF1AD"
+			rewards: [{
+				id: "4557E43051074929"
+				item: "kubejs:structre_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25724EDAC0701643"
+				item: "kubejs:structre_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "74056BE543A86EC5"
+			rewards: [{
+				id: "03CF46C2BA4E6BD0"
+				item: "kubejs:singnal_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7339655267A42199"
+				item: "kubejs:singnal_mechanism"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "7D6223FECE39047C"
+			rewards: [{
+				id: "646CB5C8553A4505"
+				item: "kubejs:gravity_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BACEF558C7FE04D"
+				item: "kubejs:gravity_mechanism"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DB511379C217E00"]
+			description: ["     它有3个平行配方哦，别看岔了"]
+			id: "276FABAFB401FAE8"
+			rewards: [
+				{
+					id: "04C8C7466AF81B87"
+					item: "avaritia:neutron_gear"
+					type: "item"
+				}
+				{
+					id: "162593A54A1FB215"
+					item: "avaritia:neutron"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "28676E93F9EAB469"
+					item: "etshtinker:exo_alloy"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "它承载着人类的那份奇迹与意志，亘古相传"
+			tasks: [{
+				id: "7648F9B545F4CDAD"
+				item: "avaritia:neutron_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "5DB511379C217E00"
+			rewards: [{
+				id: "0D107041CC2E3643"
+				item: "etshtinker:anti_neutronium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C881A1195C61F4E"
+				item: "etshtinker:exo_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"219ED46CBB4DB60E"
+				"165448DEAB543E75"
+				"2F7F454346E4E295"
+			]
+			id: "084A2FCF373F7F23"
+			size: 1.5d
+			subtitle: "踏入那究极殿堂的最后一步"
+			tasks: [{
+				id: "5AB491C1AF97FB36"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33118270F57D95EF"]
+			description: ["      或者你也能通过让骷髅击杀苦力怕获得唱片。利用雪傀儡吸引仇恨，风扇偏转骷髅射出的箭矢，就能自动化。"]
+			id: "165448DEAB543E75"
+			subtitle: "常规的冒险即可满足唱片的需求"
+			tasks: [{
+				id: "44BEF82A5ABF58D0"
+				item: "avaritia:record_fragment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33118270F57D95EF"]
+			description: ["      末地石用融合机融合末影珍珠粉获取"]
+			id: "219ED46CBB4DB60E"
+			rewards: [{
+				count: 2
+				id: "7E0A806C92F06DCB"
+				item: "avaritia:endest_pearl"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "末影珍珠可以通过合成末影传送锚点然后将其拆解为末影珍珠来合成"
+			tasks: [{
+				id: "5D85C5EF2DAE7329"
+				item: "avaritia:endest_pearl"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33118270F57D95EF"]
+			description: [
+				"实际上都是能自动化的，比如："
+				""
+				"各种鱼可以用热力的水产捕捞机"
+				""
+				"作物用有机灌注机"
+				""
+				"肉类用PnC的气动刷怪笼/IF的刷怪设备"
+				""
+				"鸡蛋用&e杀鸡取卵&r强化搭配气动刷怪笼/IF的刷怪设备"
+				""
+				"蜂蜜用冶炼炉熔炼蜜蜂"
+				""
+				"等。但是较为复杂，建议中期就开始做一些准备。"
+			]
+			id: "2F7F454346E4E295"
+			rewards: [{
+				count: 2
+				id: "20A3071047E7D52F"
+				item: "avaritia:ultimate_stew"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "自动化两大难点"
+			tasks: [
+				{
+					id: "64650894277A37E4"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+				{
+					id: "797F9D094E6F3A8B"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["024281859067FC6A"]
+			id: "33118270F57D95EF"
+			rewards: [{
+				id: "1AE1AF1C206A8211"
+				item: "avaritia:crystal_matrix"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "65879B60956E0575"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			description: ["      下界之星的产出方式也不唯一。可以用&e工业先锋&r的杀凋机，或使用带&b钻石部件&r的工具攻击/挖掘，或利用&e冶炼炉熔炼&r凋灵或通过机械手用熔炼强化的工具攻击凋灵获得衰败然后结晶机合成。"]
+			id: "024281859067FC6A"
+			subtitle: "无尽阶段主要的下界之星消耗"
+			tasks: [{
+				id: "55337EF160B07F13"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E6F27BBF949A8FB"]
+			description: ["      既然你做了那我还是要奖励你点"]
+			id: "18D0C7C77F113D83"
+			rewards: [
+				{
+					count: 8
+					id: "515A75B184FB28F0"
+					item: "avaritia:infinity_ingot"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3899D30917DA2FA6"
+					item: "avaritia:infinity_catalyst"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			subtitle: "这些你可以留着当纪念品"
+			tasks: [
+				{
+					id: "6BE0C566782F5025"
+					item: "avaritia:infinity_hoe"
+					type: "item"
+				}
+				{
+					id: "348C20B3FBB9E28C"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+				{
+					id: "309526EED6B203B1"
+					item: {
+						Count: 1b
+						id: "avaritia:infinity_shovel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "14AB441417CCC7AF"
+					item: {
+						Count: 1b
+						id: "avaritia:infinity_pickaxe"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "无尽工具"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E6F27BBF949A8FB"]
+			id: "792C87AB879B93F0"
+			rewards: [
+				{
+					count: 4
+					id: "7C87C3FFA572119B"
+					item: "avaritia:infinity_catalyst"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D897D0DCAA2B6D5"
+					item: "avaritia:infinity_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "曾经的神器，如今它宝刀未老。无论是作纪念品还是拿来用都很不错"
+			tasks: [
+				{
+					id: "011154B526FE7E68"
+					item: "avaritia:infinity_sword"
+					type: "item"
+				}
+				{
+					id: "2C39E9B9749D2E72"
+					item: "avaritia:infinity_bow"
+					type: "item"
+				}
+			]
+			title: "寰宇支配之剑与天堂陨落长弓"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E6F27BBF949A8FB"]
+			id: "66A896020676611B"
+			rewards: [
+				{
+					count: 16
+					id: "44EFAB93B094C4AE"
+					item: "avaritia:infinity_catalyst"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1A54A00CC354B35C"
+					item: "avaritia:infinity_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "无尽套的含金量还是在的，无敌+免死"
+			tasks: [
+				{
+					id: "26C3AFA714D7F04A"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "183FBAE4BF9049F5"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "0C4CBD379CF4E705"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "7793317529F8471D"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			title: "无尽装备"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18D0C7C77F113D83"
+				"66A896020676611B"
+				"792C87AB879B93F0"
+			]
+			description: [
+				"      到这里，你已经完成本包的科技线的全部内容了，给你点个赞！"
+				""
+				" &7     在此前的旅途中，你曾经也是一个原始的工匠。&f从用熔炉烧出了第一块焦黑砖，到从高炉中取出第一块钢锭，&a再到用感应炉烧制出与元素能量有着不错亲和性的合金。&r同时你也曾游历于各个维度之间，也曾与群星共舞。&d你从气态行星的深处采掘到了世界上最为致密的材料，&b从高能的中子中拆分出了凝聚态的质子和电子，&5见识了宇宙中最神秘而又危险的物质——反物质。&r集你一切所学和一切所得，最终你造出了&d无尽锭&r，它标志着你旅途的结束。"
+				""
+				"      然而，除此之外，世界上仍有许多未知等待你去探索。&e古文明留下来的饰品、&a隐藏在世间的邪恶，&r以及，&d材料学在这个世界上衍生出的多样化分支。&r你可以就此停下，简单的略过它们，也可以从头开始，抱着探索的心态开启一趟新的旅途——一切取决于你。"
+			]
+			icon: "ftbquests:book"
+			id: "551214D011551305"
+			rewards: [
+				{
+					count: 16
+					id: "5673216E9DB1C3B1"
+					item: "avaritia:infinity_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D394879E762401A"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "结束了?"
+			tasks: [{
+				id: "61EA04800FAA3778"
+				type: "checkmark"
+			}]
+			title: "万物之终"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2D5E7C3E60D40514"
+				"3007A56BD90D3E1A"
+				"483392A96FE749D4"
+				"551214D011551305"
+			]
+			description: [
+				" &6     如果你不作弊走到了这里，那我要祝贺你，你已经体验了本包99%的内容，这份毅力不是寻常人有的。"
+				""
+				"      什么，你问我为什么奖励只是一个普通的药水注射器？别急，真正的奖励迟早会显现。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "citadel:effect_item"
+			id: "215FB5212FA0913B"
+			invisible: true
+			rewards: [{
+				id: "5CFBAB9BAF2200BA"
+				item: {
+					Count: 1b
+					id: "thermal:potion_infuser"
+					tag: {
+						Augments: [
+							{
+								Count: 8b
+								id: "thermal:fluid_tank_creative_augment"
+							}
+							{
+								Count: 1b
+								id: "mekanism:creative_energy_cube"
+								tag: {
+									mekData: {
+										EnergyContainers: [{
+											Container: 0b
+											stored: "18446744073709551615.9999"
+										}]
+										componentConfig: {
+											config0: {
+												side0: 4
+												side1: 4
+												side2: 4
+												side3: 4
+												side4: 4
+												side5: 4
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 64b
+								id: "avaritia:infinity"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+						]
+						Fluid: {
+							Amount: 640000
+							FluidName: "tconstruct:potion"
+							Tag: {
+								Potion: "minecraft:strong_healing"
+							}
+						}
+						Properties: {
+							BaseMod: 10.0f
+							FluidCre: 1.0f
+							FluidMax: 16.0f
+							PotionAmp: 16384.0f
+							PotionDur: 0.0f
+						}
+						display: {
+							Name: "{\"text\":\"可别用在不好的地方哦\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "你的意志，令神明也为你屈膝"
+			tasks: [{
+				id: "4FFBF18C428000A4"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			title: "无尽的旅途"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["-by EtSH_C2H6S"]
+	title: "最终章 —— 无尽之旅"
+}

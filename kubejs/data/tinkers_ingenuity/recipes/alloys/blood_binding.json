@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_steel",
+      "amount": 270
+    },
+    {
+      "name": "tconstruct:molten_gold",
+      "amount": 360
+    },
+    {
+      "name": "tconstruct:blazing_blood",
+      "amount": 500
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_blood_binding",
+    "amount": 90
+  },
+  "temperature": 2786
+}

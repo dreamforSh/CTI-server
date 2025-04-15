@@ -1,0 +1,390 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"lighting": "none"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "0",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"lighting": "normal"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "0",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"lighting": "ominous"
+		},
+		"Name": "twilightforest:creeper_skull_candle"
+	}
+]

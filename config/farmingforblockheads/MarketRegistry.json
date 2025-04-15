@@ -1,0 +1,49 @@
+{
+ "customEntries": 
+  [     
+    {
+      "output": 
+      {
+        "item": "minecraft:bamboo"
+      },
+      "payment": 
+      {
+        "item": "minecraft:emerald"
+      },
+      "category": "random"
+    },
+    {
+        "output": 
+        {
+          "item": "minecraft:kelp"
+        },
+        "payment": 
+        {
+          "item": "minecraft:emerald"
+        },
+        "category": "random"
+    },
+    {
+        "output": 
+        {
+          "item": "minecraft:sweet_berries"
+        },
+        "payment": 
+        {
+          "item": "minecraft:emerald"
+        },
+        "category": "random"
+    },
+    {
+      "output": 
+      {
+        "item": "thermal:rubberwood_sapling"
+      },
+      "payment": 
+      {
+        "item": "minecraft:emerald"
+      },
+      "category": "random"
+  }
+  ]
+}

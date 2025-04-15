@@ -1,0 +1,18 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "item": "ad_astra:glacio_ice_shard_ore"
+    },
+    "result": [
+      {
+        "item": "ad_astra:ice_shard",
+        "chance": 4.0
+      },
+      {
+        "item": "thermal:blizz_powder",
+        "chance": 0.15
+      }
+    ],
+    "experience": 0.2
+}
+  

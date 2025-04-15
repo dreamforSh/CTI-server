@@ -1,0 +1,819 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "7E3173C55DD03B0A"
+	icon: "etshtinker:earth_crystal"
+	id: "3F5A35C65E2ED185"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.5d
+		hover: [ ]
+		image: "powah:textures/gui/book/images/energizing.png"
+		rotation: 0.0d
+		width: 5.15d
+		x: -5.0d
+		y: -2.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"      Powah!模组提供了大量的可配置的发电机，以及一种新的合成方式。在本包中，Powah!仅用于发电，作为可选章节。"
+				"&b      相比其它模组，powah的发电设施用起来简单，合成起来略微套娃（太阳能板除外）。本包也对部分配方进行了魔改使不同发电设备间具有一定分层。&6此章节中的三种发电机便是经过调整的"
+			]
+			icon: "powah:energy_cell_creative"
+			id: "52CA70580DE83302"
+			rewards: [
+				{
+					id: "7324B50CE6773448"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					id: "58BAC1F46C7EB56C"
+					item: {
+						Count: 1b
+						id: "powah:wrench"
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "简单但是高效的发电装置"
+			tasks: [{
+				id: "06AB7EE73616890A"
+				type: "checkmark"
+			}]
+			title: "Powah!"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52CA70580DE83302"]
+			description: [
+				"      本包最强发电设备，最高级的甚至单位面积发电量超过聚变反应堆，而且是被动发电。"
+				"&c但是代价是什么呢？"
+			]
+			id: "5AA3681422BC43DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27C6DC83F265889F"
+					table_id: 7501581430932754602L
+					type: "random"
+				}
+				{
+					id: "51C87D208B8E46F8"
+					item: "powah:energy_cell_basic"
+					type: "item"
+				}
+			]
+			subtitle: "我有种不好的预感"
+			tasks: [{
+				id: "680C5407E76645EB"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52CA70580DE83302"]
+			description: ["      同样是被动发电，具体发电量与工作介质强相关，具体的热源和冷却剂请看JEI。"]
+			id: "13F4E50745B45B8B"
+			rewards: [
+				{
+					count: 32
+					id: "28EA4A4BE8E8B84A"
+					item: "powah:dielectric_paste"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39CDFD1E94879CB6"
+					table_id: 7501581430932754602L
+					type: "random"
+				}
+			]
+			subtitle: "棍斤烤烫烫烫"
+			tasks: [{
+				id: "1BA4CF9E557947B4"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52CA70580DE83302"
+				"7521EE74EE9137B4"
+			]
+			description: [
+				"      中规中矩的发电方式，但是使用和合成都比较无脑，只需要供应晶质铀、煤炭、红石、干冰和水就能发电，同时自带自动搭建功能，也不会爆炸。当然发电量也不会太高。"
+				"      整合包也提供了更多的冷却液可供选择，能够增大发电量。"
+			]
+			id: "481B1FCB0A5D0385"
+			subtitle: "最安全的反应堆"
+			tasks: [{
+				id: "28632723C4C75EF1"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52CA70580DE83302"]
+			id: "406A716C59FAF3AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6884C3E8CB5F0D92"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5621989F49697192"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52CA70580DE83302"]
+			description: [
+				"      充能棒只能放置在能量方块上。"
+				""
+				"      能量立方、通用线缆（mek），能量管道（热力）等方块均算作能量方块。"
+				""
+				"      注：充能棒无法放置在pipez的能量管道上"
+			]
+			id: "7B9CB02763DD2B84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48830E959E8717B1"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D0D2BEB47D654C4"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52CA70580DE83302"]
+			description: [
+				"      充能台是powah的核心合成机器，需要搭配&d充能棒&r才能使用。"
+				""
+				"      当充能台中有合适的物品时，附近的充能棒会向充能台充能，速度取决于充能棒的等级和数量。"
+			]
+			id: "0BA4FB09ACBA6F93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44BF6394784FC0FC"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "326F8105DCAF44E1"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B9CB02763DD2B84"]
+			id: "703D9952DA63FF28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E8FDA80BAC908BF"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "053C543494373278"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["703D9952DA63FF28"]
+			id: "19463456443CDFE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6468A10FA0F6EDCA"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E91DB63C9BA254E"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19463456443CDFE2"]
+			id: "6A4FBA80547BBC57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37CC447F714E7C36"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71D1289FEE0C7A86"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A4FBA80547BBC57"]
+			id: "24D4162EBB61F284"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15420339BD672F61"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D045403D3CCF760"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24D4162EBB61F284"]
+			id: "12842DA1B43ACF37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79ADBD620DDDE0CB"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E774C5AD4285DEE"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12842DA1B43ACF37"]
+			id: "44300CBE230D80B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A7B933DB41E769B"
+				table_id: 7501581430932754602L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "23647CA0CD976A48"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "12A88D68506A9881"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE595893251E775"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55FF9EE41E13C593"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "7128F85E3C0C842D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01EB123FCCA8BFA7"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CA8B2179BD07BF0"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "1B8A1CAC627479BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DEA2EA1C8C17BDC"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66864DB5028ECA93"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "293BDD34F6353A69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59C245345D9638B7"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32545DE96EF02657"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "539E094B3B0B24CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74E317A71871F631"
+					table_id: 7501581430932754602L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0809C7624EDEDC5F"
+					table_id: 7501581430932754602L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "002BF981657AA753"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "7521EE74EE9137B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "198AE497DD3CA6EB"
+				table_id: 7501581430932754602L
+				type: "random"
+			}]
+			subtitle: "反应堆的燃料，有多种获取方式，请看JEI"
+			tasks: [{
+				id: "4838D6B91D3AFC1C"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AA3681422BC43DE"]
+			id: "3CDCE43BF8C72854"
+			rewards: [
+				{
+					id: "77F71EEED764D123"
+					item: "powah:solar_panel_starter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1BC4996EF28EA84A"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "0C307FC5F328D075"
+					item: "powah:energy_cell_hardened"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "156CB9A80BE51521"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CDCE43BF8C72854"]
+			id: "308CF5D936B0A205"
+			rewards: [
+				{
+					id: "03D17FAF982CBA00"
+					item: "powah:solar_panel_basic"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6BF0A440757F0BBE"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+				{
+					id: "3AF84BFEAC2FBD64"
+					item: "powah:energy_cell_blazing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D8FF50F55D1D539"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308CF5D936B0A205"]
+			id: "5C059B0ADCEF7783"
+			rewards: [
+				{
+					id: "73A3DCB499900A28"
+					item: "powah:solar_panel_hardened"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F83C4CE7DBD6409"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "1A9932D0DA1907FE"
+					item: "powah:energy_cell_niotic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45385793DE536E88"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C059B0ADCEF7783"]
+			id: "1EF4389AAFB2F996"
+			rewards: [
+				{
+					id: "5F9B17B7B2A980A2"
+					item: "powah:solar_panel_blazing"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7A0DD79D8592FF50"
+					item: "etshtinker:ultra_dense"
+					type: "item"
+				}
+				{
+					id: "2905F954875E8F9D"
+					item: "powah:energy_cell_spirited"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08CC32325FBB1BA2"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EF4389AAFB2F996"]
+			id: "5F3AA9A33538C60A"
+			rewards: [
+				{
+					id: "181B9A1CCC3CC859"
+					item: "powah:solar_panel_niotic"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60C79CC8338BB9C5"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+				{
+					id: "64E7D931800C9EE5"
+					item: "powah:energy_cell_nitro"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "294688F62290D9E0"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F3AA9A33538C60A"]
+			description: ["      不过不及无限QIO的1/10"]
+			id: "32E14FA491F04E2D"
+			rewards: [
+				{
+					id: "440CF43E9DBCA2D1"
+					item: "powah:solar_panel_spirited"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7502922416F70F61"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "25155F3F51BEBC9F"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "72E3F6F6483FBC53"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "28D4327C1B1241C8"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+				{
+					id: "28EE91FD3852BB98"
+					item: "mekaevolution:qio_drive_supreme"
+					type: "item"
+				}
+			]
+			subtitle: "合成出这个，说明你也是挺厉害的"
+			tasks: [{
+				id: "687A3331FDCAAB4F"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13F4E50745B45B8B"]
+			id: "3B8D6AB2E3B7E634"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "361A85737F2FBA5A"
+					table_id: 7501581430932754602L
+					type: "random"
+				}
+				{
+					id: "4B7658E42FB3172E"
+					item: "powah:thermo_generator_starter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AFC86FBA78D4D5E"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B8D6AB2E3B7E634"]
+			id: "041E286AE8D7750E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "646204CBA9B560B2"
+					table_id: 7501581430932754602L
+					type: "random"
+				}
+				{
+					id: "738AC22A57805643"
+					item: "powah:thermo_generator_basic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2462EC57CDD927C4"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["041E286AE8D7750E"]
+			id: "134D6A92EF4DC28F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00B9E6CFE476240E"
+					table_id: 7501581430932754602L
+					type: "choice"
+				}
+				{
+					id: "0601341C5CCB3363"
+					item: "powah:thermo_generator_hardened"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FD12DD2E0798C84"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["134D6A92EF4DC28F"]
+			id: "63FB59894E9CFA8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E6C0F7A7BD26A9E"
+					table_id: 7501581430932754602L
+					type: "choice"
+				}
+				{
+					id: "1F84E9AE7A49775F"
+					item: "powah:thermo_generator_blazing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19050139AD16D7F7"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63FB59894E9CFA8A"]
+			id: "15EBD404495422B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "707C94210714E429"
+					table_id: 7501581430932754602L
+					type: "choice"
+				}
+				{
+					id: "1E91C4FB6D28E5E3"
+					item: "powah:thermo_generator_niotic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5227E01E8C5F059E"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15EBD404495422B5"]
+			id: "1C202F4C4A011F8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10BACDEF7C1D0A66"
+					table_id: 7501581430932754602L
+					type: "choice"
+				}
+				{
+					id: "08065815D88221A3"
+					item: "powah:thermo_generator_spirited"
+					type: "item"
+				}
+				{
+					id: "7D12182FB2269F5B"
+					item: "powah:energizing_rod_nitro"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "009B93F32800BA56"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["481B1FCB0A5D0385"]
+			id: "27F67DF22AD3A2DF"
+			tasks: [{
+				id: "05ABA579D93A20B9"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27F67DF22AD3A2DF"]
+			id: "2226075C6553F0AF"
+			tasks: [{
+				id: "2A2FA4C116EC6BAC"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2226075C6553F0AF"]
+			id: "6BB90F3F20CE6AA2"
+			tasks: [{
+				id: "760A88DBFD00CA1D"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB90F3F20CE6AA2"]
+			id: "5E55833EBE76DD85"
+			tasks: [{
+				id: "70ACE37CD328B4A7"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E55833EBE76DD85"]
+			id: "164B58425FD2948F"
+			tasks: [{
+				id: "0394E11650698925"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["164B58425FD2948F"]
+			id: "55F4682B9CA6988E"
+			tasks: [{
+				id: "08CF56C4297A4DE8"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	subtitle: [
+		"注：本章与塑料椅子无关"
+		" -by EtSH_C2H6S"
+	]
+	title: "Powah! —— 闭眼都能做的发电设备？"
+}

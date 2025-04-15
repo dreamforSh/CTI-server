@@ -1,0 +1,390 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "base"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "middle_ns"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "middle_ns"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "middle_ew"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "middle_ew"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "middle_end_n"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "middle_end_n"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "middle_end_e"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "middle_end_e"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "middle_end_s"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "middle_end_s"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "middle_end_w"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "middle_end_w"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "corner_ne"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "corner_ne"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "corner_nw"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "corner_nw"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "corner_se"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "corner_se"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "corner_sw"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "corner_sw"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "side_n"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "side_n"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "side_e"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "side_e"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "side_s"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "side_s"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "side_w"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "side_w"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_n_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_n_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_n_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_n_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_e_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_e_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_e_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_e_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_s_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_s_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_s_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_s_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_w_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_w_left"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "end_w_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "end_w_right"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"connection": "base_toggled"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"connection": "base_toggled"
+		},
+		"Name": "mcwbridges:rope_warped_bridge"
+	}
+]

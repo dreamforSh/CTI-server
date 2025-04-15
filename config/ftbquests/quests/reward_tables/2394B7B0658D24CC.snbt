@@ -1,0 +1,21 @@
+{
+	icon: "farmersdelight:hamburger"
+	id: "2394B7B0658D24CC"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ item: "farmersdelight:hamburger" }
+		{ item: "culturaldelights:eggplant_burger" }
+		{ item: "twilightdelight:ghast_burger" }
+		{ item: "twilightdelight:hydra_burger" }
+		{ item: "tofucraft:tttburger" }
+		{ item: "tofucraft:riceburger" }
+		{ item: "tofucraft:tofu_buns_burger" }
+		{ item: "gobberdelight:blue_burger", weight: 0.1f }
+		{ item: "gobberdelight:red_burger", weight: 0.1f }
+		{ item: "extradelight:mushroom_burger" }
+		{ item: "extradelight:cheeseburger" }
+		{ item: "extradelight:bacon_cheeseburger" }
+	]
+	title: "汉堡外卖包"
+}

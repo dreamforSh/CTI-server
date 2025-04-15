@@ -1,0 +1,52 @@
+{
+	id: "658D2F914805D2AE"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:range_addon2"
+				tag: {
+					TitaniumAugment: {
+						Range: 2.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:speed_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Speed: 3.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:efficiency_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Efficiency: 0.8f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:processing_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Processing: 3.0f
+					}
+				}
+			}
+		}
+	]
+	title: "升级奖励（IF）"
+}

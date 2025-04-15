@@ -1,0 +1,644 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "north"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "south"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "west"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "true",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "base",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "base",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "top",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "top",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "middle",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "middle",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"part": "bottom",
+			"lit": "false",
+			"facing": "east"
+		},
+		"Name": "mcwlights:soul_double_street_lamp"
+	}
+]

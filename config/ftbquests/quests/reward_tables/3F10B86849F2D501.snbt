@@ -1,0 +1,8 @@
+{
+	icon: "sophisticatedbackpacks:backpack"
+	id: "3F10B86849F2D501"
+	loot_size: 1
+	order_index: 22
+	rewards: [{ item: "sophisticatedbackpacks:diamond_backpack" }]
+	title: "背包"
+}

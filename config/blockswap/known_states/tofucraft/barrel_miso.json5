@@ -1,0 +1,761 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "0"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "using",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "1"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "using",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "2"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "using",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "3"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "using",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "4"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "using",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "5"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "using",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "using",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "using",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "using",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "using",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "using",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "0",
+			"stat": "used",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "1",
+			"stat": "used",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "2",
+			"stat": "used",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "3",
+			"stat": "used",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "4",
+			"stat": "used",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"time": "5",
+			"stat": "used",
+			"fluids": "6"
+		},
+		"Name": "tofucraft:barrel_miso"
+	}
+]

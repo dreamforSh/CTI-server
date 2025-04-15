@@ -1,0 +1,707 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "north",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "south",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "west",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "east",
+			"double": "true"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "north",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "south",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "west",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "left",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "left",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "left",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "left",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"hinge": "right",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"hinge": "right",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"hinge": "right",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"hinge": "right",
+			"facing": "east",
+			"double": "false"
+		},
+		"Name": "cfm:jungle_upgraded_gate"
+	}
+]

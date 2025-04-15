@@ -1,0 +1,24 @@
+{
+    "type": "kubejs:ultra_flat_day",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "layers": [
+          {
+            "height": 1,
+            "block": "minecraft:bedrock"
+          },
+          {
+            "height": 4,
+            "block": "minecraft:smooth_stone"
+          }
+        ],
+        "biome":"kubejs:ultra_flat",
+        "structure_overrides": {}
+      },
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "kubejs:ultra_flat"
+      }
+    }
+}

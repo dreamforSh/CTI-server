@@ -1,0 +1,91 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "north_down"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "south_down"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "west_down"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "east_down"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "north_up"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "south_up"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "east_up"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "west_up"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "axis_x"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "axis_y"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "axis_z"
+		},
+		"Name": "twilightforest:nagastone"
+	},
+	{
+		"Name": "twilightforest:nagastone"
+	}
+]

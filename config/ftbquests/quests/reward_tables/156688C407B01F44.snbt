@@ -1,0 +1,10 @@
+{
+	id: "156688C407B01F44"
+	loot_size: 1
+	order_index: 68
+	rewards: [
+		{ count: 3, item: "ad_astra:cryo_fuel_bucket" }
+		{ item: "ad_astra:launch_pad" }
+	]
+	title: "如果你忘记带返程的燃料和发射台了，请收下这个"
+}

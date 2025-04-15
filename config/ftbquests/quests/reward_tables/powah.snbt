@@ -1,0 +1,16 @@
+{
+	id: "681AF890FC69D0AA"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 8, item: "powah:crystal_blazing" }
+		{ count: 8, item: "powah:crystal_niotic" }
+		{ count: 4, item: "powah:crystal_spirited" }
+		{ count: 4, item: "powah:crystal_nitro" }
+		{ count: 64, item: "powah:uraninite" }
+		{ count: 32, item: "powah:charged_snowball" }
+		{ count: 16, item: "powah:steel_energized" }
+		{ count: 64, item: "powah:dielectric_paste" }
+	]
+	title: "powah!战利品"
+}

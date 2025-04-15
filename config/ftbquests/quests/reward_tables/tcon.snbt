@@ -1,0 +1,46 @@
+{
+	icon: "tconstruct:materials_and_you"
+	id: "0E2C489886079866"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ count: 8, item: "minecraft:bone" }
+		{ count: 4, item: "iceandfire:dragonbone" }
+		{ count: 8, item: "tinkers_thinking:obsidian_bronze_ingot" }
+		{ count: 2, item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:emerald" }
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_blade"
+				tag: {
+					Material: "tconstruct:manyullyn"
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:pick_head"
+				tag: {
+					Material: "tconstruct:hepatizon"
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:small_axe_head"
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 16, item: "minecraft:iron_ingot", weight: 0.8f }
+		{ count: 4, item: "minecraft:vine", weight: 0.6f }
+	]
+	title: "工匠小奖励"
+}

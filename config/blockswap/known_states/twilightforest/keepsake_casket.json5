@@ -1,0 +1,653 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "north",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "north",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "north",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "north",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "north",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "south",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "south",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "south",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "south",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "south",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "south",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "west",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "west",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "west",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "west",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "west",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "west",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "east",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "east",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "east",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "east",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "east",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "east",
+			"damage": "0"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "north",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "north",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "north",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "north",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "north",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "north",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "south",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "south",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "south",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "south",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "south",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "south",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "west",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "west",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "west",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "west",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "west",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "west",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "east",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "east",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "east",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "east",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "east",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "east",
+			"damage": "1"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "north",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "north",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "north",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "north",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "north",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "north",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "south",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "south",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "south",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "south",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "south",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "south",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "west",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "west",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "west",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "west",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "west",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "west",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "air",
+			"facing": "east",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "water",
+			"facing": "east",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "lava",
+			"facing": "east",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "obsidian",
+			"facing": "east",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "stone",
+			"facing": "east",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"multilogged": "basalt",
+			"facing": "east",
+			"damage": "2"
+		},
+		"Name": "twilightforest:keepsake_casket"
+	}
+]

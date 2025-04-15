@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 10,
+  "fluidInput": {
+    "amount": 4000,
+    "fluid": "mekanismgenerators:deuterium"
+  },
+  "gasInput": {
+    "amount": 10000,
+    "gas": "mekanism:nuclear_waste"
+  },
+  "gasOutput": {
+    "amount": 100,
+    "gas": "cti:fission_plasma"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "avaritia:neutron_ingot"
+    }
+  },
+  "itemOutput": {
+    "count": 1,
+    "item": "avaritia:neutron_pile"
+  }
+}

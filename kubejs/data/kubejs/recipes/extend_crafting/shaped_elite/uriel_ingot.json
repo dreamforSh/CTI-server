@@ -1,0 +1,65 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A     A",
+    "BA C AB",
+    "BBADABB",
+    "EBFGHBI",
+    " JBKBL ",
+    " MNONM ",
+    "  NPN  "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "l2complements:resonant_feather"
+    },
+    "C": {
+      "item": "l2hostility:ring_of_divinity"
+    },
+    "D": {
+      "item": "l2complements:guardian_eye"
+    },
+    "E": {
+      "item": "l2hostility:soul_burner"
+    },
+    "F": {
+      "item": "enigmaticlegacy:enchantment_transposer"
+    },
+    "G": {
+      "item": "enigmaticlegacy:cosmic_heart"
+    },
+    "H": {
+      "item": "iceandfire:dragonsteel_fire_sword"
+    },
+    "I": {
+      "item": "l2hostility:fiery"
+    },
+    "J": {
+      "item": "l2hostility:protection"
+    },
+    "K": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "L": {
+      "item": "l2hostility:regenerate"
+    },
+    "M": {
+      "item": "l2complements:cursed_droplet"
+    },
+    "N": {
+      "item": "l2complements:soul_flame"
+    },
+    "O": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "P": {
+      "item": "enigmaticlegacy:soul_crystal"
+    }
+  },
+  "result": {
+    "item": "cti:uriel_ingot"
+  }
+}

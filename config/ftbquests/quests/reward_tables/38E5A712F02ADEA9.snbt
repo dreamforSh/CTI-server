@@ -1,0 +1,13 @@
+{
+	icon: "twilightforest:experiment_115"
+	id: "38E5A712F02ADEA9"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 8, item: "tconstruct:pig_iron_ingot" }
+		{ count: 8, item: "tinkers_thinking:chlorophyll_ore" }
+		{ count: 12, item: "botania:manasteel_ingot" }
+		{ count: 4, item: "minecraft:diamond" }
+	]
+	title: "暮色2级奖励包"
+}

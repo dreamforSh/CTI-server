@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:etherium",
+  "temperature": 3275,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_etherium",
+    "amount": 90
+  }
+}

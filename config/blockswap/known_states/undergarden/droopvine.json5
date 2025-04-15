@@ -1,0 +1,422 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "0"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "1"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "1"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "2"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "2"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "3"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "3"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "4"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "4"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "5"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "5"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "6"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "6"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "7"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "7"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "8"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "8"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "9"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "9"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "10"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "10"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "11"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "11"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "12"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "12"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "13"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "13"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "14"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "14"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "15"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "15"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "16"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "16"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "17"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "17"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "18"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "18"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "19"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "19"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "20"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "20"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "21"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "21"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "22"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "22"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "23"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "23"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "24"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "24"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "true",
+			"age": "25"
+		},
+		"Name": "undergarden:droopvine"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"glowy": "false",
+			"age": "25"
+		},
+		"Name": "undergarden:droopvine"
+	}
+]

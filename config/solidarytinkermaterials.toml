@@ -1,0 +1,57 @@
+
+#材料词条部分的配置
+["材料词条"]
+	#星野锭红温伤害对应的百分比的值,默认6%
+	#Range: > 0
+	RedTemperatureValue = 6
+	#星野锭增伤箭矢数量的上限,大于这个数量会转而造成单次高伤并且清除箭矢,默认20根
+	#Range: > 0
+	ArrowCount = 20
+	#星野锭叠加箭矢对应的增伤,默认8%
+	#Range: > 0
+	EachArrowValue = 8
+	#叠满箭矢后单次伤害对应的倍率,默认145倍
+	#Range: > 0
+	MaxArrowCountDamageValue = 145
+	#每层护甲会减免掉的伤害比例(基于上一级),默认30%
+	#Range: 0.0 ~ 1.0
+	EachHoshinoArmorValue = 0.3
+	#墨冰的增伤伤害上限,默认无上限
+	#Range: 0.0 ~ 3.4028234663852886E38
+	iceMaxValue = 3.4028234663852886E38
+	#质子化给的护甲和韧性上限,默认2025
+	#Range: 0 ~ 100000
+	protonation = 2025
+	#重伤每级减少目标治疗量的百分比,默认30%
+	#Range: 0.0 ~ 1.0
+	Injured = 0.3
+	#白矮星物质点燃目标时长,默认2147483647秒
+	#Range: > 0
+	DwarfBlaze = 2147483647
+	#白矮星物质吸附目标半径,默认40格
+	#Range: > 0
+	DwarfSuperBlazing = 40
+	#白矮星物质吞食生命对应的增伤上限,默认无上限,超出这个值后不再叠加
+	#Range: 0.0 ~ 3.4028234663852886E38
+	DwarfMaxDamage = 3.4028234663852886E38
+	#经验钢消耗的经验点数，默认10
+	#Range: > 0
+	ExperienceSteelCost = 10
+	#经验钢近战每级对应的增伤，默认0.5
+	#Range: 0.0 ~ 3.4028234663852886E38
+	ExperienceMeleeSteelDamage = 0.5
+	#经验钢远程每级对应的增伤，默认0.25
+	#Range: 0.0 ~ 3.4028234663852886E38
+	ExperienceProjectileSteelDamage = 0.25
+	#经验钢护甲每级格挡非穿甲的伤害，默认0.08
+	#Range: 0.0 ~ 3.4028234663852886E38
+	ExperienceSteelArmorBlock = 0.08
+	#经验钢护甲每级格挡穿甲的伤害，默认0.04
+	#Range: 0.0 ~ 3.4028234663852886E38
+	ExperienceSteelArmorBlockBypassArmor = 0.04
+	#极寒彩钢每点伤害的电力消耗，默认200
+	#Range: > 0
+	FluxArmorBlock = 200
+	#大马士革钢是否直接杀死目标,如果否则会造成1000点高额玩家伤害，默认开启
+	should_direct_kill = true
+

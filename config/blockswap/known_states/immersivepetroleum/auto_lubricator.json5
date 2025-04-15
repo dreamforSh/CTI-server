@@ -1,0 +1,70 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "true",
+			"facing": "north"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "true",
+			"facing": "south"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "false",
+			"facing": "south"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "true",
+			"facing": "west"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "false",
+			"facing": "west"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "true",
+			"facing": "east"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slave": "false",
+			"facing": "east"
+		},
+		"Name": "immersivepetroleum:auto_lubricator"
+	}
+]

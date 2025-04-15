@@ -1,0 +1,15 @@
+{
+	id: "0E1731CDE4F2D775"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 24, item: "mekanism:ingot_osmium" }
+		{ count: 24, item: "minecraft:iron_ingot" }
+		{ count: 16, item: "thermal:steel_ingot" }
+		{ count: 16, item: "mekanism:enriched_carbon" }
+		{ count: 16, item: "mekanism:enriched_redstone" }
+		{ count: 16, item: "mekanism:enriched_diamond" }
+		{ count: 32, item: "minecraft:glass" }
+	]
+	title: "mek奖励（一阶）"
+}

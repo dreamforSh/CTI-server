@@ -1,0 +1,18 @@
+{
+	id: "0A956CC895CC2A42"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ item: "l2complements:force_field", weight: 6.0f }
+		{ item: "l2hostility:book_of_reprint", weight: 6.0f }
+		{ item: "l2complements:sun_membrane", weight: 6.0f }
+		{ item: "l2complements:eternium_nugget" }
+		{ item: "l2complements:blackstone_core", weight: 6.0f }
+		{ item: "minecraft:totem_of_undying", weight: 8.0f }
+		{ item: "l2complements:totemic_gold_ingot" }
+		{ item: "l2complements:poseidite_ingot", weight: 6.0f }
+		{ item: "l2complements:shulkerate_ingot", weight: 8.0f }
+		{ item: "l2complements:sculkium_ingot", weight: 3.0f }
+	]
+	title: "莱特兰2"
+}

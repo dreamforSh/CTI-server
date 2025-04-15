@@ -1,0 +1,21 @@
+{
+	icon: {
+		Count: 1b
+		id: "cyclic:soulstone"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0C62B5D077EDCC74"
+	loot_size: 4
+	order_index: 56
+	rewards: [
+		{ count: 4, item: "create:andesite_alloy" }
+		{ count: 4, item: "create:brass_ingot" }
+		{ count: 4, item: "gobber2:gobber2_ingot", weight: 0.75f }
+		{ count: 4, item: "gobber2:gobber2_ingot_nether", weight: 0.75f }
+		{ count: 4, item: "cyclic:gem_amber" }
+		{ count: 4, item: "cyclic:gem_obsidian" }
+	]
+	title: "王之书-机动-戈伯-等价-循环-半身-抽奖"
+}

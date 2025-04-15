@@ -1,0 +1,75 @@
+{
+	icon: "tconstruct:materials_and_you"
+	id: "0168B91E9CD9F25D"
+	loot_size: 11
+	order_index: 32
+	rewards: [
+		{ count: 2, item: "tconstruct:cobalt_ingot" }
+		{ count: 2, item: "tconstruct:rose_gold_ingot" }
+		{ count: 2, item: "tconstruct:pig_iron_ingot" }
+		{ count: 2, item: "tconstruct:manyullyn_ingot" }
+		{ count: 2, item: "tconstruct:slimesteel_ingot" }
+		{ count: 2, item: "tconstruct:hepatizon_ingot" }
+		{ count: 2, item: "tconstruct:queens_slime_ingot" }
+		{ count: 2, item: "tconstruct:greenheart_log", weight: 0.25f }
+		{ count: 2, item: "tconstruct:skyroot_wood", weight: 0.25f }
+		{ count: 2, item: "tconstruct:bloodshroom_log", weight: 0.25f }
+		{ count: 2, item: "tconstruct:enderbark_log", weight: 0.25f }
+		{ count: 2, item: "tconstruct:seared_brick" }
+		{ count: 2, item: "tconstruct:scorched_brick" }
+		{ count: 2, item: "tconstruct:blazewood" }
+		{ count: 2, item: "tconstruct:silky_cloth" }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			weight: 0.33f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "tconstruct:maille"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			weight: 0.33f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "tinkers_ingenuity:gscore"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			weight: 0.34f
+		}
+		{ count: 2, item: "tconstruct:nahuatl" }
+		{ count: 2, item: "tconstruct:efln_ball" }
+		{ count: 2, item: "tconstruct:venombone" }
+		{ count: 2, item: "tconstruct:necronium_bone" }
+		{ count: 2, item: "tconstruct:blazing_bone" }
+		{ count: 2, item: "tconstruct:necrotic_bone" }
+		{ count: 2, item: "tconstruct:sky_slime_vine", weight: 0.5f }
+		{ count: 2, item: "tconstruct:ender_slime_vine", weight: 0.5f }
+	]
+	title: "王之书-匠3-半身-抽奖"
+}

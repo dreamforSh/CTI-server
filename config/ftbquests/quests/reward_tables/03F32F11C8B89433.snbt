@@ -1,0 +1,117 @@
+{
+	icon: {
+		Count: 1b
+		id: "minecraft:writable_book"
+		tag: {
+			display: {
+				Lore: [ ]
+				Name: "{\"text\":\"§d§k虚假的抉择§k§d\"}"
+			}
+			pages: ["这是注定的命运-面对现实吧"]
+		}
+	}
+	id: "03F32F11C8B89433"
+	loot_size: 2
+	order_index: 53
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "defense"
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "souls"
+				}
+			}
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "hostilities"
+				}
+			}
+			title: "创造恶意槽"
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "mechanisms"
+				}
+			}
+			title: "创造机械槽"
+			weight: 0.01f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "glorious"
+				}
+			}
+			title: "创造辉煌槽"
+			weight: 0.01f
+		}
+		{ item: "lightmanscurrency:coin_netherite", weight: 0.01f }
+		{ count: 8, item: "tinkers_ingenuity:orichalcum_ingot", weight: 0.01f }
+		{
+			command: "/hostility player @s difficulty base add 1000"
+			icon: "minecraft:painting"
+			silent: true
+			title: "这是一场豪赌"
+			type: "command"
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:writable_book"
+				tag: {
+					display: {
+						Lore: [ ]
+						Name: "{\"text\":\"§d§k虚假的抉择§k§d\"}"
+					}
+					pages: ["这是注定的命运-面对现实吧"]
+				}
+			}
+			only_one: true
+			weight: 0.9f
+		}
+	]
+	title: "王之书-上阕-抽奖"
+}

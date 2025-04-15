@@ -1,0 +1,27 @@
+{
+	icon: {
+		Count: 1b
+		id: "iceandfire:bestiary"
+		tag: {
+			Pages: [I;0]
+		}
+	}
+	id: "4E4A1B2E76C3D7E7"
+	loot_size: 6
+	order_index: 63
+	rewards: [
+		{ item: "iceandfire:dragonsteel_fire_block" }
+		{ item: "iceandfire:dragonsteel_ice_block" }
+		{ item: "iceandfire:dragonsteel_lightning_block" }
+		{ count: 18, item: "iceandfire:dragonbone" }
+		{ count: 9, item: "iceandfire:ghost_ingot", random_bonus: 9, title: "9~18x 灵锭" }
+		{ count: 9, item: "iceandfire:troll_leather_forest" }
+		{ count: 9, item: "iceandfire:troll_leather_frost" }
+		{ count: 9, item: "iceandfire:troll_leather_mountain" }
+		{ count: 9, item: "iceandfire:myrmex_desert_chitin" }
+		{ count: 9, item: "iceandfire:myrmex_jungle_chitin" }
+		{ count: 9, item: "dreadsteel:dreadsteel_ingot" }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-冰火-全收集-抽奖"
+}

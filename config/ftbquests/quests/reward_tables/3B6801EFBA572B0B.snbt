@@ -1,0 +1,11 @@
+{
+	id: "3B6801EFBA572B0B"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 10, item: "minecraft:dandelion" }
+		{ count: 10, item: "minecraft:poppy" }
+		{ count: 10, item: "minecraft:blue_orchid" }
+	]
+	title: "花花"
+}

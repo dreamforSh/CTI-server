@@ -1,0 +1,23 @@
+{
+	icon: {
+		Count: 1b
+		id: "aquamirae:dagger_of_greed"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6344701EDFB791C3"
+	loot_size: 4
+	order_index: 64
+	rewards: [
+		{ count: 2, item: "mekanism:ingot_refined_glowstone" }
+		{ count: 2, item: "mekanism:ingot_refined_obsidian" }
+		{ count: 2, item: "mekanism:alloy_atomic" }
+		{ count: 2, item: "enigmaticlegacy:etherium_ingot" }
+		{ count: 2, item: "enigmaticlegacy:evil_ingot" }
+		{ count: 2, item: "aquamirae:sharp_bones" }
+		{ count: 2, item: "aquamirae:anglers_fang" }
+		{ count: 2, item: "aquamirae:abyssal_amethyst" }
+	]
+	title: "王之书-mek-神遗-海灵-半身-抽奖"
+}

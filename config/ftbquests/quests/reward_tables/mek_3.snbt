@@ -1,0 +1,15 @@
+{
+	id: "6BCBD7ABA89DEC7B"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 4, item: "mekanism:upgrade_speed" }
+		{ count: 4, item: "mekanism:upgrade_energy" }
+		{ count: 8, item: "mekanism:upgrade_filter" }
+		{ count: 8, item: "mekanism:upgrade_muffling" }
+		{ count: 4, item: "mekanism:upgrade_gas" }
+		{ item: "mekanism:upgrade_anchor" }
+		{ item: "mekanism:upgrade_stone_generator" }
+	]
+	title: "升级奖励（mek）"
+}

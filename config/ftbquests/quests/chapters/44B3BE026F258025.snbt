@@ -1,0 +1,559 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "44B3BE026F258025"
+	group: "7E3173C55DD03B0A"
+	icon: "industrialforegoing:machine_frame_pity"
+	id: "44B3BE026F258025"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "pneumaticcraft:item/plastic"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "industrialforegoing:items/pink_slime_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tinkers_thinking:gui/wither"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3330893C09515343"]
+			description: ["工业先锋在本整合包得到了魔改，你需要从一块塑料片开始工业先锋流程，根据主线流程获得你的第一块塑料片吧。"]
+			icon: "pneumaticcraft:plastic"
+			id: "3FC9D16B2F71A008"
+			rewards: [{
+				count: 8
+				id: "064BFFBEF2362D72"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F54759E77BF5D90"
+					type: "checkmark"
+				}
+				{
+					id: "7DD845CE596BCA6A"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+			]
+			title: "准备-气动制取塑料片"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FC9D16B2F71A008"]
+			description: ["低级机器框架需要塑料片制作，可以用于制作低级层级的工业先锋机器"]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "313BFEABEE862CF4"
+			rewards: [{
+				count: 8
+				id: "52DEB708F4A1AFF2"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0A161AFDE9A064FA"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313BFEABEE862CF4"]
+			hide_dependency_lines: true
+			id: "01C92101C345DAFE"
+			shape: "rsquare"
+			tasks: [{
+				id: "0A9A18CABB03C44F"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A161AFDE9A064FA"]
+			id: "4B39163BDF21516C"
+			shape: "rsquare"
+			tasks: [{
+				id: "4574CE64D85749BA"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A161AFDE9A064FA"]
+			id: "19E1BF4652C362FB"
+			shape: "rsquare"
+			tasks: [{
+				id: "768CD1B0DC6D523D"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A161AFDE9A064FA"]
+			id: "2420480420DA6948"
+			shape: "rsquare"
+			tasks: [{
+				id: "7BAAA2E49C665101"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A161AFDE9A064FA"]
+			description: ["供能后，工作范围内有动物时，这台机器会凭空产生污水"]
+			id: "7827B302241FEC15"
+			tasks: [{
+				id: "1062CFFBF8899A30"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A161AFDE9A064FA"]
+			description: ["收获工作范围内能通过剪刀和桶收集的动物资源"]
+			id: "04F93DB51E01B596"
+			shape: "rsquare"
+			tasks: [{
+				id: "270D50CFC3342745"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7827B302241FEC15"]
+			dependency_requirement: "all_started"
+			description: ["将污水转化为肥料"]
+			id: "755720A427FC18A8"
+			tasks: [{
+				id: "6C49194C7061F0D4"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["313BFEABEE862CF4"]
+			description: [
+				"提取工业先锋第一种基础流体资源的方法，可以使用本模组/循环/ae2的方案制作被动产线；"
+				"如果不使用工业先锋方法制作塑料片的话，这条产线可能并不需要太大规模。"
+			]
+			id: "38FADAE2B1E52B24"
+			rewards: [{
+				id: "5B27341D3E154806"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77E71E4B9FC6E8ED"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38FADAE2B1E52B24"]
+			id: "0EDF36A03532E433"
+			rewards: [{
+				id: "777EC8ED4DFDFE5D"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AFA827AE29B8244"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38FADAE2B1E52B24"]
+			description: ["使用jei可以看到树液提取机的提取配方，不同木头产出量不一样"]
+			id: "53F9B9C3B30E9AF4"
+			tasks: [{
+				id: "49F128C117D85804"
+				title: "小贴士"
+				type: "checkmark"
+			}]
+			title: "tips"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EDF36A03532E433"]
+			description: [
+				"工业先锋制取塑料片"
+				"详情查询干橡胶jei配方"
+			]
+			id: "6D4D33DF607F9B4F"
+			rewards: [{
+				count: 8
+				id: "38D92A5E67C25DD9"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32948F473E8BAF91"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38FADAE2B1E52B24"]
+			description: [
+				"任务撰写者斯卡蒂的仁慈给你带来了一套tier1的插件"
+				"记得后面换成tier2"
+			]
+			id: "4CDD356BCBAF797F"
+			rewards: [
+				{
+					count: 8
+					id: "1757AC0CAE37B5F6"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Speed: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15BB5932992EEDDD"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.9f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "18D0CFCCBF4A6FEF"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_1"
+						tag: {
+							TitaniumAugment: {
+								Processing: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A9B1128984E028A"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CDD356BCBAF797F"]
+			description: ["制作中级层级的工业先锋机器"]
+			id: "1126363383EC2326"
+			rewards: [{
+				count: 8
+				id: "5263CE33C6348887"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "34B22B01FEA5AF6A"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1126363383EC2326"]
+			description: [
+				"生产肉汤和粉红史莱姆液的机器"
+				"送你一个3级范围插件和一个黑洞存储控制器，正好够用"
+				"黑洞存储控制器的用法可以看对应层级的机器介绍"
+			]
+			id: "3096D440843FFB9F"
+			rewards: [
+				{
+					id: "398F847D21E45929"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon2"
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5696D34E4FE4517C"
+					item: "industrialforegoing:black_hole_controller"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "0F330B1F0E45C7A1"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"34B22B01FEA5AF6A"
+				"755720A427FC18A8"
+			]
+			id: "58D47CCB4B753280"
+			tasks: [{
+				id: "74D3C55F60336F7A"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1126363383EC2326"]
+			description: ["踏入高级机器的领域"]
+			id: "58AE0823BA173BC4"
+			rewards: [{
+				count: 8
+				id: "01BAD977843F55E6"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "16D9C3E37F1DE6BA"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34B22B01FEA5AF6A"
+				"58AE0823BA173BC4"
+			]
+			description: ["请配合高级层级的镭射钻基座使用"]
+			id: "729CC0E21A94CB20"
+			subtitle: "配合基座使用"
+			tasks: [{
+				id: "0038A1D6BE59FD83"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["729CC0E21A94CB20"]
+			description: ["镭射钻处于镭射钻工作范围内（前方3*3*3，无视中间是否有方块阻挡）的时候，供给能量并且置入jei配方指定透镜，即可凭空产生对应资源。"]
+			id: "2051551BB93F70BC"
+			rewards: [{
+				id: "4AC33B0AAB740264"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "636F07852EEAB1AD"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["729CC0E21A94CB20"]
+			description: [
+				"和镭射钻基座的使用方式相同"
+				"需要使用这玩意生产以太气体以进入下一阶段"
+				"将凋零卡在它的工作范围内就可以产出以太气体"
+			]
+			id: "3E3D47C2F399938F"
+			rewards: [
+				{
+					id: "6C914D34F1A146CF"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+				{
+					id: "18151CC76A3C3966"
+					item: "industrialforegoing:laser_lens10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E01060D465E5F02"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0706121A59830FE4"]
+			description: ["向该方块的物品栏内置入相应黑洞存储，即可存储相应类型的物质。"]
+			id: "4791E0F139CBF4D7"
+			tasks: [{
+				id: "3E19A64481E6D2A2"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4791E0F139CBF4D7"]
+			description: ["jei搜索“黑洞”来寻找其他规模的容器"]
+			id: "3083E46A16A82B64"
+			tasks: [{
+				id: "66F2B14A15AF91D2"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4791E0F139CBF4D7"]
+			description: ["jei搜索“黑洞”来寻找其他规模的容器"]
+			id: "42DCE8160690634F"
+			tasks: [{
+				id: "2708A6DD20E412BF"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E3D47C2F399938F"]
+			id: "2E2AD8366A1BC958"
+			rewards: [{
+				count: 8
+				id: "0580BAF2F7F854EB"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0706121A59830FE4"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0706121A59830FE4"
+				"2E2AD8366A1BC958"
+			]
+			description: ["\"清算时间到\""]
+			id: "52FA515A4E85944D"
+			shape: "hexagon"
+			tasks: [{
+				id: "71027BAF48D24AA1"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52FA515A4E85944D"]
+			description: ["工业先锋还有些没有提到的小玩意，感兴趣可以玩玩看"]
+			id: "7E7C7FB86EB583E5"
+			shape: "gear"
+			tasks: [{
+				id: "5A7BCA3D52203C87"
+				item: "botania:cosmetic_thinking_hand"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			description: ["能维持饱和度的超强力道具"]
+			id: "718C792163CDF34F"
+			tasks: [{
+				id: "2DE8A744247F5F51"
+				item: "industrialforegoing:meat_feeder"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+	]
+	title: "工业先锋-一点也不先锋的工业模组"
+}

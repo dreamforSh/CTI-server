@@ -1,0 +1,12 @@
+{
+	id: "7BE000E2D6449860"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "industrialforegoing:machine_frame_supreme" }
+		{ count: 4, item: "industrialforegoing:machine_frame_advanced" }
+		{ count: 16, item: "industrialforegoing:machine_frame_simple" }
+		{ count: 64, item: "industrialforegoing:machine_frame_pity" }
+	]
+	title: "IF机器框架奖励"
+}

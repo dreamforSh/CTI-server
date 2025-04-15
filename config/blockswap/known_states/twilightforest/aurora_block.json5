@@ -1,0 +1,119 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "1"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "2"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "3"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "4"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "5"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "6"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "7"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "8"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "9"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "10"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "11"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "12"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "13"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "14"
+		},
+		"Name": "twilightforest:aurora_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "15"
+		},
+		"Name": "twilightforest:aurora_block"
+	}
+]

@@ -1,0 +1,770 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "true"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "true",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "true",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "false",
+			"connected_south": "true",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "false",
+			"connected_up": "true",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"connected_west": "true",
+			"connected_up": "false",
+			"connected_south": "false",
+			"connected_north": "false",
+			"connected_east": "false",
+			"connected_down": "false"
+		},
+		"Name": "cyclic:dark_glass_connected"
+	},
+	{
+		"Name": "cyclic:dark_glass_connected"
+	}
+]

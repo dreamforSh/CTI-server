@@ -1,0 +1,3584 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "true"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "true",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "true",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "true",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "false",
+			"east": "true",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "false",
+			"north": "true",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "false",
+			"south": "true",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "true",
+			"south": "false",
+			"north": "false",
+			"east": "false",
+			"corner_south_west": "false",
+			"corner_south_east": "false",
+			"corner_north_west": "false",
+			"corner_north_east": "false"
+		},
+		"Name": "cfm:trampoline"
+	},
+	{
+		"Name": "cfm:trampoline"
+	}
+]

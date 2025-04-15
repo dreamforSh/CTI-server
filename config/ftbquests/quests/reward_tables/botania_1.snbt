@@ -1,0 +1,15 @@
+{
+	icon: "botania:dice"
+	id: "183FD0BF98F0C64A"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 4, item: "minecraft:diamond" }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 16, item: "minecraft:stone" }
+		{ count: 8, item: "minecraft:redstone" }
+	]
+	title: "Botania_1"
+}

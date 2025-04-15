@@ -1,0 +1,13 @@
+{
+	icon: "twilightforest:experiment_115"
+	id: "73D13AA8406E2AC4"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 5, item: "iceandfire:dragonbone" }
+		{ count: 5, item: "minecraft:iron_ingot" }
+		{ count: 5, item: "minecraft:gold_ingot" }
+		{ count: 2, item: "minecraft:diamond" }
+	]
+	title: "暮色1级奖励包"
+}

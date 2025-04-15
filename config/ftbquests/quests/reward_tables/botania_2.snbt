@@ -1,0 +1,28 @@
+{
+	icon: "botania:dice"
+	id: "42A9EFC90FA1DB91"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_air" }
+		{ count: 8, item: "botania:manasteel_ingot" }
+		{ count: 4, item: "botania:mana_pearl" }
+		{ count: 4, item: "botania:mana_diamond" }
+		{ item: "botania:elven_spreader", weight: 0.5f }
+		{ item: "botania:spark", weight: 0.5f }
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+			weight: 0.1f
+		}
+	]
+	title: "Botania_2"
+}

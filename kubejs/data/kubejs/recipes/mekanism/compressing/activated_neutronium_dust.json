@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:compressing",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "cti:neutron"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "etshtinker:gs_indused_netherite_dust"
+    }
+  },
+  "output": {
+    "item": "etshtinker:activated_neutronium_dust"
+  }
+}

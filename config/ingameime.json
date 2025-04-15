@@ -1,0 +1,7 @@
+{
+  "disableIMEInCommandMode": false,
+  "autoReplaceSlashChar": true,
+  "slashChars": [
+    "、"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "cti:pressure_loaded"
+    },
+    {
+      "name": "tinkers_ingenuity:laceration",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 3,
+        "name": "cti:pressure_loaded"
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 1
+      }
+    ]
+  }
+}

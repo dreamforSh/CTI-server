@@ -1,0 +1,97 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABCCCBAA",
+    "ABDEFGDBA",
+    "BDHIJIKDB",
+    "CLIJMJINC",
+    "COJPQRJOC",
+    "CSIJTJIUC",
+    "BDVIJIWDB",
+    "ABDXYZDBA",
+    "AABCCCBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:infinity"
+    },
+    "B": {
+      "item": "projecte:dark_matter_block"
+    },
+    "C": {
+      "item": "enigmaticlegacy:etherium_block"
+    },
+    "D": {
+      "item": "kubejs:electronium_block"
+    },
+    "E": {
+      "item": "avaritia:neutron"
+    },
+    "F": {
+      "item": "enigmaticlegacy:ascension_amulet"
+    },
+    "G": {
+      "item": "kubejs:protonium_block"
+    },
+    "H": {
+      "item": "l2complements:totemic_gold_block"
+    },
+    "I": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "J": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "K": {
+      "item": "l2complements:poseidite_block"
+    },
+    "L": {
+      "item": "solidarytinker:dwarf_block"
+    },
+    "M": {
+      "item": "enigmaticlegacy:twisted_heart"
+    },
+    "N": {
+      "item": "tconstruct:manyullyn_block"
+    },
+    "O": {
+      "item": "l2complements:heirophant_green"
+    },
+    "P": {
+      "item": "enigmaticlegacy:unholy_grail"
+    },
+    "Q": {
+      "item": "avaritia:infinity_nugget"
+    },
+    "R": {
+      "item": "enigmaticlegacy:forbidden_fruit"
+    },
+    "S": {
+      "item": "botania:terrasteel_block"
+    },
+    "T": {
+      "item": "enigmaticlegacy:the_cube"
+    },
+    "U": {
+      "item": "botania:elementium_block"
+    },
+    "V": {
+      "item": "mythicbotany:alfsteel_block"
+    },
+    "W": {
+      "item": "botania:manasteel_block"
+    },
+    "X": {
+      "item": "kubejs:stellaralloy_block"
+    },
+    "Y": {
+      "item": "enigmaticlegacy:eldritch_amulet"
+    },
+    "Z": {
+      "item": "kubejs:blitz_luminium_block"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:enigmatic_item"
+  }
+}

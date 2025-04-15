@@ -1,0 +1,13 @@
+{
+	icon: "botania:pure_daisy"
+	id: "65E6BE3C55C95930"
+	loot_size: 3
+	order_index: 30
+	rewards: [
+		{ item: "botania:livingrock" }
+		{ item: "botania:livingwood_log" }
+		{ item: "botania:mana_string" }
+		{ item: "botania:manasteel_ingot" }
+	]
+	title: "王之书-植魔-半身-抽奖"
+}

@@ -1,0 +1,29 @@
+{
+	id: "30253C7A8B98BB5C"
+	loot_size: 1
+	order_index: 74
+	rewards: [{
+		item: {
+			Count: 1b
+			id: "minecraft:player_head"
+			tag: {
+				SkullOwner: {
+					Id: [I;
+						-261543167
+						-93502267
+						-1700162595
+						757283990
+					]
+					Name: "Ethanethiol"
+					Properties: {
+						textures: [{
+							Signature: "oayCesXJe8R5Kp+jm0a0iNrJoEVL2ouoEqLVBWlrsMXZnLf/1DnTiNvel5cI7Y2Jw1R+omnB2kZaI0l+6HS9N9+2q/90ehkjknXaH0UBx5vZ4NJtzGPNLG53q986/5DupkaKZjIQ9aHOYfL9Acue4VcbqYrYlcMaXg1+Sza7zqdZFmj43IGFL1twvmf9nQXmNgJHsH3PTUD6UyPCcmgeb3GY6eIQdhFJY+S2VHrEVDF9EWWeTufZyI9rQTbP+srOeZbcZjh2kidbxkch2cbvk1jmk5Y0J7WRV5H00ppqhurFU/moD2exZh/rtcI1/u4Kz0JhH3jyX5Cj8K88NwK7H7ESYYDyrZLBWn6kgN0nMIPvdptUlGxaP6bvVFm8uZB6ZikA8YLlhM7nAHkkDrAREKC7kb/oV8JsEcGi48MHvlyMm04oCLVTZUxH3SGd249w3/j2C3xvoiIlog0/5VPstVQZykdAj+fIoiJOaKbAgumiEQxcDKSW7luhjAoFlM0ZJjwGLlh1cX+6dt3R6GSbDNqj11QAroETlNWFGmKjg8DN0EPyswyQvfLp+42O5BJFXOAfp9Q6RNwSUk6RIYgwJddnrRrnBi87loacT8jlZZKlR8BemjcymT7wO9/jVb0G85ZVWeCjLdL0L8h6tOPK/RioxT7y8jQrwiZfW+iGPrM="
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODg4NTAyNDYxMCwKICAicHJvZmlsZUlkIiA6ICJmMDY5MmIwMWZhNmQ0NGM1OWFhOTkzZGQyZDIzM2M5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdGhhbmV0aGlvbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWYzYjQzODNhZTU5YWNjZDdjNjJlMjY3MWZiZjZlNWE5NmYyNzgyY2E3NjdmYTE2ZDVlNWZhMTdlZTc3NjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+						}]
+					}
+				}
+			}
+		}
+	}]
+	title: "开发者战利品"
+}

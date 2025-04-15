@@ -1,0 +1,23 @@
+{
+	icon: "tinkersinnovation:polychrome_mix"
+	id: "69E7FF35C30B4FE3"
+	loot_size: 6
+	order_index: 55
+	rewards: [
+		{ count: 4, item: "tinkersinnovation:slimton_block" }
+		{ item: "tinkersinnovation:polychrome_alloy_block" }
+		{ item: "tinkersinnovation:void_crystal_block" }
+		{ item: "tinkersinnovation:hostilium_block" }
+		{ count: 4, item: "tinkersinnovation:fools_gold_block" }
+		{ count: 2, item: "tinkersinnovation:enchantment_block" }
+		{ item: "tinkersinnovation:decline_block" }
+		{ count: 18, item: "tinkersinnovation:soul_bone", random_bonus: 18, title: "18~36x 魂之骨" }
+		{ count: 18, item: "tinkersinnovation:slime_bone", random_bonus: 18, title: "18~36x 粘液之骨" }
+		{ count: 18, item: "tinkersinnovation:honey_bone", random_bonus: 18, title: "18~36x 蜜之骨" }
+		{ count: 18, item: "tinkersinnovation:cooked_bone", random_bonus: 18, title: "18~36x 血之骨" }
+		{ count: 18, item: "tinkersinnovation:blood_bone" }
+		{ count: 18, item: "tinkersinnovation:gorgon_hair", random_bonus: 18, title: "18~36x 蛇发" }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-创新-全收集-抽奖"
+}

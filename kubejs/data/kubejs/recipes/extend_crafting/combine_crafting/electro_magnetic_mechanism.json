@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 25000,
+  "powerRate": 25000,
+  "input": {
+    "item": "immersiveengineering:dynamo"
+  },
+  "ingredients": [
+    {
+      "item": "immersiveengineering:wirecoil_electrum"
+    },
+    {
+      "item": "minecraft:lodestone"
+    },
+    {
+      "item": "createaddition:capacitor"
+    },
+    {
+      "item": "create:electron_tube"
+    }
+  ],
+  "result": {
+    "item": "kubejs:electro_magnetic_mechanism"
+  }
+}

@@ -1,0 +1,294 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_out",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_in",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_out",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_in",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_out",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_in",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_out",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_in",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_out",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_in",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_out",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_in",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_out",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_in",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_out",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_in",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_out",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_in",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_out",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_in",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_out",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_in",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_out",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_in",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_out",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_in",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_out",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_in",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_out",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_in",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "item_out",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_in",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "fluid_out",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_in",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:io_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "energy_out",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:io_block"
+	}
+]

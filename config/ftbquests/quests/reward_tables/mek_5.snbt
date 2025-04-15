@@ -1,0 +1,30 @@
+{
+	icon: {
+		Count: 1b
+		id: "mekanism:atomic_disassembler"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "1000000"
+				}]
+			}
+		}
+	}
+	id: "657B402C6C1DAB68"
+	loot_size: 6
+	order_index: 65
+	rewards: [
+		{ count: 2, item: "mekanism:block_refined_obsidian" }
+		{ count: 2, item: "mekanism:block_refined_glowstone" }
+		{ count: 9, item: "mekanism:alloy_atomic" }
+		{ item: "mekanism:pellet_antimatter", title: "1~9x 反物质靶丸", weight: 0.5f }
+		{ count: 2, item: "enigmaticlegacy:etherium_block", weight: 0.5f }
+		{ item: "enigmaticlegacy:evil_ingot", random_bonus: 8, title: "1~9x 极恶锭", weight: 0.5f }
+		{ count: 9, item: "aquamirae:sharp_bones" }
+		{ count: 9, item: "aquamirae:anglers_fang", random_bonus: 9, title: "9~18x 鮟鱇尖牙" }
+		{ item: "aquamirae:abyssal_amethyst", random_bonus: 8, title: "1~9x 深海紫水晶", weight: 0.5f }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-mek-神遗-海灵-全收集-抽奖"
+}

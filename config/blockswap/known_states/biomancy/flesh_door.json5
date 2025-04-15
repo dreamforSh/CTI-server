@@ -1,0 +1,6914 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "left",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "true",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "x_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "z_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_positive",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_middle",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"orientation": "y_negative",
+			"open": "false",
+			"hinge": "right",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "biomancy:flesh_door"
+	}
+]

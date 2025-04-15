@@ -1,0 +1,7 @@
+
+#Modifier Setting
+[Modifier]
+	#hoshino's damage percentage
+	#Range: > 0
+	percent = 2
+

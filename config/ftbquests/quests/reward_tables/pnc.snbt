@@ -1,0 +1,13 @@
+{
+	id: "0B4F4F282AF92D8D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 12, item: "minecraft:iron_ingot" }
+		{ count: 4, item: "pneumaticcraft:ingot_iron_compressed" }
+		{ count: 12, item: "thermal:lead_ingot" }
+		{ count: 24, item: "minecraft:redstone" }
+		{ count: 12, item: "minecraft:stone" }
+	]
+	title: "PnC奖励（一阶）"
+}

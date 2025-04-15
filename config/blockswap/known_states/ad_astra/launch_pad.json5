@@ -1,0 +1,150 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "top_left"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "top_left"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "top"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "top"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "top_right"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "top_right"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "left"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "left"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "center"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "right"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "right"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "bottom_left"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "bottom_left"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "bottom"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "bottom"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"location": "bottom_right"
+		},
+		"Name": "ad_astra:launch_pad"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"location": "bottom_right"
+		},
+		"Name": "ad_astra:launch_pad"
+	}
+]

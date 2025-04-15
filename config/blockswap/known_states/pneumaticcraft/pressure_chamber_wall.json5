@@ -1,0 +1,70 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "center"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "xedge"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "zedge"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "yedge"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "xmin_ymin_zmin"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "xmin_ymin_zmax"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "xmin_ymax_zmin"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"wall_state": "xmin_ymax_zmax"
+		},
+		"Name": "pneumaticcraft:pressure_chamber_wall"
+	}
+]

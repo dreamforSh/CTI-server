@@ -1,0 +1,51 @@
+{
+	icon: {
+		Count: 1b
+		id: "avaritia:singularity"
+		tag: {
+			Id: "avaritia:iron"
+		}
+	}
+	id: "7EB6FAE1DDE56369"
+	loot_size: 1
+	order_index: 71
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "hostilities"
+				}
+			}
+		}
+	]
+	title: "boss进度1"
+}

@@ -1,0 +1,49 @@
+{
+	icon: "ad_astra:nasa_workbench"
+	id: "0545A6A0C018A20C"
+	loot_size: 6
+	order_index: 61
+	rewards: [
+		{ count: 3, item: "ad_astra:desh_block" }
+		{ count: 3, item: "ad_astra:calorite_block" }
+		{ count: 3, item: "ad_astra:ostrum_block" }
+		{ count: 3, item: "ae2:quartz_block" }
+		{ count: 3, item: "ae2:fluix_block" }
+		{ count: 9, item: "ae2:silicon", random_bonus: 9, title: "9~18x 硅" }
+		{ count: 3, item: "tinkers_things:hematite_block" }
+		{
+			count: 9
+			item: {
+				Count: 1b
+				id: "tconstruct:bowstring"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+		}
+		{
+			count: 9
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+		}
+		{
+			count: 9
+			item: {
+				Count: 1b
+				id: "tinkers_ingenuity:gscore"
+				tag: {
+					Material: "tinkers_things:veinline"
+				}
+			}
+		}
+		{ count: 3, item: "aquaculture:neptunium_block", weight: 0.5f }
+		{ count: 3, item: "cataclysm:ignitium_block", weight: 0.25f }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-ad-ae-杂物-水产-灾变-全收集-抽奖"
+}

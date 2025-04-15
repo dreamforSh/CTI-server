@@ -1,0 +1,77 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "true",
+			"bright": "true",
+			"ambient_occlusion": "true"
+		},
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "false",
+			"bright": "true",
+			"ambient_occlusion": "true"
+		},
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "true",
+			"bright": "false",
+			"ambient_occlusion": "true"
+		},
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "false",
+			"bright": "false",
+			"ambient_occlusion": "true"
+		},
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "true",
+			"bright": "true",
+			"ambient_occlusion": "false"
+		},
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "true",
+			"bright": "false",
+			"ambient_occlusion": "false"
+		},
+		"Name": "buildinggadgets:construction_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"neighbor_brightness": "false",
+			"bright": "false",
+			"ambient_occlusion": "false"
+		},
+		"Name": "buildinggadgets:construction_block"
+	}
+]

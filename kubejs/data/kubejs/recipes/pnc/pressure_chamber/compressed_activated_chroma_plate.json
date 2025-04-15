@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 8,
+        "item": "etshtinker:activated_chroma_plate"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "count": 1,
+        "item": "kubejs:zirconium_alloy"
+      }
+    ],
+    "pressure": 4.0,
+    "results": [
+      {
+        "item": "kubejs:compressed_activated_chroma_plate"
+      }
+    ]
+}

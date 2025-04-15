@@ -1,0 +1,14 @@
+{
+	icon: "twilightforest:experiment_115"
+	id: "36B9C5B3B1AD9CB6"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ count: 4, item: "gobber2:gobber2_ingot_nether" }
+		{ count: 4, item: "solidarytinker:damascus_steel_ingot" }
+		{ count: 4, item: "l2complements:totemic_gold_ingot" }
+		{ count: 4, item: "twilightforest:fiery_ingot" }
+		{ count: 4, item: "twilightforest:knightmetal_ingot" }
+	]
+	title: "暮色3级奖励包"
+}

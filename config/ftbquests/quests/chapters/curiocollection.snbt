@@ -1,0 +1,4514 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "curiocollection"
+	group: "273277F565C25044"
+	icon: "enigmaticlegacy:the_cube"
+	id: "5397A70C93B3A1E4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"这里汇集了你所有可能在游戏中获取到的饰品"
+				"&e需要七咒之戒才可使用的饰品以五边形框标记"
+				"被ban的不计入"
+				"总共246种"
+			]
+			id: "54C5180475273171"
+			shape: "heart"
+			size: 3.0d
+			subtitle: "有些东西因为超模或bug已经上ban位了"
+			tasks: [{
+				id: "2E0B3C613B27F980"
+				type: "checkmark"
+			}]
+			title: "饰品收集指南"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "265B316F15812B1D"
+			tasks: [{
+				id: "1D2FE1288125ED71"
+				item: "aether:iron_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "2380A35F57D9C8D3"
+			subtitle: "给你最爱的人"
+			tasks: [{
+				id: "4916A7B724FB1EF8"
+				item: "aether:golden_ring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "22664F3107D9CAAD"
+			tasks: [{
+				id: "627715762EDFB807"
+				item: {
+					Count: 1b
+					id: "aether:zanite_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "1AD2018601DEEC6D"
+			tasks: [{
+				id: "1840146B4283C31C"
+				item: {
+					Count: 1b
+					id: "aether:ice_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "0B67B704C05D1394"
+			tasks: [{
+				id: "3D04F9DB965AA689"
+				item: "aether:iron_pendant"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "4E835DEE29931A1F"
+			subtitle: "大金链子大金表"
+			tasks: [{
+				id: "0BA76EC6A6922025"
+				item: "aether:golden_pendant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "0295954C23DDEDEB"
+			tasks: [{
+				id: "4601CE01B86C7BEF"
+				item: {
+					Count: 1b
+					id: "aether:zanite_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "0390C63D64A33B23"
+			tasks: [{
+				id: "6E094A19B40DB331"
+				item: {
+					Count: 1b
+					id: "aether:ice_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "2AC06B09BBB2BA62"
+			subtitle: "装b用"
+			tasks: [{
+				id: "2F8287732DEECBAC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "aether:accessories_capes"
+					}
+				}
+				title: "Any #aether:accessories_capes"
+				type: "item"
+			}]
+			title: "披风"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: ["&b绝对的隐身，可以连同身上手上的装备装饰一同隐身，连粒子效果也没有&r"]
+			id: "4B24F84EAF85AEDF"
+			tasks: [{
+				id: "36B8E5A26C9A6D21"
+				item: "aether:invisibility_cloak"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "51C5D0B54F3A2B30"
+			subtitle: "史维特骑士"
+			tasks: [{
+				id: "5F13047253F6F584"
+				item: "aether:swet_cape"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "5C659D4A4052187F"
+			subtitle: "不如健体苹果的玩意"
+			tasks: [{
+				id: "3432D4B7BCAF806E"
+				item: "aether:agility_cape"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "395C430F2086AB67"
+			subtitle: "我全防出去了，没有闪"
+			tasks: [{
+				id: "12999FBB40E505DF"
+				item: {
+					Count: 1b
+					id: "aether:shield_of_repulsion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "078B2A2689EC405A"
+			subtitle: "可以叠加效果的回血饰品"
+			tasks: [{
+				id: "66E139CFDC0DC079"
+				item: "aether:regeneration_stone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "7A20E0F9E434360A"
+			tasks: [{
+				id: "44FF155577EFA225"
+				item: "aether:golden_feather"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "0072382AAB4D5849"
+			tasks: [{
+				id: "6B250E67D6D458BE"
+				item: "aether:iron_bubble"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "10E71A65169880E2"
+			tasks: [{
+				id: "5837D1250F61EF76"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "3E4E12523FC347C2"
+			tasks: [{
+				id: "60CBAFA9F7D92A91"
+				item: "meetyourfight:spectres_grasp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "7806A20C4D564FAD"
+			tasks: [{
+				id: "0CE8323C9DD3875D"
+				item: "l2hostility:flaming_thorn"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "656605E028B578AA"
+			subtitle: "法穿棒"
+			tasks: [{
+				id: "79FA2A99C7BA6321"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "6292CF3279408D55"
+			subtitle: "1936年第一参加西安睡衣登山大赛……"
+			tasks: [{
+				id: "7B4846E59294CD8C"
+				item: {
+					Count: 1b
+					id: "cyclic:glove_climb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "08D34BF3C3C40357"
+			shape: "circle"
+			subtitle: "提供高额攻速加成"
+			tasks: [{
+				id: "5E066B93D2097E6F"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_attack_speed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "3C3F38FD7C0D6C5E"
+			shape: "circle"
+			subtitle: "增加暴击伤害"
+			tasks: [{
+				id: "4E2052018B8D5E84"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_crit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "42A97D3D67622DAB"
+			tasks: [{
+				id: "5C9D835B988AC7F5"
+				item: "cataclysm:sticky_gloves"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "4F5C497DD541E24B"
+			subtitle: "耐饿王"
+			tasks: [{
+				id: "42C09779AD560B4D"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_starvation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "48C78952D206FF13"
+			subtitle: "聋的传人"
+			tasks: [{
+				id: "3BBC2554BB57C9F2"
+				item: "immersiveengineering:earmuffs"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "4CE68C4ADB7E797B"
+			tasks: [{
+				id: "39ADFAFCDA6A16FD"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_boostpotion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "50593BBE30E9B6A4"
+			subtitle: "常驻净化"
+			tasks: [{
+				id: "40DB43532FC19D85"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_antipotion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "3D346B0D99343D06"
+			subtitle: "耐撞王"
+			tasks: [{
+				id: "01871A2373B739D3"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "1F8708D04D170D45"
+			tasks: [{
+				id: "3558B18400E012DF"
+				item: {
+					Count: 1b
+					id: "cyclic:glowing_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "2AD780EB3FDEC7A4"
+			subtitle: "机械动力必备饰品"
+			tasks: [{
+				id: "7ABE025B03E15F5B"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "734058E64A9947AF"
+			tasks: [{
+				id: "3EACA8C2F7D25143"
+				item: "botania:itemfinder"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "5F5CA318473FB7CD"
+			tasks: [{
+				id: "6C872D6D21802B32"
+				item: "ars_nouveau:alchemists_crown"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "6DB13B0EE8E87948"
+			subtitle: "我看到你了……"
+			tasks: [{
+				id: "2533F3F35F431492"
+				item: "l2hostility:detector_glasses"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "13EC0A4A77CB8D66"
+			subtitle: "这鸡汤十分的珍贵——"
+			tasks: [{
+				id: "5A7CFDE4DD6F17CA"
+				item: "industrialforegoing:meat_feeder"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "63ABD2F36E9AA4B4"
+			tasks: [{
+				id: "192F11110B7C791E"
+				item: "meetyourfight:blossoming_mind"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "19EA2BA2E5758A53"
+			subtitle: "众神之父赐予我视野"
+			tasks: [{
+				id: "2BCAD69E219B07F0"
+				item: "meetyourfight:spectres_eye"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "1BA25A32A76F75F2"
+			subtitle: "耐炸王"
+			tasks: [{
+				id: "1487A7C323B389B1"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "0C3365C49653EB12"
+			subtitle: "我的剑上可是有剧毒的！"
+			tasks: [{
+				id: "27AF064D8F69951D"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_venom"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "3BEBE78B9C31AF62"
+			subtitle: "感觉不如以太飞仙"
+			tasks: [{
+				id: "4F31314DFA47EB14"
+				item: {
+					Count: 1b
+					id: "cyclic:antigravity"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			id: "660423B6E2F2D7DB"
+			subtitle: "耐活王"
+			tasks: [{
+				id: "0A20C8D5FB3CE35B"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_ultimate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "5276E634F33E08D2"
+			tasks: [{
+				id: "1911314447CC2357"
+				item: "meetyourfight:wilted_ideals"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "2F1F3B62F0488459"
+			subtitle: "无限水"
+			tasks: [{
+				id: "03E6CF926FE0B96F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:evertide_amulet"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "0559F40BF4CDB675"
+			subtitle: "无限熔岩"
+			tasks: [{
+				id: "4893FC9BFED1733C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:volcanite_amulet"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			id: "0B37CE9E33123451"
+			tasks: [{
+				id: "362664250D97165A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:body_stone"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			id: "05F87F0BA0D0313E"
+			tasks: [{
+				id: "3F7AD481893865A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:soul_stone"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			id: "564C5F079E6F47C8"
+			tasks: [{
+				id: "77D81EA5BF82250C"
+				item: "botania:super_lava_pendant"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "478EEFAEE965E760"
+			tasks: [{
+				id: "7C4E472DFBA58FD8"
+				item: "botania:super_cloud_pendant"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "53E51A6A0C6350F2"
+			tasks: [{
+				id: "2AA82C091A687732"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "736179AE65838DEB"
+			tasks: [{
+				id: "2D1D0AA08F972368"
+				item: "botania:lava_pendant"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "3BF48BA7C693747B"
+			tasks: [{
+				id: "701C976B1F7FCE5E"
+				item: "botania:cloud_pendant"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			id: "7DEEECA0F369015C"
+			tasks: [{
+				id: "3E77014B5FD91446"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			id: "5C481A7972AB5552"
+			tasks: [{
+				id: "38CF1F93512A210E"
+				item: "botania:blood_pendant"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"05F87F0BA0D0313E"
+				"0B37CE9E33123451"
+			]
+			id: "4B29F0B9FB2081B3"
+			tasks: [{
+				id: "5324E00807556195"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:life_stone"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			id: "012C6DDFE5CA774A"
+			tasks: [{
+				id: "193422491A852A12"
+				item: {
+					Count: 1b
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "54AA892722F28308"
+			subtitle: "我的箭上可是有剧毒的：）"
+			tasks: [{
+				id: "0608EE041A477796"
+				item: {
+					Count: 1b
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			id: "3B29E00B48A1D7AE"
+			subtitle: "前期随身供电方案"
+			tasks: [{
+				id: "45DF445A369F6770"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:powerpack"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			id: "66476E79804DF97A"
+			tasks: [{
+				id: "0F7636B1B0A7780A"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			id: "7355BB4AF71563E7"
+			subtitle: "自 然 之 力"
+			tasks: [{
+				id: "70B17D2D552F466F"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_magicdefense"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			id: "745FF4D62C06F7AE"
+			tasks: [{
+				id: "5972D221887A0028"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_invisible"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			id: "1753F4BF509F5335"
+			subtitle: "天罚！"
+			tasks: [{
+				id: "4287A5820F4A3184"
+				item: {
+					Count: 1b
+					id: "cyclic:quiver_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			id: "108C44215B35F796"
+			subtitle: "实用性高，拓展性强，你最好的收纳伙伴"
+			tasks: [{
+				id: "6EB2252705A67D27"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "5425B9019F2B8683"
+			subtitle: "不如精妙背包的玩意"
+			tasks: [{
+				id: "0EBF6308DECC147C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["108C44215B35F796"]
+			id: "193BA2CC3083C01F"
+			subtitle: "做了没意义"
+			tasks: [{
+				id: "7AD13768B7596D88"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["108C44215B35F796"]
+			id: "7ADAF8829D4EC716"
+			tasks: [{
+				id: "4ECF8D175BADF0E1"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7ADAF8829D4EC716"]
+			id: "102CDD1D395BCAAE"
+			tasks: [{
+				id: "2437186363C33A8D"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["102CDD1D395BCAAE"]
+			id: "6DDC66FBFDA5FE74"
+			tasks: [{
+				id: "2204F7F55B95DE9A"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DDC66FBFDA5FE74"]
+			id: "62FE28772F497364"
+			subtitle: "最强收纳"
+			tasks: [{
+				id: "4E63AF0A98B628A4"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			id: "7D25FC550031777A"
+			tasks: [{
+				id: "539FB440D99957CA"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			id: "37B9EC78E559CB21"
+			tasks: [{
+				id: "305D490F4FCEA44D"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			id: "19AAB58011646B87"
+			subtitle: "让我视姦你"
+			tasks: [{
+				id: "5DFE4518ECE42515"
+				item: "botania:third_eye"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			id: "40ED24B921EFC325"
+			tasks: [{
+				id: "79EB1A37349B5850"
+				item: "botania:invisibility_cloak"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "34EE1E3F6F481693"
+			tasks: [{
+				id: "2BA7D949146E3E65"
+				item: "botania:unholy_cloak"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "3F8224CC2F8569B4"
+			tasks: [{
+				id: "2EAAFF70CB5F6C80"
+				item: "botania:balance_cloak"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			id: "736FE0D8FB49F35C"
+			tasks: [{
+				id: "01DE38E86A436CC1"
+				item: "botania:holy_cloak"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "3961DD25C8956835"
+			subtitle: "emc储存"
+			tasks: [{
+				id: "00C826D318946DD0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_ein"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3961DD25C8956835"]
+			id: "52E371E61CE2ED20"
+			tasks: [{
+				id: "709543F5213892D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_zwei"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52E371E61CE2ED20"]
+			id: "30D923CEB1EC1F0B"
+			tasks: [{
+				id: "2F0CF07A33409945"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_drei"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30D923CEB1EC1F0B"]
+			id: "6AE45D3BA668DDA6"
+			tasks: [{
+				id: "07A369B4591C7442"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_vier"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AE45D3BA668DDA6"]
+			id: "43AF98C91DA727A4"
+			tasks: [{
+				id: "704B184908E98BBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_sphere"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43AF98C91DA727A4"]
+			id: "6960191FD5E4D07F"
+			tasks: [{
+				id: "3C00F90B303413BB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:klein_star_omega"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			id: "69407340EBF0F62A"
+			tasks: [{
+				id: "3884A213EC2E0827"
+				item: "ars_nouveau:shapers_focus"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			id: "2681110E0E560166"
+			tasks: [{
+				id: "64F99E5A8BD60187"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			id: "57B91F577CFCA783"
+			subtitle: "就是个磁铁武器挂架"
+			tasks: [{
+				id: "7824E9D657EA7912"
+				item: "mekaweapons:magnetizer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			id: "5571514BB5C0F950"
+			tasks: [{
+				id: "446CD03D1C39AD23"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_copper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5571514BB5C0F950"]
+			id: "5345A03728232479"
+			tasks: [{
+				id: "290FCF7FCD8E930F"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5345A03728232479"]
+			id: "5D76BA0BF6020824"
+			tasks: [{
+				id: "2F81F44840AF5F47"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D76BA0BF6020824"]
+			id: "7659703D78A8CBDD"
+			tasks: [{
+				id: "32202007EBC552FB"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_emerald"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7659703D78A8CBDD"]
+			id: "020D3D5A559D6CF2"
+			tasks: [{
+				id: "4C364F8098633C58"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_diamond"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["020D3D5A559D6CF2"]
+			id: "39E67DE4B7837B7A"
+			tasks: [{
+				id: "304101A0CB0674A1"
+				item: {
+					Count: 1b
+					id: "lightmanscurrency:wallet_netherite"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			id: "2EE9B0438517D015"
+			tasks: [{
+				id: "793BA7955DE220EE"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_knockback_resistance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			id: "2A03F73AF0D6CF3D"
+			tasks: [{
+				id: "29FDB4D1DF6BE633"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "7CB25EE6B6114D5F"
+			tasks: [{
+				id: "51C53FE5C29620B9"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "128D29D06709ED32"
+			tasks: [{
+				id: "3634EA738716173F"
+				item: "ars_nouveau:jump_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "7309C1B2DD66BBD6"
+			tasks: [{
+				id: "0B6E65D37EF7690F"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "4E23B3C714EB5FE3"
+			tasks: [{
+				id: "738F067E3F390548"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "589E19E643290329"
+			tasks: [{
+				id: "19533EB12E5592DA"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "24A12C50230F79D4"
+			tasks: [{
+				id: "016EA662F46AB5D5"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "1951C16AC8D1D08C"
+			tasks: [{
+				id: "620AA578D674BC9A"
+				item: "botania:magnet_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "27A6C35C33741B30"
+			tasks: [{
+				id: "2D15C49D946E4871"
+				item: "botania:magnet_ring_greater"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "191E4ACB024E52F9"
+			tasks: [{
+				id: "2D7D1A60CE009026"
+				item: "botania:water_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "07AC09081A0EEB50"
+			tasks: [{
+				id: "77D4C59945764EA4"
+				item: "botania:swap_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "027DB2F0783CE8BE"
+			tasks: [{
+				id: "4C5703CD96FA2847"
+				item: "botania:dodge_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "0F0EF13E00A9794A"
+			tasks: [{
+				id: "3BF2658B657FADDB"
+				item: "botania:mining_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "42B889973D553696"
+			tasks: [{
+				id: "501D6F34B45101EE"
+				item: {
+					Count: 1b
+					id: "botania:pixie_ring"
+					tag: {
+						baubleUUID: [I;
+							-1256968492
+							584139208
+							-1629672329
+							-1781624895
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			id: "377D8C529101EDB8"
+			tasks: [{
+				id: "4ACBC592E43C56EA"
+				item: {
+					Count: 1b
+					id: "botania:reach_ring"
+					tag: {
+						baubleUUID: [I;
+							-1652677397
+							2138522686
+							-1082208657
+							-2053504064
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "5B45ECF3B6247727"
+			tasks: [{
+				id: "09C868169954CD8F"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "2F83DBE938307690"
+			tasks: [{
+				id: "27C7AC90FAD5DEDE"
+				item: {
+					Count: 1b
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							1687974501
+							73681662
+							-1749167914
+							1625591504
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "1FC5CDA6A6DBAAFC"
+			tasks: [{
+				id: "4173DD92F731CC1C"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "1CDBCF939A77E95D"
+			tasks: [{
+				id: "272CAE45B05A98A9"
+				item: "mythicbotany:aura_ring_greatest"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "0648274C32172F0D"
+			tasks: [{
+				id: "720F6DC589B543D0"
+				item: "mythicbotany:mana_ring_greatest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "42F249693C0E1AE0"
+			tasks: [{
+				id: "0339563DEAE4761A"
+				item: "mythicbotany:fire_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			id: "6AF862E7B3A5253A"
+			tasks: [{
+				id: "48FE7A943C2A40CF"
+				item: "mythicbotany:ice_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "1BF8CB12075F42F0"
+			tasks: [{
+				id: "3C37036EAA858739"
+				item: "mythicbotany:cursed_andwari_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			id: "1CBE52071FFEBCB7"
+			tasks: [{
+				id: "7FC08AA27E45655E"
+				item: {
+					Count: 1b
+					id: "mythicbotany:andwari_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "54E3F943AFBB5CDA"
+			shape: "pentagon"
+			subtitle: "强力的道具往往伴随着风险"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "1B6B29C75F38D07E"
+				type: "advancement"
+			}]
+			title: "七咒之戒"
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			id: "76A966043B087C1F"
+			tasks: [{
+				id: "77490855B609D4BA"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			id: "2E18F634F55AF5BE"
+			tasks: [{
+				id: "66E5B5FB37845118"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			id: "745771E15DDEF8C4"
+			tasks: [{
+				id: "24A34305E74F2FAB"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			id: "3137EF55F903D4A4"
+			tasks: [{
+				id: "4A2E72D0A9822D43"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "04D18B99727427C5"
+			tasks: [{
+				id: "36C66A0BE5A6AD26"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "702862A610BF7CD3"
+			tasks: [{
+				id: "0B08F07135BE6586"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_luck"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			id: "24C28788DA9D8655"
+			tasks: [{
+				id: "26559373C51E81D5"
+				item: "cyclic:charm_xp_speed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			id: "2593F1BAA461BBFA"
+			tasks: [{
+				id: "650A5E8B263D916A"
+				item: "cyclic:charm_xp_blocker"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			id: "7A2B59C565ECFE0D"
+			tasks: [{
+				id: "6A3E189E971433E8"
+				item: "gobber2:gobber2_ring_attraction"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			id: "5A61FFADC9A360D2"
+			tasks: [{
+				id: "00A9601E7E360A54"
+				item: "gobber2:gobber2_ring_return"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.5d
+		}
+		{
+			id: "73345374A85CA4E8"
+			tasks: [{
+				id: "6AD97D44C5BA1492"
+				item: "gobber2:gobber2_ring_ascent"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			id: "4D5DCDA0F704CD18"
+			tasks: [{
+				id: "4D997C28E529C810"
+				item: "gobber2:gobber2_ring_above"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			id: "30907AB3EEE6AACA"
+			tasks: [{
+				id: "5206D2E61555A80A"
+				item: "gobber2:gobber2_ring_miner"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			id: "6B5E16FE3F5A846D"
+			tasks: [{
+				id: "414353077F751B4E"
+				item: "gobber2:gobber2_ring_farmer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			id: "351E780E0E8F33E2"
+			subtitle: "都给我开impact！"
+			tasks: [{
+				id: "4C9E9D939D061882"
+				item: "gobber2:gobber2_ring_husbandry"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			id: "3B4E99655E5C471A"
+			tasks: [{
+				id: "22AB3A02EDC087EA"
+				item: "gobber2:gobber2_ring_swiftness"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			id: "2587406C908306FD"
+			subtitle: "天气之子"
+			tasks: [{
+				id: "044FA22B98794FF3"
+				item: "gobber2:gobber2_ring_sunshine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			id: "79A56BA97BBE888D"
+			tasks: [{
+				id: "176A735CE086F3B2"
+				item: "gobber2:gobber2_ring_acceleration"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			id: "0CAE012C76612C4B"
+			tasks: [{
+				id: "355DA71813445B94"
+				item: "gobber2:gobber2_ring_leaping"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			id: "18668FB121BFD027"
+			tasks: [{
+				id: "112379623714F62F"
+				item: "gobber2:gobber2_ring_nether"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			id: "7F34C562316BCA20"
+			tasks: [{
+				id: "656DBF505E4A3169"
+				item: "gobber2:gobber2_ring_curing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			id: "213B67EE228017CD"
+			tasks: [{
+				id: "5A4DF973CF03EF18"
+				item: "gobber2:gobber2_ring_vision"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			id: "6A1F557ABDA3E7CC"
+			shape: "diamond"
+			subtitle: "最好不要尝试使用"
+			tasks: [{
+				id: "2455517DDED10064"
+				item: "gobber2:gobber2_ring_phoenix"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			id: "3CDBF460ADFB0176"
+			subtitle: "烈焰人杀手"
+			tasks: [{
+				id: "702694392A75B154"
+				item: "gobber2:gobber2_ring_blaze"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.5d
+		}
+		{
+			id: "7E2FF964B2F56D5D"
+			tasks: [{
+				id: "26F050771F42FB54"
+				item: "gobber2:gobber2_ring_haste"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			id: "466799DEECD7E0A0"
+			tasks: [{
+				id: "2F6D874339131C99"
+				item: "gobber2:gobber2_ring_repair"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.5d
+		}
+		{
+			id: "559E870C7A3427EE"
+			tasks: [{
+				id: "33530C520BF0FFD5"
+				item: "gobber2:gobber2_ring_teleport"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			id: "52A452E3235E0053"
+			tasks: [{
+				id: "7540B8C76FFE1C6E"
+				item: "gobber2:gobber2_ring_blink"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			id: "56AF40FA3ED7A6B9"
+			tasks: [{
+				id: "1BA7B57D776C1BA6"
+				item: "gobber2:gobber2_ring_end"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			id: "6DF921F5D43D8155"
+			subtitle: "投技"
+			tasks: [{
+				id: "15D78A9271638351"
+				item: "gobber2:gobber2_ring_dismissal"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			id: "51FE50F7BFBE420B"
+			subtitle: "日  炎  圣  盾"
+			tasks: [{
+				id: "4930CDBE10C1684B"
+				item: "gobber2:gobber2_ring_pyro"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			id: "5C556BA8F8F7B4F0"
+			tasks: [{
+				id: "253CE1D836E3B2DE"
+				item: "gobber2:gobber2_ring_enderchest"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			id: "45592A6FE269C630"
+			tasks: [{
+				id: "3229A11757941AE3"
+				item: "gobber2:gobber2_ring_traveler"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			id: "4AB5E479B07EBC12"
+			tasks: [{
+				id: "5CB2263A69E1E352"
+				item: "gobber2:gobber2_ring_void"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			id: "7BC246435275ECA6"
+			subtitle: "不如以太飞升"
+			tasks: [{
+				id: "26C484AF70DA2D08"
+				item: "gobber2:gobber2_ring_airwalking"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.5d
+		}
+		{
+			id: "7B02137C376E1572"
+			tasks: [{
+				id: "298289BA1EF94F0F"
+				item: "gobber2:gobber2_ring_stealth"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.5d
+		}
+		{
+			id: "70CB4F70DB5661DC"
+			tasks: [{
+				id: "53A87695F46F3516"
+				item: "l2hostility:ring_of_ocean"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			id: "1B33E8D1593D74DA"
+			tasks: [{
+				id: "27426BEC3C6E2114"
+				item: "l2hostility:ring_of_life"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			id: "069245EEAFDFE112"
+			subtitle: "圣光啊，指引我罢！！！"
+			tasks: [{
+				id: "2824FBBB7F231D96"
+				item: "l2hostility:ring_of_divinity"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			id: "03260A6F539AE1EF"
+			tasks: [{
+				id: "08240978494A4B40"
+				item: "l2hostility:ring_of_reflection"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			id: "0FEE28F45F8D930C"
+			tasks: [{
+				id: "65BDB3DC2CF15F26"
+				item: "l2hostility:ring_of_corrosion"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			id: "295DD99F82D091EC"
+			subtitle: "一二三木头人"
+			tasks: [{
+				id: "23EAD156FB5095DA"
+				item: "l2hostility:ring_of_incarceration"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			id: "492D1E19551C31E9"
+			subtitle: "狂  徒  铠  甲"
+			tasks: [{
+				id: "45D5AF0288862C39"
+				item: "l2hostility:ring_of_healing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			id: "75C797A47941C16C"
+			tasks: [{
+				id: "30BAC320DB303B03"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:black_hole_band"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			id: "2B47E4549FD5502E"
+			tasks: [{
+				id: "31A331A1A13F13D6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:harvest_goddess_band"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			id: "41E254CD5A890BCB"
+			subtitle: "日  炎  圣  盾"
+			tasks: [{
+				id: "6662AAE5D1857BE8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:ignition_ring"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			id: "4906578986667F9A"
+			tasks: [{
+				id: "388F8E2B0E2F2DFB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:zero_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			id: "021E64307296D7E4"
+			subtitle: "雷公助我！"
+			tasks: [{
+				id: "653EE24C8CF90ACE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+					tag: {
+						Mode: 1
+						StoredEMC: 49L
+						UnprocessedEMC: 0.6799939274787903d
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			id: "26173B7AFE5AFD36"
+			subtitle: "没有效果，只是装饰品……"
+			tasks: [{
+				id: "6F752D08476168A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:arcana_ring"
+					tag: {
+						Mode: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			id: "2662A5909D95F06A"
+			tasks: [{
+				id: "3459E99EC26FE57E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			id: "7D51021070EAB32F"
+			subtitle: "简易跨纬度无线存储方案"
+			tasks: [{
+				id: "0D62A9B4313FA417"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			id: "4874AD310A8E6406"
+			subtitle: "I am the storm that is a approaching!"
+			tasks: [{
+				id: "448470883F6C0635"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			id: "687DBE5C2594DC61"
+			tasks: [{
+				id: "5DAE5D1E8E22E76C"
+				item: "cyclic:charm_stealthpotion"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			id: "46F2F058F892D631"
+			tasks: [{
+				id: "27602DE2CF2914DD"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_torch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			id: "0AAE0030EAFDBCF7"
+			tasks: [{
+				id: "5AA766707F14EAC5"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_torch_cave"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "1B05794566B023A2"
+			tasks: [{
+				id: "63DD87FDEA786D86"
+				item: "ars_nouveau:mundane_belt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1B05794566B023A2"]
+			id: "7672374D5CBE981B"
+			tasks: [{
+				id: "20397B60BDB55BDB"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1B05794566B023A2"]
+			id: "1F2B77F85FEE65AB"
+			tasks: [{
+				id: "6BFEA9042B9CA83D"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["1B05794566B023A2"]
+			id: "2C55C0C1AB4FFC0F"
+			tasks: [{
+				id: "13BE7950DAA2B4C7"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1B05794566B023A2"]
+			id: "3C5756EF5D838181"
+			tasks: [{
+				id: "0E41325509E114A5"
+				item: "botania:speed_up_belt"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1B05794566B023A2"]
+			id: "16FC5E48197A0866"
+			tasks: [{
+				id: "42A78F3A5F87ACA8"
+				item: {
+					Count: 1b
+					id: "botania:knockback_belt"
+					tag: {
+						baubleUUID: [I;
+							-337057324
+							-966767588
+							-1606992995
+							-44095657
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["1B05794566B023A2"]
+			id: "16D3AE165A334BC8"
+			tasks: [{
+				id: "2AB0A327EB64ADF4"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.5d
+		}
+		{
+			id: "0DAD64B5E5F271AC"
+			tasks: [{
+				id: "77814E72AAA4E8A4"
+				item: "gobber2:gobber2_ring"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			id: "033090FB242FCA7D"
+			tasks: [{
+				id: "4E24CCBFE201793B"
+				item: {
+					Count: 1b
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			id: "5F9033EC164C2B97"
+			tasks: [{
+				id: "26605809E64024D4"
+				item: {
+					Count: 1b
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 15.5d
+		}
+		{
+			id: "6DE22675342B991B"
+			subtitle: "海鲜市场mc版"
+			tasks: [{
+				id: "3B048ED021F1EA00"
+				item: "lightmanscurrency:portable_terminal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 18.5d
+		}
+		{
+			id: "275E5D9A011C0B31"
+			tasks: [{
+				id: "3438D76BBF6AECB0"
+				item: "lightmanscurrency:portable_atm"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 19.5d
+		}
+		{
+			id: "101528F3A8225D28"
+			subtitle: "万象天引"
+			tasks: [{
+				id: "759FE073EA12B4B6"
+				item: {
+					Count: 1b
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 16.5d
+		}
+		{
+			id: "5B0D4350334C7A83"
+			subtitle: "便携电池"
+			tasks: [{
+				id: "607091696C19D350"
+				item: {
+					Count: 1b
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 17.5d
+		}
+		{
+			id: "6CDD48E83628959E"
+			subtitle: "是谁住在深海的大菠萝里♪"
+			tasks: [{
+				id: "310623F65392A31E"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.5d
+		}
+		{
+			id: "6EA657D63794C14D"
+			subtitle: "太刀虾真虾头（"
+			tasks: [{
+				id: "5E4BB15582C4EF07"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			id: "566FF558DD7A2E78"
+			tasks: [{
+				id: "5186DB82513B6908"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 16.5d
+		}
+		{
+			id: "22C4B6F6FD7076A8"
+			subtitle: "专业旁白"
+			tasks: [{
+				id: "6E0FE7188A6295A6"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 18.5d
+		}
+		{
+			id: "6E8AB3C31C5B8116"
+			tasks: [{
+				id: "3FFD52C5525E8DD2"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:insignia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 19.5d
+		}
+		{
+			id: "3630CCCEEC68216B"
+			tasks: [{
+				id: "56D5D33AF0449115"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3630CCCEEC68216B"]
+			id: "3518C530615E128E"
+			tasks: [{
+				id: "48CBB148202C809A"
+				item: "twilightforest:charm_of_life_2"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.5d
+		}
+		{
+			id: "113E930A1EF665E4"
+			tasks: [{
+				id: "32C785D19AF0EBCC"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["113E930A1EF665E4"]
+			id: "7F628B1909FFD5F7"
+			tasks: [{
+				id: "205F6783106505EB"
+				item: "twilightforest:charm_of_keeping_2"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7F628B1909FFD5F7"]
+			id: "4F89477D35BDF45F"
+			tasks: [{
+				id: "30A6F2A0038E7D82"
+				item: "twilightforest:charm_of_keeping_3"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 16.5d
+		}
+		{
+			id: "4917E0DF40A5949C"
+			subtitle: "没必要的东西"
+			tasks: [{
+				id: "77DF269A5B272F55"
+				item: {
+					Count: 1b
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			id: "699146BF4DA1E148"
+			tasks: [{
+				id: "5EC1F91DFF41B303"
+				item: "botania:tiny_planet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 15.5d
+		}
+		{
+			id: "4189F289FA104DDE"
+			tasks: [{
+				id: "59AAE9FEEDC84B68"
+				item: "botania:goddess_charm"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			id: "438FE69407171DFB"
+			tasks: [{
+				id: "2E46EB601235C277"
+				item: "botania:diva_charm"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			id: "2175B53CF1965B65"
+			tasks: [{
+				id: "1C52746F12F47931"
+				item: "meetyourfight:slicers_dice"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 18.5d
+		}
+		{
+			id: "1E1436F4002950FD"
+			tasks: [{
+				id: "05E5BE35E45B6324"
+				item: "meetyourfight:tomb_planter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 19.5d
+		}
+		{
+			id: "5FA4251F021B48DB"
+			subtitle: "耐憋王"
+			tasks: [{
+				id: "7BA24592D67FFDE3"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_water"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.5d
+		}
+		{
+			id: "4CA2F9E720145847"
+			subtitle: "耐跑王"
+			tasks: [{
+				id: "1E97B8ECC25FC1EB"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_speed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.5d
+		}
+		{
+			id: "29A35813B53D161B"
+			subtitle: "耐虚王"
+			tasks: [{
+				id: "40B4DD3F24CAB03C"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_void"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 16.5d
+		}
+		{
+			id: "6CAD821837E164D6"
+			subtitle: "耐毒王"
+			tasks: [{
+				id: "6A2E2B04EE94DB99"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_antidote"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.5d
+		}
+		{
+			id: "366AD3610851F6AE"
+			subtitle: "耐烧王"
+			tasks: [{
+				id: "41C147C920C3B9C4"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 18.5d
+		}
+		{
+			id: "54045A447600E764"
+			subtitle: "耐凋王"
+			tasks: [{
+				id: "5D0D1979923A4995"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_wither"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 19.5d
+		}
+		{
+			id: "675835B118F3B533"
+			subtitle: "牢大当年有这个就不会摔死了"
+			tasks: [{
+				id: "050255F730C5C23D"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_wing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 21.5d
+		}
+		{
+			id: "7B46C8C07D26738C"
+			tasks: [{
+				id: "42FCBA506DA26255"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_longfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 16.5d
+		}
+		{
+			id: "7ACA155220430D8D"
+			tasks: [{
+				id: "58A2BDFABDEE02ED"
+				item: {
+					Count: 1b
+					id: "cyclic:flippers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 20.5d
+		}
+		{
+			id: "0037E265FD0FDEB6"
+			subtitle: "死亡不掉落？"
+			tasks: [{
+				id: "36ACDF127364994A"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "06B8D6C3765B54F3"
+			subtitle: "感觉不如以太飞仙"
+			tasks: [{
+				id: "70453033732CA1D5"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "51C3A696388B552B"
+			shape: "pentagon"
+			tasks: [{
+				id: "7B4185DCB8F31CD8"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "12D2DBA1FE05ACDE"
+			subtitle: "也不如以太飞仙"
+			tasks: [{
+				id: "012707C4F3918B86"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "5099381FC6489DCE"
+			tasks: [{
+				id: "0C3B7F8D0396AFC3"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "5D34A12AFD9050C9"
+			shape: "pentagon"
+			subtitle: "战斗——爽！！"
+			tasks: [{
+				id: "09FA91EB7E8778A3"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 17.5d
+		}
+		{
+			id: "184F9E551CC26EF3"
+			shape: "pentagon"
+			subtitle: "有钱能使猪推磨"
+			tasks: [{
+				id: "693036420DA7FF6F"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "34F355EFE1DD07E6"
+			invisible: true
+			tasks: [{
+				id: "105179C36E9027DD"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.5d
+		}
+		{
+			id: "1D6CB03D4E3B772B"
+			invisible: true
+			shape: "pentagon"
+			tasks: [{
+				id: "6761D5024A1DC253"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 21.5d
+		}
+		{
+			id: "76C12F1B857B528F"
+			tasks: [{
+				id: "226A3ACBB42CA461"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "451670A24096D5FC"
+			shape: "pentagon"
+			subtitle: "孤独寂寞冷"
+			tasks: [{
+				id: "1D2ADD00882F4485"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			id: "4B3985430A955E69"
+			tasks: [{
+				id: "6FD060F8840E869E"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 11.0d
+		}
+		{
+			id: "40603F641FDBA744"
+			tasks: [{
+				id: "69E388760C8C706F"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 11.0d
+		}
+		{
+			id: "4108E938A702D5E1"
+			tasks: [{
+				id: "02626323A089F75D"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			id: "380213AB2B9A3485"
+			subtitle: "跟海洋签订契约吧"
+			tasks: [{
+				id: "64605548C502EC0B"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			id: "2C33DE83ACA31378"
+			tasks: [{
+				id: "3D0D732AFF0B678A"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 13.0d
+		}
+		{
+			id: "23BB07D7B658F1F0"
+			tasks: [{
+				id: "229CC4D2A2D55C2F"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"4B3985430A955E69"
+				"40603F641FDBA744"
+				"380213AB2B9A3485"
+				"23BB07D7B658F1F0"
+				"2C33DE83ACA31378"
+				"4108E938A702D5E1"
+			]
+			id: "6DFAB6016BB5566F"
+			invisible: true
+			subtitle: "我求求你们别问非欧的配方了.jpg"
+			tasks: [{
+				id: "73E4E048A8C727DF"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6DFAB6016BB5566F"]
+			description: [""]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C020F1DFA344906"
+			shape: "gear"
+			size: 8.0d
+			subtitle: "本包毕业道具"
+			tasks: [{
+				id: "556250DAD0C9DA68"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			description: [
+				"天境饰品的界面开关（云型按钮）就在普通饰品栏的开关下面"
+				"所有天境饰品只能装备在天境饰品栏内，与一般饰品是两套互相独立的系统"
+			]
+			id: "66019B9FA5C0E8B0"
+			shape: "heart"
+			size: 2.5d
+			subtitle: "天境饰品有单独的饰品槽系统"
+			tasks: [{
+				id: "48ECE381CF36FFB3"
+				title: "关于天境饰品"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "2B122A3F83134CC6"
+			tasks: [{
+				id: "5F57CC9C7691CFFD"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.5d
+		}
+		{
+			id: "4784F0000DC2E1F9"
+			tasks: [{
+				id: "22ACDCECD52E197E"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.5d
+		}
+		{
+			id: "4939BAA1E2820FF9"
+			tasks: [{
+				id: "1B0B6B17603815E2"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 21.5d
+		}
+		{
+			id: "5A1B008E00493605"
+			tasks: [{
+				id: "2CD7FAB190125F8D"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"7ADAF8829D4EC716"
+				"26173B7AFE5AFD36"
+				"6E8AB3C31C5B8116"
+				"1B33E8D1593D74DA"
+				"46F2F058F892D631"
+				"3D346B0D99343D06"
+				"7309C1B2DD66BBD6"
+				"2662A5909D95F06A"
+				"108C44215B35F796"
+				"027DB2F0783CE8BE"
+				"7A2B59C565ECFE0D"
+				"30907AB3EEE6AACA"
+				"6AE45D3BA668DDA6"
+				"2AC06B09BBB2BA62"
+				"078B2A2689EC405A"
+				"3E4E12523FC347C2"
+				"0648274C32172F0D"
+				"6DFAB6016BB5566F"
+				"22664F3107D9CAAD"
+				"478EEFAEE965E760"
+				"24A12C50230F79D4"
+				"184F9E551CC26EF3"
+				"0390C63D64A33B23"
+				"3B29E00B48A1D7AE"
+				"7C020F1DFA344906"
+				"76C12F1B857B528F"
+				"4B24F84EAF85AEDF"
+				"1E1436F4002950FD"
+				"566FF558DD7A2E78"
+				"3CDBF460ADFB0176"
+				"020D3D5A559D6CF2"
+				"7D25FC550031777A"
+				"56AF40FA3ED7A6B9"
+				"1D6CB03D4E3B772B"
+				"1FC5CDA6A6DBAAFC"
+				"2AD780EB3FDEC7A4"
+				"1753F4BF509F5335"
+				"75C797A47941C16C"
+				"18668FB121BFD027"
+				"7ACA155220430D8D"
+				"1CDBCF939A77E95D"
+				"7B02137C376E1572"
+				"1951C16AC8D1D08C"
+				"2F1F3B62F0488459"
+				"41E254CD5A890BCB"
+				"012C6DDFE5CA774A"
+				"7F628B1909FFD5F7"
+				"54AA892722F28308"
+				"5FA4251F021B48DB"
+				"351E780E0E8F33E2"
+				"48C78952D206FF13"
+				"6AF862E7B3A5253A"
+				"7D51021070EAB32F"
+				"4B3985430A955E69"
+				"5425B9019F2B8683"
+				"734058E64A9947AF"
+				"0AAE0030EAFDBCF7"
+				"29A35813B53D161B"
+				"1F2B77F85FEE65AB"
+				"6B5E16FE3F5A846D"
+				"656605E028B578AA"
+				"660423B6E2F2D7DB"
+				"40ED24B921EFC325"
+				"4AB5E479B07EBC12"
+				"62FE28772F497364"
+				"736179AE65838DEB"
+				"6DE22675342B991B"
+				"4CE68C4ADB7E797B"
+				"5571514BB5C0F950"
+				"745771E15DDEF8C4"
+				"5B45ECF3B6247727"
+				"5F5CA318473FB7CD"
+				"0C3365C49653EB12"
+				"380213AB2B9A3485"
+				"2175B53CF1965B65"
+				"3C5756EF5D838181"
+				"3BF48BA7C693747B"
+				"51FE50F7BFBE420B"
+				"5A61FFADC9A360D2"
+				"27A6C35C33741B30"
+				"2681110E0E560166"
+				"54E3F943AFBB5CDA"
+				"102CDD1D395BCAAE"
+				"52E371E61CE2ED20"
+				"2E18F634F55AF5BE"
+				"19AAB58011646B87"
+				"2F83DBE938307690"
+				"4189F289FA104DDE"
+				"2A03F73AF0D6CF3D"
+				"06B8D6C3765B54F3"
+				"4108E938A702D5E1"
+				"5A1B008E00493605"
+				"451670A24096D5FC"
+				"4E835DEE29931A1F"
+				"4D5DCDA0F704CD18"
+				"702862A610BF7CD3"
+				"7E2FF964B2F56D5D"
+				"4939BAA1E2820FF9"
+				"3961DD25C8956835"
+				"1AD2018601DEEC6D"
+				"7A20E0F9E434360A"
+				"2B47E4549FD5502E"
+				"275E5D9A011C0B31"
+				"0B37CE9E33123451"
+				"564C5F079E6F47C8"
+				"4E23B3C714EB5FE3"
+				"42B889973D553696"
+				"7355BB4AF71563E7"
+				"7806A20C4D564FAD"
+				"73345374A85CA4E8"
+				"51C3A696388B552B"
+				"6DDC66FBFDA5FE74"
+				"10E71A65169880E2"
+				"2B122A3F83134CC6"
+				"04D18B99727427C5"
+				"39E67DE4B7837B7A"
+				"5099381FC6489DCE"
+				"5C659D4A4052187F"
+				"4B29F0B9FB2081B3"
+				"1F8708D04D170D45"
+				"66476E79804DF97A"
+				"34EE1E3F6F481693"
+				"13EC0A4A77CB8D66"
+				"1BA25A32A76F75F2"
+				"7659703D78A8CBDD"
+				"4F89477D35BDF45F"
+				"4CA2F9E720145847"
+				"7CB25EE6B6114D5F"
+				"05F87F0BA0D0313E"
+				"7F34C562316BCA20"
+				"53E51A6A0C6350F2"
+				"6DB13B0EE8E87948"
+				"745FF4D62C06F7AE"
+				"54045A447600E764"
+				"113E930A1EF665E4"
+				"34F355EFE1DD07E6"
+				"5345A03728232479"
+				"675835B118F3B533"
+				"4F5C497DD541E24B"
+				"7B46C8C07D26738C"
+				"70CB4F70DB5661DC"
+				"3BEBE78B9C31AF62"
+				"03260A6F539AE1EF"
+				"16D3AE165A334BC8"
+				"79A56BA97BBE888D"
+				"1BF8CB12075F42F0"
+				"0DAD64B5E5F271AC"
+				"5D34A12AFD9050C9"
+				"559E870C7A3427EE"
+				"52A452E3235E0053"
+				"7BC246435275ECA6"
+				"1B05794566B023A2"
+				"5D76BA0BF6020824"
+				"0072382AAB4D5849"
+				"021E64307296D7E4"
+				"42A97D3D67622DAB"
+				"191E4ACB024E52F9"
+				"6DF921F5D43D8155"
+				"43AF98C91DA727A4"
+				"128D29D06709ED32"
+				"193BA2CC3083C01F"
+				"2C33DE83ACA31378"
+				"3B4E99655E5C471A"
+				"19EA2BA2E5758A53"
+				"45592A6FE269C630"
+				"4906578986667F9A"
+				"42F249693C0E1AE0"
+				"63ABD2F36E9AA4B4"
+				"589E19E643290329"
+				"51C5D0B54F3A2B30"
+				"7DEEECA0F369015C"
+				"3F8224CC2F8569B4"
+				"24C28788DA9D8655"
+				"6CAD821837E164D6"
+				"6CDD48E83628959E"
+				"57B91F577CFCA783"
+				"5B0D4350334C7A83"
+				"2587406C908306FD"
+				"377D8C529101EDB8"
+				"213B67EE228017CD"
+				"033090FB242FCA7D"
+				"7672374D5CBE981B"
+				"0FEE28F45F8D930C"
+				"40603F641FDBA744"
+				"736FE0D8FB49F35C"
+				"5F9033EC164C2B97"
+				"265B316F15812B1D"
+				"2EE9B0438517D015"
+				"0CAE012C76612C4B"
+				"12D2DBA1FE05ACDE"
+				"16FC5E48197A0866"
+				"6EA657D63794C14D"
+				"0B67B704C05D1394"
+				"50593BBE30E9B6A4"
+				"5276E634F33E08D2"
+				"069245EEAFDFE112"
+				"395C430F2086AB67"
+				"2593F1BAA461BBFA"
+				"6292CF3279408D55"
+				"37B9EC78E559CB21"
+				"76A966043B087C1F"
+				"4784F0000DC2E1F9"
+				"492D1E19551C31E9"
+				"23BB07D7B658F1F0"
+				"3137EF55F903D4A4"
+				"699146BF4DA1E148"
+				"5C481A7972AB5552"
+				"4874AD310A8E6406"
+				"466799DEECD7E0A0"
+				"0F0EF13E00A9794A"
+				"2C55C0C1AB4FFC0F"
+				"687DBE5C2594DC61"
+				"2380A35F57D9C8D3"
+				"69407340EBF0F62A"
+				"6960191FD5E4D07F"
+				"0559F40BF4CDB675"
+				"22C4B6F6FD7076A8"
+				"0037E265FD0FDEB6"
+				"101528F3A8225D28"
+				"0295954C23DDEDEB"
+				"30D923CEB1EC1F0B"
+				"1CBE52071FFEBCB7"
+				"4917E0DF40A5949C"
+				"366AD3610851F6AE"
+				"438FE69407171DFB"
+				"3518C530615E128E"
+				"07AC09081A0EEB50"
+				"5C556BA8F8F7B4F0"
+				"3630CCCEEC68216B"
+				"295DD99F82D091EC"
+				"337974EC0A9C49E9"
+				"6143201A90293F36"
+				"4930D4A9C9792EED"
+				"1D9FBA3CDEB766FB"
+				"03D48BA96947F72B"
+				"06BEF300041393D9"
+				"6510CF950203DB53"
+				"0451032BBE3AE976"
+				"63DAF1CFABAE3C00"
+				"6C5ABA8FEDE31648"
+			]
+			hide_dependency_lines: true
+			icon: "botania:holy_cloak"
+			id: "6950804CFE16621F"
+			invisible_until_tasks: 37
+			min_required_dependencies: 37
+			rewards: [{
+				auto: "disabled"
+				count: 10
+				id: "2AF2347B280948FB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "你逐渐了解到了饰品的力量……"
+			tasks: [{
+				id: "3C7114C013F97ADE"
+				type: "checkmark"
+			}]
+			title: "收集进度15%"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7ADAF8829D4EC716"
+				"26173B7AFE5AFD36"
+				"6E8AB3C31C5B8116"
+				"1B33E8D1593D74DA"
+				"46F2F058F892D631"
+				"3D346B0D99343D06"
+				"7309C1B2DD66BBD6"
+				"2662A5909D95F06A"
+				"108C44215B35F796"
+				"027DB2F0783CE8BE"
+				"7A2B59C565ECFE0D"
+				"30907AB3EEE6AACA"
+				"6AE45D3BA668DDA6"
+				"2AC06B09BBB2BA62"
+				"078B2A2689EC405A"
+				"3E4E12523FC347C2"
+				"0648274C32172F0D"
+				"6DFAB6016BB5566F"
+				"22664F3107D9CAAD"
+				"478EEFAEE965E760"
+				"24A12C50230F79D4"
+				"184F9E551CC26EF3"
+				"0390C63D64A33B23"
+				"3B29E00B48A1D7AE"
+				"7C020F1DFA344906"
+				"76C12F1B857B528F"
+				"4B24F84EAF85AEDF"
+				"1E1436F4002950FD"
+				"566FF558DD7A2E78"
+				"3CDBF460ADFB0176"
+				"020D3D5A559D6CF2"
+				"7D25FC550031777A"
+				"56AF40FA3ED7A6B9"
+				"1D6CB03D4E3B772B"
+				"1FC5CDA6A6DBAAFC"
+				"2AD780EB3FDEC7A4"
+				"1753F4BF509F5335"
+				"75C797A47941C16C"
+				"18668FB121BFD027"
+				"7ACA155220430D8D"
+				"1CDBCF939A77E95D"
+				"7B02137C376E1572"
+				"1951C16AC8D1D08C"
+				"2F1F3B62F0488459"
+				"41E254CD5A890BCB"
+				"012C6DDFE5CA774A"
+				"7F628B1909FFD5F7"
+				"54AA892722F28308"
+				"5FA4251F021B48DB"
+				"351E780E0E8F33E2"
+				"48C78952D206FF13"
+				"6AF862E7B3A5253A"
+				"7D51021070EAB32F"
+				"4B3985430A955E69"
+				"5425B9019F2B8683"
+				"734058E64A9947AF"
+				"0AAE0030EAFDBCF7"
+				"29A35813B53D161B"
+				"1F2B77F85FEE65AB"
+				"6B5E16FE3F5A846D"
+				"656605E028B578AA"
+				"660423B6E2F2D7DB"
+				"40ED24B921EFC325"
+				"4AB5E479B07EBC12"
+				"62FE28772F497364"
+				"736179AE65838DEB"
+				"6DE22675342B991B"
+				"4CE68C4ADB7E797B"
+				"5571514BB5C0F950"
+				"745771E15DDEF8C4"
+				"5B45ECF3B6247727"
+				"5F5CA318473FB7CD"
+				"0C3365C49653EB12"
+				"380213AB2B9A3485"
+				"2175B53CF1965B65"
+				"3C5756EF5D838181"
+				"3BF48BA7C693747B"
+				"51FE50F7BFBE420B"
+				"5A61FFADC9A360D2"
+				"27A6C35C33741B30"
+				"2681110E0E560166"
+				"54E3F943AFBB5CDA"
+				"102CDD1D395BCAAE"
+				"52E371E61CE2ED20"
+				"2E18F634F55AF5BE"
+				"19AAB58011646B87"
+				"2F83DBE938307690"
+				"4189F289FA104DDE"
+				"2A03F73AF0D6CF3D"
+				"06B8D6C3765B54F3"
+				"4108E938A702D5E1"
+				"5A1B008E00493605"
+				"451670A24096D5FC"
+				"4E835DEE29931A1F"
+				"4D5DCDA0F704CD18"
+				"702862A610BF7CD3"
+				"7E2FF964B2F56D5D"
+				"4939BAA1E2820FF9"
+				"3961DD25C8956835"
+				"1AD2018601DEEC6D"
+				"7A20E0F9E434360A"
+				"2B47E4549FD5502E"
+				"275E5D9A011C0B31"
+				"0B37CE9E33123451"
+				"564C5F079E6F47C8"
+				"4E23B3C714EB5FE3"
+				"42B889973D553696"
+				"7355BB4AF71563E7"
+				"7806A20C4D564FAD"
+				"73345374A85CA4E8"
+				"51C3A696388B552B"
+				"6DDC66FBFDA5FE74"
+				"10E71A65169880E2"
+				"2B122A3F83134CC6"
+				"04D18B99727427C5"
+				"39E67DE4B7837B7A"
+				"5099381FC6489DCE"
+				"5C659D4A4052187F"
+				"4B29F0B9FB2081B3"
+				"1F8708D04D170D45"
+				"66476E79804DF97A"
+				"34EE1E3F6F481693"
+				"13EC0A4A77CB8D66"
+				"1BA25A32A76F75F2"
+				"7659703D78A8CBDD"
+				"4F89477D35BDF45F"
+				"4CA2F9E720145847"
+				"7CB25EE6B6114D5F"
+				"05F87F0BA0D0313E"
+				"7F34C562316BCA20"
+				"53E51A6A0C6350F2"
+				"6DB13B0EE8E87948"
+				"745FF4D62C06F7AE"
+				"54045A447600E764"
+				"113E930A1EF665E4"
+				"34F355EFE1DD07E6"
+				"5345A03728232479"
+				"675835B118F3B533"
+				"4F5C497DD541E24B"
+				"7B46C8C07D26738C"
+				"70CB4F70DB5661DC"
+				"3BEBE78B9C31AF62"
+				"03260A6F539AE1EF"
+				"16D3AE165A334BC8"
+				"79A56BA97BBE888D"
+				"1BF8CB12075F42F0"
+				"0DAD64B5E5F271AC"
+				"5D34A12AFD9050C9"
+				"559E870C7A3427EE"
+				"52A452E3235E0053"
+				"7BC246435275ECA6"
+				"1B05794566B023A2"
+				"5D76BA0BF6020824"
+				"0072382AAB4D5849"
+				"021E64307296D7E4"
+				"42A97D3D67622DAB"
+				"191E4ACB024E52F9"
+				"6DF921F5D43D8155"
+				"43AF98C91DA727A4"
+				"128D29D06709ED32"
+				"193BA2CC3083C01F"
+				"2C33DE83ACA31378"
+				"3B4E99655E5C471A"
+				"19EA2BA2E5758A53"
+				"45592A6FE269C630"
+				"4906578986667F9A"
+				"42F249693C0E1AE0"
+				"63ABD2F36E9AA4B4"
+				"589E19E643290329"
+				"51C5D0B54F3A2B30"
+				"7DEEECA0F369015C"
+				"3F8224CC2F8569B4"
+				"24C28788DA9D8655"
+				"6CAD821837E164D6"
+				"6CDD48E83628959E"
+				"57B91F577CFCA783"
+				"5B0D4350334C7A83"
+				"2587406C908306FD"
+				"377D8C529101EDB8"
+				"213B67EE228017CD"
+				"033090FB242FCA7D"
+				"7672374D5CBE981B"
+				"0FEE28F45F8D930C"
+				"40603F641FDBA744"
+				"736FE0D8FB49F35C"
+				"5F9033EC164C2B97"
+				"265B316F15812B1D"
+				"2EE9B0438517D015"
+				"0CAE012C76612C4B"
+				"12D2DBA1FE05ACDE"
+				"16FC5E48197A0866"
+				"6EA657D63794C14D"
+				"0B67B704C05D1394"
+				"50593BBE30E9B6A4"
+				"5276E634F33E08D2"
+				"069245EEAFDFE112"
+				"395C430F2086AB67"
+				"2593F1BAA461BBFA"
+				"6292CF3279408D55"
+				"37B9EC78E559CB21"
+				"76A966043B087C1F"
+				"4784F0000DC2E1F9"
+				"492D1E19551C31E9"
+				"23BB07D7B658F1F0"
+				"3137EF55F903D4A4"
+				"699146BF4DA1E148"
+				"5C481A7972AB5552"
+				"4874AD310A8E6406"
+				"466799DEECD7E0A0"
+				"0F0EF13E00A9794A"
+				"2C55C0C1AB4FFC0F"
+				"687DBE5C2594DC61"
+				"2380A35F57D9C8D3"
+				"69407340EBF0F62A"
+				"6960191FD5E4D07F"
+				"0559F40BF4CDB675"
+				"22C4B6F6FD7076A8"
+				"0037E265FD0FDEB6"
+				"101528F3A8225D28"
+				"0295954C23DDEDEB"
+				"30D923CEB1EC1F0B"
+				"1CBE52071FFEBCB7"
+				"4917E0DF40A5949C"
+				"366AD3610851F6AE"
+				"438FE69407171DFB"
+				"3518C530615E128E"
+				"07AC09081A0EEB50"
+				"5C556BA8F8F7B4F0"
+				"3630CCCEEC68216B"
+				"295DD99F82D091EC"
+				"337974EC0A9C49E9"
+				"6143201A90293F36"
+				"4930D4A9C9792EED"
+				"1D9FBA3CDEB766FB"
+				"03D48BA96947F72B"
+				"06BEF300041393D9"
+				"6510CF950203DB53"
+				"0451032BBE3AE976"
+				"63DAF1CFABAE3C00"
+				"6C5ABA8FEDE31648"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "botania:odin_ring"
+				tag: {
+					baubleUUID: [I;
+						-1243410244
+						1321943806
+						-1297901374
+						240751175
+					]
+				}
+			}
+			id: "3F6EEC2ACA112234"
+			min_required_dependencies: 74
+			rewards: [{
+				auto: "disabled"
+				count: 10
+				id: "03C1D4F7958949FB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "你开始试着搭配出独特的饰品配装……"
+			tasks: [{
+				id: "59B39DFE6BEA3F62"
+				type: "checkmark"
+			}]
+			title: "收集进度30%"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7ADAF8829D4EC716"
+				"26173B7AFE5AFD36"
+				"6E8AB3C31C5B8116"
+				"1B33E8D1593D74DA"
+				"46F2F058F892D631"
+				"3D346B0D99343D06"
+				"7309C1B2DD66BBD6"
+				"2662A5909D95F06A"
+				"108C44215B35F796"
+				"027DB2F0783CE8BE"
+				"7A2B59C565ECFE0D"
+				"30907AB3EEE6AACA"
+				"6AE45D3BA668DDA6"
+				"2AC06B09BBB2BA62"
+				"078B2A2689EC405A"
+				"3E4E12523FC347C2"
+				"0648274C32172F0D"
+				"6DFAB6016BB5566F"
+				"22664F3107D9CAAD"
+				"478EEFAEE965E760"
+				"24A12C50230F79D4"
+				"184F9E551CC26EF3"
+				"0390C63D64A33B23"
+				"3B29E00B48A1D7AE"
+				"7C020F1DFA344906"
+				"76C12F1B857B528F"
+				"4B24F84EAF85AEDF"
+				"1E1436F4002950FD"
+				"566FF558DD7A2E78"
+				"3CDBF460ADFB0176"
+				"020D3D5A559D6CF2"
+				"7D25FC550031777A"
+				"56AF40FA3ED7A6B9"
+				"1D6CB03D4E3B772B"
+				"1FC5CDA6A6DBAAFC"
+				"2AD780EB3FDEC7A4"
+				"1753F4BF509F5335"
+				"75C797A47941C16C"
+				"18668FB121BFD027"
+				"7ACA155220430D8D"
+				"1CDBCF939A77E95D"
+				"7B02137C376E1572"
+				"1951C16AC8D1D08C"
+				"2F1F3B62F0488459"
+				"41E254CD5A890BCB"
+				"012C6DDFE5CA774A"
+				"7F628B1909FFD5F7"
+				"54AA892722F28308"
+				"5FA4251F021B48DB"
+				"351E780E0E8F33E2"
+				"48C78952D206FF13"
+				"6AF862E7B3A5253A"
+				"7D51021070EAB32F"
+				"4B3985430A955E69"
+				"5425B9019F2B8683"
+				"734058E64A9947AF"
+				"0AAE0030EAFDBCF7"
+				"29A35813B53D161B"
+				"1F2B77F85FEE65AB"
+				"6B5E16FE3F5A846D"
+				"656605E028B578AA"
+				"660423B6E2F2D7DB"
+				"40ED24B921EFC325"
+				"4AB5E479B07EBC12"
+				"62FE28772F497364"
+				"736179AE65838DEB"
+				"6DE22675342B991B"
+				"4CE68C4ADB7E797B"
+				"5571514BB5C0F950"
+				"745771E15DDEF8C4"
+				"5B45ECF3B6247727"
+				"5F5CA318473FB7CD"
+				"0C3365C49653EB12"
+				"380213AB2B9A3485"
+				"2175B53CF1965B65"
+				"3C5756EF5D838181"
+				"3BF48BA7C693747B"
+				"51FE50F7BFBE420B"
+				"5A61FFADC9A360D2"
+				"27A6C35C33741B30"
+				"2681110E0E560166"
+				"54E3F943AFBB5CDA"
+				"102CDD1D395BCAAE"
+				"52E371E61CE2ED20"
+				"2E18F634F55AF5BE"
+				"19AAB58011646B87"
+				"2F83DBE938307690"
+				"4189F289FA104DDE"
+				"2A03F73AF0D6CF3D"
+				"06B8D6C3765B54F3"
+				"4108E938A702D5E1"
+				"5A1B008E00493605"
+				"451670A24096D5FC"
+				"4E835DEE29931A1F"
+				"4D5DCDA0F704CD18"
+				"702862A610BF7CD3"
+				"7E2FF964B2F56D5D"
+				"4939BAA1E2820FF9"
+				"3961DD25C8956835"
+				"1AD2018601DEEC6D"
+				"7A20E0F9E434360A"
+				"2B47E4549FD5502E"
+				"275E5D9A011C0B31"
+				"0B37CE9E33123451"
+				"564C5F079E6F47C8"
+				"4E23B3C714EB5FE3"
+				"42B889973D553696"
+				"7355BB4AF71563E7"
+				"7806A20C4D564FAD"
+				"73345374A85CA4E8"
+				"51C3A696388B552B"
+				"6DDC66FBFDA5FE74"
+				"10E71A65169880E2"
+				"2B122A3F83134CC6"
+				"04D18B99727427C5"
+				"39E67DE4B7837B7A"
+				"5099381FC6489DCE"
+				"5C659D4A4052187F"
+				"4B29F0B9FB2081B3"
+				"1F8708D04D170D45"
+				"66476E79804DF97A"
+				"34EE1E3F6F481693"
+				"13EC0A4A77CB8D66"
+				"1BA25A32A76F75F2"
+				"7659703D78A8CBDD"
+				"4F89477D35BDF45F"
+				"4CA2F9E720145847"
+				"7CB25EE6B6114D5F"
+				"05F87F0BA0D0313E"
+				"7F34C562316BCA20"
+				"53E51A6A0C6350F2"
+				"6DB13B0EE8E87948"
+				"745FF4D62C06F7AE"
+				"54045A447600E764"
+				"113E930A1EF665E4"
+				"34F355EFE1DD07E6"
+				"5345A03728232479"
+				"675835B118F3B533"
+				"4F5C497DD541E24B"
+				"7B46C8C07D26738C"
+				"70CB4F70DB5661DC"
+				"3BEBE78B9C31AF62"
+				"03260A6F539AE1EF"
+				"16D3AE165A334BC8"
+				"79A56BA97BBE888D"
+				"1BF8CB12075F42F0"
+				"0DAD64B5E5F271AC"
+				"5D34A12AFD9050C9"
+				"559E870C7A3427EE"
+				"52A452E3235E0053"
+				"7BC246435275ECA6"
+				"1B05794566B023A2"
+				"5D76BA0BF6020824"
+				"0072382AAB4D5849"
+				"021E64307296D7E4"
+				"42A97D3D67622DAB"
+				"191E4ACB024E52F9"
+				"6DF921F5D43D8155"
+				"43AF98C91DA727A4"
+				"128D29D06709ED32"
+				"193BA2CC3083C01F"
+				"2C33DE83ACA31378"
+				"3B4E99655E5C471A"
+				"19EA2BA2E5758A53"
+				"45592A6FE269C630"
+				"4906578986667F9A"
+				"42F249693C0E1AE0"
+				"63ABD2F36E9AA4B4"
+				"589E19E643290329"
+				"51C5D0B54F3A2B30"
+				"7DEEECA0F369015C"
+				"3F8224CC2F8569B4"
+				"24C28788DA9D8655"
+				"6CAD821837E164D6"
+				"6CDD48E83628959E"
+				"57B91F577CFCA783"
+				"5B0D4350334C7A83"
+				"2587406C908306FD"
+				"377D8C529101EDB8"
+				"213B67EE228017CD"
+				"033090FB242FCA7D"
+				"7672374D5CBE981B"
+				"0FEE28F45F8D930C"
+				"40603F641FDBA744"
+				"736FE0D8FB49F35C"
+				"5F9033EC164C2B97"
+				"265B316F15812B1D"
+				"2EE9B0438517D015"
+				"0CAE012C76612C4B"
+				"12D2DBA1FE05ACDE"
+				"16FC5E48197A0866"
+				"6EA657D63794C14D"
+				"0B67B704C05D1394"
+				"50593BBE30E9B6A4"
+				"5276E634F33E08D2"
+				"069245EEAFDFE112"
+				"395C430F2086AB67"
+				"2593F1BAA461BBFA"
+				"6292CF3279408D55"
+				"37B9EC78E559CB21"
+				"76A966043B087C1F"
+				"4784F0000DC2E1F9"
+				"492D1E19551C31E9"
+				"23BB07D7B658F1F0"
+				"3137EF55F903D4A4"
+				"699146BF4DA1E148"
+				"5C481A7972AB5552"
+				"4874AD310A8E6406"
+				"466799DEECD7E0A0"
+				"0F0EF13E00A9794A"
+				"2C55C0C1AB4FFC0F"
+				"687DBE5C2594DC61"
+				"2380A35F57D9C8D3"
+				"69407340EBF0F62A"
+				"6960191FD5E4D07F"
+				"0559F40BF4CDB675"
+				"22C4B6F6FD7076A8"
+				"0037E265FD0FDEB6"
+				"101528F3A8225D28"
+				"0295954C23DDEDEB"
+				"30D923CEB1EC1F0B"
+				"1CBE52071FFEBCB7"
+				"4917E0DF40A5949C"
+				"366AD3610851F6AE"
+				"438FE69407171DFB"
+				"3518C530615E128E"
+				"07AC09081A0EEB50"
+				"5C556BA8F8F7B4F0"
+				"3630CCCEEC68216B"
+				"295DD99F82D091EC"
+				"337974EC0A9C49E9"
+				"6143201A90293F36"
+				"4930D4A9C9792EED"
+				"1D9FBA3CDEB766FB"
+				"03D48BA96947F72B"
+				"06BEF300041393D9"
+				"6510CF950203DB53"
+				"0451032BBE3AE976"
+				"63DAF1CFABAE3C00"
+				"6C5ABA8FEDE31648"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "aether:iron_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "05F4E4D745221BFE"
+			invisible_until_tasks: 12
+			min_required_dependencies: 12
+			rewards: [{
+				auto: "disabled"
+				count: 10
+				id: "0A37353C09954B56"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "你找到了一些饰品……"
+			tasks: [{
+				id: "6F52B6FED625E041"
+				type: "checkmark"
+			}]
+			title: "收集进度5%"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7ADAF8829D4EC716"
+				"26173B7AFE5AFD36"
+				"6E8AB3C31C5B8116"
+				"1B33E8D1593D74DA"
+				"46F2F058F892D631"
+				"3D346B0D99343D06"
+				"7309C1B2DD66BBD6"
+				"2662A5909D95F06A"
+				"108C44215B35F796"
+				"027DB2F0783CE8BE"
+				"7A2B59C565ECFE0D"
+				"30907AB3EEE6AACA"
+				"6AE45D3BA668DDA6"
+				"2AC06B09BBB2BA62"
+				"078B2A2689EC405A"
+				"3E4E12523FC347C2"
+				"0648274C32172F0D"
+				"6DFAB6016BB5566F"
+				"22664F3107D9CAAD"
+				"478EEFAEE965E760"
+				"24A12C50230F79D4"
+				"184F9E551CC26EF3"
+				"0390C63D64A33B23"
+				"3B29E00B48A1D7AE"
+				"7C020F1DFA344906"
+				"76C12F1B857B528F"
+				"4B24F84EAF85AEDF"
+				"1E1436F4002950FD"
+				"566FF558DD7A2E78"
+				"3CDBF460ADFB0176"
+				"020D3D5A559D6CF2"
+				"7D25FC550031777A"
+				"56AF40FA3ED7A6B9"
+				"1D6CB03D4E3B772B"
+				"1FC5CDA6A6DBAAFC"
+				"2AD780EB3FDEC7A4"
+				"1753F4BF509F5335"
+				"75C797A47941C16C"
+				"18668FB121BFD027"
+				"7ACA155220430D8D"
+				"1CDBCF939A77E95D"
+				"7B02137C376E1572"
+				"1951C16AC8D1D08C"
+				"2F1F3B62F0488459"
+				"41E254CD5A890BCB"
+				"012C6DDFE5CA774A"
+				"7F628B1909FFD5F7"
+				"54AA892722F28308"
+				"5FA4251F021B48DB"
+				"351E780E0E8F33E2"
+				"48C78952D206FF13"
+				"6AF862E7B3A5253A"
+				"7D51021070EAB32F"
+				"4B3985430A955E69"
+				"5425B9019F2B8683"
+				"734058E64A9947AF"
+				"0AAE0030EAFDBCF7"
+				"29A35813B53D161B"
+				"1F2B77F85FEE65AB"
+				"6B5E16FE3F5A846D"
+				"656605E028B578AA"
+				"660423B6E2F2D7DB"
+				"40ED24B921EFC325"
+				"4AB5E479B07EBC12"
+				"62FE28772F497364"
+				"736179AE65838DEB"
+				"6DE22675342B991B"
+				"4CE68C4ADB7E797B"
+				"5571514BB5C0F950"
+				"745771E15DDEF8C4"
+				"5B45ECF3B6247727"
+				"5F5CA318473FB7CD"
+				"0C3365C49653EB12"
+				"380213AB2B9A3485"
+				"2175B53CF1965B65"
+				"3C5756EF5D838181"
+				"3BF48BA7C693747B"
+				"51FE50F7BFBE420B"
+				"5A61FFADC9A360D2"
+				"27A6C35C33741B30"
+				"2681110E0E560166"
+				"54E3F943AFBB5CDA"
+				"102CDD1D395BCAAE"
+				"52E371E61CE2ED20"
+				"2E18F634F55AF5BE"
+				"19AAB58011646B87"
+				"2F83DBE938307690"
+				"4189F289FA104DDE"
+				"2A03F73AF0D6CF3D"
+				"06B8D6C3765B54F3"
+				"4108E938A702D5E1"
+				"5A1B008E00493605"
+				"451670A24096D5FC"
+				"4E835DEE29931A1F"
+				"4D5DCDA0F704CD18"
+				"702862A610BF7CD3"
+				"7E2FF964B2F56D5D"
+				"4939BAA1E2820FF9"
+				"3961DD25C8956835"
+				"1AD2018601DEEC6D"
+				"7A20E0F9E434360A"
+				"2B47E4549FD5502E"
+				"275E5D9A011C0B31"
+				"0B37CE9E33123451"
+				"564C5F079E6F47C8"
+				"4E23B3C714EB5FE3"
+				"42B889973D553696"
+				"7355BB4AF71563E7"
+				"7806A20C4D564FAD"
+				"73345374A85CA4E8"
+				"51C3A696388B552B"
+				"6DDC66FBFDA5FE74"
+				"10E71A65169880E2"
+				"2B122A3F83134CC6"
+				"04D18B99727427C5"
+				"39E67DE4B7837B7A"
+				"5099381FC6489DCE"
+				"5C659D4A4052187F"
+				"4B29F0B9FB2081B3"
+				"1F8708D04D170D45"
+				"66476E79804DF97A"
+				"34EE1E3F6F481693"
+				"13EC0A4A77CB8D66"
+				"1BA25A32A76F75F2"
+				"7659703D78A8CBDD"
+				"4F89477D35BDF45F"
+				"4CA2F9E720145847"
+				"7CB25EE6B6114D5F"
+				"05F87F0BA0D0313E"
+				"7F34C562316BCA20"
+				"53E51A6A0C6350F2"
+				"6DB13B0EE8E87948"
+				"745FF4D62C06F7AE"
+				"54045A447600E764"
+				"113E930A1EF665E4"
+				"34F355EFE1DD07E6"
+				"5345A03728232479"
+				"675835B118F3B533"
+				"4F5C497DD541E24B"
+				"7B46C8C07D26738C"
+				"70CB4F70DB5661DC"
+				"3BEBE78B9C31AF62"
+				"03260A6F539AE1EF"
+				"16D3AE165A334BC8"
+				"79A56BA97BBE888D"
+				"1BF8CB12075F42F0"
+				"0DAD64B5E5F271AC"
+				"5D34A12AFD9050C9"
+				"559E870C7A3427EE"
+				"52A452E3235E0053"
+				"7BC246435275ECA6"
+				"1B05794566B023A2"
+				"5D76BA0BF6020824"
+				"0072382AAB4D5849"
+				"021E64307296D7E4"
+				"42A97D3D67622DAB"
+				"191E4ACB024E52F9"
+				"6DF921F5D43D8155"
+				"43AF98C91DA727A4"
+				"128D29D06709ED32"
+				"193BA2CC3083C01F"
+				"2C33DE83ACA31378"
+				"3B4E99655E5C471A"
+				"19EA2BA2E5758A53"
+				"45592A6FE269C630"
+				"4906578986667F9A"
+				"42F249693C0E1AE0"
+				"63ABD2F36E9AA4B4"
+				"589E19E643290329"
+				"51C5D0B54F3A2B30"
+				"7DEEECA0F369015C"
+				"3F8224CC2F8569B4"
+				"24C28788DA9D8655"
+				"6CAD821837E164D6"
+				"6CDD48E83628959E"
+				"57B91F577CFCA783"
+				"5B0D4350334C7A83"
+				"2587406C908306FD"
+				"377D8C529101EDB8"
+				"213B67EE228017CD"
+				"033090FB242FCA7D"
+				"7672374D5CBE981B"
+				"0FEE28F45F8D930C"
+				"40603F641FDBA744"
+				"736FE0D8FB49F35C"
+				"5F9033EC164C2B97"
+				"265B316F15812B1D"
+				"2EE9B0438517D015"
+				"0CAE012C76612C4B"
+				"12D2DBA1FE05ACDE"
+				"16FC5E48197A0866"
+				"6EA657D63794C14D"
+				"0B67B704C05D1394"
+				"50593BBE30E9B6A4"
+				"5276E634F33E08D2"
+				"069245EEAFDFE112"
+				"395C430F2086AB67"
+				"2593F1BAA461BBFA"
+				"6292CF3279408D55"
+				"37B9EC78E559CB21"
+				"76A966043B087C1F"
+				"4784F0000DC2E1F9"
+				"492D1E19551C31E9"
+				"23BB07D7B658F1F0"
+				"3137EF55F903D4A4"
+				"699146BF4DA1E148"
+				"5C481A7972AB5552"
+				"4874AD310A8E6406"
+				"466799DEECD7E0A0"
+				"0F0EF13E00A9794A"
+				"2C55C0C1AB4FFC0F"
+				"687DBE5C2594DC61"
+				"2380A35F57D9C8D3"
+				"69407340EBF0F62A"
+				"6960191FD5E4D07F"
+				"0559F40BF4CDB675"
+				"22C4B6F6FD7076A8"
+				"0037E265FD0FDEB6"
+				"101528F3A8225D28"
+				"0295954C23DDEDEB"
+				"30D923CEB1EC1F0B"
+				"1CBE52071FFEBCB7"
+				"4917E0DF40A5949C"
+				"366AD3610851F6AE"
+				"438FE69407171DFB"
+				"3518C530615E128E"
+				"07AC09081A0EEB50"
+				"5C556BA8F8F7B4F0"
+				"3630CCCEEC68216B"
+				"295DD99F82D091EC"
+				"337974EC0A9C49E9"
+				"6143201A90293F36"
+				"4930D4A9C9792EED"
+				"1D9FBA3CDEB766FB"
+				"03D48BA96947F72B"
+				"06BEF300041393D9"
+				"6510CF950203DB53"
+				"0451032BBE3AE976"
+				"63DAF1CFABAE3C00"
+				"6C5ABA8FEDE31648"
+			]
+			hide_dependency_lines: true
+			icon: "enigmaticlegacy:the_cube"
+			id: "0EEF1B744E2581AC"
+			invisible_until_tasks: 123
+			min_required_dependencies: 123
+			rewards: [{
+				auto: "disabled"
+				count: 5
+				id: "2A516CBE80CC207C"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			subtitle: "你开始追求那些只存在于传说中的神秘饰品……"
+			tasks: [{
+				id: "03B63F13C58051B8"
+				type: "checkmark"
+			}]
+			title: "收集进度50%"
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7ADAF8829D4EC716"
+				"26173B7AFE5AFD36"
+				"6E8AB3C31C5B8116"
+				"1B33E8D1593D74DA"
+				"46F2F058F892D631"
+				"3D346B0D99343D06"
+				"7309C1B2DD66BBD6"
+				"2662A5909D95F06A"
+				"108C44215B35F796"
+				"027DB2F0783CE8BE"
+				"7A2B59C565ECFE0D"
+				"30907AB3EEE6AACA"
+				"6AE45D3BA668DDA6"
+				"2AC06B09BBB2BA62"
+				"078B2A2689EC405A"
+				"3E4E12523FC347C2"
+				"0648274C32172F0D"
+				"6DFAB6016BB5566F"
+				"22664F3107D9CAAD"
+				"478EEFAEE965E760"
+				"24A12C50230F79D4"
+				"184F9E551CC26EF3"
+				"0390C63D64A33B23"
+				"3B29E00B48A1D7AE"
+				"7C020F1DFA344906"
+				"76C12F1B857B528F"
+				"4B24F84EAF85AEDF"
+				"1E1436F4002950FD"
+				"566FF558DD7A2E78"
+				"3CDBF460ADFB0176"
+				"020D3D5A559D6CF2"
+				"7D25FC550031777A"
+				"56AF40FA3ED7A6B9"
+				"1D6CB03D4E3B772B"
+				"1FC5CDA6A6DBAAFC"
+				"2AD780EB3FDEC7A4"
+				"1753F4BF509F5335"
+				"75C797A47941C16C"
+				"18668FB121BFD027"
+				"7ACA155220430D8D"
+				"1CDBCF939A77E95D"
+				"7B02137C376E1572"
+				"1951C16AC8D1D08C"
+				"2F1F3B62F0488459"
+				"41E254CD5A890BCB"
+				"012C6DDFE5CA774A"
+				"7F628B1909FFD5F7"
+				"54AA892722F28308"
+				"5FA4251F021B48DB"
+				"351E780E0E8F33E2"
+				"48C78952D206FF13"
+				"6AF862E7B3A5253A"
+				"7D51021070EAB32F"
+				"4B3985430A955E69"
+				"5425B9019F2B8683"
+				"734058E64A9947AF"
+				"0AAE0030EAFDBCF7"
+				"29A35813B53D161B"
+				"1F2B77F85FEE65AB"
+				"6B5E16FE3F5A846D"
+				"656605E028B578AA"
+				"660423B6E2F2D7DB"
+				"40ED24B921EFC325"
+				"4AB5E479B07EBC12"
+				"62FE28772F497364"
+				"736179AE65838DEB"
+				"6DE22675342B991B"
+				"4CE68C4ADB7E797B"
+				"5571514BB5C0F950"
+				"745771E15DDEF8C4"
+				"5B45ECF3B6247727"
+				"5F5CA318473FB7CD"
+				"0C3365C49653EB12"
+				"380213AB2B9A3485"
+				"2175B53CF1965B65"
+				"3C5756EF5D838181"
+				"3BF48BA7C693747B"
+				"51FE50F7BFBE420B"
+				"5A61FFADC9A360D2"
+				"27A6C35C33741B30"
+				"2681110E0E560166"
+				"54E3F943AFBB5CDA"
+				"102CDD1D395BCAAE"
+				"52E371E61CE2ED20"
+				"2E18F634F55AF5BE"
+				"19AAB58011646B87"
+				"2F83DBE938307690"
+				"4189F289FA104DDE"
+				"2A03F73AF0D6CF3D"
+				"06B8D6C3765B54F3"
+				"4108E938A702D5E1"
+				"5A1B008E00493605"
+				"451670A24096D5FC"
+				"4E835DEE29931A1F"
+				"4D5DCDA0F704CD18"
+				"702862A610BF7CD3"
+				"7E2FF964B2F56D5D"
+				"4939BAA1E2820FF9"
+				"3961DD25C8956835"
+				"1AD2018601DEEC6D"
+				"7A20E0F9E434360A"
+				"2B47E4549FD5502E"
+				"275E5D9A011C0B31"
+				"0B37CE9E33123451"
+				"564C5F079E6F47C8"
+				"4E23B3C714EB5FE3"
+				"42B889973D553696"
+				"7355BB4AF71563E7"
+				"7806A20C4D564FAD"
+				"73345374A85CA4E8"
+				"51C3A696388B552B"
+				"6DDC66FBFDA5FE74"
+				"10E71A65169880E2"
+				"2B122A3F83134CC6"
+				"04D18B99727427C5"
+				"39E67DE4B7837B7A"
+				"5099381FC6489DCE"
+				"5C659D4A4052187F"
+				"4B29F0B9FB2081B3"
+				"1F8708D04D170D45"
+				"66476E79804DF97A"
+				"34EE1E3F6F481693"
+				"13EC0A4A77CB8D66"
+				"1BA25A32A76F75F2"
+				"7659703D78A8CBDD"
+				"4F89477D35BDF45F"
+				"4CA2F9E720145847"
+				"7CB25EE6B6114D5F"
+				"05F87F0BA0D0313E"
+				"7F34C562316BCA20"
+				"53E51A6A0C6350F2"
+				"6DB13B0EE8E87948"
+				"745FF4D62C06F7AE"
+				"54045A447600E764"
+				"113E930A1EF665E4"
+				"34F355EFE1DD07E6"
+				"5345A03728232479"
+				"675835B118F3B533"
+				"4F5C497DD541E24B"
+				"7B46C8C07D26738C"
+				"70CB4F70DB5661DC"
+				"3BEBE78B9C31AF62"
+				"03260A6F539AE1EF"
+				"16D3AE165A334BC8"
+				"79A56BA97BBE888D"
+				"1BF8CB12075F42F0"
+				"0DAD64B5E5F271AC"
+				"5D34A12AFD9050C9"
+				"559E870C7A3427EE"
+				"52A452E3235E0053"
+				"7BC246435275ECA6"
+				"1B05794566B023A2"
+				"5D76BA0BF6020824"
+				"0072382AAB4D5849"
+				"021E64307296D7E4"
+				"42A97D3D67622DAB"
+				"191E4ACB024E52F9"
+				"6DF921F5D43D8155"
+				"43AF98C91DA727A4"
+				"128D29D06709ED32"
+				"193BA2CC3083C01F"
+				"2C33DE83ACA31378"
+				"3B4E99655E5C471A"
+				"19EA2BA2E5758A53"
+				"45592A6FE269C630"
+				"4906578986667F9A"
+				"42F249693C0E1AE0"
+				"63ABD2F36E9AA4B4"
+				"589E19E643290329"
+				"51C5D0B54F3A2B30"
+				"7DEEECA0F369015C"
+				"3F8224CC2F8569B4"
+				"24C28788DA9D8655"
+				"6CAD821837E164D6"
+				"6CDD48E83628959E"
+				"57B91F577CFCA783"
+				"5B0D4350334C7A83"
+				"2587406C908306FD"
+				"377D8C529101EDB8"
+				"213B67EE228017CD"
+				"033090FB242FCA7D"
+				"7672374D5CBE981B"
+				"0FEE28F45F8D930C"
+				"40603F641FDBA744"
+				"736FE0D8FB49F35C"
+				"5F9033EC164C2B97"
+				"265B316F15812B1D"
+				"2EE9B0438517D015"
+				"0CAE012C76612C4B"
+				"12D2DBA1FE05ACDE"
+				"16FC5E48197A0866"
+				"6EA657D63794C14D"
+				"0B67B704C05D1394"
+				"50593BBE30E9B6A4"
+				"5276E634F33E08D2"
+				"069245EEAFDFE112"
+				"395C430F2086AB67"
+				"2593F1BAA461BBFA"
+				"6292CF3279408D55"
+				"37B9EC78E559CB21"
+				"76A966043B087C1F"
+				"4784F0000DC2E1F9"
+				"492D1E19551C31E9"
+				"23BB07D7B658F1F0"
+				"3137EF55F903D4A4"
+				"699146BF4DA1E148"
+				"5C481A7972AB5552"
+				"4874AD310A8E6406"
+				"466799DEECD7E0A0"
+				"0F0EF13E00A9794A"
+				"2C55C0C1AB4FFC0F"
+				"687DBE5C2594DC61"
+				"2380A35F57D9C8D3"
+				"69407340EBF0F62A"
+				"6960191FD5E4D07F"
+				"0559F40BF4CDB675"
+				"22C4B6F6FD7076A8"
+				"0037E265FD0FDEB6"
+				"101528F3A8225D28"
+				"0295954C23DDEDEB"
+				"30D923CEB1EC1F0B"
+				"1CBE52071FFEBCB7"
+				"4917E0DF40A5949C"
+				"366AD3610851F6AE"
+				"438FE69407171DFB"
+				"3518C530615E128E"
+				"07AC09081A0EEB50"
+				"5C556BA8F8F7B4F0"
+				"3630CCCEEC68216B"
+				"295DD99F82D091EC"
+				"337974EC0A9C49E9"
+				"6143201A90293F36"
+				"4930D4A9C9792EED"
+				"1D9FBA3CDEB766FB"
+				"03D48BA96947F72B"
+				"06BEF300041393D9"
+				"6510CF950203DB53"
+				"0451032BBE3AE976"
+				"63DAF1CFABAE3C00"
+				"6C5ABA8FEDE31648"
+				"3F6C4EC70667E527"
+				"3C3F38FD7C0D6C5E"
+				"6A1788E9C70E4E95"
+				"08D34BF3C3C40357"
+				"6A1F557ABDA3E7CC"
+			]
+			hide_dependency_lines: true
+			icon: "avaritia:infinity_sword"
+			id: "3007A56BD90D3E1A"
+			rewards: [
+				{
+					auto: "disabled"
+					id: "463C0747ECB27120"
+					item: "cyclic:apple_diamond"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 520
+					id: "75658350E010131B"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 1314
+					id: "3813EAE18BE507E9"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
+					id: "28E8DA73F9FB2DDA"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							author: "thyh114514"
+							display: {
+								Lore: [
+									"{\"text\":\"§6被etsh与独爱流萤合力封印的典籍\"}"
+									"{\"text\":\"天雨冰痕荣誉出品\"}"
+								]
+								Name: "{\"text\":\"§5§l暴雨诗歌 §2§o尘封之篇\"}"
+							}
+							pages: [
+								"{\"text\":\"  当你翻开这本书的时候，就代表你收集到了所有饰品。\\n  这意味着，你有能力去阅读接下来的一切……那些被天外之力封印的故事。\\n\\n\\n\\n\\n\\n\\n\\n\\n                       点我解放封印↓\"}"
+								"{\"text\":\"🤕让我怎么❓忘记🤔😶见识👁冰 🧊的那天🌅\\n🥶再冰的🐺狼冰❄️冻不了 🧊整条街🏙🏙\\n😓我怎么🧠脑弹🎸🎵也弹不到😵你谱里 🎼🎶\\n😠哈比的雨💧下了🌧⬇️一整夜🌙🌃\\n🤦‍♀️我们离得↔️这么近👌但却😢感觉隔了✈️一德拉米😳\\n😐我知道🌺我的春日💐🌹早已没影🌬🍃\\n🌸就像是⚡️电子羊🤖🐏在抽着💨真丁🌫\"}"
+								"{\"text\":\"😭我们👯那白银 🥈一辈子🕦 🔃的约定📃\\n😿是永远😓all 💰不到的in 😫\\n还是会想你😞\\n（♪汉汉欧欧手♪）\\n🤗还是会找你😤\\n为你安费🤬奥利韩国🇰🇷虾米🦐\\n还是会溜冰🧊\\n沉溺🥺梦里不醒😴\\n剥开迷！雾！抓住🤝你的白肌💪🏻\\n（仙法🙏白激之术！！！）\"}"
+							]
+							title: "暴雨诗歌——尘封之书"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "你统御了所有饰品的力量……包括以创造之名的术石……"
+			tasks: [{
+				id: "26675B6C24B1F0AF"
+				type: "checkmark"
+			}]
+			title: "收集进度100%"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "63DAF1CFABAE3C00"
+			tasks: [{
+				id: "7222DB397533FE26"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			id: "6510CF950203DB53"
+			tasks: [{
+				id: "0F661A89033A5963"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			id: "6143201A90293F36"
+			tasks: [{
+				id: "1C441CA57D960D2E"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			id: "03D48BA96947F72B"
+			tasks: [{
+				id: "5C9649AEE2A7CB93"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			id: "1D9FBA3CDEB766FB"
+			tasks: [{
+				id: "6ED2BAA357683D4F"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			id: "3F6C4EC70667E527"
+			shape: "diamond"
+			subtitle: "打赢复活赛了"
+			tasks: [{
+				id: "2F672D5FDB7A265A"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "6A1788E9C70E4E95"
+			shape: "diamond"
+			subtitle: "免疫封印等杂七杂八的效果"
+			tasks: [{
+				id: "29CDCE72D8CE5FFD"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			description: ["大爹中的大爹，玩莱特兰的终极追求"]
+			hide_text_until_complete: true
+			id: "0451032BBE3AE976"
+			invisible: true
+			size: 1.5d
+			subtitle: "欸？找到了是吧"
+			tasks: [{
+				id: "0797CA3378188FEE"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			id: "4930D4A9C9792EED"
+			subtitle: "我要涩涩！"
+			tasks: [{
+				id: "620F31EC1E25DB7B"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			id: "6C5ABA8FEDE31648"
+			tasks: [{
+				id: "597F064C5D98D08D"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			id: "06BEF300041393D9"
+			tasks: [{
+				id: "57E3E318D358DA84"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			id: "337974EC0A9C49E9"
+			tasks: [{
+				id: "5887D8EAB40807B1"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+	]
+	subtitle: [
+		"暴雨诗歌——尘封的秘宝与科技的结晶"
+		"-by 天雨冰痕"
+	]
+	title: "饰品全收集"
+}

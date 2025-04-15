@@ -1,0 +1,2054 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "0"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "1"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "2"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "3"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "4"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "5"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "6"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "7"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "8"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "9"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "10"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "11"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "12"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "13"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "14"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"level": "15"
+		},
+		"Name": "ars_nouveau:temporary_block"
+	}
+]

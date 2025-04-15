@@ -1,0 +1,5670 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "modifier"
+	group: "5B9406893C138689"
+	icon: {
+		Count: 1b
+		id: "tconstruct:modifier_crystal"
+		tag: {
+			modifier: "cti:end_slayer"
+		}
+	}
+	id: "1B6F59FBB07102D2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A5DC99169A4FC06"
+			subtitle: "分类查看"
+			tasks: [{
+				id: "6CB56BD8E354F3F1"
+				title: "这里列举了常用的强化"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+			id: "2B29CB4380BAD20C"
+			size: 2.0d
+			subtitle: "消耗能力槽来进行强化"
+			tasks: [{
+				id: "104B647B00B5E746"
+				type: "checkmark"
+			}]
+			title: "能力槽强化"
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "cti:end_slayer"
+				}
+			}
+			id: "20F39D101A9D7653"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "去末地必定要打上的强化，本身价格并不贵，可以让末影人无法主动攻击你"
+			tasks: [{
+				id: "3089749C7BEA4E17"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:end_slayer"
+					}
+				}
+				type: "item"
+			}]
+			title: "弑末者"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			description: ["可以消音，就是值不值要看你了"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tinkersinnovation:dampened"
+				}
+			}
+			id: "014410C5C03E9184"
+			subtitle: "只能护甲4件才生效"
+			tasks: [{
+				id: "6C3D652DB3E48021"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:dampened"
+					}
+				}
+				type: "item"
+			}]
+			title: "沉默"
+			x: -19.5d
+			y: -1.0d
+		}
+		{
+			description: ["朴实无华的伤害转化为穿魔"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tinkersinnovation:abyss_resonance"
+				}
+			}
+			id: "46ECD158B093890C"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "需要玛玉玲/邪恶钢作为前置"
+			tasks: [{
+				id: "5B344408FD8675CE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:abyss_resonance"
+					}
+				}
+				type: "item"
+			}]
+			title: "深渊共鸣"
+			x: -17.5d
+			y: -3.0d
+		}
+		{
+			description: ["无限时长的生命恢复"]
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "tinkersinnovation:big_heart"
+				}
+			}
+			id: "5F688A67F99602B5"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "血量未满时持续给予生命恢复，血量越低等级越高"
+			tasks: [{
+				id: "369E21A95039E2A3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:big_heart"
+					}
+				}
+				type: "item"
+			}]
+			title: "大心脏"
+			x: -19.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "73C5333C7144730A"
+			subtitle: "如果你的初速度和拉弓速度等面板低于0.1，会升级至0.1"
+			tasks: [{
+				id: "56DBAF59492C626B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:appearance"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "7E17EC57A50D24DD"
+			subtitle: "剪羊毛时掉落随机颜色的羊毛"
+			tasks: [{
+				id: "4DC6D3C254AC13D6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:chromatic_aberration"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "33F7E98ECA5A4764"
+			subtitle: "将掉落物转换为玩家的饥饿值，每级一点"
+			tasks: [{
+				id: "628547F771FD8DEE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:fast_eat"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "7CEF0B9AC61693D0"
+			subtitle: "可以很好的抵御腐蚀词条的扣耐久"
+			tasks: [{
+				id: "15EAEF3BA36CF53C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:harden"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "1090BDB2E1FB7F97"
+			subtitle: "主手武器有此强化且主/副武器类型相同时，可以主副手一起攻击"
+			tasks: [{
+				id: "152EAE5FDA8C92A2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:double_attack"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "01092BE3C414B955"
+			subtitle: "工具无法破坏，不会无视强制消耗耐久"
+			tasks: [{
+				id: "3EA8736143237410"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:eternal_weaker"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			description: ["有两个平行配方"]
+			disable_toast: true
+			id: "07339BF1493C3DAA"
+			subtitle: "消耗10点黏液覆层减少30%盾值消耗"
+			tasks: [{
+				id: "4B2BEEF7A411B3EF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:over_cushion"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "7FDCF21C836D9793"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "首次攻击或被攻击时每级增加5s1级绿宝石水花，再次攻击或被攻击时提升为2级"
+			tasks: [{
+				id: "6203667111093E08"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:heirophant_green"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "28E9D5725D5CBB84"
+			subtitle: "恢复生命时，1-3级会消耗恢复的生命值恢复1/2/4点耐久"
+			tasks: [{
+				id: "1CDE87F0EF6E2248"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:health_fixing"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "6ACB329562162FBE"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "每级提升10%全属性，并添加3个辉煌槽位，且允许进行辉煌刻印"
+			tasks: [{
+				id: "22D01FB479E5683B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			description: ["这个挨打会坠机"]
+			disable_toast: true
+			id: "53E39E3D063A5F5F"
+			subtitle: "创造飞行，受到攻击会失效"
+			tasks: [{
+				id: "7E28B57A46CE0E7F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:flying"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			description: ["在外星用得上"]
+			disable_toast: true
+			id: "3A8C308CF4FDEDB5"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "无视外星的异常重力"
+			tasks: [{
+				id: "0AF97F3075F605B8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:gravity_normalizer"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "4D434B535B697B76"
+			subtitle: "主副手都可空手攻击"
+			tasks: [{
+				id: "4A94CA253160EB66"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:ambidextrous"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "0BD9BD7D8915AA1D"
+			subtitle: "自动熔炼所挖掘的方块"
+			tasks: [{
+				id: "4D582FCA47837266"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:autosmelt"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "4579278C819E6FC5"
+			subtitle: "原版的水下速掘附魔"
+			tasks: [{
+				id: "65F77EAAFE9F6CA9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:aqua_affinity"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "3C4E7DABFCB50AC0"
+			subtitle: "增加从背后攻击时的伤害"
+			tasks: [{
+				id: "6828C06F378E7C21"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_thinking:backstabbing"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "6D8AFA571C47141B"
+			subtitle: "手持工具时可像盾牌一样来抵挡伤害"
+			tasks: [{
+				id: "4A1F2E5BB1245C6A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:blocking"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "2AE351810235024E"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "工匠匠心每添加一个匠魂属性，提高2%挖掘速度与攻击伤害"
+			tasks: [{
+				id: "609968733B492591"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:star_blessing"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			description: ["小晶镞"]
+			disable_toast: true
+			id: "02D1099524297F50"
+			subtitle: "原版的无限附魔,背包内必须有一根箭矢"
+			tasks: [{
+				id: "479A3444EAAA3F3C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:unlimited_ammo"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "5230ECCF57F71461"
+			subtitle: "在水中获得等同于强化等级的力量效果"
+			tasks: [{
+				id: "64A62F5A69260F94"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:tidal_guard"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			description: ["商店有卖"]
+			disable_toast: true
+			id: "3C015F5AFCF579F4"
+			subtitle: "提供200%伤害，免疫火焰，50%免伤"
+			tasks: [{
+				id: "1DA50A8CBD3EB8B3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:born_with_evil"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "599F86D774C73BB4"
+			subtitle: "穿戴者免疫召唤物/宠物的伤害"
+			tasks: [{
+				id: "2AA49B3F36CF320A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:owner_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "73D6C3E20DE3283E"
+			subtitle: "初速度增加200%，拉弓速度减少20%，精准度提升20%，弹射物伤害降低50%"
+			tasks: [{
+				id: "3044FE768074A83D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:supersonic_speed"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "0018F96CF79B6203"
+			subtitle: "持有者隐身，工具一起隐身"
+			tasks: [{
+				id: "7CF23FBFBA4E0936"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:transparent"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "5F73D422C8462EA5"
+			subtitle: "工具额外获得9格储物槽位"
+			tasks: [{
+				id: "71CBF32112BC526C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:stowing"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "35DE992D03096C1A"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "在物品栏充能，满充能攻击时周围生物失去ai三秒（对玩家无效），冷却10秒"
+			tasks: [{
+				id: "76C959FD3BFBBEEC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:emp"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "4D90223AF4CBF84A"
+			subtitle: "长按右键蓄力，准星对准一个生物时松开将朝准星方向弹射该生物并消耗耐久"
+			tasks: [{
+				id: "7BED7AB28B23A158"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:bonking"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "1A3446F74E720FBB"
+			subtitle: "从高处摔落时能够将玩家弹起"
+			tasks: [{
+				id: "685DF731255840E9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:bouncy"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "3BFD7278DB1A7802"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "提升所有来源的保护加成上限"
+			tasks: [{
+				id: "07501BE0B0C3DDAD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:boundless"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "0D5BCB92899981E8"
+			subtitle: "工具可以右键收集流体，潜行右键放出流体"
+			tasks: [{
+				id: "16655C351EAE5259"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:bucketing"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "77C68FD897209E12"
+			subtitle: "添加箭袋，可以使用箭袋里的箭，潜行并按下攻击键打开箭袋"
+			tasks: [{
+				id: "274B779882D95FF7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:bulk_quiver"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "0846B875A328DE5D"
+			subtitle: "盔甲的液体有概率在受到攻击时自动喷洒，效果取决于液体"
+			tasks: [{
+				id: "7952DCFACF984D51"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:bursting"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "7032EEF2182D7704"
+			subtitle: "不需要水的激流附魔，手持时无摔落伤害"
+			tasks: [{
+				id: "4165378E6EDDDCA2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:crcs"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "018033BDFFD19824"
+			subtitle: "可以在空中起跳，等级越高跳跃次数越多"
+			tasks: [{
+				id: "2C77DBEB64346BAD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:double_jump"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "1518FACD7C1C9202"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "原版的无限附魔,无需持有箭矢,将箭矢替换成了水晶碎片，额外消耗耐久"
+			tasks: [{
+				id: "5F76EA2E3C50B3CF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:crystalshot"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "2CAF92F800F30AD1"
+			subtitle: "抵消摔落伤害"
+			tasks: [{
+				id: "17052B28F41BB6BA"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:long_fall"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "06438E89405867F1"
+			subtitle: "增加一点时运/抢夺"
+			tasks: [{
+				id: "478DE2734BF1CC62"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:luck"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "69D62795C57663AC"
+			subtitle: "可以将掉落的物品或攻击的实体熔炼到工具内部的流体储罐"
+			tasks: [{
+				id: "17CBE52CC679FC24"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:melting"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "5D23B749478E720B"
+			subtitle: "原版的经验修补"
+			tasks: [{
+				id: "7AAC7996D54C1888"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerscalibration:mossmending"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "347524B1678F9309"
+			subtitle: "原版的多重射击附魔"
+			tasks: [{
+				id: "55E11DF18C1B88A1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:multishot"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "49801788322C8D8A"
+			subtitle: "每10tick将黏液覆层转化为黏液护盾，护盾上限为40+15×强化等级点,每 1 点护盾值抵挡 1 点伤害"
+			tasks: [{
+				id: "68A28E4C5C9615BD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerscalibration:overshield"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "55006D339146732B"
+			subtitle: "攻击后能短暂像盾牌一样抵挡伤害"
+			tasks: [{
+				id: "5211C83873DD91A3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:parrying"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "6255477594139292"
+			subtitle: "行走过的地方生成土径"
+			tasks: [{
+				id: "3C4976957B600BBC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:path_maker"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "27F4DE8C7BB59C19"
+			subtitle: "工具可生成土径"
+			tasks: [{
+				id: "66BE7A3ECE5C790D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:pathing"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "7F281E9A70503FB1"
+			subtitle: "耕耘所走过的土方块"
+			tasks: [{
+				id: "71437ECFD09711F6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:plowing"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "6DA1777896568874"
+			subtitle: "增加物品储存槽位，同时按下左shift和护腿交互键可以存取"
+			tasks: [{
+				id: "6107130D172A26F3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:pockets"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "4D2526E0237A0F92"
+			subtitle: "原版的保护附魔"
+			tasks: [{
+				id: "7F08495660BBF0D0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:protection"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "32E5615ACEFD4563"
+			subtitle: "举盾后短时间允许反弹弹射物"
+			tasks: [{
+				id: "2D78206EDEE3352B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:reflecting"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "018C60F85F954219"
+			subtitle: "原版的精准采集"
+			tasks: [{
+				id: "20262B770D1562AD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:silky"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "0CB006C8904FE36C"
+			subtitle: "武器/工具黏液覆层上限+300，每50点提供1%伤害提升/1%物理和爆炸抗性。受到生命值50%以上物理伤害时，消耗最大值25%黏液覆层抵消90%伤害"
+			tasks: [{
+				id: "403BABB26E929AB2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:slimecuring"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "2FEC3D74A47C50A1"
+			subtitle: "按下头盔交互键饮用头盔内的流体"
+			tasks: [{
+				id: "714928B6D2769692"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:slurping"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "4AF26F31CF32A94E"
+			subtitle: "走过的地方生成雪迹"
+			tasks: [{
+				id: "26B963596BC50AE5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:snowdrift"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "61F6560218A5D982"
+			subtitle: "武器中的液体会喷洒到近战目标上，根据液体种类，造成不同效果"
+			tasks: [{
+				id: "084EC2D3E23B20AC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:spilling"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "606DD34973CF0AC6"
+			subtitle: "死亡时保留物品栏的物品"
+			tasks: [{
+				id: "5C1980C08CAB0397"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:soul_belt"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "5C1B1D8B97913895"
+			subtitle: "向水平方向快速位移"
+			tasks: [{
+				id: "74EAB0F9338124F9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_thinking:sprinting"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "369A7984F1E2E7F5"
+			subtitle: "长按右键蓄力，蓄力后松手会朝准星方向弹射并消耗一点耐久"
+			tasks: [{
+				id: "7CA77EEE0BA14D71"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:springing"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "3495E2D03380B925"
+			subtitle: "交互（默认右击）方块或实体后，工具中的流体会被喷洒到交互的方块或实体上，根据流体造成不同的额外效果，没有交互效果的流体则不会触发交互"
+			tasks: [{
+				id: "105BD34C7573912C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:splashing"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "30FDB0B8846DF586"
+			subtitle: "蓄力后工具从储罐中喷出流体，造成流体效果。受弓的数值影响"
+			tasks: [{
+				id: "574CD4FBD427FD93"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:spitting"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "3492092D2DF57F37"
+			subtitle: "每级会为所有武器增加 10% 的攻击力"
+			tasks: [{
+				id: "5A9FF09C48E76427"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:strength"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "5B982507966151AA"
+			subtitle: "工具可以给木头去皮"
+			tasks: [{
+				id: "10ACBB317F9C1BA5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:stripping"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "7A45399C75A480C7"
+			subtitle: "工具可以耕耘泥土"
+			tasks: [{
+				id: "076E419ABCCA6637"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:tilling"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "5A9B744E691D2931"
+			subtitle: "每等级增加 4 个物品槽，按下“护腿交互”键可以切换快捷栏前 4 个槽位的物品；第 2 级可以提升至 8 个槽位"
+			tasks: [{
+				id: "5A5450C4254BFCA1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:tool_belt"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "4DAEB98BF1A7B64E"
+			subtitle: "给予三个箭袋槽位，按攻击键切换槽位，潜行并按下攻击键打开槽位"
+			tasks: [{
+				id: "40EC59A0DB65BB05"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:trick_quiver"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "2BABF363D650FEF6"
+			subtitle: "常规使用不再消耗耐久"
+			tasks: [{
+				id: "3E66CF22555A4B8F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:unbreakable"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "202D448D1C9B615A"
+			subtitle: "长按右键蓄力，若准星对准的方块后面一定距离内有足够的空气，则可以瞬移过去"
+			tasks: [{
+				id: "0131410A3914A313"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:warping"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "450FA90E269AF507"
+			subtitle: "在受伤时用液体打湿自己，根据液体种类，造成不同效果"
+			tasks: [{
+				id: "771B3B96184F2825"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:wetting"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "4FDF25D81837BB05"
+			subtitle: "穿戴者能够使用鞘翅"
+			tasks: [{
+				id: "60334C31AA976C38"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:wings"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "6C6776B6039BD7F0"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "使离子化射线炮蓄力完成时自动发射"
+			tasks: [{
+				id: "2860793B4FE66FBF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:autoionizing"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "078B447357678E16"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "对目标造成大量辐射伤害，自己不受到影响"
+			tasks: [{
+				id: "0D3E5736EFE41263"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:chainreaction"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "2064CA1AD55A062D"
+			subtitle: "获得在副手使用任何近战武器攻击的能力"
+			tasks: [{
+				id: "108FE3CDE6BB868F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:mechanical_arm"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "3E812558FCFCAC49"
+			subtitle: "提供相应海王盔甲的能力"
+			tasks: [{
+				id: "328AB5C381EB3560"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:poseidon"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "355BBC2784BA9288"
+			subtitle: "可以查看沉浸工业的相关信息"
+			tasks: [{
+				id: "47BE1E4722DA6593"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:multivision"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 24.0d
+		}
+		{
+			description: ["这些基本上你都用得上"]
+			id: "05E36F9AAE76C4F4"
+			tasks: [{
+				id: "4BECE611772BE9E6"
+				type: "checkmark"
+			}]
+			title: "高性价比，并且较为通用的强化"
+			x: -22.5d
+			y: -2.0d
+		}
+		{
+			description: ["可能略昂贵，但是效果绝对不会让你失望"]
+			id: "335CD7903C154218"
+			tasks: [{
+				id: "3BA358EB27741B66"
+				title: "工具/材料专属"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "6E225B3185B56343"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "右键扔出一把飞斧，飞斧随机朝目标发射激光"
+			tasks: [{
+				id: "0104055C4533AD87"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:modifiershadowaxe"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "32A646E116AD6B6B"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "攻击时发射能量球，追踪敌人并造成可堆叠的夸克解离效果"
+			tasks: [{
+				id: "6C9F053E2475096F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:exoblademodifier"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "744DC457AD30D205"
+			subtitle: "攻击敌人对目标和自己造成少量辐射伤害"
+			tasks: [{
+				id: "49B3518068F9778F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:fission"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "7DEC186C3AA98B4E"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "攻击时使一定范围内的敌人受到巨量辐射伤害，对玩家无效"
+			tasks: [{
+				id: "2FC07C60521F32C1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:fusion"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "1ABDBB8EF14EA9E7"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "使工具能使用熔融材料，箭矢获得材料远程属性，每次射击消耗流体（需要储液强化）。不支持添加/减少强化槽的材料，至少需要20mb流体"
+			tasks: [{
+				id: "0483D3326713303F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:ionizing_arrow"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "6D9EC0023142F599"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "蓄力时充能，充能足够高时将箭矢替换成能量球，蓄力超过四秒后，能量球替换为能量束，造成可堆叠的夸克解离效果"
+			tasks: [{
+				id: "6662CF94E2A75CB0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:heavenly_gale"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "2FEC57F962298F1F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "每级使离子化射线炮额外射出一束射线，但会增大散射和冷却时间"
+			tasks: [{
+				id: "5CD1126FA7B6DE8A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:multishotplasma"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "63DE19F41CF6AC5C"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "右键扔出一把飞镰，飞行后传送到目标附近并爆炸，造成夸克解离"
+			tasks: [{
+				id: "51CE3FF71A4A6B43"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:modifiernovasickle"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "5B925AC9D31BBE88"
+			subtitle: "攻击时在目标头顶召唤下落的灵剑，造成1/4伤害，等级越高灵剑越多"
+			tasks: [{
+				id: "12AE67130B9C05F2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:phantomreforged"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "5ED6AC684F473B92"
+			subtitle: "曲率航行结束后对离你最近的生物造成伤害，伤害与曲率速度有关"
+			tasks: [{
+				id: "5EE2327EF64E9E6C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:warpingenhance"
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "4315753AC3FA9E91"
+			subtitle: "长按右键将自己传送到2500*属性等级格（不改变y坐标），冷却10秒"
+			tasks: [{
+				id: "74FEB0A659CCEB38"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:warpengineex"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "1D86020B25A1991D"
+			subtitle: "长按右键进入曲率模式，左键攻击退出模式，曲率模式无视重力和方块碰撞并加速，等级越高加速越快"
+			tasks: [{
+				id: "431AAF942CA6B04F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:warpengine"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "40C7D060CF44D03C"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "范围更大，冷却更短，伤害更高的折跃攻击"
+			tasks: [{
+				id: "26767FA77387B7DE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:warpattackex"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "3F2C0A3ADA3D498A"
+			subtitle: "增加工具的触及范围，可以更远的挖掘和攻击"
+			tasks: [{
+				id: "456954A03E1E6D8E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:reach"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "56B2639A906834C6"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "使工具能使用熔融材料，工具获得部分近战属性，每次攻击消耗流体（需要储液强化）。不支持添加/减少强化槽的材料，至少需要20mb流体"
+			tasks: [{
+				id: "787D26C5ECD6449F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:plasma_sputtering"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 7.0d
+		}
+		{
+			id: "6FEB8A770886E849"
+			tasks: [{
+				id: "1110008EC6DCD791"
+				title: "略难获取，或者特定情况可能有奇效的强化"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 8.0d
+		}
+		{
+			description: ["翻一翻看一看，也许有你能用得上的"]
+			id: "03150FBE35B02EE2"
+			tasks: [{
+				id: "56C4A3E497994E0C"
+				title: "其他强化"
+				type: "checkmark"
+			}]
+			x: -22.5d
+			y: 18.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			id: "62BDEC978360C425"
+			size: 2.0d
+			subtitle: "消耗升级槽来进行强化"
+			tasks: [{
+				id: "420DE78A6D897138"
+				title: "能力槽强化"
+				type: "checkmark"
+			}]
+			title: "升级槽强化"
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "154BFDDD3FEB78A6"
+			subtitle: "增加武器精准度"
+			tasks: [{
+				id: "00023677DD1E4221"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:trueshot"
+					}
+				}
+				type: "item"
+			}]
+			title: "神射"
+			x: 6.5d
+			y: 31.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "581FF85459DBDBAD"
+			subtitle: "潜行并按下“头盔交互”键时，玩家能够看清更远的目标"
+			tasks: [{
+				id: "61BA138CE17C67D7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:zoom"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 22.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2F6E5B22E786C9E4"
+			subtitle: " 反伤"
+			tasks: [{
+				id: "05DFBB1E26228375"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:thorns"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 18.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7078BB660A345009"
+			subtitle: "使工具能够储存流体"
+			tasks: [{
+				id: "740AA6BF8D56C2D9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:tank"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 22.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "10D4C8CBC100F5F2"
+			subtitle: "增加攻速"
+			tasks: [{
+				id: "7BF908B926EE5137"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:swiftstrike"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 31.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "623A647428A37A95"
+			subtitle: "潜行时增加移动速度"
+			tasks: [{
+				id: "0895C6B0A6D00BB2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:swift_sneak"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 22.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6C8DB9163FEC3122"
+			subtitle: "增加横扫攻击的伤害"
+			tasks: [{
+				id: "523C92576F4DA5B5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:sweeping_edge"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			id: "031DACE4317BD702"
+			subtitle: "爬的更高"
+			tasks: [{
+				id: "5A89145332D76782"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:step_up"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "0EBDC525C6AC4BE3"
+			subtitle: "弹走攻击者"
+			tasks: [{
+				id: "779CD83A91D28608"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:springy"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "41FD44FA4A2D82F9"
+			subtitle: "增加移速"
+			tasks: [{
+				id: "1421B54FF8FB48CB"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:speedy"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "2DAD2C6C51A02FA7"
+			subtitle: "在灵魂沙上跑的更快"
+			tasks: [{
+				id: "1F065ED42978606B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:soulspeed"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "4CD3C3BE709C7209"
+			subtitle: "死亡不掉落该物品"
+			tasks: [{
+				id: "3B7B7B6EB3DDFAA6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:soulbound"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "4DBB16E1DB6C024E"
+			subtitle: "增加对亡灵的伤害"
+			tasks: [{
+				id: "0F4B10ED5C9234CC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:smite"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "63F0F268993567D1"
+			subtitle: "主手握持时，弩在按下攻击键时发射，潜行不能装填"
+			tasks: [{
+				id: "44A0FC4E624EB23A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:sinistral"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "5FA46E1BB78B66F4"
+			subtitle: "按下护腿交互按键，切换主副手物品"
+			tasks: [{
+				id: "632F99ECD48009A0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:shield_strap"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "5D073F2D2BFBB249"
+			subtitle: "增加武器伤害"
+			tasks: [{
+				id: "68CB7EA9E9695605"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:sharpness"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "279F1D45BCF0A25F"
+			subtitle: "概率掉落目标头颅及其他身体部位"
+			tasks: [{
+				id: "0D51486B54C83507"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:severing"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "3F1F155DDBBAA3EB"
+			subtitle: "弓箭拉弦时放大视野"
+			tasks: [{
+				id: "5370BF66E3944771"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:scope"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "4CA64B14488A8BD5"
+			subtitle: "原版的激流附魔"
+			tasks: [{
+				id: "68350434AFD11254"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:riptide"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "78C1B357AB67C539"
+			subtitle: "受到攻击时将自己弹走"
+			tasks: [{
+				id: "15FA18860BE6E1A0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:ricochet"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "6EF6A66A6E951804"
+			subtitle: "增加水下呼吸的时间"
+			tasks: [{
+				id: "5015DDC4D08BC7BC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:respiration"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "3DA11172F7A1BA13"
+			subtitle: "原版的耐久附魔"
+			tasks: [{
+				id: "671EB91D23BC2535"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:reinforced"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "47BF44C2C5909D07"
+			subtitle: "原版的快速装填附魔"
+			tasks: [{
+				id: "4C9FC8EE6DD9614D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:quick_charge"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 33.0d
+		}
+		{
+			disable_toast: true
+			id: "76AD094D6CBB5269"
+			subtitle: "原版的击退附魔"
+			tasks: [{
+				id: "1F5BAA2B2A654C4C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:punch"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "36654A5044B96915"
+			subtitle: "增加箭矢伤害"
+			tasks: [{
+				id: "2CF9109C2F89EAD6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:power"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			id: "4C03A24895C57D9E"
+			subtitle: "攻击穿透部分护甲"
+			tasks: [{
+				id: "6FB6DFEABCEAE997"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:pierce"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "3F480685F4101F21"
+			subtitle: "降低武器击退效果"
+			tasks: [{
+				id: "619DEC79F005C142"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:padded"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "244425115E76D63D"
+			subtitle: "增加黏液覆层上限"
+			tasks: [{
+				id: "7BC091B8E335E806"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:overforced"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			id: "2A9D2EFD7A2276D8"
+			subtitle: "增强工具并使工具无法被焚毁"
+			tasks: [{
+				id: "53D4373878C98727"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:netherite"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "144594EB99F9C2BC"
+			subtitle: "攻击吸血"
+			tasks: [{
+				id: "7C20879363C31D1D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerscalibration:necroticrewrite"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "10C13305AF861101"
+			subtitle: "手持时吸引掉落物"
+			tasks: [{
+				id: "00B59B2A5100E373"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:magnetic"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "0F38F505133F0DC0"
+			subtitle: "在光照下增加挖掘速度"
+			tasks: [{
+				id: "6118D417888E2358"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:lightspeed"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "1D7DFECDC743FDAB"
+			subtitle: "在光照下增加移动速度"
+			tasks: [{
+				id: "253C3B4513A9ABD1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:lightspeed_armor"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "0A7BBE39E41E9C86"
+			subtitle: "增加攻击速度/挖掘速度"
+			tasks: [{
+				id: "471C4F109773177E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_thinking:lightly_speed"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			id: "66CE35FAC783D1B7"
+			subtitle: "增加跳跃高度"
+			tasks: [{
+				id: "60D56C59A799BB90"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:leaping"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 33.0d
+		}
+		{
+			disable_toast: true
+			id: "6534181DF9E50989"
+			subtitle: "增加近战攻击的击退距离"
+			tasks: [{
+				id: "568BDB55F5CF95EC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:knockback"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "2267DB8DEBEFE3AF"
+			subtitle: "降低爆炸伤害及击退效果"
+			tasks: [{
+				id: "60EF0CCF822DDB8B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:blast_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "019D5F1322EFE678"
+			subtitle: "增加对村民，灾厄村民的伤害"
+			tasks: [{
+				id: "5C885CBC35775609"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:killager"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "3D2810A78E3304A4"
+			subtitle: "为头盔添加物品展示框"
+			tasks: [{
+				id: "45A38DCE7526DC6A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:item_frame"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "2CD679BAD5A1767A"
+			subtitle: "对攻击者施加10秒等同于的重伤效果，每级重伤减低30％的回复能力"
+			tasks: [{
+				id: "7A81FE37F8CDCE61"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:injured"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "43601CFE2F856AAB"
+			subtitle: "原版的穿透附魔"
+			tasks: [{
+				id: "5FF867A17A17B70B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:impaling"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "00DD8E6D2FE0B835"
+			subtitle: "在水下或雨中时增加挖掘速度"
+			tasks: [{
+				id: "09799AD170AD8162"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:hydraulic"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "0D4BD2A3AE5532A2"
+			subtitle: "增加挖掘速度"
+			tasks: [{
+				id: "324D6B7516D06A3D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:haste"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "52DAAE9D29A4D861"
+			subtitle: "近战攻击，远程攻击以及被动攻击能够使目标进入冰冻效果"
+			tasks: [{
+				id: "0E34EA02A1C306DA"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:freezing"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			id: "68A3621CE1E79259"
+			subtitle: "原版的火焰附加附魔"
+			tasks: [{
+				id: "0478F5B5BA5110F1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:fiery"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "19C25E06C4EF3669"
+			subtitle: "增加工具生成火焰的范围"
+			tasks: [{
+				id: "2075E5C072732B81"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:fireprimer"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "3B932DB537BF09BE"
+			subtitle: "原版的摔落保护附魔"
+			tasks: [{
+				id: "7445680232AC9A17"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:feather_falling"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "4798706CE596C77E"
+			subtitle: "增加获得的经验"
+			tasks: [{
+				id: "5F943B6CD35B9667"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:experienced"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 33.0d
+		}
+		{
+			disable_toast: true
+			id: "1287FCD7AE73454E"
+			subtitle: "增加工具的基础数据，包括挖掘等级和挖掘速度"
+			tasks: [{
+				id: "4790482500EAB561"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:emerald"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "639AB12B7F2A6577"
+			subtitle: "提升工具的耐久和各项数据"
+			tasks: [{
+				id: "31E5869F0D2AE870"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:diamond"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "30755490694ABFDD"
+			subtitle: "杀死生物获得血肉重铸对应战利品"
+			tasks: [{
+				id: "344CDDF039DDB64F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:despoil"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "49509CD3A5C65893"
+			subtitle: "原版的深海探索者附魔"
+			tasks: [{
+				id: "064BD996B84445A7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:depth_strider"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "670EE19A341733EE"
+			subtitle: "增加火生生物的伤害"
+			tasks: [{
+				id: "48A73D12544A1761"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:cooling"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "5FA1FB7730C49633"
+			subtitle: "提升护盾的格挡角度（不可超过180°）"
+			tasks: [{
+				id: "038C6A38B3037EF9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_thinking:broad"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 26.0d
+		}
+		{
+			disable_toast: true
+			id: "5D3AA9F6E0B551EB"
+			subtitle: "增加游泳速度和游泳时的防御"
+			tasks: [{
+				id: "0F1BF471CA495DEB"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:turtle_shell"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "098170B18A8C1C84"
+			subtitle: "挖掘爆炸抗性低的方块时增加挖掘速度"
+			tasks: [{
+				id: "3FDE39D24CBA59BF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:blasting"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "25383831A631CE87"
+			subtitle: "增加生命上限"
+			tasks: [{
+				id: "7EB2FEE16983B2D7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:revitalizing"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "606F8A68AE601AD4"
+			subtitle: "潜行增加防御，但降低伤害"
+			tasks: [{
+				id: "3D54DC485DA7C595"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:shulking"
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "1127277F6BBBDAFE"
+			subtitle: "降低弹射物伤害"
+			tasks: [{
+				id: "44FD66619385E22B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:projectile_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "67DE352BE1FE1067"
+			subtitle: "降低直接物理类型伤害"
+			tasks: [{
+				id: "381492CF9AFC6C0F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:melee_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "20E71B3117C0795D"
+			subtitle: "在空中时提升攻击和防御"
+			tasks: [{
+				id: "3D49670826B9D7D6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:dragonborn"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "06B53072C8C1DA8F"
+			subtitle: "抵御火焰伤害，减少着火时间"
+			tasks: [{
+				id: "7663A4A638139DF4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:fire_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "669041DCDE0132BC"
+			subtitle: "增加击退抗性"
+			tasks: [{
+				id: "3CA30ADAEA4A2C88"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:knockback_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "45F9214B7E7B2ED7"
+			subtitle: "增加对节肢生物的伤害"
+			tasks: [{
+				id: "793FB8D1DC2E7608"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:bane_of_sssss"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "7BECC9EED3852B78"
+			subtitle: "增加对水生生物的伤害"
+			tasks: [{
+				id: "1C06E849721845B1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:antiaquatic"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: false
+			id: "72AD1E0D67694A25"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "带有此强化的盔甲提供25％辐射抗性"
+			tasks: [{
+				id: "15700EFFD684DB29"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:radiationproof"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "3EA0A2FBCE95DEFA"
+			subtitle: "每级增加0.1伤害倍率但减少15％流体容量"
+			tasks: [{
+				id: "3110683400A17483"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:power_enhance"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "31636969B3D2E62F"
+			subtitle: "每级增加0.2攻速但减少0.05伤害倍率和15%流体容量"
+			tasks: [{
+				id: "1EF2E17CFDB27A70"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:light_equipped"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "36EF0BD875B0D865"
+			subtitle: "每级增加0.255暴击率但减少0.125攻速"
+			tasks: [{
+				id: "34E9AC9322DF7572"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:heavy_crit"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "6E634857F84A6D76"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "每级减少10%冷却时间"
+			tasks: [{
+				id: "1E0F6D07AFA8A86C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:fastcooling"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "7B3E71750FB12740"
+			subtitle: "每级增加75%流体容量"
+			tasks: [{
+				id: "36571C2AAC6AF30E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:extrachamber"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "1A9B63779E7335BE"
+			subtitle: "每级增加0.25流体效率和0.1伤害倍率"
+			tasks: [{
+				id: "1178CE458E37B8BE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:deep_catalysis"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "2651242F15BAE643"
+			subtitle: "对火龙和冰龙造成额外伤害，以闪电劈击并击退目标"
+			tasks: [{
+				id: "1F26A7C94EBEBBB4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:zapped"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "5DFDAE22D3BFEBEB"
+			subtitle: "对腐衰生物造成1.5倍伤害"
+			tasks: [{
+				id: "50AB2F7F3B33C476"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:utherium"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "3C8CC2B1602D3A00"
+			subtitle: "穿着全套时，持续产生魔力。所以匠魂物品的魔力消耗降低20%；每4秒恢复2点生命值"
+			tasks: [{
+				id: "4EDBC578C8530D39"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:terrestrial"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "37F468ADE9FF441F"
+			subtitle: "攻击时额外造成7点魔法伤害"
+			tasks: [{
+				id: "12FFDF046A6AF3A0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:terra"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "698031C2A492F059"
+			subtitle: "提供相应海王工具的能力"
+			tasks: [{
+				id: "341C3C0C78E8BCEC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:siren"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "3DC3AAE7A076CCD2"
+			subtitle: "使攻击者有概率受到伤害"
+			tasks: [{
+				id: "6F49DE4F81D8D01C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:masticate"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "1EC95DE71671C626"
+			subtitle: "对火龙造成额外伤害，冻结并击退目标"
+			tasks: [{
+				id: "75F10795EC8DC3FA"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:iced"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "7B59D293B4FA08F0"
+			subtitle: "穿着全套时；所有匠魂物品的魔力消耗降低10%。被攻击时有概率召唤小精灵反击"
+			tasks: [{
+				id: "701D762B1491C168"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:great_fairy"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "0A5507FF9CCCED39"
+			subtitle: "攻击给予30秒发光效果"
+			tasks: [{
+				id: "6F13D798068E5557"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:glowup"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "4CFF1395735158B5"
+			subtitle: "使攻击目标缓慢"
+			tasks: [{
+				id: "7A11B08E693204ED"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:froststeel"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "2C13C37B9BC233E7"
+			subtitle: "在深暗之园中提高1.5倍挖掘速度和1.5倍攻击伤害"
+			tasks: [{
+				id: "1C8ABC2E33530892"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:forgotten"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "2C14CA53520E7E2E"
+			subtitle: "对冰龙造成额外伤害，点燃并击退目标"
+			tasks: [{
+				id: "03364075CFE322B0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:flamed"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "218D9695A62B39CC"
+			subtitle: "受到攻击时提供短时间的魔力再生和法术伤害提升；并使用魔力修复物品"
+			tasks: [{
+				id: "6897E7D90ED389D7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:enchanters_shield"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 31.0d
+		}
+		{
+			disable_toast: true
+			id: "2E97BEDBC72DAA6A"
+			subtitle: "受到攻击时，有5%概率生成一只小精灵"
+			tasks: [{
+				id: "74D69ED6F98D7D15"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:elemental"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "331B74BF56FE9E76"
+			subtitle: "使物品可食用"
+			tasks: [{
+				id: "284DB1A51B7B9D88"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:cheesy"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "7CCF08625989FC1D"
+			subtitle: "提供额外的魔力和魔力再生"
+			tasks: [{
+				id: "53BB3976B8E29B15"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:ars_nouveau"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "3E7FB6536CB786BA"
+			subtitle: "穿着全套时：所有匠魂物品魔力消耗降低10%。不同装备提供不同增益"
+			tasks: [{
+				id: "19565FED26F54880"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:alfheim"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "20CEDDC895555147"
+			subtitle: "增加魔力修复速度；按下交互键将周围物品吸至身上"
+			tasks: [{
+				id: "31F4B449C153352B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:alf"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "530D5F76CDE3D699"
+			subtitle: "杀死鸡时额外掉落鸡蛋"
+			tasks: [{
+				id: "50F0FE1C01CD6896"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:egg_boost"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "1784744487458CC6"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "攻击时消耗背包里的燃烧物品增加伤害"
+			tasks: [{
+				id: "01A8EFE8ADAF2F58"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:combustor_modifier"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "273E07BEA8A8325B"
+			subtitle: "消耗一个升级槽，获得一个防御槽"
+			tasks: [{
+				id: "70F91C3DF2DCF677"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:armor_infusing"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "079C976C5504AB3F"
+			subtitle: "工具额外获得3格储物槽位"
+			tasks: [{
+				id: "1950AAC85A952033"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:pouch"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "7BFDED3BB657048C"
+			subtitle: "提高两点抢夺等级"
+			tasks: [{
+				id: "3FB90E57C06B6266"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:thief_nature"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "3DB4E7C6FC8FCF7D"
+			subtitle: "每级提升工具0.2精准度与1.2攻击伤害"
+			tasks: [{
+				id: "2136D9215ED347A7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:sniper"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "64B0A48C3C3F3CDB"
+			subtitle: "受到的所有伤害降低两点，但至少会受到两点伤害"
+			tasks: [{
+				id: "498B5444A9DB4750"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:principle"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "40FD92E1080DAB3A"
+			subtitle: "工具耐久降低时有概率恢复黏液覆层"
+			tasks: [{
+				id: "1ADB353864B7A148"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:mucus_rebirth"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "162F030A32B383EC"
+			subtitle: "使用工具击杀史莱姆时有概率补充粘液覆层"
+			tasks: [{
+				id: "2E9C3932562BBC3B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:mucus_devour"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "27C000F8A778D6BF"
+			subtitle: "当你的武器和箭矢命中目标时有50%概率发生爆炸"
+			tasks: [{
+				id: "44B7417C2F64EF3F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:explosive"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "2D5CF5281F68ABDD"
+			subtitle: "处于地表时，提高工具挖掘速度"
+			tasks: [{
+				id: "728C5BA4A5BD6C54"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:excavate"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "415E0450E9A2743F"
+			subtitle: "饱食度不满时，每4秒根据词条等级提供饱食度"
+			tasks: [{
+				id: "250FABFBC2D23AC8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:delicious"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "63301507B7C90B7C"
+			subtitle: "每级消耗200点耐久来提高你的拉弓速度"
+			tasks: [{
+				id: "33278EDED3B6D27E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:bow_light"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "7AAC2CC23FDFB14B"
+			subtitle: "高亮显示以使用者为中心20×20范围内的敌对生物"
+			tasks: [{
+				id: "6D419F5ED9919054"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:photo_eye"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "5C898863D18FFE3D"
+			subtitle: "攻击时有概率提高工具伤害，最高六点"
+			tasks: [{
+				id: "488FEE18E1E9984B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:fate_glory"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "73D7550E8DD842DA"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "受到超过使用者最大生命值25%的伤害时，超出部分减免50%伤害"
+			tasks: [{
+				id: "41E31854F40349BD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:caged_heart"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "69115E8BA723E740"
+			subtitle: "使用该工具攻击非节肢且非亡灵生物时给予目标10秒的中毒效果"
+			tasks: [{
+				id: "5CFCB00D3D4CC02A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:poisonous_sting"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "6A8E22EC4F8E0460"
+			subtitle: "降低10%所有来自冰龙，火龙，电龙的伤害"
+			tasks: [{
+				id: "237308233E581804"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:dragon_breath"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "7363C8575E27CD62"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "每级增加12%初速度，拉弓速度，挖掘速度，攻击速度"
+			tasks: [{
+				id: "4D518CE9493D506C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:wind_power"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "41165C77CD393490"
+			subtitle: "攻击每级施加0.5s一级禁锢"
+			tasks: [{
+				id: "43075906E14DE863"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:stone_cage"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "5D3310C29366AEFD"
+			subtitle: "在寒冷的群系中提高该工具33%所造成的伤害。"
+			tasks: [{
+				id: "5C5E61E0923F9CE4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:storm_rune"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "71262C6FA38CA029"
+			subtitle: "穿戴全套带有此强化的盔甲时便能免疫冰冻伤害与深海严寒效果。"
+			tasks: [{
+				id: "17507982D4344CA0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:cold_proof"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "598540ECA65EE789"
+			subtitle: "对海船墓地里的生物造成伤害提高50%"
+			tasks: [{
+				id: "7D89145B4BB926A8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:suppression"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "187794DC609A745C"
+			subtitle: "当使用者受到攻击时，周围会生成一只小精灵帮助你攻击对手"
+			tasks: [{
+				id: "13E5CC4749258D0A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:guard_pixie"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 29.0d
+		}
+		{
+			disable_toast: true
+			id: "1C31E0BFB167BFA3"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "当使用者生命值低于一半时，获得恶兽之护效果，每级提高3点护甲与1点韧性，并持续恢复使用者生命。"
+			tasks: [{
+				id: "34DB87B5388DF86B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:monstrous"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "507F2177C175B6BA"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "当穿戴整套时，使用者生命值低于40%，获得50%伤害减免，反弹大多数弹射物，并在你受到攻击时击退攻击者"
+			tasks: [{
+				id: "19773C62E6D8F5BA"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:ether_shield"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "00AF71A45F5EE2EC"
+			subtitle: "被攻击时，给予攻击者五秒一级魂火效果"
+			tasks: [{
+				id: "1357FE28F819D4E7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:soul_flame_thorn"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "0D594CC8B248A9FD"
+			subtitle: "攻击施加五秒一级魂火效果"
+			tasks: [{
+				id: "340507F987F5D40E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:soul_flame_blade"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "298A2FA6CC841DFA"
+			subtitle: "每次攻击施加五秒一级流血效果，上限为强化等级*3-1"
+			tasks: [{
+				id: "2E0A2C887B7B7F9C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:sharp_blade"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "6C12E5225CC65175"
+			subtitle: "被攻击每级施加五秒一级寒流效果"
+			tasks: [{
+				id: "621114578CCF4A61"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:ice_thorn"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "719B15D5660AA18B"
+			subtitle: "攻击施加五秒一级寒流效果"
+			tasks: [{
+				id: "18262243B270FE32"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:ice_blade"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "38C952915A4E9761"
+			subtitle: "每级增加5点格挡值"
+			tasks: [{
+				id: "1C3F185FBF5F46B5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:hold_steady"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "369411F6A88446BE"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "每级增加一个恶意槽"
+			tasks: [{
+				id: "2DFE6BB2C4797DE9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:hostility"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "5169E0BB1C2ECDFF"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "攻击每级施加五秒一级诅咒,可以克制再生词条"
+			tasks: [{
+				id: "117FB9EE4E14EFE8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:curse_blade"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "2235B99833124F9A"
+			subtitle: "提升工具基础数据和挖掘等级，并使其能够用铜修复"
+			tasks: [{
+				id: "25AEDD36C4F3A651"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:fortified"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "445E84AFCA4719A6"
+			subtitle: "目标会暂时变得虚弱，其攻击伤害会降低"
+			tasks: [{
+				id: "04B12FC563326891"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:weakness"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "4EC7E41974CAE9A7"
+			subtitle: "目标会中毒，持续受到伤害"
+			tasks: [{
+				id: "2CEA9113EEE71AAF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:venom"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "67A97B44CA5D2309"
+			subtitle: "目标会发光数秒"
+			tasks: [{
+				id: "5D92AD46DF8383CE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:tracing"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "0FBB1E976B42E2E4"
+			subtitle: "攻击者会被困在原地，或者减缓移动速度"
+			tasks: [{
+				id: "7380E4F0DD2159A8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:sticky"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "00656355D32B50EF"
+			subtitle: "弓箭使目标暂时失明"
+			tasks: [{
+				id: "63998FDBFF6FC9B6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:blinding"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "33A6F31411ED95B2"
+			subtitle: "降低药水等魔法伤害"
+			tasks: [{
+				id: "437608BEA53352F6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:magic_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "defense"
+				}
+			}
+			id: "35E7293D64A51251"
+			size: 2.0d
+			subtitle: "消耗防御槽来进行强化"
+			tasks: [{
+				id: "2BD4ED352CE470AA"
+				title: "防御槽强化"
+				type: "checkmark"
+			}]
+			title: "防御槽强化"
+			x: 30.5d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:book"
+			id: "240CA87C5142A482"
+			size: 2.0d
+			subtitle: "不消耗任意槽位来进行强化，其中一些会提供各种槽位"
+			tasks: [{
+				id: "65ED8045F60EA0BC"
+				type: "checkmark"
+			}]
+			title: "无槽位强化"
+			x: 51.5d
+			y: -6.0d
+		}
+		{
+			description: ["这些你基本上你都用得上"]
+			id: "3F6A6C960DD4BE53"
+			tasks: [{
+				id: "5B9FBBF1DB1BE09C"
+				title: "高性价比，并且较为通用的强化"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "43F4C39063BE96DB"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "提升2024的护甲和盔甲韧性"
+			tasks: [{
+				id: "3E1B68AB13FD4EC1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:protonation"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "7955048E1654BBF7"
+			subtitle: "提供4护甲与9盔甲韧性，提高0.75空手伤害，降低17.5%受到的龙息伤害"
+			tasks: [{
+				id: "6F8F131D55B52BA4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:dragon_steel"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "7FC572FF5B302A35"
+			subtitle: "每一级增加2护甲和1韧性，增加300点耐久上限"
+			tasks: [{
+				id: "148251CC81425BC7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:ararar"
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "4F23F64E587DBDF7"
+			subtitle: "猪灵不会攻击你，并且装备可以用金锭修复"
+			tasks: [{
+				id: "0FCF2C6BC8FD5367"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:golden"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "02A7CA398F10333A"
+			subtitle: "副手握持时禁用工具的交互功能"
+			tasks: [{
+				id: "6B0AC717B3096174"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:offhanded"
+					}
+				}
+				type: "item"
+			}]
+			x: 52.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "10B7A8193D36F193"
+			subtitle: "视角更大"
+			tasks: [{
+				id: "26958AB77287AF82"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:nearsighted"
+					}
+				}
+				type: "item"
+			}]
+			x: 58.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "1FCDE00BC31E6D69"
+			subtitle: "增加1个升级槽"
+			tasks: [{
+				id: "66A2316993F22043"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:writable"
+					}
+				}
+				type: "item"
+			}]
+			x: 50.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "63A52C68F58513E9"
+			subtitle: "视角更小"
+			tasks: [{
+				id: "4F5D517AA24A9276"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:farsighted"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "57780936928F3670"
+			subtitle: "免疫火焰伤害"
+			tasks: [{
+				id: "7B4CAFFA492E3FDE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:worldbound"
+					}
+				}
+				type: "item"
+			}]
+			x: 52.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "32940FD56E966288"
+			subtitle: "增加1个能力槽"
+			tasks: [{
+				id: "7EE76C073E216A10"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_thinking:withernic"
+					}
+				}
+				type: "item"
+			}]
+			x: 56.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "62443C5E1FF8343E"
+			subtitle: "附魔光效"
+			tasks: [{
+				id: "4FB059CB94DD6B54"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:shiny"
+					}
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "5DB3153F09514AA5"
+			subtitle: "增加1个升级槽"
+			tasks: [{
+				id: "4CCF85BD760D64A1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:resurrected"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "6CD994C99090915A"
+			subtitle: "增加1个升级槽"
+			tasks: [{
+				id: "5D60181804CEEF9D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_thinking:repayed"
+					}
+				}
+				type: "item"
+			}]
+			x: 52.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "4FE79CF9569B3438"
+			subtitle: "增加1个升级槽"
+			tasks: [{
+				id: "5B1478914A937D7F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:recapitated"
+					}
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "4DDF107B6720B6EC"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "获得额外的两个槽位，种类任选"
+			tasks: [{
+				id: "4C8179FD02C3F693"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:rebalanced"
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "3E7A9D5D70458824"
+			subtitle: "使工具优先消耗粘液附层"
+			tasks: [{
+				id: "1C2FF47268E0667E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:overslime"
+					}
+				}
+				type: "item"
+			}]
+			x: 56.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "43C9B2A355C5FD44"
+			subtitle: "增加1个升级槽"
+			tasks: [{
+				id: "48EF5A0EEADE632F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:harmonious"
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "3994E5F94AB470A2"
+			subtitle: "增加1个能力槽"
+			tasks: [{
+				id: "25B8015095FEB387"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:draconic"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "0FA389D82AB413AC"
+			subtitle: "降低武器精准度"
+			tasks: [{
+				id: "32548D099469723B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:blindshot"
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "0527E5AB5EFD7F7E"
+			subtitle: "增加1个防御槽"
+			tasks: [{
+				id: "2142768C33C218F1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerscalibration:scute"
+					}
+				}
+				type: "item"
+			}]
+			x: 56.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "37BBEFDA16C2F3CF"
+			subtitle: "增加辐射消失速度"
+			tasks: [{
+				id: "171B16DCF8DB24A9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:radiationremoval"
+					}
+				}
+				type: "item"
+			}]
+			x: 56.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "5BDEC9DE7DF663C9"
+			subtitle: "增加一个防御槽"
+			tasks: [{
+				id: "46786F7C4FE249DD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerscalibration:defense_respawn"
+					}
+				}
+				type: "item"
+			}]
+			x: 52.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "2F877D9485F2BA6B"
+			subtitle: "显示机械动力机器的信息"
+			tasks: [{
+				id: "2AFAEA3D6A661E8F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tcintegrations:engineers_goggles"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "293F21550073DC43"
+			subtitle: "同时按下Ctrl键和“护腿交互“键能够交换快捷栏"
+			tasks: [{
+				id: "2AC5846C056C8CF9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:tool_belt"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "4E4E7DF9B8FFD260"
+			subtitle: "获得“粘液护盾”可以抵消伤害"
+			tasks: [{
+				id: "0073DC03078BD286"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerscalibration:overshield"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "02F15E9EAEBC84FC"
+			subtitle: "每级提供一点时运/抢夺"
+			tasks: [{
+				id: "72AC46580E826076"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:luck"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "0262958813AABE13"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "装备在使用后能够升级，每次升级提供不同槽位"
+			tasks: [{
+				id: "219F90B1BFB3D662"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkerslevellingaddon:improvable"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "3EF4B2C5A7FEEAF6"
+			subtitle: "增加2个升级槽"
+			tasks: [{
+				id: "2FB93F3CD5B58FE3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:structure"
+					}
+				}
+				type: "item"
+			}]
+			x: 58.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "5E37BFFDA8C609AD"
+			subtitle: "每级提高0.25的霜冻和灼热抗性及0.1的电离抗性，打在头盔上外星旅游无需氧气"
+			tasks: [{
+				id: "2CA3B3A2498E2D74"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:space_suit"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "4ED1DE8FA61D3E32"
+			subtitle: "增加1个能力槽"
+			tasks: [{
+				id: "21DCE97931FA8A36"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:signal"
+					}
+				}
+				type: "item"
+			}]
+			x: 50.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "7BD954FB3A2C1494"
+			subtitle: "增加0.25灼热抗性"
+			tasks: [{
+				id: "34183F4FB921159F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:scorch_protect"
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "2305402B7E380215"
+			subtitle: "增加0.5压强抗性"
+			tasks: [{
+				id: "490FAD754534A0CD"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:pressure_protect"
+					}
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "1752A29AF53E3F35"
+			subtitle: "增加2个升级槽和1个能力槽"
+			tasks: [{
+				id: "4EEE0FD564108AF9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:gravitational"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "1FABB93A0F3071F1"
+			subtitle: "增加0.25霜冻抗性"
+			tasks: [{
+				id: "3183CA0AA87FDF21"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:freeze_protect"
+					}
+				}
+				type: "item"
+			}]
+			x: 50.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "38F55658D3C2F27D"
+			subtitle: "增加1个能力槽"
+			tasks: [{
+				id: "4AFE7A6891AE9C73"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:energetic"
+					}
+				}
+				type: "item"
+			}]
+			x: 58.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "502DDA6CC1765830"
+			subtitle: "怪物无法复制你的装备词条"
+			tasks: [{
+				id: "274A3A48E178EDEF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:encrypt"
+					}
+				}
+				type: "item"
+			}]
+			x: 58.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "23320F7A2BFAD337"
+			subtitle: "增加1个升级槽"
+			tasks: [{
+				id: "26102B2D09C8EDAB"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:electro_magnetic"
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "75204C8F75E1E188"
+			subtitle: "增加0.25电离抗性"
+			tasks: [{
+				id: "7BB297F5F488B39B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:electric_protect"
+					}
+				}
+				type: "item"
+			}]
+			x: 52.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "142EE536D5D41E94"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "增加5个升级槽和2个能力槽"
+			tasks: [{
+				id: "30FEC11A4F1E289C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:cosmic"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "21F9770AC75AF78E"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "受伤屏幕不再抖动，免疫反胃，移速变化不再改变视野宽度"
+			tasks: [{
+				id: "45270AFDD35F2BE2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:anti_stun_goggles"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "140BFF158203A363"
+			subtitle: "增加3个升级槽"
+			tasks: [{
+				id: "75E254E185FED1B0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:soul"
+					}
+				}
+				type: "item"
+			}]
+			x: 50.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "704775AB1795E2AD"
+			subtitle: "增加1个能力槽"
+			tasks: [{
+				id: "6F06347EC8DA84C0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:inherit"
+					}
+				}
+				type: "item"
+			}]
+			x: 52.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "5BE73C603DB5B859"
+			subtitle: "每级提高500耐久"
+			tasks: [{
+				id: "5723CD060CD59A2D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:body"
+					}
+				}
+				type: "item"
+			}]
+			x: 50.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "4261DE2622484F65"
+			subtitle: "增加对冰龙的伤害"
+			tasks: [{
+				id: "35C850A56D76A04C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:ice_dragon_killer"
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "5F335F39AF1F0357"
+			subtitle: "增加对火龙和冰龙的伤害"
+			tasks: [{
+				id: "21AB61F8EA612437"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:dragon_killer"
+					}
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "19128729520F073E"
+			subtitle: "增加1个防御，升级和能力槽"
+			tasks: [{
+				id: "586C2AA51C477CF5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:mutation"
+					}
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "5BFDF62E70C77449"
+			subtitle: "升级，能力，防御各增加1个槽位"
+			tasks: [{
+				id: "61731595BB766BC4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:improve"
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "0B23DAEA6339364F"
+			subtitle: "增加2个防御槽"
+			tasks: [{
+				id: "78DCBCE89ADBA908"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:hardcore"
+					}
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "32AC5C373139407F"
+			subtitle: "恢复“固化”强化丢失的升级槽"
+			tasks: [{
+				id: "5628E20CEAE6C2A4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_things:enhanced"
+					}
+				}
+				type: "item"
+			}]
+			x: 50.5d
+			y: 9.0d
+		}
+		{
+			id: "3531ADEF2E4AACB9"
+			tasks: [{
+				id: "402954D39DD2891D"
+				title: "略难获得，或者特定情况有奇效的强化"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			description: ["翻一翻看一看，也许有你能用得上的"]
+			id: "374FFF5EE9F2F7DB"
+			subtitle: "翻一翻看一看，也许有你能用得上的"
+			tasks: [{
+				id: "3767A6CFEFF8B43B"
+				title: "其他强化"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 22.0d
+		}
+		{
+			description: ["可能略昂贵，但是效果绝对不会让你失望"]
+			id: "7F480345CBFC913E"
+			tasks: [{
+				id: "098FA2162330F490"
+				title: "工具/材料专属"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "074B6EA95AA4F24E"
+			subtitle: "原版的忠诚附魔"
+			tasks: [{
+				id: "3CE19640108B518A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:loyal"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "79A12662AC1EDDD4"
+			subtitle: "以一个能力槽换取两个升级槽"
+			tasks: [{
+				id: "4FE2EC317C7D61F6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:gilded"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "65F8AB982ECA0491"
+			subtitle: "潜行右键消耗10点耐久放置荧光球"
+			tasks: [{
+				id: "3C7F88AA00DE5329"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:glowing"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "530C4E08B2FEED46"
+			subtitle: "使工具既能主手使用，也能副手使用。对于单手工具，攻击速度和伤害会降至原来的 80%。对于双手握持工具，攻击速度降至 90%，攻击伤害降至 70%"
+			tasks: [{
+				id: "3CD91ACA83E081AF"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:dual_wielding"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			disable_toast: true
+			id: "5FF4E55E9E331E93"
+			subtitle: "原版的冰霜行者附魔"
+			tasks: [{
+				id: "47F076C9DEE27812"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:frost_walker"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "7F5226662569CF28"
+			subtitle: "长按右键蓄力，准星对准一个方块时松开将朝反方向弹射并消耗一点耐久"
+			tasks: [{
+				id: "1500EFB2A89CA62A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:flinging"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 20.0d
+		}
+		{
+			disable_toast: true
+			id: "4A3111F705210D05"
+			subtitle: "走过的地方生成火焰"
+			tasks: [{
+				id: "3C9AA4ACA0B7225B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:flamewake"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 22.0d
+		}
+		{
+			disable_toast: true
+			id: "0525CCAC3827BEF4"
+			subtitle: "工具右键可生成火焰"
+			tasks: [{
+				id: "031535535F7EFF1C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:firestarter"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "38F991B5F54880C9"
+			subtitle: "扩大工具效用范围"
+			tasks: [{
+				id: "4DB6B974D4120472"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:expanded"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "543B811298F08016"
+			subtitle: "挖掘方块后，可将副手握持的方块填充过去"
+			tasks: [{
+				id: "3142EED925D5D285"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:exchanging"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 24.0d
+		}
+		{
+			icon: "avaritia:infinity_catalyst"
+			id: "223071D8708CE3EF"
+			title: "提供槽位的强化"
+			x: 41.5d
+			y: -1.0d
+		}
+		{
+			id: "168C4FCDB75F5050"
+			tasks: [{
+				id: "671B5EA45DFF911F"
+				title: "常用的强化"
+				type: "checkmark"
+			}]
+			title: "必打的强化"
+			x: 41.5d
+			y: 5.0d
+		}
+		{
+			id: "0CB53AAD7BA02855"
+			tasks: [{
+				id: "3449987B20EC39FA"
+				title: "其他强化"
+				type: "checkmark"
+			}]
+			x: 41.5d
+			y: 10.0d
+		}
+		{
+			disable_toast: true
+			id: "5282A50A6DA7C5EF"
+			subtitle: "每级增加100%回升倍率"
+			tasks: [{
+				id: "672820A9EDEAF1F5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:deepanddeep"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "hostilities"
+				}
+			}
+			id: "6CFF9352740FCFF7"
+			size: 2.0d
+			subtitle: "这些槽位只有特殊材料才会提供，且具有强大的属性"
+			tasks: [{
+				id: "0A806CAD2B19202D"
+				type: "checkmark"
+			}]
+			title: "特殊槽位强化"
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "07A350968AB32A1E"
+			subtitle: "每级提高30%初速度"
+			tasks: [{
+				id: "3AC8E99F1FB1DFD2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_velocity"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "771675BC104425B4"
+			subtitle: "每级提高30%护甲韧性"
+			tasks: [{
+				id: "13E2A480ACBC1682"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_toughness"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "45017AA4BF01E99D"
+			subtitle: "每级提高30%攻击速度"
+			tasks: [{
+				id: "34A086931E27BA0B"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_speed"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "078205D45079AEC9"
+			subtitle: "每级提高30%弹射物伤害"
+			tasks: [{
+				id: "72F4BAB2DEA5BEA5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_power"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "369FFD9256AF2761"
+			subtitle: "每级提高30%挖掘速度"
+			tasks: [{
+				id: "6055083EB6BA2EF3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_mining"
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "7E9BB1A66138DEA8"
+			subtitle: "每级提高30%耐久"
+			tasks: [{
+				id: "247EB2117A4A7C93"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_durability"
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "6890964D4255073C"
+			subtitle: "每级提高30%拉弓速度"
+			tasks: [{
+				id: "467F11F264FFD085"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_draw"
+					}
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "33D881C5850BEDE6"
+			subtitle: "每级提高30%近战伤害"
+			tasks: [{
+				id: "4216D04F4B817AC8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_damage"
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			id: "497395D155C8A899"
+			subtitle: "每级提高30%护甲"
+			tasks: [{
+				id: "7C139CD5040BC7BB"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_armor"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "4686CDE9277ACB1C"
+			subtitle: "每级提高30%精准度"
+			tasks: [{
+				id: "23F30856E08D72EC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious_accuracy"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "11EF347D82411A54"
+			subtitle: "增加能量基础容量每级30000"
+			tasks: [{
+				id: "55F5511ECDA81FE4"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:energyadd"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "1D7E53E5007407C8"
+			subtitle: "每级增加40%能量存储"
+			tasks: [{
+				id: "7FCF7C35FBC6DEB8"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:energymultiple"
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "378ED1FB0B0FC33B"
+			subtitle: "增加1000*词条等级点能量传输"
+			tasks: [{
+				id: "66DF15F9ED1E4AD7"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:energytransport"
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 9.0d
+		}
+	]
+	subtitle: ["匠魂工具的各种强化，菱形图标为重要的强化"]
+	title: "强化概述"
+}

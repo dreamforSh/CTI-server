@@ -1,0 +1,1444 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "center",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "center",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "center",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "center",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "north"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "center",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "center",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "center",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "center",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "south"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "center",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "center",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "center",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "center",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "west"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "top_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "top_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "top_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "top_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "center",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "center",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "center",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "center",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_left",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "true",
+			"location": "bottom_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"open": "false",
+			"location": "bottom_right",
+			"facing": "east"
+		},
+		"Name": "ad_astra:desh_sliding_door"
+	}
+]

@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tiger"
+	group: "41CA0371CBDA61CC"
+	icon: "lightmanscurrency:vending_machine_pink"
+	id: "75AC808AA284BCCE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e欢迎来到愉快的老虎机，这里有很多的东西供你进行娱乐，希望能为大家带来笑容！&e"
+				"&m&0&o也许你能在其他任务里找到线索~&0&o&m"
+			]
+			id: "50318EE869E01629"
+			tasks: [{
+				id: "160473DFC90140F3"
+				type: "checkmark"
+			}]
+			title: "愉快的抽奖时间到了！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["50318EE869E01629"]
+			description: ["量大管饱"]
+			hide_dependency_lines: true
+			icon: "drinkbeer:spice_roasted_red_pine_nuts"
+			id: "6CF95FA09FC1C838"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A28C21B75D1662B"
+				table_id: 541804463457550829L
+				type: "random"
+			}]
+			subtitle: "各种奇奇怪怪的香料"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7E2E87C4D473C2C0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "香料大抽奖"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "cti:qdbeer"
+			id: "6188F30136D93480"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74391EBD08EDEF0F"
+				table_id: 280241854384394554L
+				type: "random"
+			}]
+			subtitle: "这些可是cti才能买的到的酒"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "24172DE3403C6625"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "整活绝版酒"
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["消费需谨慎"]
+	title: "老虎机"
+}

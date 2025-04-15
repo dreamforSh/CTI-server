@@ -1,0 +1,27 @@
+{
+	icon: "tinkers_reforged:aluminum_brass_platform"
+	id: "72025F4AEB83DE1F"
+	loot_size: 9
+	order_index: 45
+	rewards: [
+		{ count: 3, item: "tinkers_reforged:hureaulite_gem" }
+		{ count: 3, item: "tinkers_reforged:red_beryl_gem" }
+		{ count: 3, item: "tinkers_reforged:ender_bone" }
+		{ count: 3, item: "tinkers_reforged:epidote_gem" }
+		{ count: 3, item: "tinkers_reforged:blazium_ingot" }
+		{ count: 3, item: "tinkers_reforged:duralumin_ingot" }
+		{ count: 3, item: "tinkers_reforged:durasteel_ingot" }
+		{ count: 3, item: "tinkers_reforged:bomin_ingot" }
+		{ count: 3, item: "tinkers_reforged:electric_copper_ingot" }
+		{ count: 3, item: "tinkers_reforged:ferobolt_ingot" }
+		{ count: 3, item: "tinkers_reforged:kepu_ingot" }
+		{ count: 3, item: "tinkers_reforged:etryx_ingot" }
+		{ count: 3, item: "tinkers_reforged:lavium_ingot" }
+		{ count: 3, item: "tinkers_reforged:qivium_ingot" }
+		{ count: 3, item: "tinkers_reforged:tiberium_ingot" }
+		{ count: 3, item: "tinkers_reforged:titanium_ingot" }
+		{ count: 3, item: "tinkers_reforged:mosite_ingot" }
+		{ count: 3, item: "tinkers_reforged:hornium_ingot" }
+	]
+	title: "王之书-再锻-半身-抽奖"
+}

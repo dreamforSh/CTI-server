@@ -1,0 +1,833 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "logistics"
+	group: "7E3173C55DD03B0A"
+	icon: "ae2:fluix_smart_cable"
+	id: "2EB2E64C14AA9F5D"
+	images: [
+		{
+			click: "#16E856CA1D016169"
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "sfm:item/labelgun"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pipez:item/ultimate_upgrade"
+			rotation: 45.0d
+			width: 1.0d
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pipez:item/improved_upgrade"
+			rotation: -45.0d
+			width: 1.0d
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/advanced_thermodynamic_conductor_vertical"
+			rotation: 45.0d
+			width: 0.6d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/elite_universal_cable_vertical"
+			rotation: 135.0d
+			width: 0.6d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/opaque/ultimate_pressurized_tube_vertical"
+			rotation: 135.0d
+			width: 0.6d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/opaque/basic_mechanical_pipe"
+			rotation: 45.0d
+			width: 0.6d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_logistical_transporter_vertical"
+			rotation: 45.0d
+			width: 0.6d
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"事实上绝大部分科技模组的玩法都在于处理物流"
+				""
+				"我相信无论是谁都需要这份物流介绍，它能帮你熟悉模组、定位需求并辅助你做出更好的决策"
+				""
+				"最右侧给出了各个物流模组的模组ID，通过在jei中以&e@模组ID&r的格式来进行检索"
+				""
+				"具体物流设备中&e有必要提示，建议使用前先行查看&r"
+			]
+			icon: {
+				Count: 1b
+				id: "cti:tier_5_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "71FC329097AF2EC2"
+			rewards: [{
+				id: "7ADFE589EC7CEF46"
+				type: "xp"
+				xp: 1
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "35826277CA6BD5A8"
+				title: "物流"
+				type: "checkmark"
+			}]
+			title: "MC科技的核心"
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["71FC329097AF2EC2"]
+			description: ["你的产线是否有&e大量或是长期&r的需求？"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "262EED550CA80D17"
+			rewards: [{
+				id: "4D5A3767B79A810C"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "386356FCD7BBDB58"
+				title: "需求量、需求分布"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["262EED550CA80D17"]
+			icon: "l2hostility:regenerate"
+			id: "06641024AFDFB245"
+			rewards: [{
+				id: "7C23401A7B80E214"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "3291C380FA2F4B0C"
+				title: "是，我有长期或是大量需求"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["262EED550CA80D17"]
+			icon: "l2hostility:wither"
+			id: "6A609158B89215E4"
+			rewards: [{
+				id: "4124D69A5F504075"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5B94DE42C812608E"
+				title: "否，我只是偶尔需要少量产物"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6A609158B89215E4"
+				"0964EF2C5ABB735A"
+			]
+			description: [
+				"优势："
+				"无线物流、跨纬度传输、精确控制、中低占用、中低造价"
+				""
+				"缺陷："
+				"中等速率上限"
+				""
+				"&8点击下方图片查看ae任务"
+			]
+			icon: "ae2:controller"
+			id: "5E7E89085EB56AFE"
+			rewards: [{
+				id: "51E4D7669D542AFA"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "33CC20F5DE7DF18A"
+				title: "或许AE是最好的选择"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2FCA1361408B01C2"
+				"0964EF2C5ABB735A"
+				"6A609158B89215E4"
+			]
+			description: [
+				"优势："
+				"极致精确控制、较低占用、低廉造价"
+				""
+				"缺陷："
+				"占地体积大、使用门槛高"
+				""
+				"ps：SFM拥有极高上限，能够进行极致的精确控制，甚至在绝大多数场景下能做的比AE更好"
+			]
+			hide_dependent_lines: true
+			icon: "sfm:manager"
+			id: "3CBC534D416A0E45"
+			rewards: [{
+				id: "7405612B6A8BEF4E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2F0E86EC314D1A7F"
+				title: "或许SFM符合你的需求"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FCA1361408B01C2"]
+			description: [
+				"优势："
+				"无线、跨纬度、较高物流数值、中低占用"
+				""
+				"缺陷："
+				"较高造价"
+				""
+				"ps：mek的物品管道极其难用，如非必要尽量不要使用，此外mek线缆主要占用为渲染占用，三思而后用"
+			]
+			hide_dependent_lines: true
+			icon: "mekaevolution:infinite_universal_cable"
+			id: "64DBD649E4327AA5"
+			rewards: [{
+				id: "17EE93477F600B0E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "19EDBFF92EBA25F9"
+				title: "或许MEK能满足你的愿望"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0964EF2C5ABB735A"
+				"6A609158B89215E4"
+			]
+			description: [
+				"优势："
+				"中等精确控制（高自由度的过滤和单线传输多类型）、低造价、中低占用"
+				""
+				"缺陷："
+				"对mek多方快设备兼容较差"
+				""
+				"ps：经过实际测试，pip占用和mek非常接近，并没有所谓的性能优势"
+				"ps：绝对的中庸之道，各个方面都比较平衡"
+			]
+			hide_dependent_lines: true
+			icon: "pipez:wrench"
+			id: "122970E6038AA89F"
+			rewards: [{
+				id: "3ACD82EE36B988B8"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5CECBF59CA2128EB"
+				title: "或许PIPEZ更适合你"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0964EF2C5ABB735A"]
+			description: [
+				"优势："
+				"无线、跨纬度、低造价、较高物流数值"
+				""
+				"缺陷："
+				"较高占用（无线节点）、无法精确控制"
+				""
+				"ps：最廉价的无线传输"
+			]
+			hide_dependent_lines: true
+			icon: "cyclic:cable_wrench"
+			id: "48821E549A403989"
+			rewards: [{
+				id: "58370947F7DF72E4"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "59BC1B1038F5AAA0"
+				title: "或许可以考虑循环？"
+				type: "checkmark"
+			}]
+			title: "或许可以考虑CYCLIC"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06641024AFDFB245"]
+			description: ["你是否需要极高数值的物流？（化学品、流体数百B/t，物品数千/t）"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "16D2497F3AE055C5"
+			rewards: [{
+				id: "5C6C9B7B706836E7"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4FB6DD68627633BD"
+				title: "是否有极高物流数值需求"
+				type: "checkmark"
+			}]
+			title: "物流数值需求"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16D2497F3AE055C5"]
+			icon: "l2hostility:regenerate"
+			id: "2FCA1361408B01C2"
+			rewards: [{
+				id: "7549C946DCEC4EC3"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "39BA55AC72D2DEAD"
+				title: "是，我有极高物流数值需求"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16D2497F3AE055C5"]
+			icon: "l2hostility:wither"
+			id: "0964EF2C5ABB735A"
+			rewards: [{
+				id: "4F6129E92E5D2865"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0474CF682B1F837D"
+				title: "否，我对物流数值需求仅在以k计以下"
+				type: "checkmark"
+			}]
+			title: "否，我的物流数值需求较低"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"122970E6038AA89F"
+				"5E7E89085EB56AFE"
+				"48821E549A403989"
+				"64DBD649E4327AA5"
+				"3CBC534D416A0E45"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"限于篇幅和笔者自身水准，我无法在一个任务中将各个物流模组的全部特性介绍完全，只能为你提供一点点指引，其余部分就需要你在实践中不断探索发现了"
+				""
+				"祝游戏愉快！"
+			]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:glyph_self"
+			id: "24274237E53C48EF"
+			rewards: [{
+				id: "057E11176A91DDAC"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "7E71405DF7AA4C16"
+				title: "千里之行，始于足下"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["122970E6038AA89F"]
+			id: "56D71A14CE6910ED"
+			rewards: [{
+				id: "2FC6F1C9594022F2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "71BCEA7ABB255772"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["122970E6038AA89F"]
+			description: ["能够绕过部分设备缓存限制，例如软管滑轮"]
+			id: "53BFD5BB2EF22AE5"
+			rewards: [{
+				id: "7D136F09C8198B77"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A5E6720B9CC3F5E"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["122970E6038AA89F"]
+			id: "0B147F668A6127C9"
+			rewards: [{
+				id: "48623B752A98E9D8"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6D65DE323A707A76"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["122970E6038AA89F"]
+			id: "119BB1F00F3B9B55"
+			rewards: [{
+				id: "0E382BE7D53AEF34"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "22339C5495847FBF"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["122970E6038AA89F"]
+			description: ["可以实现一条线传输全部类型"]
+			id: "337852BDC4C6BF8F"
+			rewards: [{
+				id: "02E361A57F3AE207"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "642F657A6316AA8A"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48821E549A403989"]
+			id: "6FD8B1E6171BBB6F"
+			rewards: [{
+				id: "75C656AA54875774"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "038B1ACDECD8CDC5"
+				item: "cyclic:item_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48821E549A403989"]
+			id: "3730C470B89D2F46"
+			rewards: [{
+				id: "18F4C83121732EFE"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "606FCF4FA4C89ACD"
+				item: "cyclic:energy_pipe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48821E549A403989"]
+			description: ["&4破坏后会损失其中的缓存"]
+			id: "5E5DB532789ABBDD"
+			rewards: [{
+				id: "10485AB4BAB0A05F"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6494A4BE1C3496CF"
+				item: "cyclic:fluid_pipe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48821E549A403989"]
+			description: [
+				"配合GPS卡使用"
+				""
+				"&4性能占用极高"
+			]
+			id: "46DD8AE7267BE3AE"
+			rewards: [{
+				id: "4B6D760F14017921"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "124646CD831857EF"
+				item: "cyclic:wireless_energy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48821E549A403989"]
+			description: [
+				"配合GPS卡使用"
+				""
+				"&4性能占用极高"
+			]
+			id: "3CAA645E8262A583"
+			rewards: [{
+				id: "56649F8247701B59"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "21C008AA906F5F76"
+				item: "cyclic:wireless_item"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48821E549A403989"]
+			description: [
+				"配合GPS卡使用"
+				""
+				"&4性能占用极高"
+			]
+			id: "1E0808B60FCE9578"
+			rewards: [{
+				id: "273A98094EA762B5"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "77E201AF6C5C7C24"
+				item: "cyclic:wireless_fluid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CBC534D416A0E45"]
+			description: ["标记后需要右键导入工厂管理器"]
+			id: "034552F0CFDCDE64"
+			rewards: [{
+				id: "72942879952A1894"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "57BCD3C3A77182F1"
+				item: {
+					Count: 1b
+					id: "sfm:labelgun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "标签枪"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CBC534D416A0E45"]
+			id: "441FCCD1A8DF1C30"
+			rewards: [{
+				id: "68EE0891B05E8F63"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "50AFDBEA0E78165D"
+				item: {
+					Count: 1b
+					id: "sfm:disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "程序磁盘"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CBC534D416A0E45"]
+			description: ["虽然默认限制了最低间隔20t，但是你仍然可以通过使用红石信号触发器配合高频红石实现1rt间隔的传输"]
+			id: "2C7EBC175E869591"
+			rewards: [{
+				id: "047F2343C37FE1E9"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "22E0B5FE38023E03"
+				item: "sfm:manager"
+				type: "item"
+			}]
+			title: "工厂管理器"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CBC534D416A0E45"]
+			description: ["Sfm可以用CTRL+I快捷键显示界面槽位顺序"]
+			id: "73472BCB773EBDC5"
+			rewards: [{
+				id: "769AE54BCA6B5742"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			subtitle: "工厂管理器双手的延伸"
+			tasks: [{
+				id: "66FF46514E553F36"
+				item: "sfm:cable"
+				type: "item"
+			}]
+			title: "工厂线缆"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64DBD649E4327AA5"]
+			id: "47D3418B3FE5EA3F"
+			rewards: [{
+				id: "1C67C751CC8070AE"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1441C5E1109C7851"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64DBD649E4327AA5"]
+			id: "411377CE0B1F7611"
+			rewards: [{
+				id: "224CA36F4112D908"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "316A79EF3E5BDD88"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64DBD649E4327AA5"]
+			description: ["极差的调度和极高的性能占用，如非必要请勿使用"]
+			id: "520967FE69DCE895"
+			rewards: [{
+				id: "11A8ABA64BE58F2E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "209E3DB8C65A6809"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64DBD649E4327AA5"]
+			id: "3A84D20A3F8F46C6"
+			rewards: [{
+				id: "27C28FD65735E6E6"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "17996434E6E1B896"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["64DBD649E4327AA5"]
+			id: "4418073B9E86040F"
+			rewards: [{
+				id: "33CCD47606A1BD75"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "740A664259E4222E"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+	subtitle: [
+		"MC的本质是...物流？"
+		"-by Zehn_bubble"
+	]
+	title: "物流与运输——科技的灵魂"
+}

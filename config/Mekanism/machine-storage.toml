@@ -1,0 +1,76 @@
+
+#Machine Energy Storage Config. This config is synced from server to client.
+[storage]
+	#Base energy storage (Joules).
+	enrichmentChamber = "40000"
+	#Base energy storage (Joules).
+	osmiumCompressor = "160000"
+	#Base energy storage (Joules).
+	combiner = "80000"
+	#Base energy storage (Joules).
+	crusher = "40000"
+	#Base energy storage (Joules).
+	metallurgicInfuser = "40000"
+	#Base energy storage (Joules).
+	purificationChamber = "160000"
+	#Base energy storage (Joules).
+	energizedSmelter = "40000"
+	#Base energy storage (Joules).
+	digitalMiner = "40000000"
+	#Base energy storage (Joules).
+	electricPump = "80000"
+	#Base energy storage (Joules).
+	chargePad = "4096000"
+	#Base energy storage (Joules).
+	rotaryCondensentrator = "40000"
+	#Base energy storage (Joules).
+	oxidationChamber = "160000"
+	#Base energy storage (Joules).
+	chemicalInfuser = "160000"
+	#Base energy storage (Joules).
+	chemicalInjectionChamber = "320000"
+	#Base energy storage (Joules).
+	electrolyticSeparator = "320000"
+	#Base energy storage (Joules).
+	precisionSawmill = "40000"
+	#Base energy storage (Joules).
+	chemicalDissolutionChamber = "320000"
+	#Base energy storage (Joules).
+	chemicalWasher = "160000"
+	#Base energy storage (Joules).
+	chemicalCrystallizer = "320000"
+	#Base energy storage (Joules).
+	seismicVibrator = "40000"
+	#Base energy storage (Joules).
+	pressurizedReactionBase = "4000"
+	#Base energy storage (Joules).
+	fluidicPlenisher = "80000"
+	#Base energy storage (Joules).
+	laser = "4000000"
+	#Base energy storage (Joules).
+	laserAmplifier = "10000000000"
+	#Base energy storage (Joules).
+	laserTractorBeam = "10000000000"
+	#Base energy storage (Joules).
+	formulaicAssemblicator = "80000"
+	#Base energy storage (Joules).
+	teleporter = "10000000"
+	#Base energy storage (Joules).
+	modificationStation = "80000"
+	#Base energy storage (Joules).
+	isotopicCentrifuge = "160000"
+	#Base energy storage (Joules).
+	nutritionalLiquifier = "80000"
+	#Base energy storage (Joules). Also defines max process rate.
+	antiprotonicNucleosynthesizer = "2000000000"
+	#Base energy storage (Joules).
+	pigmentExtractor = "80000"
+	#Base energy storage (Joules).
+	pigmentMixer = "160000"
+	#Base energy storage (Joules).
+	paintingMachine = "80000"
+	#Base energy storage (Joules). Also defines max output rate.
+	spsPort = "2000000000"
+	#Base energy storage (Joules).
+	dimensionalStabilizer = "80000"
+

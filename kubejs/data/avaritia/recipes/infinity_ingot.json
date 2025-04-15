@@ -1,0 +1,29 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "avaritia:neutron_gear"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "N": {
+      "item": "kubejs:cosmic_mechanism"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "pattern": [
+    "NNNNNNNNN",
+    "NCXXCXXCN",
+    "NXCCBCCXN",
+    "NCXXCXXCN",
+    "NNNNNNNNN"
+  ],
+  "result": {
+    "item": "avaritia:infinity_ingot"
+  },
+  "show_notification": false
+}

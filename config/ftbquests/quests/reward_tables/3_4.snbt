@@ -1,0 +1,98 @@
+{
+	icon: {
+		Count: 1b
+		id: "tconstruct:tinkers_anvil"
+		tag: {
+			texture: "tconstruct:manyullyn_block"
+		}
+	}
+	id: "658984AEF34CAC97"
+	loot_size: 6
+	order_index: 33
+	rewards: [
+		{ count: 2, item: "tconstruct:cobalt_block" }
+		{ count: 2, item: "tconstruct:rose_gold_block" }
+		{ count: 2, item: "tconstruct:pig_iron_block" }
+		{ count: 2, item: "tconstruct:manyullyn_block" }
+		{ count: 2, item: "tconstruct:slimesteel_block" }
+		{ count: 2, item: "tconstruct:amethyst_bronze_block" }
+		{ count: 2, item: "tconstruct:hepatizon_block" }
+		{ count: 2, item: "tconstruct:queens_slime_block" }
+		{ count: 18, item: "tconstruct:seared_brick" }
+		{ count: 18, item: "tconstruct:scorched_brick" }
+		{ count: 18, item: "tconstruct:blazewood" }
+		{ count: 18, item: "tconstruct:greenheart_log", weight: 0.25f }
+		{ count: 18, item: "tconstruct:skyroot_wood", weight: 0.25f }
+		{ count: 18, item: "tconstruct:bloodshroom_log", weight: 0.25f }
+		{ count: 18, item: "tconstruct:enderbark_log", weight: 0.25f }
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "tconstruct:plated_slimewood"
+				}
+			}
+			random_bonus: 8
+			title: "1~9x 复合黏木修补件"
+		}
+		{ item: "tconstruct:silky_cloth", random_bonus: 8, title: "1~9x 丝绢" }
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:tool_binding"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			random_bonus: 8
+			title: "1~9x 远古兽皮绑定结"
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tconstruct:maille"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			random_bonus: 8
+			title: "1~9x 远古兽皮maille"
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tinkers_ingenuity:gscore"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			random_bonus: 8
+			title: "1~9x 远古兽皮巨剑核心"
+			weight: 0.25f
+		}
+		{ count: 18, item: "tconstruct:nahuatl" }
+		{ item: "tconstruct:sky_slime_vine", random_bonus: 8, title: "1~9x 粘液藤蔓", weight: 0.5f }
+		{ item: "tconstruct:ender_slime_vine", title: "1~9x 粘液藤蔓", weight: 0.5f }
+		{ item: "tconstruct:efln_ball" }
+		{ count: 18, item: "tconstruct:venombone" }
+		{ count: 18, item: "tconstruct:necronium_bone" }
+		{ count: 18, item: "tconstruct:blazing_bone" }
+		{ count: 18, item: "tconstruct:necrotic_bone" }
+		{
+			item: {
+				Count: 1b
+				id: "solidarytinker:mining_core"
+				tag: {
+					Material: "tconstruct:ancient_hide"
+				}
+			}
+			random_bonus: 8
+			title: "1~9x 远古兽皮挖掘核心"
+		}
+		{ count: 30, item: "thermal:gold_coin" }
+	]
+	title: "王之书-匠3-全收集-抽奖"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 512000,
+  "powerRate": 512000,
+  "input": {
+    "item": "mekanism:hydrogen_bucket"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:ingots/uranium"
+    },
+    {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    {
+      "item": "thermal:energy_duct"
+    },
+    {
+      "item": "thermal:dynamo_magmatic"
+    }
+  ],
+  "result": {
+    "item": "kubejs:energy_mechanism"
+  }
+}

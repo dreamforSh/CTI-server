@@ -1,0 +1,50 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 2000000000,
+    "powerRate": 512000000,
+    "input": {
+      "item": "etshtinker:alloy_fracture"
+    },
+    "ingredients": [
+      {
+        "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "create:andesite_casing"
+      },
+      {
+        "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "thermal:machine_frame"
+      },
+      {
+        "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "kubejs:pressurized_casing"
+      },
+      {
+        "item": "etshtinker:perfect_generic_item"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "kubejs:atherium_casing"
+      }
+    ],
+    "result": {
+      "item": "kubejs:halfdone_exoalloy"
+    }
+  }
+  

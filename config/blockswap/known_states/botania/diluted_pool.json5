@@ -1,0 +1,278 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "white"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "white"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "orange"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "orange"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "magenta"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "magenta"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "light_blue"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "light_blue"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "yellow"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "yellow"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "lime"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "lime"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "pink"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "pink"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "gray"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "gray"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "light_gray"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "light_gray"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "cyan"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "cyan"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "purple"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "purple"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "blue"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "blue"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "brown"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "brown"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "green"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "green"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "red"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "red"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "black"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"color": "black"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"color": "none"
+		},
+		"Name": "botania:diluted_pool"
+	},
+	{
+		"Name": "botania:diluted_pool"
+	}
+]

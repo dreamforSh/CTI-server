@@ -1,0 +1,1625 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "north_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "north_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "north_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "north_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "north_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "north_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "north_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "north_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "north_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "north_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "north_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "north_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "north_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "north_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "north_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "north_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "north_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "north_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "north_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "north_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "north_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "north_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "north_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "north_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "north_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "north_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "north_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "north_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "north_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "north_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "south_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "south_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "south_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "south_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "south_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "south_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "south_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "south_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "south_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "south_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "south_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "south_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "south_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "south_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "south_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "south_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "south_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "south_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "south_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "south_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "south_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "south_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "south_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "south_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "south_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "south_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "south_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "south_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "south_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "south_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "east_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "east_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "east_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "east_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "east_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "east_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "east_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "east_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "east_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "east_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "east_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "east_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "east_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "east_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "east_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "east_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "east_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "east_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "east_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "east_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "east_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "east_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "east_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "east_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "east_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "east_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "east_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "east_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "east_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "east_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "west_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "west_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "west_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "west_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "west_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "west_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "west_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "west_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "west_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "west_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "west_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "west_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "west_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "west_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "west_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "west_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "west_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "west_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "west_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "west_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "west_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "west_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "west_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "west_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "west_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "west_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "west_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "west_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "west_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "west_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "up_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "up_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "up_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "up_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "up_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "up_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "up_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "up_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "up_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "up_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "up_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "up_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "up_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "up_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "up_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "up_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "up_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "up_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "up_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "up_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "up_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "up_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "up_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "up_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "up_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "up_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "up_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "up_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "up_down"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "down_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "down_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "down_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "down_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "down_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "down_north"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "down_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "down_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "down_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "down_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "down_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "down_south"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "down_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "down_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "down_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "down_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "down_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "down_east"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "down_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "down_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "down_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "down_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "down_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "down_west"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "source",
+			"connection": "down_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "source",
+			"connection": "down_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "inner",
+			"connection": "down_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "inner",
+			"connection": "down_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"vertex": "sink",
+			"connection": "down_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"vertex": "sink",
+			"connection": "down_up"
+		},
+		"Name": "biomancy:maw_hopper"
+	}
+]

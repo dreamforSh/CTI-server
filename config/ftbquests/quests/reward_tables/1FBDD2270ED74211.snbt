@@ -1,0 +1,17 @@
+{
+	icon: "l2hostility:greed_of_nidhoggur"
+	id: "1FBDD2270ED74211"
+	loot_size: 6
+	order_index: 59
+	rewards: [
+		{ count: 9, item: "l2hostility:chaos_ingot" }
+		{ count: 9, item: "l2hostility:miracle_ingot", weight: 0.75f }
+		{ count: 3, item: "l2complements:shulkerate_block" }
+		{ count: 3, item: "l2complements:sculkium_block" }
+		{ count: 3, item: "l2complements:poseidite_block" }
+		{ count: 3, item: "l2complements:totemic_gold_block" }
+		{ item: "l2complements:eternium_block", weight: 0.1f }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-莱特兰-全收集-抽奖"
+}

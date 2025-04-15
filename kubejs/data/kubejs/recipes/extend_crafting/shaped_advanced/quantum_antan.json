@@ -1,0 +1,25 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "AAAAA",
+      "AADAA",
+      "ADBDA",
+      "AADAA",
+      "AAAAA"
+    ],
+    "key": {
+      "A": {
+        "tag": "forge:ingots/invar"
+      },
+      "B": {
+        "item": "ae2:singularity"
+      },
+      "D": {
+        "item": "ae2:quantum_link"
+      }
+    },
+    "result": {
+      "item": "mekanism:quantum_entangloporter",
+      "count": 4
+    }
+  }

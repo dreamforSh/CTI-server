@@ -1,0 +1,12 @@
+{
+	id: "627D2952DCF3F49C"
+	loot_size: 1
+	order_index: 69
+	rewards: [
+		{ count: 64, item: "mekanism:basic_control_circuit" }
+		{ count: 32, item: "mekanism:advanced_control_circuit" }
+		{ count: 16, item: "mekanism:elite_control_circuit" }
+		{ count: 8, item: "mekanism:ultimate_control_circuit" }
+	]
+	title: "mek电路"
+}

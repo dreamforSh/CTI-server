@@ -1,0 +1,11 @@
+{
+  "name": "singularity.avaritia.diamond",
+  "colors": [
+    "a6fce9",
+    "1aaca8"
+  ],
+  "timeRequired": 30,
+  "ingredient": {
+    "item": "minecraft:diamond"
+  }
+}

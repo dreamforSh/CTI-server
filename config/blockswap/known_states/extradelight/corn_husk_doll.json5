@@ -1,0 +1,581 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"hanging": "true"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "0",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "0",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "1",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "1",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "2",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "2",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "3",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "3",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "4",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "4",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "5",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "5",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "6",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "6",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "7",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "7",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "8",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "8",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "9",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "9",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "10",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "10",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "11",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "11",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "12",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "12",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "13",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "13",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "14",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "14",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"rotation": "15",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"rotation": "15",
+			"hanging": "false"
+		},
+		"Name": "extradelight:corn_husk_doll"
+	}
+]

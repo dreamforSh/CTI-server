@@ -1,0 +1,13 @@
+{
+	id: "77785BF558B9495B"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 8, item: "thermal:signalum_ingot" }
+		{ count: 8, item: "thermal:lumium_ingot" }
+		{ count: 8, item: "thermal:enderium_ingot" }
+		{ count: 2, item: "thermal:rich_slag_block" }
+		{ count: 4, item: "thermal:slag_block" }
+	]
+	title: "热力奖励（二阶）"
+}

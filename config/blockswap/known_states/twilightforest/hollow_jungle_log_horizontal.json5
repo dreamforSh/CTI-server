@@ -1,0 +1,86 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "moss",
+			"axis": "x"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "moss_and_grass",
+			"axis": "x"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "snow",
+			"axis": "x"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "waterlogged",
+			"axis": "x"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "empty",
+			"axis": "z"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "moss",
+			"axis": "z"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "moss_and_grass",
+			"axis": "z"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "snow",
+			"axis": "z"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "waterlogged",
+			"axis": "z"
+		},
+		"Name": "twilightforest:hollow_jungle_log_horizontal"
+	}
+]

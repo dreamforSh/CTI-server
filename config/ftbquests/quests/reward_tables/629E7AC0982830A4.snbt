@@ -1,0 +1,60 @@
+{
+	icon: "minecraft:clock"
+	id: "629E7AC0982830A4"
+	loot_size: 13
+	order_index: 49
+	rewards: [
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 16, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 8, item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:emerald" }
+		{ count: 4, item: "minecraft:netherite_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+		}
+		{ item: "twilightforest:time_sapling", weight: 0.25f }
+		{ item: "twilightforest:sorting_sapling", weight: 0.25f }
+		{ item: "twilightforest:transformation_sapling", weight: 0.25f }
+		{ item: "twilightforest:mining_sapling", weight: 0.25f }
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:cobblestone"
+					}
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:obsidian" }
+		{ count: 16, item: "minecraft:bone" }
+		{ count: 16, item: "minecraft:string" }
+		{ count: 8, item: "minecraft:netherrack" }
+		{ count: 8, item: "minecraft:popped_chorus_fruit" }
+		{ count: 16, item: "minecraft:prismarine_shard" }
+		{ count: 16, item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:nether_brick" }
+		{ count: 8, item: "minecraft:sponge" }
+		{ count: 8, item: "minecraft:end_stone" }
+		{ count: 64, item: "minecraft:bamboo" }
+		{ count: 16, item: "minecraft:cactus" }
+		{ count: 8, item: "minecraft:sculk_vein" }
+		{ count: 16, item: "minecraft:paper" }
+		{ count: 32, item: "minecraft:vine" }
+		{ count: 8, item: "minecraft:purpur_block" }
+		{ item: "create:experience_block" }
+	]
+	title: "王之书-原生-半身-抽奖"
+}

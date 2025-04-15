@@ -1,0 +1,294 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "up",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "north",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "south",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "west",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "east",
+			"facing": "north"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "down",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "up",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "north",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "south",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "west",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "east",
+			"facing": "east"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "down",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "up",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "north",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "south",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "west",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "east",
+			"facing": "south"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "down",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "up",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "north",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "south",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "west",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "east",
+			"facing": "west"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "down",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "up",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "north",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "south",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "west",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "east",
+			"facing": "up"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "down",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "up",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "north",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "south",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "west",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"shaft": "east",
+			"facing": "down"
+		},
+		"Name": "createoreexcavation:kinetic_input"
+	}
+]

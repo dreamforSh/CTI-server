@@ -1,0 +1,11 @@
+{
+    "type": "pneumaticcraft:assembly_drill",
+    "input": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "program": "drill",
+    "result": {
+      "count": 4,
+      "item": "create:precision_mechanism"
+    }
+  }

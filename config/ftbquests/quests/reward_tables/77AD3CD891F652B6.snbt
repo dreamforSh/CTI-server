@@ -1,0 +1,34 @@
+{
+	icon: "minecraft:bedrock"
+	id: "77AD3CD891F652B6"
+	loot_size: 6
+	order_index: 50
+	rewards: [
+		{ count: 8, item: "minecraft:iron_block" }
+		{ count: 8, item: "minecraft:gold_block" }
+		{ count: 8, item: "minecraft:copper_block" }
+		{ count: 8, item: "minecraft:diamond_block" }
+		{ count: 8, item: "minecraft:emerald_block" }
+		{ count: 4, item: "minecraft:netherite_block" }
+		{ count: 64, item: "minecraft:white_wool" }
+		{ count: 64, item: "cyclic:flint_block" }
+		{ count: 64, item: "cyclic:compressed_cobblestone" }
+		{ count: 64, item: "minecraft:netherrack" }
+		{ count: 64, item: "minecraft:popped_chorus_fruit" }
+		{ count: 64, item: "minecraft:bone" }
+		{ count: 64, item: "minecraft:prismarine" }
+		{ count: 64, item: "minecraft:leather" }
+		{ count: 64, item: "minecraft:sponge" }
+		{ count: 64, item: "minecraft:nether_brick" }
+		{ count: 64, item: "minecraft:end_stone" }
+		{ count: 64, item: "thermal:bamboo_block" }
+		{ count: 64, item: "minecraft:cactus" }
+		{ count: 64, item: "minecraft:sculk_vein" }
+		{ count: 64, item: "minecraft:purpur_block" }
+		{ count: 64, item: "botania:vine_ball" }
+		{ count: 64, item: "minecraft:paper" }
+		{ count: 16, item: "create:experience_block" }
+		{ count: 30, item: "lightmanscurrency:coin_gold" }
+	]
+	title: "王之书-原生-全收集-抽奖"
+}

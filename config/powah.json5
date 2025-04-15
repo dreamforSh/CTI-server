@@ -1,0 +1,381 @@
+{
+	// World generation config options.
+	"worldgen": {
+		// Enable this to disable worldgen entirely. If true, the other options have no effect.
+		"disable_all": false,
+		"poor_uraninite_veins_per_chunk": 8,
+		"uraninite_veins_per_chunk": 6,
+		"dense_uraninite_veins_per_chunk": 3,
+		"dry_ice_veins_per_chunk": 9
+	},
+	// Other general config options.
+	"general": {
+		// Enable this to get Player Aerial Pearl by right clicking a Zombie or Husk with a Aerial Pearl.
+		"player_aerial_pearl": true,
+		// Enable this to get Dimensional Binding card by right clicking an Enderman or Endermite with a Binding card.
+		"dimensional_binding_card": true,
+		// Enable this to get Lens Of Ender by right clicking an Enderman or Endermite with a Photoelectric Pane.
+		"lens_of_ender": true,
+		// List of fluids used in the Magmator.
+		"magmatic_fluids": {
+			"minecraft:lava": 10000
+		},
+		// List of coolant fluids used in the Reactor and the Thermo Generator.
+		"coolant_fluids": {
+			"minecraft:water": 1
+		},
+		// List of heat source blocks used under Thermo Generator.
+		"heat_blocks": {
+			"minecraft:magma_block": 800,
+			"powah:blazing_crystal_block": 1500,
+			"minecraft:lava": 1000
+		},
+		// Energy produced per fuel tick in the Furnator.
+		"energy_per_fuel_tick": 30,
+		"energizing_range": 4,
+		/* Multiplier to the required energy applied after an energizing recipe is read.
+		   Use this to adjust the cost of ALL energizing recipes.
+		*/
+		"energizing_energy_ratio": 1.0
+	},
+	// Configuration of energy values for generators.
+	"generators": {
+		"furnators": {
+			"capacities": {
+				"starter": 20000,
+				"basic": 80000,
+				"hardened": 200000,
+				"blazing": 800000,
+				"niotic": 2000000,
+				"spirited": 8000000,
+				"nitro": 40000000
+			},
+			"transfer_rates": {
+				"starter": 80,
+				"basic": 320,
+				"hardened": 800,
+				"blazing": 3200,
+				"niotic": 8000,
+				"spirited": 32000,
+				"nitro": 160000
+			},
+			"generation_rates": {
+				"starter": 20,
+				"basic": 80,
+				"hardened": 200,
+				"blazing": 800,
+				"niotic": 2000,
+				"spirited": 8000,
+				"nitro": 40000
+			}
+		},
+		"magmators": {
+			"capacities": {
+				"starter": 20000,
+				"basic": 80000,
+				"hardened": 200000,
+				"blazing": 800000,
+				"niotic": 2000000,
+				"spirited": 8000000,
+				"nitro": 40000000
+			},
+			"transfer_rates": {
+				"starter": 80,
+				"basic": 320,
+				"hardened": 800,
+				"blazing": 3200,
+				"niotic": 8000,
+				"spirited": 32000,
+				"nitro": 160000
+			},
+			"generation_rates": {
+				"starter": 20,
+				"basic": 80,
+				"hardened": 200,
+				"blazing": 800,
+				"niotic": 2000,
+				"spirited": 8000,
+				"nitro": 40000
+			}
+		},
+		"reactors": {
+			"capacities": {
+				"starter": 512000,
+				"basic": 2048000,
+				"hardened": 8192000,
+				"blazing": 32768000,
+				"niotic": 26206500,
+				"spirited": 104826000,
+				"nitro": 838608000
+			},
+			"transfer_rates": {
+				"starter": 2560,
+				"basic": 10240,
+				"hardened": 40960,
+				"blazing": 163840,
+				"niotic": 1310720,
+				"spirited": 5242880,
+				"nitro": 41943040
+			},
+			"generation_rates": {
+				"starter": 1024,
+				"basic": 4096,
+				"hardened": 16384,
+				"blazing": 65536,
+				"niotic": 524288,
+				"spirited": 2097152,
+				"nitro": 16777216
+			}
+		},
+		"solar_panels": {
+			"capacities": {
+				"starter": 25600,
+				"basic": 409600,
+				"hardened": 3276800,
+				"blazing": 26214400,
+				"niotic": 209715200,
+				"spirited": 3355443200,
+				"nitro": 107374182400
+			},
+			"transfer_rates": {
+				"starter": 512,
+				"basic": 4096,
+				"hardened": 32768,
+				"blazing": 262144,
+				"niotic": 2097152,
+				"spirited": 16777216,
+				"nitro": 134217728
+			},
+			"generation_rates": {
+				"starter": 128,
+				"basic": 1024,
+				"hardened": 8192,
+				"blazing": 65535,
+				"niotic": 524288,
+				"spirited": 4194304,
+				"nitro": 33554432
+			}
+		},
+		"thermo_generators": {
+			"capacities": {
+				"starter": 51200,
+				"basic": 204800,
+				"hardened": 819200,
+				"blazing": 3276800,
+				"niotic": 13107200,
+				"spirited": 26214400,
+				"nitro": 52428800
+			},
+			"transfer_rates": {
+				"starter": 6400,
+				"basic": 25600,
+				"hardened": 102400,
+				"blazing": 409600,
+				"niotic": 1638400,
+				"spirited": 6553600,
+				"nitro": 13107200
+			},
+			"generation_rates": {
+				"starter": 128,
+				"basic": 512,
+				"hardened": 2048,
+				"blazing": 8192,
+				"niotic": 32768,
+				"spirited": 65536,
+				"nitro": 262144
+			}
+		}
+	},
+	// Configuration of energy values for other devices.
+	"devices": {
+		"batteries": {
+			"capacities": {
+				"starter": 16384000,
+				"basic": 65536000,
+				"hardened": 262144000,
+				"blazing": 1048576000,
+				"niotic": 4194304000,
+				"spirited": 16777216000,
+				"nitro": 67108864000
+			},
+			"transfer_rates": {
+				"starter": 16384,
+				"basic": 65536,
+				"hardened": 262144,
+				"blazing": 1048576,
+				"niotic": 4194304,
+				"spirited": 16777216,
+				"nitro": 67108864
+			}
+		},
+		"cables": {
+			"transfer_rates": {
+				"starter": 16384,
+				"basic": 65536,
+				"hardened": 262144,
+				"blazing": 1048576,
+				"niotic": 4194304,
+				"spirited": 16777216,
+				"nitro": 67108864
+			}
+		},
+		"dischargers": {
+			"capacities": {
+				"starter": 16384000,
+				"basic": 65536000,
+				"hardened": 262144000,
+				"blazing": 1048576000,
+				"niotic": 4194304000,
+				"spirited": 16777216000,
+				"nitro": 67108864000
+			},
+			"transfer_rates": {
+				"starter": 16384,
+				"basic": 65536,
+				"hardened": 262144,
+				"blazing": 1048576,
+				"niotic": 4194304,
+				"spirited": 16777216,
+				"nitro": 67108864
+			}
+		},
+		"ender_cells": {
+			"transfer_rates": {
+				"starter": 3072,
+				"basic": 24576,
+				"hardened": 196608,
+				"blazing": 1572864,
+				"niotic": 12582912,
+				"spirited": 100663296,
+				"nitro": 805306308
+			},
+			"channels": {
+				"starter": 1,
+				"basic": 2,
+				"hardened": 4,
+				"blazing": 6,
+				"niotic": 8,
+				"spirited": 10,
+				"nitro": 12
+			}
+		},
+		"ender_gates": {
+			"transfer_rates": {
+				"starter": 3072,
+				"basic": 24576,
+				"hardened": 196608,
+				"blazing": 1572864,
+				"niotic": 12582912,
+				"spirited": 100663296,
+				"nitro": 805306308
+			},
+			"channels": {
+				"starter": 1,
+				"basic": 2,
+				"hardened": 4,
+				"blazing": 6,
+				"niotic": 8,
+				"spirited": 10,
+				"nitro": 12
+			}
+		},
+		"energy_cells": {
+			"capacities": {
+				"starter": 16384000,
+				"basic": 65536000,
+				"hardened": 262144000,
+				"blazing": 1048576000,
+				"niotic": 4194304000,
+				"spirited": 16777216000,
+				"nitro": 67108864000
+			},
+			"transfer_rates": {
+				"starter": 16384,
+				"basic": 65536,
+				"hardened": 262144,
+				"blazing": 1048576,
+				"niotic": 4194304,
+				"spirited": 16777216,
+				"nitro": 67108864
+			}
+		},
+		"energizing_rods": {
+			"capacities": {
+				"starter": 25600,
+				"basic": 102400,
+				"hardened": 409600,
+				"blazing": 1638400,
+				"niotic": 6553600,
+				"spirited": 26214400,
+				"nitro": 104857600
+			},
+			"transfer_rates": {
+				"starter": 256,
+				"basic": 1024,
+				"hardened": 4096,
+				"blazing": 16384,
+				"niotic": 65536,
+				"spirited": 262144,
+				"nitro": 1048576
+			}
+		},
+		"hoppers": {
+			"capacities": {
+				"starter": 100000,
+				"basic": 400000,
+				"hardened": 1000000,
+				"blazing": 4000000,
+				"niotic": 10000000,
+				"spirited": 40000000,
+				"nitro": 200000000
+			},
+			"transfer_rates": {
+				"starter": 10000,
+				"basic": 40000,
+				"hardened": 100000,
+				"blazing": 400000,
+				"niotic": 1000000,
+				"spirited": 4000000,
+				"nitro": 20000000
+			},
+			"charging_rates": {
+				"starter": 5000,
+				"basic": 20000,
+				"hardened": 50000,
+				"blazing": 200000,
+				"niotic": 500000,
+				"spirited": 2000000,
+				"nitro": 10000000
+			}
+		},
+		"player_transmitters": {
+			"capacities": {
+				"starter": 1000000,
+				"basic": 4000000,
+				"hardened": 10000000,
+				"blazing": 40000000,
+				"niotic": 100000000,
+				"spirited": 400000000,
+				"nitro": 2000000000
+			},
+			"transfer_rates": {
+				"starter": 1000,
+				"basic": 4000,
+				"hardened": 10000,
+				"blazing": 40000,
+				"niotic": 100000,
+				"spirited": 400000,
+				"nitro": 2000000
+			},
+			"charging_rates": {
+				"starter": 5000,
+				"basic": 20000,
+				"hardened": 50000,
+				"blazing": 200000,
+				"niotic": 500000,
+				"spirited": 2000000,
+				"nitro": 10000000
+			}
+		}
+	}
+}

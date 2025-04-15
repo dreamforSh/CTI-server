@@ -1,0 +1,45 @@
+{
+	icon: "enigmaticlegacy:the_twist"
+	id: "74B53D0028C1ACBE"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "enigmaticlegacy:soul_crystal", weight: 3.0f }
+		{ count: 2, item: "enigmaticlegacy:evil_essence", weight: 3.0f }
+		{ item: "enigmaticlegacy:redemption_potion", weight: 2.0f }
+		{ item: "enigmaticlegacy:twisted_potion", weight: 18.0f }
+		{ item: "enigmaticlegacy:recall_potion", weight: 10.0f }
+		{ item: "enigmaticlegacy:etherium_ore", weight: 8.0f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:earth_heart"
+				tag: {
+					isTainted: 1b
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "minecraft:enchanted_golden_apple", weight: 8.0f }
+		{ count: 2, item: "minecraft:netherite_ingot", weight: 8.0f }
+		{ item: "enigmaticlegacy:curse_transposer", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:extradimensional_eye"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ item: "enigmaticlegacy:astral_dust", weight: 6.0f }
+		{ item: "enigmaticlegacy:astral_potato", weight: 8.0f }
+		{ item: "enigmaticlegacy:forbidden_fruit", weight: 2.0f }
+		{ count: 3, item: "minecraft:golden_apple", weight: 10.0f }
+		{ item: "enigmaticlegacy:golden_ring", weight: 8.0f }
+		{ count: 4, item: "minecraft:dragon_breath", weight: 9.0f }
+		{ item: "enigmaticlegacy:soul_compass", weight: 5.0f }
+		{ item: "enigmaticlegacy:guardian_heart", weight: 7.0f }
+		{ item: "tinkers_ingenuity:orichalcum_ingot", weight: 6.0f }
+	]
+	title: "神秘遗物2"
+}

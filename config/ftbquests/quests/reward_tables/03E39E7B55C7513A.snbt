@@ -1,0 +1,19 @@
+{
+	icon: "cti:qdbeer"
+	id: "03E39E7B55C7513A"
+	loot_size: 1
+	order_index: 78
+	rewards: [
+		{ item: "cti:ethanol_absolute" }
+		{ item: "cti:cornflower_beer" }
+		{ item: "cti:etbeer" }
+		{ item: "cti:xuerou_wine" }
+		{ item: "cti:mahoushaojiu_wine" }
+		{ item: "cti:unknown_wine" }
+		{ item: "cti:qdbeer" }
+		{ item: "cti:boomwine" }
+		{ item: "cti:fishbone_wine" }
+		{ item: "cti:cold_gobberwine" }
+	]
+	title: "整活酒"
+}

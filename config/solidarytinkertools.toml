@@ -1,0 +1,27 @@
+
+#工具部分的配置
+["模组工具"]
+	#匠魂开拓者工具低速模式对应的挖掘速度,默认5
+	#Range: > 0
+	MekaToolSlowSpeed = 5
+	#匠魂开拓者工具中速模式对应的挖掘速度,默认15
+	#Range: > 0
+	MekaToolMediumSpeed = 15
+	#匠魂开拓者工具高速模式对应的挖掘速度,默认40
+	#Range: > 0
+	MekaToolHighSpeed = 40
+	#匠魂开拓者工具极速模式对应的挖掘速度,默认800
+	#Range: > 0
+	MekaToolExtremeSpeed = 800
+	#三叉戟忠诚收回的速度倍率,默认5
+	#Range: > 0
+	TridentLoyalSpeed = 5
+	#三叉戟投掷是否穿透魔抗
+	TridentbypassMagic = true
+	#三叉戟远程伤害倍率,默认0.8
+	#Range: 0.01 ~ 1000.0
+	TridentDamage = 0.8
+	#三叉戟冲刺的速度倍率,默认1 
+	#Range: > 0
+	TridentRipSpeed = 1
+

@@ -1,0 +1,20 @@
+{
+	icon: "iceandfire:dragon_stick"
+	id: "590BB92A7484E47E"
+	loot_size: 4
+	order_index: 62
+	rewards: [
+		{ count: 2, item: "iceandfire:dragonsteel_fire_ingot" }
+		{ count: 2, item: "iceandfire:dragonsteel_ice_ingot" }
+		{ count: 2, item: "iceandfire:dragonsteel_lightning_ingot" }
+		{ count: 2, item: "iceandfire:ghost_ingot" }
+		{ count: 2, item: "iceandfire:dragonbone" }
+		{ count: 2, item: "iceandfire:myrmex_desert_chitin", weight: 0.5f }
+		{ count: 2, item: "iceandfire:myrmex_jungle_chitin", weight: 0.5f }
+		{ count: 2, item: "iceandfire:troll_leather_forest", weight: 0.33f }
+		{ count: 2, item: "iceandfire:troll_leather_frost", weight: 0.33f }
+		{ count: 2, item: "iceandfire:troll_leather_mountain", weight: 0.34f }
+		{ count: 2, item: "dreadsteel:dreadsteel_ingot" }
+	]
+	title: "王之书-冰火-半身-抽奖"
+}

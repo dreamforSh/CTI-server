@@ -1,0 +1,16 @@
+{
+	icon: "botania:dice"
+	id: "4EC9912ED8104CB9"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{ count: 8, item: "botania:elementium_ingot" }
+		{ count: 4, item: "botania:dragonstone" }
+		{ count: 4, item: "botania:pixie_dust" }
+		{ count: 4, item: "botania:terrasteel_ingot" }
+		{ count: 2, item: "mythicbotany:alfsteel_ingot" }
+		{ item: "botania:gaia_ingot", weight: 0.5f }
+		{ item: "botania:gaia_spreader", weight: 0.5f }
+	]
+	title: "Botania_3"
+}

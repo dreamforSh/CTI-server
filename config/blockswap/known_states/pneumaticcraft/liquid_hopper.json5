@@ -1,0 +1,653 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "down",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "up",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "up",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "north",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "north",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "south",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "south",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "west",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "west",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "east",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "east",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "down",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "down",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "up",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "up",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "north",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "north",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "south",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "south",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "west",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "west",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "east",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "east",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "down",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "down",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "up",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "up",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "north",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "north",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "south",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "south",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "west",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "west",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "east",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "east",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "down",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "down",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "up",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "up",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "north",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "north",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "south",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "south",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "west",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "west",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "east",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "east",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "down",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "down",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "up",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "up",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "north",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "north",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "south",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "south",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "west",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "west",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "east",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "east",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "down",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "down",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "up",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "up",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "north",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "north",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "south",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "south",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "west",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "west",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"input": "east",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"input": "east",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:liquid_hopper"
+	}
+]

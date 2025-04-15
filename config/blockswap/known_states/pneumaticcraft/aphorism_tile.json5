@@ -1,0 +1,221 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "true",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "true",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "false",
+			"facing": "north"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "true",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "true",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "false",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "false",
+			"facing": "east"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "true",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "true",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "false",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "false",
+			"facing": "south"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "true",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "true",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "false",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "false",
+			"facing": "west"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "true",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "true",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "false",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "false",
+			"facing": "up"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "true",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "true",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"invisible": "false",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"invisible": "false",
+			"facing": "down"
+		},
+		"Name": "pneumaticcraft:aphorism_tile"
+	}
+]

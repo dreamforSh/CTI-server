@@ -1,0 +1,25 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 2750000,
+  "powerRate": 2750000,
+  "input": {
+    "item": "kubejs:zirconium_alloy"
+  },
+  "ingredients": [
+    {
+      "item": "ae2:fluix_crystal"
+    },
+    {
+      "item": "etshtinker:chroma_plate"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    },
+    {
+      "item": "kubejs:compressed_hardlead"
+    }
+  ],
+  "result": {
+    "item": "kubejs:structre_mechanism"
+  }
+}
