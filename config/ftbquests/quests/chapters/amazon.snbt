@@ -484,37 +484,6 @@
 		}
 		{
 			can_repeat: true
-			description: ["距离较短有cd，但是不消耗，泛用性高（&0&m甚至可以召唤玩家&m&0）"]
-			icon: {
-				Count: 1b
-				id: "cyclic:flute_summoning"
-				tag: {
-					"cyclic:magicnet_id": "ars_nouveau:whirlisprig"
-					flutename: "Whirlisprig"
-					uniquemagic: 204279
-				}
-			}
-			id: "31E62CB3E4E09751"
-			rewards: [{
-				id: "75164192F5A616B3"
-				item: "cyclic:flute_summoning"
-				team_reward: true
-				type: "item"
-			}]
-			subtitle: "用来召唤标记生物"
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "34AC0BB2EA6C1302"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			}]
-			title: "召唤笛"
-			x: 4.5d
-			y: 7.0d
-		}
-		{
-			can_repeat: true
 			description: [
 				"在没有大型存储的情况下几乎是集成存储的最佳选择，之后的进程中也不容易淘汰。"
 				"&d（注：不要使用碗装食物进行自动喂食，除非你想体验被填满的感觉）&d"
@@ -596,8 +565,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 9.0d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
 			can_repeat: true

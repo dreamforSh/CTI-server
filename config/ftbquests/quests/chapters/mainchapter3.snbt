@@ -568,95 +568,16 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["48D6AB1041347A8D"]
-			description: [
-				"&6大气冷凝器在金星能产出大量发烟硫酸。"
-				""
-				"&b但是发烟硫酸的处理需要硫酸，你的第一份硫酸还得走原版mek路线："
-				""
-				"      化学氧化机将硫粉变成二氧化硫,电解分离器将水变成氧气"
-				"      再用化学灌注器将氧气和二氧化硫合成三氧化硫"
-			]
-			icon: "thermal:sulfur_dust"
-			id: "3EFB5A91200544CB"
-			subtitle: "硫酸制取路线的起点"
-			tasks: [
-				{
-					id: "7D98C485F9E4C883"
-					item: "mekanism:chemical_oxidizer"
-					type: "item"
-				}
-				{
-					id: "1840418C90B497A2"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:dusts/sulfur"
-						}
-					}
-					title: "Any #forge:dusts/sulfur"
-					type: "item"
-				}
-				{
-					id: "0910115C666542EC"
-					item: "mekanism:electrolytic_separator"
-					type: "item"
-				}
-				{
-					id: "07C7C245C8809BD8"
-					item: "cookingforblockheads:sink"
-					type: "item"
-				}
-				{
-					id: "53E8F0805DDFDDF4"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-			]
-			title: "三氧化硫制取"
-			x: 3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3EFB5A91200544CB"]
-			description: [
-				"      利用回旋式气液转换机将水变成水蒸气，然后将水蒸汽通入另一个化学灌注器与三氧化硫灌注出硫酸。"
-				"      回旋气液和化学灌注均提供256mB/t处理速率"
-			]
-			icon: "mekanism:rotary_condensentrator"
-			id: "4F88D26F26C1FE59"
-			tasks: [
-				{
-					id: "6178C7F7C5D2F539"
-					item: "mekanism:rotary_condensentrator"
-					type: "item"
-				}
-				{
-					id: "1AB0A30E60779E8C"
-					item: "mekanism:chemical_infuser"
-					type: "item"
-				}
-			]
-			title: "硫酸的常规制取方式"
-			x: 3.5d
-			y: -2.0d
-		}
-		{
 			dependencies: [
 				"4997B2576DDE0A4F"
 				"467497EE442E048C"
 			]
 			description: [
 				"      化学灌注器将氧化铀和氢氟酸合称为六氟化铀，最后用同位素离心机将六氟化铀变成裂变燃料。"
-				" &e     到现在，我们可以计算出标准的裂变燃料产线中，每1mB裂变燃料*tick^-1需要："
-				" &b      --0.0025个&a铀锭"
-				" &3      --0.0005个&r氟石 "
-				" &b      --0.0010个&e硫粉  或 &b0.00008&e个1t工作间隔的大气冷凝机"
+				" "
+				"      正常来说裂变燃料产线具有非常大的规模，但是CTI加入了高级的mek升级，大大缩小了裂变产线的规模（大概缩小了10倍吧）。"
 				""
-				"      然后根据前面在mek章节提到的机器速率，就能算出产线需求"
-				""
-				"      氧化机能直接氧化铀饼，相比于铀黄粉速度快了9倍。别傻乎乎的给氧化机喂黄粉然后堆一堆氧化机了！"
+				"      还没做的话建议去做一下哦~"
 			]
 			icon: "mekanism:uranium_hexafluoride_bucket"
 			id: "2B8596AF06AE1DB3"
@@ -674,7 +595,7 @@
 				}
 			]
 			title: "常规裂变燃料"
-			x: 6.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -705,9 +626,8 @@
 		}
 		{
 			dependencies: [
-				"4F88D26F26C1FE59"
 				"1A80EE0BC873D505"
-				"058A7829F46406EB"
+				"1E99C62F00D85533"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -730,7 +650,7 @@
 			]
 			title: "氢氟酸的制取"
 			x: 4.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5DACB4D5286BA855"]
@@ -1089,6 +1009,9 @@
 				"第一个反物质靶丸！再送你一个。反中子的制取需要很多反物质，远远超越现在的产量。"
 				""
 				"超临界途径每个反物质球需要&61 000 000mB&r裂变燃料，超级多！"
+				""
+				"{@pagebreak}"
+				"反物质是一种匠魂材料。但是如果你处于极限模式的话你要小心了，本包没有提供任何抵御湮灭词条的手段，&c也就是说使用后你就只有死路一条！"
 			]
 			id: "7FFC2AD10C857822"
 			rewards: [{
@@ -1439,17 +1362,33 @@
 			y: 1.0d
 		}
 		{
-			description: ["    大气冷凝机在&e金星&r上工作时能产生发烟硫酸"]
+			dependencies: [
+				"48D6AB1041347A8D"
+				"31E4D0FE5E4E56CD"
+			]
+			description: [
+				"     还在担心裂变产线的硫酸不足？别忘记了你在玩CTI，包轮椅的。"
+				""
+				"    大气冷凝机在&e金星&r上工作时能产生发烟硫酸，发烟硫酸可以在加压反应室里水解&8（&m雪解&r&8）&r为硫酸"
+			]
 			id: "1E99C62F00D85533"
 			optional: true
-			subtitle: " 另一种硫酸制取方式 ,不过可不仅仅是用来制取硫酸"
-			tasks: [{
-				id: "56CBB7BAC7306399"
-				item: "cti:atmosphere_condensator"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.0d
+			subtitle: "大气冷凝解君愁"
+			tasks: [
+				{
+					id: "56CBB7BAC7306399"
+					item: "cti:atmosphere_condensator"
+					type: "item"
+				}
+				{
+					id: "0E6EAE6AB0B88A85"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+			]
+			title: "整合包添加的硫酸获取"
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7793487FAF3B0A0B"]
@@ -1610,7 +1549,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["当然不仅仅能产氟石。这还是赛特斯石英高效配方。"]
+			description: [""]
 			id: "1A80EE0BC873D505"
 			subtitle: "通入水晶生长液，就能看到看恐怖的倍增产量。"
 			tasks: [{
@@ -1620,7 +1559,7 @@
 			}]
 			title: "快速制取氟石"
 			x: 4.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["71078AE0A767DD37"]
@@ -1678,26 +1617,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"31E4D0FE5E4E56CD"
-				"1E99C62F00D85533"
-				"4F88D26F26C1FE59"
-			]
-			description: ["       当第一次获取到硫酸后，可以利用大气冷凝器在金星开采到的发烟硫酸更高效地合成硫酸。这个配方在8升级下只要1tick就能完成，无需担心效率"]
-			id: "058A7829F46406EB"
-			optional: true
-			subtitle: "水解发烟硫酸"
-			tasks: [{
-				id: "0D449C7D74F3E226"
-				item: "mekanism:pressurized_reaction_chamber"
-				type: "item"
-			}]
-			title: "硫酸的第二种合成方法"
-			x: 3.5d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			id: "4F17F9A10534765E"
@@ -1710,6 +1630,25 @@
 			title: "原版mek合成DT的途径"
 			x: 14.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["7FFC2AD10C857822"]
+			description: ["      在你玩到这之前或许你对"]
+			icon: "mekanism:qio_drive_base"
+			id: "7A0C599B77959569"
+			rewards: [{
+				id: "7E0AE8FDD3076049"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			subtitle: "最强存储？稳定性换的！"
+			tasks: [{
+				id: "28106573B8147250"
+				type: "checkmark"
+			}]
+			title: "《为什么我们不推荐QIO》"
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["-by EtSH_C2H6S"]

@@ -4722,6 +4722,8 @@
 			description: [
 				"盔甲：减少爆炸伤害与之带来的击退"
 				"通用：火成-着火时间累积一定程度给予永久性加成（盔甲：护甲、韧性,工具或武器：伤害、挖掘/拉弓速度，通用-耐久）"
+				"&b武器提供的增幅一般，但是作为护甲提供的10点护甲值前期还是够看的"
+				""
 				"&l&8&c水与熔岩的机制代表着世界第一次迎来可持续的流体交互产生方块的力量，也是最为重要和经典的世界拓展化方式，原版中仅有两例。本包中还有血肉重铸的酸液（胃液桶：与水或熔岩交互产生闪长岩和方解石）&l&c"
 				"&5&l&o&n熔岩被水冲却，留下的是最为精致的力量（即使在现实中和钻石一样属于硬度高却易碎）&l&o&n&5"
 			]
@@ -4739,6 +4741,7 @@
 		}
 		{
 			dependencies: ["7514A6912DBB3480"]
+			description: ["甚至可以奴役蜜蜂"]
 			hide_dependency_lines: true
 			id: "758F6ADDB335C300"
 			shape: "circle"
@@ -5221,8 +5224,10 @@
 		}
 		{
 			dependencies: ["42233E9F805A16D2"]
+			description: ["      开局强材料，当然仅限开局。无论是护甲还是武器素质都不错，强力的材料往往只需要简单粗暴的词条（笑）"]
 			hide_dependency_lines: true
 			id: "738B9ED82D41FF4D"
+			shape: "pentagon"
 			subtitle: "1.2近战与弹射物伤害并且附带你最大生命10%伤害"
 			tasks: [{
 				id: "0CF436CA8C655522"
@@ -5860,7 +5865,7 @@
 			description: ["       玩家静止不动时有0.07的向下速度，也就是说你站着不动也有每级14%的增伤。"]
 			hide_dependency_lines: true
 			id: "18A40639922E8AF3"
-			shape: "pentagon"
+			shape: "circle"
 			subtitle: "速度越快，增伤越多"
 			tasks: [{
 				id: "2D2EB754F82B2ADA"
@@ -5897,8 +5902,10 @@
 		}
 		{
 			dependencies: ["554754AA873C81B6"]
+			description: ["同时是及其便宜的下界合金级材料，而且顶端面板和词条够看，前期没有不毁时的最佳顶端候选（因为修起来便宜）"]
 			hide_dependency_lines: true
 			id: "3B20B8237FC77E48"
+			shape: "pentagon"
 			subtitle: "相当于50%增伤"
 			tasks: [{
 				id: "3E34C2C5F8E12FEC"
@@ -6026,9 +6033,11 @@
 		}
 		{
 			dependencies: ["554754AA873C81B6"]
+			description: ["在本包中它被加强了，只要穿上就能清除负面效果"]
 			hide_dependency_lines: true
 			id: "194B8C023BEAE0CF"
-			subtitle: "挨打除debuff"
+			shape: "pentagon"
+			subtitle: "清debuff材料"
 			tasks: [{
 				id: "690B06EF8F4A8DBE"
 				item: "tinkerscalibration:oraclium_ingot"
@@ -6041,7 +6050,7 @@
 			dependencies: ["554754AA873C81B6"]
 			description: [
 				"      配合玛戈皇金、天地宝晶等材料抵消耐久消耗的属性，你能通过砍训练傀儡来获得无限的食物！"
-				"      不过不要想着用机械手来无限刷食物了（"
+				"      在周围生物量过高时不生怪，不再需要担心炸服了！"
 			]
 			hide_dependency_lines: true
 			id: "72F9F0B5C4068EF8"
@@ -6333,8 +6342,10 @@
 		}
 		{
 			dependencies: ["7514A6912DBB3480"]
+			description: ["对高血量生物有不错的增伤，当然到中期就不太够看了"]
 			hide_dependency_lines: true
 			id: "32A7EA0B88EB909C"
+			subtitle: "如果前期摸到那就可以一看"
 			tasks: [{
 				id: "5698C969C0CDAE22"
 				item: "tinkers_reforged:tiberium_ingot"
@@ -7831,7 +7842,7 @@
 		}
 		{
 			dependencies: ["42233E9F805A16D2"]
-			description: ["      不要小看这个1%，这个可是百分比加成，也就是说你每杀死10只怪就能获得10%的伤害加成！"]
+			description: ["      不要小看这个1%，这个可是百分比加成，而且会乘以属性等级。"]
 			hide_dependency_lines: true
 			id: "1B690BDAB0C89EE2"
 			shape: "octagon"
@@ -7861,12 +7872,15 @@
 		{
 			dependencies: ["7514A6912DBB3480"]
 			description: [
-				"作为护甲拥有回复生命值的效果，作为武器或工具具有高暴击率。"
+				"作为护甲拥有回复生命值的效果，作为武器或工具攻击时必定暴击（但是不触发暴击效果，只是加了伤害）。"
+				"&b唾手可得的1.5倍增伤材料，仅此一点前期还是比较够看的。"
+				""
 				"末影人作为压迫感比较强的敌人，它所具备的便是极高的威慑力（对于前期的玩家而言）。"
 				"实际上是因为恶意与神秘笼罩使得它变得更强大了。"
 			]
 			hide_dependency_lines: true
 			id: "45120B5F86C5F317"
+			shape: "pentagon"
 			subtitle: "暴击！肾上腺素！"
 			tasks: [{
 				id: "17AD802270A34650"
@@ -9931,256 +9945,11 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			icon: "minecraft:lava_bucket"
-			id: "5D85941008B7CEC2"
-			subtitle: "1000℃"
-			tasks: [
-				{
-					id: "6F215FC2D4599202"
-					item: "minecraft:lava_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2CAE539093CBF41F"
-					type: "checkmark"
-				}
-			]
-			title: "熔岩"
-			x: -6.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			icon: "pneumaticcraft:oil_bucket"
-			id: "411CFC07BBBB3532"
-			subtitle: "900℃"
-			tasks: [
-				{
-					id: "79E0A439212D98D5"
-					item: "pneumaticcraft:oil_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6CC3B96682A1B775"
-					type: "checkmark"
-				}
-			]
-			title: "石油（PnC）"
-			x: -7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			icon: "tconstruct:blazing_blood_bucket"
-			id: "5F6C1D6D1E0C1A5E"
-			subtitle: "1500℃"
-			tasks: [
-				{
-					id: "77BE723EFC4A5378"
-					item: "tconstruct:blazing_blood_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5EE1EC3BF043B4E7"
-					item: "kubejs:molten_thermite_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "13D3E4B6BE2F0B29"
-					type: "checkmark"
-				}
-			]
-			title: "烈焰血和铝热剂"
-			x: -5.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			icon: "tinkers_reforged:blazium_bucket"
-			id: "55D5F8A1AFA9CDA3"
-			subtitle: "1800℃"
-			tasks: [
-				{
-					id: "1F111333B69F930F"
-					item: "mekanism:hydrogen_bucket"
-					type: "item"
-				}
-				{
-					id: "2D34EF20082DCB9D"
-					item: "tinkers_reforged:blazium_bucket"
-					type: "item"
-				}
-				{
-					id: "648CF81C1F653728"
-					type: "checkmark"
-				}
-			]
-			title: "焰晶和液态氢"
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "3310465C862EB98A"
-			subtitle: "2000℃"
-			tasks: [{
-				id: "6A5015AEE5913279"
-				item: "tinkersinnovation:molten_active_soul_bucket"
-				type: "item"
-			}]
-			title: "液态活魂"
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			icon: "etshtinker:molten_knsu_bucket"
-			id: "796302ED3F96737A"
-			subtitle: "3000℃"
-			tasks: [
-				{
-					id: "2EA455B0575765DA"
-					item: "etshtinker:molten_knsu_bucket"
-					type: "item"
-				}
-				{
-					id: "0422CF5894D072F5"
-					item: "tinkers_ingenuity:molten_sunlit_bucket"
-					type: "item"
-				}
-				{
-					id: "04A7439DCAA8C240"
-					item: "tinkers_reforged:proto_lava_bucket"
-					type: "item"
-				}
-			]
-			title: "熔融KNSU燃料、日耀、熔融原浆"
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			icon: "mekanism:ethene_bucket"
-			id: "3E287C1750C28BE1"
-			subtitle: "3300℃"
-			tasks: [
-				{
-					id: "7F5152D398D4D2DB"
-					item: "mekanism:ethene_bucket"
-					type: "item"
-				}
-				{
-					id: "5F2DD1EC18713268"
-					item: "industrialforegoing:biofuel_bucket"
-					type: "item"
-				}
-			]
-			title: "液态乙烯（mek）、生物燃油（IF）"
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "000CBD40B0A1580C"
-			subtitle: "4500℃"
-			tasks: [{
-				id: "685AE5522CCC6E6F"
-				item: "immersiveengineering:ethanol_bucket"
-				type: "item"
-			}]
-			title: "乙醇（IE）"
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "467A21E7496C8687"
-			subtitle: "7500℃"
-			tasks: [{
-				id: "11C3DE197A29F353"
-				item: "kubejs:ethyne_bucket"
-				type: "item"
-			}]
-			title: "乙炔"
-			x: 5.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "6078F808D1FE949F"
-			subtitle: "6750℃"
-			tasks: [{
-				id: "6A4B05F3A9B5163F"
-				item: "mekanismgenerators:fusion_fuel_bucket"
-				type: "item"
-			}]
-			title: "液态氘氚燃料"
-			x: 4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "46623E907635051E"
-			subtitle: "9726℃"
-			tasks: [{
-				id: "00F205CF509B0FCC"
-				item: "etshtinker:overchargedneutronium_bucket"
-				type: "item"
-			}]
-			title: "超充能流体中子"
-			x: 6.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "1F245003D4EC2465"
-			subtitle: "15276℃"
-			tasks: [{
-				id: "72176132B4116865"
-				item: "solidarytinker:super_dt_bucket"
-				type: "item"
-			}]
-			title: "超能DT燃料"
-			x: 7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2F78BE5802D15996"]
-			hide_dependency_lines: true
-			id: "7DC32D877CDEFB84"
-			subtitle: "16384℃"
-			tasks: [{
-				id: "5F838B16F7B76D2C"
-				item: "etshtinker:annihilating_plasma_bucket"
-				type: "item"
-			}]
-			title: "湮灭等离子体"
-			x: 8.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["49322651DD5EB5E9"]
 			description: [
-				"*过时提示：燃料温度是在频繁更迭的，这些任务的燃料温度可能并不准确。"
-				""
 				"本包加入了匠魂燃料的JEI适配，你可以在JEI上查看燃料的各种属性。"
+				""
+				"斟酌燃料的优劣也是匠魂的一环哦~"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -10188,7 +9957,6 @@
 			id: "2F78BE5802D15996"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "这里列出了一系列燃料的温度"
 			tasks: [{
 				id: "3967775A84A3E4C7"
 				stat: "minecraft:mob_kills"
@@ -10201,7 +9969,7 @@
 		}
 		{
 			dependencies: ["18071D854B533F60"]
-			description: ["恶徒水壶的QQ头像（"]
+			description: ["是个美术角色（&8&m才不是恶徒水壶&r）"]
 			hide_dependency_lines: true
 			id: "5B50FE932D386CFE"
 			subtitle: "幸运的小狐狸？"
@@ -10325,10 +10093,10 @@
 		}
 		{
 			dependencies: ["18071D854B533F60"]
-			description: ["你以为靠叠伤吃饭，实则靠抓取吃饭"]
+			description: ["在服务器里有奇效，赶紧奖励一下贡献死亡数最多那个人吧！"]
 			hide_dependency_lines: true
 			id: "0B6809AD9AE42F00"
-			subtitle: "一键抓取"
+			subtitle: "哎呀，XXX得了MVP"
 			tasks: [{
 				id: "01F1FEAEB0EDBE5B"
 				item: "solidarytinker:dwarf_ingot"
@@ -10385,6 +10153,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "哼哼~适合睡觉的地方在哪里呢"
 			tasks: [{
 				id: "2D93B8E4E0775CB4"
@@ -10399,6 +10168,8 @@
 			description: [
 				"      把它放在护甲上，提供的无限饱和基本上就能让你摆脱食物烦恼了。"
 				"      在本包中，监守者受到的音爆伤害会造成百分比伤害，只需要刷出离子化射线炮原型机并用它击杀监守者就能高效获取这个材料。"
+				"      "
+				"      由于监守者有再生词条，建议搭配喷溅性诅咒药水击杀监守者。"
 			]
 			hide_dependency_lines: true
 			id: "48D076FBEE3F88DC"
@@ -10540,21 +10311,6 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"411CFC07BBBB3532"
-				"5D85941008B7CEC2"
-				"5F6C1D6D1E0C1A5E"
-				"55D5F8A1AFA9CDA3"
-				"3310465C862EB98A"
-				"796302ED3F96737A"
-				"3E287C1750C28BE1"
-				"467A21E7496C8687"
-				"000CBD40B0A1580C"
-				"6078F808D1FE949F"
-				"46623E907635051E"
-				"1F245003D4EC2465"
-				"7DC32D877CDEFB84"
-			]
 			hide: true
 			hide_dependency_lines: true
 			id: "19657FDEC69D0FA2"
@@ -11735,7 +11491,6 @@
 				"3AE49D2B0849ACD4"
 				"401C9CB8D385ABFA"
 				"08F38624C4F3E33D"
-				"6A7A8FA523361298"
 				"5CB8FD73752F2797"
 				"73EFB2B647D86632"
 				"36D4850E0779C557"
@@ -11743,7 +11498,7 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "47899E59F8254F60"
-			min_required_dependencies: 4
+			min_required_dependencies: 3
 			tasks: [{
 				id: "63812EF2BB8F77E2"
 				type: "checkmark"
@@ -11876,6 +11631,7 @@
 			dependencies: ["42233E9F805A16D2"]
 			hide_dependency_lines: true
 			id: "4805D03B80ECE77B"
+			subtitle: "能刻印，但是当你获得它时已经无所谓了"
 			tasks: [{
 				id: "552949B84738DECF"
 				item: "tinkers_ingenuity:splendid_ingot"
@@ -11984,32 +11740,22 @@
 		{
 			dependencies: ["5FBDD4CA47565381"]
 			hide_dependency_lines: true
-			id: "6A7A8FA523361298"
-			tasks: [{
-				id: "73E87EC300EE2E56"
-				item: "cti:bloodgod_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -14.0d
-		}
-		{
-			dependencies: ["5FBDD4CA47565381"]
-			hide_dependency_lines: true
 			id: "73EFB2B647D86632"
 			tasks: [{
 				id: "65181E9288D1D606"
 				item: "cti:awakesaintchef_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -14.5d
+			x: 6.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["18071D854B533F60"]
-			description: ["格挡里面最靠后的一层"]
+			description: ["红绿柱石的上位替代，提供的格挡可以直接让你免受大部分负面的扣血效果，是前期不错的防御端材料！"]
 			hide_dependency_lines: true
 			id: "35A2B96AE3FA31D7"
+			shape: "pentagon"
+			subtitle: "格挡享受者"
 			tasks: [{
 				id: "25ABD69F174908DC"
 				item: "solidarytinker:heavy_armor_steel_ingot"

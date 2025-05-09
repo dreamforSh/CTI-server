@@ -1,0 +1,9655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "foodcollection"
+	group: "273277F565C25044"
+	icon: "minecraft:golden_carrot"
+	id: "6648B2B601FA43EC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F63979A166425ED"
+			size: 3.0d
+			subtitle: "生活是一切美好的点缀，希望美食能给你带来片刻的慰藉。"
+			tasks: [{
+				id: "75D48FCCFED6C275"
+				title: "点亮的食谱"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "4EF09E89F9A832A4"
+			size: 2.0d
+			subtitle: "经典原味，初心不变"
+			tasks: [{
+				id: "4DD41FBC80753DEF"
+				title: "原版"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "05EE6DA4CA5B4DC0"
+			tasks: [
+				{
+					id: "47BAC438CCB27EFF"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "3BBE38D4E44302C6"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			id: "1C72F42F7B2687D4"
+			tasks: [
+				{
+					id: "7BC386461A0FAF2E"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "766DA80BE57E1FD3"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "30DDB130300D5C12"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			id: "68063E6009606A0E"
+			tasks: [
+				{
+					id: "4EA4EC71593D3F09"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "3C4D9DE37A70A4D2"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"简易获取：流浪商人交易/深园批光海带烧制（&o&l&b最正经的不是去海底吗&r）"
+				"批量获取/自动化制取推荐："
+				"推荐有机灌注机/园艺玻璃罩接红石熔炼炉/终极熔炼工厂/鼓风机火焰模式"
+			]
+			id: "2FF5DE43A1790450"
+			tasks: [{
+				id: "1B03B961B83527FA"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"常规思路：蘑菇增殖（孢子繁殖、有机灌注机和园艺玻璃罩）"
+				"非常规思路：通过新生魔艺收容罐（哞菇）然后配合玩家模拟器（碗）最后输出存储容器（物品容器或匠魂炉接流体容器/缓存）"
+			]
+			id: "424C80536146A0B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B77BD8C73FAC9DE"
+				table_id: 4280673574950742795L
+				title: "为什么是花呢？"
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B9E2B8C1BEA915A"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"简单获取：撸树（树场）开箱（战利品）&m&l&o&0钻石特性闪亮（啊哈）&r"
+				"自动化获取：高级树场（有机灌注）反物质配方（别笑我是认真的）"
+				"循环那个钻石苹果由于是限定的（ban掉了仅能通过隐藏获取），所以你无法用来批量合成附魔金苹果"
+			]
+			id: "361F60573DFA404E"
+			subtitle: "医生远离我"
+			tasks: [
+				{
+					id: "2C9D6F81ABCBD721"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "6BD4A847C70DAE30"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "306395F72431CD68"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"简易获取：开箱/魔力灌注苹果/针叶林/小市场（甜浆果）开箱/繁茂洞穴/魔力灌注/缠魂/融合机处理甜浆果（发光浆果）&o&l&6融合机是吗，有点意思&r"
+				"批量获取/自动化制取推荐："
+				"推荐有机灌注机/园艺玻璃罩"
+			]
+			id: "1BD3A6F56DB4440C"
+			tasks: [
+				{
+					id: "097604C771100E6F"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "42E695498122AF6D"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+			]
+			title: "浆果"
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"前期获取方式"
+				"1，丛林挖掘 2，开战利品箱（优化模组结构战利品优先，比如村庄和海盗船）"
+				"批量获取/自动化制取推荐："
+				"推荐有机灌注机/园艺玻璃罩"
+			]
+			id: "139791EF727A54FD"
+			subtitle: "你是内内个内内内个内个内内"
+			tasks: [{
+				id: "52325E33334C9654"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"常规思路：刷怪-尼德霍格之欲（手动）/屠宰-屠宰机（自动化处死）/偷取-德格米（直接获取掉落物）"
+				"针对性措施：1，大部分可繁殖生物：使用霍恩锭作为材料并具备不毁性质的匠魂工具配合玩家模拟器（一般可以直接实体挤压处死）"
+				"2，生物刷怪：真空陷阱与气动刷怪笼，工业先锋养殖一体化设备与自动刷怪笼"
+				""
+				"{@pagebreak}"
+				""
+				"关于兔肉煲："
+				"1，蔬菜可以看农业（一般直接推荐有机灌注和园艺玻璃罩，其他的另外考虑）"
+				"2，小麦粉推荐还是直接用有机灌注小麦经机械动力磨粉（产率大并且需求不高）额外乐事研磨杵磨粉（稳定并且配合玩家模拟器极快）"
+				"3，兔肉请看第一页"
+				"&m&l&o&n&0当然其实你可以直接用村民交易，这可快多了，尤其是某个乐事模组添加的结构中的五级屠夫第一个交易一定是兔肉煲&l&o&n&0&m"
+			]
+			id: "7DB8F8AF19289D2F"
+			tasks: [
+				{
+					id: "6AE4122F8AF93E58"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "5B5D9E5574E02E3C"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "0799A43391AF6D9C"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "598011EE8E85682F"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "4B365C9BE14EF05D"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "2BBA249A6F68E01D"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+				{
+					id: "22E52AA706DD3698"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "3FE9893C5C9EC14B"
+					item: "minecraft:cooked_rabbit"
+					type: "item"
+				}
+				{
+					id: "5E3CEF06E5884DB6"
+					item: "minecraft:rabbit_stew"
+					type: "item"
+				}
+			]
+			title: "畜肉"
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			id: "773C319E748FE76E"
+			subtitle: "最熟悉的无奈之选"
+			tasks: [{
+				id: "6A2DCF0EA8EC3F03"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			id: "3DEB9ADBCF82E5E3"
+			tasks: [{
+				id: "6E39812A3311B6F7"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"简易获取：钓鱼（手动挂机）植魔（魔力灌注）自动鱼栅（循环自动钓鱼）开箱（战利品）"
+				"自动化：1，工业先锋钓鱼机 2，热力水产捕捞器 3，机械动力配合匠魂钓鱼竿"
+				"&e&n&o&l奇妙小技巧：当然其实也可以在天然群系中的水域使用工业先锋屠宰机（某种意义上比钓鱼机还快）&r"
+			]
+			id: "4B345293D071EB44"
+			tasks: [
+				{
+					id: "55B28FC3EC800435"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "1AC30404CF9200C7"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "48F9848D59216F09"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "0F2A832F0EADBDF3"
+					item: "minecraft:cooked_cod"
+					type: "item"
+				}
+				{
+					id: "758C0BC136731357"
+					item: "minecraft:cooked_salmon"
+					type: "item"
+				}
+				{
+					id: "027E0E5B6DDB9E24"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "渔获"
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"2，可可豆：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+			]
+			id: "6AF82B7D3BB6F673"
+			tasks: [{
+				id: "71646E50367A0808"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"1，原版：野外寻找蜜蜂和蜂巢，用精准采集获得，当然你也可以用橡木树场赌概率"
+				"注：蜂巢在本包有很多其他配方，而原版内容的升级版可以看农业任务（其实就是热力蜂巢漏斗）"
+				"提示：蜜蜂可以用花繁殖。"
+				"2，匠魂：使用生物熔炼（匠魂炉或者熔炼强化手打）提示：特殊材料霍恩锭与玩家模拟器"
+				"3，刷怪烧bee：气动刷怪笼（真空陷阱）自动刷怪机（大师球）"
+				"4，本包有特殊矿脉蜂王浆（机械动力流体钻井），分布维度为主世界（看上去是支线其实是主线）"
+			]
+			id: "64D35274563897FF"
+			subtitle: "致敬传奇哈基米东海帝王"
+			tasks: [{
+				id: "7A3A744153940C87"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"2，面团：请看同名任务（另一条线）"
+			]
+			id: "2F3762D161C3B1F1"
+			tasks: [{
+				id: "7FC29E2EEA7385C8"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，鸡蛋：自动鸡农场（刷怪/屠宰/偷取/霍恩锭）"
+				"2，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，奶：生物熔炼/头颅（匠魂炉/工具）桶装（桶/罐中牛-懒人厨房/玩家模拟器与桶-可搭配新生魔艺收容罐）"
+				"4，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"5，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "7F104CF2703A128F"
+			tasks: [
+				{
+					id: "2AB1F4F8D703E69C"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "333E875C4BF61C8C"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，南瓜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"2，面团：请看同名任务（另一条线）"
+			]
+			id: "2136BD2FB9DBE6B5"
+			tasks: [{
+				id: "7875101797FC5CC9"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			description: ["由于咖啡豆无法正常获得这里送你一个，记得珍惜哦~"]
+			id: "7B612D07D1B919D8"
+			rewards: [{
+				id: "53D4E998A2FCF365"
+				item: "thermal:coffee_seeds"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "伴随工业急速发展进化的，是大家日益高涨的食欲"
+			tasks: [{
+				id: "3BC1E96C8A31C51B"
+				type: "checkmark"
+			}]
+			title: "热力"
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			id: "0994C63925453F8A"
+			tasks: [
+				{
+					id: "3F8C818AF1154BDF"
+					item: "thermal:corn"
+					type: "item"
+				}
+				{
+					id: "58AB8D45DCAF2566"
+					item: "thermal:cooked_corn"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			id: "3A67404F29F97BBE"
+			tasks: [{
+				id: "41279ED401E2E4D8"
+				item: "thermal:onion"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			id: "5A522C30A13C2AFD"
+			tasks: [{
+				id: "61CC15A7970C9F5D"
+				item: "thermal:radish"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			id: "41550DC7F7E1AF63"
+			tasks: [{
+				id: "54FE47B019FA1182"
+				item: "thermal:spinach"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			id: "163FDB498B00FA43"
+			tasks: [{
+				id: "38B59CBD12DEA63F"
+				item: "thermal:bell_pepper"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			id: "27050E65051F04BC"
+			tasks: [
+				{
+					id: "047E9D1E6350DD3F"
+					item: "thermal:eggplant"
+					type: "item"
+				}
+				{
+					id: "397B01F807193D50"
+					item: "thermal:cooked_eggplant"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			id: "101B78CFD3BEFD86"
+			tasks: [{
+				id: "0C40ED085514E465"
+				item: "thermal:green_bean"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "195FA7940F15831C"
+			tasks: [{
+				id: "0DD3CDDC78140DDC"
+				item: "thermal:tomato"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			id: "78DFEF4B09D8F7E8"
+			tasks: [{
+				id: "68F469B6ADAF38E8"
+				item: "thermal:coffee"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			id: "269283D214080809"
+			tasks: [{
+				id: "5E7FBED95760ECC7"
+				item: "thermal:cooked_mushroom"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			id: "4FE83C6FBC48C750"
+			tasks: [{
+				id: "0D3CC3EA1E730B86"
+				item: "thermal:hearty_stew"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			id: "4BB8AD28306FD105"
+			subtitle: "小心过敏"
+			tasks: [{
+				id: "6D273F5B32BBF6CD"
+				item: "thermal:peanut"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -1.0d
+		}
+		{
+			id: "73112A9FC101DFE5"
+			tasks: [{
+				id: "7BB406DFFCF4000A"
+				item: "thermal:spring_salad"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			id: "5D134A64C8687A4C"
+			tasks: [{
+				id: "2BF0A554BB268B2B"
+				item: "thermal:xp_stew"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -1.5d
+		}
+		{
+			id: "033ABE09EC643F3C"
+			tasks: [{
+				id: "116348692633C341"
+				item: "thermal:green_bean_pie"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			id: "36028E15513242D6"
+			tasks: [{
+				id: "4F4C7CF981B5C3F6"
+				item: "thermal:pbj_sandwich"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			id: "7B70BE2B77958A78"
+			tasks: [{
+				id: "7B1CDB5AF46494A8"
+				item: "thermal:stuffed_pepper"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -2.0d
+		}
+		{
+			id: "699C8F9B4F4D6934"
+			tasks: [{
+				id: "32225E9C69FB685C"
+				item: "thermal:sushi_maki"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.5d
+		}
+		{
+			id: "59D1E611BB284078"
+			tasks: [
+				{
+					id: "06E293F1EFE2970E"
+					item: "thermal:cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "3A308E5FCAF3A148"
+					item: "thermal:cheese_wedge"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 1.0d
+		}
+		{
+			id: "09A04F04A1DF819A"
+			tasks: [{
+				id: "5D2CD31AE28FBAA6"
+				item: "thermal:stuffed_pumpkin"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			id: "39FBD320BA00237A"
+			tasks: [{
+				id: "070F3EF1B6C3C2BC"
+				item: "thermal:carrot_cake"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			id: "1FEAB5452F2B07E1"
+			tasks: [{
+				id: "6860A8D271F046CF"
+				item: "thermal:chocolate_cake"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			id: "6EF412AFAF39F5FF"
+			tasks: [{
+				id: "706565B9C01F0DE4"
+				item: "thermal:potion_cake"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			id: "163B20D14AACB32B"
+			tasks: [{
+				id: "549C3C5E6ABEFA2F"
+				item: "thermal:spice_cake"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			id: "12F021661E8DB8AA"
+			tasks: [{
+				id: "0F63767E5B551540"
+				item: "thermal:syrup_bottle"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			id: "221595D93058360E"
+			tasks: [{
+				id: "35CFD3FAF7AD4D13"
+				item: "thermal:frost_melon_slice"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			description: ["我老想吃草莓了，可惜草莓太贵了（"]
+			id: "6FC4C8698EC8870B"
+			subtitle: "墨茶的遗愿（"
+			tasks: [{
+				id: "5CE9A3E0DAD356FD"
+				item: "thermal:strawberry"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			id: "5B463DDFF9C0B866"
+			size: 2.0d
+			subtitle: "宫廷玉液酒，一百八一杯"
+			tasks: [{
+				id: "6A43995B29FC3667"
+				type: "checkmark"
+			}]
+			title: "饮酒作乐与喝啤酒啦"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "5B104F2942D45558"
+			tasks: [
+				{
+					id: "08D65EDFAC1E8673"
+					item: "brewinandchewin:beer"
+					type: "item"
+				}
+				{
+					id: "41A8DEDE480A8187"
+					item: "brewinandchewin:vodka"
+					type: "item"
+				}
+				{
+					id: "0048DCC59FFF8D4D"
+					item: "brewinandchewin:dread_nog"
+					type: "item"
+				}
+				{
+					id: "39C3AE6B9D335404"
+					item: "brewinandchewin:withering_dross"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			id: "162AB9ABD7E47A5A"
+			tasks: [
+				{
+					id: "14DEF73EF65E04E0"
+					item: "brewinandchewin:rice_wine"
+					type: "item"
+				}
+				{
+					id: "2E0B485D7EBBD025"
+					item: "brewinandchewin:pale_jane"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			id: "4B85B35EDB3E85EA"
+			tasks: [
+				{
+					id: "74B3798BB111F13A"
+					item: "brewinandchewin:mead"
+					type: "item"
+				}
+				{
+					id: "753EC3D94E4C8409"
+					item: "brewinandchewin:saccharine_rum"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -10.5d
+		}
+		{
+			id: "6EB3BC3EEC624D3A"
+			tasks: [{
+				id: "65EAC53804EE4809"
+				item: "brewinandchewin:egg_grog"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			id: "34C6A8524A730DB1"
+			tasks: [
+				{
+					id: "1C292FC282CD5825"
+					item: "brewinandchewin:strongroot_ale"
+					type: "item"
+				}
+				{
+					id: "2F42AE4A03A6F429"
+					item: "brewinandchewin:steel_toe_stout"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			id: "74AA4085D587D9A8"
+			tasks: [{
+				id: "13F6D15BAD1CA96F"
+				item: "brewinandchewin:salty_folly"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			id: "1242DFCDA0DCD764"
+			tasks: [{
+				id: "6DD5CB56F6F0F179"
+				item: "brewinandchewin:glittering_grenadine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			id: "73E59722C25DEE9E"
+			tasks: [
+				{
+					id: "07CA8D25EA4A024D"
+					item: "brewinandchewin:bloody_mary"
+					type: "item"
+				}
+				{
+					id: "44732E05F0026A80"
+					item: "brewinandchewin:red_rum"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -11.5d
+		}
+		{
+			id: "23B0A3601FDAFE8F"
+			tasks: [{
+				id: "344771D1F9B06213"
+				item: "brewinandchewin:kombucha"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.5d
+		}
+		{
+			id: "33EC968AD4AB7BA2"
+			tasks: [
+				{
+					id: "0F88EACBB98C2DBE"
+					item: "brewinandchewin:fiery_fondue_pot"
+					type: "item"
+				}
+				{
+					id: "53B081410E8D3FE5"
+					item: "brewinandchewin:fiery_fondue"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -9.5d
+		}
+		{
+			id: "17EDA8EDEDB281E0"
+			tasks: [
+				{
+					id: "509E73543882D103"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "6D960C5D554B9CFC"
+					item: "brewinandchewin:flaxen_cheese_wedge"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -10.5d
+		}
+		{
+			id: "578B633816D01388"
+			tasks: [
+				{
+					id: "72D32841DBE07363"
+					item: "brewinandchewin:scarlet_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "41CAAE5D9F433048"
+					item: "brewinandchewin:scarlet_cheese_wedge"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -11.5d
+		}
+		{
+			id: "66392DBF35F733F2"
+			tasks: [
+				{
+					id: "5BC5836B863A2F9B"
+					item: "brewinandchewin:pizza"
+					type: "item"
+				}
+				{
+					id: "3492405444018657"
+					item: "brewinandchewin:pizza_slice"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -10.5d
+		}
+		{
+			id: "53DE0A44CEE675A4"
+			tasks: [
+				{
+					id: "50ADD720ACB2569D"
+					item: "brewinandchewin:quiche"
+					type: "item"
+				}
+				{
+					id: "149F70632D9410D3"
+					item: "brewinandchewin:quiche_slice"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -9.5d
+		}
+		{
+			id: "544A563CC2F15235"
+			tasks: [{
+				id: "2DD7DA88A9C82F60"
+				item: "brewinandchewin:kimchi"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			id: "7AC180EE1F93CCF3"
+			tasks: [{
+				id: "03814A76AF354706"
+				item: "brewinandchewin:jerky"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.5d
+		}
+		{
+			id: "6CBB7CA59DAA9EEC"
+			tasks: [{
+				id: "53B81DE5D6C8D079"
+				item: "brewinandchewin:pickled_pickles"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			id: "2B586A9BB2B4ADBF"
+			tasks: [{
+				id: "3A9313B0620BBD6D"
+				item: "brewinandchewin:kippers"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			id: "0C4DEF99D9F94560"
+			tasks: [{
+				id: "432F69DEBFAD4B98"
+				item: "brewinandchewin:cocoa_fudge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			id: "196F090F0364C223"
+			tasks: [{
+				id: "5945B674DA1B5A62"
+				item: "brewinandchewin:ham_and_cheese_sandwich"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			id: "1820BC41399260FC"
+			tasks: [{
+				id: "1F3A078B85549910"
+				item: "brewinandchewin:vegetable_omelet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			id: "1E2A878243B912E1"
+			tasks: [{
+				id: "3DE46C30FF7F9992"
+				item: "brewinandchewin:cheesy_pasta"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.5d
+		}
+		{
+			id: "01B8EEC55481B19C"
+			tasks: [{
+				id: "32F2E38C713F85DD"
+				item: "brewinandchewin:creamy_onion_soup"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			id: "3A941A3FD072678A"
+			tasks: [{
+				id: "3F85305FD2A89F9D"
+				item: "brewinandchewin:scarlet_pierogies"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			id: "1D0CA3B6A369FD44"
+			tasks: [{
+				id: "6D4A04F8241FB3BD"
+				item: "brewinandchewin:horror_lasagna"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			id: "0253C8913B1CCF4E"
+			size: 2.0d
+			subtitle: "泡茶真是一件美事……"
+			tasks: [{
+				id: "228B7F37AFFCAEBF"
+				type: "checkmark"
+			}]
+			title: "农夫暇事"
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			id: "3B0F991F99CA70E6"
+			size: 2.0d
+			subtitle: "钓鱼佬的空军之旅"
+			tasks: [{
+				id: "6E9C2C2A1A6DA80B"
+				type: "checkmark"
+			}]
+			title: "水产品"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+			]
+			id: "7B7BB56BBF18E8D7"
+			subtitle: "你知道的，这不是那个绿茶"
+			tasks: [{
+				id: "1444B9C392393A99"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+			]
+			id: "288662E7434E2390"
+			subtitle: "黄汤黄叶，茶中贵族"
+			tasks: [{
+				id: "156541A8239DBF91"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+			]
+			id: "62CD25A6DA398453"
+			subtitle: "小罐茶，大师作，武夷山，大红袍"
+			tasks: [{
+				id: "5CBFB7AB1876A04F"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 21.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，玫瑰果：玫瑰丛（推荐有机灌注机和园艺玻璃罩，然后砧板处理）"
+			]
+			id: "6FF3C901CB78E907"
+			subtitle: "大地植物果实之冠汇聚而成的精华"
+			tasks: [{
+				id: "3FB50C63DD963380"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，蒲公英：推荐有机灌注机和园艺玻璃罩"
+				"2，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+			]
+			id: "618E219C96DC9ADE"
+			subtitle: "黄花地丁、婆婆丁、尿床草、羊奶奶草、白鼓钉、鬼灯笼、黄花郎，认知与语言的力量"
+			tasks: [{
+				id: "1598D5F184560DF9"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，咖啡浆果：请看同名任务"
+				"2，发光浆果：请看同名任务"
+				""
+				"{@pagebreak}"
+				""
+				"&l&o&n&e在茶香袅袅的宁静背后，隐藏着人性贪婪的喧嚣，那些被欲望染色的“赌徒茶”，不过是时光长河中一朵短暂盛开的泡沫，终将在理性的曙光中破灭，徒留一地虚妄的残渣。&l&o&n&e"
+			]
+			id: "02DE7018670540F1"
+			subtitle: "贪婪，是人类虚妄的人性"
+			tasks: [{
+				id: "1E36C6DB2D044660"
+				item: "farmersrespite:gamblers_tea"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 22.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，咖啡果：下界玄武三角洲中的野生咖啡树/种植咖啡豆（推荐下界玄武岩种植，循环收割机采收）"
+				"2，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+				""
+				"{@pagebreak}"
+				""
+				"&o&o&4一种“邪恶的饮品”，确信&l&o&4"
+			]
+			id: "6DB9DF9BAA86F77A"
+			subtitle: "“Qahwah”，意为“令人愉悦的东西”"
+			tasks: [{
+				id: "099B36A739D1C79A"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 21.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"下界玄武三角洲中的野生咖啡树/种植咖啡豆（推荐下界玄武岩种植，循环收割机采收）"
+			]
+			id: "3C09DFA748DE5710"
+			subtitle: "原生浆果对吗？哦，对的对的"
+			tasks: [{
+				id: "65E6183C7FCBDDF8"
+				item: "farmersrespite:coffee_berries"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+				"2，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+			]
+			id: "2CE77A1D5984B1B5"
+			subtitle: "绿色惬意小清新！"
+			tasks: [{
+				id: "4F8979F7DA61EB20"
+				item: "farmersrespite:green_tea_cookie"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，下界疣/蘑菇：请看农业（推荐有机灌注和远离玻璃罩）"
+				""
+			]
+			id: "1597EE6B9A65EFDB"
+			subtitle: "菌类地狱修罗培养皿"
+			tasks: [{
+				id: "5FCA6B90359AECBD"
+				item: "farmersrespite:nether_wart_sourdough"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，咖啡豆：请看任务-咖啡"
+				"2，鸡蛋：自动鸡农场（刷怪/屠宰/偷取/霍恩锭）"
+				"3，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"4，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"5，奶：生物熔炼/头颅（匠魂炉/工具）桶装（桶/罐中牛-懒人厨房/玩家模拟器与桶-可搭配新生魔艺收容罐）"
+				"6，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "21FB1B0625F5670F"
+			subtitle: "咖啡时间到！请享用蛋糕~"
+			tasks: [
+				{
+					id: "1E6CE5AB322D41E6"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
+				{
+					id: "33840A20A8C62924"
+					item: "farmersrespite:coffee_cake_slice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，玫瑰果：玫瑰丛（推荐有机灌注机和园艺玻璃罩，然后砧板处理）"
+				"2，奶：生物熔炼/头颅（匠魂炉/工具）桶装（桶/罐中牛-懒人厨房/玩家模拟器与桶-可搭配新生魔艺收容罐）"
+				"3，蜂蜜瓶：请看同名任务"
+				"4，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"5，馅饼酥皮：请看同名任务"
+				"6，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "541EF0C2001A24B1"
+			subtitle: "VC之王·派！"
+			tasks: [
+				{
+					id: "19F53E72829190B1"
+					item: "farmersrespite:rose_hip_pie"
+					type: "item"
+				}
+				{
+					id: "752E035A1B0D3DCF"
+					item: "farmersrespite:rose_hip_pie_slice"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，熟鳕鱼：请看同名任务"
+				"2，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+				"3，卷心菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"4，米饭：请看同名任务"
+			]
+			id: "307F3703172B3A77"
+			subtitle: "传统与新意结合的尝试"
+			tasks: [{
+				id: "27A43B7A39885E05"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，茶叶：在沼泽地形生成的野生茶树破坏掉落茶籽，前期（玩家模拟器剪刀自动收割沃土加速的茶树然后配合机械动力缠魂）中期（热力植育土催熟配合ae破坏面板可调控）"
+				"2，鸡肉：请看任务-畜肉（原版）"
+				"3，蔬菜：请看农业任务（稻米类的推荐农夫乐事的，一如既往的有机灌注机和园艺玻璃罩就可以了）"
+			]
+			id: "2D70503D7CFD3A1D"
+			subtitle: "茶啊咖喱"
+			tasks: [{
+				id: "0CCF799A08EE3F4B"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，烈焰粉：循环结晶器-热力多驱冲压机-热力离心分离机/生物战利品（烈焰人：刷怪/屠宰/偷取）"
+				"2，下界疣：请看农业（推荐有机灌注和远离玻璃罩）"
+				"3，咖啡果：下界玄武三角洲中的野生咖啡树/种植咖啡豆（推荐下界玄武岩种植，循环收割机采收）"
+				"4，生牛肉/牛肉馅：请看任务-畜肉（原版，后者为前者砧板处理）"
+			]
+			id: "0FEDFD330D5E79F3"
+			subtitle: "火辣辣的大酱~"
+			tasks: [{
+				id: "06AE40F832A46DC8"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.5d
+		}
+		{
+			id: "7A681D96AF18E59A"
+			tasks: [{
+				id: "2B7D068935D6D210"
+				item: "aquaculture:algae"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			id: "652DB8715F7E6B17"
+			tasks: [
+				{
+					id: "6D3EEBC294592FD4"
+					item: "aquaculture:fish_fillet_raw"
+					type: "item"
+				}
+				{
+					id: "63CC44A940054F91"
+					item: "aquaculture:fish_fillet_cooked"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			id: "39A1A44680F35C4C"
+			tasks: [{
+				id: "60463F641C57DAF6"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			id: "447E9AF9CD677C27"
+			tasks: [{
+				id: "6337A1F6F054FF55"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			id: "51A37E0CF23A27A1"
+			tasks: [{
+				id: "5A8112CE8FB7F9A2"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			id: "428DC50E024073DB"
+			tasks: [{
+				id: "702D33D4292A6D70"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			id: "57C1847CEBD8C3AC"
+			subtitle: "是鲈鱼不是鱼露！"
+			tasks: [{
+				id: "056606FB54663268"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			id: "76C253CD2F0EAAB2"
+			subtitle: "海虎武神"
+			tasks: [{
+				id: "7F3E42666CA8EB6E"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			id: "345D8AF058BE4181"
+			tasks: [{
+				id: "666D7F6217E7E9FA"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "512BA6A638E3C578"
+			tasks: [{
+				id: "0A7D69AD8E0B1E36"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			id: "2FB915F5D02E6C98"
+			tasks: [{
+				id: "010CA9FFBBBF6B45"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			id: "2705819119644CA1"
+			tasks: [{
+				id: "08AEB1A75FFF9673"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			id: "4AB85F513C0E5899"
+			tasks: [{
+				id: "7FEB21138475BAB9"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "662D4315D42C7677"
+			tasks: [{
+				id: "0DAFBEDF208177D7"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			id: "6416E16236C5C394"
+			tasks: [{
+				id: "2158F1C71459DAB8"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			id: "5AE5E04B808ECC2E"
+			tasks: [{
+				id: "7624E108D2327A1F"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			id: "2103B15B06F68876"
+			tasks: [{
+				id: "5CF84374F901D45E"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			id: "171569C30C81D437"
+			tasks: [{
+				id: "7C4D77AF6FE30878"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			id: "189706CFB4FFA41D"
+			tasks: [{
+				id: "632CE6D32BFF9B15"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			id: "642A0F06714350AB"
+			tasks: [{
+				id: "4F69AE94C0ACF1B2"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			id: "0DF7AA38A76936F7"
+			tasks: [{
+				id: "197BE3999B7B6FE4"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			id: "6FA82E14AA208177"
+			subtitle: "狗鱼岂能称至尊？"
+			tasks: [{
+				id: "57B8D8D2D4B52E42"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			id: "6632E98EAE271F88"
+			tasks: [{
+				id: "4160DFDCAE05BC96"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			id: "420EB582A979665C"
+			tasks: [{
+				id: "5572A237B7D0B805"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			id: "3C7BB51E0A5A9E44"
+			tasks: [{
+				id: "54CB80E3EEF45E1B"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			id: "54AF7F7359FB4FFF"
+			tasks: [{
+				id: "6F226725A4CDBDD2"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "25C05791F11280BB"
+			tasks: [{
+				id: "147AA7DC8B4B6141"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			id: "22698CD1F911CD26"
+			tasks: [{
+				id: "3BB8F1E5435E59F0"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "57036BDD7CC8AC6E"
+			tasks: [{
+				id: "28819FD6EFB3C0B5"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			id: "33F2B8678B906DF3"
+			tasks: [{
+				id: "3D8BF8FBF0BB2432"
+				item: "aquaculture:turtle_soup"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			id: "564F857C6820A29E"
+			tasks: [{
+				id: "452345F30AFFC9A6"
+				item: "aquaculture:sushi"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			id: "15D865991FE85183"
+			size: 2.0d
+			subtitle: "民以食为天，种田啊种田"
+			tasks: [{
+				id: "6658EAAB11A8D779"
+				type: "checkmark"
+			}]
+			title: "农夫乐事"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			id: "650D3DD5E4EACBC6"
+			size: 2.0d
+			subtitle: "你说匠魂为什么有这么多吃的？那不是你该关心的问题（）"
+			tasks: [{
+				id: "562F2FE48D068707"
+				type: "checkmark"
+			}]
+			title: "匠心独运、樱桃工匠和匠3"
+			x: -17.0d
+			y: 17.0d
+		}
+		{
+			id: "47EC1604FB764790"
+			tasks: [{
+				id: "3E7A57926D82D8D2"
+				item: "tinkers_thinking:beef_jerky"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 21.5d
+		}
+		{
+			id: "26DDE5D7F67D682A"
+			tasks: [{
+				id: "59AD2E19D5223B99"
+				item: "tinkers_thinking:pork_jerky"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 20.5d
+		}
+		{
+			id: "186E11DC23E66E37"
+			tasks: [{
+				id: "346D327EC3D8C4CB"
+				item: "tinkers_thinking:mutton_jerky"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 20.5d
+		}
+		{
+			id: "65B76A85AB037A82"
+			tasks: [{
+				id: "69A3DF76FDFE7CEB"
+				item: "tinkers_thinking:rabbit_jerky"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 19.5d
+		}
+		{
+			id: "7F52A385C753BA4C"
+			tasks: [{
+				id: "30464352A38C9551"
+				item: "tinkers_thinking:chicken_jerky"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 19.5d
+		}
+		{
+			id: "4923C65FB22E7C11"
+			tasks: [
+				{
+					id: "5A1D84DF75AB40D4"
+					item: "tinkers_thinking:cod_jerky"
+					type: "item"
+				}
+				{
+					id: "47587C126C9D7A20"
+					item: "tinkers_thinking:salmon_jerky"
+					type: "item"
+				}
+				{
+					id: "2B0E24E6261FE92F"
+					item: "tinkers_thinking:tropical_fish_jerky"
+					type: "item"
+				}
+				{
+					id: "19AF8441D770022A"
+					item: "tinkers_thinking:pufferfish_jerky"
+					type: "item"
+				}
+			]
+			title: "鱼干"
+			x: -19.0d
+			y: 21.5d
+		}
+		{
+			id: "28A3C4B1E0F41AFB"
+			subtitle: "风干消毒"
+			tasks: [{
+				id: "0A998106710DF91A"
+				item: "tinkers_thinking:rotten_flesh_jerky"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 22.5d
+		}
+		{
+			id: "5FBFBB41442EF5E6"
+			tasks: [{
+				id: "18361F2C5F052D53"
+				item: "tinkers_thinking:earth_slime_drop"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 21.5d
+		}
+		{
+			id: "04DFA1B703AE55AE"
+			tasks: [{
+				id: "34EA5C2B49F74D46"
+				item: "tinkers_thinking:sky_slime_drop"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 20.5d
+		}
+		{
+			id: "2B092E0F316C2CC9"
+			tasks: [{
+				id: "4B9B692586179C21"
+				item: "tinkers_thinking:magma_slime_drop"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 19.5d
+		}
+		{
+			id: "042F32831E74C96C"
+			tasks: [{
+				id: "3A3E1C3BCC60852D"
+				item: "tinkers_thinking:ichor_slime_drop"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 20.5d
+		}
+		{
+			id: "61506A7160E9C708"
+			tasks: [{
+				id: "4B7C2673397A6693"
+				item: "tinkers_thinking:ender_slime_drop"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 19.5d
+		}
+		{
+			id: "27BADE1FA5DE7DCD"
+			tasks: [{
+				id: "0DFDC078AED8C00B"
+				item: "tinkers_thinking:fried_egg"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 20.5d
+		}
+		{
+			id: "5F4E503D2D91C067"
+			tasks: [{
+				id: "1CEC3FDBA4032F86"
+				item: "tinkers_thinking:black_chocolate"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 19.5d
+		}
+		{
+			id: "24D02F80A943B1D0"
+			tasks: [{
+				id: "0644035ADC4BD668"
+				item: "tinkers_thinking:white_chocolate"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 19.5d
+		}
+		{
+			id: "71AB5B54D44C6751"
+			tasks: [
+				{
+					id: "50BCD514581A371D"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "6CAEA7EA2C23A5C0"
+					item: "farmersdelight:cabbage_leaf"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			id: "0BCF32385234A845"
+			tasks: [
+				{
+					id: "7B48B50D520DEA73"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "2FCA9E984CF6B3C0"
+					item: "farmersdelight:tomato_sauce"
+					type: "item"
+				}
+				{
+					id: "775427DD2A69D476"
+					item: "culturaldelights:smoked_tomato"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			id: "100B878251D69C2D"
+			tasks: [{
+				id: "6C29096A366B527D"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -0.5d
+		}
+		{
+			id: "2704086E1FA359A1"
+			tasks: [{
+				id: "3C66B1123F015E99"
+				item: "farmersdelight:wheat_dough"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			id: "748C2731ED0DE89B"
+			tasks: [{
+				id: "5C7C1D34E33AD56E"
+				item: "farmersdelight:pumpkin_slice"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			id: "3D69BBE397F9D20E"
+			tasks: [{
+				id: "6A902374916350A3"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			id: "7394EFD1040AAD81"
+			tasks: [{
+				id: "1C838064052044C7"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			id: "076AC2E81BCD7F90"
+			tasks: [{
+				id: "24CFC6338F6734BD"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			id: "7CD56CBB39344EFF"
+			tasks: [{
+				id: "3A442BC35DA2D7DD"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 3.0d
+		}
+		{
+			id: "6787DCC8CF6505C1"
+			tasks: [
+				{
+					id: "75FC165FE6B89A5C"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "40BF2651608478E6"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: -1.5d
+		}
+		{
+			id: "3E050B6670044EC6"
+			tasks: [
+				{
+					id: "6F87C7F73CBE27CE"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "06F5D0825D8A187C"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			id: "3D112010A91D1429"
+			tasks: [
+				{
+					id: "73451882529C4855"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "368780796F09C388"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: -1.5d
+		}
+		{
+			id: "2740B408001D437A"
+			tasks: [{
+				id: "321AC9810451946E"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			id: "43B15E246C8CE3A0"
+			tasks: [{
+				id: "176C0F3F2EDC67CB"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -0.5d
+		}
+		{
+			id: "4CAE8FA1551055E0"
+			tasks: [{
+				id: "4AB01CF4C0B73786"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			id: "014B60858EBBB353"
+			tasks: [{
+				id: "4701E2303903B371"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 2.5d
+		}
+		{
+			id: "6EBE97D4D2774546"
+			tasks: [
+				{
+					id: "392915A00BAD40EE"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+				{
+					id: "605D1726D5364F7A"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: 3.0d
+		}
+		{
+			id: "3F0AA9BA74DEC95D"
+			tasks: [
+				{
+					id: "15DA581265AE9BE3"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "17C990F016007CB3"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 3.0d
+		}
+		{
+			id: "5F3C6F0C912ED608"
+			tasks: [
+				{
+					id: "05A0FF948F4C5DA2"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+				{
+					id: "180EE5D02D4F9601"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			id: "69412B53683F6609"
+			tasks: [
+				{
+					id: "37659BB14D3DDACB"
+					item: "farmersdelight:cod_slice"
+					type: "item"
+				}
+				{
+					id: "72C0ED95E37CA153"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: 2.0d
+		}
+		{
+			id: "700559A211AAA4C1"
+			tasks: [
+				{
+					id: "2D6281403CA1D26E"
+					item: "farmersdelight:salmon_slice"
+					type: "item"
+				}
+				{
+					id: "4C8B6177E818948C"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 2.0d
+		}
+		{
+			id: "6ABF4B05FA78B88F"
+			tasks: [
+				{
+					id: "222BCA024A24335B"
+					item: "farmersdelight:mutton_chops"
+					type: "item"
+				}
+				{
+					id: "6DFCB197FB313A23"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			id: "55DE4C22C95FC847"
+			tasks: [
+				{
+					id: "6D18EDFC5CBC803C"
+					item: "farmersdelight:ham"
+					type: "item"
+				}
+				{
+					id: "154BD6D6FCDF3074"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 3.0d
+		}
+		{
+			id: "5490CBDB96ED5D62"
+			tasks: [{
+				id: "1C7FB9D0F149FFFD"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -4.0d
+		}
+		{
+			id: "1A3EEB6AB9A4688D"
+			tasks: [{
+				id: "540DEF3AC363EAC5"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.0d
+		}
+		{
+			id: "52F4C7B23C32DA4C"
+			tasks: [{
+				id: "3691C1649C0C8923"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			id: "6C266ADF491FAD4D"
+			tasks: [{
+				id: "186F3136DBB60F78"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			id: "201CCE1C3AFD444F"
+			tasks: [{
+				id: "759BF8F9B72310DE"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -4.0d
+		}
+		{
+			id: "41706EF310F5F5AB"
+			tasks: [{
+				id: "3D5E4EB083CFF6C5"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.0d
+		}
+		{
+			id: "09F05A6075987AB3"
+			tasks: [{
+				id: "45B6A0A0C0B745D5"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			id: "422A3143CFFCBBE5"
+			tasks: [{
+				id: "6F87C5F71795D8F8"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -4.0d
+		}
+		{
+			id: "432A14B8AC61F54B"
+			tasks: [{
+				id: "303AF59D9D4CBBF2"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -4.0d
+		}
+		{
+			id: "67757B1040A25FD4"
+			tasks: [{
+				id: "0C0F709F4341A65D"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -1.5d
+		}
+		{
+			id: "2BBF08A3B38FB4C4"
+			tasks: [{
+				id: "5EF4D4C0D50DD1F0"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			id: "0DD2ACE6D35EF73B"
+			tasks: [{
+				id: "238D5DAB9F89DEE2"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -3.0d
+		}
+		{
+			id: "40F06D83EF087BC2"
+			tasks: [{
+				id: "680996933F906FEA"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -3.0d
+		}
+		{
+			id: "48F6781D9E9BC3CA"
+			tasks: [{
+				id: "5A72B45817B8AA56"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -3.0d
+		}
+		{
+			id: "6F35CC4131BCA8D4"
+			tasks: [{
+				id: "55F4CEE8553EC8CB"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 3.0d
+		}
+		{
+			id: "13ED3C0C30C6A771"
+			tasks: [{
+				id: "0CE46ADFFB0F1C75"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 3.0d
+		}
+		{
+			id: "19F5938EB8A67FD6"
+			tasks: [{
+				id: "6C943DF04BFF63D1"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 2.0d
+		}
+		{
+			id: "6F5BD38D60D840AC"
+			tasks: [{
+				id: "07ACD2D9BF151670"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 2.0d
+		}
+		{
+			id: "700A0F31849335D8"
+			tasks: [{
+				id: "595C4A799B6DBBC6"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.0d
+		}
+		{
+			id: "14A5A18D882F922B"
+			tasks: [{
+				id: "5A015431B3AB5C89"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.5d
+		}
+		{
+			id: "227CDA93172A6CA1"
+			subtitle: "好吃不过饺子"
+			tasks: [{
+				id: "7A775A0C56A660EE"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			id: "79C7C6F0DFC8092B"
+			tasks: [{
+				id: "0B61954EB6C2B5CD"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.5d
+		}
+		{
+			id: "655EB0BDF45FF9F5"
+			tasks: [{
+				id: "1F3A5542758DC5D3"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.5d
+		}
+		{
+			id: "01C98D3426932609"
+			tasks: [{
+				id: "4D9A4E930394F995"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -4.0d
+		}
+		{
+			id: "21F01466F60D0C6C"
+			tasks: [{
+				id: "1A6AAC3F4B8F3F12"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -3.0d
+		}
+		{
+			id: "6F54A294F807D7E3"
+			subtitle: "香精煎鱼"
+			tasks: [{
+				id: "3E00F222341DB2FA"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			id: "004D2063FD6AF1F1"
+			subtitle: "只因你太美"
+			tasks: [
+				{
+					id: "7C06FF7C179545B7"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "13A5C8B666D1D698"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			id: "07C8EA0A65889093"
+			tasks: [
+				{
+					id: "006D17D0BA4FD1BD"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "139EE21E5FA6C844"
+					item: "farmersdelight:stuffed_pumpkin"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			id: "4E1F97B13427894D"
+			tasks: [
+				{
+					id: "5948266C8B8AFD78"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "43DF979AA4361E89"
+					item: "farmersdelight:honey_glazed_ham"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			id: "1E928A0A3F64DA6D"
+			tasks: [
+				{
+					id: "51FDD5FA92935690"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "3AA939A441A00CC1"
+					item: "farmersdelight:shepherds_pie"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			id: "15D50748846B7E74"
+			tasks: [{
+				id: "38F670E0935C4EF1"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			id: "55C550AFF0A8D761"
+			tasks: [{
+				id: "6DC5EF5ACBE50AC3"
+				item: "culturaldelights:mutton_sandwich"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 3.0d
+		}
+		{
+			id: "7D915ABE79112E8B"
+			tasks: [{
+				id: "47A670806D1DF2E5"
+				item: "culturaldelights:eggplant_burger"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 3.0d
+		}
+		{
+			id: "5B7928F596ED30DD"
+			tasks: [{
+				id: "711EFCEDFA3727ED"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.0d
+		}
+		{
+			id: "0596C2A79741A975"
+			tasks: [
+				{
+					id: "68387680A5EB69BD"
+					item: "culturaldelights:avocado"
+					type: "item"
+				}
+				{
+					id: "7C1FA065B6653F4C"
+					item: "culturaldelights:cut_avocado"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			id: "78D24A14A3EBE0D1"
+			tasks: [{
+				id: "190215BAA243E019"
+				item: "culturaldelights:elote"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -0.5d
+		}
+		{
+			id: "0694C8B47178BB4C"
+			tasks: [{
+				id: "5B5D021114558C54"
+				item: "culturaldelights:empanada"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -0.5d
+		}
+		{
+			id: "4848508DB5F875B5"
+			tasks: [{
+				id: "45BF7FC4446A72AA"
+				item: "culturaldelights:hearty_salad"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			id: "0F4288AF59678226"
+			tasks: [{
+				id: "45DA2A648EBA050F"
+				item: "culturaldelights:beef_burrito"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -1.5d
+		}
+		{
+			id: "02CAD89A367B2D15"
+			tasks: [
+				{
+					id: "1C262AD20C5B10CE"
+					item: "culturaldelights:cucumber"
+					type: "item"
+				}
+				{
+					id: "18772DC18FBCC4B5"
+					item: "culturaldelights:pickle"
+					type: "item"
+				}
+				{
+					id: "33627700DBA7E0E5"
+					item: "culturaldelights:cut_pickle"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			id: "6C86C57D163A661F"
+			tasks: [
+				{
+					id: "4A6900168FA546E1"
+					item: "culturaldelights:eggplant"
+					type: "item"
+				}
+				{
+					id: "4E5466E83329C743"
+					item: "culturaldelights:cut_eggplant"
+					type: "item"
+				}
+				{
+					id: "2691A02531C59F78"
+					item: "culturaldelights:smoked_eggplant"
+					type: "item"
+				}
+				{
+					id: "784AF2014B037B35"
+					item: "culturaldelights:smoked_cut_eggplant"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			id: "665897C959B21C43"
+			tasks: [
+				{
+					id: "17B9638C2665F3DE"
+					item: "culturaldelights:white_eggplant"
+					type: "item"
+				}
+				{
+					id: "0172D078ED93A9A6"
+					item: "culturaldelights:smoked_white_eggplant"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			id: "76961CF36113746F"
+			subtitle: "苏穗宗的笑.jpg"
+			tasks: [
+				{
+					id: "2ED1374942D6C47A"
+					item: "culturaldelights:corn_cob"
+					type: "item"
+				}
+				{
+					id: "30FAD79F5ABD64F9"
+					item: "culturaldelights:popcorn"
+					type: "item"
+				}
+				{
+					id: "67379FC3BB24C52C"
+					item: "culturaldelights:corn_dough"
+					type: "item"
+				}
+				{
+					id: "7AC5E5A48CF38A16"
+					item: "culturaldelights:tortilla"
+					type: "item"
+				}
+				{
+					id: "065E621EC80A4064"
+					item: "culturaldelights:tortilla_chips"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			id: "7C98249210107A62"
+			tasks: [
+				{
+					id: "446F10ECE6E9230A"
+					item: "culturaldelights:squid"
+					type: "item"
+				}
+				{
+					id: "6C872794B58C88D6"
+					item: "culturaldelights:cooked_squid"
+					type: "item"
+				}
+				{
+					id: "6811058C0935CB52"
+					item: "culturaldelights:glow_squid"
+					type: "item"
+				}
+				{
+					id: "26524D110A4D639D"
+					item: "culturaldelights:raw_calamari"
+					type: "item"
+				}
+				{
+					id: "27B0F6C8D53E01B0"
+					item: "culturaldelights:cooked_calamari"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			id: "43758B1DC0AB9BDD"
+			tasks: [{
+				id: "24BCF1967754105D"
+				item: "culturaldelights:fried_eggplant_pasta"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -4.0d
+		}
+		{
+			id: "47C777025EF78848"
+			tasks: [{
+				id: "541ACD2BACAC0445"
+				item: "culturaldelights:avocado_toast"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			id: "40A8C99C7630F016"
+			tasks: [{
+				id: "784A88786D6C8349"
+				item: "culturaldelights:creamed_corn"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			id: "407ABF4FF9F89812"
+			tasks: [{
+				id: "57EFF941E1989967"
+				item: "culturaldelights:exotic_roll_medley"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			id: "20F32DBAA41B3A10"
+			size: 2.0d
+			subtitle: "意想不到的完美利用。。。对吧"
+			tasks: [{
+				id: "7997202EF52F449D"
+				type: "checkmark"
+			}]
+			title: "末地乐事"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			id: "21CA0537F9E4D294"
+			tasks: [{
+				id: "48D8DE4749A3FF92"
+				item: "ends_delight:chorus_fruit_wine"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -10.5d
+		}
+		{
+			id: "4A745D8027F5A3C8"
+			tasks: [{
+				id: "52ED9A7676A12959"
+				item: "ends_delight:chorus_fruit_milk_tea"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -9.5d
+		}
+		{
+			id: "25FA354D17768059"
+			subtitle: "QQ乃乃好喝到咩噗茶"
+			tasks: [{
+				id: "7FF01CFDCEF1AF75"
+				item: "ends_delight:bubble_tea"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -11.5d
+		}
+		{
+			id: "04D1ACCBB973BF0E"
+			tasks: [{
+				id: "33EE4A2AE7FE8AD0"
+				item: "ends_delight:dragon_breath_soda"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -10.5d
+		}
+		{
+			id: "5AD5F9E9F8C788EC"
+			tasks: [{
+				id: "2AD77C7152722F8F"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -9.5d
+		}
+		{
+			id: "2CD47AB0A9647C2C"
+			tasks: [
+				{
+					id: "3C498C30A40002D6"
+					item: "ends_delight:liquid_dragon_egg"
+					type: "item"
+				}
+				{
+					id: "60A87E52134DC332"
+					item: "ends_delight:fried_dragon_egg"
+					type: "item"
+				}
+			]
+			title: "龙蛋与煎龙蛋"
+			x: -15.5d
+			y: -13.5d
+		}
+		{
+			id: "1F41E98CC17175BB"
+			tasks: [
+				{
+					id: "3EA6DE42C912B8C9"
+					item: "ends_delight:shulker_meat"
+					type: "item"
+				}
+				{
+					id: "73475E09E68F55E3"
+					item: "ends_delight:shulker_meat_slice"
+					type: "item"
+				}
+				{
+					id: "596CBC02C4AE000D"
+					item: "ends_delight:roasted_shulker_meat"
+					type: "item"
+				}
+				{
+					id: "5A8B729505700B9C"
+					item: "ends_delight:roasted_shulker_meat_slice"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			id: "4CCC6B7BA9B93591"
+			tasks: [
+				{
+					id: "028EF225F7A7024A"
+					item: "ends_delight:dragon_leg"
+					type: "item"
+				}
+				{
+					id: "0E86D57B94FEC445"
+					item: "ends_delight:smoked_dragon_leg"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -13.5d
+		}
+		{
+			id: "388D17C30D73A322"
+			subtitle: "地上驴肉，天上龙肉"
+			tasks: [
+				{
+					id: "656C0C0AED2F9C9A"
+					item: "ends_delight:raw_dragon_meat"
+					type: "item"
+				}
+				{
+					id: "4B4C137136AA51FD"
+					item: "ends_delight:roasted_dragon_meat"
+					type: "item"
+				}
+				{
+					id: "02C2336739B2ABE0"
+					item: "ends_delight:raw_dragon_meat_cuts"
+					type: "item"
+				}
+				{
+					id: "440FE72B12C3EF12"
+					item: "ends_delight:roasted_dragon_meat_cuts"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -11.5d
+		}
+		{
+			id: "2F3082D611127ECF"
+			tasks: [
+				{
+					id: "1D7862A69CDFC67A"
+					item: "ends_delight:raw_ender_mite_meat"
+					type: "item"
+				}
+				{
+					id: "2D0149FFA121932C"
+					item: "ends_delight:dried_endermite_meat"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -11.5d
+		}
+		{
+			id: "6051941E0B904440"
+			tasks: [{
+				id: "66A1329B29E79137"
+				item: "ends_delight:enderman_gristle"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.5d
+		}
+		{
+			id: "2BC0C745FDC3FF62"
+			tasks: [{
+				id: "1B8DE6D8D7F956D9"
+				item: "ends_delight:stuffed_rice_cake"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			id: "577EB360DE72320F"
+			tasks: [{
+				id: "06EADCC11F85D508"
+				item: "ends_delight:chorus_flower_pie"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			id: "0DD6B78B6B5B70EA"
+			tasks: [{
+				id: "240A733CE066C430"
+				item: "ends_delight:chorus_cookie"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			id: "3AF2B602022255FB"
+			tasks: [{
+				id: "3F2E04952AD3EB03"
+				item: "ends_delight:chorus_fruit_popsicle"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			id: "7C40B83537F90FA1"
+			tasks: [
+				{
+					id: "558CDB512A5F79FD"
+					item: "ends_delight:raw_ender_sausage"
+					type: "item"
+				}
+				{
+					id: "11D2B0789B5C2AEF"
+					item: "ends_delight:ender_sausage"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: -9.5d
+		}
+		{
+			id: "1E02F8F6DE33E430"
+			tasks: [
+				{
+					id: "7FBB4D1C36BC13C4"
+					item: "ends_delight:chorus_fruit_pie"
+					type: "item"
+				}
+				{
+					id: "7ADCC87226F8CA32"
+					item: "ends_delight:chorus_fruit_pie_slice"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			id: "56CDC793E43324F2"
+			tasks: [{
+				id: "442B188ABFEDD7E6"
+				item: "ends_delight:chorus_sauce"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			id: "5809F144224D2534"
+			tasks: [
+				{
+					id: "3B0E80FF6991E8D7"
+					item: "ends_delight:dragon_leg_with_sauce_block"
+					type: "item"
+				}
+				{
+					id: "4673EA301666F1D4"
+					item: "ends_delight:dragon_leg_with_sauce"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -13.0d
+		}
+		{
+			id: "0C56C77880E99AFB"
+			subtitle: "紫菜蛋花汤"
+			tasks: [
+				{
+					id: "7D4444ADCA3AFAA0"
+					item: "ends_delight:steamed_dragon_egg_block"
+					type: "item"
+				}
+				{
+					id: "67069869A68EAEA2"
+					item: "ends_delight:steamed_dragon_egg"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			id: "74814FB7F53F2300"
+			tasks: [
+				{
+					id: "36BE14E3B2B1BBBB"
+					item: "ends_delight:dragon_meat_stew_block"
+					type: "item"
+				}
+				{
+					id: "32721119DCFCE3B5"
+					item: "ends_delight:dragon_meat_stew"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			id: "4E02C45B64A90F2B"
+			subtitle: "吃完让你飞上天！"
+			tasks: [
+				{
+					id: "5EC7782C4E278B55"
+					item: "ends_delight:grilled_shulker_block"
+					type: "item"
+				}
+				{
+					id: "75F9227C19E66B1E"
+					item: "ends_delight:grilled_shulker"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -14.0d
+		}
+		{
+			id: "720490DEA563C4B4"
+			tasks: [{
+				id: "03AF25A026569962"
+				item: "ends_delight:roasted_dragon_steak"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -10.5d
+		}
+		{
+			id: "7B5BCE0FC52403C4"
+			subtitle: "好吃到上天"
+			tasks: [{
+				id: "736F07C583B8A71D"
+				item: "ends_delight:stir_fried_shulker_meat"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -10.5d
+		}
+		{
+			id: "1AB0134E256507F1"
+			tasks: [{
+				id: "5C6C3BCDDCAD4DAC"
+				item: "ends_delight:ender_noodle"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -12.5d
+		}
+		{
+			id: "0B77C48D13FC5DD2"
+			tasks: [{
+				id: "580D0205A7481460"
+				item: "ends_delight:enderman_gristle_stew"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -12.5d
+		}
+		{
+			id: "3574979596B8F8D4"
+			tasks: [{
+				id: "790A79B9D3ACD863"
+				item: "ends_delight:shulker_soup"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -9.5d
+		}
+		{
+			id: "03BD22E2AAFA3FE7"
+			tasks: [{
+				id: "6D6E28E64DC2F898"
+				item: "ends_delight:dragon_breath_and_chorus_soup"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -9.5d
+		}
+		{
+			id: "3B4B98E8D3B8502F"
+			tasks: [{
+				id: "41B3E9FF97849C51"
+				item: "ends_delight:ender_congee"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -13.5d
+		}
+		{
+			id: "381180A1CEC7AEC7"
+			tasks: [{
+				id: "30463E2C39C37EC3"
+				item: "ends_delight:end_barbecue_stick"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -12.5d
+		}
+		{
+			id: "6EC0936F57DD3386"
+			tasks: [{
+				id: "5E4A1C80F85F72C7"
+				item: "ends_delight:ender_bamboo_rice"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.5d
+		}
+		{
+			id: "42D2F820CB3555E3"
+			tasks: [{
+				id: "4A144F7B51D4A94B"
+				item: "ends_delight:assorted_salad"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -11.5d
+		}
+		{
+			id: "48C74BF3DC87FE6A"
+			tasks: [{
+				id: "1A1CCDD9DB86DA4F"
+				item: "ends_delight:end_mixed_salad"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -11.5d
+		}
+		{
+			id: "7A9BAC0340D3E30F"
+			subtitle: "末地蚵仔煎"
+			tasks: [
+				{
+					id: "14F5B875FB305DF2"
+					item: "ends_delight:shulker_omelette_mixture"
+					type: "item"
+				}
+				{
+					id: "2AC4524C653998EF"
+					item: "ends_delight:shulker_omelette"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -10.5d
+		}
+		{
+			description: ["由于有形的大手，普通戈伯系列的食物可以在前期实现自动化大量获取（指机械动力矿脉）"]
+			id: "4D53F5F894D068BA"
+			size: 2.0d
+			subtitle: "幸运方块的常客"
+			tasks: [{
+				id: "471908F7F1AE64D4"
+				type: "checkmark"
+			}]
+			title: "戈伯及乐事"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯团/下界/末影戈伯团：推荐在主世界/下界/末地使用精准采集/时运5以上的镐子或精准采集模式的数字型采矿机获取原矿后烧制，挖掘等级需求是戈伯级/下界戈伯级"
+				"（提示：戈伯球有机械动力矿脉，部分工具和设备具有无视挖掘等级的能力）"
+				"2，鸡蛋：自动鸡农场（刷怪/屠宰/偷取/霍恩锭）"
+				"3，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"4，粘液球：推荐热力（有机灌注：史莱蘑孢子、绿心树苗）"
+				"5，岩浆膏：前期（循环结晶器接破碎机*2）中期（破碎机替换成热力多驱冲压机）后期（生物战利品：刷怪/屠宰/偷取）"
+				"6，爆裂紫颂果：前期（海盗船的食物战利品木桶开出紫颂果，烧制后经植魔魔力灌注成紫颂花，接着使用热力有机灌注，剩下的就是烧制了）"
+			]
+			id: "4A94796E2FBECBE1"
+			subtitle: "你是甜甜的戈伯~"
+			tasks: [
+				{
+					id: "38B420DC5B4BFE73"
+					item: "gobber2:gobber2_goo"
+					type: "item"
+				}
+				{
+					id: "7A3B728638C61E19"
+					item: "gobber2:gobber2_goo_nether"
+					type: "item"
+				}
+				{
+					id: "4AD3138F9EAA8FB3"
+					item: "gobberdelight:green_goo"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖/下界戈伯蜜糖球/End Goo：请看任务-戈伯蜜糖"
+				"2，苹果：请看同名任务"
+			]
+			id: "30337130BF7EC1BB"
+			subtitle: "甜甜的苹果，甜甜的戈伯！"
+			tasks: [
+				{
+					id: "5273EE0F376953DB"
+					item: "gobber2:gobber2_gooey_apple"
+					type: "item"
+				}
+				{
+					id: "79661871336CFAFB"
+					item: "gobber2:gobber2_gooey_apple_nether"
+					type: "item"
+				}
+				{
+					id: "06ECE1891F067DE5"
+					item: "gobberdelight:green_apple"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖/下界戈伯蜜糖球/End Goo：请看任务-戈伯蜜糖"
+				"2，面包：请看同名任务"
+			]
+			id: "39EBC1019055F57B"
+			subtitle: "戈伯！面包大人的小甜心~"
+			tasks: [
+				{
+					id: "20330BA61694E1CE"
+					item: "gobber2:gobber2_gooey_bread"
+					type: "item"
+				}
+				{
+					id: "4C8E80928AF4FA9B"
+					item: "gobber2:gobber2_gooey_bread_nether"
+					type: "item"
+				}
+				{
+					id: "6B9CF1F4ED6A95E7"
+					item: "gobberdelight:green_bread"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖/下界戈伯蜜糖球/End Goo：请看任务-戈伯蜜糖"
+				"2，牛排：请看任务-畜肉（原版）"
+				"3，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "183528F1BFCCF76E"
+			subtitle: "大厨烹饪手戈伯！"
+			tasks: [
+				{
+					id: "0DF1BAD7E90BDC58"
+					item: "gobber2:gobber2_gooey_beef"
+					type: "item"
+				}
+				{
+					id: "4C55E98FCD90FCAF"
+					item: "gobber2:gobber2_gooey_beef_nether"
+					type: "item"
+				}
+				{
+					id: "2495636DF9B6E1DD"
+					item: "gobberdelight:green_meat"
+					type: "item"
+				}
+				{
+					id: "5A4359E585342D02"
+					item: "gobberdelight:blue_meat_slice"
+					type: "item"
+				}
+				{
+					id: "2D0A7A3A4B2B1280"
+					item: "gobberdelight:red_meat_slice"
+					type: "item"
+				}
+				{
+					id: "6E6D4836AF850529"
+					item: "gobberdelight:green_meat_slice"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖苹果/下界戈伯蜜糖球苹果/End Gooey Apple：请看任务-戈伯蜜糖苹果"
+				"2，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"3，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"4，馅饼酥皮：请看同名任务"
+				"5，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "552BA31E97D494D1"
+			subtitle: "戈伯们齐刷刷掉入馅饼里，美滋滋的~"
+			tasks: [
+				{
+					id: "6710A4D3D1A38332"
+					item: "gobberdelight:blue_pie"
+					type: "item"
+				}
+				{
+					id: "51915707C172C7B2"
+					item: "gobberdelight:red_pie"
+					type: "item"
+				}
+				{
+					id: "0EFBAFBF2301C050"
+					item: "gobberdelight:green_pie"
+					type: "item"
+				}
+				{
+					id: "38A0546AC4D806FB"
+					item: "gobberdelight:blue_pie_slice"
+					type: "item"
+				}
+				{
+					id: "48C1A49663904D9B"
+					item: "gobberdelight:red_pie_slice"
+					type: "item"
+				}
+				{
+					id: "5CA7815CFE1681B6"
+					item: "gobberdelight:green_pie_slice"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 22.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖/下界戈伯蜜糖球/End Goo：请看任务-戈伯蜜糖"
+				"2，戈伯蜜糖牛排/下界戈伯蜜糖球牛排/End Gooey Beef：请看任务-戈伯蜜糖牛排"
+				"3，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+			]
+			id: "24AD5CCD112EB999"
+			subtitle: "小戈伯看你饿得慌，给你做了Beef，快说谢谢小戈伯！"
+			tasks: [
+				{
+					id: "769133C29E28EBCD"
+					item: "gobber2:gobber2_gooey_beefstew"
+					type: "item"
+				}
+				{
+					id: "65D62AF7C0E7D8E8"
+					item: "gobber2:gobber2_gooey_beefstew_nether"
+					type: "item"
+				}
+				{
+					id: "0E4144BEF99C6789"
+					item: "gobberdelight:green_beefstew"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 22.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖面包/下界戈伯蜜糖球面包/End Gooey Bread：请看任务-戈伯蜜糖面包"
+				"2，戈伯蜜糖牛排/下界戈伯蜜糖球牛排/End Gooey Beef：请看任务-戈伯蜜糖牛排"
+				"3，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+			]
+			id: "53BA286773213FCE"
+			subtitle: "戈伯汉堡，混搭的小厨心~"
+			tasks: [
+				{
+					id: "7618AFBE5990F31A"
+					item: "gobberdelight:blue_burger"
+					type: "item"
+				}
+				{
+					id: "717A83549A1AB297"
+					item: "gobberdelight:red_burger"
+					type: "item"
+				}
+				{
+					id: "4F6E1550136AC843"
+					item: "gobberdelight:green_burger"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 21.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，戈伯蜜糖苹果/下界戈伯蜜糖苹果/End Gooey Apple：请看任务-戈伯蜜糖苹果"
+				"2，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+			]
+			id: "420819589EE6362A"
+			subtitle: "小小的戈伯被装进酒和甜蜜里啦！"
+			tasks: [
+				{
+					id: "2F11F035AC55753B"
+					item: "gobberdelight:blue_drink"
+					type: "item"
+				}
+				{
+					id: "1A64EE0CEE82C184"
+					item: "gobberdelight:red_drink"
+					type: "item"
+				}
+				{
+					id: "4136B59CFE12718D"
+					item: "gobberdelight:green_drink"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 21.5d
+		}
+		{
+			description: ["&0&l&o至于到底能不能吃，其实并不重要（？）&l&o&0"]
+			id: "54B1D8B22C6CAEDF"
+			size: 2.0d
+			subtitle: "蕴藏在深林的佳肴，还有被尘封的故事"
+			tasks: [{
+				id: "03A49A8B1E0AA963"
+				type: "checkmark"
+			}]
+			title: "暮色及乐事"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，炽热血液：生物战利品（九头蛇：刷怪/屠宰/偷取）"
+				"2，九头蛇肉排：请看同名任务"
+				"3，娜迦鳞片：生物战利品（娜迦：刷怪/屠宰/偷取/砧板处理）"
+				"4，番茄酱：请看同名任务"
+				"5，生培根：请看同名任务"
+			]
+			id: "1B6FD5FEC41BF5D2"
+			subtitle: "位于森林顶点的饕餮盛宴"
+			tasks: [
+				{
+					id: "2CCC47EF0510A646"
+					item: "twilightdelight:fiery_snakes_block"
+					type: "item"
+				}
+				{
+					id: "08C8C9BBFDC6AA6E"
+					item: "twilightdelight:plate_of_fiery_snakes"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，巨型睡莲：在暮色森林中的暮光沼泽生成，也可由转换粉与睡莲合成"
+				"2，巨型荷花：在暮色森林中的暮光沼泽生成"
+				"3，烤鸡：请看同名任务"
+			]
+			id: "7ED5CC1AD4E97E26"
+			subtitle: "叫花鸡，那个香啊~"
+			tasks: [
+				{
+					id: "5F6BDA6657DDE7A4"
+					item: "twilightdelight:lily_chicken_block"
+					type: "item"
+				}
+				{
+					id: "6992E18F695376B4"
+					item: "twilightdelight:plate_of_lily_chicken"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，鸡蛋：自动鸡农场（刷怪/屠宰/偷取/霍恩锭）"
+				"2，馅饼酥皮：请看同名任务"
+				"3，荧光蘑菇煲：请看同名任务"
+				"4，牛头人肉排：请看任务-战斧牛头人肋排"
+				"5，生培根：请看同名任务"
+			]
+			id: "6E7642D8B3D35626"
+			subtitle: "暮光之力，给予牛排独特的风味"
+			tasks: [
+				{
+					id: "1D5278A0BEBE3F5B"
+					item: "twilightdelight:meef_wellington_block"
+					type: "item"
+				}
+				{
+					id: "77DA4CA9A3A6337C"
+					item: "twilightdelight:plate_of_meef_wellington"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，生铁木原料：由于只是做菜，需求并不高所以需要单独挂靠的话铁锭/粗铁、金粒其实可以通过工业先锋镭射和机械动力水洗挂靠，至于活根（请看前面有关活根食物的任务）"
+				"2，冰：需求并不高，热力急速冷冻机或植魔机械白雏菊就能单片挂靠处理"
+				""
+			]
+			id: "5DBE695F23CBB46E"
+			subtitle: "大自然的搬运工"
+			tasks: [{
+				id: "066758365DE609C4"
+				item: "twilightdelight:twilight_spring"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，冰霜炸弹：生物战利品（雪怪首领：刷怪/屠宰/偷取/砧板处理，冰雪女王：砧板处理）使用冰霜炸弹/冰川冰茶对掉落物状态的蓝冰进行冰镇（推荐后者前者所需巨大）"
+				"2，冰：需求并不高，热力急速冷冻机或植魔机械白雏菊就能单片挂靠处理"
+				"3，极地毛皮：生物战利品（寒冬狼/雪怪：刷怪/屠宰/偷取）"
+				"4，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+			]
+			id: "6ED8833D86CEFE71"
+			subtitle: "我艹，冰！"
+			tasks: [{
+				id: "78F769C6BE83B871"
+				item: "twilightdelight:glacier_ice_tea"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"1，钢叶：冰雪女王的城堡中的冰雪守卫会随机穿戴铁木、极地毛皮、钢叶、骑士系列的武器/工具和护具，沉浸工程的电弧炉可以回收装备为原料（自动化提示）"
+				"2，活根：可以在任何暮色中树（包括催熟）的树根中找到（自动化提示）"
+			]
+			id: "3222E82692097B87"
+			subtitle: "梅素汁"
+			tasks: [{
+				id: "704AF96F967273AE"
+				item: "twilightdelight:phytochemical_juice"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			description: [
+				"1，火炬浆果：请查看同名任务了解详情。"
+				"2，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+			]
+			id: "4D88390A9ED0CF16"
+			subtitle: "美味，果汁，是的！"
+			tasks: [{
+				id: "1111B504850E664A"
+				item: "twilightdelight:torchberry_juice"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			description: [
+				"1，荆棘玫瑰：暮色森林荆棘之地上的荆棘概率生成，可徒手挖掘（大量获取推荐数字采矿机/循环的挖掘器）"
+				"2，糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+			]
+			id: "1B2069468C606E8E"
+			subtitle: "心有猛虎，细嗅蔷薇"
+			tasks: [{
+				id: "12CBA017830EABF7"
+				item: "twilightdelight:thorn_rose_tea"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，炽热之泪：生物战利品（暮初恶魂：刷怪/屠宰/偷取）"
+				"2，恶魂之泪：生物战利品（暮初恶魂/砷铅铁恶灵/高塔守卫：刷怪/屠宰/偷取）"
+			]
+			id: "19BBAF2D98789EDA"
+			subtitle: "炽热之泪，充盈其中"
+			tasks: [{
+				id: "57E2C80245DC78CA"
+				item: "twilightdelight:tear_drink"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，手动：尼德霍格之欲（莱特兰恶意）"
+				"2，产线/机器：屠宰机（工业先锋）配合自动合成九头蛇刷怪笼和自动放置进行流水线屠宰，但由于合成材料需要莱特兰的特殊材料，这个方法仅能达成半自动（本包无法通过常规手段批量生成九头蛇）"
+				"3，魔法:新生魔艺的收容罐可以收容九头蛇，配合德格米可以实现无害自动化生产，只不过由于实体堆积带来的巨大占用，注定只能相对缓慢的挂机，但仅仅用于做菜也已经足够了。"
+				"4，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "5EE2A034DE390B88"
+			subtitle: "炽热的肉排，充盈肉体"
+			tasks: [
+				{
+					id: "6D17560A60F23EE4"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					id: "2EC09FC958BC5E94"
+					item: "twilightdelight:hydra_piece"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，生物战利品（野鹿-暮色森林），养殖/屠宰/刷怪均可，这边推荐玩家模拟器配合不毁霍恩五部件匠魂工具进行基于实体挤压的自动产线。"
+				"2，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "266B54568C054E9E"
+			subtitle: "虎视眈眈be like"
+			tasks: [
+				{
+					id: "4CD4F4A18BF8EB68"
+					item: "twilightforest:raw_venison"
+					type: "item"
+				}
+				{
+					id: "3C353B141C224C9F"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "7B6E6FBDB7F8B15D"
+					item: "twilightdelight:raw_venison_rib"
+					type: "item"
+				}
+				{
+					id: "60ACA6782495FE19"
+					item: "twilightdelight:cooked_venison_rib"
+					type: "item"
+				}
+			]
+			title: "鹿肉"
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"1,战斧牛头人肋排：使用钻石米诺陶斧斩杀暮色生物：米诺菇（100%）牛头人（30%）掉落。"
+				"处理推荐，使用多个方向的机械手处死牛头人/佩戴尼德霍格之欲使用钻石米诺陶斧杀死其中之一。"
+				"2，牛头人肉：刷怪/屠宰/德格米均可，但更推荐机械手钻石米诺陶战斧处死牛头人（两者均可获得）"
+			]
+			id: "32E20BA2D953C9AB"
+			subtitle: "战斧牛排,杀尽天下牛头人"
+			tasks: [
+				{
+					id: "61EB0F5E13DFEDB1"
+					item: "twilightdelight:raw_tomahawk_smeak"
+					type: "item"
+				}
+				{
+					id: "1F8BD2A7A12ABA81"
+					item: "twilightdelight:cooked_tomahawk_smeak"
+					type: "item"
+				}
+				{
+					id: "49E9DA8F815BB4D7"
+					item: "twilightforest:raw_meef"
+					type: "item"
+				}
+				{
+					id: "67B61FB35675038B"
+					item: "twilightforest:cooked_meef"
+					type: "item"
+				}
+				{
+					id: "0FAEF292A2790371"
+					item: "twilightdelight:raw_meef_slice"
+					type: "item"
+				}
+				{
+					id: "349B7AFE433E0138"
+					item: "twilightdelight:cooked_meef_slice"
+					type: "item"
+				}
+			]
+			title: "战斧牛头人肋排"
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"1，思路：月光蠕虫-月光蠕虫女王-修复方式与原料-机械动力动力合成器-火炬浆果"
+				"2，月光蠕虫女王：只能通过与修补混合物或火炬浆果合成的方式修复，仅能附魔耐久减少消耗，耐久归零时并不会消失。"
+				"3，机械动力动力合成器无需锁定配方即可合成。"
+				"4，火炬浆果与修补混合物：前者请查看同名任务了解详情，后者太过复杂和昂贵，在此不推荐。"
+				"5，使用方式：玩家模拟器中的不变状态物品无法回收，所以通过机械动力机械手放置月光蠕虫。"
+				"6，原料获取：循环的方块破坏器或者ae的破坏面板最适合"
+				"7，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "6CE78895D36A9582"
+			subtitle: "鸡肉味，嘎嘣脆"
+			tasks: [
+				{
+					id: "1308F4033B839CD6"
+					item: "twilightdelight:raw_insect"
+					type: "item"
+				}
+				{
+					id: "1A1CF7E27BFE06C2"
+					item: "twilightdelight:cooked_insect"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，生物战利品（刷怪-尼德霍格之欲/屠宰-屠宰机/偷取-德格米与收容罐）"
+				"2，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+				"{@pagebreak}"
+				""
+				"1，113蘸巧克力（奶、糖、可可豆）："
+				"奶：生物熔炼/头颅（匠魂炉/工具）桶装（桶/罐中牛-懒人厨房/玩家模拟器与桶-可搭配新生魔艺收容罐）"
+				"糖：甘蔗（合成/循环破碎机）"
+				"蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"可可豆：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"2，113蘸炼乳：同113蘸巧克力中的奶和糖"
+				"3，113蘸荧光煲：荧光煲-请看同名任务"
+			]
+			id: "7CA1358B36B83300"
+			subtitle: "恶魂肉点心，一吃一个不吱声"
+			tasks: [
+				{
+					id: "7043FF7239C2CD44"
+					item: "twilightdelight:experiment_113"
+					type: "item"
+				}
+				{
+					id: "6C1693BAB9032DA6"
+					item: "twilightdelight:chocolate_113"
+					type: "item"
+				}
+				{
+					id: "161CBC3D33A43F62"
+					item: "twilightdelight:milky_113"
+					type: "item"
+				}
+				{
+					id: "45BB2D3EE924A2E7"
+					item: "twilightdelight:glow_113"
+					type: "item"
+				}
+				{
+					id: "0C138A6CC9B477B7"
+					item: "twilightdelight:experiment_110"
+					type: "item"
+				}
+				{
+					id: "37D4D70CE3EB3A45"
+					item: "twilightforest:experiment_115"
+					type: "item"
+				}
+			]
+			title: "实验物品系列"
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，奶：生物熔炼/头颅（匠魂炉/工具）桶装（桶/罐中牛-懒人厨房/玩家模拟器与桶-可搭配新生魔艺收容罐）"
+				"2，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，活根：可以在任何暮色中树（包括催熟）的树根中找到（自动化提示）"
+			]
+			id: "1DB69230BEC5EE7F"
+			subtitle: "薄饼，这里是迷宫口味的！"
+			tasks: [{
+				id: "1D55AE3F0315B10C"
+				item: "twilightforest:maze_wafer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，迷宫薄饼：请看同名任务"
+				"2，可可豆：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+			]
+			id: "28518F0855EB8499"
+			subtitle: "巧克力夹心，经典与经典相遇"
+			tasks: [{
+				id: "25B9CC39CFC0E5A4"
+				item: "twilightdelight:chocolate_wafer"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，火炬浆果：请看同名任务"
+				"2，小麦：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+			]
+			id: "7620B604648CE958"
+			subtitle: "曲奇家族的番外正典"
+			tasks: [{
+				id: "0D3666EE0FA53BD9"
+				item: "twilightdelight:torchberry_cookie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，浆果/发光/火炬浆果：请看同名任务"
+			]
+			id: "64C74B17DCAD050D"
+			subtitle: "三元突破，天际！"
+			tasks: [{
+				id: "5444602C90FEE833"
+				item: "twilightdelight:berry_stick"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，荧光煲：请看同名任务"
+				"2，甜菜根：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，生意面：砧板或厨锅处理面团（水加小麦或小麦加鸡蛋）注：推荐厨锅以外的方式自动化（不同格子重复原料的厨锅配方自动化比较麻烦）"
+				"4，生鹿肉：请看任务-鹿肉"
+				"5，活根：可以在任何暮色中树（包括催熟）的树根中找到（自动化提示）"
+			]
+			id: "483334E4A191B9E6"
+			subtitle: "浇汁是吗，那很有生活了（馋）"
+			tasks: [{
+				id: "2C72F4DAF1E4F800"
+				item: "twilightdelight:glow_venison_rib_with_pasta"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，荧光蘑菇酱：请看同名任务"
+				"2，生牛头人肉：请看任务-战斧牛头人肋排"
+				"3，生意面：砧板或厨锅处理面团（水加小麦或小麦加鸡蛋）"
+				"注：推荐厨锅以外的方式自动化（不同格子重复原料的厨锅配方自动化比较麻烦）"
+			]
+			id: "7E4631CB8B64C14B"
+			subtitle: "意面系列的发光菜肴，美味尽在其中！"
+			tasks: [{
+				id: "2EAD26F200867CB4"
+				item: "twilightdelight:mushgloom_meef_pasta"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，生虫肉：请看同名任务"
+				"2，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				""
+			]
+			id: "03846607D8556949"
+			subtitle: "云南家常小炒be like"
+			tasks: [{
+				id: "40A0974841197BF5"
+				item: "twilightdelight:fried_insect"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，实验物品115：请看任务-实验物品系列"
+				"2，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，炽热之泪：刷怪/屠宰/偷取，推荐偷取（新生魔艺收容罐配合德格米）"
+			]
+			id: "24FE5E4F97B13D46"
+			subtitle: "不用想太多，这就是纯正的暮色风味烤肉"
+			tasks: [{
+				id: "28E163C20A7A2940"
+				item: "twilightdelight:grilled_ghast"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，实验物品110：请看任务-实验物品系列"
+				"2，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，蛀虫精华：生物战利品（塔木蛀虫/高塔螟，位于暮初恶魂的高塔虫蛀塔木中，由于高版本无法通过精准采集获取虫蛀塔木，所以只推荐常规方法：刷怪-尼德霍格之欲/屠宰-屠宰机与自动刷怪机或气动刷怪笼/偷取-新生魔艺收容罐与德格米）"
+				"4，碗：树场（推荐有机灌注机）与自动合成"
+				"5，转换粉：目前无法自动化获取，只能在空心矿山与巫妖塔中的箱子中找到。"
+			]
+			id: "0BB9D57BCCEF3D76"
+			subtitle: "你。。。真的想吃吗？"
+			tasks: [{
+				id: "4DC4F1CFCE03AE88"
+				item: "twilightdelight:ghast_brain_salad"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，蛀虫精华：生物战利品（塔木蛀虫/高塔螟，位于暮初恶魂的高塔虫蛀塔木中，由于高版本无法通过精准采集获取虫蛀塔木，所以只推荐常规方法：刷怪-尼德霍格之欲/屠宰-屠宰机与自动刷怪机或气动刷怪笼/偷取-新生魔艺收容罐与德格米）"
+				"2，甜菜根：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				""
+			]
+			id: "13F0226A9E92D941"
+			subtitle: "甜甜的，糯糯的，软软的，腻腻的~"
+			tasks: [{
+				id: "657B0C1B7FB916BE"
+				item: "twilightdelight:borer_tear_soup"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，蘑菇煲：请看同名任务"
+				"2，洋葱：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，生战斧牛头人肋排：请看同名任务"
+				"4，火炬浆果：请看同名任务"
+				"5，活根：可以在任何暮色中树（包括催熟）的树根中找到（自动化提示）"
+				"6，生物获取：刷怪/屠宰/偷取米诺菇：尼德霍格之欲/屠宰机/德格米与收容罐"
+				"7，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "0AB97964E58DEBBC"
+			subtitle: "是的，这是沙拉酱肉，请享用！"
+			tasks: [{
+				id: "430A290D714E6571"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，蘑菇：农业（有机灌注/孢子繁殖机/沃土）"
+				"2，洋葱：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，荧光蘑菇：玩家模拟器/机械手对沃土或者有机肥料上的发光蘑菇使用催化作用的物品（推荐狂野生长精华或不毁磷灰石五部件匠魂工具），然后用另一个玩家模拟器使用剪刀收割（推荐黑曜石剪刀-循环）"
+				"注：荧光蘑菇分布在暮色森林中的蘑菇森林"
+			]
+			id: "63F8E9C2428E1A46"
+			subtitle: "我发誓，我们用的是天然的发光剂！"
+			tasks: [{
+				id: "6CA8859EE35F8307"
+				item: "twilightdelight:mushgloom_sauce"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，萤石粉：热力-有机灌注机（光帽菇孢子-烧制/发光浆果与苔藓-循环破碎机粉碎）/岩浆筛矿产线之离心分离机（分离粉体熔渣），机械动力-粉碎轮（处理海晶砂粒），萤石直接分解（合成最快）"
+				"2，荧光蘑菇：玩家模拟器/机械手对沃土或者有机肥料上的发光蘑菇使用催化作用的物品（推荐狂野生长精华或不毁磷灰石五部件匠魂工具），然后用另一个玩家模拟器使用剪刀收割（推荐黑曜石剪刀-循环）"
+				"3，火炬浆果：请查看同名任务了解详情。"
+			]
+			id: "0FB3D195111A5EBE"
+			subtitle: "哇！是会发光的菜！"
+			tasks: [{
+				id: "4E04287246B4B7AD"
+				item: "twilightdelight:glowstew"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"一、可循环原料"
+				"1，根须：在暮色地下的天然矿洞里的泥土上概率倒着生成，可以被催熟"
+				"2，活根：可以在任何暮色中树（包括催熟）的树根中找到（自动化提示）"
+				"3，藤蔓：请看农业（这边推荐有机灌注机）"
+				"二、不可循环原料"
+				"1，树叶堆：仅能在暮色森林中一个名叫Spooky Forest（幽魂森林）的地形中找到，无法量产（仅能通过挖掘/破坏的手段获取）"
+				"2，火炬浆果植物：仅能通过用剪刀获取，分布在暮色森林下的天然矿洞里"
+				"3，暮色蕨：仅能在暮色森林中的魔法森林地表使用剪刀获取，无法再生也不可催熟"
+			]
+			id: "0959B07D95F6FB9C"
+			subtitle: "最不可能实现自动化的暮色绝佳风肴，素食者的盛宴"
+			tasks: [{
+				id: "2AFD8552300396FA"
+				item: "twilightdelight:thousand_plant_stew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，九头蛇肉排：请看同名任务"
+				"2，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，面包/酵母面包：请看同名任务"
+			]
+			id: "2DEBA9732F8C84BC"
+			subtitle: "昂贵而又奢侈的快餐，但是也许在某些强大的力量下会变得廉价"
+			tasks: [{
+				id: "7E03129DC213868F"
+				item: "twilightdelight:hydra_burger"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，实验物品115：请看任务-实验物品系列"
+				"2，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，面包/酵母面包：请看同名任务"
+			]
+			id: "0D85BF77CADE2839"
+			subtitle: "更加珍贵和稀有的快餐，仅能通过冒险/奖杯获取"
+			tasks: [{
+				id: "444F0C0713A0D0D3"
+				item: "twilightdelight:ghast_burger"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，牛头人肉排：请看任务-战斧牛头人肋排"
+				"2，蔬菜：请看农业（这边推荐园艺玻璃罩和有机灌注机）"
+				"3，面包/酵母面包：请看同名任务"
+			]
+			id: "47D6C31E0373DBE9"
+			subtitle: "是米诺陶不是米诺菇哦~"
+			tasks: [{
+				id: "20E7F5B342A218AC"
+				item: "twilightdelight:meef_wrap"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			id: "4DD97F1FD528863A"
+			size: 2.0d
+			subtitle: "豆腐工裔很多材料没有jei合成获取方式，需要跟着L键成就指引走，还有些根本就没有获取方式"
+			tasks: [{
+				id: "2F003FBADE5436CB"
+				type: "checkmark"
+			}]
+			title: "豆腐工艺及乐事"
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			id: "72EC4CB7EFAF9EEC"
+			tasks: [{
+				id: "595299D81ABF34A7"
+				item: "tofucraft:tofucake"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 8.5d
+		}
+		{
+			id: "7CFF38148AD3E75D"
+			tasks: [{
+				id: "17521CA40273EEE6"
+				item: "tofucraft:zundatofucake"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 9.5d
+		}
+		{
+			id: "4C2E3C8AAFA7C894"
+			tasks: [{
+				id: "10738AB1DB5DD01F"
+				item: "tofucraft:soycheese_tart"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 8.5d
+		}
+		{
+			id: "492F6D525D6A1E62"
+			tasks: [{
+				id: "6D0CA9E13A828EE1"
+				item: "tofucraft:yudofu"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.5d
+		}
+		{
+			id: "79C03844340689B2"
+			subtitle: "俊达饭"
+			tasks: [{
+				id: "73532CEB7C2493BE"
+				item: "tofucraft:edamame_rice"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.5d
+		}
+		{
+			id: "149B042CF1A9F7B6"
+			tasks: [{
+				id: "35BDCDBA9F07C50C"
+				item: "tofucraft:misosoup"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 13.5d
+		}
+		{
+			id: "7A70909498C79CD0"
+			tasks: [{
+				id: "6C06F1510F470C8F"
+				item: "tofucraft:moyashiitame"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 13.5d
+		}
+		{
+			id: "70F99350F258062B"
+			tasks: [{
+				id: "45FA833AF9C5B557"
+				item: "tofucraft:tastybeefstew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.5d
+		}
+		{
+			id: "2728049AAE73CD4A"
+			tasks: [{
+				id: "432323C63383CE95"
+				item: "tofucraft:sukiyaki"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			id: "3630F42A403ECF32"
+			tasks: [{
+				id: "72C7ACFC1846DF62"
+				item: "tofucraft:koyadofustew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 14.5d
+		}
+		{
+			id: "0801CC34400F7868"
+			tasks: [{
+				id: "3C45A2EBE78D0E92"
+				item: "tofucraft:agedashi_tofu"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 14.5d
+		}
+		{
+			id: "390321F0A64D003C"
+			tasks: [{
+				id: "1D61B3A852CCCAD0"
+				item: "tofucraft:moyashiohitashi"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.5d
+		}
+		{
+			id: "1D2149648BFED2A9"
+			tasks: [{
+				id: "438D4FE82126B951"
+				item: "tofucraft:soborotofusaute"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			id: "1F7085D64A8CAF60"
+			tasks: [{
+				id: "6354B0D4A5163A83"
+				item: "tofucraft:crimson_soup"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.5d
+		}
+		{
+			id: "71CA30E38460AA5B"
+			tasks: [
+				{
+					id: "57948E6DE593B8F7"
+					item: "tofucraft:red_soup"
+					type: "item"
+				}
+				{
+					id: "22CE18CB72D55713"
+					item: "tofucraft:hell_red_soup"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 8.5d
+		}
+		{
+			id: "5C3E63F628F70ABC"
+			tasks: [{
+				id: "6F2D257446A0D5FC"
+				item: "tofucraft:nikujaga"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 15.5d
+		}
+		{
+			id: "42ADCD4EE358C450"
+			tasks: [{
+				id: "6A3BE8B74F3C34E6"
+				item: "tofucraft:tastystew"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 12.5d
+		}
+		{
+			id: "34A0CA8E57643C2D"
+			tasks: [{
+				id: "37208FE42EFB86EC"
+				item: "tofucraft:nanbantofu"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			id: "79A7FD0F1BD8B7B1"
+			tasks: [{
+				id: "51F203830F0B5617"
+				item: "tofucraft:nanban"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 15.5d
+		}
+		{
+			id: "40E7E5ADAAA70530"
+			tasks: [
+				{
+					id: "4BABA7C807AB2530"
+					item: "tofucraft:mabodofu"
+					type: "item"
+				}
+				{
+					id: "7A82309C3914A67B"
+					item: "tofucraft:hell_mabou"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 16.5d
+		}
+		{
+			id: "03DBA542FDD12865"
+			tasks: [
+				{
+					id: "63F6194E02A191CF"
+					item: "tofucraft:tofukinu"
+					type: "item"
+				}
+				{
+					id: "06736D16BD0CBE61"
+					item: "tofucraft:tofumomen"
+					type: "item"
+				}
+				{
+					id: "5753CAFD48EDF602"
+					item: "tofucraft:tofuishi"
+					type: "item"
+				}
+				{
+					id: "325B80FD297975A9"
+					item: "tofucraft:tofugrilled"
+					type: "item"
+				}
+				{
+					id: "6216B292F4485B02"
+					item: "tofucraft:tofudried"
+					type: "item"
+				}
+				{
+					id: "6179BED33BB4B3C3"
+					item: "tofucraft:smoketofu"
+					type: "item"
+				}
+				{
+					id: "48C138EC2ED112F3"
+					item: "tofucraft:tofuminced"
+					type: "item"
+				}
+				{
+					id: "7DA0DE0F5F8E4D85"
+					item: "tofucraft:tofufried"
+					type: "item"
+				}
+				{
+					id: "3F8A9BF2CE5C1A5D"
+					item: "tofucraft:fukumeni"
+					type: "item"
+				}
+				{
+					id: "50088903F38E610F"
+					item: "tofucraft:oage"
+					type: "item"
+				}
+			]
+			title: "豆腐基础加工系列"
+			x: -16.0d
+			y: 14.5d
+		}
+		{
+			id: "68E01BE4BBD454FF"
+			subtitle: "有点硌牙"
+			tasks: [
+				{
+					id: "32A8B99BB155A506"
+					item: "tofucraft:tofuishi"
+					type: "item"
+				}
+				{
+					id: "11D0A6FC570B4C68"
+					item: "tofucraft:tofusteak"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 8.5d
+		}
+		{
+			id: "4EA2F7055F289AD1"
+			tasks: [{
+				id: "0D9DDEEF8903263A"
+				item: "tofucraft:tofuhell"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			id: "42D4EBE6E1B56ABF"
+			tasks: [{
+				id: "2C1DC71D07735789"
+				item: "tofucraft:tofusoul"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.5d
+		}
+		{
+			id: "40D52789EF5CC176"
+			tasks: [{
+				id: "09AB3619B11D5B63"
+				item: "tofucraft:tofuzunda"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 12.5d
+		}
+		{
+			id: "315E250B5C7B6DBF"
+			tasks: [{
+				id: "32020697D34D0BB3"
+				item: "tofucraft:tofumiso"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.5d
+		}
+		{
+			id: "568F65B78FA3DD2F"
+			tasks: [{
+				id: "14B95AEAE103DC6C"
+				item: "tofucraft:tofuegg"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 10.5d
+		}
+		{
+			id: "785406BC4DCEB467"
+			tasks: [{
+				id: "4ABE8AD52939623A"
+				item: "tofucraft:tofustrawberry"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.5d
+		}
+		{
+			id: "4D1FEB8BEFBACA58"
+			tasks: [{
+				id: "23A8584E98D9C08B"
+				item: "tofucraft:tofusesame"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 9.5d
+		}
+		{
+			id: "35F84273E82E7AE1"
+			subtitle: "老八最爱"
+			tasks: [{
+				id: "71758298D96302E0"
+				item: "tofucraft:shudofu"
+				type: "item"
+			}]
+			title: "臭豆腐"
+			x: -15.5d
+			y: 13.5d
+		}
+		{
+			id: "63CA83EC067480AE"
+			tasks: [{
+				id: "5924787526BF5AFC"
+				item: "tofucraft:tofuannin"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 11.5d
+		}
+		{
+			id: "6B723F2098855929"
+			tasks: [{
+				id: "01BED63ABFCF4448"
+				item: "tofucraft:tofufried_pouch"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 13.5d
+		}
+		{
+			id: "70DDB5B746D87B82"
+			tasks: [{
+				id: "33B4308D012532ED"
+				item: "tofucraft:soy_cheese"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 11.5d
+		}
+		{
+			id: "3D6908BEA5398B7D"
+			tasks: [{
+				id: "2E1632703A107273"
+				item: "tofucraft:pudding"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 11.5d
+		}
+		{
+			id: "6C61B87D6E6D7311"
+			tasks: [{
+				id: "72BFEC40B40BCB4C"
+				item: "tofucraft:pudding_soymilk"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 12.5d
+		}
+		{
+			id: "68E5E25027169181"
+			tasks: [{
+				id: "14E89FD445D92AFE"
+				item: "tofucraft:tofusomenbowl_glass"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 11.5d
+		}
+		{
+			id: "0F9D6B7BE6CD1860"
+			tasks: [{
+				id: "6414F9493306D527"
+				item: "tofucraft:hiyayakko"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 10.5d
+		}
+		{
+			id: "031AE7BD7C13CE80"
+			tasks: [{
+				id: "0CC5D872323F2100"
+				item: "tofucraft:nattohiyayakko"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 10.5d
+		}
+		{
+			id: "38C501AE0D4A68FC"
+			tasks: [{
+				id: "4EB76D1AD7019210"
+				item: "tofucraft:zundamanju"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 9.5d
+		}
+		{
+			id: "028E650E1205E02B"
+			tasks: [{
+				id: "48DE41608706C35A"
+				item: "tofucraft:kinakomanju"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 9.5d
+		}
+		{
+			id: "04F0DDD7C5D2DDE4"
+			tasks: [{
+				id: "22BF687313504B06"
+				item: "tofucraft:nethermanju"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 8.5d
+		}
+		{
+			id: "0A04B3DEBB334F0B"
+			tasks: [{
+				id: "0ED84FEBD2B4B8D8"
+				item: "tofucraft:soulmanju"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 8.5d
+		}
+		{
+			id: "02855F829F98E253"
+			tasks: [{
+				id: "7EC584E822FA4B33"
+				item: "tofucraft:zunda_mochi"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 9.5d
+		}
+		{
+			id: "74C2041B0987135F"
+			tasks: [{
+				id: "32C2C2F03362FAA7"
+				item: "tofucraft:kinako_mochi"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 10.5d
+		}
+		{
+			id: "25750B63F76E10DF"
+			tasks: [{
+				id: "19EBA65A3AF5B82D"
+				item: "tofucraft:steamed_bread"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 11.5d
+		}
+		{
+			id: "5A153140DC0EEEBC"
+			tasks: [{
+				id: "006E68E33E1AEB31"
+				item: "tofucraft:steamed_bread_cocoa"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 10.5d
+		}
+		{
+			id: "374D661953B7AC77"
+			tasks: [{
+				id: "6E17FA88A0D6C7E9"
+				item: "tofucraft:tofucookie"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 11.5d
+		}
+		{
+			id: "1BE90B190A0A331F"
+			tasks: [
+				{
+					id: "533DABBEFF44AEC7"
+					item: "tofucraft:soymilk"
+					type: "item"
+				}
+				{
+					id: "257B0D952EE1739B"
+					item: "tofucraft:soymilk_hell_bottle"
+					type: "item"
+				}
+				{
+					id: "2A0772F351E89101"
+					item: "tofucraft:soymilk_soul_bottle"
+					type: "item"
+				}
+			]
+			title: "三种“豆”奶"
+			x: -21.5d
+			y: 8.5d
+		}
+		{
+			id: "3DC1323540B36C90"
+			tasks: [
+				{
+					id: "284245FA8D739588"
+					item: "tofucraft:soymilk_annin"
+					type: "item"
+				}
+				{
+					id: "167470EC0AD25E0F"
+					item: "tofucraft:soymilk_apple"
+					type: "item"
+				}
+				{
+					id: "3E7B7E7D21CFAFA0"
+					item: "tofucraft:soymilk_strawberry"
+					type: "item"
+				}
+				{
+					id: "039196B188A7B49F"
+					item: "tofucraft:soymilk_fruits"
+					type: "item"
+				}
+			]
+			title: "水果豆奶"
+			x: -21.5d
+			y: 9.5d
+		}
+		{
+			id: "0FBC5F6E9BCA754E"
+			tasks: [
+				{
+					id: "334BB5742D951ACC"
+					item: "tofucraft:soymilk_cocoa"
+					type: "item"
+				}
+				{
+					id: "277B985C2E6B209F"
+					item: "tofucraft:soymilk_sakura"
+					type: "item"
+				}
+				{
+					id: "73C2005A7BE95B95"
+					item: "tofucraft:soymilk_honey"
+					type: "item"
+				}
+				{
+					id: "6ACFC260E57B7A26"
+					item: "tofucraft:soymilk_kinako"
+					type: "item"
+				}
+				{
+					id: "6EBF4B9D8D75126A"
+					item: "tofucraft:soymilk_pumpkin"
+					type: "item"
+				}
+			]
+			title: "一次加工豆奶"
+			x: -22.5d
+			y: 8.5d
+		}
+		{
+			id: "3EB07FB8C88F2690"
+			tasks: [
+				{
+					id: "37114D87E8825923"
+					item: "tofucraft:soymilk_pudding"
+					type: "item"
+				}
+				{
+					id: "1A2DC71A1FEBBE99"
+					item: "tofucraft:soymilk_ramune"
+					type: "item"
+				}
+				{
+					id: "66162B4983CDC5A9"
+					item: "tofucraft:soymilk_tea"
+					type: "item"
+				}
+			]
+			title: "二次加工豆奶"
+			x: -22.5d
+			y: 9.5d
+		}
+		{
+			id: "16D32A2B45AEF30F"
+			tasks: [
+				{
+					id: "3FB7EC77D38633CA"
+					item: "tofucraft:ricesoborotofu"
+					type: "item"
+				}
+				{
+					id: "599CA7B236CFBEEC"
+					item: "tofucraft:ricetofu"
+					type: "item"
+				}
+				{
+					id: "247682E756666F42"
+					item: "tofucraft:ricenattoleek"
+					type: "item"
+				}
+				{
+					id: "523C9088E92AF3EC"
+					item: "tofucraft:ricenatto"
+					type: "item"
+				}
+			]
+			title: "豆饭系列"
+			x: -21.5d
+			y: 13.5d
+		}
+		{
+			id: "5B300E0E8812DBAC"
+			tasks: [
+				{
+					id: "739D53A0131BD78E"
+					item: "tofucraft:riceburger"
+					type: "item"
+				}
+				{
+					id: "76D7910BC6A1DA2F"
+					item: "tofucraft:tttburger"
+					type: "item"
+				}
+				{
+					id: "27512B38446ACD69"
+					item: "tofucraft:tofu_buns_burger"
+					type: "item"
+				}
+			]
+			title: "“豆”汉堡系列"
+			x: -21.5d
+			y: 12.5d
+		}
+		{
+			id: "479271A923591067"
+			tasks: [
+				{
+					id: "164DC0CA56686163"
+					item: "tofucraft:soy_chocolate"
+					type: "item"
+				}
+				{
+					id: "07B21885C33DD77F"
+					item: "tofucraft:tofunian_soy_chocolate"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 12.5d
+		}
+		{
+			id: "2C8A3E21A105C875"
+			tasks: [
+				{
+					id: "1C3CD863A58EDC3E"
+					item: "tofucraft:onigiri"
+					type: "item"
+				}
+				{
+					id: "1DE0A320CFF2ED5F"
+					item: "tofucraft:onigiri_salt"
+					type: "item"
+				}
+				{
+					id: "6C176FBD64F7B358"
+					item: "tofucraft:yakionigiri_miso"
+					type: "item"
+				}
+				{
+					id: "0ECD69BCD723810C"
+					item: "tofucraft:yakionigiri_shoyu"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 13.5d
+		}
+		{
+			id: "796E6BA050658A23"
+			tasks: [
+				{
+					id: "204A2BEBA4E299CB"
+					item: "tofucraft:soystick"
+					type: "item"
+				}
+				{
+					id: "22974D4D66E06C62"
+					item: "tofucraft:okarastick"
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 10.5d
+		}
+		{
+			id: "16BDFC72F721BAEE"
+			tasks: [
+				{
+					id: "215048D93A41C297"
+					item: "tofucraft:soymeat"
+					type: "item"
+				}
+				{
+					id: "7E82E683DD752000"
+					item: "tofucraft:negima"
+					type: "item"
+				}
+			]
+			title: "肉与串"
+			x: -21.5d
+			y: 11.5d
+		}
+		{
+			id: "45597ED289E1EA6C"
+			tasks: [
+				{
+					id: "76F77D149CBDFE2B"
+					item: "tofucraft:chikuwa"
+					type: "item"
+				}
+				{
+					id: "0E30F183EFD7BC87"
+					item: "tofucraft:tofu_chikuwa"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 10.5d
+		}
+		{
+			id: "3FD8CE92D53D7BCB"
+			tasks: [{
+				id: "34EA08E94C4F53A4"
+				item: "tofucraft:apricotjerry_bread"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 14.5d
+		}
+		{
+			id: "144D192A279018DC"
+			tasks: [
+				{
+					id: "1E3009EB4CBA3FE7"
+					item: "tofucraft:raw_tofufish"
+					type: "item"
+				}
+				{
+					id: "1424D04EAB517223"
+					item: "tofucraft:cooked_tofufish"
+					type: "item"
+				}
+			]
+			x: -22.5d
+			y: 11.5d
+		}
+		{
+			id: "2DD714F388EE8CE6"
+			subtitle: "标准获取方式是合成纳豆床后放置发酵来获取"
+			tasks: [{
+				id: "5D58C231DA77F4E1"
+				item: "tofucraft:natto"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 8.5d
+		}
+		{
+			id: "0146D2447D1EF680"
+			subtitle: "标准获取方式是豆芽罐（豆腐罐）在无光环境下填水种植大豆"
+			tasks: [{
+				id: "78C7CA559A657552"
+				item: "tofucraft:sprouts"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 9.5d
+		}
+		{
+			id: "0672D2310D8CE45D"
+			subtitle: "辣妹子辣辣不怕辣"
+			tasks: [{
+				id: "3C1854482B536980"
+				item: "tofucraft:chili"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.5d
+		}
+		{
+			id: "2A7FD2A0F262623F"
+			tasks: [{
+				id: "584F86F95AC6793C"
+				item: "tofucraft:edamame_boild"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 9.5d
+		}
+		{
+			id: "0D98869B22133E42"
+			tasks: [{
+				id: "64723143AF4E808C"
+				item: "tofucraft:apricot"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 12.5d
+		}
+		{
+			id: "5791656E4C15FEA3"
+			tasks: [
+				{
+					id: "2E90F28FFD5A48B7"
+					item: "tofucraft:yuba"
+					type: "item"
+				}
+				{
+					id: "4E1A2A6511E64A56"
+					item: "tofucraft:meatwrapped_yuba"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 13.5d
+		}
+		{
+			id: "0EBE8549BD847EDD"
+			tasks: [{
+				id: "063180C416198B46"
+				item: "tofucraft:tofuhamburg"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 12.5d
+		}
+		{
+			id: "4B106D64E6D9F283"
+			tasks: [{
+				id: "4CF5F37FDE07E969"
+				item: "tofucraft:inari"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 13.5d
+		}
+		{
+			id: "2FAD57EDB4F6E38B"
+			tasks: [{
+				id: "3ECC9CC23D3E6A8C"
+				item: "tofucraft:goheimochi"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 10.5d
+		}
+		{
+			id: "75138FE41B84CD2D"
+			tasks: [{
+				id: "7961D11A1CEFC2D8"
+				item: "tofucraft:saltymelon"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 11.5d
+		}
+		{
+			id: "0ADADF3063961C48"
+			tasks: [{
+				id: "00703D7D7C19DDD9"
+				item: "tofucraft:misodengaku"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 10.5d
+		}
+		{
+			id: "6442CE126CFEB9DA"
+			tasks: [{
+				id: "197AD71B75D10A09"
+				item: "tofucraft:soysause_ramen"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 11.5d
+		}
+		{
+			id: "78AE2333FE239E89"
+			tasks: [{
+				id: "06F32F9E07EEF894"
+				item: "tofucraft:tomato_soybean_stew"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 14.5d
+		}
+		{
+			id: "7DB58B3A6CFC5D51"
+			subtitle: "我是毒液，我是毒液，我是最强毒液！"
+			tasks: [{
+				id: "35D966591A3C8C11"
+				item: "tconstruct:venom_bottle"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 19.5d
+		}
+		{
+			id: "78706D076F4D326E"
+			tasks: [{
+				id: "2CA5E9A6BF86C29D"
+				item: "tconstruct:earth_slime_bottle"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 19.5d
+		}
+		{
+			id: "78BF89FCB3B3AC04"
+			tasks: [{
+				id: "538B875EE9FAA376"
+				item: "tconstruct:sky_slime_bottle"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 20.5d
+		}
+		{
+			id: "5CAA8C1C3D872650"
+			tasks: [{
+				id: "05F7BE554E861F29"
+				item: "tconstruct:ender_slime_bottle"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 20.5d
+		}
+		{
+			id: "3E61E192D42C48E0"
+			subtitle: "不知道为啥没有汉化"
+			tasks: [{
+				id: "168CDB247B4D1C66"
+				item: "tconstruct:ichor_slime_bottle"
+				type: "item"
+			}]
+			title: "灵浆瓶"
+			x: -17.5d
+			y: 21.5d
+		}
+		{
+			id: "251385CBC95B9452"
+			tasks: [{
+				id: "14DCB84A95AB92DC"
+				item: "tconstruct:magma_bottle"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 21.5d
+		}
+		{
+			description: ["因为两者的原料都需要动物"]
+			id: "48E28342C1151B8F"
+			subtitle: "和工业先锋的肉汤不是一回事（大概）"
+			tasks: [{
+				id: "11FC5B09BEDF8E19"
+				item: "tconstruct:meat_soup"
+				type: "item"
+			}]
+			title: "肉汤"
+			x: -17.0d
+			y: 22.5d
+		}
+		{
+			id: "6629100AFDE9D07D"
+			subtitle: "知识就是力量，法国就是培根"
+			tasks: [{
+				id: "4F34D1B23B9467D0"
+				item: "tconstruct:bacon"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 20.5d
+		}
+		{
+			id: "7C08598BFD4B3B94"
+			tasks: [{
+				id: "1CE8E06812E1C3C7"
+				item: "tconstruct:cheese_ingot"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 21.5d
+		}
+		{
+			id: "78A5114FAF75BBEF"
+			tasks: [{
+				id: "0BA562097A5AC90A"
+				item: "tconstruct:jeweled_apple"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 21.5d
+		}
+		{
+			description: [
+				"前期获取思路"
+				"海盗船战利品木桶开箱（紫颂果）→烧制（爆裂紫颂果）→植魔炼金催化魔力灌注（紫颂花）→热力有机灌注机/沉浸园艺玻璃罩（后者需要末地石，获取末地石目前五种前期可用仅有两种：新生魔艺或死上一定次数）"
+				"批量获取/自动化制取推荐："
+				"推荐园艺玻璃罩和有机灌注机"
+				""
+			]
+			id: "3B854D91961899AF"
+			tasks: [{
+				id: "788152F373E41360"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -14.5d
+		}
+		{
+			id: "33FA623084C8227B"
+			size: 2.0d
+			subtitle: "苹果开会"
+			tasks: [{
+				id: "7D34F8AE9A93803B"
+				type: "checkmark"
+			}]
+			title: "循环"
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			id: "2F1FADAE945F915E"
+			tasks: [{
+				id: "62A358086C236A5E"
+				item: "cyclic:apple_honey"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.0d
+		}
+		{
+			id: "003C725AA3F9637C"
+			tasks: [{
+				id: "2FFD8D70D33AFA0F"
+				item: "cyclic:apple_ender"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -19.0d
+		}
+		{
+			id: "1863830D86309866"
+			tasks: [{
+				id: "48BCB9226FA216CA"
+				item: "cyclic:apple_lofty_stature"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			id: "64F9398856C10D86"
+			tasks: [{
+				id: "2F31BBB3FA989751"
+				item: "cyclic:apple_chocolate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			id: "5B2BECB9F7F72B91"
+			tasks: [{
+				id: "5519C45DB530B937"
+				item: "cyclic:apple_chorus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -18.0d
+		}
+		{
+			id: "2B5D1F1991C0728E"
+			tasks: [{
+				id: "6C9406EAEEBE052A"
+				item: "cyclic:apple_bone"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -18.0d
+		}
+		{
+			id: "5C4C63E5DBDE80FC"
+			tasks: [{
+				id: "624B557DA9FAAC03"
+				item: "cyclic:apple_prismarine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -18.0d
+		}
+		{
+			id: "00E46C805E8EFF44"
+			tasks: [{
+				id: "3A961A05041A288F"
+				item: "cyclic:apple_lapis"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -18.0d
+		}
+		{
+			id: "3B5E532E7F76E640"
+			tasks: [{
+				id: "237AEB7E9A20B21A"
+				item: "cyclic:apple_iron"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -18.0d
+		}
+		{
+			id: "58E5A0426D0193C8"
+			tasks: [{
+				id: "1B50451284BC343F"
+				item: "cyclic:apple_emerald"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -19.0d
+		}
+		{
+			id: "082EEB55EB7C2214"
+			tasks: [{
+				id: "1F72ABE6F46F038B"
+				item: "cyclic:chorus_flight"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -19.0d
+		}
+		{
+			id: "56FA5434946D9385"
+			tasks: [{
+				id: "0550AE0A255C7BCE"
+				item: "cyclic:chorus_spectral"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -18.0d
+		}
+		{
+			id: "433C3B48FDCEC83E"
+			size: 2.0d
+			subtitle: "满是填充的血肉，所以只是虚假的充盈"
+			tasks: [{
+				id: "7760B8BE1535A06B"
+				title: "下界乐事"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -17.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，菌索与下界蘑菇：对绯红菌岩进行催熟（玩家模拟器-狂野生长精华/不毁磷灰石匠魂工具），然后破坏与收集（请看实用物品）"
+				"2，疣猪兽腰肉：请看同名任务"
+				"3，疣猪兽皮/火腿：用农夫乐事的刀处死（有匠魂刀系列），刷屠偷经典三连"
+				"4，疣猪兽耳：用刀右击放置好的填馅疣猪兽获得（我想你知道如何自动化）"
+			]
+			icon: "nethersdelight:stuffed_hoglin"
+			id: "6BCF4E1367F2C0CF"
+			subtitle: "理论产物最多的大餐"
+			tasks: [
+				{
+					id: "37DB89BD7FE19610"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "627CADA38D939363"
+					item: "nethersdelight:raw_stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "7229F2A9C9C0B90B"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "67160C59A980925E"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+				{
+					id: "1B2886196A7E7A55"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+				{
+					id: "56E20D0B199A331D"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -18.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，生物战利品：疣猪兽（刷怪-尼德霍格之欲/屠宰-工业先锋屠宰机/偷取-新生魔艺德格米）"
+			]
+			id: "7BDD753F01D884F2"
+			subtitle: "腰子？嘶，大补之物"
+			tasks: [
+				{
+					id: "3C1034D3C0E792FA"
+					item: "nethersdelight:hoglin_loin"
+					type: "item"
+				}
+				{
+					id: "3E46F362CE4B3111"
+					item: "nethersdelight:hoglin_sirloin"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -19.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，生物战利品：用农夫乐事的刀处死（有匠魂刀系列），刷屠偷经典三连"
+				"2，砧板处理：推荐玩家模拟器/机械手对着砧板放（一边放工具，一边放处理物品）"
+			]
+			id: "3D811A23A786F200"
+			subtitle: "狱-狱足（？）"
+			tasks: [
+				{
+					id: "54FF4AA872AFA371"
+					item: "nethersdelight:strider_slice"
+					type: "item"
+				}
+				{
+					id: "0C6A62A347F1AABE"
+					item: "nethersdelight:ground_strider"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -18.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，菌索与下界蘑菇：对绯红菌岩进行催熟（玩家模拟器-狂野生长精华/不毁磷灰石匠魂工具），然后破坏与收集（请看实用物品）"
+				"2，疣猪兽里脊：请看疣猪兽腰肉任务"
+			]
+			id: "11D157858E4D977F"
+			subtitle: "“美味健康”的真菌食品"
+			tasks: [{
+				id: "59E22E30ADAC1332"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -18.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，菌索与下界蘑菇：对绯红菌岩进行催熟（玩家模拟器-狂野生长精华/不毁磷灰石匠魂工具），然后破坏与收集（请看实用物品）"
+				"2，炽足兽肉片：请看同名任务"
+			]
+			id: "7FDAA6CBD8294E3B"
+			subtitle: "小炽足兽炖蘑菇（变体）"
+			tasks: [{
+				id: "31D44950612A9EC2"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -18.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，菌索与下界蘑菇：对绯红菌岩进行催熟（玩家模拟器-狂野生长精华/不毁磷灰石匠魂工具），然后破坏与收集（请看实用物品）"
+				"2，炽足兽肉片：请看同名任务"
+			]
+			id: "21D2785BF1826181"
+			subtitle: "小炽足兽炖蘑菇"
+			tasks: [{
+				id: "009072384E5F3A35"
+				item: "nethersdelight:strider_moss_stew"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -19.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，猪灵交易：自动化金锭投掷收集获取"
+				"2，玩家模拟器/机械手对火炬浆果植物使用催化作用的物品（推荐狂野生长精华或不毁磷灰石五部件匠魂工具）。"
+			]
+			id: "2490C14B4AF33E10"
+			subtitle: "你是吃了枪药吧，火气这么大！"
+			tasks: [{
+				id: "3CF44AB8854EF6BA"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -18.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，岩浆膏：岩浆怪（刷怪-尼德霍格之欲/屠宰-工业先锋屠宰机/偷取-新生魔艺德格米）循环结晶器岩浆块然后热力多驱冲压机"
+				"2，炽足兽肉片：请看同名任务"
+				"3，烈焰棒：生物战利品一键三联/烈焰血浇筑"
+			]
+			id: "67049773BF87F099"
+			subtitle: "能吃是福，火焱般炽热的快感会从两边喷射而出（确信）"
+			tasks: [{
+				id: "0C400DC4DAF8F071"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -19.0d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，岩浆膏：岩浆怪（刷怪-尼德霍格之欲/屠宰-工业先锋屠宰机/偷取-新生魔艺德格米）循环结晶器岩浆块然后热力多驱冲压机"
+				"2，枪药珠：请看同名任务"
+			]
+			id: "065711016F7A003C"
+			subtitle: "熔岩一样的口感"
+			tasks: [{
+				id: "60AA8015A52D50DC"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -18.0d
+		}
+		{
+			id: "3605A9F7358A3B29"
+			tasks: [{
+				id: "6F79EE7FE1BEEA6E"
+				item: "tconstruct:earth_cake"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 19.5d
+		}
+		{
+			id: "1F0E8877DFFD83EA"
+			tasks: [{
+				id: "05B628C599FF43C6"
+				item: "tconstruct:sky_cake"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 20.5d
+		}
+		{
+			id: "104A86613D88083D"
+			tasks: [{
+				id: "29068A688541BA06"
+				item: "tconstruct:ichor_cake"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 20.5d
+		}
+		{
+			id: "1FF65CB3FF5EA880"
+			tasks: [{
+				id: "581AC8CAC7AFA228"
+				item: "tconstruct:ender_cake"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 21.5d
+		}
+		{
+			id: "31D8A2286B0CE0AE"
+			tasks: [{
+				id: "5B408223464D551F"
+				item: "tconstruct:blood_cake"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 21.5d
+		}
+		{
+			id: "452ABA175A73716B"
+			tasks: [{
+				id: "37255ACD9F83AB5E"
+				item: "tconstruct:magma_cake"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"绝大部分缺失原料的食品来自屠宰工艺，如有需要请自行安装"
+				"但是制作组不保证模组兼容性。"
+				"etsh大概不会让这玩意加入包里的，毕竟产肉效率太高了"
+			]
+			id: "68B74DD42DC2F665"
+			size: 2.0d
+			subtitle: "原料缺失的配方请参考百科联动模组自行添加或者等待下次整合包更新（不太可能）"
+			tasks: [{
+				id: "27FBF5B79A56BF2C"
+				type: "checkmark"
+			}]
+			title: "额外乐事"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "6F04167D0F85CD52"
+			tasks: [
+				{
+					id: "0CF66BFAE8328AF4"
+					item: "extradelight:beef_stew_feast"
+					type: "item"
+				}
+				{
+					id: "15D8FE1826466DEB"
+					item: "extradelight:beef_stew_rice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "6F04888F1A0A91CE"
+			tasks: [
+				{
+					id: "441E716EDB0502BC"
+					item: "extradelight:pork_stew_feast"
+					type: "item"
+				}
+				{
+					id: "0CFC4C8DEBE3C7EC"
+					item: "extradelight:pork_stew"
+					type: "item"
+				}
+				{
+					id: "69AE84D28C83B7DE"
+					item: "extradelight:pork_stew_rice"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "67EFF0E976E11652"
+			tasks: [
+				{
+					id: "14341EB26A481DBC"
+					item: "extradelight:lamb_stew_feast"
+					type: "item"
+				}
+				{
+					id: "4D0888178A2A11B4"
+					item: "extradelight:lamb_stew"
+					type: "item"
+				}
+				{
+					id: "72CA9A6FF5D39AA2"
+					item: "extradelight:lamb_stew_rice"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "7AE2F7644E8C0F30"
+			tasks: [
+				{
+					id: "42E591C6ED749573"
+					item: "extradelight:rabbit_stew_feast"
+					type: "item"
+				}
+				{
+					id: "2A2B52893BA52D73"
+					item: "extradelight:rabbit_stew_rice"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "0B389EFDE7F68420"
+			tasks: [
+				{
+					id: "05D91985C43BCE74"
+					item: "extradelight:chicken_stew_feast"
+					type: "item"
+				}
+				{
+					id: "0C5F196A9284218B"
+					item: "extradelight:chicken_stew"
+					type: "item"
+				}
+				{
+					id: "47FFBEFC24EA925B"
+					item: "extradelight:chicken_stew_rice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "487802C839B45F25"
+			tasks: [
+				{
+					id: "7C2D6A00AEBC4EB7"
+					item: "extradelight:fish_stew_feast"
+					type: "item"
+				}
+				{
+					id: "67AA8B165C1FBFBB"
+					item: "extradelight:fish_stew_rice"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "66B914C50B777A62"
+			tasks: [
+				{
+					id: "2C46E6EC2415A3C4"
+					item: "extradelight:curry_feast"
+					type: "item"
+				}
+				{
+					id: "549F215625BFD252"
+					item: "extradelight:curry"
+					type: "item"
+				}
+				{
+					id: "363ADE7E27C5E948"
+					item: "extradelight:curry_rice"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "7280022C6E53BC15"
+			tasks: [{
+				id: "693F0BFA43CCF684"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -4.0d
+		}
+		{
+			id: "6EDF11845D451497"
+			subtitle: "山羊肉缺屠宰工艺……"
+			tasks: [
+				{
+					id: "13FFB9136F71F880"
+					item: "extradelight:goat_stew_feast"
+					type: "item"
+				}
+				{
+					id: "75E9BE353E6C1344"
+					item: "extradelight:goat_stew"
+					type: "item"
+				}
+				{
+					id: "6264F33BC6075ACD"
+					item: "extradelight:goat_stew_rice"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "54FC6F7843720249"
+			tasks: [
+				{
+					id: "08F1167C9C4541C1"
+					item: "extradelight:glow_berry_juice"
+					type: "item"
+				}
+				{
+					id: "08B1246F8A80DBD8"
+					item: "extradelight:sweet_berry_juice"
+					type: "item"
+				}
+				{
+					id: "27A077512A41175E"
+					item: "extradelight:cactus_juice"
+					type: "item"
+				}
+				{
+					id: "262DA4CB81E597C2"
+					item: "extradelight:corn_silk_tea"
+					type: "item"
+				}
+				{
+					id: "61B1D335641E476C"
+					item: "extradelight:tomato_juice"
+					type: "item"
+				}
+				{
+					id: "647F34A7D45DCB3D"
+					item: "extradelight:mint_tea"
+					type: "item"
+				}
+				{
+					id: "3F5D855BEC6D772E"
+					item: "extradelight:ginger_tea"
+					type: "item"
+				}
+			]
+			title: "果汁与茶"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "7CB5ACA3383FB1B1"
+			tasks: [
+				{
+					id: "3564C9CF9BF0D27A"
+					item: "extradelight:sweet_berry_custard"
+					type: "item"
+				}
+				{
+					id: "601188DDF5CA2795"
+					item: "extradelight:chocolate_custard"
+					type: "item"
+				}
+				{
+					id: "6A5E5A70ADC5F085"
+					item: "extradelight:pumpkin_custard"
+					type: "item"
+				}
+				{
+					id: "2B365079B8B4B1EC"
+					item: "extradelight:honey_custard"
+					type: "item"
+				}
+				{
+					id: "39165CB2A324F4EA"
+					item: "extradelight:apple_custard"
+					type: "item"
+				}
+				{
+					id: "4AB39051BAA17BD1"
+					item: "extradelight:rice_pudding"
+					type: "item"
+				}
+				{
+					id: "4D8A10E46D9ACA86"
+					item: "extradelight:caramel_custard"
+					type: "item"
+				}
+			]
+			title: "沙司与布丁"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "220117A9ACB078F9"
+			tasks: [
+				{
+					id: "20B4927C72E2F0C6"
+					item: "extradelight:bbq_jar_item"
+					type: "item"
+				}
+				{
+					id: "4566C02F4AF66974"
+					item: "extradelight:ketchup_jar_item"
+					type: "item"
+				}
+				{
+					id: "0DFD6AEADA0E616D"
+					item: "extradelight:mayo_jar_item"
+					type: "item"
+				}
+				{
+					id: "60C6A6EA964F0F87"
+					item: "extradelight:caramel_sauce"
+					type: "item"
+				}
+				{
+					id: "57D61483C6A53A25"
+					item: "extradelight:alfredo_sauce"
+					type: "item"
+				}
+			]
+			title: "酱"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "129D6894AC985EBD"
+			tasks: [
+				{
+					id: "69CB781CA563A974"
+					item: "extradelight:sweet_berry_jam"
+					type: "item"
+				}
+				{
+					id: "58028FCD71B0FFF4"
+					item: "extradelight:glow_berry_jam"
+					type: "item"
+				}
+				{
+					id: "02F2B59FDCAFD354"
+					item: "extradelight:carrot_jam"
+					type: "item"
+				}
+				{
+					id: "1BA34A4EEBB9A436"
+					item: "extradelight:apple_jam"
+					type: "item"
+				}
+				{
+					id: "48FAE60876EF4B50"
+					item: "extradelight:mint_jelly"
+					type: "item"
+				}
+				{
+					id: "14BE6FC1AC0EA039"
+					item: "extradelight:golden_apple_jam"
+					type: "item"
+				}
+			]
+			title: "果酱"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "5F33655F367AF109"
+			tasks: [
+				{
+					id: "1684F592D22515B6"
+					item: "extradelight:punch"
+					type: "item"
+				}
+				{
+					id: "51EFB1278E117801"
+					item: "extradelight:ginger_beer"
+					type: "item"
+				}
+			]
+			title: "酒"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "0B20420898438934"
+			tasks: [
+				{
+					id: "1646A3EFEF206D88"
+					item: "extradelight:milkshake"
+					type: "item"
+				}
+				{
+					id: "1F4307520FD8F757"
+					item: "extradelight:chocolate_milkshake"
+					type: "item"
+				}
+				{
+					id: "4FC9E8CE19F4542A"
+					item: "extradelight:glow_berry_milkshake"
+					type: "item"
+				}
+				{
+					id: "645FC5AC89817B62"
+					item: "extradelight:sweet_berry_milkshake"
+					type: "item"
+				}
+				{
+					id: "3F332A451857BBC0"
+					item: "extradelight:pumpkin_milkshake"
+					type: "item"
+				}
+				{
+					id: "1DCB220398D454F9"
+					item: "extradelight:honey_milkshake"
+					type: "item"
+				}
+				{
+					id: "3915A51F4245EBD2"
+					item: "extradelight:apple_milkshake"
+					type: "item"
+				}
+				{
+					id: "1131991EC11C220E"
+					item: "extradelight:cookie_dough_milkshake"
+					type: "item"
+				}
+				{
+					id: "59DF05E4890FD735"
+					item: "extradelight:mint_chip_milkshake"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "3BD8ACC199D8EBA1"
+			tasks: [{
+				id: "210AE004289A96B5"
+				item: "extradelight:horchata"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "2370F736FC8E3D41"
+			tasks: [{
+				id: "20DB77CE898B5F36"
+				item: "extradelight:chocolate_milk"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "39B3B216F3096453"
+			tasks: [
+				{
+					id: "573CB559F73F6DCC"
+					item: "extradelight:jelly_brown_block_item"
+					type: "item"
+				}
+				{
+					id: "634A2D8C4BA8D294"
+					item: "extradelight:jelly_blue_block_item"
+					type: "item"
+				}
+				{
+					id: "49E33609A08CF752"
+					item: "extradelight:jelly_purple_block_item"
+					type: "item"
+				}
+				{
+					id: "48D5E77015D7CEE9"
+					item: "extradelight:jelly_cyan_block_item"
+					type: "item"
+				}
+				{
+					id: "718107CE6168AD93"
+					item: "extradelight:jelly_light_grey_block_item"
+					type: "item"
+				}
+				{
+					id: "1F597B0169430E62"
+					item: "extradelight:jelly_white_block_item"
+					type: "item"
+				}
+				{
+					id: "7B12A66DD41FE1EC"
+					item: "extradelight:jelly_orange_block_item"
+					type: "item"
+				}
+				{
+					id: "60921193DEF745F6"
+					item: "extradelight:jelly_magenta_block_item"
+					type: "item"
+				}
+				{
+					id: "5F534B72166C6A14"
+					item: "extradelight:jelly_light_blue_block_item"
+					type: "item"
+				}
+				{
+					id: "2020B5911785CD98"
+					item: "extradelight:jelly_yellow_block_item"
+					type: "item"
+				}
+				{
+					id: "5E21DE18D0363D6D"
+					item: "extradelight:jelly_lime_block_item"
+					type: "item"
+				}
+				{
+					id: "462DCD74DAAAB1CD"
+					item: "extradelight:jelly_pink_block_item"
+					type: "item"
+				}
+				{
+					id: "29B78D9DB32A9B8C"
+					item: "extradelight:jelly_grey_block_item"
+					type: "item"
+				}
+				{
+					id: "6F3FB1EC936D5493"
+					item: "extradelight:jelly_green_block_item"
+					type: "item"
+				}
+				{
+					id: "661BF4BB288DBDC7"
+					item: "extradelight:jelly_red_block_item"
+					type: "item"
+				}
+				{
+					id: "5BFBEA652E9C258E"
+					item: "extradelight:jelly_black_block_item"
+					type: "item"
+				}
+			]
+			title: "果冻"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "29F696BFDD8D5FF2"
+			tasks: [
+				{
+					id: "49EE0AD3B4A25F51"
+					item: "extradelight:jelly_white"
+					type: "item"
+				}
+				{
+					id: "01429BE5D3F544BE"
+					item: "extradelight:jelly_orange"
+					type: "item"
+				}
+				{
+					id: "7779CCFDB18DA2BF"
+					item: "extradelight:jelly_magenta"
+					type: "item"
+				}
+				{
+					id: "7B819C4F387E0B0E"
+					item: "extradelight:jelly_light_blue"
+					type: "item"
+				}
+				{
+					id: "796808E4321C7D1F"
+					item: "extradelight:jelly_yellow"
+					type: "item"
+				}
+				{
+					id: "7DBE9EC0DC408BFA"
+					item: "extradelight:jelly_lime"
+					type: "item"
+				}
+				{
+					id: "052888BAC82379F8"
+					item: "extradelight:jelly_pink"
+					type: "item"
+				}
+				{
+					id: "026738DE2CAA7261"
+					item: "extradelight:jelly_grey"
+					type: "item"
+				}
+				{
+					id: "53BFAE1C5435642A"
+					item: "extradelight:jelly_light_grey"
+					type: "item"
+				}
+				{
+					id: "0508F0B2CFDA56AD"
+					item: "extradelight:jelly_cyan"
+					type: "item"
+				}
+				{
+					id: "1596587B8A2F9969"
+					item: "extradelight:jelly_purple"
+					type: "item"
+				}
+				{
+					id: "52F2CFF3AFF09152"
+					item: "extradelight:jelly_blue"
+					type: "item"
+				}
+				{
+					id: "4997AFEDCFE2E998"
+					item: "extradelight:jelly_brown"
+					type: "item"
+				}
+				{
+					id: "1C670724873068EA"
+					item: "extradelight:jelly_green"
+					type: "item"
+				}
+				{
+					id: "281158F9D057D4AF"
+					item: "extradelight:jelly_red"
+					type: "item"
+				}
+				{
+					id: "71279CA3E00E36F1"
+					item: "extradelight:jelly_black"
+					type: "item"
+				}
+			]
+			title: "碗装果冻"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "7E4B8FE01024EB1E"
+			subtitle: "MC笑传之吃吃冰"
+			tasks: [
+				{
+					id: "70C0CD974D09C402"
+					item: "extradelight:ice_cream"
+					type: "item"
+				}
+				{
+					id: "69AD587F4E9C7B78"
+					item: "extradelight:chocolate_ice_cream"
+					type: "item"
+				}
+				{
+					id: "762F2BA430D8871A"
+					item: "extradelight:mint_chip_ice_cream"
+					type: "item"
+				}
+				{
+					id: "648C5C03DD818645"
+					item: "extradelight:cookie_dough_ice_cream"
+					type: "item"
+				}
+				{
+					id: "2B7AA0000391A1B8"
+					item: "extradelight:apple_ice_cream"
+					type: "item"
+				}
+				{
+					id: "31838207CD0C9D0A"
+					item: "extradelight:honey_ice_cream"
+					type: "item"
+				}
+				{
+					id: "43D6BF2B669D86E2"
+					item: "extradelight:pumpkin_ice_cream"
+					type: "item"
+				}
+				{
+					id: "6C2E27B7D77AF35C"
+					item: "extradelight:sweet_berry_ice_cream"
+					type: "item"
+				}
+				{
+					id: "6AFF6895DDA659B5"
+					item: "extradelight:glow_berry_ice_cream"
+					type: "item"
+				}
+			]
+			title: "冰淇淋"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "0F6EF7DC5C397C19"
+			tasks: [
+				{
+					id: "7ED6FB7891A38F0F"
+					item: "extradelight:gingerbread_cookie"
+					type: "item"
+				}
+				{
+					id: "6716A53F3033D3B6"
+					item: "extradelight:pumpkin_cookie"
+					type: "item"
+				}
+				{
+					id: "389B5CE718AA817A"
+					item: "extradelight:sugar_cookie"
+					type: "item"
+				}
+				{
+					id: "24CC2B7DBD70A47C"
+					item: "extradelight:glow_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "3B4B5CB351CB7165"
+					item: "extradelight:apple_cookie"
+					type: "item"
+				}
+			]
+			title: "曲奇"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "7C562F5F28B2AA88"
+			subtitle: "牢大的小布丁"
+			tasks: [
+				{
+					id: "662D96C33B558FD2"
+					item: "extradelight:glow_berry_popsicle"
+					type: "item"
+				}
+				{
+					id: "161562601D646EA6"
+					item: "extradelight:apple_popsicle"
+					type: "item"
+				}
+				{
+					id: "0EB39B929F20E2CB"
+					item: "extradelight:fudge_popsicle"
+					type: "item"
+				}
+				{
+					id: "64496FC0CC6699F8"
+					item: "extradelight:sweet_berry_popsicle"
+					type: "item"
+				}
+				{
+					id: "402DEBF96BCA8EA8"
+					item: "extradelight:caramel_popsicle"
+					type: "item"
+				}
+				{
+					id: "2E55F02B8AD1CF29"
+					item: "extradelight:cinnamon_popsicle"
+					type: "item"
+				}
+				{
+					id: "07A44BDE2E28A241"
+					item: "extradelight:honey_popsicle"
+					type: "item"
+				}
+			]
+			title: "冰棍"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "1BD9A35BF07534C5"
+			tasks: [{
+				id: "40FC67F7E78E3BA1"
+				item: "culturaldelights:chicken_taco"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 2.0d
+		}
+		{
+			id: "44F6131D1ABE9EC7"
+			tasks: [{
+				id: "4F98BBB95DA1B0D1"
+				item: "culturaldelights:spicy_curry"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -3.0d
+		}
+		{
+			id: "18ACE9EB312CBE57"
+			tasks: [{
+				id: "2C1EB596727A1F4C"
+				item: "culturaldelights:pork_wrap"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 3.0d
+		}
+		{
+			id: "3033BC9F8D9B4FF3"
+			tasks: [{
+				id: "262B5502AC713735"
+				item: "culturaldelights:fish_taco"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 2.5d
+		}
+		{
+			id: "5F5C66660DF72F56"
+			tasks: [{
+				id: "701294DFA2CAC27C"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			id: "398908E3B267181E"
+			tasks: [{
+				id: "5166E92B3B1BDB97"
+				item: "culturaldelights:midori_roll"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -1.0d
+		}
+		{
+			id: "28DA63A470FEEC9F"
+			tasks: [{
+				id: "200EED8CEBFEAD81"
+				item: "culturaldelights:midori_roll_slice"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 0.0d
+		}
+		{
+			id: "782740D5C1B92783"
+			tasks: [{
+				id: "6F898E7725F81EE0"
+				item: "culturaldelights:egg_roll"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.0d
+		}
+		{
+			id: "106482005A287202"
+			tasks: [{
+				id: "773ACBED25FB4DFA"
+				item: "culturaldelights:chicken_roll"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 0.0d
+		}
+		{
+			id: "6F9C75C5A301DA5B"
+			tasks: [{
+				id: "2F6EDB7BE7CEFDC1"
+				item: "culturaldelights:chicken_roll_slice"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -1.0d
+		}
+		{
+			id: "424086078D63D71D"
+			tasks: [{
+				id: "7720AC5DFD6DE11E"
+				item: "culturaldelights:rice_ball"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 0.0d
+		}
+		{
+			id: "71AC57D7C4F9C92A"
+			tasks: [{
+				id: "2A89F272539D0B1A"
+				item: "culturaldelights:pufferfish_roll"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -1.0d
+		}
+		{
+			id: "585223D828A58BB0"
+			tasks: [{
+				id: "06FF0599728D118F"
+				item: "culturaldelights:tropical_roll"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -1.0d
+		}
+		{
+			id: "49F7592AE26F0445"
+			tasks: [{
+				id: "09CBB05AD0044221"
+				item: "culturaldelights:calamari_roll"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -0.5d
+		}
+		{
+			id: "0CA31022EF21E417"
+			tasks: [
+				{
+					id: "7B0DDB4C3C46071B"
+					item: "extradelight:sugar_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "397A08796ACE611D"
+					item: "extradelight:gingerbread_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "4E002AD627D8D0D3"
+					item: "extradelight:pumpkin_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "62290F63A64FEF61"
+					item: "extradelight:glow_berry_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "27B8F68BC8CDCF2E"
+					item: "extradelight:apple_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "71F8B0A074936445"
+					item: "extradelight:sweet_berry_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "76F52989F6AA3107"
+					item: "extradelight:honey_cookie_dough"
+					type: "item"
+				}
+				{
+					id: "10B60A925F339940"
+					item: "extradelight:chocolate_chip_cookie_dough"
+					type: "item"
+				}
+			]
+			title: "曲奇粉"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "186843C1D0343A96"
+			tasks: [
+				{
+					id: "26BD649BAFC8EE3A"
+					item: "extradelight:gingerbread_steve"
+					type: "item"
+				}
+				{
+					id: "1F00ACB5DF65BFD8"
+					item: "extradelight:gingerbread_alex"
+					type: "item"
+				}
+				{
+					id: "42A198DE2E0CCBFE"
+					item: "extradelight:gingerbread_villager"
+					type: "item"
+				}
+				{
+					id: "17D3305124FC4FF2"
+					item: "extradelight:gingerbread_creeper"
+					type: "item"
+				}
+				{
+					id: "24A667067F284CE7"
+					item: "extradelight:gingerbread_sword"
+					type: "item"
+				}
+				{
+					id: "31EB1FA2D3E9BEBE"
+					item: "extradelight:gingerbread_pickaxe"
+					type: "item"
+				}
+				{
+					id: "0BB31C4B70A3B0F6"
+					item: "extradelight:gingerbread_diamond"
+					type: "item"
+				}
+				{
+					id: "29697805AFEF8182"
+					item: "extradelight:gingerbread_emerald"
+					type: "item"
+				}
+			]
+			title: "姜饼制品"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "2C35FE6F778702DE"
+			tasks: [
+				{
+					id: "02BB40CB7E9F9A0D"
+					item: "extradelight:sugar_cookie_steve"
+					type: "item"
+				}
+				{
+					id: "3C971029C82D7A3F"
+					item: "extradelight:sugar_cookie_alex"
+					type: "item"
+				}
+				{
+					id: "1A20CE2C055594A3"
+					item: "extradelight:sugar_cookie_villager"
+					type: "item"
+				}
+				{
+					id: "2A123372BE68E3D1"
+					item: "extradelight:sugar_cookie_creeper"
+					type: "item"
+				}
+				{
+					id: "37FE78AB4AB6B9CA"
+					item: "extradelight:sugar_cookie_sword"
+					type: "item"
+				}
+				{
+					id: "1BFF5FAA5D0260A8"
+					item: "extradelight:sugar_cookie_pickaxe"
+					type: "item"
+				}
+				{
+					id: "3D214EAC998638BF"
+					item: "extradelight:sugar_cookie_diamond"
+					type: "item"
+				}
+				{
+					id: "5ECF66670646893A"
+					item: "extradelight:sugar_cookie_emerald"
+					type: "item"
+				}
+			]
+			title: "白糖曲奇制品"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "113569BD5EC33BCF"
+			tasks: [
+				{
+					id: "5F91DF80204789F7"
+					item: "extradelight:raw_gingerbread_steve"
+					type: "item"
+				}
+				{
+					id: "5C0734946F989B5E"
+					item: "extradelight:raw_gingerbread_alex"
+					type: "item"
+				}
+				{
+					id: "3B0364DA9E474921"
+					item: "extradelight:raw_gingerbread_villager"
+					type: "item"
+				}
+				{
+					id: "108A9B98F70BB030"
+					item: "extradelight:raw_gingerbread_creeper"
+					type: "item"
+				}
+				{
+					id: "401577AEC10AA3F3"
+					item: "extradelight:raw_gingerbread_sword"
+					type: "item"
+				}
+				{
+					id: "0E0BA5AF659DDFFE"
+					item: "extradelight:raw_gingerbread_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5C4704149294D35C"
+					item: "extradelight:raw_gingerbread_diamond"
+					type: "item"
+				}
+				{
+					id: "5C1765CA5D885817"
+					item: "extradelight:raw_gingerbread_emerald"
+					type: "item"
+				}
+			]
+			title: "生姜饼制品"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "215332611E9ACB89"
+			tasks: [
+				{
+					id: "4FAA32E8EC55A100"
+					item: "extradelight:raw_sugar_cookie_steve"
+					type: "item"
+				}
+				{
+					id: "382EE67B75C4B87B"
+					item: "extradelight:raw_sugar_cookie_alex"
+					type: "item"
+				}
+				{
+					id: "269960595D1944CC"
+					item: "extradelight:raw_sugar_cookie_villager"
+					type: "item"
+				}
+				{
+					id: "728D9D49712031EE"
+					item: "extradelight:raw_sugar_cookie_creeper"
+					type: "item"
+				}
+				{
+					id: "54A306E2CD78144B"
+					item: "extradelight:raw_sugar_cookie_sword"
+					type: "item"
+				}
+				{
+					id: "6DE9FCAE7B975043"
+					item: "extradelight:raw_sugar_cookie_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5478B1FCDFBC621A"
+					item: "extradelight:raw_sugar_cookie_diamond"
+					type: "item"
+				}
+				{
+					id: "683230F958D2522C"
+					item: "extradelight:raw_sugar_cookie_emerald"
+					type: "item"
+				}
+			]
+			title: "生白糖曲奇制品"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "44B995174C6169F3"
+			tasks: [
+				{
+					id: "50590BFDA86CA346"
+					item: "extradelight:frosting_white"
+					type: "item"
+				}
+				{
+					id: "45CE23B318BD30A5"
+					item: "extradelight:frosting_light_gray"
+					type: "item"
+				}
+				{
+					id: "273CFC0FCED89A45"
+					item: "extradelight:frosting_gray"
+					type: "item"
+				}
+				{
+					id: "5E8475073EB40400"
+					item: "extradelight:frosting_black"
+					type: "item"
+				}
+				{
+					id: "50D564FF62435BBA"
+					item: "extradelight:frosting_brown"
+					type: "item"
+				}
+				{
+					id: "2129B4CF1E83ED17"
+					item: "extradelight:frosting_red"
+					type: "item"
+				}
+				{
+					id: "17CCF5F4FE1954DF"
+					item: "extradelight:frosting_orange"
+					type: "item"
+				}
+				{
+					id: "082E3193FE5962EF"
+					item: "extradelight:frosting_yellow"
+					type: "item"
+				}
+				{
+					id: "026DA2DF5A231043"
+					item: "extradelight:frosting_lime"
+					type: "item"
+				}
+				{
+					id: "03E479463E050C6B"
+					item: "extradelight:frosting_green"
+					type: "item"
+				}
+				{
+					id: "11D537651EF33DA9"
+					item: "extradelight:frosting_cyan"
+					type: "item"
+				}
+				{
+					id: "3E997C3868F6CE30"
+					item: "extradelight:frosting_light_blue"
+					type: "item"
+				}
+				{
+					id: "698E1D1548531A93"
+					item: "extradelight:frosting_blue"
+					type: "item"
+				}
+				{
+					id: "78676BAB9F742DBB"
+					item: "extradelight:frosting_purple"
+					type: "item"
+				}
+				{
+					id: "49C89D9666EE1CD4"
+					item: "extradelight:frosting_magenta"
+					type: "item"
+				}
+				{
+					id: "42F18CF7B3556EA9"
+					item: "extradelight:frosting_pink"
+					type: "item"
+				}
+				{
+					id: "798093F39D7120CC"
+					item: "extradelight:frosting_pink"
+					type: "item"
+				}
+			]
+			title: "糖霜"
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "6A5C01775621F298"
+			tasks: [
+				{
+					id: "0EAFB8889425F2AA"
+					item: "extradelight:candy_white"
+					type: "item"
+				}
+				{
+					id: "08BC492A7395B131"
+					item: "extradelight:candy_light_gray"
+					type: "item"
+				}
+				{
+					id: "7289C643617FE27E"
+					item: "extradelight:candy_gray"
+					type: "item"
+				}
+				{
+					id: "7D8CBE7A5A9636CB"
+					item: "extradelight:candy_black"
+					type: "item"
+				}
+				{
+					id: "1851CDDC108162F1"
+					item: "extradelight:candy_brown"
+					type: "item"
+				}
+				{
+					id: "6024FDEB6E2F4916"
+					item: "extradelight:candy_red"
+					type: "item"
+				}
+				{
+					id: "4B1F4233552A669D"
+					item: "extradelight:candy_orange"
+					type: "item"
+				}
+				{
+					id: "5FDBE450591F3898"
+					item: "extradelight:candy_yellow"
+					type: "item"
+				}
+				{
+					id: "28D402077A821F8E"
+					item: "extradelight:candy_lime"
+					type: "item"
+				}
+				{
+					id: "01701498D0600A98"
+					item: "extradelight:candy_green"
+					type: "item"
+				}
+				{
+					id: "69E6F0963C2BD6CF"
+					item: "extradelight:candy_cyan"
+					type: "item"
+				}
+				{
+					id: "7E434CE7E2A710C4"
+					item: "extradelight:candy_light_blue"
+					type: "item"
+				}
+				{
+					id: "5A1E8F5DC9437E67"
+					item: "extradelight:candy_blue"
+					type: "item"
+				}
+				{
+					id: "7A80D756A6AB956B"
+					item: "extradelight:candy_purple"
+					type: "item"
+				}
+				{
+					id: "3C1609C3EC0EA3C0"
+					item: "extradelight:mint_candy_red"
+					type: "item"
+				}
+				{
+					id: "1E9A2313E8840F7F"
+					item: "extradelight:mint_candy_green"
+					type: "item"
+				}
+				{
+					id: "7C7A64144123B573"
+					item: "extradelight:mint_candy_blue"
+					type: "item"
+				}
+				{
+					id: "375CBA746D4A30C7"
+					item: "extradelight:candy_cane_red"
+					type: "item"
+				}
+				{
+					id: "63A53ACDFE1AFAFA"
+					item: "extradelight:candy_cane_green"
+					type: "item"
+				}
+				{
+					id: "71E0EEFC0417ECF5"
+					item: "extradelight:candy_cane_blue"
+					type: "item"
+				}
+				{
+					id: "73D8F8DC95FD8562"
+					item: "extradelight:candied_ginger"
+					type: "item"
+				}
+				{
+					id: "42F4079BDCFDD1E2"
+					item: "extradelight:caramel_candy"
+					type: "item"
+				}
+				{
+					id: "14855F118415955E"
+					item: "extradelight:candy_apple"
+					type: "item"
+				}
+				{
+					id: "5BD03C72D510811D"
+					item: "extradelight:caramel_apple"
+					type: "item"
+				}
+				{
+					id: "37A71CFA1CE4A2E1"
+					item: "extradelight:candy_golden_apple"
+					type: "item"
+				}
+				{
+					id: "193FE8B2C99E2CD6"
+					item: "extradelight:caramel_golden_apple"
+					type: "item"
+				}
+			]
+			title: "糖"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "60A21925B4519E83"
+			tasks: [
+				{
+					id: "128603F5F2915D3B"
+					item: "extradelight:sweet_berry_pie"
+					type: "item"
+				}
+				{
+					id: "07ADACA5D3B18CB1"
+					item: "extradelight:glow_berry_pie"
+					type: "item"
+				}
+				{
+					id: "5F28A3847BE58B1D"
+					item: "extradelight:cheesecake"
+					type: "item"
+				}
+				{
+					id: "13DC305FEBDA69FD"
+					item: "extradelight:honey_cheesecake"
+					type: "item"
+				}
+				{
+					id: "4D156EB59B1D2EC8"
+					item: "extradelight:chocolate_cheesecake"
+					type: "item"
+				}
+				{
+					id: "0CC4DF7618A77352"
+					item: "extradelight:pumpkin_cheesecake"
+					type: "item"
+				}
+				{
+					id: "104A2965B91019C0"
+					item: "extradelight:glow_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "612523408BE2F36A"
+					item: "extradelight:apple_cheesecake"
+					type: "item"
+				}
+				{
+					id: "1BFAB6A5035E2BB0"
+					item: "extradelight:caramel_cheesecake_item"
+					type: "item"
+				}
+				{
+					id: "45B42A15B4EEF8DB"
+					item: "extradelight:sweet_berry_pie_slice"
+					type: "item"
+				}
+				{
+					id: "50BDAB46997BA2AF"
+					item: "extradelight:glow_berry_pie_slice"
+					type: "item"
+				}
+				{
+					id: "6C763788AE303769"
+					item: "extradelight:cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "7613FDC5DC46D274"
+					item: "extradelight:honey_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "3EF91C62AEF4398D"
+					item: "extradelight:chocolate_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "33FFF061C207DA70"
+					item: "extradelight:pumpkin_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "28936C132FDAA29F"
+					item: "extradelight:glow_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "2971C1B7898D8783"
+					item: "extradelight:apple_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "11155A91E6894BF4"
+					item: "extradelight:caramel_cheescake_slice"
+					type: "item"
+				}
+				{
+					id: "43D937512E0EE849"
+					item: "extradelight:pumpkin_pie_item"
+					type: "item"
+				}
+				{
+					id: "1F71BBE8710238EB"
+					item: "extradelight:pumpkin_pie_slice"
+					type: "item"
+				}
+			]
+			title: "派与切片"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "0DB10A35EEBD786B"
+			tasks: [
+				{
+					id: "6CB663E3320782F2"
+					item: "extradelight:hotdish_feast"
+					type: "item"
+				}
+				{
+					id: "2480E20030BB486E"
+					item: "extradelight:salad_block_item"
+					type: "item"
+				}
+				{
+					id: "32A442154604363D"
+					item: "extradelight:cornbread_feast"
+					type: "item"
+				}
+				{
+					id: "2BE335966E6EF690"
+					item: "extradelight:corn_pudding_feast"
+					type: "item"
+				}
+				{
+					id: "4173248DC624F7C5"
+					item: "extradelight:salisbury_steak_block_item"
+					type: "item"
+				}
+				{
+					id: "21CF64DC5DE2AB70"
+					item: "extradelight:mashed_potato_gravy_block_item"
+					type: "item"
+				}
+				{
+					id: "4AC61A7ABDAC540B"
+					item: "extradelight:meatloaf_feast"
+					type: "item"
+				}
+				{
+					id: "6620823F0289258E"
+					item: "extradelight:hash_block_item"
+					type: "item"
+				}
+				{
+					id: "554FE0290AA7850F"
+					item: "extradelight:pot_roast_block_item"
+					type: "item"
+				}
+				{
+					id: "4E75CCD31C76F370"
+					item: "extradelight:bbq_ribs_block_item"
+					type: "item"
+				}
+				{
+					id: "2B0014D5C8E8353B"
+					item: "extradelight:meat_pie_block_item"
+					type: "item"
+				}
+				{
+					id: "51180A65557B2B73"
+					item: "extradelight:pulled_pork_block_item"
+					type: "item"
+				}
+				{
+					id: "44F1C5F365D95344"
+					item: "extradelight:rack_lamb_block_item"
+					type: "item"
+				}
+				{
+					id: "1B948C37D860FC90"
+					item: "extradelight:stirfry_block_item"
+					type: "item"
+				}
+				{
+					id: "719789A33257B40E"
+					item: "extradelight:beef_wellington_block_item"
+					type: "item"
+				}
+				{
+					id: "4AF4225DE98EAD8F"
+					item: "extradelight:haggis_block_item"
+					type: "item"
+				}
+				{
+					id: "04BB00166984CED8"
+					item: "extradelight:macaroni_cheese_feast"
+					type: "item"
+				}
+				{
+					id: "6C3FA0A0AC0B06EA"
+					item: "extradelight:lasanga_feast"
+					type: "item"
+				}
+				{
+					id: "27BA715B5BD66FD7"
+					item: "extradelight:pumpkin_roll_feast"
+					type: "item"
+				}
+				{
+					id: "234C6FF340074A7B"
+					item: "extradelight:apple_crisp_feast"
+					type: "item"
+				}
+				{
+					id: "03D430B2231BEF79"
+					item: "extradelight:stuffing_feast"
+					type: "item"
+				}
+				{
+					id: "7443376A8BE5C10B"
+					item: "extradelight:potato_au_gratin_feast"
+					type: "item"
+				}
+				{
+					id: "11D9FA3D2018B3A0"
+					item: "extradelight:cinnamon_rolls_feast"
+					type: "item"
+				}
+				{
+					id: "0B21CDB807440DF9"
+					item: "extradelight:monkey_bread_feast"
+					type: "item"
+				}
+				{
+					id: "4C32A845F2AD91FF"
+					item: "extradelight:mint_lamb_feast"
+					type: "item"
+				}
+				{
+					id: "27D79DCC776BDD8E"
+					item: "extradelight:coffe_cake_feast"
+					type: "item"
+				}
+				{
+					id: "36BFA518CB196B90"
+					item: "extradelight:charcuterie_board_feast"
+					type: "item"
+				}
+				{
+					id: "1678DE34232CB0E3"
+					item: "extradelight:christmas_pudding_feast"
+					type: "item"
+				}
+				{
+					id: "53C5552CC43471EF"
+					item: "extradelight:milk_tart_feast"
+					type: "item"
+				}
+				{
+					id: "506BDB5EA7C81616"
+					item: "extradelight:bbq_shredded_chicken_feast"
+					type: "item"
+				}
+				{
+					id: "23A3A14682CFB9FB"
+					item: "extradelight:mac_cheese_hot_dog_feast"
+					type: "item"
+				}
+				{
+					id: "07A3E7F54BBA435D"
+					item: "extradelight:quiche"
+					type: "item"
+				}
+			]
+			title: "装制品"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			id: "067FDCE4F0C42D08"
+			tasks: [
+				{
+					id: "61E7256CF4E60B23"
+					item: "extradelight:lasanga"
+					type: "item"
+				}
+				{
+					id: "4C3BAAE956443AB4"
+					item: "extradelight:hotdish"
+					type: "item"
+				}
+				{
+					id: "14CC4442AC177666"
+					item: "extradelight:salad"
+					type: "item"
+				}
+				{
+					id: "7E5C355CF0202589"
+					item: "extradelight:corn_pudding"
+					type: "item"
+				}
+				{
+					id: "7339F93BFB64D026"
+					item: "extradelight:cornbread"
+					type: "item"
+				}
+				{
+					id: "3224DCBA53A14AC1"
+					item: "extradelight:salisbury_steak"
+					type: "item"
+				}
+				{
+					id: "1FDCF1DEFE58D7A7"
+					item: "extradelight:mashed_potato_gravy"
+					type: "item"
+				}
+				{
+					id: "326010B1C6EF98F5"
+					item: "extradelight:hash"
+					type: "item"
+				}
+				{
+					id: "0DD22708F6718C40"
+					item: "extradelight:potroast"
+					type: "item"
+				}
+				{
+					id: "2F825E443F8D15AA"
+					item: "extradelight:meatloaf"
+					type: "item"
+				}
+				{
+					id: "158F46A0D442B455"
+					item: "extradelight:bbq_ribs"
+					type: "item"
+				}
+				{
+					id: "085189ECFE493C5B"
+					item: "extradelight:meat_pie_slice"
+					type: "item"
+				}
+				{
+					id: "57B05193F4053510"
+					item: "extradelight:pulled_pork_sandwich"
+					type: "item"
+				}
+				{
+					id: "30521DD2EA66D213"
+					item: "extradelight:rack_lamb"
+					type: "item"
+				}
+				{
+					id: "0A158FC42D5362FE"
+					item: "extradelight:stirfry"
+					type: "item"
+				}
+				{
+					id: "330356EAF4B51DE9"
+					item: "extradelight:beef_wellington"
+					type: "item"
+				}
+				{
+					id: "7154B6E351AC5A11"
+					item: "extradelight:haggis"
+					type: "item"
+				}
+				{
+					id: "5A18BBD16E985685"
+					item: "extradelight:macaroni_cheese"
+					type: "item"
+				}
+				{
+					id: "7E814C6F66FB130C"
+					item: "extradelight:pumpkin_roll"
+					type: "item"
+				}
+				{
+					id: "6ECC85C428B66D33"
+					item: "extradelight:apple_crisp"
+					type: "item"
+				}
+				{
+					id: "645ABB6865C4C696"
+					item: "extradelight:stuffing"
+					type: "item"
+				}
+				{
+					id: "54AA7E0EE2BD2402"
+					item: "extradelight:potato_au_gratin"
+					type: "item"
+				}
+				{
+					id: "4C5A081601884091"
+					item: "extradelight:cinnamon_rolls"
+					type: "item"
+				}
+				{
+					id: "6EAC11646916FE88"
+					item: "extradelight:monkey_bread"
+					type: "item"
+				}
+				{
+					id: "1DD2B699A0A6FE81"
+					item: "extradelight:coffee_cake_slice"
+					type: "item"
+				}
+				{
+					id: "5B8F972FC9BEB2FB"
+					item: "extradelight:mint_lamb"
+					type: "item"
+				}
+				{
+					id: "15A6941BC4E6FBA3"
+					item: "extradelight:charcuterie_board"
+					type: "item"
+				}
+				{
+					id: "0824D862A3575800"
+					item: "extradelight:christmas_pudding"
+					type: "item"
+				}
+				{
+					id: "57933E5813720A38"
+					item: "extradelight:milk_tart_slice"
+					type: "item"
+				}
+				{
+					id: "2C3B4298719CE6B1"
+					item: "extradelight:bbq_shredded_chicken"
+					type: "item"
+				}
+				{
+					id: "677FAD6F26BF1669"
+					item: "extradelight:bbq_shredded_chicken_sandwich"
+					type: "item"
+				}
+				{
+					id: "2E997E82B26395BC"
+					item: "extradelight:mac_cheese_hot_dog"
+					type: "item"
+				}
+				{
+					id: "2013E987D5FEA1C8"
+					item: "extradelight:quiche_slice"
+					type: "item"
+				}
+			]
+			title: "装制品成品"
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "6A7FA7EE3859A897"
+			tasks: [
+				{
+					id: "53881ECB16BD314D"
+					item: "extradelight:bread_slice"
+					type: "item"
+				}
+				{
+					id: "5671138AD4A771EE"
+					item: "extradelight:toast"
+					type: "item"
+				}
+				{
+					id: "67F977C57309D17F"
+					item: "extradelight:empty_sandwich"
+					type: "item"
+				}
+				{
+					id: "1A2170F0C011C901"
+					item: "extradelight:egg_in_the_basket"
+					type: "item"
+				}
+				{
+					id: "369A1AED00D7B1D6"
+					item: "extradelight:jam_toast"
+					type: "item"
+				}
+				{
+					id: "5E2201AC23ECACAF"
+					item: "extradelight:glow_jam_toast"
+					type: "item"
+				}
+				{
+					id: "7020F02EDE4C3ADC"
+					item: "extradelight:golden_jam_toast"
+					type: "item"
+				}
+				{
+					id: "5EE1B467CEFD416C"
+					item: "extradelight:egg_salad_sandwich"
+					type: "item"
+				}
+				{
+					id: "3B79E2A3F4588CA4"
+					item: "extradelight:cheese_sandwich"
+					type: "item"
+				}
+				{
+					id: "05FC44C44EB22A96"
+					item: "extradelight:grilled_cheese"
+					type: "item"
+				}
+				{
+					id: "09AB95589A20E544"
+					item: "extradelight:meatloaf_sandwich"
+					type: "item"
+				}
+				{
+					id: "1F54CFF17FBB48D3"
+					item: "extradelight:buttered_toast"
+					type: "item"
+				}
+				{
+					id: "39B092DA9AD897AD"
+					item: "extradelight:fish_salad_sandwich"
+					type: "item"
+				}
+				{
+					id: "424DE4C93CC69EA1"
+					item: "extradelight:french_toast"
+					type: "item"
+				}
+				{
+					id: "2DA002E671399BF0"
+					item: "extradelight:croque_monsieur"
+					type: "item"
+				}
+				{
+					id: "75083F9DE6EFF020"
+					item: "extradelight:croque_madame"
+					type: "item"
+				}
+				{
+					id: "7765AD8DE8374303"
+					item: "extradelight:croque_madame"
+					type: "item"
+				}
+				{
+					id: "7D4C55B97F511221"
+					item: "extradelight:chicken_salad_sandwich"
+					type: "item"
+				}
+				{
+					id: "43204AF41EFF1EF3"
+					item: "extradelight:mushroom_burger"
+					type: "item"
+				}
+				{
+					id: "5E3E8941E4B26EB2"
+					item: "extradelight:cheeseburger"
+					type: "item"
+				}
+				{
+					id: "11C8BA90725F58AE"
+					item: "extradelight:bacon_cheeseburger"
+					type: "item"
+				}
+				{
+					id: "30717884E15FAC18"
+					item: "extradelight:croutons"
+					type: "item"
+				}
+			]
+			title: "吐司、汉堡与三明治"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			id: "373CF7104602F6FA"
+			tasks: [
+				{
+					id: "3398018E584B2D1C"
+					item: "extradelight:sliced_onion"
+					type: "item"
+				}
+				{
+					id: "140F6ACF99F4697C"
+					item: "extradelight:sliced_tomato"
+					type: "item"
+				}
+				{
+					id: "1B1C7B810DDEFD00"
+					item: "extradelight:seaweed_crisps"
+					type: "item"
+				}
+				{
+					id: "4A1D92387758A3F3"
+					item: "extradelight:sunflower_seeds"
+					type: "item"
+				}
+				{
+					id: "6F8A7C1B7526064C"
+					item: "extradelight:whipped_cream"
+					type: "item"
+				}
+				{
+					id: "2D8BDFB879ACDBA7"
+					item: "extradelight:butter"
+					type: "item"
+				}
+				{
+					id: "5D3E1EC85C37CD98"
+					item: "extradelight:jerky"
+					type: "item"
+				}
+				{
+					id: "74FF091BAB455C6F"
+					item: "extradelight:breadcrumbs"
+					type: "item"
+				}
+				{
+					id: "45716F47CB89DBD3"
+					item: "extradelight:bad_food"
+					type: "item"
+				}
+				{
+					id: "60DC66F046D88604"
+					item: "extradelight:roasted_pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "1FAF18AA51577FCC"
+					item: "extradelight:dried_fruit"
+					type: "item"
+				}
+				{
+					id: "69181D498F55DB45"
+					item: "extradelight:crackers"
+					type: "item"
+				}
+				{
+					id: "574EF1948FFE4208"
+					item: "extradelight:roll"
+					type: "item"
+				}
+				{
+					id: "546B759A6114FFD5"
+					item: "extradelight:cheese"
+					type: "item"
+				}
+				{
+					id: "4E05B8CFC0CBE8E4"
+					item: "extradelight:sausage_roll"
+					type: "item"
+				}
+				{
+					id: "622232851E00DC83"
+					item: "extradelight:fruit_bread"
+					type: "item"
+				}
+			]
+			title: "简单加工"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			id: "29B75E2A087772B5"
+			tasks: [
+				{
+					id: "3B5AE809BA6582E3"
+					item: "extradelight:boiled_egg"
+					type: "item"
+				}
+				{
+					id: "362179C5822E94D5"
+					item: "extradelight:omelette"
+					type: "item"
+				}
+				{
+					id: "4607533DF6B390CB"
+					item: "extradelight:scrambled_eggs"
+					type: "item"
+				}
+				{
+					id: "12EAA3BCB0A4310D"
+					item: "extradelight:egg_salad"
+					type: "item"
+				}
+				{
+					id: "16B7B0C223A216D0"
+					item: "extradelight:chicken_patty"
+					type: "item"
+				}
+				{
+					id: "06FA2971C02935C0"
+					item: "extradelight:cooked_chicken_patty"
+					type: "item"
+				}
+				{
+					id: "7934D6D64A8EEE8C"
+					item: "extradelight:chicken_salad"
+					type: "item"
+				}
+				{
+					id: "05683CB32113D4D7"
+					item: "extradelight:chicken_parm"
+					type: "item"
+				}
+				{
+					id: "525A3527B77C042A"
+					item: "extradelight:oyakodon"
+					type: "item"
+				}
+			]
+			title: "鸡的加工"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "3FBC78943A8BBD70"
+			tasks: [
+				{
+					id: "793AAB08EDB2CD32"
+					item: "extradelight:grated_carrot"
+					type: "item"
+				}
+				{
+					id: "2932580BF110C445"
+					item: "extradelight:roasted_carrot"
+					type: "item"
+				}
+				{
+					id: "080A0F688ADAB075"
+					item: "extradelight:glazed_carrot"
+					type: "item"
+				}
+				{
+					id: "02E705B44B83D922"
+					item: "extradelight:carrot_salad"
+					type: "item"
+				}
+				{
+					id: "6F394DD69919891F"
+					item: "extradelight:carrot_soup"
+					type: "item"
+				}
+				{
+					id: "4722AF1D1A6CAA8A"
+					item: "extradelight:seaweed_salad"
+					type: "item"
+				}
+			]
+			title: "胡萝卜加工"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "5F4BACD085698FBA"
+			tasks: [
+				{
+					id: "6EA393927645EFAE"
+					item: "extradelight:grated_potato"
+					type: "item"
+				}
+				{
+					id: "7E9DEDFEFE3FD1DA"
+					item: "extradelight:sliced_potato"
+					type: "item"
+				}
+				{
+					id: "1EB96A100FE0A00C"
+					item: "extradelight:potato_sticks"
+					type: "item"
+				}
+				{
+					id: "080D675C246DECE1"
+					item: "extradelight:potato_chips"
+					type: "item"
+				}
+				{
+					id: "241EA5420AF0BE4E"
+					item: "extradelight:hashbrowns"
+					type: "item"
+				}
+				{
+					id: "658B73906BB97210"
+					item: "extradelight:french_fries"
+					type: "item"
+				}
+				{
+					id: "277101082E327E36"
+					item: "extradelight:potato_soup"
+					type: "item"
+				}
+			]
+			title: "土豆加工"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "61667E6FD63E934D"
+			tasks: [
+				{
+					id: "499D18FF8A86339C"
+					item: "extradelight:roasted_apple"
+					type: "item"
+				}
+				{
+					id: "1D4B7C4F1DB57F1A"
+					item: "extradelight:sliced_apple"
+					type: "item"
+				}
+				{
+					id: "763B6166B75700E3"
+					item: "extradelight:apple_sauce"
+					type: "item"
+				}
+				{
+					id: "665282CAF78EDC98"
+					item: "extradelight:stewed_apples"
+					type: "item"
+				}
+				{
+					id: "44090FE5D8F54E6E"
+					item: "extradelight:apple_fritters"
+					type: "item"
+				}
+			]
+			title: "苹果加工"
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			id: "5FB5C7B39F37718B"
+			tasks: [
+				{
+					id: "44501ACF26C07888"
+					item: "extradelight:fried_fish"
+					type: "item"
+				}
+				{
+					id: "57ABAB12C7DD6BD8"
+					item: "extradelight:chicken_fried_steak"
+					type: "item"
+				}
+				{
+					id: "72521CDAB849CF23"
+					item: "extradelight:pork_tenderloin"
+					type: "item"
+				}
+				{
+					id: "5DBE3A5AA77A52C5"
+					item: "extradelight:pork_tenderloin_sandwich"
+					type: "item"
+				}
+				{
+					id: "7C685CF6DB176382"
+					item: "extradelight:fried_chicken"
+					type: "item"
+				}
+				{
+					id: "381B6F240389F84C"
+					item: "extradelight:fried_brains"
+					type: "item"
+				}
+				{
+					id: "614D64A4789F8805"
+					item: "extradelight:fish_cakes"
+					type: "item"
+				}
+				{
+					id: "15BACF6CF197CD5D"
+					item: "extradelight:fish_chips"
+					type: "item"
+				}
+				{
+					id: "2348B72DA1E38861"
+					item: "extradelight:fried_mushrooms"
+					type: "item"
+				}
+				{
+					id: "32EFDB0108AB2ABD"
+					item: "extradelight:stuffed_cactus"
+					type: "item"
+				}
+				{
+					id: "2A935CE32B0A7E40"
+					item: "extradelight:chicken_nuggets"
+					type: "item"
+				}
+				{
+					id: "1C75773157FBACE5"
+					item: "extradelight:karminadle"
+					type: "item"
+				}
+				{
+					id: "0E0A55B7622445A7"
+					item: "extradelight:fried_rabbit"
+					type: "item"
+				}
+				{
+					id: "1D264FCA0EA1A27A"
+					item: "extradelight:breaded_chicken_patty"
+					type: "item"
+				}
+			]
+			title: "油炸制品"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "56601996C15FCC2B"
+			tasks: [
+				{
+					id: "0F6E252DEC3B722F"
+					item: "extradelight:grilled_corn_on_cob"
+					type: "item"
+				}
+				{
+					id: "5927BD730468592D"
+					item: "extradelight:cooked_corn"
+					type: "item"
+				}
+				{
+					id: "74890025B20FC857"
+					item: "extradelight:popcorn"
+					type: "item"
+				}
+				{
+					id: "56AE3C9875DA9ACC"
+					item: "extradelight:caramel_popcorn"
+					type: "item"
+				}
+				{
+					id: "009D2093340B9152"
+					item: "extradelight:cream_corn"
+					type: "item"
+				}
+				{
+					id: "39F9974875C484CF"
+					item: "extradelight:corn_fritters"
+					type: "item"
+				}
+			]
+			title: "玉米加工"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			id: "398581F38B36838F"
+			tasks: [
+				{
+					id: "3DF0551D2DD6CB52"
+					item: "extradelight:ginger"
+					type: "item"
+				}
+				{
+					id: "16CEA32560556FED"
+					item: "extradelight:peeled_ginger"
+					type: "item"
+				}
+				{
+					id: "336EAB628AB9B88F"
+					item: "extradelight:sliced_ginger"
+					type: "item"
+				}
+				{
+					id: "235B870BEAE137E6"
+					item: "extradelight:pickled_ginger"
+					type: "item"
+				}
+			]
+			title: "姜的加工"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "433950C7DD58AF65"
+			tasks: [
+				{
+					id: "7AE93930558D2A23"
+					item: "extradelight:pasta_tomato"
+					type: "item"
+				}
+				{
+					id: "684E562520C0A904"
+					item: "extradelight:pasta_alfredo"
+					type: "item"
+				}
+				{
+					id: "4EBB95A38483AFA5"
+					item: "extradelight:chicken_alfredo"
+					type: "item"
+				}
+				{
+					id: "3FCF9356364E38AE"
+					item: "extradelight:cooked_pasta"
+					type: "item"
+				}
+				{
+					id: "25018BC3245BADF3"
+					item: "extradelight:buttered_pasta"
+					type: "item"
+				}
+				{
+					id: "4B3F539218E7C261"
+					item: "extradelight:rabbit_ragu"
+					type: "item"
+				}
+				{
+					id: "054EADBBF0486793"
+					item: "extradelight:pasta_alla_norcina"
+					type: "item"
+				}
+			]
+			title: "意面"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "33900A3EF36399C0"
+			tasks: [
+				{
+					id: "4167DCEF9D63F073"
+					item: "extradelight:muffin_ginger"
+					type: "item"
+				}
+				{
+					id: "161380A21E8E870E"
+					item: "extradelight:muffin_cinnamon"
+					type: "item"
+				}
+				{
+					id: "09D37C4DCE4EEBC1"
+					item: "extradelight:muffin_sweet_berry"
+					type: "item"
+				}
+				{
+					id: "06CD69DFB40105CF"
+					item: "extradelight:muffin_apple"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			id: "3030A49077DC5D95"
+			tasks: [
+				{
+					id: "5F2CEACE6DEDFB7E"
+					item: "extradelight:cactus"
+					type: "item"
+				}
+				{
+					id: "4A4F812E9C360AF4"
+					item: "extradelight:cooked_cactus"
+					type: "item"
+				}
+				{
+					id: "141B8EF44C006D0E"
+					item: "extradelight:cactus_eggs"
+					type: "item"
+				}
+				{
+					id: "79900F6384DFF7F8"
+					item: "extradelight:cactus_soup"
+					type: "item"
+				}
+				{
+					id: "5610637ED83C5E34"
+					item: "extradelight:cactus_salad"
+					type: "item"
+				}
+			]
+			title: "仙人掌加工"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			id: "2E5716B753B3B69E"
+			subtitle: "别看了，没有屠宰工艺就没有肠"
+			tasks: [
+				{
+					id: "370E551AF243588F"
+					item: "extradelight:bangers_mash"
+					type: "item"
+				}
+				{
+					id: "1169D8AB2B275096"
+					item: "extradelight:bratwurst"
+					type: "item"
+				}
+				{
+					id: "37AD7DB3087B3E0D"
+					item: "extradelight:currywurst"
+					type: "item"
+				}
+				{
+					id: "21A58CF11DAE5B6D"
+					item: "extradelight:riceball"
+					type: "item"
+				}
+				{
+					id: "4FDBD8B16E830EE8"
+					item: "extradelight:riceball_filled"
+					type: "item"
+				}
+				{
+					id: "2CA14BBC4B83EAD1"
+					item: "extradelight:furikake_rice"
+					type: "item"
+				}
+				{
+					id: "12F9EBAF52216105"
+					item: "extradelight:mushroom_risotto"
+					type: "item"
+				}
+				{
+					id: "0FC9FA9875994C47"
+					item: "extradelight:congee"
+					type: "item"
+				}
+				{
+					id: "3E6F1259B74AD0C6"
+					item: "extradelight:lugaw"
+					type: "item"
+				}
+				{
+					id: "577DADE5E47CDCBB"
+					item: "extradelight:nasi_kebuli"
+					type: "item"
+				}
+				{
+					id: "728458C71DB82F60"
+					item: "extradelight:chicken_bog"
+					type: "item"
+				}
+			]
+			title: "肠的混合与米的饭和粥"
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			id: "23B79D7C7E70ED71"
+			subtitle: "缺失配方来自屠宰工艺……"
+			tasks: [
+				{
+					id: "52748910A3D2A931"
+					item: "extradelight:oxtail_soup"
+					type: "item"
+				}
+				{
+					id: "14D77B85E8BFA1BD"
+					item: "extradelight:sextuple_meat_treat"
+					type: "item"
+				}
+				{
+					id: "1E21E71A8708F267"
+					item: "extradelight:sos"
+					type: "item"
+				}
+				{
+					id: "444AE7590DB7A4B6"
+					item: "extradelight:liver_onions"
+					type: "item"
+				}
+				{
+					id: "48496D20E6C7E39B"
+					item: "extradelight:stuffed_heart"
+					type: "item"
+				}
+				{
+					id: "291B08D595CE27C4"
+					item: "extradelight:bhutan"
+					type: "item"
+				}
+			]
+			title: "非常规"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "794BC05F0C326A18"
+			tasks: [
+				{
+					id: "34E90E4E8470C0F1"
+					item: "extradelight:fish_soup"
+					type: "item"
+				}
+				{
+					id: "41CA8C3972F9A6EC"
+					item: "extradelight:tomato_soup"
+					type: "item"
+				}
+				{
+					id: "08180D3DCDC66F13"
+					item: "extradelight:beet_mint_salad"
+					type: "item"
+				}
+				{
+					id: "461F4EB2CF35CA1D"
+					item: "extradelight:fish_salad"
+					type: "item"
+				}
+				{
+					id: "67E63F84A0FC55B2"
+					item: "extradelight:stuffed_mushrooms"
+					type: "item"
+				}
+				{
+					id: "46058259C3104EFC"
+					item: "extradelight:hasenpfeffer"
+					type: "item"
+				}
+			]
+			title: "汤与杂项"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "48A4F2F2E97B235D"
+			tasks: [{
+				id: "7A662CAC56FF2112"
+				item: "drinkbeer:beer_mug"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			id: "7763FBA202DF9DBA"
+			tasks: [{
+				id: "6F960686F3AD869B"
+				item: "drinkbeer:beer_mug_blaze_stout"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			id: "55683B4E41183EC9"
+			tasks: [{
+				id: "667ACAD9829BE954"
+				item: "drinkbeer:beer_mug_blaze_milk_stout"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.5d
+		}
+		{
+			id: "4C117CABA6B8D280"
+			tasks: [{
+				id: "1CDC236714DE5F37"
+				item: "drinkbeer:beer_mug_apple_lambic"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			id: "3EC03E8C7CC07E10"
+			tasks: [{
+				id: "28077BE1A2F60795"
+				item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			id: "7BAB53CD0BACF5AF"
+			tasks: [{
+				id: "7C8C4488499A60AD"
+				item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			id: "581885BDFD2ADFE3"
+			tasks: [{
+				id: "091CB6E23F14AD55"
+				item: "drinkbeer:beer_mug_pumpkin_kvass"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			id: "2AD54CC010B3EA5A"
+			tasks: [{
+				id: "4E2EC4184503F228"
+				item: "drinkbeer:beer_mug_night_howl_kvass"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			id: "13447AAF9A5B9958"
+			tasks: [{
+				id: "6D9DD499B36C2A81"
+				item: "drinkbeer:beer_mug_frothy_pink_eggnog"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -13.5d
+		}
+		{
+			id: "592E4D68874C7DF6"
+			tasks: [{
+				id: "7B444C4BECB932E5"
+				item: "drinkbeer:spice_blaze_paprika"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			id: "658BB78C3DD38D8C"
+			tasks: [{
+				id: "338515E819FBC5E5"
+				item: "drinkbeer:spice_dried_eglia_bud"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			id: "31091FFD9F2F9D18"
+			tasks: [{
+				id: "57AEE1BDCE88D1AD"
+				item: "drinkbeer:spice_smoked_eglia_bud"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			id: "770584C1A8C1EA90"
+			tasks: [{
+				id: "7F26EA88CBFA5113"
+				item: "drinkbeer:spice_amethyst_nigella_seeds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			id: "011508B0A8B2810B"
+			tasks: [{
+				id: "3EDF2803502F9DE6"
+				item: "drinkbeer:spice_citrine_nigella_seeds"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			id: "659EDD840B9F13E7"
+			tasks: [{
+				id: "280D3149C231903D"
+				item: "drinkbeer:spice_ice_mint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			id: "27A8BA92F0DC254B"
+			tasks: [{
+				id: "0E1B9AF55BAC913E"
+				item: "drinkbeer:spice_ice_patchouli"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			id: "4C2C844A2D4A5D0C"
+			tasks: [{
+				id: "2929D3802D175C90"
+				item: "drinkbeer:spice_storm_shards"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			id: "31D4C8978D66244F"
+			tasks: [{
+				id: "46617B5B1D7C87A7"
+				item: "drinkbeer:spice_roasted_red_pine_nuts"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.5d
+		}
+		{
+			id: "2304D8AF9ECB6C16"
+			tasks: [{
+				id: "72E33E6A50BD37CE"
+				item: "drinkbeer:spice_glace_goji_berries"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.5d
+		}
+		{
+			id: "3738242BD6DF7815"
+			tasks: [{
+				id: "32B69FD0E7B8399B"
+				item: "drinkbeer:spice_frozen_persimmon"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			id: "64706AECCC9EA49E"
+			tasks: [{
+				id: "479BA4F1DF4A6786"
+				item: "drinkbeer:spice_roasted_pecans"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			id: "31FF309DBBF2CCEA"
+			tasks: [{
+				id: "321920D31728123C"
+				item: "drinkbeer:spice_golden_cinnamon_powder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			id: "3A76FF27FFB6AA38"
+			tasks: [{
+				id: "429F235BC13C1D80"
+				item: "drinkbeer:spice_dried_selaginella"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			description: ["第一次看到的时候还以为这俩是一起的，没有boss设置（吞咀者：？）的模组与专门针对boss的模组何其完美的配合，在这里还多了一个维度将它们相连，那就是--美食。"]
+			id: "4ED441BABE342E35"
+			size: 2.0d
+			subtitle: "生态比较完善，但是缺少一条线来贯穿始终"
+			tasks: [{
+				id: "6FC4C7CACFF0A723"
+				type: "checkmark"
+			}]
+			title: "深暗之园与迎战吧"
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			id: "46D75724A5E71F66"
+			tasks: [{
+				id: "57F8877ED6B8DA2C"
+				item: "undergarden:droopvine_item"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -20.0d
+		}
+		{
+			id: "3F8C26F8A4E95AEB"
+			tasks: [
+				{
+					id: "0CF46F55BD5CF587"
+					item: "undergarden:underbeans"
+					type: "item"
+				}
+				{
+					id: "56485DB9E586E708"
+					item: "undergarden:roasted_underbeans"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -20.0d
+		}
+		{
+			id: "4BC3F96D7659A925"
+			tasks: [
+				{
+					id: "3D3685686BDEABCF"
+					item: "undergarden:rotten_blisterberry"
+					type: "item"
+				}
+				{
+					id: "2028053E9EF26338"
+					item: "undergarden:blisterberry"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -21.0d
+		}
+		{
+			id: "30D78137033DFDD1"
+			tasks: [{
+				id: "4F46B8E793C7EFE2"
+				item: "undergarden:goo_ball"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -20.0d
+		}
+		{
+			id: "785EBB82CC4083B7"
+			tasks: [{
+				id: "1CE72F212D38E811"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -21.0d
+		}
+		{
+			id: "60C8A00220D2642E"
+			tasks: [
+				{
+					id: "0262C326794C42A3"
+					item: "undergarden:raw_dweller_meat"
+					type: "item"
+				}
+				{
+					id: "5E8B2B1DFDF01C4C"
+					item: "undergarden:dweller_steak"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -20.0d
+		}
+		{
+			id: "250DD230893CC062"
+			tasks: [
+				{
+					id: "59516487B3A4CC10"
+					item: "undergarden:raw_gwibling"
+					type: "item"
+				}
+				{
+					id: "01558DEE3BCF863B"
+					item: "undergarden:cooked_gwibling"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -21.0d
+		}
+		{
+			id: "386E59AD4D34E00D"
+			tasks: [
+				{
+					id: "14459ACE8D3D130E"
+					item: "undergarden:raw_gloomper_leg"
+					type: "item"
+				}
+				{
+					id: "4AE0854A30E92AA0"
+					item: "undergarden:gloomper_leg"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -22.0d
+		}
+		{
+			id: "51614CF404BFB5A5"
+			tasks: [{
+				id: "7228EDF026326D9E"
+				item: "undergarden:blood_globule"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -21.0d
+		}
+		{
+			id: "024DB17CE3B8883D"
+			tasks: [{
+				id: "587B952B3F09049F"
+				item: "undergarden:bloody_stew"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -20.0d
+		}
+		{
+			id: "44B7F4716683AA9E"
+			tasks: [{
+				id: "204E283C4178847C"
+				item: "undergarden:inky_stew"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -21.0d
+		}
+		{
+			id: "65A1C0E11B8D896B"
+			tasks: [{
+				id: "7D952F49C7AF71C1"
+				item: "undergarden:indigo_stew"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -21.0d
+		}
+		{
+			id: "74AF00B4205B3945"
+			tasks: [{
+				id: "1E038E198E424608"
+				item: "undergarden:veiled_stew"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -20.0d
+		}
+		{
+			id: "2B129644CA2997E7"
+			tasks: [{
+				id: "779E9E448BA2BD50"
+				item: "meetyourfight:velvet_fortune"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -20.0d
+		}
+		{
+			id: "78D611531C74ACA5"
+			tasks: [{
+				id: "78BD086E1562A58F"
+				item: "meetyourfight:marshy_delight"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -21.0d
+		}
+		{
+			id: "3EA252185ADCF355"
+			tasks: [{
+				id: "0D303917AAAB0A38"
+				item: "meetyourfight:petal_cream"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			id: "58BE504C1B9B3165"
+			size: 2.0d
+			subtitle: "一些非线性获取食物的模组"
+			tasks: [{
+				id: "5D741D5A111081D1"
+				type: "checkmark"
+			}]
+			title: "杂项统计"
+			x: -4.5d
+			y: -24.0d
+		}
+		{
+			id: "7486286B4D8C902D"
+			subtitle: "Mowzie的生物：浮灯掉落物"
+			tasks: [{
+				id: "20076F809A677C59"
+				item: "mowziesmobs:glowing_jelly"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -26.0d
+		}
+		{
+			id: "5393767BD3AEB313"
+			subtitle: "植魔：魔力池装瓶"
+			tasks: [{
+				id: "4AE4492AEF6FC079"
+				item: "botania:mana_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -27.0d
+		}
+		{
+			id: "04904E8C0BC3A1C7"
+			subtitle: "植魔：魔力池转换曲奇"
+			tasks: [{
+				id: "499DE6F9276C2529"
+				item: "botania:mana_cookie"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -27.0d
+		}
+		{
+			id: "3BCB503B9AD92482"
+			subtitle: "植魔：盖亚守护者掉落"
+			tasks: [{
+				id: "6E650764883313F5"
+				item: "botania:infinite_fruit"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: -28.0d
+		}
+		{
+			id: "3C8035F18BD420E5"
+			subtitle: "Ad Astra：月球上的奶酪矿石/星际爬行者的掉落物"
+			tasks: [{
+				id: "65FA480596DB56EF"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -30.0d
+		}
+		{
+			id: "33DF2035951DAD53"
+			subtitle: "冰火传说：小精灵掉落物"
+			tasks: [{
+				id: "7F129312259351E7"
+				item: "iceandfire:pixie_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -28.0d
+		}
+		{
+			id: "707AFBC91380F33B"
+			subtitle: "冰火传说：精灵尘与碗合成"
+			tasks: [{
+				id: "24A99EDAE1E9E527"
+				item: "iceandfire:ambrosia"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -29.0d
+		}
+		{
+			id: "3AE586CC647C9713"
+			subtitle: "冰火传说：电龙巢的战利品箱"
+			tasks: [{
+				id: "2C932CC0788ADA5A"
+				item: "iceandfire:cannoli"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -29.0d
+		}
+		{
+			id: "4798586DD6527001"
+			subtitle: "冰火传说：火龙掉落物（空手右击被杀死的龙尸）"
+			tasks: [{
+				id: "0F0FE912EE247707"
+				item: "iceandfire:fire_dragon_flesh"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -28.0d
+		}
+		{
+			id: "163CC6DA574E20F3"
+			subtitle: "冰火传说：冰龙掉落物（空手右击被杀死的龙尸）"
+			tasks: [{
+				id: "71C8A881FE5D6D42"
+				item: "iceandfire:ice_dragon_flesh"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -29.0d
+		}
+		{
+			id: "04E541E33A3246E4"
+			subtitle: "冰火传说：电龙掉落物（空手右击被杀死的龙尸）"
+			tasks: [{
+				id: "653BC3557AF4990D"
+				item: "iceandfire:lightning_dragon_flesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -29.0d
+		}
+		{
+			id: "779986D0C4CDAA66"
+			subtitle: "神秘遗物：配方获取或任务奖励/抽奖"
+			tasks: [{
+				id: "7C539B9C8A3DB894"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -30.0d
+		}
+		{
+			id: "59FDC7948E351B65"
+			subtitle: "神秘遗物：配方获取或任务奖励/抽奖"
+			tasks: [{
+				id: "10AD54B08A64D075"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -30.0d
+		}
+		{
+			id: "0367AD200235FC2C"
+			subtitle: "神秘遗物：堡垒结构战利品箱（按r键查询结构名与概率）"
+			tasks: [{
+				id: "37AAEFF86B0940DE"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -31.0d
+		}
+		{
+			description: ["吃完给戒指槽"]
+			id: "72B44437092929C4"
+			subtitle: "神秘遗物：佩戴七咒之戒时第一个末地战利品箱"
+			tasks: [{
+				id: "27E3E7B30BA2593B"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -31.0d
+		}
+		{
+			id: "7EF49B035685727A"
+			subtitle: "血肉重铸：掉落自原版骷髅类生物与坚守者（需要特定武器和条件）"
+			tasks: [{
+				id: "0CE7917857B0CAF7"
+				item: "biomancy:mob_marrow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -30.0d
+		}
+		{
+			id: "40051AF99199371B"
+			subtitle: "血肉重铸：掉落自凋零骷髅与凋零（需要特定武器和条件）"
+			tasks: [{
+				id: "306FDED6815909B1"
+				item: "biomancy:withered_mob_marrow"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -31.0d
+		}
+		{
+			id: "646150F9BACA6499"
+			subtitle: "血肉重铸：掉落自常规动物与非亡灵生物（需要特定武器和条件）"
+			tasks: [{
+				id: "03AC3178E58B9986"
+				item: "biomancy:mob_gland"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -31.0d
+		}
+		{
+			id: "0C33D735389C77D3"
+			subtitle: "血肉重铸：掉落自洞穴蜘蛛、河豚和蜜蜂（需要特定武器和条件）"
+			tasks: [{
+				id: "105C7B58DD20A3E9"
+				item: "biomancy:toxin_gland"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -32.0d
+		}
+		{
+			id: "084827AFDF036CEC"
+			subtitle: "血肉重铸：掉落自苦力怕、恶魂、烈焰人、凋灵和末影龙（需要特定武器和条件）"
+			tasks: [{
+				id: "4C0E05A8203B2584"
+				item: "biomancy:volatile_gland"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -32.0d
+		}
+		{
+			id: "012D731DF85259D3"
+			subtitle: "血肉重铸：采摘自该模组的原生肉蕾（具体可参考百科）"
+			tasks: [{
+				id: "2BE3F6FBC4BB9516"
+				item: "biomancy:bloomberry"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -32.0d
+		}
+		{
+			id: "56BA8E98B8B92118"
+			subtitle: "血肉重铸：通过配方获取（合成与消化器）"
+			tasks: [{
+				id: "066832E9D6F94496"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -33.0d
+		}
+		{
+			id: "2924C91DE0DE68BD"
+			subtitle: "血肉重铸：九个营养膏合成"
+			tasks: [{
+				id: "4EFDBCDB75713996"
+				item: "biomancy:nutrient_bar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -33.0d
+		}
+		{
+			id: "28A09296F8A7D94B"
+			subtitle: "海灵物语：食用棘鱼留下/掉落自巨鳗、大嘴鱼、迷阵之母/本模组结构战利品获取"
+			tasks: [{
+				id: "772B2DFC33251B22"
+				item: "aquamirae:sharp_bones"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -30.0d
+		}
+		{
+			id: "2B3FED545D5EF717"
+			subtitle: "海灵物语：掉落自鮟鱇鱼、大嘴鱼和巨鳗/本模组结构木桶获取"
+			tasks: [{
+				id: "6D2C7B0AE87FEFDA"
+				item: "aquamirae:fin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -31.0d
+		}
+		{
+			id: "5BD84F92892C963A"
+			subtitle: "海灵物语：掉落自鮟鱇鱼"
+			tasks: [{
+				id: "1BA401F344711C2A"
+				item: "aquamirae:esca"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -31.0d
+		}
+		{
+			id: "688BFA72EDA2796E"
+			subtitle: "海灵物语：掉落自棘鱼与巨鳗"
+			tasks: [
+				{
+					id: "6BE850C7D0488F13"
+					item: "aquamirae:spinefish"
+					type: "item"
+				}
+				{
+					id: "321C92BC2394EEA1"
+					item: "aquamirae:cooked_spinefish"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -32.0d
+		}
+		{
+			id: "0A6B6BFCC3B53367"
+			subtitle: "通用机械（mek）：使用营养液化器转化部分食物（通过本模组水壶和meka头盔食用）"
+			tasks: [{
+				id: "257C44047F915324"
+				item: "mekanism:nutritional_paste_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -32.0d
+		}
+		{
+			id: "1595D5B823AC2A0B"
+			subtitle: "海灵物语：配方获取/本模组结构战利品箱"
+			tasks: [{
+				id: "07387F2813CCB800"
+				item: "aquamirae:sea_stew"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -33.0d
+		}
+		{
+			id: "6A2F63FAACB8B71B"
+			subtitle: "海灵物语：配方获取"
+			tasks: [{
+				id: "4EDB6DF519D93C15"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -33.0d
+		}
+		{
+			id: "423006E5D8F3B891"
+			subtitle: "工业先锋（if）：通过屠宰场获取（需通过肉汤注射器食用）"
+			tasks: [{
+				id: "42D4858945417D26"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -32.0d
+		}
+		{
+			id: "78885462EF19F718"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "376AC2B038645CD2"
+				item: "l2complements:enchanted_totemic_carrot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -33.0d
+		}
+		{
+			id: "57249E0260744D50"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "4E3451BAA04D9662"
+				item: "l2complements:totemic_carrot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -33.0d
+		}
+		{
+			id: "7F02462846651905"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "007F58A3DA20281E"
+				item: "l2complements:totemic_apple"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -33.0d
+		}
+		{
+			id: "181A8B4DD9464E38"
+			subtitle: "莱特兰恶意拓展：配方获取（生命锭由不死图腾转化）"
+			tasks: [{
+				id: "5285408A6D528225"
+				item: "l2complements:enchanted_totemic_apple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -33.0d
+		}
+		{
+			id: "199E1C285479AA3B"
+			subtitle: "莱特兰恶意拓展：焚烧原版动物肉或不死图腾转化/特定词条敌人掉落（具体概率按r键查询）"
+			tasks: [{
+				id: "1A789AEA95BC30D8"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -34.0d
+		}
+		{
+			id: "21503E3CC27A4AC0"
+			subtitle: "天境：天境维度蓝莓灌木种植获取"
+			tasks: [{
+				id: "2D1A1D56575A70CB"
+				item: "aether:blue_berry"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -34.0d
+		}
+		{
+			id: "2A962D62D98F6244"
+			subtitle: "天境：蓝莓经过神能炉加工"
+			tasks: [{
+				id: "0630CE3CFD3A95CA"
+				item: "aether:enchanted_berry"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -34.0d
+		}
+		{
+			id: "13404FE648A1B92B"
+			subtitle: "天境：破坏结果的水晶树叶（解除天境的麻醉效果）/神能炉烧制圣石"
+			tasks: [
+				{
+					id: "7B12255BF9303DFE"
+					item: "aether:white_apple"
+					type: "item"
+				}
+				{
+					id: "19EBD77AA4A863EC"
+					item: "aether:healing_stone"
+					type: "item"
+				}
+			]
+			title: "药剂苹果与治愈之石"
+			x: -6.5d
+			y: -34.0d
+		}
+		{
+			id: "796A030D6C4A5E3D"
+			subtitle: "天境：天境维度地下城结构战利品箱"
+			tasks: [{
+				id: "43457553C086EC59"
+				item: "aether:blue_gummy_swet"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -34.0d
+		}
+		{
+			id: "303B7A9501F19BAA"
+			subtitle: "天境：天境维度地下城结构战利品箱"
+			tasks: [{
+				id: "277BA65130157FF2"
+				item: "aether:golden_gummy_swet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -34.0d
+		}
+		{
+			description: ["这是季节限定食物，老老实实等圣诞罢"]
+			id: "1A9D3D2EC9A04BB6"
+			subtitle: "天境：打开礼物（天境）/拐杖糖剑击杀生物掉落"
+			tasks: [{
+				id: "155FDACC9D222161"
+				item: "aether:candy_cane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -34.0d
+		}
+		{
+			description: ["圣诞节限定，其他时间别想了"]
+			id: "135E08340F717EB7"
+			subtitle: "天境：打开礼物（天境）"
+			tasks: [{
+				id: "0336610DE21288D7"
+				item: "aether:gingerbread_man"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -34.0d
+		}
+		{
+			id: "2963EC47CBC0F874"
+			subtitle: "天境：黄金级地牢战利品箱（增加生命上限但貌似有bug）"
+			tasks: [{
+				id: "106B1CBE2F6FA071"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -34.0d
+		}
+		{
+			id: "7D31EBA9E7AA0F61"
+			subtitle: "天境：天境维度空岛边缘挖矿（食用可回复一定生命）"
+			tasks: [{
+				id: "512BB558D766DBE9"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -35.0d
+		}
+		{
+			id: "0E34C86F9605F279"
+			subtitle: "新生魔艺：魔源浆果丛或者开启战利品箱/配方获取"
+			tasks: [
+				{
+					id: "0CA3993EDF8D36F6"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+				{
+					id: "3536BD96FCE974BB"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+				{
+					id: "4D85F529DC78913E"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+			]
+			title: "魔源浆果系列"
+			x: -4.5d
+			y: -36.0d
+		}
+		{
+			id: "7128B033A603F36E"
+			subtitle: "新生魔艺：繁茂至高树木或破坏树叶"
+			tasks: [{
+				id: "71DB3049E2029E9C"
+				item: "ars_nouveau:mendosteen_pod"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -35.0d
+		}
+		{
+			id: "230F7FFAA5099E77"
+			subtitle: "新生魔艺：恼人至高树木或破坏树叶"
+			tasks: [{
+				id: "0DEAB95C5122F33A"
+				item: "ars_nouveau:bastion_pod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -35.0d
+		}
+		{
+			id: "47B02E020BD3A25A"
+			subtitle: "新生魔艺：烈焰至高树木或破坏树叶"
+			tasks: [{
+				id: "34404D2CECA280CC"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -35.0d
+		}
+		{
+			id: "253FAC31D0548170"
+			subtitle: "新生魔艺：奔流至高树木或破坏树叶"
+			tasks: [{
+				id: "00AD81241E7B3B59"
+				item: "ars_nouveau:frostaya_pod"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -35.0d
+		}
+		{
+			id: "6FFEB46B6EFEDA5D"
+			subtitle: "气动工艺：酸面团加热（具体请参考气动配方）"
+			tasks: [{
+				id: "280D337D8C2BDCCF"
+				item: "pneumaticcraft:sourdough_bread"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -35.0d
+		}
+		{
+			id: "5051AF52AA049455"
+			subtitle: "气动工艺：生鲑鱼天妇罗加热（具体参考气动配方）"
+			tasks: [{
+				id: "6FE69E177DA085E3"
+				item: "pneumaticcraft:salmon_tempura"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -35.0d
+		}
+		{
+			id: "7EAF399A664C6B90"
+			subtitle: "气动工艺：热气动加工机处理马铃薯"
+			tasks: [{
+				id: "34D29D226A4A97D8"
+				item: "pneumaticcraft:chips"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -35.0d
+		}
+		{
+			id: "4A93FDC2FD490E46"
+			subtitle: "气动工艺：配方获取"
+			tasks: [{
+				id: "753A0919E6F211BE"
+				item: "pneumaticcraft:cod_n_chips"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -35.0d
+		}
+		{
+			id: "665D370B5721C4C6"
+			subtitle: "机械动力：加热混合搅拌糖可可豆与牛奶为巧克力流体，然后压块塑形/急速冷冻"
+			tasks: [{
+				id: "2D5CBDD33B7BD63D"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -36.0d
+		}
+		{
+			id: "0BED5A12ED0B2FE3"
+			subtitle: "机械动力：注液器向面包灌注牛奶/流体罐装机"
+			tasks: [{
+				id: "5D12C7598B19475A"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -36.0d
+		}
+		{
+			id: "4468B33DB3D0CAB6"
+			subtitle: "机械动力：加热混合搅拌糖可可豆与牛奶为巧克力流体，然后注液器灌注甜浆果"
+			tasks: [{
+				id: "1797687A4E2AF89B"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -36.0d
+		}
+		{
+			id: "2D6D8AFABB2A9367"
+			subtitle: "机械动力：注液器向苹果灌注蜂蜜"
+			tasks: [{
+				id: "1208AC7C5F82B40D"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -36.0d
+		}
+		{
+			id: "178750F4A4A3D94B"
+			subtitle: "机械动力：加热混合搅拌茶叶或树叶成流体，然后注液器向玻璃瓶灌注/流体罐装机/水壶（农夫乐事）"
+			tasks: [{
+				id: "341859AB44D342D8"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -36.0d
+		}
+		{
+			id: "6FDB96E6C220718F"
+			subtitle: "机械动力：砧板上使用小刀处理南瓜派（可以不使用砧板但会消耗小刀耐久）"
+			tasks: [{
+				id: "496CFA2D0B1471F8"
+				item: "create_central_kitchen:pumpkin_pie_slice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -36.0d
+		}
+		{
+			id: "5F79494AF94DC15A"
+			subtitle: "机械动力：加热混合搅拌糖可可豆与牛奶为巧克力流体，注液器向蛋糕烘培底座灌注（具体参考配方）"
+			tasks: [
+				{
+					id: "7442767C69DF8019"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "6FF1F966A66B8B86"
+					item: "create_central_kitchen:chocolate_cake_slice"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -36.0d
+		}
+		{
+			id: "4703B71CA67E0CBC"
+			subtitle: "机械动力：注液器向蛋糕烘培底座灌注蜂蜜（具体参考配方）"
+			tasks: [
+				{
+					id: "6DB5328F5A8B919C"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+				{
+					id: "75419DBCFDFBB88C"
+					item: "create_central_kitchen:honey_cake_slice"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -36.0d
+		}
+		{
+			id: "394F101A5191854D"
+			subtitle: "海灵物语：配方获取"
+			tasks: [{
+				id: "2B1BBB54C27F7C79"
+				item: "aquamirae:sea_casserole"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -32.0d
+		}
+		{
+			description: [
+				"1，生物战利品（骷髅德鲁伊-暮色森林）刷怪/屠宰/偷取均可"
+				"2，玩家模拟器/机械手对火炬浆果植物使用催化作用的物品（推荐狂野生长精华或不毁磷灰石五部件匠魂工具）。"
+			]
+			id: "0B768F8D3B4859C7"
+			subtitle: "伴随世界而生，是吗"
+			tasks: [{
+				id: "578E5C85341CB913"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.5d
+		}
+		{
+			id: "7EE1AECC14508EB3"
+			size: 2.0d
+			subtitle: "庆贺吧，这里有独一无二的美酒！"
+			tasks: [{
+				id: "4B60F174F2BEF5AC"
+				type: "checkmark"
+			}]
+			title: "CTI原创特供酒"
+			x: -9.0d
+			y: 17.0d
+		}
+		{
+			id: "078EAE3B1DF62648"
+			tasks: [{
+				id: "6357E9F4E927592F"
+				item: "cti:cold_gobberwine"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 19.5d
+		}
+		{
+			id: "741D44EA9F6D37AA"
+			tasks: [{
+				id: "21D3DCA23DFFC604"
+				item: "cti:ethanol_absolute"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 19.5d
+		}
+		{
+			id: "7BC8724E7E27357A"
+			tasks: [{
+				id: "7D68442D82B11FF1"
+				item: "cti:cornflower_beer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 19.5d
+		}
+		{
+			id: "15B2C8D19F5E49C7"
+			tasks: [{
+				id: "37CECEEDF0DBF470"
+				item: "cti:etbeer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 19.5d
+		}
+		{
+			id: "7D75A78E9591B803"
+			tasks: [{
+				id: "00F06BE4D1F3FB97"
+				item: "cti:xuerou_wine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 20.5d
+		}
+		{
+			id: "4059D5119D8FDD7A"
+			tasks: [{
+				id: "11D9B787A9B2CCD0"
+				item: "cti:mahoushaojiu_wine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 20.5d
+		}
+		{
+			id: "1224C0D0F54248A0"
+			tasks: [{
+				id: "230F391870E391EC"
+				item: "cti:unknown_wine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.5d
+		}
+		{
+			id: "47B9F2B73865B1AC"
+			tasks: [{
+				id: "59D0D20ECBF5AAF6"
+				item: "cti:qdbeer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 21.5d
+		}
+		{
+			id: "08AC403431156387"
+			tasks: [{
+				id: "1B750170820D9B8B"
+				item: "cti:boomwine"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 21.5d
+		}
+		{
+			id: "592AF42F80729CDC"
+			tasks: [{
+				id: "2D0580EC43ABAB57"
+				item: "cti:fishbone_wine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 22.5d
+		}
+		{
+			description: [
+				"批量获取/自动化制取推荐："
+				"1，下界疣：请看农业（推荐有机灌注和远离玻璃罩）"
+				"&l&o&m&8其实，下界疣在主世界也能获得，无论是冒险还是家里蹲&l&o&n&8"
+				"2，发酵蛛眼：蜘蛛眼（生物战利品：刷怪/屠宰/偷取）棕色蘑菇（有机灌注机或园艺玻璃罩）糖：甘蔗（合成/循环破碎机）蜂蜜（合成/匠魂炉中与水合金为糖浆然后浇筑）"
+				"&n&o&l&m&e也许你可以配合一些东西玩玩杂技？比如热可可和雪顶绿茶&o&l&n&e"
+				""
+				"{@pagebreak}"
+				""
+				"&l&o&a“脓眼茶”并非传统意义上的茶饮，而是一种具有药用价值的草本茶，其历史起源与川西地区的民间传统密切相关。根据历史资料，“脓眼茶”的前身可以追溯到川西大渡河、岷江流域的民间草本茶饮，至今已有百年历史。&l&o&a"
+			]
+			id: "24F88328051EFA76"
+			subtitle: "蒲公英淡竹叶荆芥穗蔓荆子石斛枸杞，哪个是它的真名？这并不重要"
+			tasks: [{
+				id: "76B84578062F754A"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 22.5d
+		}
+		{
+			id: "14CF1FC31B938E82"
+			tasks: [{
+				id: "6A7D8E2B62B7435D"
+				item: "cherrytinker:cherry"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 19.5d
+		}
+		{
+			id: "6AFF722D96870727"
+			tasks: [{
+				id: "17259BE956F95205"
+				item: "cherrytinker:cherry_juice"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 20.5d
+		}
+		{
+			id: "6448923D8FDB37DC"
+			tasks: [{
+				id: "2B13913EA3D07C69"
+				item: "cherrytinker:enchanted_golden_carrot"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 19.5d
+		}
+		{
+			id: "038CF8C6E64923DE"
+			tasks: [{
+				id: "2EE79C296F3D2152"
+				item: "cyclic:apple_diamond"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2B9E2B8C1BEA915A"]
+			id: "513969A4475798D2"
+			tasks: [{
+				id: "59B3FBA2C2F3B876"
+				item: "minecraft:suspicious_stew"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+	]
+	subtitle: [
+		"悠闲中的余韵，是为生活"
+		"-by 零逝"
+	]
+	title: "食物全收集"
+}

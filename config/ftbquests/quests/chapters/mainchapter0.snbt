@@ -226,8 +226,8 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.5d
-			y: 3.5d
+			x: 13.5d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -245,13 +245,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.5d
+			height: 1.0d
 			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
-			width: 1.5d
-			x: 13.5d
-			y: 3.0d
+			width: 1.0d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -384,6 +384,18 @@
 			width: 1.5d
 			x: 7.5d
 			y: 5.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 13.5d
+			y: 2.5d
 		}
 	]
 	order_index: 0
@@ -1011,7 +1023,7 @@
 				type: "checkmark"
 			}]
 			title: "其他妙用"
-			x: 4.2d
+			x: 3.5999999999999996d
 			y: 2.4d
 		}
 		{
@@ -1284,8 +1296,8 @@
 				item: "tconstruct:blank_sand_cast"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 7.199999999999999d
+			y: 2.4d
 		}
 		{
 			dependencies: ["28932EFD933B505B"]
@@ -1735,7 +1747,10 @@
 			y: 5.2d
 		}
 		{
-			dependencies: ["636ADE09A34BB9F2"]
+			dependencies: [
+				"636ADE09A34BB9F2"
+				"1612651925DCDED8"
+			]
 			description: [
 				"终于，你来到了这个&c炎热&r的地方"
 				""
@@ -1775,13 +1790,15 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["71A49B6C2D816424"]
 			description: [
 				"穿戴这个制作的盔甲，你就仿佛穿上了&e金甲&r，&d猪灵不再会主动攻击你&r"
 				""
 				"或许前期你用的上"
+				""
+				"顺带一提，荧石能在暮色森林的矿山找到。&6去矿山获取荧石比去下界获取简单！"
 			]
 			id: "1612651925DCDED8"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1801,8 +1818,8 @@
 				item: "mekanism:ingot_refined_glowstone"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.5d
+			x: 13.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["71A49B6C2D816424"]
@@ -1856,7 +1873,6 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.5d
 			tasks: [
 				{
 					id: "7618196101E7F3B2"
@@ -1869,8 +1885,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
-			y: 3.0d
+			x: 12.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["71A49B6C2D816424"]
@@ -2207,7 +2223,7 @@
 		}
 		{
 			dependencies: ["28932EFD933B505B"]
-			description: ["据说在村庄里面也有匠魂村民，下界也有对应的结构，处处都有可能有惊喜哦"]
+			description: ["焦褐村民和焦黑村民是工匠村民新增的两种村民（赞美小樱桃！），它们可以被人工转化或者在焦黑/焦褐小屋中被发现。"]
 			icon: {
 				Count: 1b
 				id: "minecraft:player_head"
@@ -2248,6 +2264,83 @@
 			}]
 			x: 10.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["26CAE8F089150BDB"]
+			description: [
+				"      焦黑小屋是一个大号的冶炼炉控制器，在里面可以找到很多匠魂的起步物资，对前期发展帮助很大！"
+				"      里面还会生成一只焦黑村民，提供了一些冶炼炉物资的交易。"
+			]
+			id: "4F958F7A546B8F90"
+			rewards: [
+				{
+					count: 16
+					id: "7042BEFB2C7BB2A6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12E64B28F0DF5D9C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "新号必找！"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tconstruct:smeltery_controller"
+					tag: {
+						texture: "tconstruct:seared_stone"
+					}
+				}
+				id: "641BE40310FF3D7C"
+				structure: "tinkervillager:sear_house"
+				type: "structure"
+			}]
+			title: "发现一个野生的冶炼炉"
+			x: 5.501700680272101d
+			y: 3.083333333333343d
+		}
+		{
+			dependencies: ["71A49B6C2D816424"]
+			description: ["      与焦黑小屋差不多，焦褐小屋提供了熔铸炉的相关材料，此外里面还能找到钴、玛玉灵这种下界资源，以及少量烈焰血。也是必探结构之一！"]
+			id: "5001A4B8E6A4835F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F373F83C060CE41"
+					table_id: 1021271035427133542L
+					type: "random"
+				}
+				{
+					count: 32
+					id: "46E18E70E28A86DA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "听说焦褐小屋的烟囱里藏了点什么..."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tconstruct:foundry_controller"
+					tag: {
+						texture: "tconstruct:scorched_stone"
+					}
+				}
+				id: "75E364B662DD090A"
+				structure: "tinkervillager:scorch_house"
+				type: "structure"
+			}]
+			title: "发现焦褐小屋"
+			x: 13.5d
+			y: 2.5d
 		}
 	]
 	subtitle: [

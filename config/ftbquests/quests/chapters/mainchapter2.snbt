@@ -433,6 +433,18 @@
 			x: -44.0d
 			y: -8.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: -30.0d
+			y: -9.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -788,7 +800,7 @@
 			y: -13.0d
 		}
 		{
-			description: ["      除此之外，它还能高效压制AE2的电路板，从此告别恼人的压印器吧！"]
+			description: ["      不过它的最大用处是高效压制AE2的电路板，从此告别恼人的压印器吧！"]
 			id: "24708A7E2EB25E28"
 			rewards: [
 				{
@@ -1357,7 +1369,11 @@
 			y: -10.5d
 		}
 		{
-			description: ["      &6注：冷冻机放置锭铸膜时存在bug，不能正常处理配方，所以锭铸膜的合成被禁了。"]
+			description: [
+				"      也可以用来冷却部分匠魂的流体"
+				""
+				" &7     ps：如果你还有其它匠魂流体希望让冷冻机冷却，请告诉cti制作组哦~"
+			]
 			id: "6DCC9FA7D2484F6C"
 			rewards: [
 				{
@@ -2441,6 +2457,7 @@
 		}
 		{
 			dependencies: ["57331E9421E0C223"]
+			description: ["      也是一种不错的中期匠魂材料！      "]
 			id: "3843E47EEC23E6C8"
 			rewards: [
 				{
@@ -3779,15 +3796,15 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "39EA1AA380481C09"
-					table_id: 7767539114598853755L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "7BDC183676E0D507"
 					table_id: 1015335001374513013L
 					type: "choice"
+				}
+				{
+					count: 64
+					id: "61BF2018728D3C78"
+					item: "mekanism:alloy_infused"
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -4280,9 +4297,15 @@
 		{
 			dependencies: ["63BACFD81D0B28B3"]
 			description: [
-				"      月球是将抵达的第一个维度，和其它Ad Astra星球相同，它没有基础等级所以相对安全。"
+				"      月球是将抵达的第一个维度，但同时也比较危险，因为它有&6150的初始等级&r。不过幸运的是这些怪刷新率并不高，只要躲着点就没有问题！"
 				""
-				"      但是当你离世界原点超过&e800格&r后，&c天上会开始坠落陨石&r，这些陨石坠落后会产生爆炸，破坏地形并对受影响的玩家造成额外的&675爆炸伤害&r。不过幸运的是陨石&b出现得并不是十分频繁&r，在一趟月球之旅中你被陨石炸到的概率&3几乎为0&r，更何况你是为了地下的&6戴斯&r而来月球的！"
+				"      月球上有两个结构：月球村庄和月球地牢，里面可以获得一些神秘小礼品！&e不过要小心月球地牢里遍布的大量刷怪笼。"
+				"{@pagebreak}"
+				"      当你离世界原点超过&e800格&r后，&c天上会开始坠落陨石&r，这些陨石坠落后会产生爆炸，破坏地形并对受影响的玩家造成额外的&675爆炸伤害&r。"
+				""
+				"      不过幸运的是陨石&b出现得并不是十分频繁&r，在一趟月球之旅中你被陨石炸到的概率&3几乎为0&r，更何况你是为了地下的&6戴斯&r而来月球的！"
+				""
+				" &c     如果你要在月球上造基地，可能要留意这一点"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "0753F056D26C2A67"
@@ -4867,8 +4890,10 @@
 				"2D0645C1CEB3289B"
 				"5C9B0E5DFF522C50"
 				"7F0E111915CD9EDC"
+				"78FED156F7DB440F"
 			]
 			id: "3E8140E2B81B1CB5"
+			min_required_dependencies: 3
 			rewards: [{
 				id: "5A025E60BC79F8A3"
 				item: "etshtinker:meteoralloy_block"
@@ -5067,6 +5092,7 @@
 				item: "kubejs:violium_casing"
 				type: "item"
 			}]
+			subtitle: "融合机or感应炉，请自行斟酌！"
 			tasks: [
 				{
 					id: "7D6C5ECF5A4507E9"
@@ -5424,7 +5450,11 @@
 		}
 		{
 			dependencies: ["22C6400AEE961461"]
-			description: ["我承认现在它其实不强"]
+			description: [
+				"我承认现在它其实不强"
+				""
+				"仅能匠魂合金合成（说实话冶炼炉自动化起来并不难）"
+			]
 			id: "45BEF2D1F04B8C19"
 			rewards: [{
 				id: "3549EAB2851E5A69"
@@ -5551,8 +5581,34 @@
 		}
 		{
 			dependencies: ["2A7FBABF54638364"]
-			description: ["      在本包中，你在裂变前就能制作mekaSuit套装。"]
+			description: [
+				"在本包中，你在裂变前就能制作mekaSuit套装"
+				""
+				"本包对mekasuit进行了大幅加强，mekasuit可以电力抵消穿甲穿魔伤害，不再需要头痛粉碎轮和摄魂了"
+			]
 			id: "3A6E479CBB605C72"
+			rewards: [
+				{
+					id: "46ADB7AF8D253A0A"
+					item: "solidarytinker:dwarf_block"
+					type: "item"
+				}
+				{
+					id: "67DA3C62CC639B37"
+					item: "kubejs:protonium_block"
+					type: "item"
+				}
+				{
+					id: "0CA5273712101FBC"
+					item: "avaritia:crystal_matrix"
+					type: "item"
+				}
+				{
+					id: "6263E51E987FE704"
+					item: "kubejs:stellaralloy_block"
+					type: "item"
+				}
+			]
 			subtitle: "Mek经典的强力装备"
 			tasks: [
 				{
@@ -6436,6 +6492,20 @@
 			]
 			hide_dependency_lines: true
 			id: "2A15A8DB889CDEA6"
+			rewards: [
+				{
+					count: 9
+					id: "11645E585867F9BC"
+					item: "tconstruct:molten_rose_gold_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52633EB842E4DA01"
+					table_id: 6253538946852004205L
+					type: "choice"
+				}
+			]
 			shape: "gear"
 			subtitle: "无意间合出大量合金的处理方法"
 			tasks: [{
@@ -6448,7 +6518,7 @@
 		}
 		{
 			description: [
-				"      本包中一共有3种中子获取方式：&e中子态素收集器、不稳定中子锭冷却、反应堆中子收集器&r。"
+				"      本包中一共有5种中子获取方式：&e中子态素收集器、不稳定中子锭冷却、反应堆中子收集器、电离冻土开采中子矿、位面矿机&r。"
 				"      对于现在这个阶段，推荐使用不稳定中子途径。需要的设备在这个任务里。具体方法见前面的&6PnC&r章节和JEI"
 			]
 			icon: "avaritia:neutron_ingot"
@@ -6580,7 +6650,11 @@
 				""
 				"      材料和工艺的进步让你能够成功完成这一点，现在你可以通过&e更高级的升级套件&r向mek机器插入超过8个升级了。"
 				""
-				"      注：在化学品处理机器&e（如回旋式气液冷凝器、化学灌注机）&r上应用16速度升级时&c不仅能量消耗高到离谱，还会遇到输出槽容量不够的情况&r。&6请不要把16x速度升级应用在这些机器上。"
+				"      对于一般的机器，每8个插件速率提高10倍，16插件下处理间隔为2tick。"
+				""
+				"      注：在化学品处理机器&e（如回旋式气液冷凝器、化学灌注机）&r每8速度升级速率提高256倍，在这些机器上应用16速度升级时&c不仅能量消耗高到离谱，还会遇到输出槽容量不够的情况（因为此时机器的加速达到了惊人的65536倍）&r。&6请不要把16x速度升级应用在这些机器上。"
+				""
+				"      一台回旋气液在16速度升级下能消耗20.48MFE/t，某种意义上能用来当作能量垃圾桶"
 			]
 			id: "12ADB0D06F89F625"
 			rewards: [
@@ -6785,6 +6859,7 @@
 				""
 				"      在获得了戴斯、紫金和耐热金属后也可以用陨铁碎片合成陨铁合金。陨铁合金可以作为星钢的镶板基底替代材料"
 			]
+			hide_dependent_lines: true
 			id: "78FED156F7DB440F"
 			invisible: true
 			rewards: [{
@@ -7026,6 +7101,19 @@
 			title: "顶级插件？？！！"
 			x: -30.0d
 			y: -10.5d
+		}
+		{
+			dependencies: ["5B93257EFC204EA0"]
+			description: ["      气动毕业材料，高效合成维奥合金也会用到它！"]
+			id: "3382C7520056D6E9"
+			subtitle: "气锻钛锆plus"
+			tasks: [{
+				id: "0FC3965B28011880"
+				item: "kubejs:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["-by EtSH_C2H6S"]

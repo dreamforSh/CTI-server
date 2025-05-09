@@ -53,7 +53,6 @@ ServerEvents.recipes(event => {
 		'l2hostility:curse_of_wrath',
 		'l2hostility:book_of_omniscience',
 		'l2hostility:greed_of_nidhoggur',
-		'l2complements:vanilla/renew/elytra',
 		'l2complements:craft/totem_of_dream',
 		'l2hostility:charm_of_looting_2',
 		'l2hostility:charm_of_looting_3',
@@ -94,6 +93,8 @@ ServerEvents.recipes(event => {
 		'mekanism:mekasuit_bodyarmor',
 		'mekanism:mekasuit_pants',
 		'mekanism:mekasuit_boots',
+		//mek模块
+		'mekanism:module_base',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
 		'createutilities:mixing/void_steel_ingot',
@@ -155,6 +156,7 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:item_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:fluid_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:world_transporter_type' })
+	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
 
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
@@ -289,5 +291,18 @@ ServerEvents.recipes(event => {
 		'thermal:compat/tconstruct/smelter_alloy_tconstruct_pigiron_ingot'
 	]
 	for (let i of pigiron) { event.remove({ id: `${i}` }) }
+
+	//IAF
+	let iaf = [
+		'iceandfire:copper_pickaxe',
+		'iceandfire:dragonbone_pickaxe',
+		'iceandfire:copper_pile',
+		'iceandfire:gold_pile',
+		'iceandfire:silver_pile',
+		'iceandfire:myrmex_desert_pickaxe',
+		'iceandfire:myrmex_jungle_pickaxe',
+		'iceandfire:silver_pickaxe'
+	]
+	for (let i of iaf) { event.remove({ id: `${i}` }) }
 }
 )

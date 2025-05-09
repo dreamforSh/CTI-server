@@ -1,7 +1,7 @@
 @echo off
 chcp 65001
 @echo ----------------------------------------------------------------------------------
-@echo                       CTI server veriosn：0.35C
+@echo                       CTI server veriosn：0.35D
 @echo                               作者：惜念
 @echo                           官方交流群：761155624
 @echo                  非bug反馈以及非开发者导致的任何问题，请勿反馈
