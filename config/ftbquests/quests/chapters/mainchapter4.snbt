@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mainchapter4"
-	group: "7741820127317059"
+	group: "29790671A6BD30D6"
 	icon: "etshtinker:exo_alloy"
 	id: "1F905E753A948A11"
 	images: [
@@ -22,28 +22,40 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 1.5d
 			hover: [ ]
-			image: "ftblibrary:icons/up"
+			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
+			width: 1.5d
+			x: -1.0d
 			y: 5.5d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 1.5d
 			hover: [ ]
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 4.5d
+			width: 1.5d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.0d
 		}
 	]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,6 +63,7 @@
 				"2FA48748D7A15ABC"
 				"276FABAFB401FAE8"
 				"084A2FCF373F7F23"
+				"527A3309D016D215"
 			]
 			id: "7E6F27BBF949A8FB"
 			rewards: [
@@ -92,7 +105,7 @@
 				"0C88EEF59D0AF1AD"
 				"74056BE543A86EC5"
 			]
-			description: [""]
+			description: ["     是的，它也有3个平行配方"]
 			id: "2FA48748D7A15ABC"
 			rewards: [
 				{
@@ -225,24 +238,46 @@
 				item: "avaritia:neutron_gear"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
+			description: [
+				"你可能会发现奇迹物质合成树上有大量难以获取的冒险物品。不需要担心，尽管你不能自动化它们，&6但是大量获取它们并不难。"
+				""
+				"绝大部分怪物掉落物都能通过&6尼德霍格&r获取，它会随等级成倍增加怪物掉落。通过&d球状恶意&r可以快速升到极高等级从而获取到巨量掉落物。"
+				""
+				"（特殊地，IAF龙的掉落物不能被倍增，你可以用刷怪设备大量刷取）"
+				"（暮色boss的掉落物不能被倍增，但是炽热的血可以利用带&6熔炼强化&r的工具大量获取）"
+				"（肢解配方能被倍增，但是&6攻击前附加伤害材料&r会抢击杀导致判定不到肢解）"
+				""
+				""
+				"矿物类可以用mek的&d数字型采矿机&r挖到巨量，利用&6匠魂的超高时运增产。"
+			]
 			id: "5DB511379C217E00"
-			rewards: [{
-				id: "0D107041CC2E3643"
-				item: "etshtinker:anti_neutronium"
-				random_bonus: 1
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0D107041CC2E3643"
+					item: "etshtinker:anti_neutronium"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "222AF15415B6263A"
+					item: "etshtinker:exo_alloy"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "旅途的终点，拥有令神明分崩离析的力量"
 			tasks: [{
 				id: "6C881A1195C61F4E"
 				item: "etshtinker:exo_alloy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -263,9 +298,9 @@
 		}
 		{
 			dependencies: ["33118270F57D95EF"]
-			description: ["      或者你也能通过让骷髅击杀苦力怕获得唱片。利用雪傀儡吸引仇恨，风扇偏转骷髅射出的箭矢，就能自动化。"]
+			description: ["      多种获取方式，最简单的方法是合成&e空白唱片&r然后用蓝色染料染色"]
 			id: "165448DEAB543E75"
-			subtitle: "常规的冒险即可满足唱片的需求"
+			subtitle: "“不如尼德霍格一次爆一万个”"
 			tasks: [{
 				id: "44BEF82A5ABF58D0"
 				item: "avaritia:record_fragment"
@@ -384,7 +419,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "这些你可以留着当纪念品"
+			subtitle: "终！级！奉！献！"
 			tasks: [
 				{
 					id: "6BE0C566782F5025"
@@ -416,8 +451,8 @@
 				}
 			]
 			title: "无尽工具"
-			x: 3.0d
-			y: 1.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7E6F27BBF949A8FB"]
@@ -438,7 +473,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "曾经的神器，如今它宝刀未老。无论是作纪念品还是拿来用都很不错"
+			subtitle: "好玩的小纪念品！"
 			tasks: [
 				{
 					id: "011154B526FE7E68"
@@ -452,8 +487,8 @@
 				}
 			]
 			title: "寰宇支配之剑与天堂陨落长弓"
-			x: 3.0d
-			y: 0.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7E6F27BBF949A8FB"]
@@ -499,20 +534,26 @@
 			]
 			title: "无尽装备"
 			x: 3.0d
-			y: -1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"18D0C7C77F113D83"
-				"66A896020676611B"
-				"792C87AB879B93F0"
-			]
+			dependencies: ["1B1A44F82A19DCF4"]
 			description: [
-				"      到这里，你已经完成本包的科技线的全部内容了，给你点个赞！"
+				"      到这里，你已经完成本包的主线的全部内容了，给你点个赞！"
 				""
-				" &7     在此前的旅途中，你曾经也是一个原始的工匠。&f从用熔炉烧出了第一块焦黑砖，到从高炉中取出第一块钢锭，&a再到用感应炉烧制出与元素能量有着不错亲和性的合金。&r同时你也曾游历于各个维度之间，也曾与群星共舞。&d你从气态行星的深处采掘到了世界上最为致密的材料，&b从高能的中子中拆分出了凝聚态的质子和电子，&5见识了宇宙中最神秘而又危险的物质——反物质。&r集你一切所学和一切所得，最终你造出了&d无尽锭&r，它标志着你旅途的结束。"
+				" &7     在此前的旅途中，你曾经也是一个原始的工匠。&f从用熔炉烧出了第一块焦黑砖，第一块焦褐砖"
 				""
-				"      然而，除此之外，世界上仍有许多未知等待你去探索。&e古文明留下来的饰品、&a隐藏在世间的邪恶，&r以及，&d材料学在这个世界上衍生出的多样化分支。&r你可以就此停下，简单的略过它们，也可以从头开始，抱着探索的心态开启一趟新的旅途——一切取决于你。"
+				"       内在的探索欲望驱使着你，&e你探索了炎热的下界，造访了支离破碎的末地。&r你解开了&d层层魔法包裹的暮色之谜，&6来到了存在于亚轨道空间的天镜，&r最终在&c充满腐朽的深暗之园击杀了旧时代的文明支配者——龙。"
+				""
+				"       &r随着科技的发展，你也曾尝试与群星共舞，中子素的获取使你认识到群星与匠魂有着内在的深层关联。&6你从几乎就要坠入比邻星的炼狱星获取到了具有不可思议能量的永燃晶体。&d你从气态行星的深处采掘到了世界上最为致密的材料。"
+				""
+				"       科学予技术，冒险给予灵感。&c以反中子为笔，&6你将你的成果铭刻于&a奇迹&e物质&6之上。"
+				""
+				"       &r集你一切所学和一切所得，最终你造出了&d无尽锭&r，它标志着你旅途的结束。"
+				""
+				"      然而，除此之外，世界上仍有许多潜在的未知等待你去探索。&e古文明留下来的饰品、&a隐藏的许多不为人知邪恶，&r以及，&d材料学在这个世界上衍生出的多样化分支。&r你可以就此停下，简单的略过它们，也可以从头开始，抱着探索的心态开启一趟新的旅途——一切取决于你。"
+				""
+				" &d     倘如你对目前所得尚存不满，请前往下一个任务，它可以为你带来对创造之力的一瞥。"
 			]
 			icon: "ftbquests:book"
 			id: "551214D011551305"
@@ -534,7 +575,7 @@
 			size: 2.0d
 			subtitle: "结束了?"
 			tasks: [{
-				id: "61EA04800FAA3778"
+				id: "5D84DFB4515FC7A4"
 				type: "checkmark"
 			}]
 			title: "万物之终"
@@ -545,7 +586,6 @@
 			dependencies: [
 				"2D5E7C3E60D40514"
 				"3007A56BD90D3E1A"
-				"483392A96FE749D4"
 				"551214D011551305"
 			]
 			description: [
@@ -632,10 +672,200 @@
 				value: 1
 			}]
 			title: "无尽的旅途"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DB511379C217E00"]
+			description: [
+				"高级位面矿机在自动处理了矿物的同时产量相当可观。&d奇点？必叫它有来无回！"
+				""
+				"相较于普通的位面矿机，高级位面矿机的运行速度非常极端，1个ME接口已经不足以满足传输需求。"
+				""
+				"如图，利用存储整合器的整合效果可以非常简单地将这些产品送进你的ME网络："
+				""
+				"{image:kubejs:textures/ftbq_images/2025-03-17_21.28.43.png width:180 height:100 align:1}"
+			]
+			id: "2E22ACA57D1512EE"
+			rewards: [{
+				count: 64
+				id: "56EBD2DA805DCD91"
+				item: "cti:compressed_singularity"
+				title: "泥猜~"
+				type: "item"
+			}]
+			subtitle: "如何供应上无尽所需要的巨量矿物？"
+			tasks: [{
+				id: "719E7B53CC75C05B"
+				item: "cti:quantum_miner_advanced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7E6F27BBF949A8FB"]
+			description: ["      忘掉寰宇支配之剑吧，&l&c用&6这&e份&a无&b尽&9的&d力&5量&8粉&0碎&7一&f切"]
+			id: "1B1A44F82A19DCF4"
+			rewards: [
+				{
+					count: 4
+					id: "5C4673BBAED55963"
+					item: "avaritia:infinity_ingot"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5CB6808C1EB3CE82"
+					item: "avaritia:infinity_catalyst"
+					random_bonus: 32
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "你做出来了最顶级的匠魂材料，你是否会为达成如此壮举而感到自豪呢？"
+			tasks: [
+				{
+					count: 2L
+					id: "641929EE712911D5"
+					item: "cti:stellar_manyullyn"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03C2BBD463ECDE2B"
+					item: "cti:invert_hoshino"
+					type: "item"
+				}
+			]
+			title: "游戏结束"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61643E8D7F91E6F7"]
+			description: ["      和中子齿轮相同，它也有3个平行配方"]
+			id: "527A3309D016D215"
+			rewards: [
+				{
+					id: "1D708D41892D606E"
+					item: "kubejs:evil_processor"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "1714A347322B5290"
+					item: "lightmanscurrency:coin_netherite"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B6035A9335DC9C1"
+					item: "kubejs:evil_mechanism"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "世间万物的恶念，汇集于这块处理器的浮栅中"
+			tasks: [{
+				id: "7E605377C62F7C5E"
+				item: "kubejs:evil_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			hide: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: "cataclysm:dying_ember"
+			id: "61643E8D7F91E6F7"
+			subtitle: "和奇迹物质一样，就一个尼德霍格爽"
+			tasks: [{
+				id: "109C7C103966A021"
+				type: "checkmark"
+			}]
+			title: "击杀全部灾变boss"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			description: ["       虽然无尽的合成不刚需尼德霍格，但是它能协助减轻相当一部分重复刷boss的流程，建议还是凹一个出来。"]
+			id: "02B06107AB93AC33"
+			rewards: [{
+				count: 8
+				id: "38748472350CC1EB"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "让我们拿着手中的尼德霍格，重温这场旅途吧！"
+			tasks: [{
+				id: "22C1A71404D58C20"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["551214D011551305"]
+			description: [
+				" &a     做出了这个最终饰品，这个饰品的性能如何，趁不趁手，已经都不重要。"
+				""
+				" &d     你在它身上付出的努力将会永远改变你，会伴随你进入你的下一次游戏中。"
+			]
+			id: "13E303226180133A"
+			rewards: [
+				{
+					id: "39249C1F47305317"
+					item: {
+						Count: 1b
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "etshtinker:antimatter_l"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54147485AB0805E2"
+					table_id: 6135228691312300992L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0105983EB8AAF51E"
+					table_id: 3218210861919954475L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "挑战目标！"
+			tasks: [{
+				id: "74A0CA5E51A7C8D6"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 0.0d
 		}
 	]
-	subtitle: ["-by EtSH_C2H6S"]
+	subtitle: [
+		"结束了？我看未必"
+		"-by EtSH_C2H6S"
+	]
 	title: "最终章 —— 无尽之旅"
 }

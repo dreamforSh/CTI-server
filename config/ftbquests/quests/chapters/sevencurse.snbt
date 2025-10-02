@@ -5,13 +5,15 @@
 	group: "4CD374CEABFCA3D3"
 	icon: "enigmaticlegacy:cursed_ring"
 	id: "35CEF8CA6F211FCA"
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"一切故事的开端，无数传说被揭露的开始"
-				"这意味着某个宇宙的半神决心重回巅峰"
+				"      一切故事的开端，无数传说被揭露的开始"
+				"      这意味着某个宇宙的半神决心重回巅峰"
+				""
+				"&a     神秘遗物的发展阶段为 主世界 - 下界 - 末地 ，你在任何时期都可以尝试发展它，因此位于特殊章。"
 			]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "4AD608A1A7B651AA"
@@ -2455,6 +2457,12 @@
 					table_id: 8590509534707339916L
 					type: "choice"
 				}
+				{
+					count: 2
+					id: "31A3FBCABCAFC3D5"
+					item: "cti:soul_spell"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 2.5d
@@ -2721,5 +2729,5 @@
 		"非欧立方怎么合成.jpg"
 		"-by 墨"
 	]
-	title: "神秘遗物 —— 强力饰品在哪里"
+	title: "特殊章 —— 被诅咒者的救赎"
 }

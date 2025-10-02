@@ -1,0 +1,1777 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "7741820127317059"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "16DE1AB5FFFF49AC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 3.0d
+			x: 11.25d
+			y: 6.0d
+		}
+		{
+			alpha: 200
+			click: "#7DC32D877CDEFB84"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "etshtinker:block/fluid/annihilating_plasma/still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			click: "#0F31C279CAD867E7"
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/unipolar_magnet_budding"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			click: "#0F31C279CAD867E7"
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/unipolar_magnet"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			click: "#18063DCA8C460664"
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 8.5d
+		}
+		{
+			alpha: 160
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			alpha: 128
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 9.5d
+		}
+		{
+			alpha: 96
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			alpha: 64
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			alpha: 32
+			click: ""
+			corner: false
+			dev: false
+			height: 0.6d
+			hover: [ ]
+			image: "cti:block/overdense_glacio_stone"
+			rotation: 0.0d
+			width: 0.6d
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/venus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/mars.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/glacio.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/alpha_centauri.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/uranus.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ad_astra:textures/painting/jupiter.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ad_astra:textures/sky/milky_way.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.249999999999993d
+			y: 6.060714285714283d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.5d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.5d
+			x: -7.0d
+			y: 3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69F993F1E85B1C17"]
+			id: "044A20A8BC367DCE"
+			tasks: [{
+				id: "284BBB2B4F1D2CF5"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "迈向宇宙的第一步"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"      Ad Astra！模组本体一共添加了月球、火星、金星、水星和霜星在内的5个星球维度。部分维度有特殊的地形和矿物。"
+				""
+				" &a &l    Ad的发展流程是弹性的，只要获得了材料你就可以在任何时期发展它，这就是为什么它在特殊章节。"
+				""
+				"      本包通过Ad Astra添加了包括天王星、木星、炼狱星在内的多个外星维度。这些维度同样有独特的群系、地形和矿物。&c但是这些维度都有十分致命的环境危害。在探索这些维度前请确保自己做好了充足的准备！"
+				"      本包还对火箭等级进行了调整，金星和水星调整为二阶火箭，比邻星星系调整为三阶火箭，四阶火箭可以前往天王星和木星，最高级的五阶火箭则能够前往遥远且神秘的人马座A*系统。"
+				"      &a每个星球对于不同设备会有有不同的加成，例如&l机器更快&r&a等等，具体可以到&l对应星球节点&r&a查看具体加成&r"
+				" &c     请翻到下一页查看环境危害系统的说明，不看这个你会寄得很惨。"
+				"{@pagebreak}"
+				" &a     手持全息星空板时环境危害值会在右下角显示："
+				"      &5危害值为你身上的累计值，超过0时你就会受到对应的环境伤害并获得相应负面效果，最大值为250，最小值与你的环境抗性有关。"
+				" &d     环境伤害是&c极端伤害&d的代表之一，它性质上最接近所谓的“真实伤害”，能无视绝大多数伤害减免和闪避效果。"
+				" &5     环境伤害的大小与生物身上的危害值有关，&d具体大小=基础值*危害值&5。以下是各种环境危害的基础伤害："
+				" -霜冻：10"
+				" -灼热：20"
+				" -电离：5%最大生命值"
+				" -压强：20%最大生命值"
+				""
+				"{@pagebreak}"
+				"      &6危害强度是你身上危害值增长的速度，单位为1%/s，是计算完抗性后的值。&a当这个值>0时，你积累环境危害，反之则减少环境危害&e。你可以通过&bshift-右键你的全息星空板读取身上的环境抗性&e。&r特殊的，你身上的灼热强度会减去霜冻强度，霜冻强度则会减去灼热强度。"
+				"      &e在你没有抗性时，危害值只有在你受伤时才会减少。"
+				"      &d当你的灼热/霜冻防护等级>=1时，你会免疫Ad Astra的原版高温和低温。"
+				""
+				"      环境抗性可以通过护甲提升。匠魂护甲可以通过各种强化来提高环境危害抗性，这些强化分别是&e太空服、灼热防护、极寒防护、高压防护、电离防护。&r除此之外，气动套装每件提供0.5的压强抗性和霜冻抗性，meka套装和无尽套提供了巨量（10）的全环境抗性。"
+				""
+				"{@pagebreak}"
+				"     有趣的是，&a外星的时间和主世界是同步的&r，因此如何应用这些能源你应该有大概的想法了吧"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_4_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "69F993F1E85B1C17"
+			rewards: [
+				{
+					id: "769DBEFAA08179B1"
+					item: {
+						Count: 1b
+						id: "ad_astra:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E5D98E19EA2F7DA"
+					item: "cti:astra_tablet_5"
+					type: "item"
+				}
+				{
+					id: "68CCB4679B2E538A"
+					item: {
+						Count: 1b
+						id: "thermal:fluid_reservoir"
+						tag: { }
+					}
+					title: "贮液器能用来自动给套装供应流体，从而自动供氧"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "高版本最完善的太空模组之一"
+			tasks: [
+				{
+					id: "515A3FC2F454D94B"
+					type: "checkmark"
+				}
+				{
+					id: "620D0D2DB19B19E5"
+					item: "thermal:steel_plate"
+					type: "item"
+				}
+			]
+			title: "Ad Astra!"
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3FA6C8EC9A8097AB"
+				"1C6047D229D4D18A"
+			]
+			description: [
+				"      将发射台放在地上，火箭放在发射台上，shift-右键在gui中装载燃料，然后右键坐上去，按空格就能起飞。"
+				"      &e注：普通燃油需要装载3桶才能起飞，不是bug。"
+				" &c     注意：出发前一定要带上充足的燃油（>3桶）和发射台，或者带上合适的传送装置，不然你可能不能活着回地球。"
+			]
+			id: "63BACFD81D0B28B3"
+			rewards: [
+				{
+					count: 3
+					id: "22E4A48E8B191920"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "1354BBB0DAB6DCBC"
+					item: "waystones:waystone"
+					title: "用指路石在星球间往返也是个不错的选择"
+					type: "item"
+				}
+			]
+			subtitle: "3,2,1-起飞！"
+			tasks: [
+				{
+					id: "62E1D80D99BE7F1C"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "280913DDE1A23119"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["044A20A8BC367DCE"]
+			description: [
+				"      燃油精炼机能消耗FE然后将石油转化为燃油（支持大部分模组的石油，比如最常见的应该是沉浸的原油）"
+				"注：如需要自动输出燃油，请使用pip流体或通用，储罐推荐终极流体储罐（mek），因为这个储罐可以自动化填充流体容器（这里一般是桶）"
+			]
+			id: "1C6047D229D4D18A"
+			rewards: [{
+				id: "355AF406D724AFB3"
+				item: "immersivepetroleum:crudeoil_bucket"
+				type: "item"
+			}]
+			subtitle: "上天前的第一步"
+			tasks: [{
+				id: "45ED349F6E960AAF"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["044A20A8BC367DCE"]
+			description: [
+				"      有了宇航服，你就能在无氧的环境存活。你也可以把它作为强化打在护甲上。&e（注：需要打在头盔上才能提供氧气）"
+				"      作为强化时每级提供0.25的灼热和霜冻抗性以及0.1的电离抗性。四件护甲都打一级就足够抵抗Ad Astra!的高温/低温。"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:space_suit"
+				tag: {
+					BotariumData: { }
+					Damage: 0
+				}
+			}
+			id: "3FA6C8EC9A8097AB"
+			rewards: [{
+				id: "54DD34A7510B0D3E"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "长大我要当太空人"
+			tasks: [{
+				id: "03E632B0447DAEE5"
+				item: {
+					Count: 1b
+					id: "ad_astra:space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "宇航服"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63BACFD81D0B28B3"]
+			dependency_requirement: "one_started"
+			description: [
+				"      月球是将抵达的第一个维度，但同时也比较危险，因为它有&6150的初始等级&r。不过幸运的是这些怪刷新率并不高，只要躲着点就没有问题！"
+				""
+				"      月球上有两个结构：月球村庄(Lunar ...)和月球地牢(Moon Dungeon)，里面可以获得一些神秘小礼品！&e不过要小心月球地牢里遍布的大量刷怪笼。"
+				"{@pagebreak}"
+				"      当你离世界原点超过&e800格&r后，&c天上会开始坠落陨石&r，这些陨石坠落后会产生爆炸，破坏地形并对受影响的玩家造成额外的&675爆炸伤害&r。"
+				""
+				"      不过幸运的是陨石&b出现得并不是十分频繁&r，在一趟月球之旅中你被陨石炸到的概率&3几乎为0&r，更何况你是为了地下的&6戴斯&r而来月球的！"
+				""
+				" &c     如果你要在月球上造基地，可能要留意这一点"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "0753F056D26C2A67"
+			rewards: [
+				{
+					count: 9
+					id: "30D638535AA4DBC9"
+					item: "ad_astra:cheese"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "73416E3AF5187AE6"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					title: "着陆器炸了？没事我送你一个，不许有下次了"
+					type: "item"
+				}
+				{
+					id: "5463EF022532E5DB"
+					item: "ad_astra:space_painting"
+					type: "item"
+				}
+				{
+					id: "012D91233336112B"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+			]
+			subtitle: "月亮是奶酪做的！"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "78BE44D915A6A640"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0753F056D26C2A67"]
+			description: ["      除此之外它也是星钢的材料之一，所以多挖点"]
+			id: "2DD85E7AC041B458"
+			subtitle: "月球上的矿物，你会需要很多来制作二阶火箭"
+			tasks: [{
+				id: "0ED36F2948BD4E6F"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2DD85E7AC041B458"
+				"1474E0D8B73C139E"
+			]
+			dependency_requirement: "one_completed"
+			id: "2B7E14B52D6FE20A"
+			subtitle: "离开地月系"
+			tasks: [{
+				id: "16DBFBAEA35E18DD"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0753F056D26C2A67"]
+			description: [
+				"      可以用于合成凛冰燃料，凛冰燃料的消耗量比普通燃料少。"
+				"      也是合成星钢的关键材料之一。"
+			]
+			id: "2E42E8C1F8BBD06C"
+			rewards: [{
+				id: "789EB3465D2945B6"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "🧊！"
+			tasks: [{
+				id: "45E4F8574D9FC251"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B7E14B52D6FE20A"]
+			icon: "ad_astra:mars_globe"
+			id: "536504C80F453D3F"
+			rewards: [
+				{
+					id: "56C9A9262C13104C"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+				{
+					id: "7439FE38945EE719"
+					item: "ad_astra:space_painting"
+					type: "item"
+				}
+			]
+			subtitle: "红色星球"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "38C35D3536B7E2BF"
+				type: "dimension"
+			}]
+			title: "访问：火星"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B7E14B52D6FE20A"]
+			description: [
+				"      水星浅层分布着少量铁和钨，而其深处则有着一种极其罕见的金属：&d山铜"
+				""
+				"      水星离太阳近且无大气层，在这个地方&bpowah太阳能板&r会有&a1.4倍&r额外效率"
+			]
+			icon: "ad_astra:mercury_globe"
+			id: "3EC6AE36A8C4FFC3"
+			rewards: [
+				{
+					id: "5CE96FA71180A074"
+					item: "ad_astra:space_painting"
+					type: "item"
+				}
+				{
+					id: "7D1F06EED38E33D1"
+					item: "ad_astra:mercury_globe"
+					type: "item"
+				}
+				{
+					id: "70DF1D56ABDC0022"
+					item: "tinkers_ingenuity:orichalcum_fragment"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "一颗大铁球"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "16260D6ED1F3D4E1"
+				type: "dimension"
+			}]
+			title: "访问：水星"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B7E14B52D6FE20A"]
+			description: [
+				"在这个&c有浓厚大气层的炎热行星&r之上,&a机械动力的&l风车会有8倍转速加成&r&a哦&r"
+				""
+				"金星上有一些和金星猪灵（Pygro）有关的结构，里面能找到QIO部件(由于加入了Packet fixer模组，可以不那么担心QIO的炸nbt问题)"
+			]
+			icon: "ad_astra:venus_globe"
+			id: "10692E2C83412A46"
+			rewards: [
+				{
+					id: "705A02262F343927"
+					item: "ad_astra:space_painting"
+					type: "item"
+				}
+				{
+					id: "0BCCB7C8984F5A96"
+					item: "ad_astra:venus_globe"
+					type: "item"
+				}
+			]
+			subtitle: "戈壁or火山灰？"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "0866819895932C88"
+				type: "dimension"
+			}]
+			title: "访问：金星"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10692E2C83412A46"]
+			description: [""]
+			id: "7F0E111915CD9EDC"
+			rewards: [{
+				count: 8
+				id: "33EE3AE76EDC025A"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FB50371A47DF7D8"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["536504C80F453D3F"]
+			id: "5C9B0E5DFF522C50"
+			rewards: [{
+				count: 8
+				id: "42C35B8DD74AB1D7"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A3361D5EAAABE5"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C9B0E5DFF522C50"]
+			id: "28D8056DC3795766"
+			rewards: [{
+				id: "7E85B7BF95E74E7B"
+				item: "ad_astra:ostrum_block"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E662BCDE3ABAFA1"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DD85E7AC041B458"]
+			description: ["      将“宇航服”属性强化至2级后可以免疫金星的酸雨。"]
+			id: "40D3D3885D8D7409"
+			rewards: [{
+				id: "3682069BB5387495"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "更高级的宇航服，也可以强化到匠魂护甲上"
+			tasks: [{
+				id: "1259E78180273A15"
+				item: {
+					Count: 1b
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						BotariumData: { }
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "合金宇航服"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["28D8056DC3795766"]
+			description: ["&bpowah热力发电机&r在此处会有&a1.15倍&r效率；"]
+			icon: "ad_astra:glacio_globe"
+			id: "2D0645C1CEB3289B"
+			rewards: [
+				{
+					id: "263F4B6B0FF67F98"
+					item: "ad_astra:glacio_globe"
+					type: "item"
+				}
+				{
+					id: "2552A4B0621BA5BE"
+					item: "ad_astra:space_painting"
+					type: "item"
+				}
+			]
+			subtitle: "虽然很冷，但是至少比火星暖和"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "3618C8C9143D0568"
+				type: "dimension"
+			}]
+			title: "访问：霜原星"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28D8056DC3795766"]
+			description: [
+				"&6      炼狱星会是你初次接触环境危害的地方。去之前请给你的护甲打上足够的&e灼热防护！"
+				"      &e在半熔融炼狱的表面分布有一定量的&c永燃水晶。"
+				"{image:kubejs:textures/ftbq_images/2024-12-05_09.18.36.png width:256 height:133 align:1}"
+				""
+				"&c环境危害："
+				" -灼热  2.1（炼狱）/  3.5（半熔融炼狱）"
+				""
+				"在这个炎热的地方，&b机动烈焰人燃烧室&r&a永久普通加热&r，&bpowah太阳能板&r&a3.5倍&r效率；"
+			]
+			icon: "kubejs:infernal_blackstone"
+			id: "67818AEF2A80950F"
+			rewards: [{
+				id: "7454212823BC3A7B"
+				item: "ad_astra:space_painting"
+				type: "item"
+			}]
+			subtitle: "极端炎热的星球"
+			tasks: [{
+				dimension: "ad_astra:infernal"
+				id: "174358837F6A2B1C"
+				type: "dimension"
+			}]
+			title: "访问：炼狱星"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D0645C1CEB3289B"
+				"5C9B0E5DFF522C50"
+				"7F0E111915CD9EDC"
+				"78FED156F7DB440F"
+			]
+			id: "3E8140E2B81B1CB5"
+			min_required_dependencies: 3
+			rewards: [{
+				id: "5A025E60BC79F8A3"
+				item: "etshtinker:meteoralloy_block"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "冶炼产生的星陨合金也可以浇筑出来后继续熔融出星钢"
+			tasks: [{
+				id: "4E2407CEAC57FFE8"
+				item: "etshtinker:stellaralloy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["67818AEF2A80950F"]
+			id: "7430D68F461EF0C6"
+			rewards: [{
+				count: 4
+				id: "0F08A6C34AE7BB53"
+				item: "kubejs:pyrocrystal"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "能在半熔融炼狱的地表找到"
+			tasks: [{
+				id: "45DFD149E3FD1A9B"
+				item: "kubejs:pyrocrystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7430D68F461EF0C6"
+				"3E8140E2B81B1CB5"
+			]
+			description: [
+				"      木星和天王星上有非常极端的压强，你需要为你的护甲打上高压防护强化后才能进行探索。"
+				""
+				" &c     否则当你身上承受超过1.5的压强危害时，你会瞬间暴毙！"
+			]
+			id: "2A270D277063DA2F"
+			rewards: [
+				{
+					id: "357DFD88B6592433"
+					item: "etshtinker:stellaralloy"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "4CE460A503A8F71A"
+					item: "kubejs:pyrocrystal"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			subtitle: "先停一下"
+			tasks: [{
+				id: "2D34EA94D7B1F08E"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0753F056D26C2A67"]
+			description: [
+				" &m星钢强大力量99%的来源"
+				""
+				"      常见于月球y>0的浅层"
+			]
+			id: "0B808542C7DF2B15"
+			rewards: [{
+				count: 8
+				id: "6AD4233874BB1DD6"
+				item: "ad_astra:moon_cheese_ore"
+				type: "item"
+			}]
+			subtitle: "月球是奶酪做的！难道不是吗？"
+			tasks: [{
+				id: "777C37ADCF261A06"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69F993F1E85B1C17"]
+			description: [
+				"      JEI中搜索强化名以查看配方。"
+				""
+				" &c     在去有环境危害的的星球前别忘记打了！！！"
+				""
+				"      另外手持全息星图&bshift-右键&r可以看身上的抗性"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tconstruct:modifier_crystal"
+				tag: {
+					modifier: "cti:electric_protect"
+				}
+			}
+			id: "5BF7D243F4342526"
+			rewards: [{
+				id: "07343F1DB165F350"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "此任务仅提示你需要什么强化"
+			tasks: [
+				{
+					id: "4B0C855514B1DA02"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "cti:electric_protect"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2879985617B62174"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "cti:scorch_protect"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DEF2F85E4F2A138"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "cti:freeze_protect"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DC0B54444E14916"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "cti:pressure_protect"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65E106D2988481F5"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "cti:space_suit"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4ADF610D13C3C920"
+					type: "checkmark"
+				}
+			]
+			title: "外星必备强化"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0753F056D26C2A67"]
+			description: [
+				"      陨铁矿可以在陨石撞击后的残骸中被发现，只能利用沉浸工程的粉碎机处理。在获得陨铁碎片的同时能获取部分矿物副产物！"
+				""
+				"      在获得了戴斯、紫金和耐热金属后也可以用陨铁碎片合成陨铁合金。陨铁合金可以作为星钢的镶板基底替代材料"
+			]
+			hide_dependent_lines: true
+			id: "78FED156F7DB440F"
+			rewards: [{
+				id: "7DDEB8CC6C48581B"
+				item: "cti:meteorite_ore"
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "陨石里其实有点宝藏的"
+			tasks: [{
+				id: "5DD3D46AEE34E1D1"
+				item: "cti:meteorite_ore"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78FED156F7DB440F"]
+			description: ["      现在知道那个16385℃合金配方的意义了吧~"]
+			id: "615923CC98A8B4C8"
+			invisible: true
+			rewards: [{
+				id: "1C33B4634D3096B3"
+				item: "cti:xenoglarium_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "恭喜你发现隐藏材料！"
+			tasks: [{
+				id: "114F08251238E46C"
+				item: "cti:xenoglarium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10692E2C83412A46"]
+			id: "254787CFEF9899E5"
+			rewards: [
+				{
+					id: "21CFA8BFA882C1EA"
+					item: "mekanism:sulfuric_acid_bucket"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2939B4158EE3D18A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "金星荒原的表面被大量硫酸湖覆盖，这不赶紧捞几桶！"
+			tasks: [{
+				id: "6535727B75168208"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			title: "完蛋，我被硫酸包围了"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3EC6AE36A8C4FFC3"]
+			id: "500BC521E55578EF"
+			rewards: [{
+				id: "03B2EA0C507CF615"
+				item: "tinkers_ingenuity:orichalcum_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CA182C18CE6DA5B"
+				item: "kubejs:mercury_orichalcum_ore"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC6AE36A8C4FFC3"]
+			id: "02323B4570968073"
+			rewards: [{
+				count: 16
+				id: "2080C604ABE758F7"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4549F59FD19A47BB"
+				item: "ad_astra:mercury_iron_ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EC6AE36A8C4FFC3"]
+			id: "26F9585D419B2990"
+			rewards: [{
+				count: 5
+				id: "55B59D5AAB8003B4"
+				item: "kubejs:tungsten_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CB0FDADBE9B66C4"
+				item: "kubejs:mercury_tungsten_ore"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78FED156F7DB440F"]
+			description: [
+				"     陨铁接受面板的使用方法类似于&b破坏面板（收集陨石粉模式）&r，在世界的&e最高处&r放置&e向上&r的陨铁接受面板就能缓慢收集&6无限的陨铁矿&r，只是它的速度是破坏面板收集陨石粉时的&31/10&r。"
+				""
+				"      流星雨之板则是新生魔艺的仪式板，&a使用方法与其它仪式板相同&r。启动仪式后持续进行1分钟，不需要投入额外物品，大大小小的陨石会开始在火盆周围的&684*84范围内&r坠落，&c请务必用防爆的方块保护好你的仪式火盆！"
+			]
+			hide_dependent_lines: true
+			id: "2256184027A7E102"
+			rewards: [{
+				count: 16
+				id: "0A3F3BBB77034CC6"
+				item: "kubejs:meteorium_scrap"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "别呆在月球上干等啦"
+			tasks: [
+				{
+					id: "10EA6FDC07A8DA49"
+					item: "cti:meteor_shower_tablet"
+					type: "item"
+				}
+				{
+					id: "6936EABBB2646A12"
+					item: "cti:meteorium_plane"
+					type: "item"
+				}
+			]
+			title: "如何获得更多陨铁？"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2256184027A7E102"]
+			id: "770DFBBC6206177D"
+			invisible: true
+			rewards: [{
+				id: "25E9A17522B2C3E6"
+				item: "tinkers_ingenuity:star_alloy_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "恭喜你发现隐藏材料！"
+			tasks: [{
+				id: "4A4B43A330A90E4A"
+				item: "tinkers_ingenuity:star_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2DB9A43306E23021"
+				"2A270D277063DA2F"
+			]
+			description: [
+				" &9     天王星表面覆盖着大量的凛冰燃料，凛冰燃料的下方是有着深谷的岩质核心。"
+				"&d      天王星的深谷中有大量可燃冰和钻石"
+				"&e      由于天王星的重力非常大，在第一次去前记得多准备点&b飞行药水&r！！"
+				"      在此处，&b机动风车&r&a24倍转速&r（最大256），&bpowah热力发电机&r&b1.5倍&r效率；{image:kubejs:textures/ftbq_images/2024-12-04_10.03.56.png width:256 height:133 align:1}"
+				""
+				"&c环境危害："
+				" -压强  1.8"
+				" -霜冻  1.9"
+			]
+			icon: "kubejs:gas_hydrate_ore"
+			id: "7362C9579B29FEF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67CD407D83E233A3"
+					table_id: 1355798249144543854L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "281EA48F329DA734"
+					table_id: 1964242391969065963L
+					type: "choice"
+				}
+			]
+			shape: "circle"
+			subtitle: "虽然叫气态行星，但是通常认为它也是有个岩石核心的"
+			tasks: [{
+				dimension: "ad_astra:uranus"
+				id: "459A37DCBA4DC200"
+				type: "dimension"
+			}]
+			title: "访问：天王星"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7362C9579B29FEF7"]
+			description: ["      同时也是一种匠魂材料。"]
+			id: "3107CF2A86CACB0B"
+			rewards: [{
+				id: "3D9544A539EF96A6"
+				item: "kubejs:gas_hydrate"
+				random_bonus: 63
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "可燃冰矿石分布在天王星核心的峡谷里，主要用于合成石墨烯"
+			tasks: [{
+				id: "0EF3B0A3BC6779AF"
+				item: "kubejs:gas_hydrate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3107CF2A86CACB0B"]
+			description: [""]
+			id: "5B93257EFC204EA0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD3CBC35A05B0EE"
+					table_id: 1355798249144543854L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30FEB310E8EFB353"
+					table_id: 1964242391969065963L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49C1406C3A3CDA6E"
+					table_id: 995320823191003503L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "452F0F1FD53446F5"
+					table_id: 2171644119722362148L
+					type: "choice"
+				}
+			]
+			subtitle: "石墨烯的高效配方"
+			tasks: [{
+				count: 256L
+				id: "74492EAC3E70F765"
+				item: "kubejs:graphene"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2A270D277063DA2F"
+				"2DB9A43306E23021"
+			]
+			description: [
+				"     &e木星被厚厚的液氢海洋覆盖，液氢之下是漂浮在岩浆湖上方的大大小小的浮岛。"
+				"     &6木星上有巨量的钻石，深处则有少量超致密矿石。"
+				""
+				"     木星有着最高的pnc环境温度（1900℃）"
+				"     在这里&b机动风车&r&a64倍转速&r（最大256），&bpnc手动压缩机&r&a无限产生4.9bar压力&r；"
+				"     木星上的重力加速度相当高，建议打上&d重力正常化&r强化再探索！"
+				"{image:kubejs:textures/ftbq_images/2024-12-04_10.05.19.png width:256 height:133 align:1}"
+				""
+				"&c环境危害："
+				" -压强  3.25"
+				" -灼热  3.8"
+			]
+			icon: "kubejs:stellar_stone_diamond_ore"
+			id: "15488969CE81DCC6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38AF196BC5996EA7"
+					table_id: 1355798249144543854L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "785354CECB7E775F"
+					table_id: 1355798249144543854L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36F637442D01CC9E"
+					table_id: 1964242391969065963L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F6C6BE68ABB196D"
+					table_id: 1964242391969065963L
+					type: "choice"
+				}
+			]
+			subtitle: "漂浮在液氢中的空岛"
+			tasks: [{
+				dimension: "ad_astra:jupiter"
+				id: "666A4E7D38D18D31"
+				type: "dimension"
+			}]
+			title: "访问：木星"
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15488969CE81DCC6"]
+			description: [
+				"&6      因为超致密极高的熔点，熔炼超致密是个缓慢且低效的过程。是时候升级一下感应炉的插件了！（当然你也可以使用电弧炉，电弧炉烧超致密矿石速度比较快）"
+				"      到这里，你的外星之旅可以短暂的结束了，你需要进入科技第三章才能做出能够前往人马座A*的5级火箭。"
+				"      当然，这些星球上&5未受开发的某些资源&r或许在未来也会有不小的用途。"
+			]
+			id: "58EC903FE4438D01"
+			rewards: [{
+				count: 6
+				id: "0D3304F05AB58C05"
+				item: "etshtinker:ultra_dense"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "无比致密的金属，诞生于气态行星的高压内核深处"
+			tasks: [{
+				id: "2BF033E1DED554D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:ultra_dense_nugget"
+							}
+							{
+								Count: 1b
+								id: "etshtinker:ultra_dense"
+							}
+							{
+								Count: 1b
+								id: "kubejs:stellar_ultra_dense_ore"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15488969CE81DCC6"]
+			description: [
+				"      木星上的地形很无聊，泡在液氢里的只有这么一堆石头，矿石，还有看起来十分滑稽的紫水晶洞。"
+				""
+				"      欸等等，为什么这个紫水晶洞母岩数量如此之多？里面似乎还有些&d发着光的宝藏"
+			]
+			id: "1CB376056D9DABAB"
+			invisible: true
+			rewards: [
+				{
+					count: 16
+					id: "3FDF2C4D3A5A9763"
+					item: "kubejs:stellar_ultra_dense_ore"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39B856122231BCCF"
+					item: "kubejs:ultra_dense_hydride_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "开赌石！"
+			tasks: [{
+				id: "1BCB24299133091A"
+				item: "kubejs:ultra_dense_hydride_crystal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			description: ["      天王星和木星都有极高的压强危害，请给装备打上高压防护再进行探索。"]
+			id: "2DB9A43306E23021"
+			rewards: [{
+				id: "2862E5A654DA664F"
+				item: "kubejs:carbon_plate"
+				random_bonus: 7
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "小心极端压强！"
+			tasks: [{
+				id: "27DA70817CC1C821"
+				item: "kubejs:pneumatic_shield"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58EC903FE4438D01"]
+			description: ["      先把电离防护给我打上！"]
+			id: "0DE2E221FACA2CCF"
+			rewards: [{
+				id: "3EFFF61DDCDA3772"
+				item: "kubejs:electronium_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "准备好前往最后一个星球了吗？"
+			tasks: [{
+				id: "4E2D1BD7482D54E5"
+				item: {
+					Count: 1b
+					id: "cti:tier_5_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DE2E221FACA2CCF"]
+			description: [
+				"      电离冻土星球的地形与液氢海洋之下的木星核心较为相似，崎岖不平。它有&e电离冻土、电离月海和异常区域三种群系。"
+				""
+				"      同时这里也是本包&1最为寒冷&r的地方，因此你应该知道它适合用来干什么了吧"
+				""
+				"      异常区域群系在电离冻土&b地势较低&r的地方，它可能是这个星球上你最关注的地方，&l&6但是它是你将会遇到的最危险的群系之一，&r&n去之前请留意以下两点&r："
+				""
+				"      1.异常区域带有&d无法消除（重力正常化也不能）&r的重力异常，&b每5tick你的重力都会随机变化。"
+				""
+				"      2.异常区域的超质量霜星石会在上方释放&6威力巨大的等离子爆炸，&r在造成两段30点自源伤害的同时，附带多段6点伤害的穿甲的魔法、熔岩和爆炸伤害，&c总伤害95&r。&d在升级装备前去这就是在作死！"
+				""
+				"         在电离冻土维度，&bpowah反应堆&r&a2.25倍效率&r，&b反应堆中子素收集器&r&a催化剂消耗0.75倍概率且钠蒸汽处理上限翻倍&r"
+				"{image:kubejs:textures/ftbq_images/2024-12-05_09.19.59.png width:256 height:120 align:1}"
+				""
+				"&c环境危害："
+				" -电离：0.8（电离冻土）/  2.1（电离月海）/  3.5（异常区域）"
+				" -霜冻：3.9（电离冻土）/  2.2（电离月海）/  1.1（异常区域）"
+			]
+			icon: "kubejs:ionized_slag"
+			id: "74C9AEEDC5BAD54E"
+			size: 1.5d
+			subtitle: "被超新星爆发掀掉大气的气态行星"
+			tasks: [{
+				dimension: "ad_astra:ionized_glacio"
+				icon: "kubejs:ionized_slag"
+				id: "458597B3541C8844"
+				type: "dimension"
+			}]
+			title: "访问：电离冻土"
+			x: 11.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74C9AEEDC5BAD54E"]
+			description: ["这两种矿石分布在异常区域的地表"]
+			id: "564E27A743BF5FF4"
+			rewards: [
+				{
+					count: 8
+					id: "2CB52EC97067F35F"
+					item: "etshtinker:protonium"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C115E8D689E749A"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "这也能成矿？？！"
+			tasks: [
+				{
+					id: "2F70D758260A8FDC"
+					item: "kubejs:overdense_protonium_ore"
+					type: "item"
+				}
+				{
+					id: "6D6EAD5A96A14AAB"
+					item: "kubejs:overdense_neutronium_ore"
+					type: "item"
+				}
+			]
+			title: "质子、中子的矿物形式"
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["74C9AEEDC5BAD54E"]
+			description: ["      电离熔渣分布在电离月海的浅层，&b在热解炉中冶炼还可以获取少量电子"]
+			id: "218F49393116E8C5"
+			rewards: [{
+				count: 8
+				id: "542CCC139D39752A"
+				item: "kubejs:electrocrystal"
+				type: "item"
+			}]
+			subtitle: "处理电离熔渣获取"
+			tasks: [{
+				id: "06C5A43FAAF82698"
+				item: "kubejs:electrocrystal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["74C9AEEDC5BAD54E"]
+			description: [
+				"      单极磁石的母岩稀散地分布在异常区域的-16~0之间"
+				"      单极磁石只会在异常区域中的特定时段自然生长。&d此外，当被放置在超质量霜星石&r（需要紧贴着）&d上方时超质量霜星石会促进单极磁石的生长&r（此时单极磁石只会长在母岩的上方）&d，且无视维度和时间。"
+				""
+				"&c！！！注意！！！"
+				"      最新的研究表明单极磁石奇特的磁学性质会增强电磁能量的释放。&l当单极磁石母岩被放置在&d超质量霜星石&r&l上时，超质量霜星石&c发生等离子爆炸的频率会翻10倍，同时等离子爆炸的基础伤害由&430变为200&c，多段附伤相应增加，波及半径和长度皆翻倍！&r这使得种植单极磁石变得异常危险，请万分留意！"
+			]
+			id: "0F31C279CAD867E7"
+			rewards: [{
+				count: 8
+				id: "105A5656BF6606F3"
+				item: "cti:unipolar_magnet"
+				type: "item"
+			}]
+			subtitle: "像啊，很像啊"
+			tasks: [{
+				id: "7457CAD309F9C947"
+				item: "cti:unipolar_magnet"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F31C279CAD867E7"]
+			description: ["      只需要一些单极磁石，你就能对裂变等离子体进行引导使其表现出湮灭等离子体的特性。"]
+			id: "2C5E287109459EBA"
+			rewards: [{
+				count: 4
+				id: "13E4F4512EA43F44"
+				item: "cti:unipolar_magnet_budding"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "做出这个了的你一定发现了点什么"
+			tasks: [{
+				id: "7D0B7FA486A399EB"
+				item: "kubejs:particle_container"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74C9AEEDC5BAD54E"]
+			description: [
+				"      超质量霜星时在接收到随机刻时有概率会尝试在其上方20格内的第一个空气方块处生成伤害为75的等离子爆炸，对沿途生物造成来源为自己的物理伤害和三段穿甲的熔岩、魔法、爆炸伤害。&b也就是说当你搭建一条20格高的超质量霜星石时，顶部产生等离子爆炸的频率会达到最高。"
+				" &d    在单极磁石母岩的下方放置19个超质量霜星石，超质量霜星石对单极磁石的加速就会达到最高&r"
+			]
+			id: "18063DCA8C460664"
+			subtitle: "别被炸到了"
+			tasks: [{
+				id: "09F07E4F1882DA90"
+				item: "cti:overdense_glacio_stone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74C9AEEDC5BAD54E"]
+			description: ["V一桶看看实力（）"]
+			id: "3A435336999A432F"
+			rewards: [
+				{
+					count: 8
+					id: "58F9E30AA3A61572"
+					item: "cti:unipolar_magnet_budding"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1E8FA36D6DE065A3"
+					item: "kubejs:protonium_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3169469B8E670889"
+					item: "etshtinker:electronium"
+					type: "item"
+				}
+			]
+			subtitle: "在异常区域使用大气冷凝机可以获取的超充能流体中子"
+			tasks: [{
+				consume_items: true
+				id: "7FF7E244C96DD654"
+				item: "etshtinker:overchargedneutronium_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7793487FAF3B0A0B"]
+			description: [
+				" &d     是的，湮灭等离子体用合金离心机能分解出液态等离子体&b（&m谁家狄拉克逆变&r&b）"
+				"      &m都有这个了还缺反物质我看不起你"
+			]
+			id: "5ACDF075A4BD35CB"
+			rewards: [
+				{
+					count: 16
+					id: "67E2CACD37003B01"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "76720190788414F5"
+					item: "avaritia:infinity_catalyst"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "774562A5664554AD"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C5E287109459EBA"]
+			description: ["核废料的再处理。当然，这玩意还是很有用的"]
+			hide_dependency_lines: false
+			id: "7793487FAF3B0A0B"
+			rewards: [{
+				count: 4
+				id: "1FBDCFC686235986"
+				item: "cti:unipolar_magnet_budding"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "  湮灭等离子的一种制取方法（也是另一种反物质制取方法）"
+			tasks: [{
+				id: "7CA30B0998470D3A"
+				item: "etshtinker:stable_plasma"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			description: ["      在击败了图腾鸟和钢铁守护者后，你能用极少量的钢提前做出二阶火箭。"]
+			id: "1474E0D8B73C139E"
+			invisible: true
+			rewards: [{
+				id: "0740876886335920"
+				item: "tinkers_ingenuity:shine_alloy_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "另一种火箭制作方式"
+			tasks: [{
+				id: "6609DEEDD26ABEE6"
+				item: "tinkers_ingenuity:shine_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+	]
+	subtitle: [
+		"长大我要当太空人"
+		"-by EtSH_C2H6S"
+	]
+	title: "特殊章 —— 地球之外"
+}

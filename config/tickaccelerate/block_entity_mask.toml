@@ -1,0 +1,6 @@
+#The type of the mask. Can be 'whitelist' or 'blacklist'.
+type = "whitelist"
+#A list of block identifiers to be included in the mask.
+#Examples: ["minecraft:furnace", "minecraft:chest"]
+blocks = ["*:*"]
+

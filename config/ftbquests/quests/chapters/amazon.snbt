@@ -261,31 +261,6 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: true
-			description: [
-				"制作海梦合金的必要物品，会在&b冻洋避难所&r的箱子刷新，不过你想直接换也不是不行..."
-				"一旦购买一个，便可以让这些&d星体&r浸泡在&b液体魔力&r中无限增殖"
-			]
-			icon: "obscure_api:astral_dust"
-			id: "08DC1B2E65FCB85D"
-			rewards: [{
-				id: "79054A2FFB75874A"
-				item: "obscure_api:astral_dust"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 20L
-				id: "2BC28DD5A80AF1CF"
-				item: "lightmanscurrency:coin_emerald"
-				type: "item"
-			}]
-			title: "星体粉尘"
-			x: -4.5d
-			y: 7.0d
-		}
-		{
 			id: "08421351E0371522"
 			shape: "diamond"
 			size: 2.5d
@@ -303,7 +278,6 @@
 			icon: "enigmaticlegacy:the_infinitum"
 			id: "539AA140EB44C547"
 			rewards: [{
-				auto: "enabled"
 				id: "5C6761A5AD961903"
 				table_id: 8590509534707339916L
 				team_reward: true
@@ -316,7 +290,7 @@
 				type: "item"
 			}]
 			title: "一份奇怪的契约"
-			x: -7.0d
+			x: -6.0d
 			y: 7.0d
 		}
 		{
@@ -330,6 +304,7 @@
 				team_reward: true
 				type: "item"
 			}]
+			subtitle: "黑市真是什么都有"
 			tasks: [{
 				consume_items: true
 				count: 2L
@@ -337,8 +312,8 @@
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "黑市真是什么都有"
-			x: -2.0d
+			title: "邪恶之心"
+			x: -3.0d
 			y: 7.0d
 		}
 		{
@@ -360,7 +335,7 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 8.0d
 		}
 		{
@@ -381,12 +356,13 @@
 				item: "enigmaticlegacy:blazing_core"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 8.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["435891F0D7E64C36"]
+			description: ["      这年头连术石都有副产物了，真好.jpg"]
 			hide: true
 			icon: "enigmaticlegacy:eye_of_nebula"
 			id: "2C14D90DE4EBF6F4"
@@ -401,7 +377,7 @@
 				item: "enigmaticlegacy:eye_of_nebula"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 10.0d
 		}
 		{
@@ -423,7 +399,7 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 8.5d
 		}
 		{
@@ -444,7 +420,7 @@
 				item: "enigmaticlegacy:ocean_stone"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 9.5d
 		}
 		{
@@ -466,7 +442,7 @@
 				item: "enigmaticlegacy:void_pearl"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 9.5d
 		}
 		{
@@ -479,33 +455,8 @@
 				type: "checkmark"
 			}]
 			title: "汝当真如此？"
-			x: -7.0d
+			x: -6.0d
 			y: 9.0d
-		}
-		{
-			can_repeat: true
-			description: [
-				"在没有大型存储的情况下几乎是集成存储的最佳选择，之后的进程中也不容易淘汰。"
-				"&d（注：不要使用碗装食物进行自动喂食，除非你想体验被填满的感觉）&d"
-			]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "204DED0BE9D0DB9A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E8AE862C19EF936"
-				table_id: 4544334782073591041L
-				type: "loot"
-			}]
-			subtitle: "单模块多样化功能存储"
-			tasks: [{
-				consume_items: true
-				id: "7B4006906D9AA4E3"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			title: "背包"
-			x: 2.5d
-			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -537,7 +488,7 @@
 				type: "item"
 			}]
 			title: "修复护符"
-			x: 6.5d
+			x: 3.0d
 			y: 7.0d
 		}
 		{
@@ -550,21 +501,15 @@
 				team_reward: true
 				type: "item"
 			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "450AC0D9676CBD7F"
-					item: "enigmaticlegacy:recall_potion"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 5L
-					id: "6DFB8144D2B7BDB8"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
+			subtitle: "回家的路~"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6DFB8144D2B7BDB8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "扭曲魔镜"
 			x: 4.5d
 			y: 7.0d
 		}
@@ -730,7 +675,7 @@
 				}
 			]
 			title: "生来之恶水晶"
-			x: 3.0d
+			x: 4.5d
 			y: -10.0d
 		}
 		{
@@ -741,6 +686,7 @@
 				count: 8
 				id: "2F89687D952C9996"
 				item: "waystones:waystone"
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -753,6 +699,563 @@
 			title: "指路石"
 			x: -3.0d
 			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "enigmaticlegacy:mending_mixture"
+			id: "1F60E9711DC0D5B8"
+			rewards: [{
+				id: "2F911CCF3EC9059C"
+				item: "enigmaticlegacy:mending_mixture"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "什么都能修"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "708385DD8557648B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "修补混合物"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			icon: "extradelight:oven"
+			id: "3EE0022C48B521BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B18A4EB0AD4D090"
+				table_id: 7498633049533705315L
+				team_reward: true
+				type: "choice"
+			}]
+			subtitle: "为了方便做菜（？）"
+			tasks: [{
+				consume_items: true
+				id: "63C24A00B5CCA4CD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "烤炉的烤盘"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: "extradelight:oven"
+			id: "3DD4DB3FE3DCE41A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11C122415F4B549F"
+				table_id: 2492187114620046830L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1C8C3A075378EFB4"
+				item: "lightmanscurrency:coin_gold"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "额外乐事缺失的菜"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "137953AD0BC8A003"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD146F917FA8497"
+				table_id: 7799396638852285469L
+				team_reward: true
+				type: "choice"
+			}]
+			subtitle: "还在为工程师锤不够耐用而担心吗"
+			tasks: [{
+				consume_items: true
+				id: "2B4306B425C40A91"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "不毁工具系列"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: "cyclic:spawner_seeker"
+			id: "0F0B5757A7E31898"
+			rewards: [{
+				count: 3
+				id: "79B61C3213C7DED2"
+				item: "cyclic:spawner_seeker"
+				random_bonus: 2
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "可以用来找烈焰人刷怪笼？"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0554D0784B628F96"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "刷怪笼探测器"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: "buildinggadgets:construction_paste_container_creative"
+			id: "48791C3058520F23"
+			rewards: [{
+				id: "369C7EA62B2F7326"
+				item: "buildinggadgets:construction_paste_container_creative"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "小帮手的外置神器！"
+			tasks: [{
+				consume_items: true
+				id: "6D4CEB420F08100A"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "创造黏膏容器"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "7AB2C6230744FB1D"
+			shape: "diamond"
+			size: 2.5d
+			subtitle: "其实是小玩具~"
+			tasks: [{
+				id: "33406693C3C1E0DF"
+				type: "checkmark"
+			}]
+			title: "一些东西的不可破坏化"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "twilightforest:ore_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F48E17CCBC3524F"
+			rewards: [{
+				id: "5AC63C497DCEF334"
+				item: {
+					Count: 1b
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1D423E40FF5F52D5"
+					item: {
+						Count: 1b
+						id: "twilightforest:ore_magnet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "23A4CC42180AD0D2"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "twilightforest:peacock_feather_fan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DE657DF143C41C0"
+			rewards: [{
+				id: "02E84C940F00655C"
+				item: {
+					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4CB151EBF2CE51F6"
+					item: {
+						Count: 1b
+						id: "twilightforest:peacock_feather_fan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5D57A0C18E1E9359"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "twilightforest:moonworm_queen"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EDAB1D332A6E82A"
+			rewards: [{
+				id: "68F1663DF9B262D8"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3282A54BFD5E03FD"
+					item: {
+						Count: 1b
+						id: "twilightforest:moonworm_queen"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5220D552C31FF058"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "aquamirae:dagger_of_greed"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "321F42124EB00444"
+			rewards: [{
+				id: "6D8B2F0A43D7FBF6"
+				item: {
+					Count: 1b
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5943418D0FA952A4"
+					item: {
+						Count: 1b
+						id: "aquamirae:dagger_of_greed"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "06BBDFE0C0A80ACA"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "aether:hammer_of_kingbdogz"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E8A83929410D676"
+			rewards: [{
+				id: "12BFB183B898D651"
+				item: {
+					Count: 1b
+					id: "aether:hammer_of_kingbdogz"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2259B052F4ADE459"
+					item: {
+						Count: 1b
+						id: "aether:hammer_of_kingbdogz"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7991DD07DF300349"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "cyclic:antigravity"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63E859AA5B5393B1"
+			rewards: [{
+				id: "681AA27D54CAB858"
+				item: {
+					Count: 1b
+					id: "cyclic:antigravity"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5B4A5D01E27293CE"
+					item: {
+						Count: 1b
+						id: "cyclic:antigravity"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7E3F1AC32E559FD0"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "cyclic:charm_ultimate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D612310C7E5F829"
+			rewards: [{
+				id: "535647FA2060A642"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_ultimate"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "013C4A2F0FFF851D"
+					item: {
+						Count: 1b
+						id: "cyclic:charm_ultimate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1A61BF9F44895A59"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "cyclic:charm_antipotion"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "277E42C87ABE0B76"
+			rewards: [{
+				id: "541899D9B4BC0685"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_antipotion"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "66DBDE752AD673A5"
+					item: {
+						Count: 1b
+						id: "cyclic:charm_antipotion"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7B3641238878393C"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:blueprint"
+				tag: {
+					blueprint: "electrode"
+				}
+			}
+			id: "49B83FA1BF04A66B"
+			rewards: [{
+				id: "530290F1F8FF6156"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "如果你是懒狗的话 当然可以花大价钱换一个"
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "4026B96DCB5F894C"
+					item: "minecraft:emerald"
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "74360DCB04048EA7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "石墨蓝图"
+			x: 4.5d
+			y: 10.0d
 		}
 	]
 	title: "来自亚马龙的游商"

@@ -22,7 +22,7 @@
 	#Range: 0.25 ~ 1.0
 	hudScale = 0.6
 	#Enable item information HUD during gameplay
-	enableHUD = false
+	enableHUD = true
 	#Color of energy in item durability display.
 	energyColor = 3997338
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.
@@ -100,7 +100,7 @@
 
 			[client.gui.window.sideConfig]
 				x = 9
-				y = 20
+				y = 22
 
 			[client.gui.window.transporterConfig]
 				x = 10

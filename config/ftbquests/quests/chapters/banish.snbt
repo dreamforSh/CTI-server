@@ -345,7 +345,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
 			id: "7AC3AFDBA2D33A09"
@@ -356,7 +356,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "10E73A4F3E773FEA"
@@ -378,7 +378,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.5d
+			y: -0.5d
 		}
 		{
 			id: "2FE2B086E0D5F3E2"
@@ -390,6 +390,35 @@
 			}]
 			x: 7.0d
 			y: -1.5d
+		}
+		{
+			description: ["其实不止这个，但是最具代表性"]
+			id: "45348FEF96E1C8C4"
+			subtitle: "上榜理由 : 破坏了mek的世界观"
+			tasks: [{
+				id: "7E6F005FE3B79CCD"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonbone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "3091F2EB90113293"
+			subtitle: "上榜理由：你懂的"
+			tasks: [{
+				id: "43426CEBE571268E"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
 		}
 	]
 	subtitle: [

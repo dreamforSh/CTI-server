@@ -134,25 +134,6 @@
 			y: -0.5d
 		}
 		{
-			id: "2AC06B09BBB2BA62"
-			subtitle: "装b用"
-			tasks: [{
-				id: "2F8287732DEECBAC"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "aether:accessories_capes"
-					}
-				}
-				title: "Any #aether:accessories_capes"
-				type: "item"
-			}]
-			title: "披风"
-			x: 2.0d
-			y: 0.5d
-		}
-		{
 			description: ["&b绝对的隐身，可以连同身上手上的装备装饰一同隐身，连粒子效果也没有&r"]
 			id: "4B24F84EAF85AEDF"
 			tasks: [{
@@ -178,7 +159,7 @@
 			id: "5C659D4A4052187F"
 			subtitle: "不如健体苹果的玩意"
 			tasks: [{
-				id: "3432D4B7BCAF806E"
+				id: "1622C4C2FA93C380"
 				item: "aether:agility_cape"
 				type: "item"
 			}]
@@ -199,8 +180,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			id: "078B2A2689EC405A"
@@ -210,18 +191,19 @@
 				item: "aether:regeneration_stone"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			id: "7A20E0F9E434360A"
+			subtitle: "滑翔加缓降"
 			tasks: [{
 				id: "44FF155577EFA225"
 				item: "aether:golden_feather"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			id: "0072382AAB4D5849"
@@ -230,7 +212,7 @@
 				item: "aether:iron_bubble"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -769,6 +751,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["并非前期可用"]
 			id: "3B29E00B48A1D7AE"
 			subtitle: "前期随身供电方案"
 			tasks: [{
@@ -858,12 +841,19 @@
 			id: "108C44215B35F796"
 			subtitle: "实用性高，拓展性强，你最好的收纳伙伴"
 			tasks: [{
-				id: "6EB2252705A67D27"
-				item: "sophisticatedbackpacks:backpack"
+				id: "084BF4AE22BE934D"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^sophisticatedbackpacks:.*_backpack"
+					}
+				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			title: "精妙背包"
+			x: 14.5d
+			y: 0.5d
 		}
 		{
 			id: "5425B9019F2B8683"
@@ -884,63 +874,6 @@
 			}]
 			x: 19.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["108C44215B35F796"]
-			id: "193BA2CC3083C01F"
-			subtitle: "做了没意义"
-			tasks: [{
-				id: "7AD13768B7596D88"
-				item: "sophisticatedbackpacks:copper_backpack"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["108C44215B35F796"]
-			id: "7ADAF8829D4EC716"
-			tasks: [{
-				id: "4ECF8D175BADF0E1"
-				item: "sophisticatedbackpacks:iron_backpack"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7ADAF8829D4EC716"]
-			id: "102CDD1D395BCAAE"
-			tasks: [{
-				id: "2437186363C33A8D"
-				item: "sophisticatedbackpacks:gold_backpack"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["102CDD1D395BCAAE"]
-			id: "6DDC66FBFDA5FE74"
-			tasks: [{
-				id: "2204F7F55B95DE9A"
-				item: "sophisticatedbackpacks:diamond_backpack"
-				type: "item"
-			}]
-			x: 17.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["6DDC66FBFDA5FE74"]
-			id: "62FE28772F497364"
-			subtitle: "最强收纳"
-			tasks: [{
-				id: "4E63AF0A98B628A4"
-				item: "sophisticatedbackpacks:netherite_backpack"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -0.5d
 		}
 		{
 			id: "7D25FC550031777A"
@@ -1017,103 +950,19 @@
 			id: "3961DD25C8956835"
 			subtitle: "emc储存"
 			tasks: [{
-				id: "00C826D318946DD0"
+				id: "6904373D0EA38644"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						Parent: { }
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^projecte:klein_star_.*"
 					}
-					id: "projecte:klein_star_ein"
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3961DD25C8956835"]
-			id: "52E371E61CE2ED20"
-			tasks: [{
-				id: "709543F5213892D8"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:klein_star_zwei"
-				}
-				type: "item"
-			}]
-			x: 14.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["52E371E61CE2ED20"]
-			id: "30D923CEB1EC1F0B"
-			tasks: [{
-				id: "2F0CF07A33409945"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:klein_star_drei"
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["30D923CEB1EC1F0B"]
-			id: "6AE45D3BA668DDA6"
-			tasks: [{
-				id: "07A369B4591C7442"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:klein_star_vier"
-				}
-				type: "item"
-			}]
-			x: 16.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6AE45D3BA668DDA6"]
-			id: "43AF98C91DA727A4"
-			tasks: [{
-				id: "704B184908E98BBD"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:klein_star_sphere"
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["43AF98C91DA727A4"]
-			id: "6960191FD5E4D07F"
-			tasks: [{
-				id: "3C00F90B303413BB"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:klein_star_omega"
-				}
-				type: "item"
-			}]
-			x: 18.0d
-			y: -1.5d
+			title: "卡莱恩能量之星"
+			x: 15.5d
+			y: 0.5d
 		}
 		{
 			id: "69407340EBF0F62A"
@@ -1148,99 +997,20 @@
 		}
 		{
 			id: "5571514BB5C0F950"
+			subtitle: "金钱的味道~"
 			tasks: [{
-				id: "446CD03D1C39AD23"
+				id: "35675AE0809ECCF0"
 				item: {
 					Count: 1b
-					id: "lightmanscurrency:wallet_copper"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5571514BB5C0F950"]
-			id: "5345A03728232479"
-			tasks: [{
-				id: "290FCF7FCD8E930F"
-				item: {
-					Count: 1b
-					id: "lightmanscurrency:wallet_iron"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 14.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5345A03728232479"]
-			id: "5D76BA0BF6020824"
-			tasks: [{
-				id: "2F81F44840AF5F47"
-				item: {
-					Count: 1b
-					id: "lightmanscurrency:wallet_gold"
+					id: "itemfilters:id_regex"
 					tag: {
-						AutoConvert: 1b
+						value: "^lightmanscurrency:wallet_.*"
 					}
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5D76BA0BF6020824"]
-			id: "7659703D78A8CBDD"
-			tasks: [{
-				id: "32202007EBC552FB"
-				item: {
-					Count: 1b
-					id: "lightmanscurrency:wallet_emerald"
-					tag: {
-						AutoConvert: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 16.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7659703D78A8CBDD"]
-			id: "020D3D5A559D6CF2"
-			tasks: [{
-				id: "4C364F8098633C58"
-				item: {
-					Count: 1b
-					id: "lightmanscurrency:wallet_diamond"
-					tag: {
-						AutoConvert: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["020D3D5A559D6CF2"]
-			id: "39E67DE4B7837B7A"
-			tasks: [{
-				id: "304101A0CB0674A1"
-				item: {
-					Count: 1b
-					id: "lightmanscurrency:wallet_netherite"
-					tag: {
-						AutoConvert: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 18.0d
+			title: "钱包"
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -1647,7 +1417,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			id: "5A61FFADC9A360D2"
@@ -1656,38 +1426,8 @@
 				item: "gobber2:gobber2_ring_return"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 12.5d
-		}
-		{
-			id: "73345374A85CA4E8"
-			tasks: [{
-				id: "6AD97D44C5BA1492"
-				item: "gobber2:gobber2_ring_ascent"
-				type: "item"
-			}]
 			x: 12.0d
-			y: 8.5d
-		}
-		{
-			id: "4D5DCDA0F704CD18"
-			tasks: [{
-				id: "4D997C28E529C810"
-				item: "gobber2:gobber2_ring_above"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 9.5d
-		}
-		{
-			id: "30907AB3EEE6AACA"
-			tasks: [{
-				id: "5206D2E61555A80A"
-				item: "gobber2:gobber2_ring_miner"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 9.5d
+			y: 11.5d
 		}
 		{
 			id: "6B5E16FE3F5A846D"
@@ -1708,7 +1448,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			id: "3B4E99655E5C471A"
@@ -1729,7 +1469,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			id: "79A56BA97BBE888D"
@@ -1739,7 +1479,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			id: "0CAE012C76612C4B"
@@ -1749,7 +1489,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			id: "18668FB121BFD027"
@@ -1759,7 +1499,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			id: "7F34C562316BCA20"
@@ -1769,7 +1509,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			id: "213B67EE228017CD"
@@ -1779,7 +1519,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			id: "6A1F557ABDA3E7CC"
@@ -1802,17 +1542,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 10.5d
-		}
-		{
-			id: "7E2FF964B2F56D5D"
-			tasks: [{
-				id: "26F050771F42FB54"
-				item: "gobber2:gobber2_ring_haste"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			id: "466799DEECD7E0A0"
@@ -1821,7 +1551,7 @@
 				item: "gobber2:gobber2_ring_repair"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: 11.5d
 		}
 		{
@@ -1832,7 +1562,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			id: "52A452E3235E0053"
@@ -1842,7 +1572,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			id: "56AF40FA3ED7A6B9"
@@ -1852,7 +1582,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			id: "6DF921F5D43D8155"
@@ -1863,18 +1593,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 9.5d
-		}
-		{
-			id: "51FE50F7BFBE420B"
-			subtitle: "日  炎  圣  盾"
-			tasks: [{
-				id: "4930CDBE10C1684B"
-				item: "gobber2:gobber2_ring_pyro"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			id: "5C556BA8F8F7B4F0"
@@ -1884,17 +1603,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 10.5d
-		}
-		{
-			id: "45592A6FE269C630"
-			tasks: [{
-				id: "3229A11757941AE3"
-				item: "gobber2:gobber2_ring_traveler"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			id: "4AB5E479B07EBC12"
@@ -1903,7 +1612,7 @@
 				item: "gobber2:gobber2_ring_void"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 11.5d
 		}
 		{
@@ -1915,17 +1624,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 11.5d
-		}
-		{
-			id: "7B02137C376E1572"
-			tasks: [{
-				id: "298289BA1EF94F0F"
-				item: "gobber2:gobber2_ring_stealth"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 12.5d
+			y: 10.5d
 		}
 		{
 			id: "70CB4F70DB5661DC"
@@ -2125,6 +1824,7 @@
 			y: 15.5d
 		}
 		{
+			description: ["本包变得更便宜了"]
 			id: "7D51021070EAB32F"
 			subtitle: "简易跨纬度无线存储方案"
 			tasks: [{
@@ -2154,7 +1854,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 14.5d
+			y: 16.5d
 		}
 		{
 			id: "46F2F058F892D631"
@@ -2284,7 +1984,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			id: "033090FB242FCA7D"
@@ -2999,7 +2699,6 @@
 		}
 		{
 			dependencies: [
-				"7ADAF8829D4EC716"
 				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
@@ -3010,9 +2709,6 @@
 				"108C44215B35F796"
 				"027DB2F0783CE8BE"
 				"7A2B59C565ECFE0D"
-				"30907AB3EEE6AACA"
-				"6AE45D3BA668DDA6"
-				"2AC06B09BBB2BA62"
 				"078B2A2689EC405A"
 				"3E4E12523FC347C2"
 				"0648274C32172F0D"
@@ -3029,7 +2725,6 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"020D3D5A559D6CF2"
 				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
@@ -3040,7 +2735,6 @@
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
-				"7B02137C376E1572"
 				"1951C16AC8D1D08C"
 				"2F1F3B62F0488459"
 				"41E254CD5A890BCB"
@@ -3063,7 +2757,6 @@
 				"660423B6E2F2D7DB"
 				"40ED24B921EFC325"
 				"4AB5E479B07EBC12"
-				"62FE28772F497364"
 				"736179AE65838DEB"
 				"6DE22675342B991B"
 				"4CE68C4ADB7E797B"
@@ -3076,13 +2769,10 @@
 				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
-				"51FE50F7BFBE420B"
 				"5A61FFADC9A360D2"
 				"27A6C35C33741B30"
 				"2681110E0E560166"
 				"54E3F943AFBB5CDA"
-				"102CDD1D395BCAAE"
-				"52E371E61CE2ED20"
 				"2E18F634F55AF5BE"
 				"19AAB58011646B87"
 				"2F83DBE938307690"
@@ -3093,9 +2783,7 @@
 				"5A1B008E00493605"
 				"451670A24096D5FC"
 				"4E835DEE29931A1F"
-				"4D5DCDA0F704CD18"
 				"702862A610BF7CD3"
-				"7E2FF964B2F56D5D"
 				"4939BAA1E2820FF9"
 				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
@@ -3108,13 +2796,10 @@
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"73345374A85CA4E8"
 				"51C3A696388B552B"
-				"6DDC66FBFDA5FE74"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
-				"39E67DE4B7837B7A"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
 				"4B29F0B9FB2081B3"
@@ -3123,7 +2808,6 @@
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
 				"1BA25A32A76F75F2"
-				"7659703D78A8CBDD"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
@@ -3135,7 +2819,6 @@
 				"54045A447600E764"
 				"113E930A1EF665E4"
 				"34F355EFE1DD07E6"
-				"5345A03728232479"
 				"675835B118F3B533"
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
@@ -3151,19 +2834,15 @@
 				"52A452E3235E0053"
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
-				"5D76BA0BF6020824"
 				"0072382AAB4D5849"
 				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
-				"43AF98C91DA727A4"
 				"128D29D06709ED32"
-				"193BA2CC3083C01F"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
 				"19EA2BA2E5758A53"
-				"45592A6FE269C630"
 				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
@@ -3213,13 +2892,11 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"6960191FD5E4D07F"
 				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
 				"0295954C23DDEDEB"
-				"30D923CEB1EC1F0B"
 				"1CBE52071FFEBCB7"
 				"4917E0DF40A5949C"
 				"366AD3610851F6AE"
@@ -3263,7 +2940,6 @@
 		}
 		{
 			dependencies: [
-				"7ADAF8829D4EC716"
 				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
@@ -3274,9 +2950,6 @@
 				"108C44215B35F796"
 				"027DB2F0783CE8BE"
 				"7A2B59C565ECFE0D"
-				"30907AB3EEE6AACA"
-				"6AE45D3BA668DDA6"
-				"2AC06B09BBB2BA62"
 				"078B2A2689EC405A"
 				"3E4E12523FC347C2"
 				"0648274C32172F0D"
@@ -3293,7 +2966,6 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"020D3D5A559D6CF2"
 				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
@@ -3304,7 +2976,6 @@
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
-				"7B02137C376E1572"
 				"1951C16AC8D1D08C"
 				"2F1F3B62F0488459"
 				"41E254CD5A890BCB"
@@ -3327,7 +2998,6 @@
 				"660423B6E2F2D7DB"
 				"40ED24B921EFC325"
 				"4AB5E479B07EBC12"
-				"62FE28772F497364"
 				"736179AE65838DEB"
 				"6DE22675342B991B"
 				"4CE68C4ADB7E797B"
@@ -3340,13 +3010,10 @@
 				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
-				"51FE50F7BFBE420B"
 				"5A61FFADC9A360D2"
 				"27A6C35C33741B30"
 				"2681110E0E560166"
 				"54E3F943AFBB5CDA"
-				"102CDD1D395BCAAE"
-				"52E371E61CE2ED20"
 				"2E18F634F55AF5BE"
 				"19AAB58011646B87"
 				"2F83DBE938307690"
@@ -3357,9 +3024,7 @@
 				"5A1B008E00493605"
 				"451670A24096D5FC"
 				"4E835DEE29931A1F"
-				"4D5DCDA0F704CD18"
 				"702862A610BF7CD3"
-				"7E2FF964B2F56D5D"
 				"4939BAA1E2820FF9"
 				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
@@ -3372,13 +3037,10 @@
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"73345374A85CA4E8"
 				"51C3A696388B552B"
-				"6DDC66FBFDA5FE74"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
-				"39E67DE4B7837B7A"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
 				"4B29F0B9FB2081B3"
@@ -3387,7 +3049,6 @@
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
 				"1BA25A32A76F75F2"
-				"7659703D78A8CBDD"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
@@ -3399,7 +3060,6 @@
 				"54045A447600E764"
 				"113E930A1EF665E4"
 				"34F355EFE1DD07E6"
-				"5345A03728232479"
 				"675835B118F3B533"
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
@@ -3415,19 +3075,15 @@
 				"52A452E3235E0053"
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
-				"5D76BA0BF6020824"
 				"0072382AAB4D5849"
 				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
-				"43AF98C91DA727A4"
 				"128D29D06709ED32"
-				"193BA2CC3083C01F"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
 				"19EA2BA2E5758A53"
-				"45592A6FE269C630"
 				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
@@ -3477,13 +3133,11 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"6960191FD5E4D07F"
 				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
 				"0295954C23DDEDEB"
-				"30D923CEB1EC1F0B"
 				"1CBE52071FFEBCB7"
 				"4917E0DF40A5949C"
 				"366AD3610851F6AE"
@@ -3537,7 +3191,6 @@
 		}
 		{
 			dependencies: [
-				"7ADAF8829D4EC716"
 				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
@@ -3548,9 +3201,6 @@
 				"108C44215B35F796"
 				"027DB2F0783CE8BE"
 				"7A2B59C565ECFE0D"
-				"30907AB3EEE6AACA"
-				"6AE45D3BA668DDA6"
-				"2AC06B09BBB2BA62"
 				"078B2A2689EC405A"
 				"3E4E12523FC347C2"
 				"0648274C32172F0D"
@@ -3567,7 +3217,6 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"020D3D5A559D6CF2"
 				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
@@ -3578,7 +3227,6 @@
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
-				"7B02137C376E1572"
 				"1951C16AC8D1D08C"
 				"2F1F3B62F0488459"
 				"41E254CD5A890BCB"
@@ -3601,7 +3249,6 @@
 				"660423B6E2F2D7DB"
 				"40ED24B921EFC325"
 				"4AB5E479B07EBC12"
-				"62FE28772F497364"
 				"736179AE65838DEB"
 				"6DE22675342B991B"
 				"4CE68C4ADB7E797B"
@@ -3614,13 +3261,10 @@
 				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
-				"51FE50F7BFBE420B"
 				"5A61FFADC9A360D2"
 				"27A6C35C33741B30"
 				"2681110E0E560166"
 				"54E3F943AFBB5CDA"
-				"102CDD1D395BCAAE"
-				"52E371E61CE2ED20"
 				"2E18F634F55AF5BE"
 				"19AAB58011646B87"
 				"2F83DBE938307690"
@@ -3631,9 +3275,7 @@
 				"5A1B008E00493605"
 				"451670A24096D5FC"
 				"4E835DEE29931A1F"
-				"4D5DCDA0F704CD18"
 				"702862A610BF7CD3"
-				"7E2FF964B2F56D5D"
 				"4939BAA1E2820FF9"
 				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
@@ -3646,13 +3288,10 @@
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"73345374A85CA4E8"
 				"51C3A696388B552B"
-				"6DDC66FBFDA5FE74"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
-				"39E67DE4B7837B7A"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
 				"4B29F0B9FB2081B3"
@@ -3661,7 +3300,6 @@
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
 				"1BA25A32A76F75F2"
-				"7659703D78A8CBDD"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
@@ -3673,7 +3311,6 @@
 				"54045A447600E764"
 				"113E930A1EF665E4"
 				"34F355EFE1DD07E6"
-				"5345A03728232479"
 				"675835B118F3B533"
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
@@ -3689,19 +3326,15 @@
 				"52A452E3235E0053"
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
-				"5D76BA0BF6020824"
 				"0072382AAB4D5849"
 				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
-				"43AF98C91DA727A4"
 				"128D29D06709ED32"
-				"193BA2CC3083C01F"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
 				"19EA2BA2E5758A53"
-				"45592A6FE269C630"
 				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
@@ -3751,13 +3384,11 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"6960191FD5E4D07F"
 				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
 				"0295954C23DDEDEB"
-				"30D923CEB1EC1F0B"
 				"1CBE52071FFEBCB7"
 				"4917E0DF40A5949C"
 				"366AD3610851F6AE"
@@ -3807,7 +3438,6 @@
 		}
 		{
 			dependencies: [
-				"7ADAF8829D4EC716"
 				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
@@ -3818,9 +3448,6 @@
 				"108C44215B35F796"
 				"027DB2F0783CE8BE"
 				"7A2B59C565ECFE0D"
-				"30907AB3EEE6AACA"
-				"6AE45D3BA668DDA6"
-				"2AC06B09BBB2BA62"
 				"078B2A2689EC405A"
 				"3E4E12523FC347C2"
 				"0648274C32172F0D"
@@ -3837,7 +3464,6 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"020D3D5A559D6CF2"
 				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
@@ -3848,7 +3474,6 @@
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
-				"7B02137C376E1572"
 				"1951C16AC8D1D08C"
 				"2F1F3B62F0488459"
 				"41E254CD5A890BCB"
@@ -3871,7 +3496,6 @@
 				"660423B6E2F2D7DB"
 				"40ED24B921EFC325"
 				"4AB5E479B07EBC12"
-				"62FE28772F497364"
 				"736179AE65838DEB"
 				"6DE22675342B991B"
 				"4CE68C4ADB7E797B"
@@ -3884,13 +3508,10 @@
 				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
-				"51FE50F7BFBE420B"
 				"5A61FFADC9A360D2"
 				"27A6C35C33741B30"
 				"2681110E0E560166"
 				"54E3F943AFBB5CDA"
-				"102CDD1D395BCAAE"
-				"52E371E61CE2ED20"
 				"2E18F634F55AF5BE"
 				"19AAB58011646B87"
 				"2F83DBE938307690"
@@ -3901,9 +3522,7 @@
 				"5A1B008E00493605"
 				"451670A24096D5FC"
 				"4E835DEE29931A1F"
-				"4D5DCDA0F704CD18"
 				"702862A610BF7CD3"
-				"7E2FF964B2F56D5D"
 				"4939BAA1E2820FF9"
 				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
@@ -3916,13 +3535,10 @@
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"73345374A85CA4E8"
 				"51C3A696388B552B"
-				"6DDC66FBFDA5FE74"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
-				"39E67DE4B7837B7A"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
 				"4B29F0B9FB2081B3"
@@ -3931,7 +3547,6 @@
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
 				"1BA25A32A76F75F2"
-				"7659703D78A8CBDD"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
@@ -3943,7 +3558,6 @@
 				"54045A447600E764"
 				"113E930A1EF665E4"
 				"34F355EFE1DD07E6"
-				"5345A03728232479"
 				"675835B118F3B533"
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
@@ -3959,19 +3573,15 @@
 				"52A452E3235E0053"
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
-				"5D76BA0BF6020824"
 				"0072382AAB4D5849"
 				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
-				"43AF98C91DA727A4"
 				"128D29D06709ED32"
-				"193BA2CC3083C01F"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
 				"19EA2BA2E5758A53"
-				"45592A6FE269C630"
 				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
@@ -4021,13 +3631,11 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"6960191FD5E4D07F"
 				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
 				"0295954C23DDEDEB"
-				"30D923CEB1EC1F0B"
 				"1CBE52071FFEBCB7"
 				"4917E0DF40A5949C"
 				"366AD3610851F6AE"
@@ -4071,7 +3679,6 @@
 		}
 		{
 			dependencies: [
-				"7ADAF8829D4EC716"
 				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
@@ -4082,9 +3689,6 @@
 				"108C44215B35F796"
 				"027DB2F0783CE8BE"
 				"7A2B59C565ECFE0D"
-				"30907AB3EEE6AACA"
-				"6AE45D3BA668DDA6"
-				"2AC06B09BBB2BA62"
 				"078B2A2689EC405A"
 				"3E4E12523FC347C2"
 				"0648274C32172F0D"
@@ -4101,7 +3705,6 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"020D3D5A559D6CF2"
 				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
@@ -4112,7 +3715,6 @@
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
-				"7B02137C376E1572"
 				"1951C16AC8D1D08C"
 				"2F1F3B62F0488459"
 				"41E254CD5A890BCB"
@@ -4135,7 +3737,6 @@
 				"660423B6E2F2D7DB"
 				"40ED24B921EFC325"
 				"4AB5E479B07EBC12"
-				"62FE28772F497364"
 				"736179AE65838DEB"
 				"6DE22675342B991B"
 				"4CE68C4ADB7E797B"
@@ -4148,13 +3749,10 @@
 				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
-				"51FE50F7BFBE420B"
 				"5A61FFADC9A360D2"
 				"27A6C35C33741B30"
 				"2681110E0E560166"
 				"54E3F943AFBB5CDA"
-				"102CDD1D395BCAAE"
-				"52E371E61CE2ED20"
 				"2E18F634F55AF5BE"
 				"19AAB58011646B87"
 				"2F83DBE938307690"
@@ -4165,9 +3763,7 @@
 				"5A1B008E00493605"
 				"451670A24096D5FC"
 				"4E835DEE29931A1F"
-				"4D5DCDA0F704CD18"
 				"702862A610BF7CD3"
-				"7E2FF964B2F56D5D"
 				"4939BAA1E2820FF9"
 				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
@@ -4180,13 +3776,10 @@
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"73345374A85CA4E8"
 				"51C3A696388B552B"
-				"6DDC66FBFDA5FE74"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
-				"39E67DE4B7837B7A"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
 				"4B29F0B9FB2081B3"
@@ -4195,7 +3788,6 @@
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
 				"1BA25A32A76F75F2"
-				"7659703D78A8CBDD"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
@@ -4207,7 +3799,6 @@
 				"54045A447600E764"
 				"113E930A1EF665E4"
 				"34F355EFE1DD07E6"
-				"5345A03728232479"
 				"675835B118F3B533"
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
@@ -4223,19 +3814,15 @@
 				"52A452E3235E0053"
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
-				"5D76BA0BF6020824"
 				"0072382AAB4D5849"
 				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
-				"43AF98C91DA727A4"
 				"128D29D06709ED32"
-				"193BA2CC3083C01F"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
 				"19EA2BA2E5758A53"
-				"45592A6FE269C630"
 				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
@@ -4285,13 +3872,11 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"6960191FD5E4D07F"
 				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
 				"0295954C23DDEDEB"
-				"30D923CEB1EC1F0B"
 				"1CBE52071FFEBCB7"
 				"4917E0DF40A5949C"
 				"366AD3610851F6AE"
@@ -4504,6 +4089,197 @@
 			}]
 			x: 2.0d
 			y: 19.0d
+		}
+		{
+			id: "03F617AABC891AC0"
+			tasks: [{
+				id: "748B5A915645F824"
+				item: "aether_redux:enchanted_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03F617AABC891AC0"]
+			id: "392C9812C2D597B7"
+			tasks: [{
+				id: "17D343EDFC85E02E"
+				item: "aether_redux:ring_of_wisdom"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03F617AABC891AC0"]
+			id: "3F2E0F947917F0C2"
+			tasks: [{
+				id: "74440144D2A7E90F"
+				item: "aether_redux:shroom_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03F617AABC891AC0"]
+			id: "70BC8996834C5BFA"
+			tasks: [{
+				id: "201930C4FCD1B241"
+				item: "aether_redux:sentry_ring"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "772EDFD6E112AE99"
+			tasks: [{
+				id: "5C50719FC01B98A9"
+				item: "aether_redux:grand_victory_medal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "255C50FED8B25E6A"
+			tasks: [{
+				id: "3DAB5D69A358E66D"
+				item: "aether_redux:ring_of_construction"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "7A62509F1833AD5A"
+			tasks: [{
+				id: "4F36BDD04808C818"
+				item: "aether_redux:cockatrice_feather"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A62509F1833AD5A"]
+			id: "1D94669CAB875AF2"
+			tasks: [{
+				id: "37990C9F25395AC9"
+				item: "aether_redux:feather_of_warding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "78156E8E019A0FBA"
+			tasks: [{
+				id: "5A91B7C293C21B87"
+				item: "aether_redux:solar_emblem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "3F1FF33FB9E16B02"
+			tasks: [{
+				id: "57DD917AF3E0DD6C"
+				item: {
+					Count: 1b
+					id: "aether_redux:vampire_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "032D48AFDBE7BE47"
+			tasks: [{
+				id: "6644C1747707F0D2"
+				item: "aether:valkyrie_cape"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "04F7CE5CB330824B"
+			tasks: [{
+				id: "5E8BC14764235D09"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:red_cape"
+							}
+							{
+								Count: 1b
+								id: "aether:blue_cape"
+							}
+							{
+								Count: 1b
+								id: "aether:yellow_cape"
+							}
+							{
+								Count: 1b
+								id: "aether:white_cape"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "天境披风（简单）"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "3E8B993D2B42E76E"
+			subtitle: "二段跳喵~"
+			tasks: [{
+				id: "0924D662E3DE7BD3"
+				item: "aether_redux:airbound_cape"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "62B28B4F60EB2E94"
+			tasks: [{
+				id: "751250EAE21AE52F"
+				item: "aether_redux:snailshell_shield"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "0EEAF786EFF6DFEB"
+			tasks: [{
+				id: "36FE723833D3F503"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "aether:accessories_gloves"
+					}
+				}
+				title: "Any #aether:accessories_gloves"
+				type: "item"
+			}]
+			title: "天境护手"
+			x: 5.0d
+			y: 1.5d
 		}
 	]
 	subtitle: [

@@ -121,7 +121,7 @@ event.shaped(Item.of('ae2additions:super_cell_component_65m',2), [
 ],
 {
   A:'ae2:engineering_processor',
-  B: 'kubejs:atherium_alloy',
+  B: 'etshtinker:trinity_intereactive_alloy',
   C: 'ae2additions:super_cell_component_16m',
   D:'cti:rasterite'
 }
@@ -214,7 +214,7 @@ event.shaped(Item.of('ae2additions:cell_component_4096',1), [
   'BDB'
 ],
 {
-  A: 'ae2additions:cell_component_1024',
+  A: '#kubejs:cell_1m',
   B: 'ae2:calculation_processor',
   C: 'kubejs:pure_silicon',
   D: 'mekanism:structural_glass'
@@ -226,7 +226,7 @@ event.shaped(Item.of('ae2additions:cell_component_16384',1), [
   'BDB'
 ],
 {
-  A: 'ae2additions:cell_component_4096',
+  A: '#kubejs:cell_4m',
   B: 'ae2:calculation_processor',
   C: 'kubejs:pure_silicon',
   D: 'mekanismgenerators:reactor_glass'
@@ -238,7 +238,56 @@ event.shaped(Item.of('ae2additions:cell_component_65536',1), [
   'BDB'
 ],
 {
-  A: 'ae2additions:cell_component_16384',
+  A: '#kubejs:cell_16m',
+  B: 'ae2:calculation_processor',
+  C: 'kubejs:pure_silicon',
+  D: 'mekanismgenerators:reactor_glass'
+}
+)
+
+event.shaped(Item.of('megacells:cell_component_1m',1), [
+  'BDB',
+  'CAC',
+  'BDB'
+],
+{
+  A: 'ae2:cell_component_256k',
+  B: 'ae2:calculation_processor',
+  C: 'kubejs:pure_silicon',
+  D: 'mekanism:structural_glass'
+}
+)
+event.shaped(Item.of('megacells:cell_component_4m',1), [
+  'BDB',
+  'CAC',
+  'BDB'
+],
+{
+  A: '#kubejs:cell_1m',
+  B: 'ae2:calculation_processor',
+  C: 'kubejs:pure_silicon',
+  D: 'mekanism:structural_glass'
+}
+)
+event.shaped(Item.of('megacells:cell_component_16m',1), [
+  'BDB',
+  'CAC',
+  'BDB'
+],
+{
+  A: '#kubejs:cell_4m',
+  B: 'ae2:calculation_processor',
+  C: 'kubejs:pure_silicon',
+  D: 'mekanismgenerators:reactor_glass'
+}
+)
+event.shaped(Item.of('megacells:cell_component_64m',1), [
+  'BDB',
+  'CAC',
+  'BDB'
+],
+{
+  A: '#kubejs:cell_16m',
   B: 'ae2:calculation_processor',
   C: 'kubejs:pure_silicon',
   D: 'mekanismgenerators:reactor_glass'

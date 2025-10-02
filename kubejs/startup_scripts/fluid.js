@@ -25,12 +25,6 @@ StartupEvents.registry("fluid",event=>{
     usedlavaAttributes.dropOff(2);
     usedlavaAttributes.tickDelay(20);
     used_lava.attributes = usedlavaAttributes;
-    //铝热剂
-    let thermite = event.create("molten_thermite").thickTexture(0xFFDC8A).temperature(1300).bucketColor(0xFFDC8A).displayName("molten_thermite");
-    let thermiteAttributes = thermite.createAttributes();
-    thermiteAttributes.dropOff(2);
-    thermiteAttributes.tickDelay(20);
-    thermite.attributes = thermiteAttributes;
     //凛冰
     let fluid_cryotheum = event.create("fluid_cryotheum").thinTexture(0xabe9ff).temperature(1).bucketColor(0xabe9ff).displayName("fluid_cryotheum");
     let fluidcryotheumAttributes = fluid_cryotheum.createAttributes();
@@ -122,4 +116,35 @@ StartupEvents.registry("fluid",event=>{
     fuming_sulfuric_acidAttributes.dropOff(2);
     fuming_sulfuric_acidAttributes.tickDelay(20);
     fuming_sulfuric_acid.attributes = fuming_sulfuric_acidAttributes;
+
+    function createFluid([name,color,temp]) {
+        let newFluid = event.create(name).thickTexture(color).bucketColor(color).temperature(temp).displayName(name)
+        let newFluidAttributes = newFluid.createAttributes();
+        newFluidAttributes.dropOff(2);
+        newFluidAttributes.tickDelay(20);
+        newFluid.attributes = newFluidAttributes;
+    }
+    function createThinFluid([name,color,temp]) {
+        let newFluid = event.create(name).thinTexture(color).bucketColor(color).temperature(temp).displayName(name)
+        let newFluidAttributes = newFluid.createAttributes();
+        newFluidAttributes.dropOff(2);
+        newFluidAttributes.tickDelay(20);
+        newFluid.attributes = newFluidAttributes;
+    }
+
+    createFluid(["molten_veridium",0x00A2E8,1500])
+    createFluid(["molten_gravitite",0xFF7DC2,1500])
+    createFluid(["molten_sentrite",0x454545,1500])
+    createFluid(["molten_phoenix",0xFFA313,2500])
+    createFluid(["molten_valkyrie",0xFFF99C,2500])
+    createFluid(["molten_refined_sentrite",0x353545,1500])
+
+    createThinFluid(["redstone_additive",0x5D0021,1000])
+    createThinFluid(["diamond_additive",0x005D5C,1000])
+    createThinFluid(["obsidian_additive",0x49005D,1000])
+    createThinFluid(["methane",0xD5FDFF,233])
+    createFluid(["pure_matter",0x101010,273])
+    createThinFluid(["radical_initiator",0x946748,298])
+    createThinFluid(["phenol",0xE6C8A5,298])
+    createThinFluid(["benzoic_acid",0xCFC869,298])
 })

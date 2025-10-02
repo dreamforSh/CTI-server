@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ae2"
-	group: "7E3173C55DD03B0A"
+	group: "7741820127317059"
 	icon: {
 		Count: 1b
 		id: "megacells:item_storage_cell_256m"
@@ -20,7 +20,7 @@
 			rotation: 90.0d
 			width: 0.5d
 			x: 1.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -32,7 +32,7 @@
 			rotation: 90.0d
 			width: 0.5d
 			x: -1.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -56,7 +56,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 10.8d
+			y: 11.0d
 		}
 		{
 			click: ""
@@ -68,7 +68,7 @@
 			rotation: 0.0d
 			width: 0.5d
 			x: -1.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -80,8 +80,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.8d
-			y: 13.0d
+			x: -4.5d
+			y: 14.0d
 		}
 		{
 			click: ""
@@ -93,19 +93,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 12.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ae2:block/controller_column_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 11.6d
+			y: 12.0d
 		}
 		{
 			click: ""
@@ -116,8 +104,8 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: -90.0d
 			width: 1.0d
-			x: 0.8d
-			y: 13.0d
+			x: 1.0d
+			y: 14.0d
 		}
 		{
 			click: ""
@@ -129,7 +117,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
 			click: ""
@@ -140,32 +128,8 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: -90.0d
 			width: 1.0d
-			x: 1.6d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ae2:block/controller_column_lights"
-			rotation: -90.0d
-			width: 1.0d
-			x: 2.4d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ae2:block/controller_column_lights"
-			rotation: -90.0d
-			width: 1.0d
-			x: 3.2d
-			y: 13.0d
+			x: 3.0d
+			y: 14.0d
 		}
 		{
 			click: "#7952C8CCFC7F6B08"
@@ -177,7 +141,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -189,7 +153,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 13.6d
+			y: 13.0d
 		}
 		{
 			click: ""
@@ -201,7 +165,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 14.4d
+			y: 15.0d
 		}
 		{
 			click: ""
@@ -213,19 +177,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
-			y: 15.2d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ae2:block/controller_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 13.0d
+			y: 16.0d
 		}
 		{
 			click: ""
@@ -236,8 +188,8 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: -2.4d
-			y: 13.0d
+			x: -3.0d
+			y: 14.0d
 		}
 		{
 			click: ""
@@ -248,8 +200,8 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: -1.6d
-			y: 13.0d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			click: ""
@@ -260,32 +212,8 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: 90.0d
 			width: 1.0d
-			x: -0.8d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ae2:block/controller_column_lights"
-			rotation: 90.0d
-			width: 1.0d
-			x: -3.2d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ae2:block/controller_column_lights"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 13.8d
+			x: -1.0d
+			y: 14.0d
 		}
 		{
 			click: ""
@@ -296,8 +224,20 @@
 			image: "ae2:block/controller_column_lights"
 			rotation: 180.0d
 			width: 1.0d
-			x: -4.0d
-			y: 12.2d
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.5d
+			y: 12.5d
 		}
 		{
 			click: ""
@@ -309,7 +249,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -321,7 +261,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.0d
-			y: 16.0d
+			y: 18.0d
 		}
 		{
 			click: ""
@@ -333,7 +273,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: 9.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -345,7 +285,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: 10.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -357,7 +297,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: 7.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -369,7 +309,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: 7.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -381,7 +321,7 @@
 			rotation: 0.0d
 			width: 1.2d
 			x: 6.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -394,7 +334,7 @@
 			rotation: 0.0d
 			width: 3.8d
 			x: 8.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			click: ""
@@ -407,7 +347,175 @@
 			rotation: 0.0d
 			width: 2.45d
 			x: 8.0d
-			y: 7.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.4d
+			hover: [ ]
+			image: "ae2:block/pattern_provider"
+			rotation: 0.0d
+			width: 2.4d
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: -90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: 18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftblibrary:icons/down"
+			rotation: -90.0d
+			width: 2.0d
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -418,6 +526,8 @@
 				"应用能源2(英文简称：ae2)是一个伟大的物流模组，它总结了我的世界的本质：&e输入原料&r与&e获得产物&r"
 				""
 				"我想你一定听说过应用能源是一个高难度模组的说法，实际上他的原理非常简单，只需要稍加学习无论是谁都能得心应手的使用它实现自动化"
+				""
+				"&6作为一个具有中度魔改科技流程的整合包，AE2自然组成了整合包底层玩法的一部分，请仔细学习这一章。"
 				""
 				"&8&o ps：这本指南真的是ae做的最差的一部分"
 				"{@pagebreak}"
@@ -444,7 +554,7 @@
 			}]
 			title: "应用能源2"
 			x: 0.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1FFAAF2C77BC5692"]
@@ -473,14 +583,16 @@
 			}]
 			title: "寻找陨石"
 			x: 0.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0940B5D459BF1BC8"]
 			description: [
-				"网络是ae2中最难理解的一个抽象概念，简单来说网络是：一个能够承载各种设备的结构。"
+				"使用ae的第一步就是构建网络，网络是ae一切功能的基础，简单来说网络是：一个能够承载各种设备的结构。"
 				""
-				"具体来说，我们将ae2最常用的网络称为“me网络”，这个网络只有三个必要的组成成分：&eme控制器、线缆以及一个电力输入&r，将这三者连接在一起就组成了一个me网络，&5任何接入这个网络的设备都是网络的一部分&r，能够调用网络内容实现各种功能"
+				"具体来说，我们将ae2最常用的网络称为“me网络”，&5任何接入这个网络的设备都是网络的一部分&r，一切设备都在这个网络上运作，无论这个&5网络延伸到何处&r，任何链接在其上的设备都能&5基于网络&r实现功能。"
+				""
+				"接下来我们要构建第一个me网络了，准备网络的三个必要的组成成分：&eme控制器、线缆以及一个电力输入&r，将这三者连接在一起就组成了一个me网络，是的，就是如此简单！"
 				""
 				"&8如果你已经阅读过指南可能知道，还有另一种网络，或许...me控制器也能...？"
 			]
@@ -499,8 +611,9 @@
 				title: "何为网络"
 				type: "checkmark"
 			}]
+			title: "承载AE的基础"
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F7C1D3A07ED6D81"]
@@ -537,14 +650,16 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E3CCE70091441EC"]
 			description: [
 				"能够传输8个频道的最基础的线缆"
 				""
-				"&o&8什么？你问频道是什么？无关紧要的内容罢了"
+				"所谓频道，你可以把它想象成水流、电压甚至魔力，只需要知道：&eae的大部分设备都会占用一个频道才能正常运行&r即可。频道从me控制器出发，沿着设备或线缆前进，&e当频道到达了一个地方，网络就延伸到了这个地方。&r"
+				""
+				"相信你从压印器就能看出，ae当然不会给你一个如此轻松的使用网络的方式，因此频道就被创造了出来，它描述了网络延伸的能力。默认情况下，一个me控制器的&5一个面能提供32个频道&r供玩家使用，而线缆也有相应限制，使你不得不去思考如何布线以充分利用频道。"
 			]
 			hide_dependent_lines: true
 			id: "5F4B91A0A27B3C25"
@@ -571,7 +686,7 @@
 			}]
 			title: "一个能传输频道的线缆"
 			x: 2.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7F4CA211E4FAD30B"]
@@ -579,7 +694,7 @@
 			description: [
 				"整合包提供了一些世界合成以外的合成方式，你可以使用这些途径来实现高效简单的自动化"
 				""
-				"&ops：如果你的产线已经有了初步雏形可以通过&ejei查看绿宝石用途&r&o的方式查到一些村民交易来获取这些资源"
+				"&ops：如果你的产线已经初具雏形可以通过&ejei查看绿宝石用途&r&o的方式查到一些村民交易来获取这些资源"
 			]
 			id: "030876CB3A0926E9"
 			rewards: [
@@ -617,7 +732,7 @@
 			]
 			title: "最基础的合成素材"
 			x: 2.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -627,11 +742,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"me控制器可以说是ae最重要的一个设备，他为其他ae设备运行提供了两个必要资源：频道与电力"
+				"me控制器是网络的核心设备，他为其他ae设备运行提供了两个必要资源：频道与电力"
 				""
-				"频道是一个抽象出来的概念，你可以把它想象成水流、电压甚至魔力，只需要知道：&e一般来说，ae的大部分设备都会占用一个频道才能正常运行&r即可。此外我们需要给me控制器提供电力才能使它正常运行，而ae的线缆能够传输电力，所以我们不需要在意&eae设备&r运行所需电力"
 				""
-				"默认情况下，一个me控制器的&5一个面能提供32个频道&r供玩家使用"
+				"我们需要给me控制器提供电力才能使它正常运行，而ae的线缆能够传输电力，所以我们不需要在意&eae设备运行&r所需电力"
+				""
 				""
 				"这个便携原件是一个奖励，无论你是刚开始学习AE还是已经成为了AE高手，我都希望你能重视AE，它是科技包无法割舍的重要部分"
 				""
@@ -645,7 +760,7 @@
 				""
 				"{image:kubejs:textures/ftbq_images/me_controller.png width:150 height:120 align:1}"
 				"{@pagebreak}"
-				"如果你的频道紧张，可以使用指令"
+				"如果你的频道紧张，或是懒得规划线路，你可以使用指令"
 				"&n/ae2 channelmode&r "
 				"后面参数可以填写x2、x3、x4、infinite来获取两倍到无限多的频道"
 				""
@@ -693,7 +808,7 @@
 			}]
 			title: "ae的大脑"
 			x: 0.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["525ABE7BBF9D9BAE"]
@@ -731,12 +846,12 @@
 			]
 			title: "一些基础电路板"
 			x: -2.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["00C87CD86A01E8A3"]
 			description: [
-				"&eme驱动器占用一个频道，且能够作为线缆传输至多8个频道&r"
+				"&eme驱动器占用一个频道，且能够充当线缆传输至多8个频道&r"
 				""
 				"或许你不知道什么是硬盘盒，不过没关系，你只需要知道这是一个用于存放&e存储元件&r的地方即可"
 			]
@@ -747,27 +862,30 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
+			subtitle: "放置元件来存储物品，像一个硬盘盒"
 			tasks: [{
 				id: "416AFD6BC80BACC8"
 				item: "ae2:drive"
 				type: "item"
 			}]
-			title: "其实是硬盘盒"
-			x: -4.0d
-			y: 12.0d
+			title: "ME驱动器"
+			x: -3.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["5163B40C443808F6"]
+			dependencies: ["0A4D8612B8B133EA"]
 			description: [
 				"&e样板供应器占用一个频道，且本身能作为线缆传输最多八个频道"
 				""
 				"样板供应器的原理非常简单：当你在终端下达合成指令时，CPU会创建一个任务，调用样板供应器，样板供应器&e依据样板所写内容向外输出材料&r，&e等待产物被传回网络&r时结束任务。"
 				""
-				"&o&8不知道什么是CPU？我接下来就会介绍"
-				"你或许会很诧异，就这？是的，就这，还记得我一开始提到的吗，ae归结了mc的本质：&e输入原料&r与&e获得产物&r，这个功能就由样板供应器来实现。"
+				"&e样板供应器没有抽取功能，你需要使用设备自带的弹出功能或者管道将产物传输进样板供应器"
+				""
+				"你或许会很诧异，就这？是的，就这，还记得我一开始提到的吗，ae归结了mc的本质：&e输入原料&r与&e获得产物&r，样板供应器不仅能支持工作台配方，也能支持任何配方，你可以&e参考分子装配室，将机器与样板供应器连接在一起&r，编写合适的样板实现其他物品的自动化，牢记这些功能都是&e基于网络存储&r实现的）。"
 				""
 				"后面我会介绍样板供应器的更多功能，敬请期待"
 			]
+			hide_dependency_lines: true
 			id: "3DCAC93ED52C2026"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -781,8 +899,8 @@
 				item: "ae2:pattern_provider"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.0d
+			x: 3.5d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -790,15 +908,14 @@
 				"16E856CA1D016169"
 			]
 			description: [
-				"接下来我会介绍ae独有的一种物流系统：点对点传输，也就是p2p"
-				""
+				"&o&7p2p是一种独特的物流方式&r&r"
 				"&ep2p通道占用一个频道，且只能连接在细线上&r"
 				""
-				"就像它的名字一样，p2p相当于将输入和输出点之间连接在一起，没有延迟没有损耗，&e就像开了一个任意门将两边直接贴在一起一样&r"
+				"就像它的名字一样，p2p相当于将输入和输出点之间连接在一起，没有延迟没有损耗，&e就像开了一个任意门将两边直接贴在一起&r"
 				""
-				"p2p可以有一个输入点和多个输出点，ae会&e均分输入到每一个输出&r，这是其他管道做不到的独一份的功能，可以用于基于提高原料输入倍率的高效率的自动化系统中。使用内存卡shift+右键创造编号与输入点，拿着已经存储编号的内存卡右键p2p通道将其变为该编号的输出点。需要注意的是p2p不是一个管道，是直接将两端连接在一起，所以你可以在me网络&e任何地方输入，任何地方输出&r——只要它们位于同一网络且拥有相同编号"
+				"p2p可以有一个输入点和多个输出点，ae会&e将输入均分到每一个输出&r，可以用于基于提高原料输入倍率的自动化系统中。使用内存卡shift+右键创造编号与输入点，拿着已经存储编号的内存卡右键p2p通道将其变为该编号的输出点。需要注意的是&ep2p不是一个管道，是直接将两端连接在一起&r，所以你可以在me网络&e任何地方输入，任何地方输出&r——只要它们位于同一网络且拥有相同编号"
 				""
-				"默认状态下p2p通道传输类型为“频道”（可以通过一些物品右键改变其传输的类型，参考jei获得更多信息），结合前面学习过的知识，我们需要把p2p放在一个独立于主网的网络内，默认情况下我们传输频道最高为32个（因为me控制器一个面只能输出32个频道，粗线也只能传输32个频道），这里需要提示一点&5即使粗线一个面只能传输8频道，但是由于p2p是将两端连接在一起，这里的粗线只需要一个面与p2p连接即可传输32个频道&r"
+				"默认状态下p2p通道传输类型为“频道”（可以通过一些物品右键改变其传输的类型，参考jei获得更多信息）"
 				"{@pagebreak}"
 				"这里两张图分别是p2p位于正常网络和位于Ad-Hoc网络的情况"
 				"{image:kubejs:textures/ftbq_images/p2p2.png width:180 height:120 align:1}"
@@ -834,11 +951,13 @@
 			}]
 			title: "ae独一份的物流"
 			x: 0.0d
-			y: 20.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["218D2DD4D782DC82"]
 			description: [
+				"&l&b完成该任务可以解锁SDM商店中AE存储元件的购买"
+				"&r"
 				"这些存储&e组件&r是合成存储&e元件&r必备的原料。"
 				""
 				"存储占用的字节一般满足这样的公式："
@@ -854,6 +973,7 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
+			shape: "diamond"
 			subtitle: "硬盘？"
 			tasks: [
 				{
@@ -896,12 +1016,14 @@
 				}
 			]
 			title: "存储组件"
-			x: -6.0d
-			y: 12.0d
+			x: -5.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["68C884CAE0C56DD7"]
 			description: [
+				"&l&b完成该任务来解锁SDM商店中大宗元件的购买"
+				"&r"
 				"或许你已经发展到了后期，ae原本的存储组件已经无法满足你，这里有一些更大的存储组件供你使用(其实还有量子物品/流体存储元件，但是这里不做过多介绍)"
 				""
 				"大宗存储元件和数字奇点存储元件拥有long型上限的存储量，这大概是几亿亿亿的存储量（具体来说是9223372036854775807），&e但是只能存储一种物品&r"
@@ -928,6 +1050,7 @@
 					type: "random"
 				}
 			]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "0B3A0C9254F8A751"
@@ -991,8 +1114,8 @@
 				}
 			]
 			title: "mega存储组件"
-			x: -7.5d
-			y: 11.0d
+			x: -6.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["68C884CAE0C56DD7"]
@@ -1038,8 +1161,8 @@
 				}
 			]
 			title: "全存了"
-			x: -7.5d
-			y: 13.0d
+			x: -6.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["68C884CAE0C56DD7"]
@@ -1109,19 +1232,20 @@
 						}
 					}
 					optional_task: true
+					title: "超级存储元件"
 					type: "item"
 				}
 			]
 			title: "如何用AE存储放射性化学品？"
-			x: -7.5d
-			y: 12.0d
+			x: -6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["00C87CD86A01E8A3"]
 			description: [
 				"&e存储总线占用一个频道，且只能连接在细线上"
 				""
-				"你是否注意到做出存储总线弹出的成就名为&a[无限潜能]&r?我愿称其为ae最伟大的设备，他的功能非常简单：&e将其连接的容器存储并入ae网络&r，也就是说他连接的容器成为了ae存储的一部分，&e如果这个容器可以输入和输出&r，那么你就能在终端向其中存储物品，也可以从中取出物品使用，这弥补了ae存储的两个缺陷：难以存储&e超大量的同种物品&r和&e极少量但种类数巨大的物品&r，用me驱动器存储这类物品会消耗大量频道，存储总线配合其他存储模组就能大幅减少频道消耗。"
+				"你是否注意到做出存储总线弹出的成就名为&a[无限潜能]&r?我愿称其为ae最伟大的设备，他的功能非常简单：&e将其连接的容器存储视作me网络的存储&r，也就是说他连接的容器成为了ae存储的一部分，&e如果这个容器可以输入和输出&r，那么你就能在终端向其中存储物品，也可以从中取出物品使用。"
 				""
 				"&4一定记得给存储总线做好必要的标记，不然你的液态反物质可能消失在水槽里"
 				""
@@ -1137,18 +1261,17 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			size: 1.2d
 			subtitle: "ae最伟大的设备"
 			tasks: [{
 				id: "6C2C24C3AE5734E3"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 14.0d
+			x: -3.5d
+			y: 15.0d
 		}
 		{
-			dependencies: ["5163B40C443808F6"]
+			dependencies: ["0A4D8612B8B133EA"]
 			description: [
 				"合成处理单元，英文简称CPU，虽然和现实的CPU不是一个词，但它们有着某些相似的地方。"
 				""
@@ -1156,6 +1279,7 @@
 				""
 				"CPU能够承载自动合成任务，在自动合成任务进行时，材料会从网络存储部分转移到CPU中供样板供应器调用，因此它的字节大小决定了你能进行的自动合成的复杂度"
 			]
+			hide_dependency_lines: true
 			id: "42627713FB616885"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1176,16 +1300,19 @@
 				title: "合成处理器"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.0d
+			x: 3.5d
+			y: 15.0d
 		}
 		{
-			dependencies: ["5163B40C443808F6"]
+			dependencies: ["0A4D8612B8B133EA"]
 			description: [
-				"这就是样板，一个能够存储配方的道具，你可以将他放入&e样板终端&r，利用jei写入所需配方。"
+				"这就是样板，一个能够&e存储配方&r的道具，你可以将他放入&e样板终端&r，利用jei写入所需配方"
+				""
+				"&e其中工作台、切石机、锻造台选取对应样板，其他所有样板都选择处理样板&r"
 				""
 				"我想你大概会很迷茫吧，如果不知道该写什么就写一个最简单的配方：工作台的合成配方，然后将它放入样板供应器中"
 			]
+			hide_dependency_lines: true
 			id: "0D4281E40C90F825"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1199,7 +1326,7 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: 13.0d
 		}
 		{
@@ -1207,7 +1334,15 @@
 			description: [
 				"&e终端占用一个频道，且不能连接到致密线缆上（后面我会用细线和粗线代称这两种线缆）"
 				""
-				"终端说白了就是显示器，能够显示网络存储、合成任务、可合成物品等信息。右上角可以放入&e显示元件&r来控制终端的显示内容，当然，不会影响实际存储"
+				"现在我们成功构建了一个me网络，接下来我们要在这个网络上接入ae设备实现各种功能。"
+				""
+				"me网络最主要的功能有三个：&e存储、物流和自动化（也就是接下来的三个分支）&r，但我们第一个接入的设备不是这三者之一，而是终端。"
+				""
+				"终端就是&eme网络的显示器+键鼠&r，能够显示网络存储、合成任务、可合成物品等信息，只有通过终端，我们才能控制其他设备、与它们交互。"
+				""
+				"{@pagebreak}"
+				"终端右上角可以放入&e显示元件&r来控制终端的显示内容，当然，不会影响实际存储"
+				""
 				"ae的终端很智能，你甚至&e可以在数量输入框内写四则运算表达式&r"
 				""
 				"这三个终端都是必要内容，不过目前我们只需要一个合成终端就行了，另外两个终端需要稍靠后一点才能用到"
@@ -1234,6 +1369,8 @@
 					type: "random"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "129B8866D80FFC91"
@@ -1254,21 +1391,24 @@
 				}
 			]
 			x: 0.0d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["5163B40C443808F6"]
+			dependencies: ["0A4D8612B8B133EA"]
 			description: [
-				"分子装配室用于完成自动合成任务(&a值得注意的是，它不仅能完成工作台配方的合成，同样可以完成锻造台和切石机配方&r），与样板供应器连接在一起时能够接入me网络，&e与其相连的样板供应器都能使用它完成合成任务，分子装配室不占用频道，也能作为至多传输8频道的线缆&r"
+				"&e不占用频道，能充当线缆至多传输8频道&r"
 				""
-				"将他与刚才放了工作台样板的样板供应器贴着放，打开合成终端，你会在工作台旁边看到一个加号，这代表着ae网络能够自动合成工作台了，左键（当网络已经有存储时可以使用鼠标中键）点击它并确认合成，稍等几秒...ae网络中就会多出一个工作台！恭喜你完成第一次me网络自动化！"
+				"分子装配室用于完成自动合成任务的处理机器(&a值得注意的是，它不仅能完成工作台配方的合成，同样可以完成锻造台和切石机配方&r），&e与其相连的样板供应器都能使用它完成合成任务&r"
+				""
+				"将它与刚才放了工作台样板的样板供应器贴着放，打开合成终端，你会在工作台旁边看到一个加号，这代表着ae网络能够自动合成工作台了，左键（已有存储时可以使用鼠标中键）点击它并确认合成，稍等几秒...ae网络中就会多出一个工作台！（因为&e分子装配室有弹出功能&r）恭喜你完成第一次me网络自动化！"
 				""
 				"&b&l尤里卡！！"
 				"{@pagebreak}"
 				"这是一个可用的分子装配塔结构"
-				""
+				"&8ps：如图所示其实是一个效率较差的结构，刚才说了与供应器相连的分子都能运行，不过由于供应器发货上限远高于分子装配室的运行效率。如果你有极大量的合成需求，可以考虑在一个供应器周围链接6个分子装配室&r&r"
 				"{image:kubejs:textures/ftbq_images/pattern_provider.png width:180 height:140 align:1}"
 			]
+			hide_dependency_lines: true
 			id: "14FA6D53D7FA1359"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1282,8 +1422,8 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 14.0d
+			x: 3.5d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1291,18 +1431,18 @@
 				"31E89CD23CE7D524"
 			]
 			description: [
-				"我个人很不喜欢这个名词，像是某种计算机专业玩家提出的只能提高理解门槛的术语"
+				"现在我们构建了一个me网络，你可能会想，如果有两个网络，那么它们能直接交互吗？a网络能直接使用b网络的内容吗？答案是否定的，如果要实现这个功能，我们必须构建一种名为子网的结构。"
 				""
-				"子网其实很简单：&4两个me网络&r，通过某种方式连接在一起，连接关系中靠后的就叫子网"
+				"&o&7子网其实很简单：两个me网络，通过某种方式连接在一起，连接关系中靠后的就叫子网&r&r"
 				""
-				"或许你并不明白我上面这句解释是什么含义，没关系，我在各个设备的任务中都有做出关于频道占用和传输的描述，还记得一开始me网络中的限制吗：一个me网络只能有一个控制器，现在我怎么才能把&4两个me网络&r连接在一起？"
+				"你现在一定一头雾水吧，没关系，还记得一开始me网络中的限制吗：一个me网络只能有一个控制器，现在我怎么才能把&4两个me网络&r连接在一起？"
 				""
-				"答案其实很简单：让它们两者之间的频道不互相传输即可，例如存储总线，它不能传输频道，那么我可以把它接在任何一个me网络里的一个设备上（例如me接口），他只读取me接口的存储而不传输频道，这里是&e“存储总线连接me接口，存储总线读取me接口所在网络”&r，因此称me接口所在网络为子网，存储总线所在网络是主网"
+				"答案其实很简单：让它们两者之间的频道不互相传输即可，例如存储总线，它不能传输频道，而我们又想让a网络使用b网络内容，那么我们就它&e接在a网络里，读取b网络的一个设备&r（例如me接口），这里是&e“a网络的存储总线读取b网络的me接口”&r，因此称a网络是主网，b网络是子网"
 				""
-				"很简单对吧，总结起来就一句话：&4两个me网络&r的&4单向&r连接"
+				"很简单对吧，总结起来就一句话：&4两个me网络&r的连接"
 				""
 				"{@pagebreak}"
-				"记得我在介绍网络概念时埋下的伏笔吗？网络其实可以不需要me控制器，ae将其称为Ad-Hoc网络，这种网络&e只需要供电&r不需要me控制器，&e最多8个频道（即使使用粗线也只能承载8个频道）&r，常用于p2p网络的构建和网络体积压缩中，如图所示线缆&e由石英纤维供电&r且能承载8个占用频道的设备"
+				"记得我在介绍网络概念时埋下的伏笔吗？网络其实可以不需要me控制器，ae将其称为Ad-Hoc网络，这种网络&e只需要供电&r不需要me控制器，&e最多8个频道&r（这里频道就不从某个地方流出了，整个网络的任何地方都有8可用频道），常用于p2p网络的构建和网络体积压缩中，如图所示线缆&e由石英纤维供电&r且能承载8个占用频道的设备"
 				"{image:kubejs:textures/ftbq_images/subnet1.png width:200 height:120 align:1}"
 			]
 			icon: "botania:cosmetic_thinking_hand"
@@ -1321,7 +1461,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["38190D04D6020295"]
@@ -1347,8 +1487,8 @@
 				title: "精妙存储"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 15.0d
+			x: -4.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["38190D04D6020295"]
@@ -1366,21 +1506,18 @@
 				title: "存储整合器"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 15.5d
+			x: -3.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["38190D04D6020295"]
 			description: [
-				"&eme接口占用一个频道，能够传输至多8个频道&r"
+				"&o&7这是一个介于存储、物流、自动化中间地带的设备&r&r"
+				"&eme接口占用一个频道，能够充当线缆传输至多8个频道&r"
 				""
-				"打开me接口，你会发现两排格子，上面一排可以添加你想要的标记，me接口会尝试从网络其他地方的存储往标记下方的格子里传输物品，&e使得下方格子尽量和上方标记保持一致&r（反过来，如果你什么都不标记，me接口会把传输进其中的物品存储到网络其他地方，也就是保持格子为“空气”标记）"
+				"打开me接口，你会发现两排格子，上面一排可以添加你想要的标记，me接口会尝试从网络存储往标记下方的格子里传输物品，&e使得下方格子尽量和上方标记保持一致&r（反过来，如果你什么都不标记，me接口会把传输进其中的物品存入网络，也就是保持格子为“空气”标记）"
 				""
 				"ae为me接口和存储总线准备了一个独特的功能，当存储总线连接me接口时，如果&eme接口未标记任何内容&r，存储总线将读取&eme接口所在网络的全部存储&r。"
-				""
-				"存储总线不传输频道，因此这是两个网络，me接口所在网络就可以被称为子网"
-				""
-				"什么？不明白什么是子网？没关系，我也不明白，不过我会在下一个任务为你解释这个名词代表的含义"
 			]
 			hide_dependent_lines: true
 			icon: "ae2:interface"
@@ -1391,13 +1528,14 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "11B825BABFB94A25"
 				title: "me接口"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 16.5d
+			x: -3.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["38190D04D6020295"]
@@ -1415,8 +1553,8 @@
 				title: "存储整合器"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 15.0d
+			x: -2.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["42627713FB616885"]
@@ -1432,21 +1570,19 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "1245D9299EDD947D"
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 11.0d
+			x: 5.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["14FA6D53D7FA1359"]
 			description: [
-				"这是一个科技向的整合包，为了内容丰富度加入了复杂合成配方，但是分子装配室只能支持3*3的配方，因此我们需要一个能够进行更大规模合成的系统，本包采用了封包合成"
-				""
-				"封包机和解包机都能直接接入me网络，&e均占用一个频道且能作为线缆传输最多8个频道&r"
+				"&7这是一个科技向的整合包，为了内容丰富度加入了复杂合成配方，但是分子装配室只能支持3*3的配方，因此我们需要一个能够进行更大规模合成的系统，本包采用了封包合成&r"
+				"封包机和解包机都能直接接入me网络，&e均占用一个频道且能充当线缆传输最多8个频道&r"
 				""
 				"封包配方编码器类似于样板终端，用于编写样板。写好的样板一个放入封包机一个放入解包机。封包机用于将原料打包成一个“配方包”；"
 				""
@@ -1456,7 +1592,7 @@
 				"这里以无尽锭自动合成举例。首先是编写样板"
 				"{image:kubejs:textures/ftbq_images/compress.png width:200 height:150 align:1}"
 				"将两个无尽样板放入封包机和解包机"
-				"然后将&e合适的封包合成器&r接入me网络"
+				"然后将&5匹配的封包合成器&r（不要再用高级样板配合终极封包合成来问为什么合不了的了！！）接入me网络"
 				"{image:kubejs:textures/ftbq_images/package1.png width:200 height:120 align:1}"
 				"现在打开终端，你会看到无尽已经能够自动合成了"
 				"{image:kubejs:textures/ftbq_images/terminal.png width:200 height:100 align:1}"
@@ -1522,56 +1658,86 @@
 				}
 			]
 			title: "封包合成——更大的配方"
-			x: 6.5d
-			y: 15.0d
+			x: 5.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
-				"3EECDD23CA6742DB"
 				"6BCF59ABD9A37F14"
-				"6A6EE973DBC331DF"
 				"7D7B16635D958FD1"
+				"3EECDD23CA6742DB"
+				"6A6EE973DBC331DF"
 			]
 			description: [
-				"现在，我们已经完成魔力铀全部原料的自动化了，最后，还是和前面一样首先归结原料与产物：提供四种已经完成自动化的原材料与一些魔力，获得魔力铀。"
+				"现在，我们已经完成邪理魔球全部原料的自动化了"
 				""
-				"这里介绍样板供应器的两个实用功能：阻挡模式与锁定样板。"
+				"这里介绍样板供应器的未提到的实用功能：阻挡模式。"
 				""
-				"阻挡模式开启后，样板供应器一次只会输出一份原料进入处理设备，在处理设备中&e还存有原料&r时不会继续向其中传输原料，这一功能在充能台的自动化中非常实用"
+				"阻挡模式开启后，&b样板供应器一次只会输出一份原料进入处理设备&r，在处理设备中&e还存有原料&r时不会继续向其中传输原料，这一功能在充能台的自动化中非常实用"
 				""
-				"锁定样板开启后，样板供应器会依据所设置的模式将样板锁定，锁定后的样板无法进行自动化任务，直到满足解锁条件后才能使用，另外需要额外说明的是，&e接受主产物时解锁&r模式要求产物从样板所在样板供应器返回才能解锁样板。"
-				"{@pagebreak}"
-				"学习完基本知识后就能进行魔力铀自动化了（这里我也强烈推荐你使用机械注魔祭坛实现自动化），原料从样板供应器输入到花格箱，掉落至注魔祭坛，合成完成后使用掉落物收集设备将产物传回样板供应器，为了防止自动合成失败，&5需要开启锁定样板功能&r，防止多份原料输出到注魔祭坛导致合成无法进行"
+				"什么？压印器无法从一个面输入全部原料？参考tnt写入样板方案的分流策略！"
 				""
-				"{image:kubejs:textures/ftbq_images/auto_magic_u.png width:200 height:120 align:1}"
 				"{@pagebreak}"
 				"最后的最后，不要拘泥于将物品从样板供应器传输到花格箱之类的东西里，我们&e最强大的物流模组其实是ae自己啊！&r如果你发现一个合成的自动化非常复杂，用普通管道或者花格箱之类完全无法实现，尝试归结好原料与产物，然后将原料传输进一个&e新的me网络（也就是子网）&r，用ae来分配每一个原料该去的地方"
+				""
 				"课后作业：仅用ae、原版和机械动力实现电动马达的自动化"
 				"&m做一百个电动马达或许会有什么神奇的事情发生&r"
-				"&o&8ps：植魔这个垃圾光影兼容什么时候能改进一下啊"
 				""
-				"&o&8pps：大山不会走向穆罕默德，但穆罕默德能够走向大山。发挥天马行空的想象力，你能实现一切自动化！"
+				"&o&8ps：大山不会走向穆罕默德，但穆罕默德能够走向大山。发挥天马行空的想象力，你能实现一切自动化！"
+				"&o&8pps：为什么是法师兜帽——因为我喜欢魔法~"
 			]
 			id: "56AFED2ECC901623"
+			min_required_dependencies: 3
 			optional: true
-			rewards: [{
-				id: "6C8A5DC381A0F107"
-				item: "solidarytinker:magicuranium_ingot"
-				type: "item"
-			}]
-			subtitle: "享受成果吧，ae自动化的核心内容你已经几乎学完了"
+			rewards: [
+				{
+					command: "/say 当@p真正看清时，才发现所谓的“物品”并不存在，存在的只有数据。因为，根本没有箱子。"
+					icon: "ae2:mysterious_cube"
+					id: "41879A736DD27D48"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "383A75ACCD837436"
+					table_id: 8776799107351546644L
+					type: "choice"
+				}
+				{
+					id: "4B09FAE45D6BF81A"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_hood"
+						tag: {
+							Damage: 0
+							an_stack_perks: {
+								color: "light_gray"
+								perks: [ ]
+								tier: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78FAE925530CD81F"
+					table_id: 280241854384394554L
+					type: "choice"
+				}
+			]
+			subtitle: "结束了...?"
 			tasks: [{
-				id: "6CAB5CB33355FB3A"
-				item: "solidarytinker:magicuranium_ingot"
+				id: "4343D9C5ADC8A77F"
+				item: "etshtinker:evil_orb"
 				type: "item"
 			}]
-			title: "以魔力铀举例复杂自动化"
-			x: 10.5d
-			y: 13.0d
+			title: "ae的终点？"
+			x: 11.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3009334415DD5E91"]
-			description: ["能提供极多的线程，不过说实话，实用价值不太高"]
+			description: ["能提供更多的线程"]
 			id: "161394A3C816E745"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1579,18 +1745,18 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "69525580E9BB3F85"
 				item: "megacells:mega_crafting_accelerator"
 				type: "item"
 			}]
 			x: 6.5d
-			y: 10.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["67A6EAE572736E49"]
-			description: ["你会选择什么方式获取绿宝石？交易？采矿？抑或是...冶炼村民？"]
+			description: ["相较于前面复杂的爆炸方案，结晶器方案就显得极为优雅高效了，非常推荐使用这个配方"]
+			icon: "thermal:machine_crystallizer"
 			id: "6A6EE973DBC331DF"
 			optional: true
 			rewards: [{
@@ -1600,16 +1766,16 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "534F263C2EED7A1E"
-				item: "botanicalmachinery:mana_emerald"
+				id: "7C60AFFCD0DE0776"
+				item: "etshtinker:devil_resonate"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 15.0d
+			x: 9.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2250B9CD2ACEF0E3"]
-			description: ["基础资源的获取非常简单，你会选择什么呢？机械动力的&e矿物钻井&r？沉浸工程的&e斗轮&r？工业先锋的&e镭射钻&r？或者是其他方式？"]
+			description: ["元件的合成与谐振魔晶的结晶器配方类似，是非常简单的自动化，期待你做出高效率低占用的自动化方案"]
 			id: "7D7B16635D958FD1"
 			optional: true
 			rewards: [{
@@ -1619,16 +1785,35 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "1D6DB61EFBEA693D"
-				item: "mekanism:ingot_uranium"
+				id: "3F5A30D9732C15E7"
+				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 14.5d
+			x: 12.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["67A6EAE572736E49"]
-			description: ["大概不会有人缺铁的获取方式吧...应该"]
+			description: [
+				"&8并不推荐采取此配方，效率低且复杂&r"
+				"和前面一样，你需要将原料转换为掉落物才能进行下一步的合成，但这里又有一个问题：如何供应tnt？又如何判断何时引爆？"
+				""
+				"首先是如何供应tnt，这里需要介绍一个思想：&b不是每一个原料都需要写进样板&r。例如这里的tnt，它只是一个合成条件，你当然可以自由决策是否将其写进样板。"
+				""
+				"因此有两种选择："
+				"1. 写入样板：此时供应器不仅会发送三个原料，还会发送一个tnt，但我们不想让tnt变成掉落物，&b那么我们就需要一个中转的箱子/桶&r，将其中的tnt取出并放置（如方块放置器、成型面板等），而其他原料则转换为掉落物等待爆炸"
+				""
+				"2. 不写入样板：此时你需要使用me接口、输出总线等设备额外供应tnt"
+				""
+				"{@pagebreak}"
+				""
+				"接下来就要考虑引爆问题了，这里有很多方案，比如压力板配合脉冲发信器、实体检测...但在ae任务自然要使用最ae的方案——发信器配合合成卡。&b将合成卡放入发信器中，并将模式调为“合成发信模式”，然后接上一个中继器，这样在你下单之后，发信器会先发出信号，然后原料从供应器输出，等原料就位后红石信号就会经过中继器引爆tnt&r"
+				""
+				"大功告成了……吗？"
+				""
+				"当然没有，试想你下单了一大堆谐振魔晶，tnt持续引爆，不小心炸掉了那么一两份原料，于是返回网络的产物不足、CPU卡死。因此你需要&b打开样板供应器，将锁定模式改为“直到产物返回解锁”，这样供应器一次只会发送一份原料，直到产物从发货的供应器返回才会发送下一份原料&r"
+			]
+			icon: "minecraft:tnt"
 			id: "3EECDD23CA6742DB"
 			optional: true
 			rewards: [{
@@ -1638,28 +1823,23 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "32EFF0B63EF9163D"
-				item: "botania:manasteel_ingot"
+				id: "1DF5A37AE382769F"
+				item: "etshtinker:devil_resonate"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 11.0d
+			x: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2250B9CD2ACEF0E3"]
 			description: [
-				"首先我们归结一下魔力水晶所需&e输入原料&r与&e获得产物&r：原料需要赛特斯石英水晶与气态魔力，气态魔力需要液态魔力，液态魔力需要魔力液化器。"
+				"&8在这里你将会遇到一个自动化的经典限制&r"
+				"关于mek设备的自动化也是非常简单的，让原料（产物）的&e所有类型都能&r通过样板供应器输入（输出）即可，比如掺杂黑曜石的下界之星碎片需要物品和化学品输入以及物品输出，我们把侧面配置中两个类型都设置为可输入，物品设置为可输出且&e弹出&r即可（&b如果你使用富集黑曜石合成，要类比前面分流tnt和其他原料的方式进行分流——毕竟样板供应器不能和机器同时有两个面接触&r）"
 				""
-				"这里介绍一个思想：&e不是每一个自动合成都需要样板&r。例如气态魔力，我们可以通过一些方式使得其在me网络中保持一定存储量，这样进行需要它的自动化时可以更快的取用，而不需要每次都临时从魔力开始逐步合成。"
-				""
-				"ae有一个名为&e发信器&r的设备，能够依据其所在me网络中特定物品的存储量发出红石信号。"
-				""
-				"我们可以设计这样一条产线：魔力经过两个设备不断转化为气态魔力，发信器标记me网络中的气态魔力并设定一定的量，超出该量时发出红石信号（也可以反向超出时不发出信号）用于控制回旋式气液转换器的启停，实现维持me网络中特定物品数量。"
+				"&ops：部分设备例如锇压缩机这种无法抽出转化后的原料的，就&b参考前面tnt不写入样板的思想，让剩下的用其他方式源源不断的提供即可&r"
 				""
 				"{@pagebreak}"
-				"关于mek设备的自动化就非常简单了，让原料（产物）的&e所有类型都能&r通过样板供应器输入（输出）即可，比如这里需要物品和化学品输入以及物品输出，我们把侧面配置中两个类型都设置为可输入，物品设置为可输出且&e弹出&r即可"
-				""
-				"&ops：部分设备例如锇压缩机，需要参考下方魔力池自动化部分的“样板供应器不干涉处理流程”思想，只在样板中写一部分原料，剩下的用其他方式源源不断的提供即可"
+				"当你写完全部样板，点击合成下界之星，你会发现ae不允许你下单——这是因为&bae本身不支持自循环配方，这里用下界之星合成下界之星是不被允许的&r，因此你只能选择被动合成——&b即使用me接口或输出总线源源不断的供应原料，使合成不断进行而不走下单这一步&r"
 			]
 			id: "6BCF59ABD9A37F14"
 			optional: true
@@ -1669,24 +1849,30 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
-			tasks: [{
-				id: "6776447569EE71BC"
-				item: "cti:magic_crystal"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 11.5d
+			tasks: [
+				{
+					id: "57808D707575B948"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "3CAEC75C61E3B1B0"
+					item: "etshtinker:os_induced_netherstarshard"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2250B9CD2ACEF0E3"]
 			description: [
-				"魔力绿宝石和魔力钢的自动获取也非常简单，我强烈推荐你使用&e机械魔力池&r来完成自动化，我这里只介绍最基础的普通魔力池途径。"
+				"赛特斯神晶和福鲁伊克斯魂晶的自动化需要你&b将“物品”转换为“物品掉落物”&r，这将是你在ae自动化进阶部分遇到的第一个挑战。"
 				""
-				"让我们归结一下自动化的&e输入原料&r与&e获得产物&r：我们需要提供铁锭与魔力，获取魔力钢，这里介绍一个重要的思想：&e样板供应器不干涉处理流程，只负责输出原料接受产物&r。因此我们可以用其他方式为魔力池不断提供魔力，这样样板供应器只需要提供一个东西——铁锭。我们还需要使用另一个设备辅助合成：植物魔法的&e花格箱&r，花格箱能使得输入到其中的物品掉落出来。"
+				"如果你仔细查看了先前的任务，或许你会尝试将样板供应器直接放在水旁边——因为那就是处理机器。当你写好样板点击下单，你会发现无事发生，因为这个合成要求的不是“物品”，一格水也不是&e容器&r，样板供应器无法向其中发货，于是我们需要使用另一个设备辅助合成——植物魔法的&e花格箱&r或tss的敞口箱，它们能&b使得输入到其中的物品掉落出来&r"
 				""
-				"现在流程非常明确了：样板为输入铁锭，收获魔力钢；样板供应器将铁锭输入到花格箱使其落入魔力池转换为魔力钢，然后使用掉落物收集设备(例如精妙存储的带过滤的磁吸升级、循环的物品收集器、植物魔法的漏斗花等)将产出的魔力钢传回样板供应器"
+				"完成了发货步骤，接下来我们还要完善收货步骤，因为合成成功的掉落物不会凭空回到网络存储。因此，你需要使用掉落物收集设备&b(例如精妙存储的带过滤的磁吸升级、循环的物品收集器、植物魔法的漏斗花等)将产物传回供应器使其回到网络存储&r"
 			]
-			icon: "botania:mana_pool"
 			id: "67A6EAE572736E49"
 			optional: true
 			rewards: [{
@@ -1698,32 +1884,25 @@
 			subtitle: "为什么你还在使用如此原始的方式？"
 			tasks: [
 				{
-					id: "70EAAD74F0C25082"
-					item: "botania:mana_pool"
+					id: "3FC60681D9AA044E"
+					item: "etshtinker:blood_certus"
 					type: "item"
 				}
 				{
-					id: "16AF2E9F85036443"
-					item: "botania:open_crate"
+					id: "60904C16A7EDC751"
+					item: "etshtinker:soul_fluix"
 					type: "item"
 				}
 			]
-			title: "魔力池自动化"
-			x: 9.0d
-			y: 13.0d
+			title: "掉落物自动化"
+			x: 9.5d
+			y: 14.0d
 		}
 		{
-			dependencies: [
-				"42627713FB616885"
-				"0D4281E40C90F825"
-				"14FA6D53D7FA1359"
-			]
 			description: [
-				"ae自动化的基本原理就这么简单，还记得我一开始说的吗？ae归结了mc的本质：&e输入原料&r与&e获得产物&r"
+				"ae自动化的基本原理就这么简单，还记得我一直在重复的吗？ae归结了mc的本质：&e输入原料&r与&e获得产物&r"
 				""
-				"ae之所以能作为自动化必须的模组，一个原因是样板供应器不仅能支持工作台配方，也能支持任何配方，你可以类比分子装配室，将机器与样板供应器连接在一起，编写合适的样板实现其他物品的自动化，&e样板供应器没有抽取功能，你需要使用设备自带的弹出功能或者管道将产物传输进样板供应器"
-				""
-				"接下来是一个&e可选的挑战&r，我会教你如何完成魔力铀的自动化，在其中介绍一些自动化技巧。(这个自动化要求一定植物魔法进度，如果你还没有游玩植物魔法内容建议先去发展一些基本内容)"
+				"接下来是一个&e可选的挑战&r，我会教你如何完成 邪理魔球的自动化，在其中介绍一些&b自动化技巧（我会用蓝色标注以便查询）&r。(这个自动化要求你事先基于前面的内容做出最基本的自动化——即样板供应器直接向机器发货而不需要任何特别配置即可运行)"
 				""
 				"&o准备好，自动化要开始加速了"
 				""
@@ -1742,12 +1921,16 @@
 				title: "复杂自动化实践"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 13.0d
+			x: 8.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5F4B91A0A27B3C25"]
-			description: ["更好看的线缆，能传输8个频道"]
+			description: [
+				"更好看的线缆，能传输8个频道"
+				""
+				"&l&b完成该任务后可以在SDM商店中解锁AE线缆的购买&r"
+			]
 			id: "048B42E1342DFC74"
 			rewards: [
 				{
@@ -1771,7 +1954,7 @@
 			}]
 			title: "包层线缆"
 			x: 3.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F4B91A0A27B3C25"]
@@ -1799,7 +1982,7 @@
 			}]
 			title: "更粗的包层线缆"
 			x: 3.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5F4B91A0A27B3C25"]
@@ -1825,7 +2008,7 @@
 			}]
 			title: "智能线缆"
 			x: 3.5d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5F4B91A0A27B3C25"]
@@ -1845,7 +2028,7 @@
 			}]
 			title: "致密智能线缆"
 			x: 4.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3DCAC93ED52C2026"]
@@ -1863,13 +2046,13 @@
 				item: "expatternprovider:ex_pattern_provider"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 14.5d
+			x: 5.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["1FFAAF2C77BC5692"]
 			description: [
-				"任意供电设备，部分无法直接连接me控制器的设备需要通过与控制器相连的能源接收器为me网络供能，个人推荐通量网络供电"
+				"你需要一个供电源为网络提供电力，个人推荐通量网络供电"
 				""
 				"点击左侧图标跳转至通量网络任务"
 			]
@@ -1895,12 +2078,17 @@
 			}]
 			title: "任意供电设备"
 			x: -2.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5163B40C443808F6"]
-			description: ["接下来我会介绍ae的存储功能，这里会介绍ae存储的基本原理以及如何使用更少的频道实现更多存储"]
-			hide_dependent_lines: true
+			description: [
+				"存储是绝大部分具体功能的基础，如果你要进行自动化，那么势必涉及物品的输入/输出，而输入和输出的基础就是存储，还记得一开始说的吗？"
+				""
+				"&o&7一切设备都在这个网络上运作，无论这个网络延伸到何处，任何链接在其上的设备都能基于网络实现功能。&r"
+				""
+				"输入与输出也不例外，它需要基于网络存储来进行。在习惯上，我们称&e将物品导入me网络存储&r为“输入”，反之称&e将物品从网络存储输出&r为“输出”"
+			]
 			id: "00C87CD86A01E8A3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1914,13 +2102,13 @@
 				title: "ae最广为人知的功能"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 13.0d
+			x: -3.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["75E4F62918EA01A9"]
 			description: [
-				"下图是一个简单的处理放射性核废料的方式，其中用到了子网的知识，我在其他部分有所介绍，记得给&e存储总线调好优先级&r，使得化学品优先存储在放射性存储元件内，并将溢出部分存储进聚合器销毁"
+				"下图是一个简单的处理放射性核废料的方式，其中用到了子网的知识，我在其他部分有所介绍，记得给&e存储总线调好优先级&r，使得化学品优先存储在放射性存储元件内，并将溢出部分（通过存储总线）存储进聚合器销毁"
 				"{image:kubejs:textures/ftbq_images/nuclear_waste.png width:200 height:120 align:1}"
 			]
 			id: "1176FCA7ACA95348"
@@ -1935,8 +2123,8 @@
 				type: "checkmark"
 			}]
 			title: "一个简单的处理放射性化学品的装置"
-			x: -9.0d
-			y: 12.0d
+			x: -8.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["56AFED2ECC901623"]
@@ -1959,8 +2147,8 @@
 				type: "item"
 			}]
 			title: "不是，你真做啊"
-			x: 12.5d
-			y: 13.0d
+			x: 13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["030876CB3A0926E9"]
@@ -1979,7 +2167,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -1995,8 +2183,8 @@
 				item: "ae2:redstone_p2p_tunnel"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 19.5d
+			x: -1.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -2012,8 +2200,8 @@
 				item: "ae2:item_p2p_tunnel"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 20.5d
+			x: -1.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -2029,8 +2217,8 @@
 				item: "ae2:fluid_p2p_tunnel"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 21.5d
+			x: -1.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -2046,8 +2234,8 @@
 				item: "ae2:fe_p2p_tunnel"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 19.5d
+			x: 1.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -2063,8 +2251,8 @@
 				item: "ae2:light_p2p_tunnel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 20.5d
+			x: 1.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -2080,8 +2268,8 @@
 				item: "appmek:chemical_p2p_tunnel"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 21.5d
+			x: 1.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["36AEF2FEC433E722"]
@@ -2098,7 +2286,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["1FFAAF2C77BC5692"]
@@ -2119,7 +2307,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["035D287BE0041D74"]
@@ -2181,7 +2369,7 @@
 			]
 			title: "也许从这里开始尝试自动化？"
 			x: -3.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2213,7 +2401,7 @@
 			]
 			title: "硬盘分区"
 			x: 9.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2253,7 +2441,7 @@
 			]
 			title: "功能卡"
 			x: 9.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2274,12 +2462,12 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
 			description: [
-				"&e占用一个频道，可作为线缆传输至多8个频道"
+				"&e占用一个频道，可充当线缆传输至多8个频道"
 				""
 				"将其连接进网络后能够操纵网络存储，可以选择从存储元件传输进网络或者从网络传入元件，&e拥有正常情况下最快的传输速度&r，不过传输时性能占用也略高。通过巧妙的更改其所处网络能高效的转移网络存储"
 				"{@pagebreak}"
@@ -2303,14 +2491,14 @@
 			}]
 			title: "操纵数据"
 			x: 7.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
 			description: [
 				"任务材料要求是搭建最小空间塔需要的量，空间塔能够将方块存储进空间元件中，允许你在任何地方将其释放出来"
 				""
-				"搭建如图所示的多方块结构，其中空间塔能够继续延伸以获得更大的存储范围，图中玻璃即为存储范围，将空间存储元件放入空间IO-端口，点击按钮，玻璃就会被存储进空间存储元件中。空间存储体积越大，消耗越多电量，可以&e升级或增加左侧能源元件、增加空间塔数量&r以供应所需电量。在合适的地方搭建相同的结构，将已有存储的空间元件放入空间IO-端口，提供信号后已存储内容会被放置出来"
+				"搭建如图所示的多方块结构，其中空间塔能够继续延伸以获得更大的存储范围，图中玻璃即为存储范围，将空间存储元件放入空间IO-端口，点击按钮，玻璃就会被存储进空间存储元件中。空间存储体积越大，消耗越多电量，可以&e升级或增加左侧能源元件、增加空间塔数量（降低耗电）&r以供应所需电量。在合适的地方搭建相同的结构，将已有存储的空间元件放入空间IO-端口，提供信号后已存储内容会被放置出来"
 				"{image:kubejs:textures/ftbq_images/spatial_pylon.png width:180 height:150 align:1}"
 			]
 			id: "54347CFD73E0291C"
@@ -2372,7 +2560,7 @@
 			]
 			title: "操纵空间"
 			x: 8.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["54347CFD73E0291C"]
@@ -2417,7 +2605,7 @@
 			}]
 			title: "你为什么会在这里？"
 			x: 8.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -2455,18 +2643,18 @@
 				}
 			]
 			x: 8.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["16E856CA1D016169"]
 			description: [
 				"&e总线设备占用一个频道且只能连接在细线上"
 				""
-				"你不需要管总线是什么，只需要记住一点：&e这些设备以me网络为主体执行功能&r。也就是说输出总线会从me网络向外输出物品，输入总线则会向me网络输入物品"
+				"虽然前面已经提及很多次，但我还是要强调一点：&e这些设备以网络存储为基础执行功能&r。也就是说输出总线会从网络存储输出物品，输入总线则会向me网络输入物品"
 				""
 				"&e最低传输间隔5t"
 				""
-				"扩展总线拥有八倍基础速度和更多功能卡槽位"
+				"扩展总线拥有八倍基础速度（间隔不变）和更多功能卡槽位"
 			]
 			id: "1C3CEBFFA02737F6"
 			rewards: [{
@@ -2502,7 +2690,7 @@
 			]
 			title: "me网络与外界主动交互"
 			x: 0.0d
-			y: 19.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["218D2DD4D782DC82"]
@@ -2519,8 +2707,8 @@
 				item: "expatternprovider:ex_drive"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.0d
+			x: -3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -2528,7 +2716,7 @@
 				"40DB7E8B04D971D5"
 			]
 			description: [
-				"ae自带的无线设备，一个量子环能够传输至多32个频道，需要&e供电和量子缠绕奇点&r才能运行，结构如图"
+				"ae自带的无线设备，可以跨纬度，一对量子环能够传输至多32个频道，需要&e供电和量子缠绕奇点&r才能运行，结构如图"
 				"{image:kubejs:textures/ftbq_images/quantum_ring.png width:200 height:100 align:1}"
 			]
 			id: "5312D26F98612B84"
@@ -2556,7 +2744,7 @@
 			]
 			title: "量子环"
 			x: 7.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2587,6 +2775,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -2601,16 +2790,17 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
 			title: "ME无限单元"
 			x: 7.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
-			description: ["模组添加的无线设备，但是不能跨纬度链接且最远支持1000格，配合p2p能够降低线缆使用，搭建近乎无线的me网络"]
+			description: ["模组添加的无线设备，前者不能跨纬度链接且最远支持1000格（耗电低），后者不能跨纬度但无限距离（耗电高）配合p2p能够降低线缆使用，搭建近乎无线的me网络"]
 			id: "37BAABDF17C79239"
 			optional: true
 			rewards: [{
@@ -2632,10 +2822,15 @@
 					item: "expatternprovider:wireless_tool"
 					type: "item"
 				}
+				{
+					id: "73BC83DD0B368A76"
+					item: "ae2additions:me_wireless_transceiver"
+					type: "item"
+				}
 			]
 			title: "ME无线连接"
 			x: 9.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -2701,7 +2896,7 @@
 			]
 			title: "更多无线终端"
 			x: 8.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2752,7 +2947,7 @@
 			]
 			title: "好玩的小东西"
 			x: 8.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F7C1D3A07ED6D81"]
@@ -2771,7 +2966,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2795,7 +2990,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2853,7 +3048,7 @@
 			}]
 			title: "便携元件"
 			x: 7.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2897,7 +3092,7 @@
 			]
 			title: "网络美化"
 			x: 10.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["31E89CD23CE7D524"]
@@ -2914,8 +3109,8 @@
 				item: "expatternprovider:ex_interface"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 17.5d
+			x: -3.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2941,7 +3136,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -2976,7 +3171,7 @@
 				}
 			]
 			x: 6.0d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -3007,11 +3202,11 @@
 				}
 			]
 			x: 8.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
-			description: ["能够自动下单维持网络内物品数量"]
+			description: ["能够自动下单维持网络内物品数量，推荐使用合成卡配合me接口而非请求器"]
 			id: "54170FE61D9ACF3C"
 			optional: true
 			rewards: [{
@@ -3034,7 +3229,7 @@
 				}
 			]
 			x: 6.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -3062,7 +3257,7 @@
 			]
 			title: "触发总线"
 			x: 9.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -3087,11 +3282,11 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
-			description: ["完整方块形式的终端，占用一个频道且能作为线缆传输至多8个频道"]
+			description: ["完整方块形式的终端，占用一个频道且能充当线缆传输至多8个频道"]
 			id: "6932AF35D2020CAB"
 			optional: true
 			rewards: [{
@@ -3140,7 +3335,7 @@
 			}]
 			title: "传统主义"
 			x: 7.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -3160,7 +3355,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3EC982CA8C651306"]
@@ -3178,14 +3373,14 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 17.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
 			description: [
 				"&e占用一个频道，只能连接在细线上"
 				""
-				"me网络与世界方块交互的必要设备，&e可以附魔。成型面板没有主动输出能力，需要配合输出总线与Ad-Hoc网络使用（当然完整me网络做子网络也可以）。破坏面板无法主动过滤，需要配合存储总线使用"
+				"me网络与世界方块交互的必要设备，&e可以附魔。成型面板没有主动输出能力，需要配合输出总线与Ad-Hoc网络使用（当然完整me网络做子网络也可以）。破坏面板无法主动过滤，需要配合存储总线使用——&r&5过滤掉落物，思索中的标记实际上应该是圆石&r"
 				""
 				"此外破坏面板在世界最高处向上可以收集陨石粉"
 			]
@@ -3212,7 +3407,7 @@
 			]
 			title: "me网络与世界方块交互"
 			x: 7.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["18FFB9D41FDD3A16"]
@@ -3261,7 +3456,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -3422,17 +3617,16 @@
 				}
 			]
 			title: "光栅石和分形硅石"
-			x: -6.0d
-			y: 10.5d
+			x: -5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3DCAC93ED52C2026"]
 			description: [
-				"样本供应器的面板形式相比较普通模式，他不会给被贴上去的方块传递频道，在进行一些跨网络合成的时候会很好用"
+				"样板供应器的面板形式相比较普通模式，他不会给被贴上去的方块传递频道，在进行一些跨网络合成的时候会很好用"
 				""
-				"效果同方块式接口指定方向"
 				""
-				"他不能收回产物，这点要注意"
+				"产物无法从面板式供应器回归——因为唯一的面接在了处理设备或缓存容器上"
 			]
 			id: "5FA8A9CB6D8DF1C5"
 			subtitle: "效果同供应器调方向"
@@ -3442,26 +3636,69 @@
 				type: "item"
 			}]
 			title: "面板式"
-			x: 4.0d
-			y: 11.5d
+			x: 6.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4A180764069FEF5D"]
 			description: ["      把大宗存储元件放在元件工作台上可以给它插入压缩卡。此时大宗元件就会像一个压缩抽屉一样，以接近无限的速度自动根据需求压缩/解压缩存储中的物品。"]
 			id: "74B4922A3CBBC08D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3108847D13BC761C"
+				table_id: 8776799107351546644L
+				type: "random"
+			}]
 			subtitle: "为什么大家都爱用大宗？"
 			tasks: [{
 				id: "67113E782D1E22D6"
 				item: "megacells:compression_card"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 11.0d
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["29C5A78A43FBEC61"]
+			description: [
+				"&7&o如果我们要设计复杂自动化——样板供应器无法直接发送原料时——我们当然会设想放置一个容器使得我们能对样板供应器发出的原料进行一些自定义的分配&r&r"
+				""
+				"当样板供应器与ME接口相连时，由于二者都会传输频道，它们就链接在了同一个me网络中，这样原料发入me接口就会回归网络存储"
+				""
+				"使用&e面板形态的ME接口/样板供应器或者设置样板供应器的发送方向&r则可以隔离频道，这样原料就会发入me接口网络——一个不同于样板供应器网络的子网——即为子网合成。"
+				"{image:kubejs:textures/ftbq_images/childe_network_crafting.png width:164 height:59 align:1}"
+				""
+				" 在进行合成的子网中利用存储总线连接处理机器输入口，可以轻松完成需要多面输入且需要输入过滤（利用存储总线的过滤功能）的自动化，如图是个压印器自动化。"
+				"{image:kubejs:textures/ftbq_images/child_network_crafting_example.png width:92 height:96 align:1}"
+			]
+			icon: "kubejs:compressed_hardlead"
+			id: "6A540E321A1FA470"
+			subtitle: "对需要多面区分输入的合成方式的极佳自动化手段"
+			tasks: [{
+				id: "065BD3DC9111F879"
+				type: "checkmark"
+			}]
+			title: "子网合成"
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5163B40C443808F6"]
+			id: "0A4D8612B8B133EA"
+			subtitle: "如何自动化(自动合成，自动处理)"
+			tasks: [{
+				id: "74DA7D02224B7AF7"
+				title: "如何使用AE进行自动化"
+				type: "checkmark"
+			}]
+			title: "ae最关键的功能"
+			x: 3.5d
+			y: 12.0d
 		}
 	]
 	subtitle: [
 		"科技的尽头...是量子！"
 		"-by Zehn_bubble"
 	]
-	title: "AE2 —— 万物皆可自动化"
+	title: "核心玩法  //  AE2  //"
 }

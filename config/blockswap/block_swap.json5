@@ -92,7 +92,7 @@ to make editing this file much easier.
 		"immersiveengineering:ore_lead":"thermal:lead_ore",
 		"mekanism:deepslate_lead_ore":"thermal:deepslate_lead_ore",
 		"immersiveengineering:deepslate_ore_lead":"thermal:deepslate_lead_ore",
-		
+		 
 		"immersiveengineering:ore_silver":"thermal:silver_ore",
 		"immersiveengineering:deepslate_ore_silver":"thermal:deepslate_silver_ore",
 
@@ -106,6 +106,8 @@ to make editing this file much easier.
 
 		"tinkers_reforged:aluminum_ore":"immersiveengineering:ore_aluminum",
 		"tinkers_reforged:deepslate_aluminum_ore":"immersiveengineering:deepslate_ore_aluminum",
+
+		"minecraft:decorated_pot":"minecraft:air"
 
 	}
 }

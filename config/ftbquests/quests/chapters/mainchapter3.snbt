@@ -16,7 +16,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 2.5d
-			x: 0.5d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -32,54 +32,6 @@
 			y: 2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 45.0d
-			width: 1.5d
-			x: -5.0d
-			y: 5.5d
-		}
-		{
-			click: "#0F31C279CAD867E7"
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/unipolar_magnet_budding"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 5.5d
-		}
-		{
-			click: "#18063DCA8C460664"
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 6.0d
-		}
-		{
-			click: "#0F31C279CAD867E7"
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/unipolar_magnet"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 5.0d
-		}
-		{
 			click: "#7D6223FECE39047C"
 			corner: false
 			dev: false
@@ -90,83 +42,6 @@
 			width: 2.0d
 			x: 9.0d
 			y: 2.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 6.5d
-		}
-		{
-			alpha: 160
-			click: ""
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 7.0d
-		}
-		{
-			alpha: 128
-			click: ""
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 7.5d
-		}
-		{
-			alpha: 96
-			click: ""
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 8.0d
-		}
-		{
-			alpha: 64
-			click: ""
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 8.5d
-		}
-		{
-			alpha: 32
-			click: ""
-			corner: false
-			dev: false
-			height: 0.6d
-			hover: [ ]
-			image: "cti:block/overdense_glacio_stone"
-			rotation: 0.0d
-			width: 0.6d
-			x: -7.0d
-			y: 9.0d
 		}
 		{
 			click: ""
@@ -193,19 +68,6 @@
 			y: -1.5d
 		}
 		{
-			alpha: 200
-			click: "#7DC32D877CDEFB84"
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "etshtinker:block/fluid/annihilating_plasma/still"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: 7.0d
-		}
-		{
 			click: ""
 			corner: false
 			dev: false
@@ -214,25 +76,46 @@
 			image: "ftblibrary:icons/down"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.5d
+			x: -6.0d
 			y: 0.5d
+		}
+		{
+			click: "#74056BE543A86EC5"
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:item/singnal_mechanism"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 5.0d
 		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["      最简短的章节，耗时却最久，这就是为什么这一块单独为一章。"]
+			dependencies: [
+				"5E6164E1FEC8958B"
+				"690EAE79C6AAD682"
+			]
+			description: [""]
 			id: "4995275076684E8E"
+			rewards: [{
+				id: "18B4EC92013345EF"
+				item: "etshtinker:trinity_intereactive_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "醒醒，该玩核电了"
 			tasks: [{
 				id: "186BAD86D152F4ED"
-				item: "kubejs:atherium_casing"
+				item: "kubejs:reactor_casing"
 				type: "item"
 			}]
-			title: "上一章玩的可好？"
 			x: 0.5d
 			y: 2.5d
 		}
@@ -291,145 +174,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4995275076684E8E"]
-			description: [
-				"      人马座A*，也就是所谓的银心黑洞，就是我们星际旅行的下一个目标（也是最后一个！）。"
-				"      由于黑洞周围高能射线的缘故，那些行星上通常有较为极端的环境，但是也同时分部着一些稀有资源。"
-				"      &b*这一小节为可选，意味着你如果不感兴趣可以跳过这一节"
-			]
-			id: "629F1EF39A033584"
-			shape: "diamond"
-			size: 2.5d
-			subtitle: "向人马座A*进发"
-			tasks: [{
-				id: "780011922400BE49"
-				item: {
-					Count: 1b
-					id: "cti:tier_5_rocket"
-					tag: {
-						BotariumData: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["629F1EF39A033584"]
-			description: [
-				"      电离冻土星球的地形与液氢海洋之下的木星核心较为相似，崎岖不平。它有&e电离冻土、电离月海和异常区域三种群系。"
-				""
-				"      同时这里也是本包&1最为寒冷&r的地方，因此你应该知道它适合用来干什么了吧"
-				""
-				"      异常区域群系在电离冻土&b地势较低&r的地方，它可能是这个星球上你最关注的地方，&l&6但是它是你将会遇到的最危险的群系之一，&r&n去之前请留意以下两点&r："
-				""
-				"      1.异常区域带有&d无法消除（重力正常化也不能）&r的重力异常，&b每5tick你的重力都会随机变化。"
-				""
-				"      2.异常区域的超质量霜星石会在上方释放&6威力巨大的等离子爆炸，&r在造成两段30点自源伤害的同时，附带多段6点伤害的穿甲的魔法、熔岩和爆炸伤害，&c总伤害95&r。&d在升级装备前去这就是在作死！"
-				""
-				"         在电离冻土维度，&bpowah反应堆&r&a2.25倍效率&r，&b反应堆中子素收集器&r&a催化剂消耗0.75倍概率且钠蒸汽处理上限翻倍&r"
-				"{image:kubejs:textures/ftbq_images/2024-12-05_09.19.59.png width:256 height:120 align:1}"
-				""
-				"&c环境危害："
-				" -电离：0.8（电离冻土）/  2.1（电离月海）/  3.5（异常区域）"
-				" -霜冻：3.9（电离冻土）/  2.2（电离月海）/  1.1（异常区域）"
-			]
-			hide_dependency_lines: true
-			icon: "kubejs:ionized_slag"
-			id: "74C9AEEDC5BAD54E"
-			size: 1.5d
-			subtitle: "被超新星爆发掀掉大气的气态行星"
-			tasks: [{
-				dimension: "ad_astra:ionized_glacio"
-				icon: "kubejs:ionized_slag"
-				id: "458597B3541C8844"
-				type: "dimension"
-			}]
-			title: "访问：电离冻土"
-			x: -6.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["74C9AEEDC5BAD54E"]
-			description: ["这两种矿石分布在异常区域的地表"]
-			id: "564E27A743BF5FF4"
-			rewards: [
-				{
-					count: 8
-					id: "2CB52EC97067F35F"
-					item: "etshtinker:protonium"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6C115E8D689E749A"
-					item: "avaritia:neutron_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "这也能成矿？？！"
-			tasks: [
-				{
-					id: "2F70D758260A8FDC"
-					item: "kubejs:overdense_protonium_ore"
-					type: "item"
-				}
-				{
-					id: "6D6EAD5A96A14AAB"
-					item: "kubejs:overdense_neutronium_ore"
-					type: "item"
-				}
-			]
-			title: "质子、中子的矿物形式"
-			x: -7.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["74C9AEEDC5BAD54E"]
-			description: ["      电离熔渣分布在电离月海的浅层，&b在热解炉中冶炼还可以获取少量电子"]
-			id: "218F49393116E8C5"
-			rewards: [{
-				count: 8
-				id: "542CCC139D39752A"
-				item: "kubejs:electrocrystal"
-				type: "item"
-			}]
-			subtitle: "处理电离熔渣获取"
-			tasks: [{
-				id: "06C5A43FAAF82698"
-				item: "kubejs:electrocrystal"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["74C9AEEDC5BAD54E"]
-			description: [
-				"      单极磁石的母岩稀散地分布在异常区域的-16~0之间"
-				"      单极磁石只会在异常区域中的特定时段自然生长。&d此外，当被放置在超质量霜星石&r（需要紧贴着）&d上方时超质量霜星石会促进单极磁石的生长&r（此时单极磁石只会长在母岩的上方）&d，且无视维度和时间。"
-				""
-				"&c！！！注意！！！"
-				"      最新的研究表明单极磁石奇特的磁学性质会增强电磁能量的释放。&l当单极磁石母岩被放置在&d超质量霜星石&r&l上时，超质量霜星石&c发生等离子爆炸的频率会翻10倍，同时等离子爆炸的基础伤害由&430变为200&c，多段附伤相应增加，波及半径和长度皆翻倍！&r这使得种植单极磁石变得异常危险，请万分留意！"
-			]
-			id: "0F31C279CAD867E7"
-			rewards: [{
-				count: 8
-				id: "105A5656BF6606F3"
-				item: "cti:unipolar_magnet"
-				type: "item"
-			}]
-			subtitle: "像啊，很像啊"
-			tasks: [{
-				id: "7457CAD309F9C947"
-				item: "cti:unipolar_magnet"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
 			dependencies: [
 				"488B7662EDD57601"
 				"0B604DD2BD9FCA62"
@@ -446,8 +190,9 @@
 			icon: "mekanismgenerators:control_rod_assembly"
 			id: "21BC740E15D8D6F9"
 			rewards: [{
-				id: "4D1465963CC830D7"
-				item: "kubejs:atherium_casing"
+				id: "69AE3E7A3167BECB"
+				item: "kubejs:reactor_casing"
+				random_bonus: 31
 				type: "item"
 			}]
 			size: 1.5d
@@ -482,6 +227,12 @@
 				{
 					id: "7DE2B4984F60187D"
 					type: "checkmark"
+				}
+				{
+					id: "72CB86E4ED6E2C15"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					optional_task: true
+					type: "item"
 				}
 			]
 			title: "核裂变"
@@ -756,7 +507,7 @@
 				"4DB1840CB3507ECE"
 			]
 			description: [
-				" &b     一个气冷聚变反应堆能提供200MFE/t的极端发电量，是后期发电的不二之选。"
+				" &b     一个气冷聚变反应堆能提供200MFE/t的极端发电量，是后期发电优选之一。"
 				"      聚变反应堆的形状不像裂变反应堆、涡轮机那样规则，所以相比口头描述，我更建议去mcmod上查询聚变反应堆的结构。"
 				"&ehttps://www.mcmod.cn/item/36016.html"
 				"      &6当然你也可以用机动蓝图查看"
@@ -1091,7 +842,7 @@
 			dependencies: ["1A2A2F277FB013A6"]
 			description: [
 				"      反中子是本包最强的防御性/进攻性材料之一。而这份强大的代价则是反中子制成的工具在使用的时候&6需要消耗你背包中的反中子。"
-				"      如果你觉得你目前的生产力无法驾驭这种材料，就赶紧把它做成&a奇迹&e物质&r吧！"
+				"      如果你觉得你目前的生产力无法驾驭这种材料，就赶紧把它做成&6阳清&5合金&r吧！"
 				"      另外如果你处于&c极限模式&r，&4千万不要让掉落物形式的超致密锭接触反中子&r，否则的话......"
 			]
 			hide_dependency_lines: false
@@ -1122,10 +873,7 @@
 		}
 		{
 			dependencies: ["68D388202322CF8A"]
-			description: [
-				"      非常均衡的材料，既提供了生存面也提供了进攻面性质，搭配反中子食用更佳。此外它也有一些专属强化（&m没错，是灾厄&r）"
-				"      你或许注意到了，合成一个奇迹物质需要消耗大量能量，所以赶紧把聚变反应堆造起来吧！"
-			]
+			description: ["       在反中子褪去其锐利的锋芒后，成为了一个不错的功能性材料。"]
 			id: "71078AE0A767DD37"
 			rewards: [{
 				count: 2
@@ -1138,47 +886,11 @@
 			subtitle: "做出这个，你离毕业就只差亿点距离了"
 			tasks: [{
 				id: "7BE1A058CD14B880"
-				item: "etshtinker:exo_alloy"
+				item: "kubejs:atherium_alloy"
 				type: "item"
 			}]
 			x: 19.0d
 			y: 2.5d
-		}
-		{
-			dependencies: ["0F31C279CAD867E7"]
-			description: ["      只需要一些单极磁石，你就能对裂变等离子体进行引导使其表现出湮灭等离子体的特性。"]
-			id: "2C5E287109459EBA"
-			rewards: [{
-				count: 4
-				id: "13E4F4512EA43F44"
-				item: "cti:unipolar_magnet_budding"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "做出这个了的你一定发现了点什么"
-			tasks: [{
-				id: "7D0B7FA486A399EB"
-				item: "kubejs:particle_container"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["74C9AEEDC5BAD54E"]
-			description: [
-				"      超质量霜星时在接收到随机刻时有概率会尝试在其上方20格内的第一个空气方块处生成伤害为75的等离子爆炸，对沿途生物造成来源为自己的物理伤害和三段穿甲的熔岩、魔法、爆炸伤害。&b也就是说当你搭建一条20格高的超质量霜星石时，顶部产生等离子爆炸的频率会达到最高。"
-				" &d    在单极磁石母岩的下方放置19个超质量霜星石，超质量霜星石对单极磁石的加速就会达到最高&r"
-			]
-			id: "18063DCA8C460664"
-			subtitle: "别被炸到了"
-			tasks: [{
-				id: "09F07E4F1882DA90"
-				item: "cti:overdense_glacio_stone"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -1328,40 +1040,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["74C9AEEDC5BAD54E"]
-			description: ["V一桶看看实力（）"]
-			id: "3A435336999A432F"
-			rewards: [
-				{
-					count: 8
-					id: "58F9E30AA3A61572"
-					item: "cti:unipolar_magnet_budding"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1E8FA36D6DE065A3"
-					item: "kubejs:protonium_block"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3169469B8E670889"
-					item: "etshtinker:electronium"
-					type: "item"
-				}
-			]
-			subtitle: "在异常区域使用大气冷凝机可以获取的超充能流体中子"
-			tasks: [{
-				consume_items: true
-				id: "7FF7E244C96DD654"
-				item: "etshtinker:overchargedneutronium_bucket"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 1.0d
-		}
-		{
 			dependencies: [
 				"48D6AB1041347A8D"
 				"31E4D0FE5E4E56CD"
@@ -1389,36 +1067,6 @@
 			title: "整合包添加的硫酸获取"
 			x: 3.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["7793487FAF3B0A0B"]
-			description: [
-				" &d     是的，湮灭等离子体用合金离心机能分解出液态等离子体&b（&m谁家狄拉克逆变&r&b）"
-				"      &m都有这个了还缺反物质我看不起你"
-			]
-			id: "5ACDF075A4BD35CB"
-			rewards: [
-				{
-					count: 16
-					id: "67E2CACD37003B01"
-					item: "mekanism:pellet_antimatter"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "76720190788414F5"
-					item: "avaritia:infinity_catalyst"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 64L
-				id: "774562A5664554AD"
-				item: "mekanism:pellet_antimatter"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["5548DF381652354D"]
@@ -1512,9 +1160,9 @@
 				"{image:kubejs:textures/ftbq_images/6b1a069dce9ba44920347a49ea84f012.png width:126 height:58 align:1}"
 				" &b        反应堆中子素收集器只要有过热钠输入、钠蒸汽输出和物品接受就能运作。无论是物品满了还是能量满了都会继续转化过热钠。"
 				"         反应堆中子素收集器的初始速率为&e100 000mB/t、100kFE/t&r，对应裂变反应堆的燃烧速率为&e0.5mB/t&r，通过加入催化剂可以提高效率。"
-				" &c       JEI&r显示的催化剂为&6催化剂单元&r，我们以&5超致密&r为例。JEI中超致密的数量为&b3&r，意味着超致密的催化剂单元按照&b3个超致密&r来计算。比如如果放入了36个超致密，那么催化剂单元数就是&b12&r，效率增加就是&61+12.68*12 = 153.16倍&r，催化剂消耗概率为&e0.12‰/t&r，此时过热钠最大消耗速率为&630 632 000&r，对应燃烧速率&e153.16&r，能量产出&615.316MFE/t。"
-				" &d       当放入一组阳清合金时，反应堆中子素收集器的处理速度达到最大，能够维持1288.5mB/t的燃烧速率，发电257.7MFE/t。"
+				" &c       JEI&r显示的催化剂为&6催化剂单元&r，我们以&5超致密&r为例。JEI中超致密的数量为&b3&r，意味着超致密的催化剂单元按照&b3个超致密&r来计算。比如如果放入了36个超致密，那么催化剂单元数就是&b12&r，效率就是&61+22.67*12 = 272.04倍&r，催化剂消耗概率为&e0.12‰/t&r，此时过热钠最大消耗速率为&27 204 000&r，对应燃烧速率&e136.02&r，能量产出&27.204MFE/t。"
 				" &6     在反物质后，不会消耗的&c反中子&6也是另一种更为诱人选择。其最大效率为512.5mB/t----102.5MFE/t。"
+				"      &d阳清合金有着最高的效率。但是会消耗导致其略显昂贵。其最大效率为1928.5mB/t----385.7MFE/t"
 			]
 			icon: "mekanism:boiler_valve"
 			id: "0B604DD2BD9FCA62"
@@ -1562,53 +1210,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["71078AE0A767DD37"]
-			description: [
-				"相较于普通的位面矿机，高级位面矿机的运行速度非常极端，1个ME接口已经不足以满足传输需求。"
-				""
-				"如图，利用存储整合器的整合效果可以非常简单地将这些产品送进你的ME网络："
-				""
-				"{image:kubejs:textures/ftbq_images/2025-03-17_21.28.43.png width:180 height:100 align:1}"
-			]
-			id: "2E22ACA57D1512EE"
-			rewards: [{
-				count: 64
-				id: "56EBD2DA805DCD91"
-				item: "cti:compressed_singularity"
-				title: "泥猜~"
-				type: "item"
-			}]
-			subtitle: "本包最强大的产矿机器，试试吧"
-			tasks: [{
-				id: "719E7B53CC75C05B"
-				item: "cti:quantum_miner_advanced"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2C5E287109459EBA"]
-			description: ["核废料的再处理。当然，这玩意还是很有用的"]
-			hide_dependency_lines: false
-			id: "7793487FAF3B0A0B"
-			rewards: [{
-				count: 4
-				id: "1FBDCFC686235986"
-				item: "cti:unipolar_magnet_budding"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "  湮灭等离子的一种制取方法（也是另一种反物质制取方法）"
-			tasks: [{
-				id: "7CA30B0998470D3A"
-				item: "etshtinker:stable_plasma"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 7.0d
-		}
-		{
 			id: "31E4D0FE5E4E56CD"
 			subtitle: "冷冻机是比较推荐的雪球生产方式"
 			tasks: [{
@@ -1650,7 +1251,506 @@
 			x: 13.0d
 			y: 4.0d
 		}
+		{
+			description: [
+				"      在木星上挖掘到超致密后，你便能带着来自第二章的中子锭解锁mek的最终部分：核电。"
+				""
+				" &a     不过在正式开始前，我们先来简单热个身！希望你还记得化工自动化怎么做。"
+				" "
+			]
+			icon: "etshtinker:ultra_dense"
+			id: "4BE9FFF09B1857AD"
+			size: 2.0d
+			subtitle: "上一章玩得可好？"
+			tasks: [
+				{
+					id: "7634AE1DCCD92DDD"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+				{
+					id: "2FAD48FA5C6612C4"
+					item: "etshtinker:ultra_dense"
+					type: "item"
+				}
+			]
+			title: "第三章，开！"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BE9FFF09B1857AD"]
+			description: [
+				"      合成质子、电子以及超致密便是热身。活用JEI，搭建你的三位一体强互作用合金产线吧！任务里是你需要的机器和部分中间产物。"
+				""
+				"      注：你要至少做完完整的&b超充能气体中子&r产线后才能前往&d电离冻土星&r并在&d异常区域&r通过大气冷凝器获取超充能流体中子。"
+				""
+				"      再次提醒：&e化学溶解室消耗的气体量是随机浮动的。&6不要用AE2下单来进行化学溶解室的自动化，做被动产线！"
+			]
+			id: "68F13B0EFDD1DDB3"
+			rewards: [
+				{
+					id: "152A5E1A0E8EB008"
+					item: "avaritia:neutron"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "49E87B90E187CC26"
+					item: "etshtinker:overchargedneutronium_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "别再问异常区域在哪里了！！！"
+			tasks: [
+				{
+					id: "4A99A57D0F6C9EF3"
+					item: "mekanism:chemical_dissolution_chamber"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D57A4D3ADA2CB7A"
+					item: "mekanism:rotary_condensentrator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C10F42B70E126BC"
+					item: "mekanism:ultimate_infusing_factory"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26F4CA6FC9A099B7"
+					item: "mekanism:ultimate_compressing_factory"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39F2DC6B74D8E19C"
+					item: "mekanism:chemical_oxidizer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "57E58AC36E59FB14"
+					item: "etshtinker:gs_indused_netherite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0286F41693C878C4"
+					item: "etshtinker:activated_neutronium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34E6FCDAB8592878"
+					type: "checkmark"
+				}
+				{
+					id: "45E7AEEFC78CECEB"
+					item: "etshtinker:protonium"
+					type: "item"
+				}
+				{
+					id: "3DCD173EF500564B"
+					item: "etshtinker:electronium"
+					type: "item"
+				}
+				{
+					id: "27E9D822DEBDEAB1"
+					item: "etshtinker:ultra_dense"
+					type: "item"
+				}
+			]
+			title: "合成质子电子和超致密"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6BA82CEDE74988CB"]
+			id: "5E6164E1FEC8958B"
+			rewards: [{
+				id: "62F7B6A7F160D83C"
+				item: "kubejs:violium_casing"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5593F40CDF338EDE"
+				item: "kubejs:violium_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68F13B0EFDD1DDB3"]
+			id: "690EAE79C6AAD682"
+			rewards: [{
+				id: "0FA6D9C43D77C952"
+				item: "etshtinker:overchargedneutronium_bucket"
+				type: "item"
+			}]
+			subtitle: "自身也是一种匠魂材料"
+			tasks: [{
+				id: "5B1D5A775AB01DCA"
+				item: "etshtinker:trinity_intereactive_alloy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BE9FFF09B1857AD"]
+			description: ["      感应炉配方需要钨钢，但是可以增产。融合机配方简单，但是不能增产。利弊由你来权衡！"]
+			id: "6BA82CEDE74988CB"
+			rewards: [{
+				id: "00033943723EC733"
+				item: "kubejs:violium_alloy"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "怎么感觉有点耳熟"
+			tasks: [{
+				id: "238AAAAC6B94C5DD"
+				item: "kubejs:violium_alloy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BE9FFF09B1857AD"]
+			hide_dependency_lines: true
+			id: "0E32DA235D070E71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0426034385B31EF1"
+					table_id: 1015335001374513013L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "79AE6E99DE56A0A2"
+					item: "kubejs:violium_alloy"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "可以用于合成维奥合金（显然不推荐）、粒子容器和高级插件"
+			tasks: [{
+				id: "7DC660D67B102791"
+				item: "mekanism:ultimate_combining_factory"
+				type: "item"
+			}]
+			title: "融合机"
+			x: -4.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4BE9FFF09B1857AD"]
+			description: [
+				"      底部搭建&64*4*1(长*宽*高)&r的热力蒸馏方块，然后开始往上搭建最高为&b18&r格(包括底部的一格)。"
+				"      热力蒸馏塔可以用热力蒸馏方块或结构玻璃，或者热力蒸馏阀门往上搭建，&e但是棱边必定是热力蒸馏方块。"
+				"      热力蒸馏控制器和热力蒸馏阀门可以放置在可替换为结构玻璃的地方。"
+				"{image:kubejs:textures/ftbq_images/d2aa1596c687a52dd5d1e8a22c1810ba.png width:154 height:200 align:1}"
+				" &a     由于mek太阳能板存在无法修复的崩溃bug，故被禁用，所以如果你强迫症的话可以把顶面四个角补全"
+				" &e     建议使用&d电阻加热器加热&r（需要一个热力蒸馏阀门并用热导线缆将电阻加热器连接热力蒸馏阀门），只需要设置&65000FE/t&r即可满速运行18格高的热力蒸馏塔。并且建议水槽给热力蒸馏塔供水。"
+				"      少一块玻璃是因为如果用机械动力搭建完整会导致游戏崩溃"
+				" &6    与PnC不同，mek的机器受环境影响很小，所以别费老大劲跑木星造蒸馏塔了"
+				"      "
+			]
+			hide_dependency_lines: true
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "5A17FDC981D6F239"
+			rewards: [{
+				id: "3EE47D33D1E7E0AA"
+				item: {
+					Count: 1b
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							4
+							18
+							4
+						]
+						Deployed: 0b
+						File: "最大热力蒸馏塔（少一块结构玻璃）.nbt"
+						Mirror: "NONE"
+						Owner: "Alpha_Alps"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "产盐水和液态锂的多方块结构"
+			tasks: [
+				{
+					id: "4A2E4BA25DC734FD"
+					item: "mekanism:thermal_evaporation_controller"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15BB611A96E806D9"
+					item: "cookingforblockheads:sink"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "45A63D28490ED11E"
+					item: "mekanism:thermal_evaporation_valve"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "019DA014465582A3"
+					item: "mekanism:thermal_evaporation_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3EDA7C7222B89B4E"
+					item: "mekanism:structural_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53377C729D893BAD"
+					type: "checkmark"
+				}
+			]
+			x: -5.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4BE9FFF09B1857AD"]
+			description: [
+				"      Mek又一大神器：带过滤功能的挖矿机。"
+				"      在GUI中配置完毕后再启动就能自动挖掘超大范围内的矿物，从此告别手挖。"
+				" &b     在本包中它造价很高，但是同时也被极大地增强了，速度、最大范围都有巨量提升。"
+			]
+			hide_dependency_lines: true
+			id: "3959380CAA40C547"
+			rewards: [{
+				count: 16
+				id: "7AD0C5839D028CE8"
+				item: "kubejs:violium_alloy"
+				random_bonus: 16
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3AFCF7434231E20D"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"240E67607F9434C3"
+				"4BE9FFF09B1857AD"
+			]
+			hide_dependency_lines: true
+			id: "62EB6A3ED8A2BD0B"
+			rewards: [{
+				id: "7983931B821C529E"
+				item: "cti:upgrade_electronium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7431BAFBD11AE7F5"
+				item: "cti:atmosphere_extractor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"240E67607F9434C3"
+				"4BE9FFF09B1857AD"
+			]
+			hide_dependency_lines: true
+			id: "1643C8F3F232B455"
+			rewards: [{
+				id: "31E828D56E72261D"
+				item: "cti:upgrade_electronium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7CCB0BDB392DE0C2"
+				item: "cti:atmosphere_condensator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4BE9FFF09B1857AD"]
+			description: [
+				"      &c 辅助静电场分离模块&r、&9外置滤波电容模块&r、&d超导互感线圈模块&r 这三个升级可以用于&a大气采集&r的升级"
+				"      &6这三个升级中后两个升级的核心部件只能通过冒险获取&r，它们分别分布在&e天境的黄金级地牢&r和&3深暗之园的下僻巢穴&r中。"
+				"具体配方可以看JEI"
+				"   &c     速率计算方式请看下一页（非常重要！）"
+				"{@pagebreak}"
+				"        大气冷凝/提取机需要在能量充足时在特定群系中才能工作。具体群系产出请看JEI。"
+				"        大气开采设备初始速率为1%/t，也就是100刻完成一次配方。在其&b上方4格内&r每有一格&b空气&r则效率+1%/t，最高达到&d5%/t&r，对应20刻完成一次配方，然后开始对插件进行计算。"
+				"{image:kubejs:textures/ftbq_images/i18.png width:56 height:111 align:1}"
+				"&l             图：满速大气开采需要上方预留4格空位"
+				"&e       举例：一个装有2个外置滤波电容组件的满速大气冷凝器，其速率为5%*(1+4.5+4.5)=50%/t，此时只需要2刻就能完成一次配方。"
+			]
+			hide_dependency_lines: true
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "240E67607F9434C3"
+			rewards: [{
+				id: "4D90AD86E00D351F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "如何给大气开采器提速"
+			tasks: [
+				{
+					id: "01EB36630D94C8D3"
+					type: "checkmark"
+				}
+				{
+					id: "528209F84F19F279"
+					item: "cti:upgrade_electronium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E663E01B210E4E9"
+					item: "cti:upgrade_violium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79EFFFE10B0BE2B1"
+					item: "cti:upgrade_aetherium"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "大气采集升级"
+			x: -0.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E32DA235D070E71"]
+			description: [
+				"      Mek的机器实在是太慢了，即便是最高级的工厂一秒也仅仅能处理9次。"
+				"      这个时候聪明的你可能想到了，如果趁机器不注意，偷偷塞入超过8个升级会怎么样？"
+				""
+				"      材料和工艺的进步让你能够成功完成这一点，现在你可以通过&e更高级的升级套件&r向mek机器插入超过8个升级了。"
+				""
+				"      对于一般的机器，每8个插件速率提高10倍，16插件下处理间隔为2tick。"
+				""
+				"      注：在化学品处理机器&e（如回旋式气液冷凝器、化学灌注机）&r每8速度升级速率提高256倍，在这些机器上应用16速度升级时&c不仅能量消耗高到离谱，还会遇到输出槽容量不够的情况（因为此时机器的加速达到了惊人的65536倍）&r。&6请不要把16x速度升级应用在这些机器上。"
+				""
+				"      一台回旋气液在16速度升级下能消耗20.48MFE/t，某种意义上能用来当作能量垃圾桶"
+			]
+			id: "12ADB0D06F89F625"
+			rewards: [
+				{
+					count: 32
+					id: "48412F97582C1851"
+					item: "etshtinker:activated_chroma_plate"
+					type: "item"
+				}
+				{
+					id: "3EA233C672F7AF12"
+					item: "kubejs:reactor_casing"
+					type: "item"
+				}
+			]
+			subtitle: "让mek的机器快到飞起！"
+			tasks: [
+				{
+					id: "753803BBD9CC92BD"
+					item: "cti:chroma_upgrade_speed_kit"
+					type: "item"
+				}
+				{
+					id: "57B9BA5D4E7010F5"
+					item: "cti:aetherium_upgrade_speed_kit"
+					type: "item"
+				}
+				{
+					id: "3D10D98ACD5C75B9"
+					item: "cti:upgrade_speed_kit_1"
+					type: "item"
+				}
+				{
+					id: "0FB3DD70C947FF6D"
+					item: "cti:upgrade_speed_kit_2"
+					type: "item"
+				}
+			]
+			title: "高级速度升级套件"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E32DA235D070E71"]
+			description: [
+				"      当安装了过多的速度升级之后，你可能会发现机器因为能量消耗超出缓存而无法工作，这时候更高级的能量插件的作用就体现出来了，它能增加能量升级的数量。"
+				""
+				"      然而，由于你乱插升级把机器超频坏了，&c大于8部分的能量升级&n&l只增加机器的能量缓存，而不降低机器的能耗"
+			]
+			id: "5C1233FEAE78E624"
+			rewards: [{
+				count: 4
+				id: "4ECEF0EFEE68B89E"
+				item: "etshtinker:trinity_intereactive_alloy"
+				type: "item"
+			}]
+			subtitle: "不加这个你的机器可能不能满速运作"
+			tasks: [
+				{
+					id: "135C1A1AA10FAD75"
+					item: "cti:upgrade_energy_kit_2"
+					type: "item"
+				}
+				{
+					id: "62EB325E0D4DA40D"
+					item: "cti:upgrade_energy_kit_3"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.5d
+		}
 	]
-	subtitle: ["-by EtSH_C2H6S"]
+	subtitle: [
+		"轮椅，我们渴望更多轮椅！"
+		"-by EtSH_C2H6S"
+	]
 	title: "第三章 —— 原子能与量子科技"
 }

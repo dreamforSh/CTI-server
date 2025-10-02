@@ -60,7 +60,6 @@ StartupEvents.registry("item",event=>{
     event.create("crystal_redstone","basic")
 
     event.create("empty_record","basic")
-
     event.create("cosmic_mechanism","basic")
     event.create("electro_magnetic_mechanism","basic")
     event.create("energy_mechanism","basic")
@@ -70,7 +69,26 @@ StartupEvents.registry("item",event=>{
     event.create("tungsten_steel_ingot","basic")
     event.create("evil_mechanism","basic")
     event.create("pure_silicon","basic")
-
     event.create("meteorium_scrap","basic")
     event.create("meteorium_ingot","basic")
+    event.create("aetheric_thermite","basic")
+    event.create("broken_victory_medal","basic")
+    event.create("phoenix_ingot","basic")
+    event.create("valkyrie_ingot","basic")
+
+    event.create("luminous_metal_plate","basic")
+    event.create("radient_engine","basic")
+
+    event.create("dielectric_paste_1","basic")
+    event.create("dielectric_paste_2","basic")
+    event.create("dielectric_paste_3","basic")
+    event.create("dielectric_paste_4","basic")
+    event.create("dielectric_paste_5","basic")
+    event.create("dielectric_paste_6","basic")
+
+    event.create("sentrite","basic")
+    event.create("pneumatic_shield","basic")
+    event.create("carbon_plate","basic")
+    event.create("life_crystal","basic")
+    event.create("evil_processor","basic")
 })

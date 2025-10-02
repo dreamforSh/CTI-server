@@ -1,0 +1,108 @@
+{
+	id: "6C3D05EB892A841D"
+	loot_size: 1
+	order_index: 89
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:wirecutter"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:glider"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:survey_tools"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:shears_obsidian"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:netherite_spoon"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:offset_spatula_netherite"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:grater"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+	]
+	title: "不毁工具系列"
+}

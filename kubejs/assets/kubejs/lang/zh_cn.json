@@ -21,6 +21,39 @@
     "fluid.kubejs.metalic_hellium": "超流体金属氦",
     "fluid.kubejs.fuming_sulfuric_acid": "发烟硫酸",
 
+    "fluid.kubejs.molten_veridium": "熔融实金",
+    "fluid.kubejs.molten_gravitite": "熔融重力晶",
+    "fluid.kubejs.molten_sentrite": "熔融哨石",
+    "fluid.kubejs.molten_phoenix": "熔融凤凰",
+    "fluid.kubejs.molten_valkyrie": "熔融女武神",
+    "fluid.kubejs.molten_refined_sentrite": "熔融精炼哨石",
+
+    "fluid.kubejs.redstone_additive": "红石添加剂",
+    "fluid.kubejs.obsidian_additive": "黑曜石添加剂",
+    "fluid.kubejs.diamond_additive": "钻石添加剂",
+    "fluid.kubejs.methane": "液态甲烷",
+    "fluid.kubejs.pure_matter": "纯粹物质",
+    "fluid.kubejs.radical_initiator": "自由基引发剂",
+    "fluid.kubejs.phenol": "苯酚",
+    "fluid.kubejs.benzoic_acid": "苯甲酸",
+
+    
+    "item.kubejs.molten_veridium_bucket":"熔融实金桶",
+    "item.kubejs.molten_gravitite_bucket":"熔融重力晶桶",
+    "item.kubejs.molten_sentrite_bucket":"熔融哨石桶",
+    "item.kubejs.molten_phoenix_bucket":"熔融凤凰桶",
+    "item.kubejs.molten_valkyrie_bucket":"熔融女武神桶",
+    "item.kubejs.molten_refined_sentrite_bucket":"熔融精炼哨石桶",
+    
+    "item.kubejs.redstone_additive_bucket":"红石添加剂桶",
+    "item.kubejs.obsidian_additive_bucket":"黑曜石添加剂桶",
+    "item.kubejs.diamond_additive_bucket":"钻石添加剂桶",
+    "item.kubejs.methane_bucket":"液态甲烷桶",
+    "item.kubejs.pure_matter_bucket":"纯粹物质桶",
+    "item.kubejs.radical_initiator_bucket":"自由基引发剂桶",
+
+    "fluid.tinkersinnovation.molten_andesite_alloy": "熔融安山合金",
+    "item.tinkersinnovation.molten_andesite_alloy_bucket":"熔融安山合金桶",
 
 
     
@@ -50,6 +83,7 @@
     "block.kubejs.stellar_stone_diamond_ore":"星海钻石矿",
     "block.kubejs.mercury_tungsten_ore":"水星钨矿石",
     "block.kubejs.mercury_orichalcum_ore":"水星山铜矿",
+    "block.kubejs.reactor_casing":"反应堆外壳",
 
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
     "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
@@ -126,6 +160,16 @@
     "item.kubejs.enriched_refined_glowstone":"富集强化萤石",
     "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
     "item.kubejs.empty_record":"空白唱片",
+    "item.kubejs.aetheric_thermite":"神能铝热剂",
+    "item.kubejs.phoenix_ingot":"凤凰锭",
+    "item.kubejs.valkyrie_ingot":"女武神合金锭",
+    "item.kubejs.dielectric_paste_1":"工业级 绝缘覆层",
+    "item.kubejs.dielectric_paste_2":"优级纯 绝缘覆层",
+    "item.kubejs.dielectric_paste_3":"特级纯 绝缘覆层",
+    "item.kubejs.dielectric_paste_4":"化学纯 绝缘覆层",
+    "item.kubejs.dielectric_paste_5":"分析纯 绝缘覆层",
+    "item.kubejs.dielectric_paste_6":"光谱纯 绝缘覆层",
+    "item.kubejs.life_crystal":"生命水晶碎块",
 
     "item.kubejs.cosmic_mechanism":"宇宙构象",
     "item.kubejs.electro_magnetic_mechanism":"电磁构象",
@@ -164,6 +208,18 @@
 
     "gas.cti.overcharged_neutron": "超充能气体中子",
     "gas.cti.fission_plasma": "裂变等离子体",
+    "gas.cti.methane": "甲烷",
+    "gas.cti.ethanol": "乙醇",
+    "gas.cti.aldehyde": "乙醛",
+    "gas.cti.phenol": "苯酚",
+    "gas.cti.phenolic_resin": "酚醛树脂",
+    "gas.cti.benzoic_acid": "苯甲酸",
+    "gas.cti.dibenzoyl_peroxide": "过氧化二苯甲酰",
+    "gas.cti.chromatic_metal": "有色金属",
+    "gas.cti.polymer": "浓质高分子",
+    "gas.cti.precursor": "前驱体",
+    "gas.cti.pure_matter": "纯粹物质",
+    "gas.cti.concentrated_carbon": "浓化碳",
 
     "block.cti.ultra_dense_hydride_ore": "氢化超致密水晶矿",
 
@@ -174,12 +230,14 @@
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
     "item.kubejs.phytogro_zero":"植育零号",
+    "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
+    "item.kubejs.sentrite":"纯化哨石",
 
     "item.ae2wtlib.quantum_bridge_card": "量子桥卡",
 
     "modifier.cti.space_suit": "太空服",
     "modifier.cti.space_suit.flavor": "太空服",
-    "modifier.cti.space_suit.description": "提供每级0.25的灼热/霜冻抗性和0.1的电离抗性，打在头盔上时在外星维度不再需要氧气",
+    "modifier.cti.space_suit.description": "提供每级0.25的灼热/霜冻抗性和0.1的电离抗性。打在头盔时能消耗头盔存储的液氧为玩家供氧。",
 
     "modifier.cti.gravity_normalizer": "重力正常化",
     "modifier.cti.gravity_normalizer.flavor": "重力正常化",
@@ -214,8 +272,12 @@
     "modifier.cti.structure.description": "增加2个升级槽",
 
     "modifier.cti.refined": "精炼",
-    "modifier.cti.refined.flavor": "太纯了！",
-    "modifier.cti.refined.description": "每级提供30%大部分属性提升和能力槽、升级槽各一个。",
+    "modifier.cti.refined.flavor": "由最先进的科技炼成，有着至强的效用。",
+    "modifier.cti.refined.description": "每级提供10%大部分属性提升和能力槽、升级槽各一个，增加25%（最大100%）不消耗耐久的概率。\n作为护甲时基于全身词条等级获得每级10%，最大60%的伤害减免，该减免对穿甲伤害具有一半的效力。",
+
+    "modifier.cti.zanite": "紫晶石",
+    "modifier.cti.zanite.flavor": "蕴含天镜能量的宝石",
+    "modifier.cti.zanite.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。移除天镜对你工具的削弱。",
 
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
@@ -233,6 +295,7 @@
     "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。",
     "kubejs.jei.accelerator": "由于潜在的崩档问题，Bigger AE2的并行单元已被禁用。",
     "kubejs.jei.compression_card": "压缩卡出了一些问题，功能异常，在查明问题前暂时先禁用了。",
+    "kubejs.jei.astral_dusttt": "星体尘埃可以在避难所（Shelter）结构的冻结箱子里开出，你需要先击败船长科妮莉亚亡灵这个boss才能获得钥匙。",
 
     "material.kubejs.zirconium_alloy": "钛锆合金",
     "material.kubejs.zirconium_alloy.flavor": "空气锻造",
@@ -247,6 +310,64 @@
     "material.kubejs.tungsten_steel.flavor": "别与那些绿色的金属破烂搞混了！",
     "material.kubejs.tungsten_steel.encyclopedia": "曾经是最硬的合金材料，常用于制造各种刀头",
 
+    "material.kubejs.veridium": "实金",
+    "material.kubejs.veridium.flavor": "这是天蓝矿？",
+    "material.kubejs.veridium.encyclopedia": "蓝色的金属，与神的能量有着共鸣",
+
+    "material.kubejs.star_alloy": "星辰合金",
+    "material.kubejs.star_alloy.flavor": "馈赠，或是灾祸？",
+    "material.kubejs.star_alloy.encyclopedia": "天空中的繁星化作了这一小块金属。",
+
+    "material.kubejs.sentrite": "哨石",
+    "material.kubejs.sentrite.flavor": "滑行魔石与它的迷宫的重要组成部分",
+    "material.kubejs.sentrite.encyclopedia": "介于金属和岩石之间的材料，硬且坚固。",
+
+    "material.kubejs.gravitite": "重力晶",
+    "material.kubejs.gravitite.flavor": "会飞的金属",
+    "material.kubejs.gravitite.encyclopedia": "周围分布着奇特的重力场。",
+
+    "material.kubejs.valkyrie": "女武神",
+    "material.kubejs.valkyrie.flavor": "女武神身上装备的合金原料",
+    "material.kubejs.valkyrie.encyclopedia": "获得了这个，说明你抢走了武神女王穿的装备（？）",
+
+    "material.kubejs.phoenix": "凤凰",
+    "material.kubejs.phoenix.flavor": "",
+    "material.kubejs.phoenix.encyclopedia": "散发着足以熔化玻璃的炽热...",
+
+    "material.kubejs.life_crystal": "生命水晶",
+    "material.kubejs.life_crystal.flavor": "+1心",
+    "material.kubejs.life_crystal.encyclopedia": "+1心",
+
+    "material.kubejs.lightning_steel": "龙霆钢",
+    "material.kubejs.lightning_steel.flavor": "龙息锻造",
+    "material.kubejs.lightning_steel.encyclopedia": "没学过物理的电龙是怎么学会将空气电离然后用来攻击人的呢？",
+
+    "material.kubejs.ice_steel": "龙霜钢",
+    "material.kubejs.ice_steel.flavor": "龙息锻造",
+    "material.kubejs.ice_steel.encyclopedia": "摸起来很冷。",
+
+    "material.kubejs.fire_steel": "龙炎钢",
+    "material.kubejs.fire_steel.flavor": "龙息锻造",
+    "material.kubejs.fire_steel.encyclopedia": "即使拿出炉子也在不断燃烧。",
+
+    "material.kubejs.forgotten_metal": "遗忆金属",
+    "material.kubejs.forgotten_metal.flavor": "残存的记忆",
+    "material.kubejs.forgotten_metal.encyclopedia": "是谁创造了这种金属？让我们来读读它的内存...",
+    
+    "material.kubejs.refined_sentrite": "精炼哨石",
+    "material.kubejs.refined_sentrite.flavor": "哨石中的精华组分",
+    "material.kubejs.refined_sentrite.encyclopedia": "比钢更坚韧，可惜由于硬度不够而不能用于打造武器。",
+
+    "material.kubejs.carbon_plate": "碳复合板",
+    "material.kubejs.carbon_plate.flavor": "轻便且坚韧的材料",
+    "material.kubejs.carbon_plate.encyclopedia": "由碳纤维与坚固的树脂结合形成的复合材料，难以被生命体代谢。",
+
+    "material.kubejs.star_dragon": "星界龙神",
+    "material.kubejs.star_dragon.flavor": "游荡于星界之龙",
+    "material.kubejs.star_dragon.encyclopedia": "",
+
+
+
     "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
     "dimension.ad_astra.venus": "金星",
@@ -258,14 +379,13 @@
     "block.kubejs.block_enriched_refined_glowstone":"富集强化荧石块",
     "block.kubejs.block_yellow_cake_uranium":"铀饼",
     "block.kubejs.pressurized_casing":"耐压外壳",
+    "block.kubejs.aetheric_meteorite_ore":"神赐陨铁",
     
-
-    "gas.mekanism.sulfuric_acid": "气态硫酸",
 
     "kubejs.jei.unipolar_magnet": "单极磁石母岩发现于电离冻土星的异常区域群系的地下。当单极磁石母岩被放在超质量霜星石上方时会被加速生长，但是每次加速生长时都会释放一束致命的等离子爆炸（比超质量霜星石正常产生的威力更大！）。",
     "kubejs.jei.rasterite": "光栅石母岩的晶洞可以在霜原星（非常稀有！）和电离冻土星除了异常区域外群系的地下发现。它可以被晶体催生器加速，且在方块亮度高的地方生长得更快。",
     "kubejs.jei.fracture_silicon": "分形硅石的晶洞可以在水星（非常稀有！）和炼狱星的深处发现。它可以被晶体催生器加速。当与水、熔岩、焦黑/焦褐熔石接触时消耗流体加速生长，这三者的加速效率分别是3x、30x、300x。",
-    "kubejs.jei.aetherium_core": "可以在深暗之园的宅邸中找到，用于制作一些高级插件或者转化为阳清合金",
+    "kubejs.jei.aetherium_core": "可以在深暗之园的下僻巢穴(Catacombs)中找到，用于制作一些高级插件或者转化为阳清合金",
     "kubejs.jei.violium_core": "可以在天镜的黄金地牢中找到，用于制作一些高级插件或者转化为维奥合金",
 
     "item.kubejs.pure_silicon": "高纯硅棒",
@@ -274,12 +394,44 @@
 
     "item.kubejs.disintegrate_crystal": "解离水晶",
     "item.kubejs.cnt": "碳纳米管",
+    "item.kubejs.luminous_metal_plate": "半熔化的发光金属板",
+    "item.kubejs.radient_engine": "光耀引擎",
+    "item.kubejs.evil_processor": "恶念处理器",
+
+    "item.aether_redux.raw_gravitite": "粗重力晶",
+    "item.aether_redux.raw_veridium": "粗实金",
+    "item.aether_redux.refined_sentrite": "精炼哨石",
+    "item.aether_redux.sentry_chip": "哨卫石AI芯片",
+    "item.aether_redux.gravitite_ingot": "小块重力晶",
+    "item.aether_redux.veridium_ingot": "实金锭",
+
+    "item.kubejs.carbon_plate": "碳复合板",
+    "item.kubejs.pneumatic_shield": "压强抵抗装置",
 
     "material.cti.violium": "维奥合金",
     "material.cti.violium.flavor": "紫紫的",
-    "material.cti.violium.encyclopedia": "超致密与钢融合而成的致密金属，坚固且耐用。",
+    "material.cti.violium.encyclopedia": "由致密材料融合而成的致密金属，坚固且耐用。",
 
     "material.cti.aetherium": "阳清合金",
     "material.cti.aetherium.flavor": "工业界的“紫色黄金”",
-    "material.cti.aetherium.encyclopedia": "闪烁着神明般的光辉。"
+    "material.cti.aetherium.encyclopedia": "闪烁着神明般的光辉。",
+
+    "info.biomes.cti.ionized_glacio": "电离冻土是电离冻土星球的基础群系，它是本包中温度最低的群系。",
+    "info.biomes.cti.ionized_mare": "电离月海在电离冻土星球地势略低于电离冻土群系的地方。",
+    "info.biomes.cti.infernal": "炼狱是炼狱星的基础群系。",
+    "info.biomes.cti.infernal_molten_surface": "半熔融炼狱是炼狱星上的热群系，有800+℃的环境温度。",
+    "info.biomes.cti.jupiter": "木星核心有着本包中最高的高温，高达1900℃，你可以上去煮自热米饭。",
+    "info.biomes.cti.uranus": "天王星核心的温度是-90℃，很冷。",
+    "info.biomes.undergarden.smog_spires": "烟雾尖顶在深暗之园维度，请带上你的自然指南针去找它。",
+
+    "gui.aether_redux.airbound_cape_jump_boost": "获得二段跳的能力",
+    "gui.aether_redux.bittersweet_charm_poison_chance": "近战攻击有10%概率施加毒",
+    "gui.aether_redux.cockatrice_feather_protection": "提供对瘟疫植物的保护",
+    "gui.aether_redux.feather_of_warding_immunity": "对醺毒免疫并提供对瘟疫植物的保护",
+    "gui.aether_redux.sentry_ring_embers": "近战攻击释放滞留的余烬（注：慎用，非常卡！）",
+    "gui.aether_redux.shroom_ring_adrenaline": "低血量下受到伤害时获得肾上腺素效果，获得属性加成，但是在一段时间后获得负面效果。",
+    "gui.aether_redux.solar_emblem_fireball": "按 [%s] 释放火球",
+    "gui.aether_redux.vampire_amulet_day_debuff": "白天时受到伤害增加",
+    "gui.aether_redux.vampire_amulet_night_ability": "在佩戴超过一个主世界日后，增加伤害吸收量。",
+    "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成"
 }

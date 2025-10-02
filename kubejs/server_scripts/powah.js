@@ -4,8 +4,15 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod:'powah',output:'powah:capacitor_hardened'}, 'powah:dielectric_paste','etshtinker:hardlead_plate')
     event.replaceInput({mod:'powah',output:'powah:capacitor_blazing'}, 'powah:dielectric_paste','kubejs:zirconium_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_niotic'}, 'powah:dielectric_paste','kubejs:violium_alloy')
-    event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','kubejs:atherium_alloy')
+    event.replaceInput({mod:'powah',output:'powah:capacitor_spirited'}, 'powah:dielectric_paste','etshtinker:trinity_intereactive_alloy')
     event.replaceInput({mod:'powah',output:'powah:capacitor_nitro'}, 'powah:dielectric_paste','mekanism:pellet_plutonium')
+
+    event.replaceInput({id:'powah:crafting/thermo_generator_basic'}, 'powah:dielectric_paste','kubejs:dielectric_paste_1')
+    event.replaceInput({id:'powah:crafting/thermo_generator_hardened'}, 'powah:dielectric_paste','kubejs:dielectric_paste_2')
+    event.replaceInput({id:'powah:crafting/thermo_generator_blazing'}, 'powah:dielectric_paste','kubejs:dielectric_paste_3')
+    event.replaceInput({id:'powah:crafting/thermo_generator_niotic'}, 'powah:dielectric_paste','kubejs:dielectric_paste_4')
+    event.replaceInput({id:'powah:crafting/thermo_generator_spirited'}, 'powah:dielectric_paste','kubejs:dielectric_paste_5')
+    event.replaceInput({id:'powah:crafting/thermo_generator_nitro'}, 'powah:dielectric_paste','kubejs:dielectric_paste_6')
 
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
     event.recipes.powah.energizing(["minecraft:emerald"], "powah:crystal_spirited",8000000)
@@ -109,7 +116,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:atherium_alloy',
+        A: 'etshtinker:trinity_intereactive_alloy',
         B: 'powah:capacitor_nitro',
         C: 'powah:uraninite'
       }
@@ -209,7 +216,7 @@ ServerEvents.recipes(event => {
         {
           A: 'kubejs:core_harden',
           B: 'powah:solar_panel_basic',
-          C: 'avaritia:neutron_ingot'
+          C: 'immersiveengineering:plate_duroplast'
         }
         )
     event.shaped(
@@ -269,12 +276,220 @@ ServerEvents.recipes(event => {
       'powah:crafting/solar_panel_basic',
     ]
     for (let i of pannel) {event.remove({id:`${i}`})}
+
+    event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "mekanism:dust_coal",
+          "count":6
+        },
+        {
+          "item": "minecraft:clay_ball",
+          "count":4
+        },
+        {
+          "item": "minecraft:blaze_powder",
+          "count":2
+        }
+    ],
+    "result": [
+      {
+        "item": "powah:dielectric_paste",
+        "count": 24
+      },
+      {
+        "item": "powah:dielectric_paste",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "powah:dielectric_paste",
+          "count":12
+        },
+        {
+          "tag": "forge:bitumen",
+          "count":2
+        },
+        {
+          "item": "thermal:rosin",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:dielectric_paste_1",
+        "count": 24
+      },
+      {
+        "item": "kubejs:dielectric_paste_1",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "powah:dielectric_paste",
+          "count":12
+        },
+        {
+          "item": "immersiveengineering:plate_duroplast",
+          "count":1
+        },
+        {
+          "item": "immersiveengineering:dust_hop_graphite",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:dielectric_paste_2",
+        "count": 24
+      },
+      {
+        "item": "kubejs:dielectric_paste_2",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "powah:dielectric_paste",
+          "count":12
+        },
+        {
+          "item": "pneumaticcraft:plastic",
+          "count":2
+        },
+        {
+          "item": "immersivepetroleum:paraffin_wax",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:dielectric_paste_3",
+        "count": 24
+      },
+      {
+        "item": "kubejs:dielectric_paste_3",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "powah:dielectric_paste",
+          "count":12
+        },
+        {
+          "item": "mekanism:substrate",
+          "count":1
+        },
+        {
+          "item": "mekanism:hdpe_sheet",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:dielectric_paste_4",
+        "count": 24
+      },
+      {
+        "item": "kubejs:dielectric_paste_4",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "powah:dielectric_paste",
+          "count":12
+        },
+        {
+          "item": "etshtinker:activated_chroma_plate",
+          "count":1
+        },
+        {
+          "item": "kubejs:carbon_plate",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:dielectric_paste_5",
+        "count": 24
+      },
+      {
+        "item": "kubejs:dielectric_paste_5",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "powah:dielectric_paste",
+          "count":12
+        },
+        {
+          "item": "avaritia:neutron_ingot",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:dielectric_paste_6",
+        "count": 24
+      },
+      {
+        "item": "kubejs:dielectric_paste_6",
+        "chance": 12
+      }
+    ],
+    "experience": 2
+  })
+  event.shaped(
+    Item.of('powah:photoelectric_pane',32), [
+          'ADA',
+          'BEB',
+          'CDC'
+        ],
+        {
+          A: 'kubejs:dielectric_paste_2',
+          B: 'kubejs:dielectric_paste_4',
+          C:'kubejs:dielectric_paste_6',
+          D:'minecraft:lapis_lazuli',
+          E:'#forge:glass_panes'
+        }
+        )
+
 })
 PowahEvents.registerHeatSource(event => {
     event.add('twilightforest:fiery_block', 2750);
 	event.add('etshtinker:meteoralloy_block', 3500);
 	event.add('kubejs:stellaralloy_block', 5000);
-	event.add('iceandfire:dragonsteel_fire_block', 5500);
+	event.add('iceandfire:dragonsteel_fire_block', 8000);
 	event.add('solidarytinker:dwarf_block', 11500);
 	event.add('avaritia:infinity', 32768);
 })

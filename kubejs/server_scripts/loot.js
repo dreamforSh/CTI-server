@@ -9,17 +9,8 @@ LootJS.modifiers(event => {
             { item: 'lightmanscurrency:coin_gold', count: 1, chance: 1 },
             { item: 'lightmanscurrency:coin_gold', count: 3, chance: 0.25 },
         ],
-        //黄金地牢
-        gold_dungeon: [
-            { item: "kubejs:violium_core", count: 12, chance: 1 },
-        ],
-        //白银地牢
-        silver_dungeon: [
-            { item: "cti:electronium_ammo", count: 2, chance: 0.7 },
-        ],
         //下僻巢穴
         catacombs: [
-            { item: "cti:protonium_ammo", count: 2, chance: 0.7 },
             { item: "kubejs:aetherium_core", count: 9, chance: 1 },
         ],
         //AD的陨石
@@ -49,6 +40,24 @@ LootJS.modifiers(event => {
             { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
             { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
         ],
+        //金星
+        pygroVillage:[
+            {item: 'mekanism:qio_exporter', count: 2, chance: 0.5},
+            {item: 'mekanism:qio_importer', count: 2, chance: 0.5},
+            {item: 'mekanism:qio_drive_array', count: 1, chance: 0.2},
+            {item: 'mekanism:qio_dashboard', count: 1, chance: 0.2},
+            {item: 'mekanism:qio_redstone_adapter', count: 1, chance: 0.25},
+            {item: 'mekanism:qio_redstone_adapter', count: 1, chance: 0.25},
+            {item: 'mekanism:qio_drive_supermassive', count: 1, chance: 0.05},
+            {item: 'mekanism:qio_drive_time_dilating', count: 1, chance: 0.15},
+            {item: 'mekanism:qio_drive_hyper_dense', count: 1, chance: 0.25},
+            {item: 'mekanism:qio_drive_base', count: 1, chance: 0.25},
+            {item: 'ad_astra:calorite_plate', count: 7, chance: 0.7},
+            {item: 'ad_astra:calorite_block', count: 3, chance: 0.3},
+            {item: 'ad_astra:venus_calorite_ore', count: 35, chance: 0.85},
+            {item: 'ad_astra:calorite_ingot', count: 10, chance: 1},
+        ],
+
     };
     function addLootToStructure(structureID, lootEntries) {
         lootEntries.forEach(entry => {
@@ -60,14 +69,13 @@ LootJS.modifiers(event => {
     }
 
     addLootToStructure('#minecraft:village', StructurelootTables.village);
-    addLootToStructure('aether:gold_dungeon', StructurelootTables.gold_dungeon);
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
-    addLootToStructure("aether:silver_dungeon", StructurelootTables.silver_dungeon);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
     addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
-    addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
+    addLootToStructure('ad_astra:pygro_village',StructurelootTables.pygroVillage);
+    addLootToStructure('ad_astra:pygro_tower',StructurelootTables.pygroVillage);
 
 
     //根据战利品表ID增加战利品,可以用指令/loot来查看精确ID
@@ -98,6 +106,7 @@ LootJS.modifiers(event => {
         //迷阵冰封箱子
         frozenChest:[
             { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
+            { item: 'obscure_api:astral_dust', count: 1, chance: 1 },//保底星体尘尘
             { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
         ],
         //亡灵海盗船普通宝藏
@@ -139,6 +148,25 @@ LootJS.modifiers(event => {
         //冰火墓地
         iaf_graveyard:[
             {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
+            {item: 'minecraft:gold_ingot', count: 7, chance: 0.6 },
+            {item: 'minecraft:iron_ingot', count: 5, chance: 0.5 },
+            {item: 'minecraft:diamond', count: 5, chance: 0.3 },
+            {item: 'minecraft:emerald', count: 3, chance: 0.4 }
+        ],
+        //滑滑魔石
+        slider:[
+            {item: 'aether_redux:sentry_chip', count: 8, chance: 1 },
+        ],
+        //天镜地牢奖励箱
+        silver_dungeon_reward:[
+            {item: 'cti:strange_ice_crystal', count: 1, chance: 1 },
+        ],
+        golden_dungeon_reward:[
+            {item: 'kubejs:violium_core', count: 24, chance: 1 },
+            { item: "aether:life_shard", count: 12, chance: 1 },
+        ],
+        simple_dungeon:[
+        {item: 'pneumaticcraft:spawner_agitator', count: 1, chance: 1 },
         ]
     }
     function addLootToTable(LootTableID, lootEntries) {
@@ -151,6 +179,8 @@ LootJS.modifiers(event => {
 
     addLootToTable("minecraft:chests/nether_fortress/fort_inside", LootToLootTables.fortress);
     addLootToTable("minecraft:chests/nether_fortress/fort_inside_generic", LootToLootTables.fortress);
+    addLootToTable("minecraft:chests/nether_bridge", LootToLootTables.fortress);
+    addLootToTable("minecraft:chests/simple_dungeon", LootToLootTables.simple_dungeon);
     addLootToTable("minecraft:chests/end_city_treasure", LootToLootTables.end_city);
     addLootToTable("iceandfire:chest/mausoleum_chest", LootToLootTables.mausoleum);
     addLootToTable("iceandfire:chest/graveyard", LootToLootTables.iaf_graveyard);
@@ -166,6 +196,9 @@ LootJS.modifiers(event => {
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_barrels", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal", LootToLootTables.seas_dungeon_ship_cheap);
     addLootToTable("dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure", LootToLootTables.seas_dungeon_ship_treasure);
+    addLootToTable("aether:entities/slider", LootToLootTables.slider);
+    addLootToTable("aether:chests/dungeon/silver/silver_dungeon_reward", LootToLootTables.silver_dungeon_reward);
+    addLootToTable("aether:chests/dungeon/gold/gold_dungeon_reward", LootToLootTables.golden_dungeon_reward);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
@@ -195,7 +228,8 @@ LootJS.modifiers(event => {
         "aether:gloves_loot_diamond",
         "aether:gloves_loot_netherite",
         "ars_nouveau:dungeon_loot",
-        "pneumaticcraft:dungeon_loot"
+        "pneumaticcraft:dungeon_loot",
+        "aether_redux:sentry_chip",
     ];
     globalLootToRemove.forEach(removeGlobalLoot);
 
@@ -211,7 +245,9 @@ LootJS.modifiers(event => {
         "sophisticatedbackpacks:inject/chests/end_city_treasure",
         "sophisticatedbackpacks:inject/chests/desert_pyramid",
         "sophisticatedbackpacks:inject/chests/bastion_treasure",
-        "sophisticatedbackpacks:inject/chests/abandoned_mineshaft"
+        "sophisticatedbackpacks:inject/chests/abandoned_mineshaft",
+        "ad_astra:chests/village/moon/blacksmith",
+        "ad_astra:chests/village/moon/house"
     ];
     lootLocation.forEach(disableLootbyLocation);
 
@@ -241,7 +277,6 @@ LootJS.modifiers(event => {
         'minecraft:golden_horse_armor',
         'minecraft:iron_horse_armor',
         'minecraft:diamond_horse_armor',
-
     ];
     lootToRemoveFromChest.forEach(removeLootFromChest);
 })

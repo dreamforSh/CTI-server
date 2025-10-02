@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farmandfood"
-	group: "4CD374CEABFCA3D3"
+	group: "7E3173C55DD03B0A"
 	icon: "tofucraft:tofudiamond"
 	id: "7499383303D8F7BB"
 	order_index: 4
@@ -177,6 +177,7 @@
 				"通过架设在&e热源&r上，两种锅可以进行烹饪。"
 				"其中，厨锅拥有独特的6格烹饪gui，用于制作农夫乐事的特色菜品，并使用&a对应的餐具&r将食品&a盛出&r；煎锅则类似于营火，可以不消耗燃料烧制食材。"
 				"此外，煎锅可以作为武器使用（伤害等同于下界合金剑），是前期出色的应急武器。"
+				"&a厨锅&r和&a煎锅&r也是村民交易方块，可以相对轻松地获取一些带滋养或舒适的食物。"
 			]
 			icon: "farmersdelight:cooking_pot"
 			id: "522BC27C9AF57A67"
@@ -2793,10 +2794,6 @@
 								{
 									level: 1
 									name: "tinkersinnovation:eternal"
-								}
-								{
-									level: 3
-									name: "tinkerscalibration:gobber_unbreakable"
 								}
 								{
 									level: 3

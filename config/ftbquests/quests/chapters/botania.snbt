@@ -79,7 +79,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -2154,59 +2154,6 @@
 			y: 2.0d
 		}
 		{
-			description: ["送你一个魔力铀！"]
-			hide_dependency_lines: true
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "619D9941535269BA"
-			invisible: true
-			rewards: [{
-				id: "67CCC0AD0CAFA096"
-				item: "solidarytinker:magicuranium_ingot"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [
-				{
-					id: "1EEC718C8906DE51"
-					item: "botania:corporea_spark_master"
-					type: "item"
-				}
-				{
-					id: "337956F272E50B03"
-					item: "botania:corporea_spark"
-					type: "item"
-				}
-				{
-					id: "7332DFECB45B6254"
-					item: "botania:corporea_crystal_cube"
-					type: "item"
-				}
-				{
-					id: "03C0123C574C0F5B"
-					item: "botania:corporea_index"
-					type: "item"
-				}
-				{
-					id: "191CAAEE9D15731A"
-					item: "botania:corporea_funnel"
-					type: "item"
-				}
-				{
-					id: "7476645F7F10926F"
-					item: "botania:corporea_interceptor"
-					type: "item"
-				}
-				{
-					id: "1FC4554EF9AB3BBE"
-					item: "botania:corporea_retainer"
-					type: "item"
-				}
-			]
-			title: "哇，你真的做啦？"
-			x: 13.5d
-			y: 4.0d
-		}
-		{
 			description: ["&m&0少睡觉，多操心&r"]
 			id: "0D25E66913DD89B2"
 			shape: "diamond"
@@ -3684,18 +3631,6 @@
 			y: 13.0d
 		}
 		{
-			description: ["&a魔力铀&r在本整合包中可以有效对抗负面buff和消除辐射，这里简单向你介绍一下如何制作它。"]
-			icon: "solidarytinker:magicuranium_ingot"
-			id: "08FABF6C91F97175"
-			tasks: [{
-				id: "1C3558C0EE4AD2D8"
-				type: "checkmark"
-			}]
-			title: "....你是为了它来的吧？"
-			x: 5.0d
-			y: 0.0d
-		}
-		{
 			id: "1AB3EECE0FC487BA"
 			shape: "diamond"
 			subtitle: "使用魔力为你提供生命回复"
@@ -3706,65 +3641,6 @@
 			}]
 			x: -14.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["08FABF6C91F97175"]
-			description: [
-				"魔力绿宝石和魔力钢锭以及铀锭的获取方法都很简单，这里主要讲一下魔力液化器。"
-				""
-				"可以使用&e魔力发射器&r向他发射魔力，也可以&e在它的上面放置火花&r，通过火花网络来传输魔力。"
-				""
-				"将魔力转化为液体后可通过各种模组的&e液体管道&r直接抽取魔力液化器方块本身将液态魔力抽出,也可以通过&e将机器紧贴魔力液化器&r再&e调节机器的输入面&r来将液态魔力抽出。"
-			]
-			icon: "manaliquidizer:mana_liquidizer"
-			id: "54E47D518A3CAD05"
-			subtitle: "将魔力转化为液态"
-			tasks: [{
-				id: "30D0931B46BCCBF4"
-				type: "checkmark"
-			}]
-			title: "魔力液化器"
-			x: 6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["54E47D518A3CAD05"]
-			description: ["将液态魔力通入气液转化机，即可变成气态魔力。"]
-			icon: "mekanism:rotary_condensentrator"
-			id: "4D685D0D9D244755"
-			tasks: [{
-				id: "0D47F1F019466606"
-				type: "checkmark"
-			}]
-			title: "回旋式气液转化机"
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4D685D0D9D244755"]
-			description: ["将气态魔力压射进赛特斯石英水晶，即可得到魔力水晶。"]
-			icon: "mekanism:chemical_injection_chamber"
-			id: "61BD2628C3F61CD6"
-			tasks: [{
-				id: "38316B513C3A4144"
-				type: "checkmark"
-			}]
-			title: "化学压射室"
-			x: 8.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["61BD2628C3F61CD6"]
-			description: ["将铀锭，魔力绿宝石，魔力水晶，魔力钢锭 , 和两锭盖亚魂放置在泰拉凝聚板上，提供魔力即可开始凝聚，你就得到魔力铀啦。"]
-			icon: "botania:terra_plate"
-			id: "03CA08B2D6413E26"
-			tasks: [{
-				id: "6F138C5DC82104CD"
-				type: "checkmark"
-			}]
-			title: "泰拉凝聚板"
-			x: 9.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["470A698F7EC80221"]
@@ -4281,6 +4157,50 @@
 			title: "关于等价交换"
 			x: -17.0d
 			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "1168F39B1994870F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D0826809C8731EB"
+				table_id: 6990509980770380787L
+				type: "random"
+			}]
+			shape: "heart"
+			subtitle: "知道你们不爱玩了ヽ(`Д´)ﾉ"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4E0A6F3C786D0B18"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			title: "符文兑换"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			id: "7ED946D08DFBC0F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5652A5D3734F10E6"
+				table_id: 1493023598863530626L
+				type: "random"
+			}]
+			shape: "heart"
+			subtitle: "(`皿´)"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "161725F6D0A533D1"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
+			title: " 仪式板兑换"
+			x: -7.5d
+			y: 20.0d
 		}
 	]
 	subtitle: [

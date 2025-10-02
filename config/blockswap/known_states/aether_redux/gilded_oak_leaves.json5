@@ -1,0 +1,564 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "1"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "2"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "3"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "4"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "5"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "6"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "true",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "false",
+			"double_drops": "true",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"persistent": "true",
+			"double_drops": "false",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"persistent": "false",
+			"double_drops": "false",
+			"distance": "7"
+		},
+		"Name": "aether_redux:gilded_oak_leaves"
+	},
+	{
+		"Name": "aether_redux:gilded_oak_leaves"
+	}
+]

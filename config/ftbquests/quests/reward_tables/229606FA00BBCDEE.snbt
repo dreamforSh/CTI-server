@@ -1,0 +1,38 @@
+{
+	id: "229606FA00BBCDEE"
+	loot_size: 1
+	order_index: 88
+	rewards: [
+		{ item: "extradelight:chicken_nuggets" }
+		{ item: "extradelight:chicken_salad" }
+		{ item: "extradelight:oyakodon" }
+		{ item: "extradelight:chicken_bog" }
+		{ item: "extradelight:currywurst" }
+		{ item: "extradelight:mac_cheese_hot_dog_feast" }
+		{ item: "extradelight:pasta_alla_norcina" }
+		{ item: "extradelight:sextuple_meat_treat" }
+		{ item: "extradelight:bbq_ribs_block_item" }
+		{ item: "extradelight:fried_rabbit" }
+		{ item: "extradelight:hasenpfeffer" }
+		{ item: "extradelight:karminadle" }
+		{ item: "extradelight:bbq_shredded_chicken_feast" }
+		{ item: "extradelight:bratwurst" }
+		{ item: "extradelight:liver_onions" }
+		{ item: "extradelight:stuffed_heart" }
+		{ item: "extradelight:fried_brains" }
+		{ item: "extradelight:oxtail_soup" }
+		{ item: "extradelight:pot_roast_block_item" }
+		{ item: "extradelight:rabbit_ragu" }
+		{ item: "extradelight:lasanga_feast" }
+		{ item: "extradelight:haggis_block_item" }
+		{ item: "extradelight:beef_wellington_block_item" }
+		{ item: "extradelight:sausage_roll" }
+		{ item: "extradelight:rack_lamb_block_item" }
+		{ item: "extradelight:sos" }
+		{ item: "extradelight:bangers_mash" }
+		{ item: "extradelight:goat_stew_feast" }
+		{ item: "extradelight:nasi_kebuli" }
+		{ item: "extradelight:bhutan" }
+	]
+	title: "缺少原料无法做出的菜"
+}

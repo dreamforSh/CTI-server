@@ -49,7 +49,7 @@
 	ingameMenuConfigButtonOffsetX = -4
 	#.
 	#Setting this to true will prevent Create from sending you a warning when playing with Fabulous graphics enabled
-	ignoreFabulousWarning = false
+	ignoreFabulousWarning = true
 	#.
 	#Disable to prevent being rotated while seated on a Moving Contraption
 	rotateWhenSeated = true
@@ -120,7 +120,7 @@
 		comfyReading = false
 		#.
 		#Show additional info in the ponder view and reload scene scripts more frequently.
-		editingMode = false
+		editingMode = true
 
 	#.
 	#Sound settings

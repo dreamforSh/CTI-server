@@ -31,14 +31,11 @@
 			y: -5.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"3330893C09515343"
-				"74B59159184397CD"
-			]
+			dependencies: ["74B59159184397CD"]
 			description: ["工业先锋在本整合包得到了魔改，你需要从一块塑料片开始工业先锋流程，根据主线流程获得你的第一块塑料片吧。"]
 			icon: "pneumaticcraft:plastic"
 			id: "5125962C3C081BFC"

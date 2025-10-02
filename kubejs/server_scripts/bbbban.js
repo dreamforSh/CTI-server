@@ -93,8 +93,14 @@ ServerEvents.recipes(event => {
 		'mekanism:mekasuit_bodyarmor',
 		'mekanism:mekasuit_pants',
 		'mekanism:mekasuit_boots',
+		//mek容易掉配方的几个
+		'mekanismgenerators:rotary/deuterium',
+		'mekanismgenerators:rotary/fusion_fuel',
+		'mekanismgenerators:rotary/tritium',
+		'mekanismgenerators:separator/heavy_water',
 		//mek模块
 		'mekanism:module_base',
+		'mekanism:module_energy_unit',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
 		'createutilities:mixing/void_steel_ingot',
@@ -116,9 +122,18 @@ ServerEvents.recipes(event => {
 		'gobber2:gobber2_ingot',
 		'gobber2:gobber2_ingot_nether',
 		'gobber2:gobber2_ingot_end',
+		'gobber2:gobber2_ring_stealth',
+		'gobber2:gobber2_ring_miner',
+		'gobber2:gobber2_medallion_healing3',
+		'gobber2:gobber2_medallion_healing2',
+		'gobber2:gobber2_medallion_healing',
+		'gobber2:gobber2_ring_ascent',
 		//etshtinker
 		'etshtinker:immersiveengineering/arcfurnace/exo_alloy',
 		'etshtinker:thermal/crystalizer/flawless_budding_quartz',
+		'etshtinker:smeltery/casting/lightless_alloy/lightless_alloy',
+		'etshtinker:create/mixing/bismuth_ingot',
+        'etshtinker:create/mixing/molten_bismuth',
 		//工匠创新等匠魂附属
 		'tinkersinnovation:items/polychrome_mix',
 		'cherrytinker:tables/enchantedgold_block',
@@ -133,17 +148,64 @@ ServerEvents.recipes(event => {
 		'solidarytinker:smeltery/alloy/dwarf',
 		'tinkerscalibration:tools/materials/moonsteel',
 		'tinkers_ingenuity:tables/materials/sea_dream',
+		'tinkers_ingenuity:alloys/shine_alloy',
+		'tinkersinnovation:alloy/sunsoul_alloy',
+		'tinkersinnovation:alloy/farseeing_alloy',
+		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_block',
+		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_ingot',
+		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_nugget',
+		'tinkersinnovation:modifier/poisonous',
+		'tinkersinnovation:modifier/withering',
+		'tinkersinnovation:alloy/straddlite_alloy',
+		'tinkersinnovation:modifier/weak',
+		'tinkersinnovation:modifier/stray',
+		'tinkersinnovation:modifier/speedy',
+		'tinkersinnovation:modifier/soul_burner',
+		'tinkersinnovation:modifier/regenerate',
+		'tinkersinnovation:modifier/owner_protection',
+		'tinkersinnovation:modifier/over_cushion_1',
+		'tinkersinnovation:modifier/over_cushion_2',
+		'tinkersinnovation:modifier/nausea',
+		'tinkersinnovation:modifier/levitation',
+		'tinkersinnovation:modifier/invisible',
+		'tinkersinnovation:modifier/hostility',
+		'tinkersinnovation:modifier/hold_steady',
+		'tinkersinnovation:modifier/heirophant_green',
+		'tinkersinnovation:modifier/harden',
+		'tinkersinnovation:modifier/freezing',
+		'tinkersinnovation:modifier/eternal_weaker',
+		'tinkersinnovation:modifier/erosion',
+		'tinkersinnovation:modifier/curse',
+		'tinkersinnovation:modifier/corrosion',
+		'tinkersinnovation:modifier/blind',
+		'tinkersinnovation:modifier/stone_cage',
+		'tinkerscalibration:tools/materials/oraclium',
+		'tinkerscalibration:tools/modifiers/slotless/spaghetti',
+		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_1',
+		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_2',
+		'cloudertinker:alloy/glavenus1',
 		//匠魂
 		'tconstruct:smeltery/melting/metal/gold/powered_rail',
 		'tconstruct:smeltery/melting/metal/iron/nugget_3',
 		'tconstruct:smeltery/melting/metal/iron/ingot_1',
 		'tconstruct:smeltery/alloys/molten_pewter',
 		'tconstruct:smeltery/melting/metal/signalum/ingot',
+		'tconstruct:smeltery/alloys/molten_brass',
 		//其他
 		'lightmanscurrency:coinmint',
 		'twilightforest:uncrafting_table',
 		'entangled:block',
 		'megacells:inscriber/bulk_cell_component',
+		'cataclysm:smithing/cursium_chestplate',
+		//多彩合金锭前置锭的部分配方删除
+		'tinkers_reforged:crafting/duralumin_ingot_from_smelting_duralumin_dust',
+		'tinkers_reforged:smeltery/alloy/duralumin',
+		'tinkers_ingenuity:alloys/blood_binding',
+		'tconstruct:smeltery/alloys/molten_slimesteel',
+		'tinkers_thinking:common/chlorophyte/ingot_blasting2',
+		'tinkers_thinking:common/chlorophyte/ingot_blasting',
+		'tinkers_thinking:common/chlorophyte/compound_melting',
+		'kubejs:thermal/smelter/chloro',
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -156,8 +218,7 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:item_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:fluid_transporter_type' })
 	event.remove({ mod: 'industrialforegoing', output: 'industrialforegoing:world_transporter_type' })
-	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
-
+	event.remove({id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
 	event.remove({ id: 'drinkbeer:trade_box_normal' })
@@ -208,7 +269,7 @@ ServerEvents.recipes(event => {
 		'immersivepetroleum:coking/petcoke',
 	]
 	for (let i of immersiveengineeringore) { event.remove({ id: `${i}` }) }
-	//莱特兰附魔书
+	//莱特兰
 	let l2enchantbook = [
 		'l2complements:enchantments/projectile_reject',
 		'l2complements:enchantments/fire_reject',
@@ -217,6 +278,14 @@ ServerEvents.recipes(event => {
 		'l2complements:enchantments/magic_reject',
 		'l2complements:enchantments/invincible',
 		'l2complements:enchantments/void_touch',
+		'l2hostility:naga_boss_spawner',
+		'l2hostility:lich_boss_spawner',
+		'l2hostility:minoshroom_boss_spawner',
+		'l2hostility:hydra_boss_spawner',
+		'l2hostility:knight_phantom_boss_spawner',
+		'l2hostility:ur_ghast_boss_spawner',
+		'l2hostility:alpha_yeti_boss_spawner',
+		'l2hostility:snow_queen_boss_spawner',
 	]
 	for (let i of l2enchantbook) { event.remove({ id: `${i}` }) }
 	//循环
@@ -292,17 +361,84 @@ ServerEvents.recipes(event => {
 	]
 	for (let i of pigiron) { event.remove({ id: `${i}` }) }
 
+	//AE Addition的有问题的磁盘
+	let aeAddition = [
+		'ae2additions:item_storage_cell_1024',
+		'ae2additions:item_storage_cell_4096',
+		'ae2additions:item_storage_cell_65536',
+		'ae2additions:item_storage_cell_16384',
+		'ae2additions:fluid_storage_cell_1024',
+		'ae2additions:fluid_storage_cell_16384',
+		'ae2additions:fluid_storage_cell_4096',
+		'ae2additions:chemical_storage_cell_1024',
+		'ae2additions:chemical_storage_cell_4096',
+		'ae2additions:chemical_storage_cell_16384'
+	]
+	for (let i of aeAddition) { 
+		event.remove([{ mod: 'ae2additions', output: `${i}` }])
+	}
+
 	//IAF
 	let iaf = [
 		'iceandfire:copper_pickaxe',
+		'iceandfire:copper_sword',
+		'iceandfire:copper_shovel',
+		'iceandfire:copper_hoe',
+		'iceandfire:copper_axe',
 		'iceandfire:dragonbone_pickaxe',
 		'iceandfire:copper_pile',
 		'iceandfire:gold_pile',
 		'iceandfire:silver_pile',
 		'iceandfire:myrmex_desert_pickaxe',
 		'iceandfire:myrmex_jungle_pickaxe',
-		'iceandfire:silver_pickaxe'
+		'iceandfire:silver_pickaxe',
+		'iceandfire:silver_sword',
+		'iceandfire:silver_shovel',
+		'iceandfire:silver_hoe',
+		'iceandfire:silver_axe',
 	]
-	for (let i of iaf) { event.remove({ id: `${i}` }) }
+	for (let i of iaf) {event.remove({ id: `${i}` })}
+
+	//燃料归一
+	let fuels = [
+		'tinkersinnovation:fuel/active_soul',
+		'tinkersinnovation:fuel/sun',
+		'tinkers_reforged:smeltery/fuel/proto_lava',
+		'tinkers_reforged:smeltery/fuel/blazium',
+		'cherrytinker:smeltery/fuel/sun_cherryfuel',
+		'cherrytinker:smeltery/fuel/moon_cherryfuel',
+		'cloudertinker:fuel/firetear',
+		'cloudertinker:fuel/fireblood',
+		'cloudertinker:fuel/fiery',
+	]
+	for (let i of fuels) {event.remove({ id: `${i}` })}
+	//戈博套装和工具
+	let gobberType = [
+		"",
+		"_nether",
+		"_end",
+		"_dragon"
+	]
+	let toolType = [
+		"helmet",
+		"chestplate",
+		"leggings",
+		"boots",
+		"sword",
+		"pickaxe",
+		"shovel",
+		"axe",
+		"bow",
+		"hoe",
+		"hammer",
+		"tree_axe",
+		"excavator",
+	]
+
+	for (let i of gobberType){
+		for (let j of toolType) {event.remove({ id: 'gobber2:gobber2_' + `${j}`+ `${i}`})}
+	}
+
+
 }
 )

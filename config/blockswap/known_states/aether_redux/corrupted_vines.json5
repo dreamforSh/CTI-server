@@ -1,0 +1,189 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "1"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "2"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "3"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "4"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "5"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "6"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "7"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "8"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "9"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "10"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "11"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "12"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "13"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "14"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "15"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "16"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "17"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "18"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "19"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "20"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "21"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "22"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "23"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "24"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"age": "25"
+		},
+		"Name": "aether_redux:corrupted_vines"
+	}
+]

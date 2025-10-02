@@ -1,0 +1,33 @@
+{
+	icon: "ars_nouveau:glyph_touch"
+	id: "14B8490D83893A82"
+	loot_size: 1
+	order_index: 81
+	rewards: [
+		{ item: "ars_nouveau:ritual_burrowing" }
+		{ item: "ars_nouveau:ritual_challenge" }
+		{ item: "ars_nouveau:ritual_binding" }
+		{ item: "ars_nouveau:ritual_awakening" }
+		{ item: "ars_nouveau:ritual_disintegration" }
+		{ item: "ars_nouveau:ritual_sunrise" }
+		{ item: "ars_nouveau:ritual_conjure_island_plains" }
+		{ item: "ars_nouveau:ritual_flight" }
+		{ item: "ars_nouveau:ritual_cloudshaping" }
+		{ item: "ars_nouveau:ritual_restoration" }
+		{ item: "ars_nouveau:ritual_animal_summon" }
+		{ item: "ars_nouveau:ritual_forestation" }
+		{ item: "ars_nouveau:ritual_warping" }
+		{ item: "ars_nouveau:ritual_moonfall" }
+		{ item: "ars_nouveau:ritual_containment" }
+		{ item: "ars_nouveau:ritual_scrying" }
+		{ item: "ars_nouveau:ritual_gravity" }
+		{ item: "ars_nouveau:ritual_flowering" }
+		{ item: "ars_nouveau:ritual_sanctuary" }
+		{ item: "ars_nouveau:ritual_fertility" }
+		{ item: "ars_nouveau:ritual_overgrowth" }
+		{ item: "ars_nouveau:ritual_conjure_island_desert" }
+		{ item: "ars_nouveau:ritual_harvest" }
+		{ item: "ars_nouveau:ritual_wilden_summon" }
+	]
+	title: "仪式板奖励"
+}

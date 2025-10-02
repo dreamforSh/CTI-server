@@ -66,6 +66,17 @@
         "value": 64
       }
     },
+    "cti:scorch_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -207,6 +218,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "cti:pressure_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "obscure_api:magic_resistance": {
@@ -363,6 +385,17 @@
         "value": 1
       }
     },
+    "cti:frozen_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:horse.jump_strength": {
       "enabled": true,
       "min": {
@@ -394,6 +427,17 @@
       "max": {
         "default": 5,
         "value": 1000000
+      }
+    },
+    "cti:ionize_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "forge:swim_speed": {

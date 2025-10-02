@@ -161,6 +161,8 @@ ServerEvents.tags('item', event => {
   'minecraft:shulker_shell',
   'minecraft:diamond',
   'minecraft:cobweb',
+  'tinkerscalibration:oraclium_nugget',
+  'tinkerscalibration:oraclium_ingot'
   ]
   let severing_drop=[
   '#forge:heads',
@@ -214,6 +216,39 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:pig_head', `${i}`)
   }
 
+  let removed_tools=[
+    'tinkerscalibration:cutlass',
+    'tinkers_thinking:arrow_thrower',
+    'tinkers_innovation:round_shield',
+    'tinkers_innovation:tinker_bomb',
+    'tinkers_innovation:skelewag_sword',
+    'tinkers_innovation:heavy_shield',
+  ]
+    for (let i of removed_tools) {
+    event.removeAllTagsFrom(`${i}`)
+  }
+  let traits=[
+    'l2hostility:oracle',
+    'l2hostility:second_phase',
+    'l2hostility:temporary_armor',
+    'l2hostility:extreme_damage_reduce',
+   ]
+for (let i of traits) {
+    event.add('l2hostility:trait_item', `${i}`)
+  }
+  //塑料相关
+  event.add('kubejs:plastic_eq','pneumaticcraft:plastic')
+  event.add('kubejs:plastic_eq','mekanism:hdpe_sheet')
+  //暮色相关
+  event.add('kubejs:giant_blade_pattern','#tconstruct:casts/single_use/giant_blade')
+  event.add('kubejs:giant_blade_pattern','#tconstruct:casts/multi_use/giant_blade')
+  event.add('kubejs:giant_blade_pattern','twilightforest:giant_sword')
+  event.add('tconstruct:patterns','twilightforest:giant_sword')
+  event.add('kubejs:tree_treasure_eq','cloudertinker:timering')
+  event.add('kubejs:tree_treasure_eq','cloudertinker:orescore')
+  event.add('kubejs:tree_treasure_eq','cloudertinker:changeheart')
+  event.add('kubejs:tree_treasure_eq','cloudertinker:sorteye')
+
 })
 //添加方块标签
 ServerEvents.tags('block', event => {
@@ -263,6 +298,21 @@ ServerEvents.tags('block', event => {
   for (let i of tconstructblock) {
     event.add('minecraft:wither_immune', `${i}`)
   }
+  //防凋零
+  let ores = [
+    'cti:ultra_dense_hydride_ore',
+    'kubejs:pyrocrystal_ore',
+    'kubejs:overdense_protonium_ore',
+    'kubejs:overdense_neutronium_ore',
+    'kubejs:mercury_tungsten_ore',
+    'kubejs:stellar_ultra_dense_ore',
+    'kubejs:mercury_orichalcum_ore',
+    'kubejs:gas_hydrate_ore',
+    'cti:meteorite_ore'
+  ]
+  for (let i of ores) {
+    event.add('forge:ores', `${i}`)
+  }
 })
 ServerEvents.tags('fluid', event => {
   event.add('create:bottomless/allow', 'ad_astra:cryo_fuel')
@@ -273,4 +323,33 @@ ServerEvents.tags('fluid', event => {
   event.remove('forge:kerosene', 'pneumaticcraft:kerosene')
   event.remove('forge:lubricant', 'pneumaticcraft:lubricant')
   event.remove('ad_astra_platform:biodiesel','pneumaticcraft:biodiesel')
+  event.remove('minecraft:water','ad_astra:cryo_fuel')
+
+  event.add('cti:lava_heated', 'cti:lava_heated')
+
+  event.add('cti:fuel/diesel_eq', 'immersivepetroleum:diesel')
+  event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_tear')
+  event.add('cti:fuel/twilight_forest_eq', 'cloudertinker:fire_blood')
+
+  event.add('forge:ethylene', 'mekanism:ethene')
+  //给沉浸用的
+  let needTags = [
+    'kubejs:methane'
+  ]
+  for (let i of needTags) {
+    event.add(`${i}`, `${i}`)
+  }
+  //匠魂的tooltip
+  let metalToolTip = [
+    'kubejs:molten_veridium',
+    'kubejs:molten_gravitite',
+    'kubejs:molten_sentrite',
+    'kubejs:molten_phoenix',
+    'kubejs:molten_valkyrie',
+    'kubejs:molten_refined_sentrite'
+  ]
+  for (let i of metalToolTip) {
+    event.add('tconstruct:tooltips/metal', `${i}`)
+  }
+  
 })

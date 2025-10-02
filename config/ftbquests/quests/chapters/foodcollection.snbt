@@ -5,7 +5,7 @@
 	group: "273277F565C25044"
 	icon: "minecraft:golden_carrot"
 	id: "6648B2B601FA43EC"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1701,7 +1701,7 @@
 				id: "562F2FE48D068707"
 				type: "checkmark"
 			}]
-			title: "匠心独运、樱桃工匠和匠3"
+			title: "匠心独运、樱桃工匠、浮云工坊、cti和匠3"
 			x: -17.0d
 			y: 17.0d
 		}
@@ -3283,21 +3283,22 @@
 			subtitle: "你是甜甜的戈伯~"
 			tasks: [
 				{
-					id: "38B420DC5B4BFE73"
+					id: "50BDC0F2D6DE69FA"
 					item: "gobber2:gobber2_goo"
 					type: "item"
 				}
 				{
-					id: "7A3B728638C61E19"
+					id: "0792CFC9C147170F"
 					item: "gobber2:gobber2_goo_nether"
 					type: "item"
 				}
 				{
-					id: "4AD3138F9EAA8FB3"
+					id: "3D8426A69EFD1925"
 					item: "gobberdelight:green_goo"
 					type: "item"
 				}
 			]
+			title: "戈伯球系列"
 			x: -0.5d
 			y: 19.5d
 		}
@@ -3309,23 +3310,31 @@
 			]
 			id: "30337130BF7EC1BB"
 			subtitle: "甜甜的苹果，甜甜的戈伯！"
-			tasks: [
-				{
-					id: "5273EE0F376953DB"
-					item: "gobber2:gobber2_gooey_apple"
-					type: "item"
+			tasks: [{
+				id: "5A77480E5D2A239D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gobber2:gobber2_gooey_apple"
+							}
+							{
+								Count: 1b
+								id: "gobber2:gobber2_gooey_apple_nether"
+							}
+							{
+								Count: 1b
+								id: "gobberdelight:green_apple"
+							}
+						]
+					}
 				}
-				{
-					id: "79661871336CFAFB"
-					item: "gobber2:gobber2_gooey_apple_nether"
-					type: "item"
-				}
-				{
-					id: "06ECE1891F067DE5"
-					item: "gobberdelight:green_apple"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			title: "戈伯苹果系列"
 			x: -0.5d
 			y: 20.5d
 		}
@@ -3339,21 +3348,22 @@
 			subtitle: "戈伯！面包大人的小甜心~"
 			tasks: [
 				{
-					id: "20330BA61694E1CE"
+					id: "70709DA1472F6C53"
 					item: "gobber2:gobber2_gooey_bread"
 					type: "item"
 				}
 				{
-					id: "4C8E80928AF4FA9B"
+					id: "0E2BE70DF95035BF"
 					item: "gobber2:gobber2_gooey_bread_nether"
 					type: "item"
 				}
 				{
-					id: "6B9CF1F4ED6A95E7"
+					id: "476610B546147F7C"
 					item: "gobberdelight:green_bread"
 					type: "item"
 				}
 			]
+			title: "戈伯面包系列"
 			x: 0.5d
 			y: 19.5d
 		}
@@ -3368,36 +3378,37 @@
 			subtitle: "大厨烹饪手戈伯！"
 			tasks: [
 				{
-					id: "0DF1BAD7E90BDC58"
+					id: "540C7CDDEAE0B314"
 					item: "gobber2:gobber2_gooey_beef"
 					type: "item"
 				}
 				{
-					id: "4C55E98FCD90FCAF"
+					id: "6D4BEF3E721489CA"
 					item: "gobber2:gobber2_gooey_beef_nether"
 					type: "item"
 				}
 				{
-					id: "2495636DF9B6E1DD"
+					id: "28C5E6F519397BAC"
 					item: "gobberdelight:green_meat"
 					type: "item"
 				}
 				{
-					id: "5A4359E585342D02"
+					id: "2D4C9A7EE4F894D4"
 					item: "gobberdelight:blue_meat_slice"
 					type: "item"
 				}
 				{
-					id: "2D0A7A3A4B2B1280"
+					id: "05C6C443CD7425C8"
 					item: "gobberdelight:red_meat_slice"
 					type: "item"
 				}
 				{
-					id: "6E6D4836AF850529"
+					id: "7527AFA589315A99"
 					item: "gobberdelight:green_meat_slice"
 					type: "item"
 				}
 			]
+			title: "戈伯牛肉系列"
 			x: 0.5d
 			y: 20.5d
 		}
@@ -3515,17 +3526,17 @@
 			subtitle: "小小的戈伯被装进酒和甜蜜里啦！"
 			tasks: [
 				{
-					id: "2F11F035AC55753B"
+					id: "771EC81E2F693A6D"
 					item: "gobberdelight:blue_drink"
 					type: "item"
 				}
 				{
-					id: "1A64EE0CEE82C184"
+					id: "40E0AED5DB0C5322"
 					item: "gobberdelight:red_drink"
 					type: "item"
 				}
 				{
-					id: "4136B59CFE12718D"
+					id: "7065859692A8008C"
 					item: "gobberdelight:green_drink"
 					type: "item"
 				}
@@ -8185,16 +8196,6 @@
 			subtitle: "缺失配方来自屠宰工艺……"
 			tasks: [
 				{
-					id: "52748910A3D2A931"
-					item: "extradelight:oxtail_soup"
-					type: "item"
-				}
-				{
-					id: "14D77B85E8BFA1BD"
-					item: "extradelight:sextuple_meat_treat"
-					type: "item"
-				}
-				{
 					id: "1E21E71A8708F267"
 					item: "extradelight:sos"
 					type: "item"
@@ -8212,6 +8213,16 @@
 				{
 					id: "291B08D595CE27C4"
 					item: "extradelight:bhutan"
+					type: "item"
+				}
+				{
+					id: "564E85D2647ADD44"
+					item: "extradelight:sextuple_meat_treat"
+					type: "item"
+				}
+				{
+					id: "612EDC3728472C56"
+					item: "extradelight:oyakodon"
 					type: "item"
 				}
 			]
@@ -8248,8 +8259,8 @@
 					type: "item"
 				}
 				{
-					id: "46058259C3104EFC"
-					item: "extradelight:hasenpfeffer"
+					id: "71515A4031ED250B"
+					item: "extradelight:oxtail_soup"
 					type: "item"
 				}
 			]
@@ -9218,7 +9229,7 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -35.0d
 		}
 		{
@@ -9253,8 +9264,8 @@
 				item: "ars_nouveau:mendosteen_pod"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -35.0d
+			x: -2.5d
+			y: -37.0d
 		}
 		{
 			id: "230F7FFAA5099E77"
@@ -9264,8 +9275,8 @@
 				item: "ars_nouveau:bastion_pod"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -35.0d
+			x: -1.5d
+			y: -37.0d
 		}
 		{
 			id: "47B02E020BD3A25A"
@@ -9275,8 +9286,8 @@
 				item: "ars_nouveau:bombegranate_pod"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -35.0d
+			x: -0.5d
+			y: -37.0d
 		}
 		{
 			id: "253FAC31D0548170"
@@ -9286,8 +9297,8 @@
 				item: "ars_nouveau:frostaya_pod"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -35.0d
+			x: -3.5d
+			y: -37.0d
 		}
 		{
 			id: "6FFEB46B6EFEDA5D"
@@ -9297,8 +9308,8 @@
 				item: "pneumaticcraft:sourdough_bread"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -35.0d
+			x: 0.5d
+			y: -37.0d
 		}
 		{
 			id: "5051AF52AA049455"
@@ -9308,8 +9319,8 @@
 				item: "pneumaticcraft:salmon_tempura"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -35.0d
+			x: 0.5d
+			y: -36.0d
 		}
 		{
 			id: "7EAF399A664C6B90"
@@ -9319,8 +9330,8 @@
 				item: "pneumaticcraft:chips"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -35.0d
+			x: -5.5d
+			y: -37.0d
 		}
 		{
 			id: "4A93FDC2FD490E46"
@@ -9330,8 +9341,8 @@
 				item: "pneumaticcraft:cod_n_chips"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -35.0d
+			x: -4.5d
+			y: -37.0d
 		}
 		{
 			id: "665D370B5721C4C6"
@@ -9341,8 +9352,8 @@
 				item: "create:bar_of_chocolate"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -36.0d
+			x: -6.5d
+			y: -37.0d
 		}
 		{
 			id: "0BED5A12ED0B2FE3"
@@ -9353,7 +9364,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -36.0d
+			y: -37.0d
 		}
 		{
 			id: "4468B33DB3D0CAB6"
@@ -9469,7 +9480,7 @@
 				id: "4B60F174F2BEF5AC"
 				type: "checkmark"
 			}]
-			title: "CTI原创特供酒"
+			title: "CTI原创特供"
 			x: -9.0d
 			y: 17.0d
 		}
@@ -9602,7 +9613,7 @@
 				item: "cherrytinker:cherry"
 				type: "item"
 			}]
-			x: -30.0d
+			x: -29.0d
 			y: 19.5d
 		}
 		{
@@ -9612,7 +9623,7 @@
 				item: "cherrytinker:cherry_juice"
 				type: "item"
 			}]
-			x: -29.5d
+			x: -29.0d
 			y: 20.5d
 		}
 		{
@@ -9622,7 +9633,7 @@
 				item: "cherrytinker:enchanted_golden_carrot"
 				type: "item"
 			}]
-			x: -29.0d
+			x: -30.0d
 			y: 19.5d
 		}
 		{
@@ -9645,6 +9656,254 @@
 			}]
 			x: -4.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["473F9574DAFD8384"]
+			id: "0CF374CE79593C82"
+			tasks: [{
+				id: "03FD5DCFE56C129E"
+				item: "cti:heng_sugar"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["473F9574DAFD8384"]
+			id: "71602384A062370B"
+			tasks: [{
+				id: "661BF6E00D5CCDC7"
+				item: "cti:ha_sugar"
+				type: "item"
+			}]
+			x: -32.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["473F9574DAFD8384"]
+			id: "5758DC81A81648BF"
+			tasks: [{
+				id: "1A95C5641B0FF7B4"
+				item: "cti:strong_sugar"
+				type: "item"
+			}]
+			x: -32.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["473F9574DAFD8384"]
+			id: "0B4D0BECA1184C46"
+			tasks: [{
+				id: "7F671ADF1A64E5FD"
+				item: "cti:covert_sugar"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["473F9574DAFD8384"]
+			id: "236121DD1C509199"
+			tasks: [{
+				id: "67D2BE76C6D031F6"
+				item: "cti:nakshatra_sugar"
+				type: "item"
+			}]
+			x: -32.5d
+			y: 19.5d
+		}
+		{
+			id: "6F99F29BA529553C"
+			tasks: [{
+				id: "730DAC0400368E1E"
+				item: "aether_redux:vanilla_gummy_swet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -35.0d
+		}
+		{
+			id: "3CF35CEBB3433476"
+			tasks: [{
+				id: "5127398FE4299031"
+				item: "aether_redux:blue_swet_jelly"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -35.0d
+		}
+		{
+			id: "76639E84539E207A"
+			tasks: [{
+				id: "27F46B63BD595096"
+				item: "aether_redux:golden_swet_jelly"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -35.0d
+		}
+		{
+			id: "3EB1FBC07C16E66C"
+			tasks: [{
+				id: "101550762AC8BEC6"
+				item: "aether_redux:vanilla_swet_jelly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -35.0d
+		}
+		{
+			id: "54833C5FB5585377"
+			tasks: [{
+				id: "342A6E83224A1151"
+				item: "aether_redux:dark_gummy_swet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -35.0d
+		}
+		{
+			id: "21C4EE277E6B5087"
+			tasks: [{
+				id: "3822DA202FD08F93"
+				item: "aether_redux:dark_swet_jelly"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -35.0d
+		}
+		{
+			id: "0BED781984E66F32"
+			tasks: [{
+				id: "3B081954E94CA323"
+				item: "aether_redux:blueberry_pie"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -35.0d
+		}
+		{
+			id: "1B0D7A21E256B483"
+			tasks: [{
+				id: "28315AFB84B62DA1"
+				item: "aether_redux:enchanted_blueberry_pie"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -35.0d
+		}
+		{
+			id: "7E488C345B528FC4"
+			tasks: [{
+				id: "2D6427B0A0317E14"
+				item: "aether_redux:wynd_bagel"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -35.0d
+		}
+		{
+			id: "4EEC86AF8C68D1FC"
+			tasks: [
+				{
+					id: "6825FCDC152F0449"
+					item: "aether_redux:oatmeal"
+					type: "item"
+				}
+				{
+					id: "15B432877AFCBB78"
+					item: "aether_redux:wynd_oats"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -36.0d
+		}
+		{
+			id: "554FE4C8AE476577"
+			tasks: [{
+				id: "3592241A1985FC2D"
+				item: "aether_redux:blueberry_bagel"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -36.0d
+		}
+		{
+			id: "5C0DB7F3C862B438"
+			tasks: [{
+				id: "33012B572E268D36"
+				item: "aether_redux:mouse_ear_soup"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -36.0d
+		}
+		{
+			id: "2734A1CA3AA8E60A"
+			tasks: [{
+				id: "2D21E3F91A9D2932"
+				item: "aether_redux:zanberry"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -37.0d
+		}
+		{
+			id: "3C5108325DE26BD4"
+			tasks: [{
+				id: "6BC9906D64A001F8"
+				item: "aether_redux:lightroot_clump"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -37.0d
+		}
+		{
+			id: "34756915F0EC977F"
+			tasks: [{
+				id: "67853B2A6D163D6B"
+				item: "cloudertinker:iron_cookie"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 21.5d
+		}
+		{
+			id: "6D6184D461FFD3FA"
+			tasks: [{
+				id: "54ACCAFA1ECF2585"
+				item: {
+					Count: 1b
+					id: "cloudertinker:obsidian_cookie"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -29.0d
+			y: 21.5d
+		}
+		{
+			id: "3E58B2D53396635E"
+			tasks: [{
+				id: "1629BC50E9CEDA7C"
+				item: "cloudertinker:clean_pastry"
+				type: "item"
+			}]
+			x: -29.5d
+			y: 22.5d
+		}
+		{
+			id: "53A5655B23357DB9"
+			tasks: [{
+				id: "1DAAEA223E2944C8"
+				item: "cloudertinker:cola_bottle"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 20.5d
 		}
 	]
 	subtitle: [

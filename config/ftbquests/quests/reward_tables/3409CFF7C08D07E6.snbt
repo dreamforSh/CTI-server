@@ -1,0 +1,65 @@
+{
+	icon: "lightmanscurrency:coinblock_netherite"
+	id: "3409CFF7C08D07E6"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 86
+	rewards: [
+		{
+			ftb_money: 100L
+			type: "sdmshop:money"
+			weight: 3.0f
+		}
+		{
+			weight: 3.0f
+		}
+		{
+			ftb_money: 500L
+			type: "sdmshop:money"
+			weight: 3.0f
+		}
+		{
+			ftb_money: 1000L
+			type: "sdmshop:money"
+			weight: 1.5f
+		}
+		{
+			ftb_money: 3000L
+			type: "sdmshop:money"
+		}
+		{
+			ftb_money: 5000L
+			type: "sdmshop:money"
+			weight: 0.7f
+		}
+		{
+			ftb_money: 10000L
+			type: "sdmshop:money"
+			weight: 0.5f
+		}
+		{
+			ftb_money: 15000L
+			type: "sdmshop:money"
+			weight: 0.1f
+		}
+		{
+			ftb_money: 30000L
+			type: "sdmshop:money"
+			weight: 0.05f
+		}
+		{
+			ftb_money: 100000L
+			type: "sdmshop:money"
+			weight: 0.01f
+		}
+	]
+	title: "金币大抽奖"
+}

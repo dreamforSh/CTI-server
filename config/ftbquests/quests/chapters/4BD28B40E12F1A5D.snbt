@@ -1,0 +1,798 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4BD28B40E12F1A5D"
+	group: "4CD374CEABFCA3D3"
+	icon: "kubejs:aetherium_core"
+	id: "4BD28B40E12F1A5D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 3.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 3.0d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.2d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 3.2d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"深暗之园是一个位于主世界基岩深处的黑暗地下维度。那里的植物适应了黑暗，无需阳光即可生长，怪异的生物以此为家，各种来自一个混沌而黑暗的领域的腐衰生物将自己传播到各处以便入侵这里…"
+				""
+				"用石砖搭建一个下界传送门结构，再使用深园催化石点击最底部的石砖，这样子一个深园传送门就制作好了。"
+				""
+				"不过有意思的一点是深园催化石既不会被消耗也没有耐久，因此它可以被无限次的重复使用。毕竟是催化石（jì）嘛。（迫真）"
+				""
+				"&c深园的怪物具备1000+的初始等级，意味着你一进门就能看到如诸神黄昏这种顶级词条，谨记这一点！"
+			]
+			icon: "undergarden:catalyst"
+			id: "3351BC4716C05698"
+			rewards: [{
+				id: "4A46038AE1A9BB8A"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Call of the void"
+			tasks: [
+				{
+					id: "6DE75A6E31E6F2CE"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "463CA046D31D684C"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					id: "7BF27BE32DE40CBC"
+					type: "dimension"
+				}
+				{
+					advancement: "undergarden:undergarden/enter_undergarden"
+					criterion: ""
+					id: "136F18660FDD3338"
+					type: "advancement"
+				}
+			]
+			title: "深暗之园"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			description: ["作为一个新维度模组，没有自己的矿物当然是失败的。那么，在这扭曲又诡异的世界之中，又有着怎样的矿物等待着你挖掘呢？"]
+			icon: {
+				Count: 1b
+				id: "undergarden:utherium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08D4DE294FE0E8A1"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "undergarden:undergarden/mine_ore"
+				criterion: ""
+				id: "32C884FE655B7B44"
+				type: "advancement"
+			}]
+			title: "深园的特殊矿物"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08D4DE294FE0E8A1"]
+			description: ["      可以用于合成经验钢，是本时期的强力材料。"]
+			id: "5814329DCABB54FD"
+			rewards: [{
+				id: "0A340D703D65C17D"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "重要的深园矿石，会在深暗之园的所有地方生成"
+			tasks: [{
+				count: 16L
+				id: "3011216E2E40F41E"
+				item: "undergarden:raw_cloggrum"
+				type: "item"
+			}]
+			title: "扼塞矿石"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08D4DE294FE0E8A1"]
+			description: ["各项指标略低于下界合金套"]
+			id: "0D4085477E0E90CE"
+			rewards: [{
+				id: "5FC659F2A886699D"
+				item: "undergarden:utherium_crystal"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "可以挖矿获得，也可以通过击杀腐衰生物获得的御腐破片合成获得"
+			tasks: [{
+				id: "5612AB70E9531797"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			title: "御腐矿石"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08D4DE294FE0E8A1"]
+			description: [
+				"&m并非龙霜钢"
+				"但是能用于合成龙霜钢"
+			]
+			id: "108B742C79DFBB87"
+			rewards: [{
+				id: "451814F0D54D19B4"
+				item: "undergarden:raw_froststeel"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "仅在寒霜之地群系生成的特殊矿石"
+			tasks: [{
+				id: "13BA0F2D7B71FBA0"
+				item: "undergarden:raw_froststeel"
+				type: "item"
+			}]
+			title: "霜钢矿石"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08D4DE294FE0E8A1"]
+			description: [
+				"仅在深暗之园Y轴很低的地方生成，非常稀有。裸露的矿石一般可以在基岩层附近的致毒混合物湖中发现。"
+				"相当于主世界的绿宝石。可以和石生体交易或挖掘获得。也可以与石生体交易获得其他东西。"
+				""
+				"      可以强化到装备上以获得20%的大部分属性加成。"
+			]
+			id: "6F368891161CDB8F"
+			rewards: [{
+				id: "370F1DD249919470"
+				item: "undergarden:regalium_crystal"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "似乎在深园的某种生物十分喜爱这种水晶"
+			tasks: [{
+				id: "5116090D5A0E2287"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			title: "贵豪矿石"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F368891161CDB8F"]
+			description: [
+				"石生体会在烟梗森林、摇蜿森林、遗忆之地和茂密森林中生成。本身是中立生物，但是当你携带七咒之戒的时候会吸引仇恨。如果不戴七咒的话与僵尸猪灵更为接近（都拥有群体仇恨机制），这就是我说它是异世界猪灵而不是村民的原因。"
+				""
+				"不过，戴七咒之戒的时候也不是不能交易，&6装备强化了贵豪强化后便能令其变回中立。"
+			]
+			id: "5223F0F117527334"
+			size: 1.5d
+			subtitle: "其实交易方式更像是村民"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "0ACF7EF30B0F74EE"
+				type: "advancement"
+			}]
+			title: "异世界猪灵"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["353E27D8A62F845D"]
+			id: "371CA22608AA6887"
+			size: 1.5d
+			subtitle: "似乎有什么特别的作用"
+			tasks: [{
+				id: "73F214417FBEFAA7"
+				item: "undergarden:music_disc_gloomper_anthem"
+				type: "item"
+			}]
+			title: "通过与石生体交易获取"
+			x: -8.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			icon: "undergarden:rotbeast_spawn_egg"
+			id: "393014078821B442"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "深暗之园的特色生物较多，这里只讲述较为有趣的生物。"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "605FB9FADA16E9B2"
+				type: "advancement"
+			}]
+			title: "深园的特殊怪物"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["393014078821B442"]
+			description: [
+				"居存者是深暗之园中的一种可骑乘的被动生物。"
+				"居存者会在茂密森林、遗忆之地、油绿森林、烟雾尖顶、烟梗森林和摇蜿森林中生成。"
+				"可通过在居存者的身上放鞍来骑乘居存者，需要手持木棍上的深暗豆来操控居存者和加速。"
+			]
+			icon: "undergarden:dweller_spawn_egg"
+			id: "19DFA4852CE4611F"
+			size: 1.5d
+			tasks: [{
+				id: "37C5E9A18963212F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "undergarden:dweller"
+				type: "observation"
+			}]
+			title: "居存者"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			icon: "undergarden:gloomgourd"
+			id: "353E27D8A62F845D"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "697F376D6EC202F4"
+				type: "checkmark"
+			}]
+			title: "深园的有趣物品"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["393014078821B442"]
+			description: ["困跳者会在茂密森林、摇蜿森林、烟梗森林、油绿森林、蘑菇塘沼和遗忆之地中生成。它在受到伤害时有概率制造毒云以自卫，毒云中的生物会持续获得4秒中毒I。而且它会跟随手持黯瓜的玩家，它们可以通过喂食黯瓜来繁殖。"]
+			icon: "undergarden:gloomper_spawn_egg"
+			id: "377EE1FA4D537B28"
+			size: 1.5d
+			tasks: [{
+				id: "0262A3FC1AEACF95"
+				observe_type: 5
+				timer: 0L
+				title: "困跳者"
+				to_observe: "undergarden:gloomper"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["377EE1FA4D537B28"]
+			description: ["使用音乐唱片（Screem - Gloomper Anthem）右击困跳者，此音乐唱片会被消耗掉，且困跳者会立刻死亡并掉落此物品。"]
+			id: "52A014F6D2209C5C"
+			size: 1.5d
+			tasks: [
+				{
+					id: "72BB09565ADC8C00"
+					item: "undergarden:music_disc_gloomper_secret"
+					type: "item"
+				}
+				{
+					advancement: "undergarden:undergarden/gloomper_secret_disc"
+					criterion: ""
+					id: "3111DF33E6337561"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["353E27D8A62F845D"]
+			id: "45532547F59E6C61"
+			rewards: [{
+				id: "0D9CAF337F2326F9"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "骑乘居存者的必备用具"
+			tasks: [{
+				id: "388A7A10146E3A16"
+				item: {
+					Count: 1b
+					id: "undergarden:underbean_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["353E27D8A62F845D"]
+			description: ["和冰一样，生物或物品在上面会打滑，你可以用它来制作冰上飞船。"]
+			id: "5E79E2F3814C7D6C"
+			rewards: [{
+				count: 32
+				id: "389AD65F798CF613"
+				item: "undergarden:shiverstone"
+				random_bonus: 32
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "石头版本的冰"
+			tasks: [{
+				id: "75DCBB34CDEF1F6B"
+				item: "undergarden:shiverstone"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["353E27D8A62F845D"]
+			description: [
+				"浆血蘑菇滴浆的获取方式是，先采一个浆血蘑菇，将它种植在深暗之园的草方块上，再使用骨粉催熟"
+				"这个时候浆血蘑菇就会变成大蘑菇，这个大号蘑菇身上就会有浆血蘑菇滴浆"
+			]
+			id: "66DD2C38C62131E2"
+			size: 1.5d
+			subtitle: "制作成喷溅型，对着敌人抛去吧！"
+			tasks: [{
+				id: "2355794C6DA52767"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "undergarden:brittleness"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["393014078821B442"]
+			description: ["吐射者一般会四处游荡。当它发现目标时，它会与目标保持一定距离并向他们发射渊邃卵石。当它受伤时，它会快速逃跑。"]
+			icon: "undergarden:sploogie_spawn_egg"
+			id: "1524EEFB0D49210F"
+			size: 1.5d
+			subtitle: "吐射者可以在Y=32以下任何亮度等级低于7的实体方块上生成。"
+			tasks: [{
+				entity: "undergarden:sploogie"
+				id: "0E5EFF7CAD05DE0A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["393014078821B442"]
+			description: [
+				"巨嘴兽一般会四处游荡。当它感应到目标时，它会跑向目标并展开攻击。如果有一个带有\"muncher_breakables\"标签的方块阻挡着它，它将会将其破坏（无掉落物）并恢复1点生命值。有"
+				"\"muncher_breakables\"标签的方块包含原版和深暗之园石类方块，以及其他任何带有\"forge：stone\"标签的方块。"
+			]
+			icon: "undergarden:muncher_spawn_egg"
+			id: "585C5AC47C128C11"
+			size: 1.5d
+			subtitle: "巨嘴兽可以在Y=32以下任何亮度等级低于7的实体方块上生成。"
+			tasks: [{
+				entity: "undergarden:muncher"
+				id: "516E2D404B87918C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["313D8290414EC63C"]
+			description: [
+				"遗忆守卫通常情况下不会移动，有仇恨时较慢移动直到可以攻击目标，移动时会破坏阻挡其移动的方块。它免疫远程伤害，免疫魔法伤害，免疫所有药水效果。"
+				"首次击败遗忆守卫会达成目标【解佣】"
+			]
+			icon: "undergarden:forgotten_guardian_spawn_egg"
+			id: "3E1039454694FED5"
+			rewards: [{
+				id: "02E9DFB7DB60EB31"
+				item: "undergarden:forgotten_nugget"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "遗忆守卫是一个守护着下僻巢穴的金属怪物。"
+			tasks: [
+				{
+					entity: "undergarden:forgotten_guardian"
+					id: "07F9AFA277AFC9FA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "undergarden:undergarden/kill_forgotten_guardian"
+					criterion: ""
+					id: "5A28943C632C2811"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E1039454694FED5"]
+			description: ["是一种匠魂材料，会随着你的每一次攻击而递减的增加伤害。"]
+			id: "055BA184A605D51A"
+			rewards: [
+				{
+					id: "4EFCDB4CAFBBA50E"
+					item: "undergarden:forgotten_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3D0934C722A6AF99"
+					item: "cti:soul_spell"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "通过击杀遗忆守卫获得的遗忆锭获取"
+			tasks: [{
+				id: "76A65FC3C6FAC996"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			description: ["      下僻巢穴 (catacombs) ，一座被遗忘的迷宫府邸，这里潜伏着许多可怕的生物，也蕴含着许多的宝藏，最重要的是，你必须通过此处来获遗忆粒，进而获得遗忆锭和遗忆装备。当然，最重要的是能够获得本包独有物品：&6阳清能量核心&r！"]
+			id: "313D8290414EC63C"
+			rewards: [{
+				id: "5ADF1F156773DA7F"
+				item: "undergarden:utherium_block"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "华屋丘墟"
+			tasks: [{
+				advancement: "undergarden:undergarden/catacombs"
+				criterion: ""
+				id: "663506EA8B355655"
+				type: "advancement"
+			}]
+			title: "遗忆府邸"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["313D8290414EC63C"]
+			description: ["具体可以在jei查看它能合成的东西"]
+			id: "13C9CE8309ACDC24"
+			size: 2.0d
+			subtitle: "特殊的合成道具"
+			tasks: [{
+				id: "0050C972668A1D25"
+				item: "kubejs:aetherium_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			description: [
+				"     巨龙屹立在光怪陆离的深园群系中，为这个衰腐的维度增添了几分色彩。"
+				""
+				"      深园是龙的唯一刷新维度，此处的龙均为4~5级龙，有着强大的战斗力。"
+				""
+				"      冰龙在寒霜之地刷新，电龙在所有蘑菇、真菌群系刷新，火龙在所有森林和烟雾尖顶群系刷新，其余区域不刷新龙，安全区半径为1000。"
+			]
+			id: "31816F3E8B987A68"
+			rewards: [{
+				ftb_money: 1000L
+				id: "68D7315537B273E6"
+				random_bonus: 1000
+				type: "sdmshop:money"
+			}]
+			size: 2.0d
+			subtitle: "我们有理由相信这些龙是被流放的"
+			tasks: [
+				{
+					id: "45219586DB1B40C4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:frozen_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #iceandfire:frozen_blocks"
+					type: "item"
+				}
+				{
+					id: "6F8866FDD1AA197C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:crackled_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #iceandfire:crackled_blocks"
+					type: "item"
+				}
+				{
+					id: "4AC4A6E1C3566480"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:charred_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #iceandfire:charred_blocks"
+					type: "item"
+				}
+			]
+			title: "寻找巨龙"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67A18085791201F0"]
+			description: [
+				"      冒险侧的准毕业材料，有着高强度的词条且自带不毁。"
+				""
+				"      关于龙魂吞噬者：它读取的是你的统计信息，所以你&6不需要&r做出龙钢装备后每个装备拿去杀50条龙，所有你杀过的龙都会参与计数。"
+			]
+			id: "251F4CEE57CB1317"
+			size: 2.0d
+			subtitle: "龙之合金"
+			tasks: [
+				{
+					id: "173FA5B31E469551"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					id: "07BE4E44FF351EC7"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "72892B99AD577141"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+			]
+			title: "驾驭龙息"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31816F3E8B987A68"]
+			description: [
+				"      在击杀4~5级的母龙时，如果空手搜刮龙尸会在将龙鳞搜刮殆尽时获取到龙蛋，龙蛋则可以孵出小龙。"
+				""
+				"&6      孵化龙蛋是获取驯服的龙的唯一途径，获得了驯服的龙后你才能制作龙钢。"
+				" &e  （那些野生的龙不会愿意为你烧制龙钢的）"
+				""
+				"      火龙蛋需要置于火中孵化，冰龙蛋需要置于水中孵化，电龙蛋需要在雷雨天露天孵化。"
+				""
+				"      在龙孵化后你便需要开始养龙了！给龙喂食便可以使它慢慢随时间长大。如果使用&e龙食&r则会直接加速龙的生长。"
+				"&c（注：不要把龙喂得太大，否则容易把家拱坏，并且骑龙飞行时会瞬间加速到极高速度）"
+			]
+			id: "67A18085791201F0"
+			subtitle: "屠龙勇士？造龙勇士！"
+			tasks: [{
+				id: "0B7B704F2DEC3669"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_red"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_green"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_bronze"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_gray"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_blue"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_white"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_sapphire"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_silver"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_electric"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_amythest"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_copper"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_black"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "杀龙取卵"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08D4DE294FE0E8A1"]
+			description: [
+				"      在4<y<10的近基岩层发现，挖掘后掉落粗的虚空结晶，作为匠魂工具时可以挖掘不可破坏的方块（包括基岩、末地传送门框架等）"
+				""
+				" &e     大胆想象下它在天镜会有什么作用？"
+			]
+			id: "272710452EFD0B9D"
+			subtitle: "破基岩！"
+			tasks: [{
+				id: "10DAEDD4CA099350"
+				item: "tinkersinnovation:raw_void_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E1039454694FED5"]
+			description: [
+				"      拿在手上右键消耗即可使自己恶意等级增加10000"
+				""
+				"      可别小看这个10000级，它会极大提高生物的伤害、血量等各项指标。不过相应的，如果你获得了&6尼德霍格&r的话，它也会给予你更丰厚的奖励。"
+			]
+			id: "07A0A7A23A6BBDEE"
+			rewards: [{
+				count: 8
+				id: "25CE36D7CCA67398"
+				item: "l2hostility:hostility_essence"
+				random_bonus: 8
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "还觉得不够难？"
+			tasks: [{
+				id: "025DD438F610FD40"
+				item: "cti:orb_of_curse"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["251F4CEE57CB1317"]
+			id: "12E77EE886C48DC8"
+			subtitle: "龙钢三合一！"
+			tasks: [{
+				id: "0DC24D6B30E167D8"
+				item: "cti:star_dragon_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12E77EE886C48DC8"]
+			id: "079D75B511A477DD"
+			rewards: [{
+				id: "0A89C14DC8AEBD55"
+				item: "cti:soul_spell"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "非常重要的饰品，有了它可以大量节省无尽阶段的肝度"
+			tasks: [{
+				id: "62FFA688CF20CCBF"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+	]
+	subtitle: [
+		"有点交错次元那味(指阴间程度)"
+		"-by FaintGlow_FG \\& EtSH_C2H6S"
+	]
+	title: "第三章 —— 地狱边境的馈赠"
+}

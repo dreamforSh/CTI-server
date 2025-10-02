@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mainchapter0"
-	group: "7741820127317059"
+	group: "2C498EDF9C598269"
 	icon: {
 		Count: 1b
 		id: "tconstruct:smeltery_controller"
@@ -298,20 +298,8 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: -2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftbquests:tasks/input_only"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: 0.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			click: ""
@@ -396,6 +384,42 @@
 			width: 1.5d
 			x: 13.5d
 			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
 		}
 	]
 	order_index: 0
@@ -495,6 +519,7 @@
 						id: "tinkers_things:makeshift_helmet"
 						tag: {
 							Damage: 0
+							Unbreakable: 1b
 							tic_broken: 0b
 							tic_modifiers: [ ]
 							tic_persistent: { }
@@ -517,6 +542,7 @@
 						id: "tinkers_things:makeshift_chestplate"
 						tag: {
 							Damage: 0
+							Unbreakable: 1b
 							tic_broken: 0b
 							tic_modifiers: [ ]
 							tic_persistent: { }
@@ -548,6 +574,10 @@
 							tic_modifiers: [
 								{
 									level: 2
+									name: "cti:industrial_armor"
+								}
+								{
+									level: 4
 									name: "tinkers_reforged:rock_solid"
 								}
 								{
@@ -560,12 +590,13 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 4.0f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 1619.9999f
+								"tconstruct:armor": 6.6000004f
+								"tconstruct:armor_toughness": 1.1f
+								"tconstruct:durability": 2789.9998f
 							}
 							tic_volatile_data: {
-								abilities: 1
+								abilities: 2
+								defense: 1
 								upgrades: 2
 							}
 						}
@@ -588,6 +619,10 @@
 							tic_modifiers: [
 								{
 									level: 2
+									name: "cti:industrial_armor"
+								}
+								{
+									level: 4
 									name: "tinkers_reforged:rock_solid"
 								}
 								{
@@ -600,12 +635,13 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 2.0f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 1403.9999f
+								"tconstruct:armor": 4.4f
+								"tconstruct:armor_toughness": 1.1f
+								"tconstruct:durability": 2417.9998f
 							}
 							tic_volatile_data: {
-								abilities: 1
+								abilities: 2
+								defense: 1
 								upgrades: 2
 							}
 						}
@@ -1125,6 +1161,10 @@
 					tic_modifiers: [
 						{
 							level: 1
+							name: "cti:industrial"
+						}
+						{
+							level: 1
 							name: "tinkers_reforged:rock_solid"
 						}
 						{
@@ -1138,15 +1178,15 @@
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 7.0f
+						"tconstruct:attack_damage": 9.45f
 						"tconstruct:attack_speed": 0.9f
-						"tconstruct:durability": 690.0f
+						"tconstruct:durability": 724.5f
 						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:mining_speed": 6.5f
+						"tconstruct:mining_speed": 6.825f
 					}
 					tic_volatile_data: {
-						abilities: 1
-						upgrades: 3
+						abilities: 2
+						upgrades: 4
 					}
 				}
 			}
@@ -1445,12 +1485,13 @@
 					id: "0CE500AA908F2C35"
 					item: {
 						Count: 1b
-						id: "tconstruct:smeltery_controller"
+						id: "itemfilters:id_regex"
 						tag: {
-							texture: "tconstruct:seared_bricks"
+							value: "^tconstruct:smeltery_controller"
 						}
 					}
 					match_nbt: false
+					title: "冶炼炉控制器"
 					type: "item"
 				}
 			]
@@ -1514,26 +1555,28 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "2A16FF63DC16AD86"
+					id: "1262D6E726271D85"
 					item: {
 						Count: 1b
-						id: "tconstruct:smeltery_controller"
+						id: "itemfilters:id_regex"
 						tag: {
-							texture: "tconstruct:seared_bricks"
+							value: "^tconstruct:smeltery_controller"
 						}
 					}
+					title: "冶炼炉控制器"
 					type: "item"
 				}
 				{
 					count: 6L
-					id: "34986408D8007E18"
+					id: "13FA5B3342EAD9E2"
 					item: {
 						Count: 1b
-						id: "tconstruct:seared_drain"
+						id: "itemfilters:id_regex"
 						tag: {
-							texture: "tconstruct:seared_stone"
+							value: "^tconstruct:seared_drain"
 						}
 					}
+					title: "排液口"
 					type: "item"
 				}
 			]
@@ -1587,21 +1630,21 @@
 			id: "7FCEF2EE1FE310FE"
 			rewards: [
 				{
-					count: 4
-					id: "130709D4B8DE2961"
-					item: "tconstruct:seared_bricks"
+					id: "671BE1DCD92BDE8E"
+					item: "brewinandchewin:beer"
 					type: "item"
 				}
 				{
-					id: "671BE1DCD92BDE8E"
-					item: "brewinandchewin:beer"
+					count: 4
+					id: "269FC882B87BBEBA"
+					item: "tconstruct:seared_bricks"
 					type: "item"
 				}
 			]
 			subtitle: "你的第一块合金"
 			tasks: [{
 				count: 27L
-				id: "47EE9955FC3157F0"
+				id: "4C346E0097E02DB1"
 				item: "tinkers_thinking:tinkers_bronze_ingot"
 				type: "item"
 			}]
@@ -1747,10 +1790,8 @@
 			y: 5.2d
 		}
 		{
-			dependencies: [
-				"636ADE09A34BB9F2"
-				"1612651925DCDED8"
-			]
+			dependencies: ["636ADE09A34BB9F2"]
+			dependency_requirement: "one_completed"
 			description: [
 				"终于，你来到了这个&c炎热&r的地方"
 				""
@@ -1790,6 +1831,7 @@
 			y: 5.25d
 		}
 		{
+			dependencies: ["71A49B6C2D816424"]
 			description: [
 				"穿戴这个制作的盔甲，你就仿佛穿上了&e金甲&r，&d猪灵不再会主动攻击你&r"
 				""
@@ -1981,15 +2023,15 @@
 			shape: "hexagon"
 			subtitle: "现在你不需要做，但是迟早要做（"
 			tasks: [{
-				id: "75707DBF77D13CE4"
+				id: "31DFB3B2434E9698"
 				item: {
 					Count: 1b
-					id: "tconstruct:foundry_controller"
+					id: "itemfilters:id_regex"
 					tag: {
-						texture: "tconstruct:scorched_bricks"
+						value: "^tconstruct:foundry_controller"
 					}
 				}
-				match_nbt: false
+				title: "熔铸炉控制器"
 				type: "item"
 			}]
 			x: 19.5d
@@ -2036,7 +2078,13 @@
 			description: [
 				"到这里为止，匠魂的&2相关知识已经全部传授完毕&r，你可以&b正式开始你的科技之旅了&r！"
 				""
-				"&a可以动身前往第二章了&r"
+				"&a可以动身前往第一章了&r"
+				""
+				"在接下来的旅程中，流程被分割为了&a冒险&r和&a科技&r两大块。"
+				""
+				"&b发展科技可以在不战斗的情况下获得强力的材料，&a发展冒险能快速获得强材料并且对科技的进程有一定帮助。"
+				""
+				"请协调自身条件选择合适的发展路线！"
 				""
 				"后面你会收集到各种&c强大的材料和强大的工具&r，&a期待你后面的旅程&r"
 			]
@@ -2078,6 +2126,7 @@
 				""
 				"他并&a没有调整获取方式&r，你可以&a前期直接做&r"
 			]
+			hide_dependency_lines: true
 			id: "7717A36741FBC926"
 			rewards: [{
 				id: "43BD8ACAA2B777AB"
@@ -2091,6 +2140,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "452ADE6D5E931D2A"
 				item: {
@@ -2103,8 +2153,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["34A01824678F973A"]
@@ -2113,6 +2163,7 @@
 				""
 				"它可以很轻松的帮你&e测试伤害&r，来选出合适的搭配"
 			]
+			hide_dependency_lines: true
 			id: "1B48B1588D9CCA70"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2120,13 +2171,14 @@
 				table_id: 1021271035427133542L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "079D38549CDFAE95"
 				item: "dummmmmmy:target_dummy"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["34A01824678F973A"]
@@ -2134,6 +2186,7 @@
 				"指路石是一个很好用的传送工具，前期想回家尝试多造一些这个的锚点吧"
 				"&l&o&0&m其实路上会有野生的指路石，你可以全部搬回家（）&l&o&m&0"
 			]
+			hide_dependency_lines: true
 			id: "3DF56FF0FB4CB03B"
 			rewards: [{
 				count: 3
@@ -2141,6 +2194,7 @@
 				item: "waystones:waystone"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "093A381810122AEB"
 				item: {
@@ -2152,8 +2206,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["52EEE06829BC1563"]
@@ -2342,10 +2396,76 @@
 			x: 13.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["34A01824678F973A"]
+			description: [
+				"       部分群系伴随一些&e危险的生物&r，不适合开局当家。"
+				""
+				" &6      热带草原及其衍生群系&r会刷&6图腾鸟（boss）的结构&r，群系内部会随机刷新&6图腾鸟的手下&r和&7鸡蛇&r这两种高危险性生物；"
+				""
+				" &b      雪原及其衍生群系&r会刷新&3霜冻巨兽（boss）&r；"
+				""
+				" &e      沙漠及其衍生群系&r会刷新&4死亡蠕虫&r；"
+				""
+				" &2      沼泽群系&r会刷新&6铜羽泽鸮&r。"
+				""
+				"      为了你的安全着想，请避免在这几个群系附近造家。"
+				""
+				"      在获得了&b钻石&r后也可以前往&d风景优美&r且&6地表不刷怪&r的&e暮色森林&r造家！"
+			]
+			hide_dependency_lines: true
+			icon: "twilightforest:lich_tower_miniature_structure"
+			id: "568D5BD575AFDE6C"
+			rewards: [
+				{
+					id: "3CB444B0D1EA78FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "73AB70165CC9110B"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "平原/森林是较为安全的初始群系"
+			tasks: [{
+				biome: "minecraft:plains"
+				id: "15366E2F2246F7E3"
+				title: "发现一处平原"
+				type: "biome"
+			}]
+			title: "到哪安个好家？"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["34A01824678F973A"]
+			icon: "cti:soul_spell"
+			id: "28942E6E25C7992F"
+			rewards: [{
+				id: "5839A890E8C66829"
+				item: "cti:soul_spell"
+				type: "item"
+			}]
+			subtitle: "嗯...再喝的话当然要付出点代价"
+			tasks: [{
+				consume_items: true
+				id: "7884A5B743342D00"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "后悔药"
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	subtitle: [
 		"初接触匠魂的建议仔细看"
 		"-by 独爱流萤"
 	]
-	title: "序章      —— 开始与匠魂"
+	title: "开始与匠魂"
 }

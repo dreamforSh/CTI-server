@@ -1,0 +1,140 @@
+{
+	id: "5524B5FD297453C0"
+	loot_size: 100
+	order_index: 82
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:diamond"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:coal"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:iron_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:gold_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:netherite_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:lapis_lazuli"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:emerald"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:quartz"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:copper_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:glowstone_dust"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "minecraft:amethyst_shard"
+					}
+				}
+			}
+		}
+	]
+	title: "原版矿无限元件大礼包"
+}

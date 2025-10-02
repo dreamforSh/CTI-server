@@ -1,0 +1,3204 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "north",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "south",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "west",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "east",
+			"door_part": "side_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_left"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "north",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "south",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "west",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "east",
+			"door_part": "end_right"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "north",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "south",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "west",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "true",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "0",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "1",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "2",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "3",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "4",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "5",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "6",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"y_offset": "7",
+			"open": "false",
+			"facing": "east",
+			"door_part": "center"
+		},
+		"Name": "cataclysm:door_of_seal_part"
+	}
+]

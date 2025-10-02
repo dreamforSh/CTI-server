@@ -1,0 +1,4762 @@
+{
+	sdmversion: "1.0.0"
+	shopTabs: [
+		{
+			tabEntry: [
+				{
+					entryPrice: 1L
+					entryUUID: [I;
+						1685046910
+						-1645130421
+						-2097864664
+						1648969079
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_copper"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "铜钱币兑换"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 10L
+					entryUUID: [I;
+						318193181
+						-801684890
+						-1311638350
+						-2082924632
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_iron"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "铁币"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 100L
+					entryUUID: [I;
+						1441692678
+						2138720194
+						-1285532981
+						564699967
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_gold"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "金币"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1000L
+					entryUUID: [I;
+						535772831
+						1164856135
+						-1305545207
+						226104154
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_emerald"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "绿宝石币"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 10000L
+					entryUUID: [I;
+						1975056032
+						2081311075
+						-1980895568
+						-2046767721
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_diamond"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "钻石币"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 100000L
+					entryUUID: [I;
+						436868654
+						-1363719582
+						-1249093092
+						-1424691961
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_netherite"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: ["压缩代币值万金"]
+					title: "下界合金币"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1L
+					entryUUID: [I;
+						662250381
+						-600880270
+						-1664187631
+						117628916
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_copper"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "铜钱币兑换"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 10L
+					entryUUID: [I;
+						-1719306884
+						1547324445
+						-1818547562
+						157209458
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_iron"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "铁币"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 100L
+					entryUUID: [I;
+						127669494
+						2059815351
+						-1162627733
+						-860004503
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_gold"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "金币"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 1000L
+					entryUUID: [I;
+						397557875
+						-404010524
+						-2009687313
+						1293957
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_emerald"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "绿宝石币"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 10000L
+					entryUUID: [I;
+						-1630340813
+						-1913764886
+						-1576453737
+						-195191219
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_diamond"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "钻石币"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 100000L
+					entryUUID: [I;
+						-1592039990
+						257510327
+						-1826910415
+						-2028047292
+					]
+					entryType: {
+						itemStack: {
+							id: "lightmanscurrency:coin_netherite"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: ["压缩代币值万金"]
+					title: "下界合金币"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "lightmanscurrency:coin_copper"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: ["你可以在此将钱币兑换为虚拟货币，以此换取更多商品"]
+			shopTabUUID: [I;
+				20559246
+				-667205449
+				-1170739720
+				1995245790
+			]
+			title: "星际兑换"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						885603257
+						-838580097
+						-1971513321
+						-529056105
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:redstone"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "红石"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						891858217
+						-1003009875
+						-2133724213
+						-1883279038
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:lapis_lazuli"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						-972826249
+						-185448442
+						-1604689371
+						1251683019
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:amethyst_shard"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						-130534408
+						-512997553
+						-1538643149
+						79038850
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:copper_ingot"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						-580045408
+						1196182640
+						-1402236305
+						-1001981508
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:iron_ingot"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 10L
+					entryUUID: [I;
+						-1350782259
+						-574206470
+						-1970120418
+						1779547282
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:gold_ingot"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						-1510768110
+						-1879093498
+						-1560414392
+						99139331
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:diamond"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						623307619
+						-1338553095
+						-1932944710
+						213383530
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:netherite_ingot"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						-624220876
+						-405387143
+						-1487177703
+						-188731482
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:coal"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 5L
+					entryUUID: [I;
+						860911668
+						-637379
+						-1520041480
+						688505771
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:quartz"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2L
+					entryUUID: [I;
+						-1853442601
+						1844068883
+						-1454259644
+						661581631
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:glowstone_dust"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 5L
+					entryUUID: [I;
+						546875504
+						-365606895
+						-1452853084
+						-1239683866
+					]
+					entryType: {
+						itemStack: {
+							id: "create:zinc_ingot"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:copper_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: ["此处可以购买一些基础矿物"]
+			shopTabUUID: [I;
+				130780561
+				-1175567448
+				-1283031836
+				981305819
+			]
+			title: "基础矿物"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 1L
+					entryUUID: [I;
+						951443073
+						-1975563551
+						-2053451376
+						-1274466312
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:dirt"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1L
+					entryUUID: [I;
+						1634315674
+						1824475190
+						-1276922191
+						-1939722879
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:sand"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1L
+					entryUUID: [I;
+						-1191569062
+						-1805696019
+						-2099350187
+						1551797491
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:gravel"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 5L
+					entryUUID: [I;
+						-1642162114
+						1202930102
+						-1528413458
+						-976024425
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:oak_log"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 10L
+					entryUUID: [I;
+						1176465135
+						992102989
+						-1814305293
+						-203162436
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:white_wool"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1075785594
+						741821507
+						-1300234589
+						103119083
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:obsidian"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:dirt"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: ["此处可以购买一些基础方块"]
+			shopTabUUID: [I;
+				-1086931780
+				-420789180
+				-1310363480
+				127893548
+			]
+			title: "基础资源or特殊资源"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 600L
+					entryUUID: [I;
+						-652270750
+						-265860470
+						-1544601220
+						1901577791
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:diamond_backpack"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1200L
+					entryUUID: [I;
+						1277939473
+						-994752759
+						-1650895267
+						1316206264
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:netherite_backpack"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						1499329076
+						-903264585
+						-1453515536
+						1248928597
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 800L
+					entryUUID: [I;
+						-1784657621
+						1336691399
+						-1837287732
+						1055840616
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-566489612
+						-121224115
+						-1315357127
+						-2009399875
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedstorage:diamond_barrel"
+							Count: 1b
+							tag: {
+								woodType: "oak"
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 900L
+					entryUUID: [I;
+						1810302592
+						-1834204775
+						-1860201215
+						-374396942
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedstorage:netherite_barrel"
+							Count: 1b
+							tag: {
+								woodType: "oak"
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 650L
+					entryUUID: [I;
+						1374202462
+						-242400826
+						-1937290213
+						1627417642
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedstorage:stack_upgrade_tier_2"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 1200L
+					entryUUID: [I;
+						-1775852878
+						214386185
+						-1767867665
+						497895855
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedstorage:stack_upgrade_tier_3"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 2500L
+					entryUUID: [I;
+						1992344012
+						2140487945
+						-2047273464
+						-789999395
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedstorage:stack_upgrade_tier_4"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 1600L
+					entryUUID: [I;
+						501426444
+						132072898
+						-1995557117
+						-190387756
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 3200L
+					entryUUID: [I;
+						691443291
+						-967555735
+						-1413422621
+						-378649905
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 6400L
+					entryUUID: [I;
+						-564061570
+						-2132130747
+						-2109181029
+						-783330761
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						1777668022
+						876889542
+						-1658812624
+						-1516490840
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:pickup_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-2107685662
+						-1569568333
+						-1639403876
+						-94984922
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						1425876841
+						476334732
+						-1355815153
+						2059636807
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:filter_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-1975517832
+						-1656405542
+						-1851041878
+						-1945506182
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_filter_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						574199001
+						-234274255
+						-1114628305
+						-1828816523
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:feeding_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-1948319887
+						1502954937
+						-1903323925
+						381937980
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-1708335076
+						1194871477
+						-1430662782
+						-138777623
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:magnet_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						1449866438
+						1269254690
+						-1314352870
+						1784898164
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						958303151
+						113983949
+						-1147567674
+						1073445021
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:compacting_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						541499411
+						-1086305580
+						-1090581021
+						692480807
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-940012553
+						469058158
+						-1693563813
+						-1041718619
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:void_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						491139135
+						-2004006833
+						-1298210814
+						1706009118
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_void_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-1924303135
+						-1137554821
+						-1459297486
+						971636040
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:restock_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-1622556816
+						143280914
+						-1758674485
+						-1464087437
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_restock_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-234754153
+						-53723128
+						-1663377726
+						-1561864799
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:deposit_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						1289677315
+						-757641866
+						-1683658107
+						830107425
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_deposit_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-984559200
+						1837190449
+						-1198693705
+						628410238
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:refill_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-1029106196
+						-1488499385
+						-1891372812
+						468719899
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_refill_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-2141158070
+						-266121460
+						-1393528885
+						-1026210725
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:inception_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 0L
+					entryUUID: [I;
+						-819898602
+						-1003402390
+						-1110571655
+						-1592468176
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:everlasting_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-340028433
+				-445496731
+				-1597760310
+				1056998216
+			]
+			title: "存储-精妙"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 1700L
+					entryUUID: [I;
+						2129516836
+						-453032875
+						-2011548931
+						1220041268
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:portable_item_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1700L
+					entryUUID: [I;
+						-1398066322
+						48385367
+						-1651064681
+						-829068680
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:portable_fluid_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1500L
+					entryUUID: [I;
+						1546358915
+						-1433451876
+						-1515929881
+						-1806129925
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:item_storage_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1500L
+					entryUUID: [I;
+						1574234396
+						724060864
+						-1722419236
+						-1837868311
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:fluid_storage_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1500L
+					entryUUID: [I;
+						1834796521
+						-2126232226
+						-1762333868
+						-1287288438
+					]
+					entryType: {
+						itemStack: {
+							id: "appbot:mana_storage_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1700L
+					entryUUID: [I;
+						-1631873231
+						1243565625
+						-1498760751
+						212340881
+					]
+					entryType: {
+						itemStack: {
+							id: "appbot:portable_mana_storage_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1500L
+					entryUUID: [I;
+						257695495
+						-1114487041
+						-1495309128
+						1511952796
+					]
+					entryType: {
+						itemStack: {
+							id: "appmek:chemical_storage_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["68C884CAE0C56DD7"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1700L
+					entryUUID: [I;
+						-236717619
+						1183467849
+						-1972283934
+						-1994463599
+					]
+					entryType: {
+						itemStack: {
+							id: "appmek:portable_chemical_storage_cell_1k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["68C884CAE0C56DD7"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 2000L
+					entryUUID: [I;
+						643185258
+						-2113255087
+						-2008878250
+						306206760
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2additions:super_cell_16k"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["68C884CAE0C56DD7"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 5000L
+					entryUUID: [I;
+						1483816894
+						-1349892623
+						-2004382626
+						80494976
+					]
+					entryType: {
+						itemStack: {
+							id: "megacells:bulk_item_cell"
+							Count: 1b
+							tag: { }
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["4A180764069FEF5D"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 2500L
+					entryUUID: [I;
+						-994364376
+						739721549
+						-1507798211
+						-682638546
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:cell_component_256k"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["68C884CAE0C56DD7"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "ae2:drive"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: ["312A48DBACD88CE0"]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: ["需要完成AE的驱动器任务才能解锁哦~"]
+			shopTabUUID: [I;
+				279731155
+				1829128104
+				-1146292973
+				402570466
+			]
+			title: "存储-应用能源"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-939630138
+						2102411291
+						-1424801979
+						-766213066
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:pink_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-737058635
+						-195868255
+						-2035279243
+						-431507569
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:white_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [{
+						questID: ["048B42E1342DFC74"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-1358739110
+						-613661682
+						-1541559871
+						-744262731
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:white_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-568449811
+						1511606379
+						-1277133859
+						1565178346
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:magenta_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						942716218
+						-536394568
+						-1458557859
+						-664681488
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:light_blue_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-1473069094
+						-1221832921
+						-1778498676
+						1439378822
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:yellow_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						1318618891
+						1823753423
+						-1747290660
+						-1250960258
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:lime_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-1197647179
+						-1143258102
+						-1449956763
+						-1143220654
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:gray_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						621147224
+						1098270311
+						-1175453822
+						891420076
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:light_gray_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-699650690
+						-1050457661
+						-1222246315
+						-340968976
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:cyan_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-349653243
+						1403143081
+						-2125739218
+						992017574
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:purple_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-973397298
+						-1665711129
+						-1540994429
+						1681489666
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:blue_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-554700138
+						886851658
+						-1725372175
+						-99520500
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:brown_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						1384280163
+						1333477914
+						-1886778392
+						-1137337918
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:green_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-193682316
+						-1347008748
+						-1218023413
+						1526794155
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:red_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-1267874949
+						32392897
+						-1166871947
+						-682357768
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:black_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-2071302117
+						-197636436
+						-1419868628
+						-896397476
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:fluix_covered_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						-1509022805
+						-1644540173
+						-1886331831
+						-1309743993
+					]
+					entryType: {
+						itemStack: {
+							id: "pipez:item_pipe"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "Pipez"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						412476504
+						1456426676
+						-1214648915
+						1602254947
+					]
+					entryType: {
+						itemStack: {
+							id: "pipez:fluid_pipe"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "Pipez"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 600L
+					entryUUID: [I;
+						-1984981372
+						1461733266
+						-1505335610
+						-813775810
+					]
+					entryType: {
+						itemStack: {
+							id: "pipez:energy_pipe"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "Pipez"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 800L
+					entryUUID: [I;
+						-683503198
+						-1877784240
+						-1422348942
+						-2002663379
+					]
+					entryType: {
+						itemStack: {
+							id: "pipez:gas_pipe"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "Pipez"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 1500L
+					entryUUID: [I;
+						870204679
+						-1878110295
+						-1879106687
+						-1218718772
+					]
+					entryType: {
+						itemStack: {
+							id: "pipez:universal_pipe"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "Pipez"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 1000L
+					entryUUID: [I;
+						1961576938
+						1740261629
+						-1533604616
+						-1482469624
+					]
+					entryType: {
+						itemStack: {
+							id: "sfm:cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "ae2:pink_covered_cable"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [
+				"五颜六色的AE线缆你会拒绝吗"
+				"AE的线缆需要完成AE包层线缆才能解锁"
+			]
+			shopTabUUID: [I;
+				567132537
+				579485813
+				-1424142080
+				240741450
+			]
+			title: "线缆"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						-1562943134
+						-491502138
+						-1707088526
+						906433058
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:white_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1406890185
+						909856626
+						-1951720244
+						-1663046136
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:orange_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1817820477
+						619004572
+						-2124927552
+						385871840
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:magenta_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1699180751
+						-1284486748
+						-1266953318
+						-424723217
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:light_blue_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						331974060
+						-1407300330
+						-1353027671
+						992427649
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:yellow_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1887369321
+						2106671922
+						-1111074001
+						2034115962
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:lime_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-405164754
+						-1192540298
+						-1302153548
+						-274593933
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:pink_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-152401881
+						1005603012
+						-2095350859
+						-98478838
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:gray_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						594909565
+						438193917
+						-2011944797
+						-550790118
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:light_gray_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1907435958
+						1961905254
+						-1657699938
+						-1493073764
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:cyan_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						806420669
+						889735973
+						-1459061563
+						604935071
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:purple_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-2034737322
+						1046037571
+						-1135587137
+						-967801354
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:blue_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1660877702
+						1608928034
+						-1786770836
+						-1746984627
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:brown_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1453817630
+						1435914075
+						-2093915996
+						-1380451129
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:green_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1523219066
+						1226719940
+						-1315230674
+						-141047697
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:red_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-432106906
+						-1789770591
+						-1868736882
+						-2028434771
+					]
+					entryType: {
+						itemStack: {
+							id: "cookingforblockheads:black_kitchen_floor"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1077766343
+						1810514630
+						-1724215497
+						-1186138798
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:white_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1182556755
+						1816217165
+						-1534536786
+						342896933
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:orange_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						124005451
+						297354336
+						-1088254477
+						-1406866826
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:magenta_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1938840135
+						-406238994
+						-2144798929
+						-1920156573
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:light_blue_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1895152841
+						-1175041287
+						-1195898855
+						-1990286027
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:yellow_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1007593734
+						-1865659977
+						-1173440155
+						-1057397258
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:lime_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1343189791
+						360794455
+						-2020820803
+						105136189
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:pink_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						432982854
+						1762741977
+						-1281388878
+						-1330493195
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:gray_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1780145997
+						-581352733
+						-1273373089
+						-912990505
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:light_gray_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						707320887
+						-1943124187
+						-2025313381
+						770965550
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:cyan_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1396454078
+						565266361
+						-1714438216
+						1288200911
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:purple_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1838468273
+						763317342
+						-1846797337
+						-1086504352
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:brown_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-1048735959
+						1230195169
+						-2132975056
+						-1607513799
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:green_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						1242782384
+						-1625011004
+						-1402059437
+						-1592949798
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:red_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 70L
+					entryUUID: [I;
+						-409077914
+						-825343687
+						-1159479911
+						1445527603
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:black_concrete"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "cookingforblockheads:white_kitchen_floor"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: ["你也不希望地基很单一吧"]
+			shopTabUUID: [I;
+				1527593435
+				-414365020
+				-1572216933
+				767316138
+			]
+			title: "地基建筑材料"
+		}
+	]
+}

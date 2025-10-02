@@ -1,0 +1,14 @@
+{
+	id: "6E4A983A75A6F172"
+	loot_size: 1
+	order_index: 79
+	rewards: [
+		{ count: 4, item: "immersiveengineering:storage_steel" }
+		{ count: 8, item: "thermal:steel_plate", random_bonus: 8 }
+		{ count: 4, item: "minecraft:iron_block", random_bonus: 4 }
+		{ count: 8, item: "thermal:iron_plate", random_bonus: 8 }
+		{ count: 16, item: "immersiveengineering:component_iron", random_bonus: 16 }
+		{ count: 16, item: "immersiveengineering:component_steel", random_bonus: 16 }
+	]
+	title: "沉浸工程奖励"
+}

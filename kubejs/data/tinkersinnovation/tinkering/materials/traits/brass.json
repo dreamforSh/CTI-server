@@ -1,0 +1,24 @@
+{
+  "default": [
+    {
+          "name": "cti:industrial",
+          "level": 1
+        },
+    {
+      "name": "cti:fixed_precision",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+      "tconstruct:armor": [
+        {
+      "name": "cti:fixed_precision",
+      "level": 1
+    },
+    {
+          "name": "cti:industrial_armor",
+          "level": 1
+        }
+      ]
+    }
+}

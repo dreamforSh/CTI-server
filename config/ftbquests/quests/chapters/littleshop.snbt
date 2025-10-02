@@ -20,6 +20,10 @@
 					name: "etshtinker:trinityblessing"
 				}
 				{
+					level: 9
+					name: "cti:refined"
+				}
+				{
 					level: 3
 					name: "etshtinker:trinitycurse"
 				}
@@ -35,19 +39,19 @@
 			}
 			tic_persistent: { }
 			tic_stats: {
-				"etshtinker:fluid_efficiency": 4.657463f
-				"etshtinker:plasmarange": 4.657463f
-				"tconstruct:attack_damage": 261.5063f
-				"tconstruct:attack_speed": 2.258168f
-				"tconstruct:block_amount": 23.287315f
+				"etshtinker:fluid_efficiency": 8.84918f
+				"etshtinker:plasmarange": 8.84918f
+				"tconstruct:attack_damage": 2048.0f
+				"tconstruct:attack_speed": 263.44363f
+				"tconstruct:block_amount": 44.245903f
 				"tconstruct:block_angle": 180.0f
-				"tconstruct:durability": 130799.53f
+				"tconstruct:durability": 53856.63f
 				"tconstruct:harvest_tier": "minecraft:netherite"
-				"tconstruct:mining_speed": 53.514248f
+				"tconstruct:mining_speed": 2048.0f
 			}
 			tic_volatile_data: {
-				abilities: 2
-				upgrades: 2
+				abilities: 11
+				upgrades: 11
 			}
 		}
 	}
@@ -70,6 +74,8 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "heart"
+			size: 2.0d
 			subtitle: "什么材质工具都可以"
 			tasks: [{
 				id: "0515170A85A5EDDE"
@@ -84,7 +90,7 @@
 				Count: 1b
 				id: "tconstruct:tinker_station"
 				tag: {
-					texture: "botania:mossy_livingwood_planks"
+					texture: "minecraft:oak_planks"
 				}
 			}
 			id: "2C10B9F26DA62F83"
@@ -2201,7 +2207,11 @@
 			description: [
 				"和长剑类似，是长臂类武器"
 				""
-				"相比长剑，以牺牲了超高数值为代价换来了2.5触及半径。同样是前期值得一做的武器"
+				"相比长剑，以牺牲了超高数值为代价换来了+4触及半径"
+				""
+				"放在主手可以使得副手获得+4触及半径"
+				""
+				"同样放在副手也可以使主手获得+4触及半径"
 			]
 			icon: {
 				Count: 1b
@@ -2513,6 +2523,13 @@
 			y: -3.5d
 		}
 		{
+			description: [
+				"从背后攻击时伤害更高"
+				""
+				"可以增加移动速度，也可以右键格挡"
+				""
+				"放在副手时攻击有奇效，可以根据触及半径增加攻击距离"
+			]
 			icon: {
 				Count: 1b
 				id: "tinkers_ingenuity:bowieknife"
@@ -2625,6 +2642,11 @@
 			y: -3.5d
 		}
 		{
+			description: [
+				"虽然只有两个部件在配装上有点尴尬，但是它有2倍的部件倍率（2倍的护甲值、护甲韧性和击退抗性）。"
+				""
+				"适合前期过渡。"
+			]
 			icon: {
 				Count: 1b
 				id: "tconstruct:plate_chestplate"
@@ -2654,19 +2676,20 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:armor": 10.0f
-						"tconstruct:armor_toughness": 7.0f
-						"tconstruct:durability": 1948.0f
-						"tconstruct:knockback_resistance": 0.2f
+						"tconstruct:armor": 20.0f
+						"tconstruct:armor_toughness": 14.0f
+						"tconstruct:durability": 3896.0f
+						"tconstruct:knockback_resistance": 0.4f
 					}
 					tic_volatile_data: {
-						abilities: 2
-						defense: 5
+						abilities: 3
+						defense: 4
 						upgrades: 4
 					}
 				}
 			}
 			id: "24F3CB285D69CC41"
+			subtitle: "2部件的数值向护甲"
 			tasks: [
 				{
 					id: "4570E00F6F7ECB82"
@@ -2696,14 +2719,14 @@
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 5.0f
-								"tconstruct:armor_toughness": 4.0f
-								"tconstruct:durability": 1024.0f
-								"tconstruct:knockback_resistance": 0.2f
+								"tconstruct:armor": 10.0f
+								"tconstruct:armor_toughness": 8.0f
+								"tconstruct:durability": 2048.0f
+								"tconstruct:knockback_resistance": 0.4f
 							}
 							tic_volatile_data: {
-								abilities: 2
-								defense: 5
+								abilities: 3
+								defense: 4
 								upgrades: 4
 							}
 						}
@@ -2742,14 +2765,14 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 10.0f
-								"tconstruct:armor_toughness": 7.0f
-								"tconstruct:durability": 1948.0f
-								"tconstruct:knockback_resistance": 0.2f
+								"tconstruct:armor": 20.0f
+								"tconstruct:armor_toughness": 14.0f
+								"tconstruct:durability": 3896.0f
+								"tconstruct:knockback_resistance": 0.4f
 							}
 							tic_volatile_data: {
-								abilities: 2
-								defense: 5
+								abilities: 3
+								defense: 4
 								upgrades: 4
 							}
 						}
@@ -2785,14 +2808,14 @@
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 7.0f
-								"tconstruct:armor_toughness": 5.0f
-								"tconstruct:durability": 1560.0f
-								"tconstruct:knockback_resistance": 0.2f
+								"tconstruct:armor": 14.0f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:durability": 3120.0f
+								"tconstruct:knockback_resistance": 0.4f
 							}
 							tic_volatile_data: {
-								abilities: 2
-								defense: 5
+								abilities: 3
+								defense: 4
 								upgrades: 4
 							}
 						}
@@ -2828,14 +2851,14 @@
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 5.0f
-								"tconstruct:armor_toughness": 5.0f
-								"tconstruct:durability": 1135.0f
-								"tconstruct:knockback_resistance": 0.2f
+								"tconstruct:armor": 10.0f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:durability": 2270.0f
+								"tconstruct:knockback_resistance": 0.4f
 							}
 							tic_volatile_data: {
-								abilities: 2
-								defense: 5
+								abilities: 3
+								defense: 4
 								upgrades: 4
 							}
 						}
@@ -3142,16 +3165,16 @@
 						tic_persistent: { }
 						tic_stats: {
 							"etshtinker:critical_rate": 1.28f
-							"etshtinker:damagemultiplier": 178.21056f
+							"etshtinker:damagemultiplier": 191.57187f
 							"etshtinker:fluid_efficiency": 100.0f
 							"etshtinker:slash_color": 10.0f
-							"tconstruct:attack_damage": 181.74347f
-							"tconstruct:attack_speed": 225.37372f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 195.36966f
+							"tconstruct:attack_speed": 242.27107f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 813835.1f
+							"tconstruct:durability": 874852.3f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 287.1557f
+							"tconstruct:mining_speed": 308.68515f
 							"tconstruct:tank_capacity": 9005000.0f
 						}
 						tic_volatile_data: {
@@ -3232,15 +3255,15 @@
 						tic_persistent: { }
 						tic_stats: {
 							"etshtinker:cooldown": 10.0f
-							"etshtinker:damagemultiplier": 174.03375f
+							"etshtinker:damagemultiplier": 187.08191f
 							"etshtinker:plasmarange": 70.0f
-							"tconstruct:attack_damage": 627.8166f
-							"tconstruct:attack_speed": 118.34296f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 674.887f
+							"tconstruct:attack_speed": 127.2157f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1359456.9f
+							"tconstruct:durability": 1461381.9f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 815.7832f
+							"tconstruct:mining_speed": 876.9465f
 							"tconstruct:tank_capacity": 9005000.0f
 						}
 						tic_volatile_data: {
@@ -3303,9 +3326,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1487.7357f
-							"tconstruct:attack_speed": 67.003f
-							"tconstruct:durability": 5690229.5f
+							"tconstruct:attack_damage": 1599.2784f
+							"tconstruct:attack_speed": 72.026535f
+							"tconstruct:durability": 6116853.5f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3370,9 +3393,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 460.58035f
-							"tconstruct:attack_speed": 69.6135f
-							"tconstruct:durability": 1333551.0f
+							"tconstruct:attack_damage": 495.11227f
+							"tconstruct:attack_speed": 74.83276f
+							"tconstruct:durability": 1433533.9f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3387,6 +3410,7 @@
 			y: 3.5d
 		}
 		{
+			description: ["      有+2的触及半径和中高的攻击速度和伤害"]
 			id: "35692A8C7AF58899"
 			rewards: [{
 				count: 3
@@ -3432,11 +3456,11 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 625.70575f
-							"tconstruct:attack_speed": 97.4589f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 672.6179f
+							"tconstruct:attack_speed": 104.76587f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1330183.5f
+							"tconstruct:durability": 1429913.8f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3451,7 +3475,11 @@
 			y: 3.5d
 		}
 		{
-			description: [" 既是机制怪（百分比伤害和5部件）也是数值怪。对单最优解"]
+			description: [
+				"数值怪，除了5部件与较高的基础数值外没有任何其它特性。"
+				""
+				"前期若材料充裕则也比较推荐。"
+			]
 			id: "44DD48F3B32C7B75"
 			rewards: [{
 				count: 3
@@ -3488,21 +3516,17 @@
 								level: 5
 								name: "etshtinker:beconcerted"
 							}
-							{
-								level: 1
-								name: "cti:sharpblade"
-							}
 						]
 						tic_multipliers: {
-							"tconstruct:attack_damage": 0.9f
-							"tconstruct:attack_speed": 0.9f
+							"tconstruct:attack_damage": 1.4f
+							"tconstruct:attack_speed": 0.75f
 							"tconstruct:durability": 2.3f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 472.1378f
-							"tconstruct:attack_speed": 68.917366f
-							"tconstruct:durability": 2342975.0f
+							"tconstruct:attack_damage": 1332.8184f
+							"tconstruct:attack_speed": 108.03981f
+							"tconstruct:durability": 4385069.0f
 						}
 						tic_volatile_data: {
 							abilities: 16
@@ -3517,6 +3541,13 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"拥有四个部件，攻速较快"
+				""
+				"主副手持有利爪时可以同时攻击"
+				""
+				"主副手持有利爪+1触及半径"
+			]
 			id: "4AEAA0FFDBB275E7"
 			tasks: [{
 				id: "1F533CB6B6AE9AA1"
@@ -3547,11 +3578,11 @@
 							}
 							{
 								level: 1
-								name: "tinkersinnovation:double_attack"
+								name: "tconstruct:offhand_attack"
 							}
 							{
 								level: 1
-								name: "tconstruct:offhand_attack"
+								name: "tinkersinnovation:double_attack"
 							}
 							{
 								level: 1
@@ -3565,13 +3596,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 444.7324f
-							"tconstruct:attack_speed": 243.64726f
-							"tconstruct:block_amount": 174.03375f
+							"tconstruct:attack_damage": 478.07614f
+							"tconstruct:attack_speed": 261.91467f
+							"tconstruct:block_amount": 187.08191f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 665091.75f
+							"tconstruct:durability": 714956.9f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 646.10034f
+							"tconstruct:mining_speed": 694.54156f
 							"tconstruct:use_item_speed": 1.0f
 						}
 						tic_volatile_data: {
@@ -3589,11 +3620,11 @@
 		}
 		{
 			description: [
-				"      每次攻击必定横扫，横扫的范围还能受到延展强化加成！不光适合收菜也适合战斗。"
-				" &7     偷偷告诉你，搭配机械手时宽刃镰同样能触发横扫并攻击多个目标。"
+				"      每次攻击必定对3*3范围内的目标都造成伤害，半径还能受到延展强化加成！不光适合收菜也适合战斗。"
+				" &7     偷偷告诉你，搭配机械手时宽刃镰同样能触发并攻击范围内的所有目标。"
 			]
 			id: "4B26E4BD51B93CFC"
-			subtitle: "经典的群攻武器"
+			subtitle: "真正的范围攻击，比横扫更强"
 			tasks: [{
 				id: "52B5D25A17017F89"
 				item: {
@@ -3637,9 +3668,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 992.54175f
-							"tconstruct:attack_speed": 178.6239f
-							"tconstruct:durability": 3135940.8f
+							"tconstruct:attack_damage": 1066.9574f
+							"tconstruct:attack_speed": 192.01619f
+							"tconstruct:durability": 3371057.2f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3706,9 +3737,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 285.57852f
-							"tconstruct:attack_speed": 121.82363f
-							"tconstruct:durability": 629806.4f
+							"tconstruct:attack_damage": 306.98975f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:durability": 677026.06f
 							"tinkers_ingenuity:cooldown": 1.1f
 							"tinkers_ingenuity:energy_capacity": 20000.0f
 							"tinkers_ingenuity:laser_range": 20.0f
@@ -3771,9 +3802,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 741.4056f
-							"tconstruct:attack_speed": 47.859283f
-							"tconstruct:durability": 1009704.75f
+							"tconstruct:attack_damage": 796.9924f
+							"tconstruct:attack_speed": 51.447525f
+							"tconstruct:durability": 1085407.1f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3832,13 +3863,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 385.0497f
-							"tconstruct:attack_speed": 121.82363f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 413.91873f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2216972.5f
+							"tconstruct:durability": 2383189.8f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 172.29343f
+							"tconstruct:mining_speed": 185.21109f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3893,13 +3924,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 825.9316f
-							"tconstruct:attack_speed": 73.094185f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 887.8557f
+							"tconstruct:attack_speed": 78.57441f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2512569.0f
+							"tconstruct:durability": 2700948.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 172.29343f
+							"tconstruct:mining_speed": 185.21109f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3961,13 +3992,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 295.20474f
-							"tconstruct:attack_speed": 85.27654f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 317.33768f
+							"tconstruct:attack_speed": 91.670135f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1477981.6f
+							"tconstruct:durability": 1588793.1f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 258.44012f
+							"tconstruct:mining_speed": 277.81665f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4023,13 +4054,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 561.53076f
-							"tconstruct:attack_speed": 103.55009f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 603.6315f
+							"tconstruct:attack_speed": 111.31374f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2955963.2f
+							"tconstruct:durability": 3177586.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 172.29343f
+							"tconstruct:mining_speed": 185.21109f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4085,13 +4116,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 537.14435f
-							"tconstruct:attack_speed": 91.36772f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 577.4166f
+							"tconstruct:attack_speed": 98.218f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2364770.8f
+							"tconstruct:durability": 2542069.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 229.72456f
+							"tconstruct:mining_speed": 246.94812f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4145,13 +4176,13 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 435.08438f
-							"tconstruct:attack_speed": 17.403376f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 467.70477f
+							"tconstruct:attack_speed": 18.70819f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:draw_speed": 278.454f
-							"tconstruct:durability": 535675.94f
-							"tconstruct:projectile_damage": 34.80675f
+							"tconstruct:draw_speed": 299.33105f
+							"tconstruct:durability": 575838.1f
+							"tconstruct:projectile_damage": 37.41638f
 							"tconstruct:velocity": 4.0f
 						}
 						tic_volatile_data: {
@@ -4210,13 +4241,13 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 870.16876f
-							"tconstruct:attack_speed": 17.403376f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 935.40955f
+							"tconstruct:attack_speed": 18.70819f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:draw_speed": 147.9287f
-							"tconstruct:durability": 471979.56f
-							"tconstruct:projectile_damage": 34.80675f
+							"tconstruct:draw_speed": 159.01962f
+							"tconstruct:durability": 507366.12f
+							"tconstruct:projectile_damage": 37.41638f
 							"tconstruct:velocity": 2.5f
 						}
 						tic_volatile_data: {
@@ -4236,6 +4267,8 @@
 				"正如描述所说，手杖没有任何基础效果，它只是个可以被右键使用的棍子。"
 				""
 				"通过对手杖施加强化来给予手杖效果（比如喷洒流体等）"
+				""
+				"（整合包对其的调整尚未完成，后续还会加入更多效果）"
 			]
 			id: "1A40804B573DB381"
 			subtitle: "能被强化的“棍子”"
@@ -4277,13 +4310,13 @@
 							tic_persistent: { }
 							tic_stats: {
 								"tconstruct:accuracy": 1.0f
-								"tconstruct:attack_damage": 320.87473f
-								"tconstruct:attack_speed": 219.28252f
-								"tconstruct:block_amount": 304.55908f
+								"tconstruct:attack_damage": 344.93228f
+								"tconstruct:attack_speed": 235.72319f
+								"tconstruct:block_amount": 327.39334f
 								"tconstruct:block_angle": 180.0f
-								"tconstruct:draw_speed": 17.403376f
-								"tconstruct:durability": 599785.56f
-								"tconstruct:projectile_damage": 34.80675f
+								"tconstruct:draw_speed": 18.70819f
+								"tconstruct:durability": 644754.44f
+								"tconstruct:projectile_damage": 37.41638f
 								"tconstruct:use_item_speed": 0.4f
 							}
 							tic_volatile_data: {
@@ -4329,11 +4362,11 @@
 							tic_persistent: { }
 							tic_stats: {
 								"tconstruct:accuracy": 1.0f
-								"tconstruct:block_amount": 261.05063f
+								"tconstruct:block_amount": 280.62286f
 								"tconstruct:block_angle": 180.0f
-								"tconstruct:draw_speed": 278.454f
-								"tconstruct:durability": 235989.78f
-								"tconstruct:projectile_damage": 34.80675f
+								"tconstruct:draw_speed": 299.33105f
+								"tconstruct:durability": 253683.06f
+								"tconstruct:projectile_damage": 37.41638f
 								"tconstruct:use_item_speed": 0.4f
 								"tconstruct:velocity": 4.0f
 							}
@@ -4352,6 +4385,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["增加的盾牌基底带来了更多的配装选择。虽然盾牌基底的选择较为有限，但是作用无疑是在的。"]
 			icon: {
 				Count: 1b
 				id: "tinkers_things:laminar_chestplate"
@@ -4388,7 +4422,7 @@
 					tic_stats: {
 						"tconstruct:armor": 30.0f
 						"tconstruct:armor_toughness": 20.0f
-						"tconstruct:durability": 855384.6f
+						"tconstruct:durability": 919516.94f
 						"tconstruct:knockback_resistance": 1.0f
 					}
 					tic_volatile_data: {
@@ -4399,6 +4433,7 @@
 				}
 			}
 			id: "33A17832C0C27D80"
+			subtitle: "三部件，但是不完全三"
 			tasks: [
 				{
 					id: "63CF337E3822FB52"
@@ -4438,7 +4473,7 @@
 							tic_stats: {
 								"tconstruct:armor": 30.0f
 								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 855384.6f
+								"tconstruct:durability": 919516.94f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4489,7 +4524,7 @@
 							tic_stats: {
 								"tconstruct:armor": 30.0f
 								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 855384.6f
+								"tconstruct:durability": 919516.94f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4540,7 +4575,7 @@
 							tic_stats: {
 								"tconstruct:armor": 30.0f
 								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 855384.6f
+								"tconstruct:durability": 919516.94f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4591,7 +4626,7 @@
 							tic_stats: {
 								"tconstruct:armor": 30.0f
 								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 855384.6f
+								"tconstruct:durability": 919516.94f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4612,7 +4647,7 @@
 		{
 			description: [
 				"与剑类似，可以横扫"
-				"自带一级加固与一级长臂"
+				"自带两级加固与两级长臂"
 				"可以使用磨刀石（指燧石修补件）修复耐久"
 			]
 			id: "431F4183F8AB1C9E"
@@ -4622,6 +4657,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
+			subtitle: "哦耶，直直的刀"
 			tasks: [{
 				id: "1B56CB4720AC0ACD"
 				item: {
@@ -4649,18 +4685,18 @@
 								name: "solidarytinker:tacticsattack"
 							}
 							{
-								level: 1
+								level: 2
 								name: "tconstruct:reinforced"
 							}
 							{
-								level: 1
+								level: 2
 								name: "tconstruct:reach"
 							}
 						]
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:attack_damage": 24.2f
-							"tconstruct:attack_speed": 2.2f
+							"tconstruct:attack_speed": 4.4f
 							"tconstruct:durability": 5464.8003f
 						}
 						tic_volatile_data: {
@@ -4740,9 +4776,9 @@
 		}
 		{
 			description: [
-				"三顶端"
+				"三顶端,一绑定结，一手柄"
 				"斧子，镐子，铲子三合一工具"
-				"右键可以像斧子一样剥皮"
+				"右键可以像斧子一样剥皮，也可像锄头一样锄地"
 			]
 			id: "7D5DCB962E278733"
 			rewards: [{
@@ -4751,8 +4787,9 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
+			subtitle: "哇，是三合一工具"
 			tasks: [{
-				id: "6C43E425F5A2214B"
+				id: "1E03A446474CEFE4"
 				item: {
 					Count: 1b
 					id: "cherrytinker:pas"
@@ -4764,39 +4801,45 @@
 							"etshtinker:exo_alloy"
 							"etshtinker:exo_alloy"
 							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
 						]
 						tic_modifiers: [
 							{
-								level: 4
+								level: 5
 								name: "etshtinker:godlymetal"
 							}
 							{
-								level: 4
+								level: 5
 								name: "etshtinker:worldforceex"
 							}
 							{
-								level: 4
+								level: 5
 								name: "etshtinker:beconcerted"
 							}
 							{
 								level: 1
 								name: "tconstruct:stripping"
 							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
 						]
 						tic_multipliers: {
-							"tconstruct:durability": 1.5f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 2.0f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 702.71564f
-							"tconstruct:attack_speed": 121.82363f
-							"tconstruct:durability": 1995275.4f
+							"tconstruct:attack_damage": 967.53503f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:durability": 2859827.5f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 1292.2007f
+							"tconstruct:mining_speed": 1389.0831f
 						}
 						tic_volatile_data: {
-							abilities: 13
-							upgrades: 19
+							abilities: 16
+							upgrades: 23
 						}
 					}
 				}
@@ -4806,6 +4849,11 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"一个人只能带一个的模块化饰品"
+				""
+				"会增幅护甲值，盔甲韧性，速度，攻击伤害"
+			]
 			id: "098E7D53C5FB0C6D"
 			tasks: [{
 				id: "5F1C28342F7A91D9"
@@ -4900,11 +4948,11 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 69.6135f
-							"tconstruct:attack_speed": 17.403376f
-							"tconstruct:draw_speed": 408.97934f
-							"tconstruct:durability": 128061.0f
-							"tconstruct:projectile_damage": 34.80675f
+							"tconstruct:attack_damage": 74.83276f
+							"tconstruct:attack_speed": 18.70819f
+							"tconstruct:draw_speed": 439.6425f
+							"tconstruct:durability": 137662.36f
+							"tconstruct:projectile_damage": 37.41638f
 							"tconstruct:velocity": 4.5099998f
 						}
 						tic_volatile_data: {
@@ -4925,6 +4973,12 @@
 				"&n劈刀自带抢夺II和肢解V"
 			]
 			id: "7BA11532BC135C93"
+			rewards: [{
+				count: 3
+				id: "74EC200EACAABA2C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "元老级武器，说它是匠魂的标志不过分吧"
 			tasks: [{
 				id: "443E55C9B3076842"
@@ -4973,13 +5027,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 596.8271f
-							"tconstruct:attack_speed": 121.82363f
-							"tconstruct:block_amount": 87.01688f
+							"tconstruct:attack_damage": 641.57404f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:block_amount": 93.540955f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2069174.4f
+							"tconstruct:durability": 2224310.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 143.57785f
+							"tconstruct:mining_speed": 154.34258f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4989,7 +5043,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 2.25d
 			y: 8.0d
 		}
 		{
@@ -5051,11 +5105,11 @@
 							"solidarytinker:detection_range": 100.0f
 							"solidarytinker:exert_times": 100.0f
 							"solidarytinker:kill_threshold": 0.72f
-							"tconstruct:attack_damage": 283.22256f
-							"tconstruct:attack_speed": 69.6135f
-							"tconstruct:durability": 889034.1f
+							"tconstruct:attack_damage": 304.45712f
+							"tconstruct:attack_speed": 74.83276f
+							"tconstruct:durability": 955689.25f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 835.36206f
+							"tconstruct:mining_speed": 897.99316f
 						}
 						tic_volatile_data: {
 							abilities: 16
@@ -5065,7 +5119,173 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.75d
+			y: 8.0d
+		}
+		{
+			description: [
+				"来自暮色的毕业武器，拥有5部件、最高的伤害、最大的横扫（伪横扫，判定与宽刃镰类似）、不错的攻击距离增幅和最低的攻速。"
+				""
+				"利刃词条使得在对待高血量生物时，它会具备最高的单体伤害。"
+				""
+				"后期解决了攻速问题后可以是T0级别的武器"
+			]
+			id: "176EF7259371E927"
+			rewards: [{
+				count: 3
+				id: "08B75AEAF9CBDB6E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "豪大大巨剑！"
+			tasks: [{
+				id: "5664BAC2D40DC4E4"
+				item: {
+					Count: 1b
+					id: "cloudertinker:giantsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 3
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "cti:sharpblade"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 3.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1759.1545f
+							"tconstruct:attack_speed": 39.287205f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2383189.8f
+						}
+						tic_volatile_data: {
+							abilities: 17
+							upgrades: 22
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.0d
+		}
+		{
+			description: [
+				"到达骑士地牢之后可以制作的武器兼盾牌，拥有两个防御部件和三个近程部件。"
+				""
+				"反击词条可以让你被攻击的时候进行一次反击，视为该工具的近战伤害，放在副手也可以生效。"
+			]
+			id: "46304C800057FA6B"
+			rewards: [{
+				count: 3
+				id: "25EC5A8F37826AF6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "盾反之极意"
+			tasks: [{
+				id: "7F6D5FC7BA7C3270"
+				item: {
+					Count: 1b
+					id: "cloudertinker:hard_shield"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"tconstruct:bamboo"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 3
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "etshtinker:mindprotection"
+							}
+							{
+								level: 1
+								name: "etshtinker:solidex"
+							}
+							{
+								level: 1
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "cloudertinker:react"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 20.0f
+							"tconstruct:attack_damage": 144.98848f
+							"tconstruct:attack_speed": 28.062286f
+							"tconstruct:block_amount": 2048.0f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1702583.9f
+							"tconstruct:knockback_resistance": 1.0f
+							"tconstruct:use_item_speed": 0.3f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							defense: 9
+							upgrades: 10
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
 			y: 8.0d
 		}
 	]

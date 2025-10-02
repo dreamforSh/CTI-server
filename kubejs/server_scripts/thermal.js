@@ -1,7 +1,4 @@
 ServerEvents.recipes(event => {
-  // 机器框架
-  event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:ingots/iron', 'etshtinker:hardlead_plate')
-  event.replaceInput({ mod: 'thermal', type: 'crafting_shaped', output: 'thermal:machine_frame' }, '#forge:gears/tin', '#forge:gears/steel')
   event.replaceInput({ mod: 'thermal', output: 'thermal:white_rockwool' }, 'thermal:slag', '#forge:slag')
   //磨粉机
   event.recipes.thermal.pulverizer(Item.of('minecraft:diamond').withChance(3.5), 'createoreexcavation:raw_diamond').energy(1000)
@@ -13,6 +10,8 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.pulverizer([Item.of('minecraft:diamond').withChance(1.2), Item.of('powah:uraninite_raw').withChance(1.7), Item.of('minecraft:lapis_lazuli').withChance(2.5), Item.of('minecraft:emerald').withChance(1.4)], 'kubejs:crystal_slag').energy(8000)
   event.recipes.thermal.pulverizer([Item.of('thermal:raw_tin').withChance(2.45), Item.of('thermal:raw_lead').withChance(2.55), Item.of('minecraft:raw_iron').withChance(2.75), Item.of('minecraft:raw_copper').withChance(2.85)], 'kubejs:metal_slag').energy(8000)
   event.recipes.thermal.pulverizer([Item.of('etshtinker:bismuthinite').withChance(1.05), Item.of('thermal:cinnabar').withChance(2.65), Item.of('thermal:niter').withChance(2.3), Item.of('thermal:apatite').withChance(3.48)], 'kubejs:mineral_slag').energy(8000)
+  event.recipes.thermal.pulverizer('ae2:fluix_dust', 'ae2:fluix_crystal').energy(800)
+  event.recipes.thermal.pulverizer('ae2:certus_quartz_dust', 'ae2:certus_quartz_crystal').energy(800)
   //冲压机
   event.recipes.thermal.press('8x ae2:printed_silicon', ['8x #forge:silicon', 'kubejs:universal_press']).energy(2000)
   event.recipes.thermal.press('kubejs:universal_press', ['#forge:storage_blocks/iron', 'kubejs:universal_press']).energy(2000)
@@ -66,11 +65,21 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.compression_fuel(Fluid.of('industrialforegoing:biofuel', 1000)).energy(7950000)
 //有机灌注器
   event.recipes.thermal.insolator(['thermal:rubberwood_log',Item.of('thermal:rubberwood_sapling').withChance(1.1)],'thermal:rubberwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:green_archwood_log',Item.of('ars_nouveau:green_archwood_sapling').withChance(1.5)],'ars_nouveau:green_archwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:blue_archwood_log',Item.of('ars_nouveau:blue_archwood_sapling').withChance(1.5)],'ars_nouveau:blue_archwood_sapling').water(1000).energy(60000)
-  event.recipes.thermal.insolator(['ars_nouveau:red_archwood_log',Item.of('ars_nouveau:red_archwood_sapling').withChance(1.5)],'ars_nouveau:red_archwood_sapling').water(1000).energy(60000)
-
+  event.recipes.thermal.insolator(['4x ars_nouveau:purple_archwood_log',Item.of('ars_nouveau:purple_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bastion_pod').withChance(0.25)],'ars_nouveau:purple_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:green_archwood_log',Item.of('ars_nouveau:green_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:mendosteen_pod').withChance(0.25)],'ars_nouveau:green_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:blue_archwood_log',Item.of('ars_nouveau:blue_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:frostaya_pod').withChance(0.25)],'ars_nouveau:blue_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x ars_nouveau:red_archwood_log',Item.of('ars_nouveau:red_archwood_sapling').withChance(1.5),Item.of(' ars_nouveau:bombegranate_pod').withChance(0.25)],'ars_nouveau:red_archwood_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['4x culturaldelights:avocado_log',Item.of('culturaldelights:avocado_sapling').withChance(1.5),Item.of('culturaldelights:avocado').withChance(0.25)],'culturaldelights:avocado_sapling').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans',Item.of('tofucraft:seeds_soybeans').withChance(1.1)],'tofucraft:seeds_soybeans').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_nether',Item.of('tofucraft:seeds_soybeans_nether').withChance(0.5)],'tofucraft:seeds_soybeans_nether').water(10000).energy(120000)
+  event.recipes.thermal.insolator(['tofucraft:seeds_soybeans_soul',Item.of('tofucraft:seeds_soybeans_soul').withChance(0.1)],'tofucraft:seeds_soybeans_soul').water(10000).energy(120000)
+  event.recipes.thermal.insolator(['farmersrespite:coffee_berries',Item.of('farmersrespite:coffee_berries').withChance(1.31)],'farmersrespite:coffee_berries').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['nethersdelight:propelpearl',Item.of('nethersdelight:propelpearl').withChance(1.31)],'nethersdelight:propelpearl').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['twilightforest:torchberries',Item.of('twilightforest:torchberries').withChance(1.31)],'twilightforest:torchberries').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['ends_delight:chorus_succulent',Item.of('ends_delight:chorus_succulent').withChance(1.31)],'ends_delight:chorus_succulent').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['minecraft:warped_fungus',Item.of('minecraft:warped_fungus').withChance(1.31)],'minecraft:warped_fungus').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['minecraft:crimson_fungus',Item.of('minecraft:crimson_fungus').withChance(1.31)],'minecraft:crimson_fungus').water(1000).energy(60000)
+  event.recipes.thermal.insolator(['twilightforest:mushgloom',Item.of('twilightforest:mushgloom').withChance(1.31)],'twilightforest:mushgloom').water(1000).energy(60000)
   //冷冻机
   event.recipes.thermal.chiller(Item.of('thermal:rubber'), Fluid.of('thermal:latex', 250)).energy(2000)
   event.recipes.thermal.chiller(Item.of('pneumaticcraft:plastic'), Fluid.of('pneumaticcraft:plastic', 1000)).energy(2000)
@@ -95,9 +104,9 @@ ServerEvents.recipes(event => {
   event.recipes.thermal.centrifuge([Item.of('minecraft:redstone').withChance(4.2), Item.of('minecraft:glowstone_dust').withChance(3.1), Item.of('thermal:quartz_dust').withChance(2.9), Item.of('2x minecraft:clay_ball').withChance(1.8)], 'kubejs:powdered_slag').energy(12000)
   //催化剂
   event.recipes.thermal.insolator_catalyst('kubejs:phytogro_zero').primaryMod(4.0).secondaryMod(2.0).energyMod(0.6).minChance(0.0).useChance(0.1)
-  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.1).secondaryMod(2.0).energyMod(8.0).minChance(0.05).useChance(0.7)
-  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(4.8).secondaryMod(4.8).energyMod(0.72).minChance(0.05).useChance(0.70)
-  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(4.8).secondaryMod(4.8).energyMod(0.72).minChance(0.05).useChance(0.70)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:dust_petrotheum').primaryMod(2.5).secondaryMod(2.0).energyMod(0.9).minChance(0.05).useChance(0.25)
+  event.recipes.thermal.pulverizer_catalyst('kubejs:disintegrate_crystal').primaryMod(5.6).secondaryMod(5.6).energyMod(0.72).minChance(0.05).useChance(0.50)
+  event.recipes.thermal.smelter_catalyst('kubejs:disintegrate_crystal').primaryMod(5.6).secondaryMod(5.6).energyMod(0.72).minChance(0.05).useChance(0.75)
   //锯木机
   event.recipes.thermal.sawmill('6x create:shaft','create:andesite_alloy')
   //次级能源炉燃烧组件
@@ -253,6 +262,228 @@ ServerEvents.recipes(event => {
   ]
   )
   event.recipes.thermal.chiller('tinkers_reforged:titanium_ingot',[Fluid.of('kubejs:zirconium_fluid',90),'thermal:chiller_ingot_cast'])
+  event.recipes.thermal.crystallizer('16x mekanism:alloy_infused',[Fluid.of('kubejs:redstone_additive',100),'16x minecraft:iron_ingot']).energy(200)
+  event.recipes.thermal.crystallizer('16x mekanism:alloy_reinforced',[Fluid.of('kubejs:diamond_additive',100),'16x mekanism:alloy_infused']).energy(200)
+  event.recipes.thermal.crystallizer('16x mekanism:alloy_atomic',[Fluid.of('kubejs:obsidian_additive',100),'16x mekanism:alloy_reinforced']).energy(200)
+  event.recipes.thermal.pulverizer('mekanism:dust_coal','minecraft:coal')
+  event.recipes.thermal.pulverizer('4x create:powdered_obsidian','minecraft:obsidian')
+  event.recipes.thermal.pulverizer('mekanism:dust_osmium','mekanism:ingot_osmium')
 
+  event.remove({id:'thermal:machine_frame'})
+  event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "BDEDB",
+    "ACDCA",
+    "AABAA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:tin_ingot"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "etshtinker:hardlead_plate"
+    },
+    "D": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "E":{
+      "item":"thermal:tin_gear"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_frame",
+    "count":8
+  }
+})
 
+  event.recipes.thermal.refinery([Fluid.of('kubejs:phenol',250),Fluid.of('kubejs:benzoic_acid',250)],Fluid.of('immersiveengineering:creosote',500))
+  event.recipes.thermal.press([Fluid.of('immersiveengineering:ethanol',128),'mekanism:substrate'],'mekanism:bio_fuel')
+  event.recipes.thermal.crystallizer('kubejs:activated_matter_dust',[Fluid.of('kubejs:pure_matter',400),'ae2:singularity']).energy(2000)
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "kubejs:activated_matter_dust",
+          "count":2
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:overchargedultradense",
+        "count": 1
+      },
+      {
+        "item": "kubejs:overchargedultradense",
+        "chance": 1
+      }
+    ],
+    "experience": 100
+  })
+
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+        {
+          "item": "kubejs:graphene",
+          "count":8
+        },
+        {
+          "item": "mekanism:hdpe_sheet",
+          "count":4
+        },
+        {
+          "item": "immersiveengineering:plate_duroplast",
+          "count":2
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:carbon_plate",
+        "count": 1
+      },
+      {
+        "item": "kubejs:carbon_plate",
+        "chance": 1
+      }
+    ],
+    "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "kubejs:phoenix_ingot",
+          "count":1
+        },
+        {
+          "item": "kubejs:cnt",
+          "count":1
+        },
+        
+        {
+          "item": "kubejs:pyrocrystal",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "kubejs:phoenix_ingot",
+        "count": 1
+      },
+      {
+         "item": "kubejs:disintegrate_crystal",
+         "count": 1
+      },
+      {
+        "item": "kubejs:disintegrate_crystal",
+        "chance": 1
+      }
+    ],
+    "experience": 10
+  })
+
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "iceandfire:dragonsteel_fire_block",
+          "count":1
+        },
+        {
+          "item": "iceandfire:fire_dragon_blood",
+          "count":1
+        },
+        
+        {
+          "item": "twilightforest:fiery_ingot",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "iceandfire:dragonsteel_fire_block",
+        "count": 1
+      },
+      {
+         "item": "iceandfire:dragonsteel_fire_ingot",
+         "chance": 0.5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "iceandfire:dragonsteel_ice_block",
+          "count":1
+        },
+        {
+          "item": "iceandfire:ice_dragon_blood",
+          "count":1
+        },
+        {
+          "item": "undergarden:froststeel_ingot",
+          "count":1
+        }
+        
+    ],
+    "result": [
+      {
+        "item": "iceandfire:dragonsteel_ice_block",
+        "count": 1
+      },
+      {
+         "item": "iceandfire:dragonsteel_ice_ingot",
+         "chance": 0.5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "experience": 100
+  })
+  event.custom({
+    "type": "thermal:smelter",
+    "ingredient": [
+      {
+          "item": "iceandfire:dragonsteel_lightning_block",
+          "count":1
+        },
+        {
+          "item": "iceandfire:lightning_dragon_blood",
+          "count":1
+        },
+        {
+          "item": "kubejs:valkyrie_ingot",
+          "count":1
+        }
+    ],
+    "result": [
+      {
+        "item": "iceandfire:dragonsteel_lightning_block",
+        "count": 1
+      },
+      {
+         "item": "iceandfire:dragonsteel_lightning_ingot",
+         "chance": 0.5
+      },
+      {
+        "item": "minecraft:glass_bottle",
+        "count": 1
+      }
+    ],
+    "experience": 100
+  })
 })

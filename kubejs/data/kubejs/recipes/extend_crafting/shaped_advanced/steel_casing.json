@@ -2,23 +2,20 @@
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "AAAAA",
-    "ABCBA",
+    "ABDBA",
     "ADEDA",
-    "ABCBA",
+    "ABDBA",
     "AAAAA"
   ],
   "key": {
     "A": {
-      "tag": "forge:plates/steel"
+      "item": "thermal:steel_plate"
     },
     "B": {
       "item": "etshtinker:chroma_plate"
     },
-    "C": {
-      "tag": "forge:gears/constantan"
-    },
     "D": {
-      "tag": "forge:gears/invar"
+      "item": "thermal:machine_frame"
     },
     "E": {
       "item": "thermal:cured_rubber_block"

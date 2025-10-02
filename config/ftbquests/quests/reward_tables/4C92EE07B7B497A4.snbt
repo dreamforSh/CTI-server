@@ -1,0 +1,11 @@
+{
+	icon: "waystones:waystone"
+	id: "4C92EE07B7B497A4"
+	loot_size: 1
+	order_index: 85
+	rewards: [
+		{ item: "minecraft:cookie", weight: 90.0f }
+		{ item: "waystones:waystone", weight: 10.0f }
+	]
+	title: "指路石"
+}

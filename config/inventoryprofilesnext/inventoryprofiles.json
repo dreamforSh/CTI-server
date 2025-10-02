@@ -10,11 +10,6 @@
         "enable_lock_slots": {
             "value": false
         },
-        "enable_auto_refill": {
-            "value": false
-        },
-        "enable_updates_check": false,
-        "highlight_clicking_slot": false,
         "restock_hotbar": {
             "value": true
         },
@@ -29,14 +24,6 @@
         },
         "continuous_crafting_saved_value": false,
         "show_sort_in_rows_button": {
-            "value": false
-        }
-    },
-    "AutoRefillSettings": {
-        "refill_armor": {
-            "value": false
-        },
-        "refill_before_tool_break": {
             "value": false
         }
     },

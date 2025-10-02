@@ -10,7 +10,7 @@
     },
     {
       "name": "cti:refined",
-      "level": 2
+      "level": 5
     },
     {
       "name": "etshtinker:solidex",
@@ -20,17 +20,31 @@
   "perStat" : {
     "tconstruct:armor": [
       {
-        "name": "cti:cripplesuppermass",
+        "name": "cti:anisotropy",
         "level": 1
       },
       {
         "name": "cti:refined",
-        "level": 2
+        "level": 5
       },
       {
         "name": "etshtinker:solidex",
         "level": 1
       }
+    ],
+    "tconstruct:head": [
+      {
+      "name": "cti:ion_apocalypse",
+      "level": 1
+    },
+    {
+      "name": "cti:refined",
+      "level": 5
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    }
     ]
   }
 }

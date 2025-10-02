@@ -1,0 +1,200 @@
+{
+	id: "2CA961BA650AE62B"
+	loot_size: 100
+	order_index: 83
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:tin_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:lead_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:silver_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:nickel_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:bronze_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:invar_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:constantan_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:steel_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:signalum_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:lumium_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "thermal:enderium_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "tinkers_reforged:titanium_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "tconstruct:rose_gold_ingot"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "mekanism:ingot_uranium"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "mekanism:ingot_refined_obsidian"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:i"
+						id: "mekanism:ingot_refined_glowstone"
+					}
+				}
+			}
+		}
+	]
+	title: "模组矿无限单元大礼包"
+}

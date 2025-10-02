@@ -14,10 +14,10 @@
 		image: "powah:textures/gui/book/images/energizing.png"
 		rotation: 0.0d
 		width: 5.15d
-		x: -5.0d
+		x: -6.0d
 		y: -2.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -809,6 +809,54 @@
 			}]
 			x: 5.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["406A716C59FAF3AD"]
+			description: [
+				"      用于制作热力发电机。"
+				""
+				"      此外还能合成大量光伏板"
+			]
+			id: "65E5BF2F256C7100"
+			tasks: [{
+				id: "72E7C6FEE6EED877"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:dielectric_paste_1"
+							}
+							{
+								Count: 1b
+								id: "kubejs:dielectric_paste_2"
+							}
+							{
+								Count: 1b
+								id: "kubejs:dielectric_paste_3"
+							}
+							{
+								Count: 1b
+								id: "kubejs:dielectric_paste_4"
+							}
+							{
+								Count: 1b
+								id: "kubejs:dielectric_paste_5"
+							}
+							{
+								Count: 1b
+								id: "kubejs:dielectric_paste_6"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "更多绝缘覆层？？！"
+			x: -4.0d
+			y: 2.5d
 		}
 	]
 	subtitle: [

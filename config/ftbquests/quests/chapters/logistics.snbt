@@ -115,7 +115,7 @@
 			y: 1.5d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -148,8 +148,8 @@
 				type: "checkmark"
 			}]
 			title: "MC科技的核心"
-			x: -4.5d
-			y: -9.5d
+			x: -5.816666666666656d
+			y: -9.459523809523791d
 		}
 		{
 			dependencies: ["71FC329097AF2EC2"]
@@ -168,8 +168,8 @@
 				title: "需求量、需求分布"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -6.75d
+			x: -5.816666666666656d
+			y: -6.709523809523791d
 		}
 		{
 			dependencies: ["262EED550CA80D17"]
@@ -185,8 +185,8 @@
 				title: "是，我有长期或是大量需求"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -3.8166666666666558d
+			y: -4.959523809523791d
 		}
 		{
 			dependencies: ["262EED550CA80D17"]
@@ -202,8 +202,8 @@
 				title: "否，我只是偶尔需要少量产物"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: -5.0d
+			x: -7.816666666666656d
+			y: -4.959523809523791d
 		}
 		{
 			dependencies: [
@@ -379,8 +379,8 @@
 				type: "checkmark"
 			}]
 			title: "物流数值需求"
-			x: -2.5d
-			y: -3.5d
+			x: -3.8166666666666558d
+			y: -3.459523809523791d
 		}
 		{
 			dependencies: ["16D2497F3AE055C5"]
@@ -396,8 +396,8 @@
 				title: "是，我有极高物流数值需求"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: -1.8166666666666558d
+			y: -2.459523809523791d
 		}
 		{
 			dependencies: ["16D2497F3AE055C5"]
@@ -414,8 +414,8 @@
 				type: "checkmark"
 			}]
 			title: "否，我的物流数值需求较低"
-			x: -4.5d
-			y: -2.5d
+			x: -5.816666666666656d
+			y: -2.459523809523791d
 		}
 		{
 			dependencies: [
@@ -446,11 +446,12 @@
 				title: "千里之行，始于足下"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: -1.3166666666666558d
+			y: -4.959523809523791d
 		}
 		{
 			dependencies: ["122970E6038AA89F"]
+			description: ["一对多、多对一、非随机访问的任何调度模式，都会带来较高占用，谨慎使用"]
 			id: "56D71A14CE6910ED"
 			rewards: [{
 				id: "2FC6F1C9594022F2"
@@ -822,6 +823,46 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0964EF2C5ABB735A"
+				"6A609158B89215E4"
+				"06641024AFDFB245"
+			]
+			description: [
+				"优势：功能多且杂、中低占用、高控制精度"
+				""
+				"缺陷：不支持化学品类型"
+				""
+				"ps：模块化路由器更像一个实用模组而非物流模组，他的扩展卡支持各种奇怪功能，如左右键、玩家背包交互等"
+			]
+			hide_dependent_lines: true
+			icon: "modularrouters:modular_router"
+			id: "6C6935D8F862474F"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&m超出三界之外&r"
+			tasks: [{
+				id: "12E2017563DA0B01"
+				title: "模块化路由器"
+				type: "checkmark"
+			}]
+			title: "或许你该选择模块化路由器"
+			x: -12.006802721088405d
+			y: 0.49489795918367463d
+		}
+		{
+			dependencies: ["6C6935D8F862474F"]
+			id: "707E54423707BC52"
+			shape: "diamond"
+			tasks: [{
+				id: "34641E384C6C0616"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: -12.0d
 			y: 2.0d
 		}
 	]

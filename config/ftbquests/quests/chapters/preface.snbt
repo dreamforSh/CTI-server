@@ -5,6 +5,32 @@
 	group: "5B9406893C138689"
 	icon: "botania:cosmetic_questgiver_mark"
 	id: "2888B6885A5ECEA5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 2.5d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -37,6 +63,11 @@
 					item: "cti:flat_tablet"
 					type: "item"
 				}
+				{
+					id: "454E44808F173E29"
+					item: "tconstruct:encyclopedia"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 2.5d
@@ -53,24 +84,29 @@
 			description: [
 				"整合包增加了&d莱特兰恶意，七咒之戒&r来增加&d怪物强度和生存难度&r"
 				""
-				"这对某些玩家来说或许会有些&d困难&r，&b&m实在不行可以考虑开创造摘掉&r"
+				"这对某些玩家来说或许会有些&d困难"
 				""
-				"不使用&c创造模式或者指令&r&4无法去除&r , 具体的负面效果可以在&b七咒之戒描述&r看到"
+				"七咒之戒不使用&c创造模式或者指令&r&4无法去除&r , 具体的负面效果可以在&b七咒之戒描述&r看到"
 				""
-				"佩戴&d七咒之戒&r可以产出一些&5独特的东西&r,&d不佩戴有部分配方是没法使用的&r"
+				"佩戴&d七咒之戒&r可以获得一些&5独特的奖励&r,&d不佩戴有部分配方是没法使用的&r（全程不戴甚至无法毕业）"
 				""
 				"有&d后悔药&r（邪恶之石）可以在&a商店&r购买，一旦摘除无法佩戴回去"
 				""
-				"&c***注：由于七咒模式已经有死亡惩罚了，建议以死亡不掉落模式游玩（&m当然这样就不能用邪恶之石摘七咒&r&c），否则可能会在捡装备的循环中失去大量生命上限然后死档"
+				"注：由于七咒模式已经有死亡惩罚了，&b推荐打开死亡不掉落模式游玩"
 				""
 				"除了这些之外，整合包也对难度进行了改动，请翻到下一面查看。"
 				"{@pagebreak}"
-				"      1.近战武器的攻速超过2后，实际攻速将会更难提升，无论攻速再高依然存在一个最小攻击冷却时间。这个时间是："
-				"-&c困难模式 &r4tick   并且近战武器只生效80%的攻速"
-				"-&e普通模式 &r3tick"
-				"-&a简单模式 &r2tick"
-				"-&b和平模式 &r无"
+				"      1.近战武器的攻速超过2后，实际攻速将会更难提升，无论攻速再高，&e攻击冷却都只会逼近3ticks。"
+				""
+				"      2.&c过于频繁的死亡&r会使你&4造成的伤害减少、受到的伤害增加&r。但是相应的，如果很长时间不死亡，&a你所受伤害会减少并且时运和抢夺增加。&6查看你的七咒之戒以了解你目前受到的奖励与惩罚。&r你可以通过饮用&b灵魂补剂&r来消除死亡惩罚。"
+				""
+				"      3.&b七咒之戒惩罚&r现在会随着&b游玩时长&r被分为&b三个阶段&r。"
+				""
+				"          当游戏时长达到&a一阶段&r时，部分&a中立生物&r会开始&a主动攻击&r你，在一阶段之前你&a无法进入末地&r。"
+				"          当游戏时长达到&e二阶段&r时，你身上的&e火焰&r将&e不再自动熄灭&r。"
+				"          当游戏时长达到&d三阶段&r时，你将会&d正常受到窒息伤害&r(此前阶段不会受到窒息伤害)，同时&d所受到的所有伤害翻倍&r。"
 			]
+			hide_dependent_lines: true
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "1033FC65776BF06D"
 			rewards: [{
@@ -78,14 +114,16 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "rsquare"
-			subtitle: "默认佩戴"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "默认佩戴, 改动介绍请翻至下一页"
 			tasks: [{
 				id: "4FA1DEFE05FD9EA3"
 				title: "难度"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			title: "七咒之戒在0.4版本以后有了非常巨大的改动"
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -175,17 +213,18 @@
 				type: "checkmark"
 			}]
 			title: "莱特兰恶意"
-			x: 6.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["46A086454F30A9DB"]
 			description: [
-				"      玩整合包遇到了一些小问题是很正常的事情，正确在于反馈到哪里"
+				"      玩整合包遇到了一些小问题是很正常的事情，正确在于反馈到哪里。"
 				""
+				"      但是有些问题是你稍稍注意就可以避免的！"
 				"      "
-				"      点击下一页查看目前已知但&c无法修复&r的问题"
-				"{@pagebreak}"
+				"      下面是一些目前已知但&c无法修复&r的问题 :"
+				""
 				"      1.&cmek流体储罐和IF的黑洞储罐&r给&b匠魂工具&r&e填充流体时&r会吞流体&r，请使用这两者之外的方式给匠魂工具装入流体（如AE终端、热力贮液器、循环的流体储罐）"
 				""
 				"      2.&aJEI&r不显示&bkubejs添加的战利品&r（这个会在物品信息上详细标明概率及生成）"
@@ -201,6 +240,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "326C5E4917F57FB5"
@@ -252,7 +292,7 @@
 				type: "checkmark"
 			}]
 			title: "匠魂相关bug反馈"
-			x: 6.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -270,7 +310,7 @@
 				title: "模组本身问题"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -288,7 +328,7 @@
 				title: "配方问题"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 1.5d
 		}
 		{
@@ -437,13 +477,9 @@
 			dependencies: ["1532A60A49E51285"]
 			description: [
 				"&e程序部分&r"
-				"也是一位热爱化学的大学生"
-				"你经常能在&a服务器&r看到他"
-				"&b服务端&r和&b部分汉化和优化，以及小内容&r"
-				"他降低了你的开局难度，快谢谢他。"
-				"{@pagebreak}"
-				"万一是废墟村庄，这张床就有用了。"
-				"灾厄村庄也是村庄。"
+				"负责cti模组 kubejs 版本更新 服务端 优化 wiki"
+				""
+				"匠魂蓝图 TT20forge版 gnetum-1.19.2作者。"
 			]
 			icon: {
 				Count: 1b
@@ -511,6 +547,12 @@
 					id: "0780A2158C9ADD8E"
 					item: "minecraft:ender_pearl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32B003C478EA81F5"
+					table_id: 2891706814726018842L
+					type: "loot"
 				}
 			]
 			shape: "gear"
@@ -671,10 +713,14 @@
 				"Alpha_Alps"
 				"lingshi(零食)"
 				"Urranium(铀铀)"
-				"rRickoll(白武男)"
 				"牢蘑菇锭"
-				"天宇冰痕"
+				"天雨冰痕"
 				"FaintGlow_FG"
+				"Skadi_Offical(斯卡蒂)"
+				"anderrrrrrr(薄荷糖)"
+				"chacha0721(苏茶茶)"
+				"Kakyoin17(樱桃)"
+				"Fu_yun__(浮云)"
 			]
 			hide_dependent_lines: true
 			icon: "cataclysm:the_incinerator"
@@ -903,13 +949,13 @@
 				title: "lingshi"
 				type: "checkmark"
 			}]
-			x: -8.5d
+			x: -7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1090F9ACA8F1F032"]
 			description: [
-				"momo__sensei"
+				"牢墨"
 				"传奇人物"
 				"其牢墨一名源于其最开始的ID&9墨冰&r(是的，就是材料那个墨冰)"
 				"资深&6冒险&r玩家"
@@ -981,16 +1027,79 @@
 				id: "73DBDCC03DEFBBFF"
 				type: "checkmark"
 			}]
-			title: "牢墨"
+			title: "momo__sensei"
 			x: -6.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"薄荷糖"
+				"负责了维基的编辑和全强化章节"
+				"他很喜欢新生魔艺"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1108820653
+							1898333706
+							-1702443827
+							2018245118
+						]
+						Name: "anderrrrrrr"
+						Properties: {
+							textures: [{
+								Signature: "MU1ZMQNjd3Y+ACspScdZUAxHRANknf6WuKJihUUgzA9A8uJjg0Quv3wQG5LSJG6oIMZ25VLysxF8Zo1cziA0YX7EFhMhggupPEsTKHSlAN94saj0mKJknbePFH4AFnqTuvKCHG+WyPgvVq5pum3jMxKRazZWpB3ahB2YuW02ERh0evOw2jleTlJtPj7j/aps01HCHPqbqZR9eD0uyPy7MZQiskbXrLIgfJZ26Y7WM024elxIAbAjrcTu4l8n0B5UIH3jUd5N4M+HVTnaNynYxOIdIa3jwQ9OXrz8423e1Or6OXlN0FrdjmV8hZo5mStZ5ytj+cCtUywkJlEkQZ7oz5GI/hsaUfERoMarKZNn1oscB8TcYVij9VgHNAJ6pf3fBKssH4ZwKDfWH0nr121uc1Hm0FRIyFGxo8N+nXiDkWgYRxNVXoDBb5EFXNgCjKBxh7YZ9hW1jKSqvaJ7EVK2nLv1u0vWu+DG/WafrB6/bAqUYv+zQ18TwGJBGy5W/L6hiPpFSfJqKjfP0fp1CrGbvayrZcJoiKsIMu09hUU1+NlVVw91CFSk2VnvjwhVj4nYcPM8dtF3tfg1ffL+KtgYVa7pg8EF9/26D2EOBKccZabUwnhOF9wSrXj1DbGzdnWG8CFgud7aFIqMU0LvDaD18E3U9TLr5l7Pt2gTaEHvWq4="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NDg5NTAxMjA4OCwKICAicHJvZmlsZUlkIiA6ICI0MjE3NDJhZDcxMjY0NjBhOWE4NmM0Y2Q3ODRiZjlmZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbmRlcnJycnJyciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84Mzk0ZWVkODE4OTdiYTllNWNiMzg4NDUzY2RlMGY1ZTZjYjg5MDNhODUwMGEzYTZkYzBiYTUzZmQxYTE2MTUyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
 			id: "087BE3B9D4E78024"
+			rewards: [
+				{
+					id: "161E13F587CE173D"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1108820653
+									1898333706
+									-1702443827
+									2018245118
+								]
+								Name: "anderrrrrrr"
+								Properties: {
+									textures: [{
+										Signature: "MU1ZMQNjd3Y+ACspScdZUAxHRANknf6WuKJihUUgzA9A8uJjg0Quv3wQG5LSJG6oIMZ25VLysxF8Zo1cziA0YX7EFhMhggupPEsTKHSlAN94saj0mKJknbePFH4AFnqTuvKCHG+WyPgvVq5pum3jMxKRazZWpB3ahB2YuW02ERh0evOw2jleTlJtPj7j/aps01HCHPqbqZR9eD0uyPy7MZQiskbXrLIgfJZ26Y7WM024elxIAbAjrcTu4l8n0B5UIH3jUd5N4M+HVTnaNynYxOIdIa3jwQ9OXrz8423e1Or6OXlN0FrdjmV8hZo5mStZ5ytj+cCtUywkJlEkQZ7oz5GI/hsaUfERoMarKZNn1oscB8TcYVij9VgHNAJ6pf3fBKssH4ZwKDfWH0nr121uc1Hm0FRIyFGxo8N+nXiDkWgYRxNVXoDBb5EFXNgCjKBxh7YZ9hW1jKSqvaJ7EVK2nLv1u0vWu+DG/WafrB6/bAqUYv+zQ18TwGJBGy5W/L6hiPpFSfJqKjfP0fp1CrGbvayrZcJoiKsIMu09hUU1+NlVVw91CFSk2VnvjwhVj4nYcPM8dtF3tfg1ffL+KtgYVa7pg8EF9/26D2EOBKccZabUwnhOF9wSrXj1DbGzdnWG8CFgud7aFIqMU0LvDaD18E3U9TLr5l7Pt2gTaEHvWq4="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NDg5NTAxMjA4OCwKICAicHJvZmlsZUlkIiA6ICI0MjE3NDJhZDcxMjY0NjBhOWE4NmM0Y2Q3ODRiZjlmZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbmRlcnJycnJyciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84Mzk0ZWVkODE4OTdiYTllNWNiMzg4NDUzY2RlMGY1ZTZjYjg5MDNhODUwMGEzYTZkYzBiYTUzZmQxYTE2MTUyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E8A6676E84F3BF5"
+					item: "ars_nouveau:source_berry"
+					type: "item"
+				}
+			]
 			shape: "diamond"
-			x: -7.0d
-			y: -1.0d
+			tasks: [{
+				id: "7902326FFA1AE73B"
+				type: "checkmark"
+			}]
+			title: "anderrrrrrr"
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1090F9ACA8F1F032"]
@@ -1015,15 +1124,15 @@
 				type: "checkmark"
 			}]
 			title: "牢蘑菇锭"
-			x: -8.5d
-			y: -0.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1090F9ACA8F1F032"]
 			description: [
 				"Urranium"
-				"别名&a铀铀&r"
-				"参与了&a植物魔法&r+&d新生魔艺&r整大章的任务编写，部分任务的美化"
+				"&a铀铀&r"
+				"参与了&a植物魔法&r+&d新生魔艺&r整大章的任务编写，任务的排版与美化"
 				"休闲玩家"
 			]
 			icon: {
@@ -1087,8 +1196,8 @@
 				type: "checkmark"
 			}]
 			title: "Urranium"
-			x: -7.5d
-			y: -1.5d
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1090F9ACA8F1F032"]
@@ -1182,7 +1291,7 @@
 				type: "checkmark"
 			}]
 			title: "天雨冰痕"
-			x: -8.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -1367,8 +1476,8 @@
 				type: "checkmark"
 			}]
 			title: "FaintGlow_FG"
-			x: -9.0d
-			y: -1.0d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1376,7 +1485,7 @@
 				"{image:kubejs:textures/ftbq_images/3fc852fdc9ed88b3115beba4be813c05.png width:150 height:36 align:1}"
 				"      这不是bug了，而是按键没有绑定。你可以在&b菜单-选项-控制-按键绑定&r里面找到对应项目绑定按键。下方的搜索框支持拼音搜索。"
 				""
-				"      另外如果大地图打不开，通常是因为按键冲突了，xaero的打开地图按键优先级非常低，只要冲突就打不开大地图。"
+				"      另外如果大地图打不开，通常是因为按键冲突了，xaero的打开地图按键优先级非常低，只要冲突就打不开大地图。搜索所有占用m的按键然后只保留xaero的大地图就行了。"
 			]
 			icon: "minecraft:stone_button"
 			id: "0710D7062CEB6A31"
@@ -1391,7 +1500,7 @@
 				type: "checkmark"
 			}]
 			title: "按键绑定"
-			x: 6.0d
+			x: 7.0d
 			y: 2.5d
 		}
 		{
@@ -1413,7 +1522,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 0.5d
 		}
 		{
@@ -1504,6 +1613,7 @@
 			y: -8.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2B42448EC438AA18"]
 			description: [
 				"/gamerule playersSleepingPercentage <value>"
@@ -1523,9 +1633,10 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2B42448EC438AA18"]
 			description: ["字面意思"]
 			icon: {
@@ -1546,8 +1657,8 @@
 				title: "火焰不蔓延"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -9.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2B42448EC438AA18"]
@@ -1572,8 +1683,8 @@
 				type: "checkmark"
 			}]
 			title: "计分板-死亡榜"
-			x: 1.5d
-			y: -9.5d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4FF708BA524C9D44"]
@@ -1608,6 +1719,10 @@
 									name: "etshtinker:atomorigin"
 								}
 								{
+									level: 4
+									name: "cti:refined"
+								}
+								{
 									level: 1
 									name: "tconstruct:blocking"
 								}
@@ -1617,19 +1732,19 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"etshtinker:fluid_efficiency": 2.48832f
-								"etshtinker:plasmarange": 0.0124416f
-								"tconstruct:armor_toughness": 0.0870912f
-								"tconstruct:block_amount": 0.49766397f
-								"tconstruct:block_angle": 1.6174079f
-								"tconstruct:durability": 186.53067f
-								"tconstruct:knockback_resistance": 0.0124416f
+								"etshtinker:fluid_efficiency": 7.223693f
+								"etshtinker:plasmarange": 0.036118463f
+								"tconstruct:armor_toughness": 0.25282925f
+								"tconstruct:block_amount": 1.4447385f
+								"tconstruct:block_angle": 4.6954f
+								"tconstruct:durability": 541.50604f
+								"tconstruct:knockback_resistance": 0.025798902f
 								"tconstruct:use_item_speed": 0.4f
 							}
 							tic_volatile_data: {
-								abilities: 2
+								abilities: 6
 								defense: 2
-								upgrades: 4
+								upgrades: 8
 							}
 						}
 					}
@@ -1656,7 +1771,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["删除备份导致坏档无法解决，请自行承担责任"]
+			description: ["删除备份导致坏档后无可替换存档而无法解决，请自行承担责任"]
 			icon: "minecraft:chest"
 			id: "49D64FEF200C3789"
 			rewards: [{
@@ -1670,7 +1785,7 @@
 				title: "关于备份"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -1692,7 +1807,7 @@
 				title: "关于光影"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -0.5d
 		}
 		{
@@ -1743,12 +1858,14 @@
 				type: "checkmark"
 			}]
 			title: "背包整理相关"
-			x: 6.0d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
 			description: [
 				"      本包使用kubejs+blockswap将大部分常用材料的矿物生成和锭、块、粒、粉形态统一到一个模组去了，比如青铜无论是用冶金灌注机还是感应炉合成得到的都是热力的青铜。大部分热力有的材料都向热力统一了（因为好看）。"
+				""
+				"      然而有部分配方未能完成伟大的统一（如电弧炉副产物、部分浇筑配方）。&e如果这些配方中有你需求的配方，请向制作组反馈。"
 				"      "
 				"      钢比较特殊，钢的锭和粒采用了热力的，钢块则采用了沉浸工程的，这是因为沉浸工程的多方快结构仅支持沉浸工程自己的钢块。"
 				""
@@ -1768,7 +1885,7 @@
 				type: "checkmark"
 			}]
 			title: "关于标签统一"
-			x: 6.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -1852,7 +1969,7 @@
 				type: "checkmark"
 			}]
 			title: "背包整理"
-			x: 7.0d
+			x: 8.0d
 			y: -2.5d
 		}
 		{
@@ -1870,7 +1987,7 @@
 				type: "checkmark"
 			}]
 			title: "其他匠魂附属？"
-			x: 7.0d
+			x: 8.0d
 			y: 2.5d
 		}
 		{
@@ -1900,30 +2017,53 @@
 		{
 			description: [
 				"提示：1，&b刷怪笼激活器&r（气动工艺）：可以通过开箱获得，仅对&6原版刷怪笼&r生效"
+				""
 				"2，冰/火/电龙：&6战利品获取&r&4无法自动化&r（玩家模拟器和机械手均不可），&4&l&o不推荐大规模生成然后屠宰&r，由此引起的服务器实体占用问题自行解决"
-				"3，有关机器的输入输出：&a热力、工业先锋的设备&r大多具备自动读取/输出缓存物品的功能（意思是无需管道），&amek&r的设备&4仅能自动弹出&r，&a气动工艺&r的设备部分可以使用&6发射器升级&r（可指定设备任意相接的容器自动输出）4，德格米（新生魔艺）：具备特殊的实体机制即使在同一格中&6也不会发生实体挤压&r，但是&4仍然有实体占用&r（尽量减少德格米的数量）"
+				"目前已经添加了中后期的&a热力&r增产线（每种需一个块作为起步资金），不过仍旧只支持&4半自动&r"
+				""
+				"3，有关机器的输入输出：&a热力、工业先锋的设备&r大多具备自动读取/输出缓存物品的功能（意思是无需管道），&amek&r的设备&4仅能自动弹出&r（除物流分类机以外），&a气动工艺&r的设备部分可以使用&6发射器升级&r（可指定设备任意相接的容器自动输出）"
+				""
+				"4，德格米（新生魔艺）：具备特殊的实体机制即使在同一格中&6也不会发生实体挤压&r，但是&4仍然有实体占用&r（尽量减少德格米的数量）"
+				""
+				"5，大部分刷怪设备和新生魔艺的德格米都设置了生物黑名单：&e灾变全部boss、燃魂和天镜三大boss&6无法被自动化产出战利品"
+				"注意：一些生物由于&6机制和原版模组就设置无法偷取&r：原版的凋灵和末影龙，深园的遗忆守卫，本模组的仆从和boss生物等"
+				""
+				"6，配置器（&amek&r）的电量仅用于它的&6扳手模式&r，虽然有很多模式的切换，但是涉及管道切换&r&6抽取/输入/无&r这三者的模式可以&4无视&r管道类别。"
 				""
 				"{@pagebreak}"
 				""
-				"5，合成冲突：虽然本包已经对主要的冲突配方做了处理，但仍然有部分配方冲突，&bae&r&4无法合成&r&6多态配方&r，请使用&6原版工作台&r"
-				"6，血肉重铸的&6自动化&r：&a血肉重铸&r的设备仅有&6生物锻炉&r&4无法&r&6自动化&r，其他设备的逻辑等同于&6原版熔炉加强版&r，并无二致"
-				"7，关于&b经验泵升级（精妙存储）&r：由于模组&0本体&r&4删去&r了&6储罐升级&r，所以并无用处"
-				"8，管道的提示：&a物品管道&r（&l&4极不推荐mek物流&r）&a能量管道&r（&0&l绝不推荐&r&4pipez&r&0的能量管道&r）&a流体管道&r（推荐大量需求&6机械管道&r，高频需求&6pip和循环流体管道&r）&a气体管道&r（仅有mek和pip可以）热导线缆（mek的存在感不高，气动推荐&6电阻加热配合热管&r）ae线缆（&6分清粗细&r）"
+				"7，合成冲突：虽然本包已经对主要的冲突配方做了处理，但仍然有部分配方冲突，&bae&r&4无法合成&r&6多态配方&r，请使用&6原版工作台&r"
+				""
+				"8，血肉重铸的&6自动化&r：&a血肉重铸&r的设备仅有&6生物锻炉&r&4无法&r&6自动化&r，其他设备的逻辑等同于&6原版熔炉加强版&r，并无二致"
+				""
+				"9，关于&b经验泵升级（精妙存储）&r：由于模组&0本体&r&4删去&r了&6储罐升级&r，所以并无用处"
+				""
+				"10，管道的提示：&a物品管道&r（&l&4极不推荐mek物流&r）&a能量管道&r（&0&l绝不推荐&r&4pipez&r&0的能量管道&r）&a流体管道&r（推荐大量需求&6机械管道&r，高频需求&6pip和循环流体管道&r）&a气体管道&r（仅有mek和pip可以）热导线缆（mek的存在感不高，气动推荐&6电阻加热配合热管&r）ae线缆（&6分清粗细&r）"
 				"注：请确认你已经学会使用&6扳手调整管道模式&r（抽取/输出/无）&6管道过滤&r（自动化必须）&6管道机器交互&r（面对面与精准定向）"
 				""
 				"{@pagebreak}"
 				""
-				"9，方块容器中的流体：有转置需求的（最好是桶），可以使用&bmek&r的&6流体储罐&r作为中介（可以瞬间将容器中的流体倒出，并且可以接&6物品管道&r）"
-				"10，空间矿机的缓存读取：可以利用&atom&r的&6存储驱动器&r或&aae&r的&6me箱子/接口"
-				"&r11，海王锭：&b机械动力&r&6钓鱼机&r无法钓宝藏所以&4失效&r（仅能&e手动钓鱼获得&r，但本包有&6自动钓鱼和匠魂钓鱼竿&r）"
-				"12，关于下界/末地戈伯：可以通过下界/末地对应的&6戈伯幸运方块&r获取对应戈伯棒用&6电弧炉&r处理（沉浸工程）"
+				"11，方块容器中的流体：有转置需求的（最好是桶），可以使用&bmek&r的&6流体储罐&r作为中介（可以瞬间将容器中的流体倒出，并且可以接&6物品管道&r）"
+				""
+				"12，空间矿机的缓存读取：可以利用&atom&r的&6存储驱动器&r或&aae&r的&6me箱子/接口"
+				"&r"
+				""
+				"13，海王锭：&b机械动力&r&6钓鱼机&r（也可&e手动钓鱼获得&r，本包还有&6自动钓鱼和匠魂钓鱼竿&r，尽管这两者并不兼容）."
+				""
+				"14，关于下界/末地戈伯：可以通过下界/末地对应的&6戈伯幸运方块&r获取对应戈伯棒用&6电弧炉&r处理（沉浸工程）"
+				"但是目前&6戈伯幸运方块&r已经无法掉落&4戈伯棒&r（注意：原版的&6普通戈伯幸运方块&r&0不会掉落戈伯棒&r是&a模组本体&r设置的）"
 				""
 				"{@pagebreak}"
 				""
-				"13，关于精灵钢自动化：背包磁铁升级和磁力戒指等部分同类功能&4无法影响&r&e制作出来的&r&6精灵钢&r（可以使用&a循环&r&6收集器&r）"
-				"14，&b戈伯&r&6下界剑&r可以&e秒杀凋灵骷髅必定掉头&r（&0不触发时运&r），但是本包又加强了&e下界戈伯锭的匠魂功能性词条&r（完全薄纱），所以还是推荐&6下界戈伯锭&r"
-				"15，减少套娃式随身携带存储（如&6背包、便携元件、板条箱、沉浸储存箱&r等）会很卡"
-				"16"
+				"15，关于精灵钢自动化：背包磁铁升级和磁力戒指等部分同类功能&4无法影响&r&e制作出来的&r&6精灵钢&r（可以使用&a循环&r&6收集器&r）"
+				""
+				"16，&b戈伯&r&6下界剑&r可以&e秒杀凋灵骷髅必定掉头&r（&0不触发时运&r），但是本包又加强了&e下界戈伯锭的匠魂功能性词条&r（完全薄纱），所以还是推荐&6下界戈伯锭&r"
+				""
+				"17，减少套娃式随身携带存储（如&6背包、便携元件、板条箱、沉浸储存箱&r等）会很卡"
+				""
+				"18，关于&6黄铜锭&r，其实认真看一眼&ajei&r就会发现&a沉浸&r的&6合金窑配方&r并没有删除（也就是说并非前期只能用&a机械动力&r合成&6黄铜&r）"
+				""
+				"19，关于&l&b钻石&r作为匠魂材料的特性……也许会有&e意想不到的惊喜&r"
 			]
 			icon: "enigmaticlegacy:enchantment_transposer"
 			id: "21CC1D9D6FC253A4"
@@ -1934,8 +2074,318 @@
 				type: "checkmark"
 			}]
 			title: "这里是一些提示"
-			x: 9.0d
+			x: 10.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"斯卡蒂"
+				"负责了工业先锋任务"
+				"和蔼 任何邪恶终将绳之以法"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-352530069
+							-1983494621
+							-1203504015
+							-1096691165
+						]
+						Name: "Skadi_Official"
+						Properties: {
+							textures: [
+								{
+									Signature: "AnWMvg0f913iqNAl3T+OZf7NAyPg3cfUxX8rusghBhatUhASGyrBjoAXrCgtRk2lD1O7I2Y54OLZoY8S5nz726kqfNw7R7b1bq7MoX49NZw4Rf07tn7ZGgzcgl7DJ6fp0GnH/26DPSqt4oF/j0RMonLO0W0G3+pYO84+fAMP7iBV+aS0zcwd8xx919dnOji0QfN8Ch32RR0jtDjun3m6nBR29XXGlz+kjfdp3KouJK5N24OfHXNO1XH/57H1mXDtL4QgwV3/rWB2WtP9e6q9qhnMxSsh0OTPLiprn9InQ34n/ATFxEzYIqd3/l0YjO6ESyaLilZYiOT8zQnnn+hwE6iroiB5cj/Lh332eBOZTQhT7nxH5bOf9Hv4KziffpeiLB5/ON9uXgvL3lVGYb+5ULmKl7jd0Z7fMr46rw56JcJ/M7aRwxs2Jqv/JcB+WW78MdTJ1XKZKPobLw/y2sEMPHG1N7AsqvfiorsOTwBPYh94cvJzz/MM4wDhtxrEx5rFD5Mtp60ooilgN8A0DJYwywjxfTBMD/Tqs3RLRUghw+LV6SH8qd+YcoAjfSUs0uzhO4bRUmVx1GsaGrlugwvb3dWRC5tKCj6tW8fv0N1R1bxz5ZvK2TFmA5MTVGS85Gch63MRyXaBd4/kryd56e14eRqb1SLaPk68/1HUxRUFJh4="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTYzNDI2NzA0NCwKICAicHJvZmlsZUlkIiA6ICJlYWZjZDE2Yjg5YzY0NjIzYjg0M2ZjNzFiZWExZDIyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FkaV9PZmZpY2lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNWFlNzcxNWY3YjYzOTkwZjY0ZjYxZjg2MTQyYWMyYzZiMDQ5YzgxNGY4OGUwMGIwNGEwYTdiYmRhOTQ0YWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+								}
+								{
+									Signature: "FzZnsj5kqLMS+lnjnLHH1iqVl2T3D+h5+qJqPrU/Wn0+QW77EbxAlU5Ua4OL0GsMsSSQ7oceFwbWZ5CkI9E0ShSXnnKaxtoMokHJBn+zp81bQxE5daZ6XoBgKfoSuJwSlkLLTpT7Va6T4t/8iqmyMFXox8pMT9lQY0fS+r8pLBn9GeT9ODiLQMu+6d8ZWglUuCKZse0DLUjIFF5PBFYL6X38j0W9gJlf6Usu6XTUkGTJdcdo4joGUFb2jjstUt1IZDjTlHkE2e2wJRt9OsRq+YeCBcuieIndN7mnmtDm841+MWHy+iHqlI22YsQfk23PqD5CP6f8oNOOTnjAcU+KQaCBMB5toOixKxM1qW94PgdrkxE4JhOOg7IbHHsxxQJlEOSzWs0RCmPJu0jTFfqO0tgXOSLP3HcCqutDbVYcK2rVzut0ITJGqDEAv9TdxGn7bLvKqMvJdp8uuAttnozVoGug+RQ5s294KqdAbQhXOTH+8Tu/Le/XAVzuwHa8+L4Lx/YoP22N11C1zA629LIz1lS9XCUMoZfZ6xUMZE9uca2HBlpis2KUpUpZDghVOiJ6Ktoq+e3DDvGstg5LG8aNtHM4Op8gqNGiFxXFRE95oOiB+jl1usKyKT709UH8H1TYCxzibOi9K2dYO4A8z4fLAM9DR8RszkDgFHJ+FPlvAtQ="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY5NjI4NTc3NywKICAicHJvZmlsZUlkIiA6ICJlYWZjZDE2Yjg5YzY0NjIzYjg0M2ZjNzFiZWExZDIyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FkaV9PZmZpY2lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNWFlNzcxNWY3YjYzOTkwZjY0ZjYxZjg2MTQyYWMyYzZiMDQ5YzgxNGY4OGUwMGIwNGEwYTdiYmRhOTQ0YWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+								}
+								{
+									Signature: "FzZnsj5kqLMS+lnjnLHH1iqVl2T3D+h5+qJqPrU/Wn0+QW77EbxAlU5Ua4OL0GsMsSSQ7oceFwbWZ5CkI9E0ShSXnnKaxtoMokHJBn+zp81bQxE5daZ6XoBgKfoSuJwSlkLLTpT7Va6T4t/8iqmyMFXox8pMT9lQY0fS+r8pLBn9GeT9ODiLQMu+6d8ZWglUuCKZse0DLUjIFF5PBFYL6X38j0W9gJlf6Usu6XTUkGTJdcdo4joGUFb2jjstUt1IZDjTlHkE2e2wJRt9OsRq+YeCBcuieIndN7mnmtDm841+MWHy+iHqlI22YsQfk23PqD5CP6f8oNOOTnjAcU+KQaCBMB5toOixKxM1qW94PgdrkxE4JhOOg7IbHHsxxQJlEOSzWs0RCmPJu0jTFfqO0tgXOSLP3HcCqutDbVYcK2rVzut0ITJGqDEAv9TdxGn7bLvKqMvJdp8uuAttnozVoGug+RQ5s294KqdAbQhXOTH+8Tu/Le/XAVzuwHa8+L4Lx/YoP22N11C1zA629LIz1lS9XCUMoZfZ6xUMZE9uca2HBlpis2KUpUpZDghVOiJ6Ktoq+e3DDvGstg5LG8aNtHM4Op8gqNGiFxXFRE95oOiB+jl1usKyKT709UH8H1TYCxzibOi9K2dYO4A8z4fLAM9DR8RszkDgFHJ+FPlvAtQ="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY5NjI4NTc3NywKICAicHJvZmlsZUlkIiA6ICJlYWZjZDE2Yjg5YzY0NjIzYjg0M2ZjNzFiZWExZDIyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FkaV9PZmZpY2lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNWFlNzcxNWY3YjYzOTkwZjY0ZjYxZjg2MTQyYWMyYzZiMDQ5YzgxNGY4OGUwMGIwNGEwYTdiYmRhOTQ0YWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+								}
+							]
+						}
+					}
+				}
+			}
+			id: "217ACCA36193184C"
+			rewards: [{
+				id: "4981E34F5FDCBCE4"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-352530069
+								-1983494621
+								-1203504015
+								-1096691165
+							]
+							Name: "Skadi_Official"
+							Properties: {
+								textures: [
+									{
+										Signature: "AnWMvg0f913iqNAl3T+OZf7NAyPg3cfUxX8rusghBhatUhASGyrBjoAXrCgtRk2lD1O7I2Y54OLZoY8S5nz726kqfNw7R7b1bq7MoX49NZw4Rf07tn7ZGgzcgl7DJ6fp0GnH/26DPSqt4oF/j0RMonLO0W0G3+pYO84+fAMP7iBV+aS0zcwd8xx919dnOji0QfN8Ch32RR0jtDjun3m6nBR29XXGlz+kjfdp3KouJK5N24OfHXNO1XH/57H1mXDtL4QgwV3/rWB2WtP9e6q9qhnMxSsh0OTPLiprn9InQ34n/ATFxEzYIqd3/l0YjO6ESyaLilZYiOT8zQnnn+hwE6iroiB5cj/Lh332eBOZTQhT7nxH5bOf9Hv4KziffpeiLB5/ON9uXgvL3lVGYb+5ULmKl7jd0Z7fMr46rw56JcJ/M7aRwxs2Jqv/JcB+WW78MdTJ1XKZKPobLw/y2sEMPHG1N7AsqvfiorsOTwBPYh94cvJzz/MM4wDhtxrEx5rFD5Mtp60ooilgN8A0DJYwywjxfTBMD/Tqs3RLRUghw+LV6SH8qd+YcoAjfSUs0uzhO4bRUmVx1GsaGrlugwvb3dWRC5tKCj6tW8fv0N1R1bxz5ZvK2TFmA5MTVGS85Gch63MRyXaBd4/kryd56e14eRqb1SLaPk68/1HUxRUFJh4="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTYzNDI2NzA0NCwKICAicHJvZmlsZUlkIiA6ICJlYWZjZDE2Yjg5YzY0NjIzYjg0M2ZjNzFiZWExZDIyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FkaV9PZmZpY2lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNWFlNzcxNWY3YjYzOTkwZjY0ZjYxZjg2MTQyYWMyYzZiMDQ5YzgxNGY4OGUwMGIwNGEwYTdiYmRhOTQ0YWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+									}
+									{
+										Signature: "FzZnsj5kqLMS+lnjnLHH1iqVl2T3D+h5+qJqPrU/Wn0+QW77EbxAlU5Ua4OL0GsMsSSQ7oceFwbWZ5CkI9E0ShSXnnKaxtoMokHJBn+zp81bQxE5daZ6XoBgKfoSuJwSlkLLTpT7Va6T4t/8iqmyMFXox8pMT9lQY0fS+r8pLBn9GeT9ODiLQMu+6d8ZWglUuCKZse0DLUjIFF5PBFYL6X38j0W9gJlf6Usu6XTUkGTJdcdo4joGUFb2jjstUt1IZDjTlHkE2e2wJRt9OsRq+YeCBcuieIndN7mnmtDm841+MWHy+iHqlI22YsQfk23PqD5CP6f8oNOOTnjAcU+KQaCBMB5toOixKxM1qW94PgdrkxE4JhOOg7IbHHsxxQJlEOSzWs0RCmPJu0jTFfqO0tgXOSLP3HcCqutDbVYcK2rVzut0ITJGqDEAv9TdxGn7bLvKqMvJdp8uuAttnozVoGug+RQ5s294KqdAbQhXOTH+8Tu/Le/XAVzuwHa8+L4Lx/YoP22N11C1zA629LIz1lS9XCUMoZfZ6xUMZE9uca2HBlpis2KUpUpZDghVOiJ6Ktoq+e3DDvGstg5LG8aNtHM4Op8gqNGiFxXFRE95oOiB+jl1usKyKT709UH8H1TYCxzibOi9K2dYO4A8z4fLAM9DR8RszkDgFHJ+FPlvAtQ="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY5NjI4NTc3NywKICAicHJvZmlsZUlkIiA6ICJlYWZjZDE2Yjg5YzY0NjIzYjg0M2ZjNzFiZWExZDIyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FkaV9PZmZpY2lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNWFlNzcxNWY3YjYzOTkwZjY0ZjYxZjg2MTQyYWMyYzZiMDQ5YzgxNGY4OGUwMGIwNGEwYTdiYmRhOTQ0YWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+									}
+									{
+										Signature: "FzZnsj5kqLMS+lnjnLHH1iqVl2T3D+h5+qJqPrU/Wn0+QW77EbxAlU5Ua4OL0GsMsSSQ7oceFwbWZ5CkI9E0ShSXnnKaxtoMokHJBn+zp81bQxE5daZ6XoBgKfoSuJwSlkLLTpT7Va6T4t/8iqmyMFXox8pMT9lQY0fS+r8pLBn9GeT9ODiLQMu+6d8ZWglUuCKZse0DLUjIFF5PBFYL6X38j0W9gJlf6Usu6XTUkGTJdcdo4joGUFb2jjstUt1IZDjTlHkE2e2wJRt9OsRq+YeCBcuieIndN7mnmtDm841+MWHy+iHqlI22YsQfk23PqD5CP6f8oNOOTnjAcU+KQaCBMB5toOixKxM1qW94PgdrkxE4JhOOg7IbHHsxxQJlEOSzWs0RCmPJu0jTFfqO0tgXOSLP3HcCqutDbVYcK2rVzut0ITJGqDEAv9TdxGn7bLvKqMvJdp8uuAttnozVoGug+RQ5s294KqdAbQhXOTH+8Tu/Le/XAVzuwHa8+L4Lx/YoP22N11C1zA629LIz1lS9XCUMoZfZ6xUMZE9uca2HBlpis2KUpUpZDghVOiJ6Ktoq+e3DDvGstg5LG8aNtHM4Op8gqNGiFxXFRE95oOiB+jl1usKyKT709UH8H1TYCxzibOi9K2dYO4A8z4fLAM9DR8RszkDgFHJ+FPlvAtQ="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTY5NjI4NTc3NywKICAicHJvZmlsZUlkIiA6ICJlYWZjZDE2Yjg5YzY0NjIzYjg0M2ZjNzFiZWExZDIyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FkaV9PZmZpY2lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNWFlNzcxNWY3YjYzOTkwZjY0ZjYxZjg2MTQyYWMyYzZiMDQ5YzgxNGY4OGUwMGIwNGEwYTdiYmRhOTQ0YWZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+									}
+								]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "002DBAE38575CB4F"
+				type: "checkmark"
+			}]
+			title: "Skadi_Official"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"樱桃"
+				"帅气男大(已工作)"
+				"提供了好玩的樱桃宝石和好用的工匠小屋"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							280715432
+							-1731834956
+							-1986340001
+							1543238844
+						]
+						Name: "Kakyoin17"
+						Properties: {
+							textures: [{
+								Signature: "mCoTHH0MqvBzF/gXHkel6g3W8oygx4LUsp7/6S+IaKXh/ecwci71ZN+xYKVbBF0ACtvjC0NLPZcDjJ1HGqgYxooCVbXkWgUvLETiH14HXWKpqg3dHur0gWTTY/yFq85UGtblCpc1nlD5LO/dwhCXMx52aLdNxsQaYqLm3OFFGitWe16MVmFAXv8+eBc0lUvKj1VynHlUA31YOtvRN0u4e76lrg0mdKblfyFMEN5nti42OJkUCu42iDJ6bttMO7sJ2OGVPpFKzg6bpT67TGU10rrwLHEeuW0HV34Jer6w0sWSYZFE//63RAcfIyWHW/KnvzfPXdS42USacdFLwOtsAMCJkFiFWzIPWfXtz3g3oGKhP0gq/mqi7bvOhQ8CiU5fA3pYn7+L5f77z/JpcDdjypocmS0JJrwN0TaM2lS9LG0fqPhmAEZIIPklh99oKiMskuFIrolpzOgk+9IXuvq/x8Xf5Epgs4lzgHlQLGMijY6FEBS4Or7kxbP0przNxFpC6cgPqsV4k/HCZyz9ZCGG8x+7r+gWEUa8Vf72kfOSS0C1aTIK4TlmYv9CkFImXUuTQSM6z50g3c6rhjV5ha1LY3WAik5p8CUjREIfR6hExs56xfNpK+PUAMioG/StOAvnZalCuStcaQaI2BvUmzOzP7Eoap+2KZrewubtjSNwzNQ="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTQzMzY0NzM0MywKICAicHJvZmlsZUlkIiA6ICIxMGJiNjBhODk4YzY0YmI0ODk5YWRiNWY1YmZiZjRiYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWt5b2luMTciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU5ZjM4NTAwZmI3NGMxNDJhNzkxNTVjZTVhZmNmMzNjM2IxMjJiMDBhMWNiODQ3M2Y3MDdjNmI4MmEwNTA1MCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "15D1A26C120321A0"
+			rewards: [
+				{
+					id: "52C43AA9777A594A"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									280715432
+									-1731834956
+									-1986340001
+									1543238844
+								]
+								Name: "Kakyoin17"
+								Properties: {
+									textures: [{
+										Signature: "mCoTHH0MqvBzF/gXHkel6g3W8oygx4LUsp7/6S+IaKXh/ecwci71ZN+xYKVbBF0ACtvjC0NLPZcDjJ1HGqgYxooCVbXkWgUvLETiH14HXWKpqg3dHur0gWTTY/yFq85UGtblCpc1nlD5LO/dwhCXMx52aLdNxsQaYqLm3OFFGitWe16MVmFAXv8+eBc0lUvKj1VynHlUA31YOtvRN0u4e76lrg0mdKblfyFMEN5nti42OJkUCu42iDJ6bttMO7sJ2OGVPpFKzg6bpT67TGU10rrwLHEeuW0HV34Jer6w0sWSYZFE//63RAcfIyWHW/KnvzfPXdS42USacdFLwOtsAMCJkFiFWzIPWfXtz3g3oGKhP0gq/mqi7bvOhQ8CiU5fA3pYn7+L5f77z/JpcDdjypocmS0JJrwN0TaM2lS9LG0fqPhmAEZIIPklh99oKiMskuFIrolpzOgk+9IXuvq/x8Xf5Epgs4lzgHlQLGMijY6FEBS4Or7kxbP0przNxFpC6cgPqsV4k/HCZyz9ZCGG8x+7r+gWEUa8Vf72kfOSS0C1aTIK4TlmYv9CkFImXUuTQSM6z50g3c6rhjV5ha1LY3WAik5p8CUjREIfR6hExs56xfNpK+PUAMioG/StOAvnZalCuStcaQaI2BvUmzOzP7Eoap+2KZrewubtjSNwzNQ="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1NTQzMzY0NzM0MywKICAicHJvZmlsZUlkIiA6ICIxMGJiNjBhODk4YzY0YmI0ODk5YWRiNWY1YmZiZjRiYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWt5b2luMTciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU5ZjM4NTAwZmI3NGMxNDJhNzkxNTVjZTVhZmNmMzNjM2IxMjJiMDBhMWNiODQ3M2Y3MDdjNmI4MmEwNTA1MCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79AB41275FD23D10"
+					item: "cherrytinker:cherry"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "🍒"
+			tasks: [{
+				id: "55739FAE68C23BC4"
+				type: "checkmark"
+			}]
+			title: "Kakyoin17"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"苏茶茶"
+				"负责了SDM商店的编辑，部分代码和吉祥物(?"
+				"非常认真可爱"
+				"快把茶茶供奉起来 不要坟墓 不要被吃 不要放终端"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1588951345
+							-790285193
+							-1613582412
+							-467460045
+						]
+						Name: "chacha0721"
+					}
+				}
+			}
+			id: "61E82630ED0CECCD"
+			rewards: [
+				{
+					id: "02BF36EB55E38AD1"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1588951345
+									-790285193
+									-1613582412
+									-467460045
+								]
+								Name: "chacha0721"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F1B1786743F4001"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1EB6A47CCB3F9C28"
+				title: "chacha0721"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1090F9ACA8F1F032"]
+			description: [
+				"路过浮云"
+				"提供了好玩好用的浮云工坊以及暮色任务的补全"
+				"猫猫(>^ω^<)"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1015738619
+							864374410
+							-1254479721
+							192876851
+						]
+						Name: "Fu_yun__"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMCwKICAicHJvZmlsZUlkIiA6ICJjMzc1MGYwNTMzODU0ZThhYjUzYTI4OTcwYjdmMTEzMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGdV95dW5fXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjlhMGY5MzgwNTg2NDU2ZGZkNzFkZTVmMzMxNTg5OTkwNDRhYzIxMzEwZTA4YzE1NTVkZjY1NWNiMjAxN2E0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Fu_yun__的头\"}"
+					}
+				}
+			}
+			id: "7BED079A991D7410"
+			rewards: [
+				{
+					id: "18F1408DECDCC457"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1015738619
+									864374410
+									-1254479721
+									192876851
+								]
+								Name: "Fu_yun__"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMCwKICAicHJvZmlsZUlkIiA6ICJjMzc1MGYwNTMzODU0ZThhYjUzYTI4OTcwYjdmMTEzMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGdV95dW5fXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYjlhMGY5MzgwNTg2NDU2ZGZkNzFkZTVmMzMxNTg5OTkwNDRhYzIxMzEwZTA4YzE1NTVkZjY1NWNiMjAxN2E0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+							display: {
+								Name: "{\"text\":\"Fu_yun__的头\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25C214A0BC4155CE"
+					item: "twilightforest:fluffy_cloud"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7D144D60A2412461"
+				type: "checkmark"
+			}]
+			title: "Fu_yun__"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1033FC65776BF06D"]
+			description: [
+				"      灵魂补剂能消除累积死亡对你的影响，但是相应的它也无法被合成，需要花费1钻石币在序章开头购买。"
+				""
+				"      冒险流程也会随阶段送你几瓶免费的灵魂补剂！"
+			]
+			icon: "cti:soul_spell"
+			id: "59DCEC4CC4201B9F"
+			rewards: [{
+				id: "4BED23B14C7873CF"
+				item: "cti:soul_spell"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1A587E2CDE64D01E"
+				type: "checkmark"
+			}]
+			title: "第一瓶当然要免费送给你"
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["！！重要！！一定要看！！"]

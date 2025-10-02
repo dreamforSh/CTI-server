@@ -1,0 +1,22 @@
+{
+    "default": [
+      {
+        "name": "cti:sentrite_defense",
+        "level": 1
+      }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "name": "cti:secondary_armor",
+        "level": 1
+      }
+    ],
+    "tconstruct:shield_core": [
+      {
+        "name": "cti:secondary_armor",
+        "level": 1
+      }
+    ]
+  }
+}

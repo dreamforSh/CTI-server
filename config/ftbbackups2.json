@@ -6,7 +6,7 @@
 	// Only send backup status to server ops
 	"notify_op_only": true,
 	// Don't send backup status at all
-	"do_not_notify": false,
+	"do_not_notify": true,
 	/* Backup retention mode. Valid Modes: MAX_BACKUPS, TIERED
 	   Note: TIERED mode is an experimental feature, Use at your own risk.
 	*/

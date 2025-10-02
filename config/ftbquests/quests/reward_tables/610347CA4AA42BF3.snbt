@@ -1,0 +1,17 @@
+{
+	icon: "botania:rune_water"
+	id: "610347CA4AA42BF3"
+	loot_size: 1
+	order_index: 80
+	rewards: [
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_air" }
+		{ item: "botania:rune_spring" }
+		{ item: "botania:rune_summer" }
+		{ item: "botania:rune_autumn" }
+		{ item: "botania:rune_winter" }
+	]
+	title: "符文奖励"
+}

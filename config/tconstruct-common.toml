@@ -104,15 +104,11 @@
 [loot]
 	#Adds slimy saplings and seeds into various loot chests. Helps for worlds without slime islands
 	slimy_loot = true
-	#Weight of blazing blood in the piglin bartering tables. Set to 0 to disable
-	#Range: 0 ~ 100
-	barter_blazing_blood = 20
-	#Weight of tinker tools in the vanilla spawn bonus chest, randomly replacing the vanilla axe or shovel. Tool will have a random tier 1 head and binding, plus a wooden handle. Set to 0 to disable.
-	#For comparison, vanilla wooden axes and pickaxes have a weight of 3, and stone axes/pickaxes have a weight of 1
-	#Range: 0 ~ 25
-	tinker_tool_bonus_chest = 2
 	#If true, ender dragons will drop scales when damaged by explosions
 	drop_dragon_Scales = true
+	#Weight of the ancient tool trade for the wandering trader. All traders randomly choose 1 rare trade, so this is roughly the chance the trade occurs compared to the vanilla options (of which there are 6).
+	#Range: 0 ~ 100
+	wanderer_ancient_tool_weight = 6
 
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]

@@ -1,0 +1,78 @@
+{
+	id: "68107F077275EC63"
+	loot_size: 1
+	order_index: 87
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:sheet"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:tray"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:loaf_pan"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:pie_dish"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:round_pan"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:square_pan"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "extradelight:muffin_tin"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+	]
+	title: "烤盘"
+}
