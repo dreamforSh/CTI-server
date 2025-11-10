@@ -1,0 +1,37 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "biomancy:gem_fragments",
+      "amount_needed": 16
+    },
+    {
+      "item": "etshtinker:earth_crystal",
+      "amount_needed": 8
+    },
+    {
+      "item": "biomancy:gem_fragments",
+      "amount_needed": 16
+    },
+    {
+      "item": "tconstruct:slimesteel_block",
+      "amount_needed": 4
+    },
+    {
+      "item": "tconstruct:slimesteel_block",
+      "amount_needed": 4
+    }
+  ],
+  "level": {
+    "max": 3
+  },
+  "result": "solidarytinker:energypowerful",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "solidarytinker:electric_batons"
+  }
+}

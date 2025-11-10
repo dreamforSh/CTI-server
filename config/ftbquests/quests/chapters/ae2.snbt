@@ -3695,6 +3695,37 @@
 			x: 3.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["3F7C1D3A07ED6D81"]
+			icon: "minecraft:porkchop"
+			id: "305D5F587FA000BF"
+			invisible: true
+			rewards: [
+				{
+					id: "6BCD6DBA7D320346"
+					title: "社会学 +5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "enabled"
+					description: "🐖玩AE2"
+					id: "06D918C77EB6F2F9"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				id: "26528CA023A21B1F"
+				observe_type: 5
+				timer: 0L
+				title: "观察你的队友"
+				to_observe: "minecraft:player"
+				type: "observation"
+			}]
+			title: "观察猪"
+			x: 1.5d
+			y: 4.0d
+		}
 	]
 	subtitle: [
 		"科技的尽头...是量子！"

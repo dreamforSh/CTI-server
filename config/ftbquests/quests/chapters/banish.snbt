@@ -211,7 +211,7 @@
 		}
 		{
 			id: "3F4200A5AE120319"
-			subtitle: "上榜理由：实用性强并且被指路石替代"
+			subtitle: "上榜理由：实用性不强并且被指路石替代"
 			tasks: [{
 				id: "7C8D3FD2F1C362F0"
 				item: "cyclic:teleport"
@@ -394,7 +394,7 @@
 		{
 			description: ["其实不止这个，但是最具代表性"]
 			id: "45348FEF96E1C8C4"
-			subtitle: "上榜理由 : 破坏了mek的世界观"
+			subtitle: "上榜理由 :无视挖掘等级"
 			tasks: [{
 				id: "7E6F005FE3B79CCD"
 				item: {

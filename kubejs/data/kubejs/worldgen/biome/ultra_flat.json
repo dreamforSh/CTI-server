@@ -5,10 +5,10 @@
   "effects": {
     "sky_color": 0,
     "fog_color": 0,
-    "water_color": 0,
+    "water_color": 15921906,
     "water_fog_color": 0,
-    "grass_color": 0,
-    "foliage_color": 0,
+    "grass_color": 15921906,
+    "foliage_color": 15921906,
     "particle": {}
   },
   "creature_spawn_probability": 0,

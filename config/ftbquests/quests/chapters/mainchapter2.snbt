@@ -406,6 +406,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "熔岩筛矿需求的模组"
 			tasks: [{
 				id: "5B09580206AB6898"
 				item: "etshtinker:chroma_plate"
@@ -2514,7 +2515,11 @@
 		}
 		{
 			dependencies: ["1086824576A9D409"]
-			description: ["      是的，PnC兼容mek的热量（但是奇怪的是PnC的热量并不能反向转化为mek的热量）"]
+			description: [
+				"      是的，PnC兼容mek的热量（但是奇怪的是PnC的热量并不能反向转化为mek的热量）"
+				""
+				"      右键打开电阻加热器GUI，在输入框中输入数字即可调节加热速率"
+			]
 			id: "635DBF2010F69039"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2808,7 +2813,7 @@
 		}
 		{
 			dependencies: ["25FE4D8080589D7A"]
-			description: ["      你需要用热力的结晶机和沉浸的混合器（以及用于合成酚醛树脂的各种设备）来制作第一批mek合金。此后便能用冶金灌注机更简单地合成合金。"]
+			description: ["      你需要用热力的结晶机和机动的工作盆（以及用于合成酚醛树脂的各种设备）来制作第一批mek合金。此后便能用终极灌注工厂更简单地合成合金。"]
 			id: "7E4D97095CB7C37D"
 			rewards: [
 				{
@@ -3247,17 +3252,15 @@
 			y: -15.0d
 		}
 		{
-			dependencies: [
-				"57331E9421E0C223"
-				"72AE4DAEFF6C2290"
-			]
+			dependencies: ["5CA53B44C567755D"]
 			description: [
-				"           要的机器是让你最大化利用，整个产线的产物都很有用（富炉渣块还是丢了吧）"
-				"           我相信你到这里了会用这些机器了。"
-				"           建议使用石油焦粉的产线，产量也高，很方便。"
-				"           再后面的产矿手段就是位面矿机了，所以熔岩筛矿产线还会需要运行相当一段时间。"
+				"     熔岩筛矿是CTI中期&6最重要的资源生产手段之一&r，整个产线的产物都很有用&8（富炉渣块还是丢了吧）"
+				""
+				"     需要气动工艺达成一定进度才能解锁，我相信你到这里了会用这些机器了。"
+				""
+				"     再后面的产矿手段就是位面矿机了，所以熔岩筛矿产线还会需要运行相当一段时间。"
 			]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "pneumaticcraft:thermopneumatic_processing_plant"
 			id: "770F9F6317869FFC"
 			rewards: [{
@@ -3265,7 +3268,8 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "真，真的轮椅吗？——by Alpha_Alps"
 			tasks: [{
 				id: "22800B003489A6A1"
@@ -3273,8 +3277,8 @@
 				type: "item"
 			}]
 			title: "来看看本整合包轮椅之一《熔岩筛矿》"
-			x: -9.5d
-			y: -14.0d
+			x: -10.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -4693,6 +4697,7 @@
 				""
 				"请查询各个机器对应的终极工厂的配方！"
 				"&b（注：是精英合成的那个）"
+				"部分机器（&e压射工厂、提纯工厂等&r）是由别的机器升级而来的，采用普通工作台配方，请注意甄别！"
 				""
 				"&a        下一页&r给出了8速度插件下各个机器的处理速度。16速下定间隔合成的机器（如熔炼工厂）速度为8插件下的10倍（每8插件速度X10）。"
 				"{@pagebreak}"
@@ -5559,6 +5564,7 @@
 			id: "33583C9BB8340D79"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "推主线需要的模组"
 			tasks: [{
 				id: "1BD2EC590B326894"
 				type: "checkmark"
@@ -6049,6 +6055,7 @@
 		}
 		{
 			dependencies: ["4CDB2DA2F4A83D47"]
+			description: ["      合成出化学灌注机后才能用mek路径合成这个"]
 			id: "63193AB2670E3F60"
 			rewards: [
 				{
@@ -6064,7 +6071,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "用mek还是沉浸？一切取决于你"
+			subtitle: "别说话，继续吃沉浸"
 			tasks: [{
 				id: "5EE8A968A47F1A54"
 				item: "kubejs:radical_initiator_bucket"
@@ -6127,7 +6134,7 @@
 				table_id: 1355798249144543854L
 				type: "choice"
 			}]
-			subtitle: "是的，你还需要推pnc"
+			subtitle: "完成PnC进度"
 			tasks: [
 				{
 					id: "6B7E2BCBA630C9B1"
@@ -6160,7 +6167,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "对的，热力也要推"
+			subtitle: "完成热力进度"
 			tasks: [{
 				id: "73CBF2F6C0DE6537"
 				item: "mekanism:steel_casing"
@@ -6171,6 +6178,11 @@
 		}
 		{
 			dependencies: ["63193AB2670E3F60"]
+			description: [
+				"      合成聚乙烯时会消耗巨量能量，你只能插入最多2个速度升级，否则机器缓存会不足以进行合成。"
+				""
+				"      后面有高级的能量插件后便可全速合成。"
+			]
 			id: "1273F559855B70AA"
 			rewards: [
 				{
@@ -6289,7 +6301,7 @@
 			description: [
 				"      用液态甲烷和硫酸在加压反应室里与高定向热解石墨反应就得到了石墨烯。"
 				""
-				"      什么？你问我可燃冰哪里来？它在&b天王星&r上，你需要先合成出碳板才能去那里。"
+				"      什么？你问我可燃冰哪里来？它在&b天王星&r上，你需要先合成出碳板或气动套装才能去那里。"
 			]
 			id: "3B5105F0BAB15E17"
 			rewards: [{
@@ -6312,6 +6324,7 @@
 				"3B5105F0BAB15E17"
 				"52384A09CCA55AFE"
 			]
+			description: ["可以用于合成压强抵抗装置，此后你便可以前往木星"]
 			id: "4008AC5BFBA33376"
 			rewards: [{
 				id: "19B74C46E081A9C1"
@@ -6398,7 +6411,7 @@
 			description: [
 				"     热力的三种粉可以通过倒转外星石（除了暴雪粉倒转不了）和生物自动化获取。"
 				""
-				"      推荐后者，因为气动刷怪笼有足够高的刷怪速率，通过模块化路由器用幸运拉满的宽刃镰处死能有很高的产量，再给磨粉机上个增产，就差不多了。"
+				"      推荐后者，因为&e气动刷怪笼&r有足够高的刷怪速率，通过模块化路由器用幸运拉满的宽刃镰处死能有很高的产量，再给磨粉机上个增产，就差不多了。"
 			]
 			id: "62CA6256D75A1A02"
 			rewards: [{

@@ -592,7 +592,7 @@
 							tic_stats: {
 								"tconstruct:armor": 6.6000004f
 								"tconstruct:armor_toughness": 1.1f
-								"tconstruct:durability": 2789.9998f
+								"tconstruct:durability": 990.00006f
 							}
 							tic_volatile_data: {
 								abilities: 2
@@ -637,7 +637,7 @@
 							tic_stats: {
 								"tconstruct:armor": 4.4f
 								"tconstruct:armor_toughness": 1.1f
-								"tconstruct:durability": 2417.9998f
+								"tconstruct:durability": 858.00006f
 							}
 							tic_volatile_data: {
 								abilities: 2
@@ -1180,7 +1180,7 @@
 					tic_stats: {
 						"tconstruct:attack_damage": 9.45f
 						"tconstruct:attack_speed": 0.9f
-						"tconstruct:durability": 724.5f
+						"tconstruct:durability": 409.5f
 						"tconstruct:harvest_tier": "minecraft:diamond"
 						"tconstruct:mining_speed": 6.825f
 					}
@@ -1712,7 +1712,11 @@
 				""
 				"&e首先你需要&c防火措施&r，最简单的就是一个叫&c岩浆瓶&r的东西，可以用&c岩浆块&r在匠魂炉&c熔炼后&r拿&e瓶子直接对着排液口右键&r获得，考虑到有人比较非，找不到岩浆块，所以我直接送你一瓶抗火吧"
 				""
-				"其次你需要有一套&a说得过去的装备&r，至少需要有&0黑曜石&r泡完&d火成&r,黑曜石是前期非常好用的装备，非常推荐你做一套"
+				"其次你需要有一套&a说得过去的装备&r，在护甲值看得过去的同时还需要提供一些机制减伤。&e硬铝、工匠青铜、强化荧石&r会是不错的选择。"
+				""
+				"护甲选择是一个很讲究的东西，由于MC伤害机制的特殊性，你需要均衡各项属性才能最大化收益，在本包还会有格挡，限伤，回复等属性，当他们结合在一起时候保护效果会更上一层楼"
+				""
+				"还有一些材料单走平平无奇，组合在一起可能会有独特的能力，比如黑曜石和黑曜石青铜，kemomimi和狐狸锭"
 				""
 				"最后你可以做一个&6盾牌&r，这样可以抵御&e弹射物&r"
 				"{@pagebreak}"
@@ -1866,9 +1870,9 @@
 		{
 			dependencies: ["71A49B6C2D816424"]
 			description: [
-				"真要是不想手动找&c下界堡垒&r,你可以前往实用物品章节去购买一个&a探险家指南针&r"
+				"真要是不想手动找&c下界堡垒&r,你可以前往亚马龙的游商章节去购买一个&a探险家指南针&r"
 				""
-				"&e只要5金币买不了吃亏买不了上当&r"
+				"&e只要3金币买不了吃亏买不了上当&r"
 			]
 			id: "0EEAE7B123B2FFCC"
 			rewards: [
@@ -2046,7 +2050,7 @@
 				""
 				"这一点看似没用，实则处理&c“加固板”&r等一系列&c需要流体浇筑物品的物品自动化&r的时候起着&c至关重要的作用&r"
 				""
-				"放置&e金栅栏或者金底座&r也可以空浇筑块之类的（&m&a但是这样我为何不用焦黑浇筑台）"
+				"放置&e金栏杆/金平台&r也可以空浇筑块之类的（&m&a但是这样我为何不用焦黑浇筑台）"
 			]
 			icon: "tconstruct:scorched_table"
 			id: "51E2E266AB33AF72"
@@ -2322,7 +2326,7 @@
 		{
 			dependencies: ["26CAE8F089150BDB"]
 			description: [
-				"      焦黑小屋是一个大号的冶炼炉控制器，在里面可以找到很多匠魂的起步物资，对前期发展帮助很大！"
+				"      焦黑小屋(Seared House)是一个大号的冶炼炉控制器，在里面可以找到很多匠魂的起步物资，对前期发展帮助很大！"
 				"      里面还会生成一只焦黑村民，提供了一些冶炼炉物资的交易。"
 			]
 			id: "4F958F7A546B8F90"
@@ -2361,7 +2365,7 @@
 		}
 		{
 			dependencies: ["71A49B6C2D816424"]
-			description: ["      与焦黑小屋差不多，焦褐小屋提供了熔铸炉的相关材料，此外里面还能找到钴、玛玉灵这种下界资源，以及少量烈焰血。也是必探结构之一！"]
+			description: ["      与焦黑小屋差不多，焦褐小屋(Scorched House)提供了熔铸炉的相关材料，此外里面还能找到钴、玛玉灵这种下界资源，以及少量烈焰血。也是必探结构之一！"]
 			id: "5001A4B8E6A4835F"
 			rewards: [
 				{

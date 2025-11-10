@@ -352,7 +352,7 @@
 		{
 			dependencies: ["48D6AB1041347A8D"]
 			description: ["      富集仓将铀锭/铀块富集成铀黄饼，将铀黄饼输入化学氧化机中变成氧化铀。"]
-			icon: "mekanism:enrichment_chamber"
+			icon: "mekanism:ultimate_enriching_factory"
 			id: "467497EE442E048C"
 			rewards: [{
 				id: "666DDE580275123C"
@@ -362,7 +362,7 @@
 			tasks: [
 				{
 					id: "2F44957863C50831"
-					item: "mekanism:enrichment_chamber"
+					item: "mekanism:ultimate_enriching_factory"
 					type: "item"
 				}
 				{

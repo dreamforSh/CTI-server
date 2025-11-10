@@ -622,35 +622,6 @@
 					}]
 				}
 				{
-					entryPrice: 500L
-					entryUUID: [I;
-						623307619
-						-1338553095
-						-1932944710
-						213383530
-					]
-					entryType: {
-						itemStack: {
-							id: "minecraft:netherite_ingot"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-				}
-				{
 					entryPrice: 2L
 					entryUUID: [I;
 						-624220876
@@ -946,6 +917,65 @@
 							Count: 1b
 						}
 						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 250L
+					entryUUID: [I;
+						-1694342517
+						1280197324
+						-1972497417
+						2075028302
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:clay"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 32
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 0L
+					entryUUID: [I;
+						-1829526200
+						-763739376
+						-2070203988
+						-579328450
+					]
+					entryType: {
+						advancement: "minecraft:story/root"
+						shopEntryTypeID: "advancementType"
+						iconPath: {
+							id: "minecraft:wheat"
+							Count: 1b
+						}
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1455,6 +1485,76 @@
 					]
 				}
 				{
+					entryPrice: 450L
+					entryUUID: [I;
+						-1708335076
+						1194871477
+						-1430662782
+						-138777623
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:magnet_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						1449866438
+						1269254690
+						-1314352870
+						1784898164
+					]
+					entryType: {
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
 					entryPrice: 200L
 					entryUUID: [I;
 						1425876841
@@ -1564,76 +1664,6 @@
 					entryType: {
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_feeding_upgrade"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-					]
-				}
-				{
-					entryPrice: 200L
-					entryUUID: [I;
-						-1708335076
-						1194871477
-						-1430662782
-						-138777623
-					]
-					entryType: {
-						itemStack: {
-							id: "sophisticatedbackpacks:magnet_upgrade"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-					]
-				}
-				{
-					entryPrice: 400L
-					entryUUID: [I;
-						1449866438
-						1269254690
-						-1314352870
-						1784898164
-					]
-					entryType: {
-						itemStack: {
-							id: "sophisticatedbackpacks:advanced_magnet_upgrade"
 							Count: 1b
 						}
 						shopEntryTypeID: "shopItemEntryType"
@@ -2460,6 +2490,64 @@
 						}
 					]
 				}
+				{
+					entryPrice: 3000L
+					entryUUID: [I;
+						-1174281654
+						-1757592669
+						-1586600790
+						574841312
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:flawless_budding_quartz"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 0L
+					entryUUID: [I;
+						363767447
+						899697423
+						-1330403561
+						-513229554
+					]
+					entryType: {
+						itemStack: {
+							id: "minecraft:air"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
 			]
 			tabLimit: [ ]
 			icon: {
@@ -3076,49 +3164,6 @@
 					]
 				}
 				{
-					entryPrice: 400L
-					entryUUID: [I;
-						-2071302117
-						-197636436
-						-1419868628
-						-896397476
-					]
-					entryType: {
-						itemStack: {
-							id: "ae2:fluix_covered_cable"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 64
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: "ME包层线缆"
-					entryCondition: [
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: ["048B42E1342DFC74"]
-							entryConditionID: "ftbquestConditions"
-						}
-					]
-				}
-				{
 					entryPrice: 500L
 					entryUUID: [I;
 						-1509022805
@@ -3290,6 +3335,64 @@
 							entryConditionID: "ftbquestConditions"
 						}
 					]
+				}
+				{
+					entryPrice: 100L
+					entryUUID: [I;
+						1514430355
+						-1977335310
+						-1955720795
+						-1325008429
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:fluix_smart_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-1782602163
+						720980952
+						-1648802484
+						1674660804
+					]
+					entryType: {
+						itemStack: {
+							id: "ae2:fluix_smart_dense_cable"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 5
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
 				}
 				{
 					entryPrice: 1000L

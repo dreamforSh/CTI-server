@@ -21,31 +21,7 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "l2complements:eternal"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
 						id: "l2complements:explosion_reject"
-						lvl: 1s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "l2complements:invincible"
 						lvl: 1s
 					}]
 				}

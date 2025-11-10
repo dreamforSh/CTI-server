@@ -1790,46 +1790,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1FA523662EB0EEEB"]
-			description: [
-				"&b非进度目标&r"
-				"恐蚁族初始中立，可以通过将蚁脂给予恐蚁劳工以增加其族对玩家的信任度，信任度到达一定程度会隶属于玩家门下，同时女皇开放恐蚁商店"
-			]
-			hide: true
-			icon: "iceandfire:myrmex_desert_swarm"
-			id: "7E666CD270F444DF"
-			rewards: [{
-				id: "4028C6E77A56204B"
-				item: "lightmanscurrency:coin_emerald"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "6D50D51F1724A1DD"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "iceandfire:myrmex_jungle_swarm"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:myrmex_desert_swarm"
-							}
-						]
-					}
-				}
-				title: "友谊的证明"
-				type: "item"
-			}]
-			title: "与恐蚁女皇结盟"
-			x: 4.5d
-			y: 8.5d
-		}
-		{
 			dependencies: ["6B5AE157E562DB3E"]
 			description: ["玩笑般的世界深藏着无人察觉的暗流"]
 			hide: true
@@ -2165,14 +2125,14 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "circle"
 			tasks: [{
 				entity: "iceandfire:myrmex_queen"
 				id: "5FE0413865B02590"
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 8.5d
 		}
 		{

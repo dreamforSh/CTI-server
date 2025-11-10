@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "aquaculture:driftwood"
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "solidarytinker:houguoyu",
+  "tools": {
+    "item": "solidarytinker:electric_batons"
+  }
+}

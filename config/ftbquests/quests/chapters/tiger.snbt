@@ -110,7 +110,6 @@
 			y: -2.0d
 		}
 		{
-			can_repeat: true
 			dependency_requirement: "one_started"
 			description: ["送你点好吃的代替吧"]
 			icon: "solidarytinker:starfall_ingot"

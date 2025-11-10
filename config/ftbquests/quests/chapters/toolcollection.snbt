@@ -1,0 +1,5423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toolcollection"
+	group: "5B9406893C138689"
+	icon: {
+		Count: 1b
+		id: "tinkers_reforged:greatsword"
+		tag: {
+			Damage: 0
+			tic_broken: 0b
+			tic_materials: [
+				"etshtinker:trinity_intereactive_alloy"
+				"etshtinker:trinity_intereactive_alloy"
+				"etshtinker:trinity_intereactive_alloy"
+			]
+			tic_modifiers: [
+				{
+					level: 3
+					name: "etshtinker:trinityblessing"
+				}
+				{
+					level: 9
+					name: "cti:refined"
+				}
+				{
+					level: 3
+					name: "etshtinker:trinitycurse"
+				}
+				{
+					level: 1
+					name: "tinkers_reforged:greatsword_mod"
+				}
+			]
+			tic_multipliers: {
+				"tconstruct:attack_speed": 0.4f
+				"tconstruct:durability": 1.1f
+				"tconstruct:mining_speed": 0.5f
+			}
+			tic_persistent: { }
+			tic_stats: {
+				"etshtinker:fluid_efficiency": 8.84918f
+				"etshtinker:plasmarange": 8.84918f
+				"tconstruct:attack_damage": 2048.0f
+				"tconstruct:attack_speed": 263.44363f
+				"tconstruct:block_amount": 44.245903f
+				"tconstruct:block_angle": 180.0f
+				"tconstruct:durability": 53856.63f
+				"tconstruct:harvest_tier": "minecraft:netherite"
+				"tconstruct:mining_speed": 2048.0f
+			}
+			tic_volatile_data: {
+				abilities: 11
+				upgrades: 11
+			}
+		}
+	}
+	id: "1EE7D7975002670A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["此处&e星&r&d野&r&b钢&r和&a奇迹物质&r只是为了好看"]
+			icon: {
+				Count: 1b
+				id: "tinkers_ingenuity:gscore"
+				tag: {
+					Material: "tinkers_ingenuity:infinity_material"
+				}
+			}
+			id: "47196844B0DF17A5"
+			rewards: [{
+				id: "1305CCAE18B3B10D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "什么材质工具都可以"
+			tasks: [{
+				id: "312E987150BBF20D"
+				type: "checkmark"
+			}]
+			title: "工具大全"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:tinker_station"
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			id: "70A14DAABD975471"
+			rewards: [{
+				id: "03DA7AF7CAC8F005"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16637AD20429B769"
+				title: "工匠站就可以合成的"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"激流和风雨无阻强化使之变为一大赶路神器，同时也很好玩。"
+				""
+				"伤害：很高"
+				""
+				"攻速：较慢"
+				""
+				"远程伤害：高"
+				""
+				"远程射速：慢"
+				""
+				"造价：中"
+			]
+			icon: {
+				Count: 1b
+				id: "solidarytinker:trident"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "solidarytinker:seabless"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.4f
+						"tconstruct:attack_speed": 0.8f
+						"tconstruct:durability": 1.1f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 39.2f
+						"tconstruct:attack_speed": 2.6880004f
+						"tconstruct:durability": 7903.72f
+					}
+					tic_volatile_data: {
+						abilities: 5
+						upgrades: 5
+					}
+				}
+			}
+			id: "58CFEDF6B1DD05BD"
+			rewards: [{
+				count: 3
+				id: "3A189C9492EAF2E8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "冲刺，冲，冲，冲"
+			tasks: [{
+				id: "4D5A5052F216F272"
+				item: {
+					Count: 1b
+					id: "solidarytinker:trident"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "solidarytinker:seabless"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.4f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 1.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 39.2f
+							"tconstruct:attack_speed": 2.6880004f
+							"tconstruct:durability": 7903.72f
+						}
+						tic_volatile_data: {
+							abilities: 5
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"最普通的剑，携带着你的梦想和它一起踏上征程吧"
+				""
+				"伤害：中"
+				""
+				"攻速：中"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:sword"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 19.800001f
+						"tconstruct:attack_speed": 3.5200002f
+						"tconstruct:durability": 6011.2803f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 4.05f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "36D970A6B8A24E1C"
+			rewards: [{
+				count: 3
+				id: "0F29CEC178267F82"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "原汁原味"
+			tasks: [{
+				id: "4302B7A477F92590"
+				item: {
+					Count: 1b
+					id: "tconstruct:sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 19.800001f
+							"tconstruct:attack_speed": 3.5200002f
+							"tconstruct:durability": 6011.2803f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 4.05f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"公认的开局必做武器之一，高攻速和手长为前期带来了更大的生存空间，同时数值上也很能看。"
+				""
+				"此武器面板依赖较高，材料数值波动大"
+				""
+				"伤害：较高"
+				""
+				"攻速：较快"
+				""
+				"造价：低"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_reforged:longsword"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tinkers_reforged:longsword_mod"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 30.6f
+						"tconstruct:attack_speed": 5.44f
+						"tconstruct:durability": 9796.161f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.6000004f
+					}
+					tic_volatile_data: {
+						abilities: 5
+						upgrades: 5
+					}
+				}
+			}
+			id: "2A507E0EDCDC0D6A"
+			rewards: [{
+				count: 3
+				id: "01BF64D9D27C7F26"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "高攻速和长距离！缺点是三部件。"
+			tasks: [{
+				id: "72C5998158A48774"
+				item: {
+					Count: 1b
+					id: "tinkers_reforged:longsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tinkers_reforged:longsword_mod"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 30.6f
+							"tconstruct:attack_speed": 5.44f
+							"tconstruct:durability": 9796.161f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 6.6000004f
+						}
+						tic_volatile_data: {
+							abilities: 5
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			description: ["持有时（主手或副手）+110%伤害，减少0.3攻击速度。"]
+			icon: {
+				Count: 1b
+				id: "tinkers_reforged:greatsword"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tinkers_reforged:greatsword_mod"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 0.4f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 34.0f
+						"tconstruct:attack_speed": 1.4960002f
+						"tconstruct:durability": 9796.161f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.6000004f
+					}
+					tic_volatile_data: {
+						abilities: 5
+						upgrades: 5
+					}
+				}
+			}
+			id: "0B302A6DDD813BFC"
+			rewards: [{
+				count: 3
+				id: "65273C84E486EC45"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "数值怪2号"
+			tasks: [{
+				id: "1C69746B6DC0447D"
+				item: {
+					Count: 1b
+					id: "tinkers_reforged:greatsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tinkers_reforged:greatsword_mod"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 0.4f
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 34.0f
+							"tconstruct:attack_speed": 1.4960002f
+							"tconstruct:durability": 9796.161f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 6.6000004f
+						}
+						tic_volatile_data: {
+							abilities: 5
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"原版添加的一种近战武器，一次出两把，但是面板很差劲，好在可以放在副手使用，不过能力仍然堪忧，或许优点就是便宜"
+				""
+				"伤害：很低"
+				""
+				"攻速：较快"
+				""
+				"造价：极低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:dagger"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:offhand_attack"
+						}
+						{
+							level: 1
+							name: "tconstruct:padded"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.65f
+						"tconstruct:durability": 0.75f
+						"tconstruct:mining_speed": 0.75f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 12.87f
+						"tconstruct:attack_speed": 4.4f
+						"tconstruct:block_amount": 10.0f
+						"tconstruct:durability": 4098.6f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.0750003f
+						"tconstruct:use_item_speed": 1.0f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						"tconstruct:duel_wielding": 1b
+						upgrades: 5
+					}
+				}
+			}
+			id: "3E40D0FC766068DB"
+			rewards: [{
+				count: 3
+				id: "291F2201FA7CCBAB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "我戳戳戳"
+			tasks: [{
+				id: "0BF7ABFCB99A1931"
+				item: {
+					Count: 1b
+					id: "tconstruct:dagger"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:offhand_attack"
+							}
+							{
+								level: 1
+								name: "tconstruct:padded"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 0.75f
+							"tconstruct:mining_speed": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 12.87f
+							"tconstruct:attack_speed": 4.4f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 4098.6f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 6.0750003f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							"tconstruct:duel_wielding": 1b
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"可以同时当稿子和斧子使用，同时对村民还有特攻效果，准确说是对长得像村民的有特攻效果"
+				""
+				"伤害：略高"
+				""
+				"攻速：慢"
+				""
+				"造价：低"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_thinking:paxel"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:killager"
+						}
+						{
+							level: 1
+							name: "tconstruct:axe_scrape"
+						}
+						{
+							level: 1
+							name: "tconstruct:stripping"
+						}
+						{
+							level: 1
+							name: "tconstruct:axe_wax_off"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.25f
+						"tconstruct:mining_speed": 0.8f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 23.1f
+						"tconstruct:attack_speed": 2.42f
+						"tconstruct:durability": 6831.0005f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.4800005f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "73C6A240AF7C1967"
+			rewards: [{
+				count: 3
+				id: "00C85CFC23374AB5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "多功能工具"
+			tasks: [{
+				id: "6F588F5D97E339FF"
+				item: {
+					Count: 1b
+					id: "tinkers_thinking:paxel"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:killager"
+							}
+							{
+								level: 1
+								name: "tconstruct:axe_scrape"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+							{
+								level: 1
+								name: "tconstruct:axe_wax_off"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 23.1f
+							"tconstruct:attack_speed": 2.42f
+							"tconstruct:durability": 6831.0005f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 6.4800005f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"最基础的稿子，但是却很顺手，因为绑定结可以塞远古兽皮等附件，所以它比你想象的要好用得多"
+				""
+				"伤害：低"
+				""
+				"攻速：较慢"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:pickaxe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 15.400001f
+						"tconstruct:attack_speed": 2.64f
+						"tconstruct:durability": 5464.8003f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 8.1f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "31F86E6A79FA7A0E"
+			rewards: [{
+				count: 3
+				id: "4E17C9D3E5FF6300"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "原汁原味"
+			tasks: [{
+				id: "5C32FCBDC878EA34"
+				item: {
+					Count: 1b
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 15.400001f
+							"tconstruct:attack_speed": 2.64f
+							"tconstruct:durability": 5464.8003f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 8.1f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"最普通的斧子，有剥树皮的功能，主打一个原汁原味"
+				""
+				"原版斧子是不错的武器，手感很棒"
+				""
+				"伤害：较高"
+				""
+				"攻速：慢"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:hand_axe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:stripping"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 26.400002f
+						"tconstruct:attack_speed": 1.98f
+						"tconstruct:durability": 5464.8003f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 8.1f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "2CB8142FDB3E0ECE"
+			rewards: [{
+				count: 3
+				id: "778E83974C6C1F7C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "最普通的斧子"
+			tasks: [{
+				id: "54EC598A71523589"
+				item: {
+					Count: 1b
+					id: "tconstruct:hand_axe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 26.400002f
+							"tconstruct:attack_speed": 1.98f
+							"tconstruct:durability": 5464.8003f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 8.1f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"大多数时候把他当剪子和不能耕地的锄头来看就好了"
+				""
+				"前期采集蜘蛛网用它很顺手"
+				""
+				"伤害：极低"
+				""
+				"攻速：中"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:kama"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 7.7000003f
+						"tconstruct:attack_speed": 3.5200002f
+						"tconstruct:durability": 5464.8003f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 8.1f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "48E7B0E0A1AD4ABF"
+			rewards: [{
+				count: 3
+				id: "3E63C12888367FF2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "你以为他是锄头，其实他是剪刀加收菜用的"
+			tasks: [{
+				id: "12BF678528846345"
+				item: {
+					Count: 1b
+					id: "tconstruct:kama"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 7.7000003f
+							"tconstruct:attack_speed": 3.5200002f
+							"tconstruct:durability": 5464.8003f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 8.1f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"可以当稿子和铲子一起用，自带对苦力怕等截肢生物特攻，但是要注意，他的挖掘等级被锁定在了金"
+				""
+				"伤害：略低"
+				""
+				"攻速：较慢"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:pickadze"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:pathing"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.15f
+						"tconstruct:durability": 1.3f
+						"tconstruct:mining_speed": 0.75f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 16.445f
+						"tconstruct:attack_speed": 2.86f
+						"tconstruct:durability": 7104.24f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.0750003f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "285BF3A8D61710CA"
+			rewards: [{
+				count: 3
+				id: "3F25CBBC285030A7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "235592B3D52AB5AE"
+				item: {
+					Count: 1b
+					id: "tconstruct:pickadze"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:pathing"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.15f
+							"tconstruct:durability": 1.3f
+							"tconstruct:mining_speed": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 16.445f
+							"tconstruct:attack_speed": 2.86f
+							"tconstruct:durability": 7104.24f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 6.0750003f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"和原版铲子并无二至"
+				""
+				"伤害：略低"
+				""
+				"攻速：较慢"
+				""
+				"造价：极低"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_things:shovel"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:knockback"
+						}
+						{
+							level: 1
+							name: "tconstruct:pathing"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 16.5f
+						"tconstruct:attack_speed": 2.2f
+						"tconstruct:durability": 5464.8003f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 8.1f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						upgrades: 7
+					}
+				}
+			}
+			id: "65A57F1C5468522B"
+			rewards: [{
+				count: 3
+				id: "4B367CA6E96DA171"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "原汁原味"
+			tasks: [{
+				id: "788A97E48DE22512"
+				item: {
+					Count: 1b
+					id: "tinkers_things:shovel"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:knockback"
+							}
+							{
+								level: 1
+								name: "tconstruct:pathing"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 16.5f
+							"tconstruct:attack_speed": 2.2f
+							"tconstruct:durability": 5464.8003f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 8.1f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 7
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"乍一看外表你不会以外它伤害比匕首还低吧"
+				""
+				"实际上确实也就切菜用用，毕竟谁家厨子拿着小刀战斗呢"
+				""
+				"伤害：略低"
+				""
+				"攻速：中"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_thinking:knife"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:antiaquatic"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:durability": 0.8f
+						"tconstruct:mining_speed": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 16.72f
+						"tconstruct:attack_speed": 3.96f
+						"tconstruct:durability": 4371.8403f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 9.720001f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "2C598637577CC78A"
+			rewards: [{
+				count: 3
+				id: "6EC59080C1F737B7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "沃趣，是厨房领域大神"
+			tasks: [{
+				id: "7180F31EBF57C080"
+				item: {
+					Count: 1b
+					id: "tinkers_thinking:knife"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:antiaquatic"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:durability": 0.8f
+							"tconstruct:mining_speed": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 16.72f
+							"tconstruct:attack_speed": 3.96f
+							"tconstruct:durability": 4371.8403f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 9.720001f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"能耕地的斧子"
+				""
+				"或许这样形容更加简单通透吧"
+				""
+				"伤害：中"
+				""
+				"攻速：慢"
+				""
+				"造价：很低"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:mattock"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.1f
+						"tconstruct:durability": 1.25f
+						"tconstruct:mining_speed": 1.1f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 18.15f
+						"tconstruct:attack_speed": 1.98f
+						"tconstruct:durability": 6831.0005f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 8.910001f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "120D7E84D7FBF8FB"
+			rewards: [{
+				count: 3
+				id: "27446DE761AC7C63"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "这是什么"
+			tasks: [{
+				id: "3BB7BFA304FB1ABD"
+				item: {
+					Count: 1b
+					id: "tconstruct:mattock"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 1.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 18.15f
+							"tconstruct:attack_speed": 1.98f
+							"tconstruct:durability": 6831.0005f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 8.910001f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"拉弓速更快的弓，代价是箭矢初速度略低"
+				""
+				"具体怎样自己权衡吧，毕竟这个还少了一个部件"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_things:shortbow"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"tconstruct:string"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:stringy"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:velocity": 0.8f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:draw_speed": 1.6f
+						"tconstruct:durability": 4168.0f
+						"tconstruct:use_item_speed": 0.8f
+						"tconstruct:velocity": 13.6f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						upgrades: 5
+					}
+				}
+			}
+			id: "24BABA5BD98410DE"
+			rewards: [{
+				count: 3
+				id: "7AFBFF65DD31E029"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "这个其实不是原版弓手感"
+			tasks: [{
+				id: "5F1D380BA84AF7DD"
+				item: {
+					Count: 1b
+					id: "tinkers_things:shortbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"tconstruct:string"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:velocity": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:draw_speed": 1.6f
+							"tconstruct:durability": 4168.0f
+							"tconstruct:use_item_speed": 0.8f
+							"tconstruct:velocity": 13.6f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"会根据你的瞬时加速度增加伤害，这个加成其实远超你的想象"
+				""
+				"在1.19也能玩到重锤了，欧耶"
+				""
+				"其重锤核心可以查看配方合成，或发现于古城核心区"
+				""
+				"伤害：较高"
+				""
+				"攻速：极低"
+				""
+				"造价：核心阶段性材料制作，边角料造价极低"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_thinking:mace"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tinkers_thinking:falling_attack"
+						}
+						{
+							level: 1
+							name: "tinkers_thinking:repulsive"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 0.8f
+						"tconstruct:mining_speed": 1.4f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 26.400002f
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:durability": 4371.8403f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 11.34f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						upgrades: 5
+					}
+				}
+			}
+			id: "2410D68A480617DA"
+			rewards: [{
+				count: 3
+				id: "70108397D4605C0C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "和带加速度效果的材料配合有奇效"
+			tasks: [{
+				id: "3F585B4EB4C593F7"
+				item: {
+					Count: 1b
+					id: "tinkers_thinking:mace"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tinkers_thinking:falling_attack"
+							}
+							{
+								level: 1
+								name: "tinkers_thinking:repulsive"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 0.8f
+							"tconstruct:mining_speed": 1.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 26.400002f
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:durability": 4371.8403f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 11.34f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"需要传送核心才能制作"
+				""
+				"shift-右键绑定位置，右键将自己传送至该位置（不能跨纬度）、"
+				""
+				"左键生物在攻击的同时将生物传送至绑定位置"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkersinnovation:teleport_staff"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tinkersinnovation:teleport"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.75f
+						"tconstruct:durability": 1.25f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 9.900001f
+						"tconstruct:attack_speed": 2.2f
+						"tconstruct:durability": 6831.0005f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 4.05f
+						"tconstruct:use_item_speed": 1.0f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						upgrades: 4
+					}
+				}
+			}
+			id: "48C0EC74496729B1"
+			rewards: [{
+				count: 3
+				id: "087AC5B356DB5D41"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "这个严格意义上不是武器"
+			tasks: [{
+				id: "7B089304C7D803FE"
+				item: {
+					Count: 1b
+					id: "tinkersinnovation:teleport_staff"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tinkersinnovation:teleport"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 9.900001f
+							"tconstruct:attack_speed": 2.2f
+							"tconstruct:durability": 6831.0005f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 4.05f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 4
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tinkers_ingenuity:blowpipe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"tconstruct:string"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:stringy"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 6.0f
+						"tconstruct:draw_speed": 1.3f
+						"tconstruct:durability": 8602.2f
+						"tconstruct:velocity": 9.0f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						upgrades: 5
+					}
+				}
+			}
+			id: "3824DEC6E09B7DAB"
+			rewards: [{
+				count: 3
+				id: "564300B8DB56DF7C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "轮椅类武器，强度不高但是手感极佳"
+			tasks: [{
+				id: "4C4FB1B3F97A6E69"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:blowpipe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"tconstruct:string"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 6.0f
+							"tconstruct:draw_speed": 1.3f
+							"tconstruct:durability": 8602.2f
+							"tconstruct:velocity": 9.0f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			description: ["持有时（主手或副手）+4攻击距离。"]
+			icon: {
+				Count: 1b
+				id: "tinkers_ingenuity:lograzor"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 4
+							name: "tconstruct:reach"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 23.75f
+						"tconstruct:attack_speed": 3.25f
+						"tconstruct:durability": 9487.5f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "47A51426839E70BC"
+			rewards: [{
+				count: 3
+				id: "1BBECD80F7BD91CA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "手最长的一集"
+			tasks: [{
+				id: "66867A407CCDF518"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:lograzor"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 4
+								name: "tconstruct:reach"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 23.75f
+							"tconstruct:attack_speed": 3.25f
+							"tconstruct:durability": 9487.5f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			description: ["      高攻速高伤害的同时能使伤害100%穿甲，不过鉴于本包有不少破甲手段所以主要优势区间在于前中期。当然对于喜欢高攻速的人而言也值得一看。"]
+			icon: {
+				Count: 1b
+				id: "tinkers_ingenuity:rapier"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tinkers_ingenuity:puncture"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.65f
+						"tconstruct:durability": 1.25f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 18.59f
+						"tconstruct:attack_speed": 4.62f
+						"tconstruct:durability": 11954.25f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "27798315C8AEEAE9"
+			rewards: [{
+				count: 3
+				id: "0328A3622D02AEE6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "100%穿甲"
+			tasks: [{
+				id: "6BEBE390BF66D057"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:rapier"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:puncture"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 1.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 18.59f
+							"tconstruct:attack_speed": 4.62f
+							"tconstruct:durability": 11954.25f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tinkers_ingenuity:battlesign"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tinkers_ingenuity:rebound"
+						}
+						{
+							level: 1
+							name: "tconstruct:blocking"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.3f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 15.84f
+						"tconstruct:attack_speed": 2.2f
+						"tconstruct:block_amount": 100.0f
+						"tconstruct:block_angle": 150.0f
+						"tconstruct:durability": 7104.24f
+						"tconstruct:use_item_speed": 0.6f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						upgrades: 5
+					}
+				}
+			}
+			id: "29FE4DC8F3F01001"
+			rewards: [{
+				count: 3
+				id: "7D1559A62614781A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C0AFD3F0F0CCA24"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:battlesign"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:rebound"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 15.84f
+							"tconstruct:attack_speed": 2.2f
+							"tconstruct:block_amount": 100.0f
+							"tconstruct:block_angle": 150.0f
+							"tconstruct:durability": 7104.24f
+							"tconstruct:use_item_speed": 0.6f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"从背后攻击时伤害更高"
+				""
+				"可以增加移动速度，也可以右键格挡"
+				""
+				"放在副手时攻击有奇效，可以根据触及半径增加攻击距离"
+			]
+			icon: {
+				Count: 1b
+				id: "tinkers_ingenuity:bowieknife"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "solidarytinker:neverend"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
+						{
+							level: 3
+							name: "solidarytinker:tacticsattack"
+						}
+						{
+							level: 1
+							name: "tconstruct:parrying"
+						}
+						{
+							level: 1
+							name: "tinkers_ingenuity:back_attack"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:attack_speed": 1.75f
+						"tconstruct:durability": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 15.840001f
+						"tconstruct:attack_speed": 4.4275f
+						"tconstruct:durability": 6557.7607f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						"tconstruct:duel_wielding": 1b
+						upgrades: 6
+					}
+				}
+			}
+			id: "597151D55B8ED09F"
+			rewards: [{
+				count: 3
+				id: "4F38C7BADC7AE2F4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF8B9D44FDC77DF"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:bowieknife"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 1
+								name: "tconstruct:parrying"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:back_attack"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 1.75f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 15.840001f
+							"tconstruct:attack_speed": 4.4275f
+							"tconstruct:durability": 6557.7607f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							"tconstruct:duel_wielding": 1b
+							upgrades: 6
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"虽然只有两个部件在配装上有点尴尬，但是它有2倍的部件倍率（2倍的护甲值、护甲韧性和击退抗性）。"
+				""
+				"适合前期过渡。"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:plate_chestplate"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 2
+							name: "solidarytinker:absolutejustice"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsprotect"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.4f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor": 20.0f
+						"tconstruct:armor_toughness": 14.0f
+						"tconstruct:durability": 3896.0f
+						"tconstruct:knockback_resistance": 0.4f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						defense: 4
+						upgrades: 4
+					}
+				}
+			}
+			id: "6178F55F0E1EECFB"
+			rewards: [{
+				count: 3
+				id: "32F2338BD482902F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "2部件的数值向护甲"
+			tasks: [
+				{
+					id: "63C145481DFB43BC"
+					item: {
+						Count: 1b
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"solidarytinker:starfall"
+								"solidarytinker:starfall"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "solidarytinker:sandstrom"
+								}
+								{
+									level: 2
+									name: "solidarytinker:absolutejustice"
+								}
+								{
+									level: 2
+									name: "solidarytinker:tacticsprotect"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 10.0f
+								"tconstruct:armor_toughness": 8.0f
+								"tconstruct:durability": 2048.0f
+								"tconstruct:knockback_resistance": 0.4f
+							}
+							tic_volatile_data: {
+								abilities: 3
+								defense: 4
+								upgrades: 4
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "6A85FB8305B94585"
+					item: {
+						Count: 1b
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"solidarytinker:starfall"
+								"solidarytinker:starfall"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "solidarytinker:sandstrom"
+								}
+								{
+									level: 2
+									name: "solidarytinker:absolutejustice"
+								}
+								{
+									level: 2
+									name: "solidarytinker:tacticsprotect"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 20.0f
+								"tconstruct:armor_toughness": 14.0f
+								"tconstruct:durability": 3896.0f
+								"tconstruct:knockback_resistance": 0.4f
+							}
+							tic_volatile_data: {
+								abilities: 3
+								defense: 4
+								upgrades: 4
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "74F5A213B35F4C33"
+					item: {
+						Count: 1b
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"solidarytinker:starfall"
+								"solidarytinker:starfall"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "solidarytinker:sandstrom"
+								}
+								{
+									level: 2
+									name: "solidarytinker:absolutejustice"
+								}
+								{
+									level: 2
+									name: "solidarytinker:tacticsprotect"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 14.0f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:durability": 3120.0f
+								"tconstruct:knockback_resistance": 0.4f
+							}
+							tic_volatile_data: {
+								abilities: 3
+								defense: 4
+								upgrades: 4
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "23CF5401AC2BCE4D"
+					item: {
+						Count: 1b
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"solidarytinker:starfall"
+								"solidarytinker:starfall"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "solidarytinker:sandstrom"
+								}
+								{
+									level: 2
+									name: "solidarytinker:absolutejustice"
+								}
+								{
+									level: 2
+									name: "solidarytinker:tacticsprotect"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 10.0f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:durability": 2270.0f
+								"tconstruct:knockback_resistance": 0.4f
+							}
+							tic_volatile_data: {
+								abilities: 3
+								defense: 4
+								upgrades: 4
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "镶板护甲"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tinkers_thinking:tinkers_bronze_block"
+				}
+			}
+			id: "4EB2234C2A071FFD"
+			rewards: [{
+				id: "2EB40442585EA2C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "169B9FF7DBC46586"
+				title: "需要工匠砧才能合成的"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:plate_shield"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bamboo"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 1
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 1
+							name: "solidarytinker:absolutejustice"
+						}
+						{
+							level: 1
+							name: "solidarytinker:tacticsprotect"
+						}
+						{
+							level: 1
+							name: "tconstruct:blocking"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor_toughness": 5.0f
+						"tconstruct:block_amount": 100.0f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 1200.0f
+						"tconstruct:knockback_resistance": 0.4f
+						"tconstruct:use_item_speed": 0.3f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 4
+						upgrades: 3
+					}
+				}
+			}
+			id: "2E3C4014337A13BC"
+			rewards: [{
+				count: 3
+				id: "68E1352F23E18E4A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "128EEA667216DC23"
+				item: {
+					Count: 1b
+					id: "tconstruct:plate_shield"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bamboo"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 1
+								name: "solidarytinker:absolutejustice"
+							}
+							{
+								level: 1
+								name: "solidarytinker:tacticsprotect"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 5.0f
+							"tconstruct:block_amount": 100.0f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1200.0f
+							"tconstruct:knockback_resistance": 0.4f
+							"tconstruct:use_item_speed": 0.3f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 3
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tinkers_things:laminar_shield"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"solidarytinker:starfall"
+						"solidarytinker:starfall"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 2
+							name: "solidarytinker:absolutejustice"
+						}
+						{
+							level: 2
+							name: "solidarytinker:tacticsprotect"
+						}
+						{
+							level: 1
+							name: "tconstruct:blocking"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor_toughness": 6.0f
+						"tconstruct:block_amount": 40.0f
+						"tconstruct:block_angle": 130.0f
+						"tconstruct:durability": 1800.0f
+						"tconstruct:knockback_resistance": 0.4f
+						"tconstruct:use_item_speed": 0.4f
+					}
+					tic_volatile_data: {
+						abilities: 3
+						defense: 2
+						upgrades: 5
+					}
+				}
+			}
+			id: "0CD249E72791E40B"
+			rewards: [{
+				count: 3
+				id: "412D3A54C0EB0275"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "645971FCBE3306A3"
+				item: {
+					Count: 1b
+					id: "tinkers_things:laminar_shield"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 2
+								name: "solidarytinker:absolutejustice"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsprotect"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 6.0f
+							"tconstruct:block_amount": 40.0f
+							"tconstruct:block_angle": 130.0f
+							"tconstruct:durability": 1800.0f
+							"tconstruct:knockback_resistance": 0.4f
+							"tconstruct:use_item_speed": 0.4f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							defense: 2
+							upgrades: 5
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"手感最佳的近战武器之一，当然开局是做不了的。"
+				""
+				"离子刀以极低的伤害换来了高攻速以及所谓的“真实横扫”。"
+				""
+				"同时约束场发生器和燃料拓宽了伤害计算的维度，是个低下限高上限的武器。"
+				""
+				"约束等离子阔剑使用的是冶炼炉燃料，记得与离子化射线炮区分！     "
+			]
+			id: "6937D29D6EC312C3"
+			rewards: [{
+				count: 3
+				id: "511CF171627FF6D5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "范围攻击+多次判定+燃料增伤+高攻速"
+			tasks: [{
+				id: "676FB1227257FE19"
+				item: {
+					Count: 1b
+					id: "etshtinker:constrained_plasma_saber"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 5
+								name: "tconstruct:tank"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:durability": 2.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"etshtinker:critical_rate": 1.28f
+							"etshtinker:damagemultiplier": 191.57187f
+							"etshtinker:fluid_efficiency": 100.0f
+							"etshtinker:slash_color": 10.0f
+							"tconstruct:attack_damage": 195.36966f
+							"tconstruct:attack_speed": 242.27107f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 874852.3f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 308.68515f
+							"tconstruct:tank_capacity": 9005000.0f
+						}
+						tic_volatile_data: {
+							abilities: 17
+							"tconstruct:total_tanks": 1
+							upgrades: 23
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "约束等离子阔剑"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"伤害极高的范围攻击武器，是对群最优解。"
+				""
+				"离子化射线炮拥有流体效果这个特殊的维度，导致它既可以具有强辅助性也可以具有强进攻性。不过更昂贵的流体考验你的自动化能力"
+				""
+				"离子化射线炮的弹药可以用JEI查看（对着工具查询配方即可）"
+			]
+			id: "5B5C98238E12F3FC"
+			rewards: [{
+				count: 3
+				id: "568C95D8A06B5423"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "极致伤害+极致昂贵+超大范围+炫酷特效（大嘘）"
+			tasks: [{
+				id: "116BEDC1602A5DA4"
+				item: {
+					Count: 1b
+					id: "etshtinker:ionized_cannon"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "etshtinker:miracle_catalyst"
+							}
+							{
+								level: 5
+								name: "tconstruct:tank"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.45f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 1.55f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"etshtinker:cooldown": 10.0f
+							"etshtinker:damagemultiplier": 187.08191f
+							"etshtinker:plasmarange": 70.0f
+							"tconstruct:attack_damage": 674.887f
+							"tconstruct:attack_speed": 127.2157f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1461381.9f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 876.9465f
+							"tconstruct:tank_capacity": 9005000.0f
+						}
+						tic_volatile_data: {
+							abilities: 14
+							"tconstruct:total_tanks": 1
+							upgrades: 21
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "离子化射线炮"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: ["暴击（跳劈等）造成200%伤害。"]
+			id: "52307FF1D7E65438"
+			rewards: [{
+				count: 3
+				id: "069187C8954D2674"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF2F882A7AA830E"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:violent"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.65f
+							"tconstruct:durability": 3.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1599.2784f
+							"tconstruct:attack_speed": 72.026535f
+							"tconstruct:durability": 6116853.5f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			description: ["      有+3的触及半径和适中的攻击速度和伤害，同时4个部件任您支配，对于喜欢手长的人而言是前中期的不二之选。"]
+			id: "3DEB5B59A5EB27F6"
+			rewards: [{
+				count: 3
+				id: "230B570AA25A4617"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "呱，是reach仙人！"
+			tasks: [{
+				id: "68FB7EB09644805F"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:halberd"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 3
+								name: "tconstruct:reach"
+							}
+							{
+								level: 2
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 495.11227f
+							"tconstruct:attack_speed": 74.83276f
+							"tconstruct:durability": 1433533.9f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["      有+2的触及半径和中高的攻击速度和伤害"]
+			id: "1905C737A2218285"
+			rewards: [{
+				count: 3
+				id: "5941DA06D56A88B2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F748347FEE04AA3"
+				item: {
+					Count: 1b
+					id: "tinkers_things:halberd"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tinkers_things:range"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 2.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 672.6179f
+							"tconstruct:attack_speed": 104.76587f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1429913.8f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"数值怪，除了5部件与较高的基础数值外没有任何其它特性。"
+				""
+				"前期若材料充裕则也比较推荐。"
+			]
+			id: "05167D430988F25F"
+			rewards: [{
+				count: 3
+				id: "6C32FF3424038674"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "极少数的5部件工具，同时伤害很高"
+			tasks: [{
+				id: "6B1C14E8357AD87A"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:greatsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.4f
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:durability": 2.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1332.8184f
+							"tconstruct:attack_speed": 108.03981f
+							"tconstruct:durability": 4385069.0f
+						}
+						tic_volatile_data: {
+							abilities: 16
+							upgrades: 22
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"拥有四个部件，攻速较快"
+				""
+				"主副手持有利爪时可以同时攻击"
+				""
+				"主副手持有利爪+1触及半径"
+			]
+			id: "1C0BC014D8178D0B"
+			rewards: [{
+				count: 3
+				id: "346076C54B8D5BF0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F30F276EEEB21A3"
+				item: {
+					Count: 1b
+					id: "tinkersinnovation:claw"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:offhand_attack"
+							}
+							{
+								level: 1
+								name: "tinkersinnovation:double_attack"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.9f
+							"tconstruct:durability": 0.75f
+							"tconstruct:mining_speed": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 478.07614f
+							"tconstruct:attack_speed": 261.91467f
+							"tconstruct:block_amount": 187.08191f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 714956.9f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 694.54156f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							"tconstruct:duel_wielding": 1b
+							upgrades: 19
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"      每次攻击必定对3*3范围内的目标都造成伤害，半径还能受到延展强化加成！不光适合收菜也适合战斗。"
+				" &7     偷偷告诉你，搭配机械手时宽刃镰同样能触发并攻击范围内的所有目标。"
+			]
+			id: "0A6CBB8D9CA7D698"
+			rewards: [{
+				count: 3
+				id: "6CCB703625E7EC94"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "真正的范围攻击，比横扫更强"
+			tasks: [{
+				id: "55CDF9069B180994"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:bigsickle"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:reaper"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:durability": 1.7f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1066.9574f
+							"tconstruct:attack_speed": 192.01619f
+							"tconstruct:durability": 3371057.2f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"手长是唯一优点，没有了。"
+				""
+				"镭射枪无论是数值还是机制都有替代品，还和其它模组的能量装载材料冲突。"
+				""
+				"顺便一提，镭射枪攻击时会重置玩家的蓄力时间，所以它其实受冷却和攻击速度的双重约束"
+				""
+				"这也是为什么镭射枪的射线在攻击到一个敌人后伤害骤减，故镭射枪不适合对群"
+			]
+			id: "46D3B74BF63E1913"
+			rewards: [{
+				count: 3
+				id: "1B6E0B45F1D97063"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "不再是当年的那个镭射枪了"
+			tasks: [{
+				id: "664FC8F3E40F8BF4"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:laser_gun"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"solidarytinker:takeru"
+							"solidarytinker:takeru"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 2
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 2
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 2
+								name: "solidarytinker:uncannyvalley"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:capacitor"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 306.98975f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:durability": 677026.06f
+							"tinkers_ingenuity:cooldown": 1.1f
+							"tinkers_ingenuity:energy_capacity": 20000.0f
+							"tinkers_ingenuity:laser_range": 20.0f
+						}
+						tic_volatile_data: {
+							abilities: 7
+							"tinkers_ingenuity:energy_owner": "tinkers_ingenuity:capacitor"
+							"tinkers_ingenuity:max_energy": 10000
+							upgrades: 11
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "镭射枪"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: ["战斧会根据目标的护甲值至高增幅100%的伤害。"]
+			id: "0EC2992DC3F9AAAA"
+			rewards: [{
+				count: 3
+				id: "0DCAA6FDCA339548"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "对高护甲特攻"
+			tasks: [{
+				id: "61515B54E9E60FA8"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:battleaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:damage"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.6f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 796.9924f
+							"tconstruct:attack_speed": 51.447525f
+							"tconstruct:durability": 1085407.1f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "16EDDBEB96A40D62"
+			rewards: [{
+				count: 3
+				id: "77408AA45BFDA956"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "查无此人"
+			tasks: [{
+				id: "067391E358AD8202"
+				item: {
+					Count: 1b
+					id: "tconstruct:excavator"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 2
+								name: "tconstruct:knockback"
+							}
+							{
+								level: 1
+								name: "tconstruct:pathing"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 413.91873f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2383189.8f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 185.21109f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "2DEE61CCCE4647E3"
+			rewards: [{
+				count: 3
+				id: "162C9CC46DC1C724"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CB33F1D64E4223D"
+				item: {
+					Count: 1b
+					id: "tconstruct:broad_axe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.65f
+							"tconstruct:durability": 4.25f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 887.8557f
+							"tconstruct:attack_speed": 78.57441f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2700948.2f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 185.21109f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "620F6D989554BA2F"
+			rewards: [{
+				count: 3
+				id: "005B08A9901DEA32"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B1316A1B67D6BE"
+				item: {
+					Count: 1b
+					id: "tconstruct:scythe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.5f
+							"tconstruct:mining_speed": 0.45f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 317.33768f
+							"tconstruct:attack_speed": 91.670135f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1588793.1f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 277.81665f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "748A28EAF6177DC3"
+			rewards: [{
+				count: 3
+				id: "432A0E9A75F859A2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "延展强化能增加其范围哦"
+			tasks: [{
+				id: "09FFDB50E24B1DCE"
+				item: {
+					Count: 1b
+					id: "tconstruct:vein_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 2
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 603.6315f
+							"tconstruct:attack_speed": 111.31374f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 3177586.2f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 185.21109f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			id: "33605B0E93469268"
+			rewards: [{
+				count: 3
+				id: "43CD2FFDCDDE9EC9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "延展强化能增加其范围哦"
+			tasks: [{
+				id: "31A606C953833BBE"
+				item: {
+					Count: 1b
+					id: "tconstruct:sledge_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 2
+								name: "tconstruct:smite"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+							"tconstruct:mining_speed": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 577.4166f
+							"tconstruct:attack_speed": 98.218f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2542069.0f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 246.94812f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "0BAFE5B2A69CB0DC"
+			rewards: [{
+				count: 3
+				id: "27F3F8D2B27ECC1B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D36DA5BB05A88B5"
+				item: {
+					Count: 1b
+					id: "tconstruct:longbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"tconstruct:string"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 3
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 3
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 467.70477f
+							"tconstruct:attack_speed": 18.70819f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:draw_speed": 299.33105f
+							"tconstruct:durability": 575838.1f
+							"tconstruct:projectile_damage": 37.41638f
+							"tconstruct:velocity": 4.0f
+						}
+						tic_volatile_data: {
+							abilities: 10
+							upgrades: 14
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "5F5CB945A978F3B6"
+			rewards: [{
+				count: 3
+				id: "2C2064002FA9A245"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B6D28DA8D3D2FC2"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:heavy_crossbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"tconstruct:string"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 3
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 3
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+							{
+								level: 1
+								name: "tinkers_ingenuity:puncture"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 935.40955f
+							"tconstruct:attack_speed": 18.70819f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:draw_speed": 159.01962f
+							"tconstruct:durability": 507366.12f
+							"tconstruct:projectile_damage": 37.41638f
+							"tconstruct:velocity": 2.5f
+						}
+						tic_volatile_data: {
+							abilities: 10
+							upgrades: 15
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"正如描述所说，手杖没有任何基础效果，它只是个可以被右键使用的棍子。"
+				""
+				"通过对手杖施加强化来给予手杖效果（比如喷洒流体等）"
+				""
+				"（整合包对其的调整尚未完成，后续还会加入更多效果）"
+			]
+			id: "1157ED52D3085125"
+			rewards: [{
+				count: 3
+				id: "3898690C61A476F3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "能被强化的“棍子”"
+			tasks: [
+				{
+					id: "7FAE9EB3B9BC5779"
+					item: {
+						Count: 1b
+						id: "tinkers_thinking:quartz_staff"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "etshtinker:godlymetal"
+								}
+								{
+									level: 3
+									name: "etshtinker:worldforceex"
+								}
+								{
+									level: 3
+									name: "etshtinker:beconcerted"
+								}
+								{
+									level: 2
+									name: "tinkers_thinking:targeted"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 344.93228f
+								"tconstruct:attack_speed": 235.72319f
+								"tconstruct:block_amount": 327.39334f
+								"tconstruct:block_angle": 180.0f
+								"tconstruct:draw_speed": 18.70819f
+								"tconstruct:durability": 644754.44f
+								"tconstruct:projectile_damage": 37.41638f
+								"tconstruct:use_item_speed": 0.4f
+							}
+							tic_volatile_data: {
+								abilities: 11
+								upgrades: 15
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "1C4E58F1B01A1D26"
+					item: {
+						Count: 1b
+						id: "tinkers_things:amethyst_staff"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+								"tconstruct:string"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "etshtinker:godlymetal"
+								}
+								{
+									level: 2
+									name: "etshtinker:worldforceex"
+								}
+								{
+									level: 2
+									name: "etshtinker:beconcerted"
+								}
+								{
+									level: 1
+									name: "tconstruct:stringy"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:block_amount": 280.62286f
+								"tconstruct:block_angle": 180.0f
+								"tconstruct:draw_speed": 299.33105f
+								"tconstruct:durability": 253683.06f
+								"tconstruct:projectile_damage": 37.41638f
+								"tconstruct:use_item_speed": 0.4f
+								"tconstruct:velocity": 4.0f
+							}
+							tic_volatile_data: {
+								abilities: 8
+								defense: 4
+								upgrades: 6
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "手杖"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			description: ["增加的盾牌基底带来了更多的配装选择。虽然盾牌基底的选择较为有限，但是作用无疑是在的。"]
+			icon: {
+				Count: 1b
+				id: "tinkers_things:laminar_chestplate"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"tconstruct:bamboo"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "etshtinker:mindprotection"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
+						}
+						{
+							level: 2
+							name: "etshtinker:beconcerted"
+						}
+						{
+							level: 1
+							name: "tconstruct:unburdened"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor": 30.0f
+						"tconstruct:armor_toughness": 20.0f
+						"tconstruct:durability": 919516.94f
+						"tconstruct:knockback_resistance": 1.0f
+					}
+					tic_volatile_data: {
+						abilities: 7
+						defense: 4
+						upgrades: 6
+					}
+				}
+			}
+			id: "73FBFB9856F0624F"
+			rewards: [{
+				count: 3
+				id: "051B1FAA67DD0501"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "三部件，但是不完全三"
+			tasks: [
+				{
+					id: "1239A3D63AD6DF02"
+					item: {
+						Count: 1b
+						id: "tinkers_things:laminar_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+								"tconstruct:bamboo"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "etshtinker:mindprotection"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
+								}
+								{
+									level: 2
+									name: "etshtinker:beconcerted"
+								}
+								{
+									level: 1
+									name: "tconstruct:unburdened"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 30.0f
+								"tconstruct:armor_toughness": 20.0f
+								"tconstruct:durability": 919516.94f
+								"tconstruct:knockback_resistance": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 7
+								defense: 4
+								upgrades: 6
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "32CBE5CDBEC124E0"
+					item: {
+						Count: 1b
+						id: "tinkers_things:laminar_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+								"tconstruct:bamboo"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "etshtinker:mindprotection"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
+								}
+								{
+									level: 2
+									name: "etshtinker:beconcerted"
+								}
+								{
+									level: 1
+									name: "tconstruct:unburdened"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 30.0f
+								"tconstruct:armor_toughness": 20.0f
+								"tconstruct:durability": 919516.94f
+								"tconstruct:knockback_resistance": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 7
+								defense: 4
+								upgrades: 6
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "3A46F1495454AAD8"
+					item: {
+						Count: 1b
+						id: "tinkers_things:laminar_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+								"tconstruct:bamboo"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "etshtinker:mindprotection"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
+								}
+								{
+									level: 2
+									name: "etshtinker:beconcerted"
+								}
+								{
+									level: 1
+									name: "tconstruct:unburdened"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 30.0f
+								"tconstruct:armor_toughness": 20.0f
+								"tconstruct:durability": 919516.94f
+								"tconstruct:knockback_resistance": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 7
+								defense: 4
+								upgrades: 6
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "7934797E087C867E"
+					item: {
+						Count: 1b
+						id: "tinkers_things:laminar_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"etshtinker:exo_alloy"
+								"etshtinker:exo_alloy"
+								"tconstruct:bamboo"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "etshtinker:mindprotection"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
+								}
+								{
+									level: 2
+									name: "etshtinker:beconcerted"
+								}
+								{
+									level: 1
+									name: "tconstruct:unburdened"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 30.0f
+								"tconstruct:armor_toughness": 20.0f
+								"tconstruct:durability": 919516.94f
+								"tconstruct:knockback_resistance": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 7
+								defense: 4
+								upgrades: 6
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "层板护甲"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"与剑类似，可以横扫"
+				"自带两级加固与两级长臂"
+				"可以使用磨刀石（指燧石修补件）修复耐久"
+				"可以充当农夫乐事的刀使用"
+			]
+			id: "1BB01260FC084EBE"
+			rewards: [{
+				count: 3
+				id: "019214A4D3F61BAD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "哦耶，直直的刀"
+			tasks: [{
+				id: "2045C1255D91D507"
+				item: {
+					Count: 1b
+					id: "cherrytinker:sk"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 3
+								name: "solidarytinker:tacticsattack"
+							}
+							{
+								level: 2
+								name: "tconstruct:reinforced"
+							}
+							{
+								level: 2
+								name: "tconstruct:reach"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 24.2f
+							"tconstruct:attack_speed": 4.4f
+							"tconstruct:durability": 5464.8003f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 6
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"耐久正相关宝藏与鱼的概率"
+				"拉弓速度正相关钓鱼速度"
+				"钩中目标造成伤害与流血"
+				"伤害正相关初速度与弹射物力量"
+				"不支持远程加伤词条，支持修改面板的词条"
+			]
+			id: "740E2F2DEA004F84"
+			rewards: [{
+				count: 3
+				id: "60F7FF8AD3C63CA5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E44D974586F795D"
+				item: {
+					Count: 1b
+					id: "cherrytinker:rod"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:string"
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+							{
+								level: 2
+								name: "solidarytinker:tacticsattack"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:draw_speed": 1.3f
+							"tconstruct:durability": 2024.0f
+							"tconstruct:velocity": 9.0f
+						}
+						tic_volatile_data: {
+							abilities: 5
+							upgrades: 5
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"三顶端,一绑定结，一手柄"
+				"斧子，镐子，铲子三合一工具"
+				"右键可以像斧子一样剥皮，也可像锄头一样锄地"
+			]
+			id: "7D4BFE6D23EBA04F"
+			rewards: [{
+				count: 3
+				id: "23F8BB5EA68566A8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "哇，是三合一工具"
+			tasks: [{
+				id: "3C6B728E79957EE5"
+				item: {
+					Count: 1b
+					id: "cherrytinker:pas"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 967.53503f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:durability": 2859827.5f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 1389.0831f
+						}
+						tic_volatile_data: {
+							abilities: 16
+							upgrades: 23
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"一个人只能带一个的模块化饰品"
+				""
+				"会增幅护甲值，盔甲韧性，速度，攻击伤害"
+			]
+			id: "1A81B0285097B815"
+			rewards: [{
+				count: 3
+				id: "0595343BE8BAA59B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2612EC88A2097369"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:tinker_ring"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:starfall"
+							"solidarytinker:starfall"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:bha"
+							}
+							{
+								level: 2
+								name: "solidarytinker:natived"
+							}
+							{
+								level: 2
+								name: "solidarytinker:watery"
+							}
+							{
+								level: 1
+								name: "cti:imprison"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tinkers_ingenuity:armor": 2.5f
+							"tinkers_ingenuity:armor_toughness": 2.5f
+							"tinkers_ingenuity:arrow_damage": 1.5f
+							"tinkers_ingenuity:damage": 1.5f
+							"tinkers_ingenuity:movement_speed": 0.2f
+						}
+						tic_volatile_data: {
+							abilities: -9999
+							defense: -10000
+							upgrades: -9999
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"相比吹箭筒，回旋镖有4个部件、略低的基础初速度、更高的初速度倍率。"
+				""
+				"所以回旋镖在大多数情况下伤害显著高于吹箭筒。"
+			]
+			id: "1901BB91B0D5AA12"
+			rewards: [{
+				count: 3
+				id: "67B9B5046C9F3040"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "定位和吹箭筒类似，但是强于吹箭筒"
+			tasks: [{
+				id: "14C990BAB501F843"
+				item: {
+					Count: 1b
+					id: "tinkers_ingenuity:shuriken"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 0.36f
+							"tconstruct:velocity": 0.82f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 74.83276f
+							"tconstruct:attack_speed": 18.70819f
+							"tconstruct:draw_speed": 439.6425f
+							"tconstruct:durability": 137662.36f
+							"tconstruct:projectile_damage": 37.41638f
+							"tconstruct:velocity": 4.5099998f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"虽然在本包中劈刀的数值已经不够看，但是我们赋予了它新的功能性属性："
+				""
+				"&n劈刀自带抢夺II和肢解V"
+			]
+			id: "2F0C5F2EA9847C98"
+			rewards: [{
+				count: 3
+				id: "20C5EB9721109ED4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "元老级武器，说它是匠魂的标志不过分吧"
+			tasks: [{
+				id: "589E88767A8B0C5E"
+				item: {
+					Count: 1b
+					id: "tconstruct:cleaver"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 5
+								name: "tconstruct:severing"
+							}
+							{
+								level: 2
+								name: "tconstruct:looting"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+							"tconstruct:mining_speed": 0.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 641.57404f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2224310.2f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 154.34258f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 8.0d
+		}
+		{
+			description: [
+				"外表平平，但是效果并不差"
+				""
+				"自带多段攻击,自带锁头,自带斩杀效果"
+				""
+				"魂珠会决定斩杀线等属性"
+			]
+			id: "1DF5E6C328F6D252"
+			rewards: [{
+				count: 3
+				id: "2ACA5EF21D6C6919"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "小时候看这集被甩天上斩杀了"
+			tasks: [{
+				id: "14DFF6632B2FE202"
+				item: {
+					Count: 1b
+					id: "solidarytinker:soulge"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"solidarytinker:attack_frequency": 1.0f
+							"solidarytinker:detection_range": 100.0f
+							"solidarytinker:exert_times": 100.0f
+							"solidarytinker:kill_threshold": 0.72f
+							"tconstruct:attack_damage": 454.7587f
+							"tconstruct:attack_speed": 130.95734f
+							"tconstruct:durability": 1525241.4f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 1234.7406f
+						}
+						tic_volatile_data: {
+							abilities: 16
+							upgrades: 22
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 8.0d
+		}
+		{
+			description: [
+				"来自暮色的毕业武器，拥有5部件、最高的伤害、最大的横扫（伪横扫，判定与宽刃镰类似）、不错的攻击距离增幅和最低的攻速。"
+				""
+				"利刃词条使得在对待高血量生物时，它会具备最高的单体伤害。"
+				""
+				"后期解决了攻速问题后可以是T0级别的武器"
+			]
+			id: "440A3EB67EE3E6F4"
+			rewards: [{
+				count: 3
+				id: "2E97126032931874"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "豪大大巨剑！"
+			tasks: [{
+				id: "021B51A7F6E1F6B6"
+				item: {
+					Count: 1b
+					id: "cloudertinker:giantsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 3
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "cti:sharpblade"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 3.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1759.1545f
+							"tconstruct:attack_speed": 39.287205f
+							"tconstruct:block_amount": 93.540955f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2383189.8f
+						}
+						tic_volatile_data: {
+							abilities: 17
+							upgrades: 22
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.0d
+		}
+		{
+			description: [
+				"到达骑士地牢之后可以制作的武器兼盾牌，拥有两个防御部件和三个近程部件。"
+				""
+				"反击词条可以让你被攻击的时候进行一次反击，视为该工具的近战伤害，放在副手也可以生效。"
+			]
+			id: "1439DDE9F887BC1C"
+			rewards: [{
+				count: 3
+				id: "04009C75C1896F68"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "盾反之极意"
+			tasks: [{
+				id: "4F7B0A06038D9D02"
+				item: {
+					Count: 1b
+					id: "cloudertinker:hard_shield"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"tconstruct:bamboo"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 3
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "etshtinker:mindprotection"
+							}
+							{
+								level: 1
+								name: "etshtinker:solidex"
+							}
+							{
+								level: 1
+								name: "tconstruct:unburdened"
+							}
+							{
+								level: 1
+								name: "cloudertinker:react"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 20.0f
+							"tconstruct:attack_damage": 144.98848f
+							"tconstruct:attack_speed": 28.062286f
+							"tconstruct:block_amount": 2048.0f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1702583.9f
+							"tconstruct:knockback_resistance": 1.0f
+							"tconstruct:use_item_speed": 0.3f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							defense: 9
+							upgrades: 10
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
+		}
+	]
+	subtitle: [
+		"纵使工具50多种，但实际上各有特点，来看看吧"
+		"-by 独爱流萤"
+	]
+	title: "工具大全"
+}

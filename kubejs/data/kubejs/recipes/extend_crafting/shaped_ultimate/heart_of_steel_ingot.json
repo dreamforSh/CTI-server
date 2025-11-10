@@ -1,0 +1,28 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "    A    ",
+    "   ABA   ",
+    "  ABCBA  ",
+    "   ABA   ",
+    "    A    ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "B": {
+      "item": "l2complements:soul_flame"
+    },
+    "C": {
+      "item": "cataclysm:witherite_block"
+    }
+  },
+  "result": {
+    "item": "cti:heart_of_steel_ingot"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "fluid": "cherrytinker:sun_cherryfuel",
+      "amount": 4000
+    },
+    {
+      "fluid": "tconstruct:liquid_soul",
+      "amount": 2000
+    },
+    {
+      "fluid": "cherrytinker:moon_cherryfuel",
+      "amount": 4000
+    }
+  ],
+  "result": {
+    "fluid": "cti:molten_fox",
+    "amount": 90
+  },
+  "temperature": 1500
+}

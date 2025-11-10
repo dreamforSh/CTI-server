@@ -1,0 +1,44 @@
+{
+  "default": [
+    {
+      "name": "cti:nanomachine",
+      "level": 1
+    },
+    {
+      "name": "cti:nkssdtt",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cti:nanomachine",
+        "level": 1
+      },
+      {
+        "name": "cti:nkssdtt",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:nanomachine",
+        "level": 1
+      },
+      {
+        "name": "cti:nanobee",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "cti:nanomachine",
+        "level": 1
+      },
+      {
+        "name": "cti:nanobee",
+        "level": 1
+      }
+    ]
+  }
+}

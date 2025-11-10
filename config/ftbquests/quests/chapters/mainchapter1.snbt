@@ -2020,11 +2020,19 @@
 				type: "item"
 			}]
 			subtitle: "在冶炼炉中合成合金"
-			tasks: [{
-				id: "6FD2A61F31FB37BA"
-				item: "etshtinker:molten_hardlead_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6FD2A61F31FB37BA"
+					item: "etshtinker:molten_hardlead_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "037FE0552AF4112C"
+					item: "etshtinker:hardlead_plate"
+					type: "item"
+				}
+			]
 			x: 32.5d
 			y: 0.0d
 		}

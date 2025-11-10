@@ -689,8 +689,8 @@
 			id: "5FB605CA098BF6D6"
 			invisible: true
 			rewards: [{
-				id: "1BD892598FDC8399"
-				item: "enigmaticlegacy:cursed_stone"
+				id: "0764AB25AFF36FAB"
+				item: "cti:soul_spell"
 				type: "item"
 			}]
 			size: 1.5d
@@ -741,12 +741,18 @@
 			dependencies: ["4AD608A1A7B651AA"]
 			description: [
 				"一位主张慈悲的神祇关注着被诅咒者们的宿命，面对因无知而误入神之试炼的羔羊们，祂心生怜悯，同意了他们的呼唤，宽恕了他们的悔恨，赐予了他们毁坏诅咒的方法"
-				"&b你可以借助邪恶之石的力量摆脱并摧毁七咒之戒&r"
+				"&b(虽然邪恶之石不能毁灭七咒之戒，但是灵魂补剂能一定程度减轻其负面)"
 			]
 			hide: true
 			icon: "enigmaticlegacy:cursed_stone"
 			id: "6073CB9FDA3E3997"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "444DBE30C77ACFFE"
+				table_id: 4658033047165848429L
+				type: "random"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "5A98EF55D0651AB5"

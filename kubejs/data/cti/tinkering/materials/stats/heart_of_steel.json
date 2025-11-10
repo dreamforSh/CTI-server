@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 2,
+      "mining_speed": 8,
+      "melee_speed": 1.5,
+      "melee_damage": 2
+    },
+    "tconstruct:head": {
+      "durability": 600,
+      "mining_speed": 7,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 61
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 5.0,
+      "durability": 691,
+      "knockback_resistance": 0.2,
+      "toughness": 4.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 10.0,
+      "durability": 691,
+      "knockback_resistance": 0.2,
+      "toughness": 7.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 6.0,
+      "durability": 691,
+      "knockback_resistance": 0.2,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_boots": {
+      "armor": 4.0,
+      "durability": 691,
+      "knockback_resistance": 0.2,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 691,
+      "knockback_resistance": 0.4,
+      "toughness": 5
+    },
+    "tinkersinnovation:shield_plate": {
+      "durability": 691,
+      "armor": 6.0,
+      "toughness": 4,
+      "knockback_resistance": 0.4,
+      "block_amount": 2.0,
+      "shield_amount": 15
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 350234
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 35,
+      "plasmarange": 20,
+      "damagemultiplier": 8
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 8,
+      "criticalrate": 2,
+      "fluidefficiency": 8,
+      "slash_color":2
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 350235,
+      "durability": 0.2
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 50,
+      "cooldown": 0.3
+    },
+    "solidarytinker:soulge_heart": {
+      "detection_range": 35,
+      "exert_times": 60,
+      "attack_frequency": 10,
+      "kill_threshold": 0
+    },
+    "solidarytinker:core_battery": {
+      "attack_range": 6,
+      "target_amount": 12,
+      "energy_capability": 350234
+    }
+  }
+}

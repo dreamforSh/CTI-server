@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cti:hidden",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:hidden",
+        "level": 1
+      }
+    ]
+  },
+  "default": [
+    {
+        "name": "cti:hidden",
+        "level": 1
+      }
+  ]
+}

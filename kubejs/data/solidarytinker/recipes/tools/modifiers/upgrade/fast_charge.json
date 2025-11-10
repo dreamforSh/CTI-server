@@ -1,0 +1,37 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "createutilities:polished_amethyst",
+      "amount_needed": 12
+    },
+    {
+      "item": "immersiveengineering:coil_mv",
+      "amount_needed": 6
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "amount_needed": 12
+    },
+    {
+      "item": "createutilities:void_steel_ingot",
+      "amount_needed": 4
+    },
+    {
+      "item": "solidarytinker:extremelycoldsteel_ingot",
+      "amount_needed": 4
+    }
+  ],
+  "level": {
+    "max": 5
+  },
+  "result": "solidarytinker:fastcharge",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "item": "solidarytinker:electric_batons"
+  }
+}

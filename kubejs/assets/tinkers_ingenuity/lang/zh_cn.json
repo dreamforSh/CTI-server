@@ -13,6 +13,9 @@
 
   "modifier.tinkers_ingenuity.gaia_guard": "盖亚守护",
   "modifier.tinkers_ingenuity.gaia_guard.flavor": "盖亚意志。",
-  "modifier.tinkers_ingenuity.gaia_guard.description": "每拥有50点魔力降低1点受到伤害，单次至多降低100点受到伤害。"
+  "modifier.tinkers_ingenuity.gaia_guard.description": "每拥有50点魔力降低1点受到伤害，单次至多降低100点受到伤害。",
+
+  "modifier.tinkers_ingenuity.damage": "强击",
+  "modifier.tinkers_ingenuity.damage.flavor": "对高护甲特攻，完全科学！"
 }
 

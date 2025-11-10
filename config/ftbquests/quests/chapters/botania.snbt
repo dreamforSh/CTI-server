@@ -2420,7 +2420,7 @@
 		}
 		{
 			dependencies: ["470A698F7EC80221"]
-			description: ["见到了可别手软！"]
+			description: ["每种结构生成对应的荒野怪物。荒野召唤之板之板会生成全部三种荒野怪物。"]
 			icon: "ars_nouveau:wilden_stalker_se"
 			id: "328CE0529C3E8488"
 			rewards: [
@@ -2460,8 +2460,29 @@
 					type: "kill"
 					value: 1L
 				}
+				{
+					id: "40B2D09AA537D574"
+					item: "ars_nouveau:ritual_wilden_summon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60B6EBACF9893A5B"
+					structure: "ars_nouveau:guardian_wilden_den"
+					type: "structure"
+				}
+				{
+					id: "770059F917D1A84A"
+					structure: "ars_nouveau:hunter_wilden_den"
+					type: "structure"
+				}
+				{
+					id: "438E64B4CF3C3D61"
+					structure: "ars_nouveau:stalker_wilden_den"
+					type: "structure"
+				}
 			]
-			title: "三种野外常见的怪物"
+			title: "三种特定结构出现的怪物/或者试试荒野召唤之板之板"
 			x: -4.5d
 			y: 13.0d
 		}

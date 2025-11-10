@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cti:fox_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 13969619560,
+    "spacing": 30,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

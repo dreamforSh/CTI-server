@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "   AAA   ",
+    "  BCDCB  ",
+    " ADDBDDA ",
+    "  ADEDA  ",
+    "  BAFAB  ",
+    "  ACDCA  ",
+    "   ABA   ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:space_shard"
+    },
+    "B": {
+      "item": "etshtinker:activated_chroma_plate"
+    },
+    "C": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "D": {
+      "item": "l2complements:storm_core"
+    },
+    "E": {
+      "item": "aether_redux:sentry_chip"
+    },
+    "F": {
+      "item": "undergarden:catalyst"
+    }
+  },
+  "result": {
+    "item": "cti:lsmz_ingot"
+  }
+}

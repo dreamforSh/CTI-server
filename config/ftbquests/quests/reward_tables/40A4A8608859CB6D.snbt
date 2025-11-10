@@ -1,0 +1,28 @@
+{
+	icon: "cti:soul_spell"
+	id: "40A4A8608859CB6D"
+	loot_size: 1
+	order_index: 91
+	rewards: [
+		{ item: "cti:soul_spell" }
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+			title: "灵魂补寄"
+			weight: 9.0f
+		}
+	]
+	title: "概率灵魂补剂"
+}

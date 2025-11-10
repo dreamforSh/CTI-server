@@ -2741,7 +2741,7 @@
 				type: "sdmshop:money"
 			}]
 			shape: "circle"
-			subtitle: "泡火成神"
+			subtitle: "泡火成神（存疑）"
 			tasks: [{
 				id: "77C8EFF6CB821AEB"
 				item: "minecraft:obsidian"
@@ -7131,7 +7131,7 @@
 				type: "item"
 			}]
 			shape: "pentagon"
-			subtitle: "单论伤害，反中子比奇迹物质更加极端"
+			subtitle: "单论伤害，反中子比阳清合金更加极端"
 			tasks: [{
 				id: "295992E27307B28F"
 				item: "etshtinker:anti_neutronium"
