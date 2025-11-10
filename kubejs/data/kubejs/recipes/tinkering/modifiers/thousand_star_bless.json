@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "avaritia:infinity_ingot"
+    },
+    {
+      "item": "avaritia:infinity_nugget"
+    },
+    {
+      "item": "avaritia:infinity_catalyst"
+    },
+    {
+      "item": "cti:stellar_manyullyn"
+    },
+    {
+      "item": "cti:stellar_manyullyn"
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "cti:thousand_star_bless",
+  "tools": {
+      "tag": "tconstruct:modifiable"
+    }
+}
