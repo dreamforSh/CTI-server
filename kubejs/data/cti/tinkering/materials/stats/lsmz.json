@@ -11,7 +11,7 @@
       "durability": 3241,
       "melee_attack": 1.5,
       "mining_speed": 6.5,
-      "mining_tier": "minecraft:diamond"
+      "mining_tier": "solidarytinker:momo"
     }
   }
 }

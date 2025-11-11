@@ -1,0 +1,49 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A   B   A",
+    " A  C  A ",
+    "  BDEDB  ",
+    "  DEFED  ",
+    "BCEGHIECB",
+    "  DEJED  ",
+    "  BDEDB  ",
+    " A  C  A ",
+    "A   B   A"
+  ],
+  "key": {
+    "A": {
+      "item": "l2hostility:cursed"
+    },
+    "B": {
+      "item": "l2hostility:regenerate"
+    },
+    "C": {
+      "item": "biomancy:creator_mix"
+    },
+    "D": {
+      "item": "solidarytinker:bloodmeat_ingot"
+    },
+    "E": {
+      "item": "tconstruct:blood_slime_tall_grass"
+    },
+    "F": {
+      "item": "tinkers_ingenuity:blood_binding_ingot"
+    },
+    "G": {
+      "item": "tinkers_things:hematite"
+    },
+    "H": {
+      "item": "projecte:red_matter"
+    },
+    "I": {
+      "item": "tinkers_ingenuity:blood_steel_ingot"
+    },
+    "J": {
+      "item": "twilightforest:fiery_blood"
+    }
+  },
+  "result": {
+    "item": "cti:bloodgod_ingot"
+  }
+}

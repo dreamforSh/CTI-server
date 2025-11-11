@@ -8,6 +8,10 @@
       {
         "name": "cti:bloodgodbless",
         "level": 1
+      },
+      {
+        "name": "cti:netherback",
+        "level": 1
       }
     ],
     "tconstruct:ranged": [
