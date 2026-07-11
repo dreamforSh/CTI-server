@@ -1,0 +1,33 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "solidarytinker:extremelycoldsteel_ingot",
+        "amount_needed": 1
+      },
+      {
+        "tag": "minecraft:saplings",
+        "amount_needed": 1
+      },
+      {
+        "item": "solidarytinker:extremelycoldsteel_ingot",
+        "amount_needed": 1
+      },
+      {
+        "item": "etshtinker:energized_sculk_alloy",
+        "amount_needed": 1
+      },
+      {
+        "item": "etshtinker:energized_sculk_alloy",
+        "amount_needed": 1
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    "allow_crystal": true,
+    "result":"solidarytinker:removeradition",
+    "level": {
+      "max": 1
+    }
+  }

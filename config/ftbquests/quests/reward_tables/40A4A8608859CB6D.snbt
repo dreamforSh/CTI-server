@@ -2,7 +2,7 @@
 	icon: "cti:soul_spell"
 	id: "40A4A8608859CB6D"
 	loot_size: 1
-	order_index: 91
+	order_index: 88
 	rewards: [
 		{ item: "cti:soul_spell" }
 		{

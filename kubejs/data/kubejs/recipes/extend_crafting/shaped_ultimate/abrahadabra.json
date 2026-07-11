@@ -1,58 +1,61 @@
 {
-    "type": "extendedcrafting:shaped_table",
-    "pattern": [
-      "   AAA   ",
-      "  ABCBA  ",
-      " ACDEFCA ",
-      "ABFGHIDBA",
-      "ACEJKLECA",
-      "ABDIMGFBA",
-      " ACFEDCA ",
-      "  ABCBA  ",
-      "   AAA   "
-    ],
-    "key": {
-      "A": {
-        "item": "cataclysm:ancient_metal_ingot"
-      },
-      "B": {
-        "item": "l2hostility:miracle_ingot"
-      },
-      "C": {
-        "item": "l2complements:sun_membrane"
-      },
-      "D": {
-        "item": "l2complements:eternium_ingot"
-      },
-      "E": {
-        "item": "l2hostility:chaos_ingot"
-      },
-      "F": {
-        "item": "enigmaticlegacy:etherium_ingot"
-      },
-      "G": {
-        "item": "l2hostility:purify"
-      },
-      "H": {
-        "item": "l2hostility:ring_of_reflection"
-      },
-      "I": {
-        "item": "l2hostility:imagine_breaker"
-      },
-      "J": {
-        "item": "l2complements:force_field"
-      },
-      "K": {
-        "item": "enigmaticlegacy:twisted_heart"
-      },
-      "L": {
-        "item": "l2complements:void_eye"
-      },
-      "M": {
-        "item": "kubejs:evil_mechanism"
-      }
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   AAA   ",
+    "  ABCBA  ",
+    " ADEFGDA ",
+    "ABGHIJEBA",
+    "ACFKLMFCA",
+    "ABEJNHGBA",
+    " ADGFEDA ",
+    "  ABCBA  ",
+    "   AAA   "
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:ancient_metal_ingot"
     },
-    "result": {
-      "item": "l2hostility:abrahadabra"
+    "B": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "C": {
+      "item": "l2complements:sun_membrane"
+    },
+    "D": {
+      "item": "tinkersinnovation:hostilium_ingot"
+    },
+    "E": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "F": {
+      "item": "l2hostility:chaos_ingot"
+    },
+    "G": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "H": {
+      "item": "l2hostility:purify"
+    },
+    "I": {
+      "item": "l2hostility:ring_of_reflection"
+    },
+    "J": {
+      "item": "l2hostility:imagine_breaker"
+    },
+    "K": {
+      "item": "l2complements:force_field"
+    },
+    "L": {
+      "item": "enigmaticlegacy:twisted_heart"
+    },
+    "M": {
+      "item": "l2complements:void_eye"
+    },
+    "N": {
+      "item": "kubejs:evil_mechanism"
     }
+  },
+  "result": {
+    "item": "l2hostility:abrahadabra"
   }
+}

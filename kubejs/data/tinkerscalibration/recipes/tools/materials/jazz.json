@@ -2,21 +2,21 @@
   "type": "tconstruct:alloy",
   "inputs": [
     {
-      "name": "tconstruct:molten_manyullyn",
+      "name": "tinkersinnovation:molten_sculkium",
       "amount": 90
     },
     {
-      "name": "tconstruct:molten_amethyst_bronze",
+      "name": "tinkers_ingenuity:molten_evil",
       "amount": 90
     },
     {
-      "name": "tconstruct:molten_rose_gold",
-      "amount": 90
+      "name": "kubejs:molten_valkyrie",
+      "amount": 450
     }
   ],
   "result": {
     "fluid": "tinkerscalibration:moltenjazz",
-    "amount": 270
+    "amount": 450
   },
-  "temperature": 1300
+  "temperature": 4500
 }

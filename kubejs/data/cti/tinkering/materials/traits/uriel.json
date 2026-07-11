@@ -8,6 +8,10 @@
       {
         "name": "cti:netherfire",
         "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
       }
     ],
     "tconstruct:ranged": [
@@ -17,6 +21,10 @@
       },
       {
         "name": "cti:netherfire",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
         "level": 1
       }
     ],
@@ -28,6 +36,10 @@
       {
         "name": "cti:archangelwings",
         "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
       }
     ],
     "tinkersinnovation:shield": [
@@ -38,6 +50,10 @@
       {
         "name": "cti:netherfire",
         "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
@@ -47,6 +63,10 @@
       },
       {
         "name": "cti:netherfire",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
         "level": 1
       }
     ]

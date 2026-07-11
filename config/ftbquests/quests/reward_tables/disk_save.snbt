@@ -1,7 +1,7 @@
 {
 	id: "257E7164FA9C2D6D"
 	loot_size: 1
-	order_index: 76
+	order_index: 74
 	rewards: [
 		{
 			auto: "disabled"

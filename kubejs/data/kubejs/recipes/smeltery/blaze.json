@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "create:empty_blaze_burner"
+  },
+  "cast_consumed": true,
+  "cooling_time": 221,
+  "fluid": {
+    "amount": 1000,
+    "fluid": "tconstruct:blazing_blood"
+  },
+  "result": "create:blaze_burner"
+}

@@ -2,42 +2,90 @@
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "   ABA   ",
-    "   CDC   ",
-    "  CDEDC  ",
-    " CDFEFDC ",
-    "CDEEGEEDC",
-    " CDFEFDC ",
-    "  CDEDC  ",
-    "   CDC   ",
-    "   HHH   "
+    "CDEBFBEDC",
+    "GHIJKJLHG",
+    " MNIOLPM ",
+    " QMGRGMQ ",
+    " DQSTSQD ",
+    "  DUVUD  ",
+    "   WUW   ",
+    " XXXWXXX "
   ],
   "key": {
     "A": {
-      "item": "l2complements:void_eye"
+      "item": "tconstruct:amethyst_bronze_ingot"
     },
     "B": {
       "item": "l2hostility:killer_aura"
     },
     "C": {
-      "item": "industrialforegoing:pink_slime_ingot"
+      "item": "l2hostility:hard_skin"
     },
     "D": {
-      "item": "solidarytinker:violane"
+      "item": "l2complements:force_field"
     },
     "E": {
-      "item": "l2complements:life_essence"
+      "item": "industrialforegoing:pink_slime_ingot"
     },
     "F": {
-      "item": "minecraft:nether_star"
+      "item": "l2complements:void_eye"
     },
     "G": {
-      "item": "kubejs:core_diamond"
+      "item": "tinkersinnovation:hostilium_ingot"
     },
     "H": {
+      "item": "l2hostility:purify"
+    },
+    "I": {
+      "item": "kubejs:pyrocrystal"
+    },
+    "J": {
+      "item": "l2hostility:imagine_breaker"
+    },
+    "K": {
+      "item": "l2hostility:ragnarok"
+    },
+    "L": {
+      "item": "kubejs:electrocrystal"
+    },
+    "M": {
+      "item": "kubejs:tungsten_steel_ingot"
+    },
+    "N": {
+      "item": "kubejs:core_blaze"
+    },
+    "O": {
+      "item": "l2hostility:temporary_armor"
+    },
+    "P": {
+      "item": "kubejs:core_diamond"
+    },
+    "Q": {
       "item": "cataclysm:ancient_metal_block"
+    },
+    "R": {
+      "item": "l2hostility:second_phase"
+    },
+    "S": {
+      "item": "l2complements:sun_membrane"
+    },
+    "T": {
+      "item": "l2complements:eternium_ingot"
+    },
+    "U": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "V": {
+      "item": "l2hostility:oracle"
+    },
+    "W": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "X": {
+      "item": "l2complements:life_essence"
     }
   },
   "result": {
-    "item": "solidarytinker:starfall_ingot"
+    "item": "solidarytinker:hoshino_ingot"
   }
 }

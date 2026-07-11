@@ -1,0 +1,22 @@
+{
+    "craft": {
+        "mode": "input",
+        "overlayPositionX": 0,
+        "amount": "",
+        "overlayDepth": 0,
+        "overlayOpen": 0b,
+        "recents": [],
+        "inventory": 0b,
+        "overlayPositionY": 0
+    },
+    "player": {
+        "last": "",
+        "recipes": {}
+    },
+    "math": {
+        "current": "",
+        "state": 0,
+        "last": "0",
+        "operator": 0
+    }
+}

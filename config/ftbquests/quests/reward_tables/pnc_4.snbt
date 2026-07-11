@@ -1,7 +1,7 @@
 {
 	id: "1B42640C6A146BEB"
 	loot_size: 1
-	order_index: 14
+	order_index: 13
 	rewards: [
 		{ count: 5, item: "pneumaticcraft:volume_upgrade", random_bonus: 5 }
 		{ item: "pneumaticcraft:dispenser_upgrade" }

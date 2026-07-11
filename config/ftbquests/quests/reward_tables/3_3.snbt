@@ -2,7 +2,7 @@
 	icon: "tconstruct:materials_and_you"
 	id: "0168B91E9CD9F25D"
 	loot_size: 11
-	order_index: 32
+	order_index: 31
 	rewards: [
 		{ count: 2, item: "tconstruct:cobalt_ingot" }
 		{ count: 2, item: "tconstruct:rose_gold_ingot" }

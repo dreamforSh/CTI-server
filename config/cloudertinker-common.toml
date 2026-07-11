@@ -1,0 +1,77 @@
+
+#Modifiers behaviour
+#词条行为
+[modifiers_behaviour]
+	#Cuttinggirl damage, 3*level by default.
+	#断鸡少女伤害，默认每级3。
+	#Range: > 1
+	Cuttinggirl_damage = 3
+	#Sacrificeblood damage boost max level,10 by default.
+	#祭血的力量等级上限，默认10。
+	#Range: > 1
+	Sacrificeblood_MAX = 10
+	#Minotaurcharge damage, 170% by default.
+	#哞菇冲撞倍率,默认170%。
+	#Range: 1.0 ~ 1.7976931348623157E308
+	Minotaurcharge_damage = 1.7
+	#Breakphantom damage, true by default.
+	#破影倍率。
+	#Range: 1.0 ~ 1.7976931348623157E308
+	Breakphantom_damage = 2.5
+	#Overlost damage max, 200% by default.
+	#迷失伤害上限。
+	#Range: 1.0 ~ 1.7976931348623157E308
+	Overlost_MAX = 2.0
+	#Fragile tool damage, 100 by default.
+	#易碎消耗耐久，默认100。
+	#Range: > 1
+	Fragile_damage = 100
+	#Harmonize max damage, 64 by default.
+	#协调伤害上限。
+	#Range: > 1
+	Harmonize_MAX = 64
+
+#Tiantuistar blade
+#天退星刀
+[tiantuistar_blade]
+	#Charge attack range, 0.5 by default.
+	#冲刺攻击范围，默认0.5。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Charge attack range" = 0.5
+	#Expanded charge attack range, 0.5*level by default.
+	#延展冲刺攻击范围，默认每级0.5。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Expanded charge attack range" = 0.5
+	#Savage tigermark round damage, 150% by default.
+	#猛虎标弹伤害，默认150%。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Savage tigermark round damage" = 1.5
+
+#Tigermark rounds
+#虎标弹
+[tigermark_round]
+	#Tigermark round push power, 0.2 by default.
+	#虎标弹推进力度，默认0.2。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Tigermark round push power" = 0.2
+	#Tigermark round Explosion damage, 25% by default.
+	#虎标弹爆炸伤害，默认25%
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Tigermark round Explosion damage" = 0.25
+	#Savage tigermark round push power, 0.5 by default.
+	#猛虎标弹推进力度，默认0.5。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Savage tigermark round push power" = 0.5
+	#Savage tigermark round Explosion damage, 25% by default.
+	#猛虎标弹爆炸伤害，默认25%
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Savage tigermark round Explosion damage" = 0.25
+
+#Fiery melter
+#炽铁熔化炉
+[fiery_melter]
+	#Fiery melter temperature, 1500 by default.
+	#炽铁熔化炉温度。
+	#Range: > 1
+	FIERY_TEMPERATURE = 1500
+

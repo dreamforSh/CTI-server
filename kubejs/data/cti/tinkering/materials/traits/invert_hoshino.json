@@ -12,6 +12,10 @@
       {
         "name": "cti:trauma",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tconstruct:ranged": [
@@ -25,6 +29,10 @@
       },
       {
         "name": "cti:trauma",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
         "level": 1
       }
     ],
@@ -40,6 +48,10 @@
       {
         "name": "cti:trauma",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tinkersinnovation:shield": [
@@ -54,6 +66,10 @@
       {
         "name": "cti:trauma",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
@@ -67,6 +83,10 @@
       },
       {
         "name": "cti:trauma",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
         "level": 1
       }
     ]

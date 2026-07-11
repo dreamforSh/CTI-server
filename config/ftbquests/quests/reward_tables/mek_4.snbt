@@ -8,7 +8,7 @@
 	}
 	id: "6344701EDFB791C3"
 	loot_size: 4
-	order_index: 64
+	order_index: 63
 	rewards: [
 		{ count: 2, item: "mekanism:ingot_refined_glowstone" }
 		{ count: 2, item: "mekanism:ingot_refined_obsidian" }

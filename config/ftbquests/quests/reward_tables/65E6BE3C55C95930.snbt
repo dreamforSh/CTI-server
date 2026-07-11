@@ -2,7 +2,7 @@
 	icon: "botania:pure_daisy"
 	id: "65E6BE3C55C95930"
 	loot_size: 3
-	order_index: 30
+	order_index: 29
 	rewards: [
 		{ item: "botania:livingrock" }
 		{ item: "botania:livingwood_log" }

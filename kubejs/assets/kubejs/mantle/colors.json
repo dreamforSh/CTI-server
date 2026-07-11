@@ -3,7 +3,8 @@
   },
   "modifier.cti": {
     "refined": "#A48DFF",
-    "zanite": "#A984D1"
+    "zanite": "#A984D1",
+    "weight_unstable": "#948B8B"
   },
   "material.cti": {
     "violium": "#A48DFF",
@@ -23,6 +24,8 @@
     "ice_steel": "#789295",
     "fire_steel": "#4B4757",
     "carbon_plate": "#303030",
-    "star_dragon": "#0041E8"
+    "star_dragon": "#0041E8",
+    "endergobber": "#70e5ab",
+    "sturdy_sheet": "#3B2754"
   }
 }

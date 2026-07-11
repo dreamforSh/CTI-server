@@ -4,14 +4,14 @@
     "exothermic": false,
     "fluid_input": {
       "type": "pneumaticcraft:fluid",
-      "amount": 1000,
+      "amount": 2000,
       "fluid": "kubejs:dense_lava"
     },
     "item_input": {
       "item": "immersivepetroleum:petcoke_dust"
     },
     "item_output": {
-      "count": 8,
+      "count": 2,
       "item": "kubejs:dense_slag"
     },
     "fluid_output":{
@@ -21,6 +21,6 @@
     "pressure": 2.0,
     "speed": 1,
     "temperature": {
-      "min_temp": 773
+      "min_temp": 1800
     }
   }

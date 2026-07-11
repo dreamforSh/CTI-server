@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": -0.1,
+      "mining_speed": 0.2,
+      "melee_speed": 0.1,
+      "melee_damage": 0.4
+    },
+    "tconstruct:head": {
+      "durability": 1440,
+      "mining_speed": 7.5,
+      "mining_tier": "minecraft:diamond",
+      "melee_attack": 5.2
+    },
+    "tconstruct:limb": null,
+    "tconstruct:grip": null,
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 3.0,
+      "durability": 510,
+      "knockback_resistance": 0.0,
+      "toughness": 0.5
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 5.0,
+      "durability": 550,
+      "knockback_resistance": 0.0,
+      "toughness": 0.5
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 4.0,
+      "durability": 530,
+      "knockback_resistance": 0.0,
+      "toughness": 0.5
+    },
+    "tconstruct:plating_boots": {
+      "armor": 3.0,
+      "durability": 500,
+      "knockback_resistance": 0.0,
+      "toughness": 0.5
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 24000,
+      "durability": -0.1
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 24,
+      "cooldown": 0.9
+    }
+  }
+}

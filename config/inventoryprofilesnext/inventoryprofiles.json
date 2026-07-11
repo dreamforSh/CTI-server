@@ -1,0 +1,37 @@
+{
+    "ModSettings": {
+        "always_include_hotbar": true,
+        "highlight_foused_items": {
+            "value": false
+        },
+        "enable_profiles": {
+            "value": false
+        },
+        "enable_lock_slots": {
+            "value": false
+        },
+        "restock_hotbar": {
+            "value": true
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "show_fast_rename_checkbox": {
+            "value": false
+        },
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_rows_button": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "LEFT_SHIFT,R"
+            }
+        }
+    }
+}

@@ -16,10 +16,10 @@
 			Damage: 0
 			tic_broken: 0b
 			tic_materials: [
-				"solidarytinker:starfall"
-				"solidarytinker:starfall"
-				"solidarytinker:starfall"
-				"solidarytinker:starfall"
+				"solidarytinker:hoshino"
+				"solidarytinker:hoshino"
+				"solidarytinker:hoshino"
+				"solidarytinker:hoshino"
 			]
 			tic_modifiers: [
 				{
@@ -28,19 +28,23 @@
 				}
 				{
 					level: 4
-					name: "solidarytinker:reliable"
+					name: "solidarytinker:sandstrom"
 				}
 				{
 					level: 4
-					name: "solidarytinker:tacticsattack"
+					name: "cti:shadow_of_vigrid"
 				}
 				{
-					level: 5
+					level: 10
 					name: "tconstruct:tank"
 				}
 				{
 					level: 1
 					name: "tconstruct:tank_handler"
+				}
+				{
+					level: 4
+					name: "solidarytinker:reliable"
 				}
 			]
 			tic_multipliers: {
@@ -50,20 +54,20 @@
 			}
 			tic_persistent: { }
 			tic_stats: {
-				"etshtinker:cooldown": 40.0f
+				"etshtinker:cooldown": 20.0f
 				"etshtinker:damagemultiplier": 6.5f
 				"etshtinker:plasmarange": 35.0f
-				"tconstruct:attack_damage": 31.900002f
-				"tconstruct:attack_speed": 2.0f
-				"tconstruct:durability": 12260.742f
+				"tconstruct:attack_damage": 808.9913f
+				"tconstruct:attack_speed": 1.9f
+				"tconstruct:durability": 134916.11f
 				"tconstruct:harvest_tier": "minecraft:netherite"
-				"tconstruct:mining_speed": 11.71875f
-				"tconstruct:tank_capacity": 77000.0f
+				"tconstruct:mining_speed": 14.0625f
+				"tconstruct:tank_capacity": 1725000.0f
 			}
 			tic_volatile_data: {
-				abilities: 6
+				abilities: 4
 				"tconstruct:total_tanks": 1
-				upgrades: 9
+				upgrades: 6
 			}
 		}
 	}

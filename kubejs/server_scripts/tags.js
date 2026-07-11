@@ -61,6 +61,32 @@ ServerEvents.tags('item', event => {
   event.add('curios:ring', 'cti:astra_tablet_5')
   event.add('curios:charm', 'cti:astra_tablet_5')
 
+  event.add('forge:sausage', 'kubejs:sausage')
+  event.add('forge:sausage/cooked', 'kubejs:cooked_sausage')
+  event.add('forge:chicken/scrap', 'farmersdelight:chicken_cuts')
+  event.add('forge:beef/scrap', 'farmersdelight:minced_beef')
+  event.add('forge:meat/roast/raw', 'farmersdelight:minced_beef')
+  event.add('forge:beef/roast', 'minecraft:beef')
+  event.add('forge:ground_meat/cooked', 'minecraft:cooked_beef')
+  event.add('forge:liver', 'kubejs:liver')
+  event.add('forge:heart', 'kubejs:heart')
+  event.add('forge:brain', 'kubejs:brain')
+  event.add('forge:beef/oxtail', 'kubejs:oxtail')
+  event.add('forge:meat/ribs/raw', 'kubejs:ribs')
+  event.add('forge:mutton/ribs', 'kubejs:ribs')
+  event.add('forge:chicken/ground/raw', 'minecraft:chicken')
+  event.add('forge:chicken/cubed', 'minecraft:chicken')
+  event.add('forge:chicken/cubed/cooked', 'minecraft:cooked_chicken')
+  event.add('forge:chicken/raw', 'minecraft:chicken')
+  event.add('forge:goat/stew','minecraft:mutton')
+  event.add('forge:rabbit/ground/raw','minecraft:rabbit')
+  event.add('forge:rabbit/saddle/raw','minecraft:rabbit')
+  event.add('forge:rabbit/leg/raw','minecraft:rabbit')
+  event.add('forge:rabbit/thigh/raw','minecraft:rabbit')
+  event.add('forge:rabbit/cooked','minecraft:cooked_rabbit')
+
+  event.add('forge:ores/diamond', 'kubejs:stellar_stone_diamond_ore')
+
   event.add('kubejs:cell_1m', 'megacells:cell_component_1m')
   event.add('kubejs:cell_1m', 'ae2additions:cell_component_1024')
   event.add('kubejs:cell_4m', 'megacells:cell_component_4m')
@@ -75,6 +101,13 @@ ServerEvents.tags('item', event => {
   event.add('biomancy:cannot_be_eaten_by_cradle', '#tconstruct:modifiable')
   //原版装备
   event.add('forge:completely_new_tag', 'kubejs:vanilla_equipment')
+
+  event.add('l2hostility:no_seal', 'ae2wtlib:wireless_universal_terminal')
+  event.add('l2hostility:no_seal', 'cti:slime_can')
+  event.add('create:blaze_burner_fuel/special', 'gobber2:gobber2_foo_end')
+  event.add('create:blaze_burner_fuel/special', 'immersivepetroleum:paraffin_wax')
+  event.add('create:blaze_burner_fuel/special', 'immersivepetroleum:petcoke_dust')
+
   let vanillaEquipment = [
     'minecraft:leather_helmet',
     'minecraft:leather_chestplate',
@@ -269,6 +302,11 @@ ServerEvents.tags('block', event => {
 
   event.add('forge:budding', 'cti:fracture_silicon_budding')
   event.add('forge:budding', 'cti:rasterite_budding')
+  event.add('forge:budding', 'tconstruct:budding_earth_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_sky_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_ichor_slime_crystal')
+  event.add('forge:budding', 'tconstruct:budding_ender_slime_crystal')
+
 
   event.add('forge:completely_new_tag', 'forge:ores/zirconium')
   event.add('forge:completely_new_tag', 'forge:storage_blocks/raw_zirconium')
@@ -280,6 +318,10 @@ ServerEvents.tags('block', event => {
   event.remove('forge:storage_blocks/raw_titanium', 'tinkers_reforged:raw_titanium_block')
   event.add('forge:storage_blocks/zirconium', 'tinkers_reforged:titanium_block')
   event.remove('forge:storage_blocks/titanium', 'tinkers_reforged:titanium_block')
+
+  event.add('create:non_movable','botania:cell_block')
+
+  event.add('botania:floating_flowers','cti:floating_reactive_flower')
   //防凋零
   let tconstructblock = [
     'tconstruct:seared_stone',
@@ -313,6 +355,26 @@ ServerEvents.tags('block', event => {
   for (let i of ores) {
     event.add('forge:ores', `${i}`)
   }
+
+  let req_dmnd_pickaxe = [
+    'cti:zirconium_alloy_faucet',
+    'cti:zirconium_alloy_casting_table',
+    'cti:zirconium_alloy_casting_basin',
+    'cti:refinery_controller',
+    'cti:silicated_bricks',
+    'cti:silicated_glass',
+    'cti:silicated_drain',
+    'cti:silicated_duct',
+    'cti:silicated_valve',
+    'cti:silicated_ingot_gauge',
+    'cti:silicated_fuel_gauge',
+    'cti:silicated_chute',
+    'cti:mana_interface'
+  ]
+  for (let i of req_dmnd_pickaxe) {
+    event.add('minecraft:needs_diamond_tool', `${i}`)
+    event.add('minecraft:mineable/pickaxe', `${i}`)
+  }
 })
 ServerEvents.tags('fluid', event => {
   event.add('create:bottomless/allow', 'ad_astra:cryo_fuel')
@@ -334,7 +396,11 @@ ServerEvents.tags('fluid', event => {
   event.add('forge:ethylene', 'mekanism:ethene')
   //给沉浸用的
   let needTags = [
-    'kubejs:methane'
+    'kubejs:methane',
+    'kubejs:hot_metal_lava',
+    'kubejs:hot_heavymetal_lava',
+    'kubejs:hot_heavycrystal_lava',
+    'kubejs:tar_mix',
   ]
   for (let i of needTags) {
     event.add(`${i}`, `${i}`)
@@ -346,10 +412,31 @@ ServerEvents.tags('fluid', event => {
     'kubejs:molten_sentrite',
     'kubejs:molten_phoenix',
     'kubejs:molten_valkyrie',
-    'kubejs:molten_refined_sentrite'
+    'kubejs:molten_refined_sentrite',
+    "tinkers_reforged:titanium"
+  ]
+  let gemSmallToolTip = [
+    'thermal:glowstone',
+  ]
+  let gemLargeToolTip = [
+    'thermal:redstone',
   ]
   for (let i of metalToolTip) {
     event.add('tconstruct:tooltips/metal', `${i}`)
+  }
+  for (let i of gemSmallToolTip) {
+    event.add('tconstruct:tooltips/gem_small', `${i}`)
+  }
+  for (let i of gemLargeToolTip) {
+    event.add('tconstruct:tooltips/gem_large', `${i}`)
+  }
+  let slimeToolTip = [
+    'kubejs:molten_azure_swet',
+    'kubejs:molten_gold_swet',
+    'kubejs:molten_dark_swet'
+  ]
+  for (let i of slimeToolTip) {
+    event.add('tconstruct:tooltips/slime', `${i}`)
   }
   
 })

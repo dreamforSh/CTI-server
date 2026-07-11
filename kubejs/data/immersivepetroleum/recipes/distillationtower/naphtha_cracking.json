@@ -2,22 +2,22 @@
   "type": "immersivepetroleum:distillation",
   "energy": 1024,
   "input": {
-    "amount": 20,
+    "amount": 200,
     "tag": "forge:naphtha_cracked"
   },
   "results": [
     {
-      "amount": 20,
+      "amount": 200,
       "fluid": "mekanism:ethene"
     },
     {
-      "amount": 10,
+      "amount": 100,
       "fluid": "immersivepetroleum:propylene"
     },
     {
-      "amount": 10,
+      "amount": 100,
       "fluid": "immersivepetroleum:benzene"
     }
   ],
-  "time": 1
+  "time": 2
 }

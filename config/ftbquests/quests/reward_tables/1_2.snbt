@@ -2,7 +2,7 @@
 	icon: "enigmaticlegacy:the_acknowledgment"
 	id: "28216806EE52171A"
 	loot_size: 1
-	order_index: 21
+	order_index: 20
 	rewards: [
 		{ item: "enigmaticlegacy:astral_dust", weight: 2.0f }
 		{

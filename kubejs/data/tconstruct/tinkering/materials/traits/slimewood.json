@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "cti:replaced_overgrowth"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    }
+  ]
+}

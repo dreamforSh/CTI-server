@@ -2,7 +2,7 @@
 	icon: "twilightforest:experiment_115"
 	id: "36B9C5B3B1AD9CB6"
 	loot_size: 1
-	order_index: 20
+	order_index: 19
 	rewards: [
 		{ count: 4, item: "gobber2:gobber2_ingot_nether" }
 		{ count: 4, item: "solidarytinker:damascus_steel_ingot" }

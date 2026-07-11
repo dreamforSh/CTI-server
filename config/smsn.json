@@ -1,0 +1,19 @@
+{
+  "aetherMoaSkinsFeature": true,
+  "immersiveEngineeringSpecialRevolvers": true,
+  "quarkContributorCheck": false,
+  "ipnUpdateCheckAndUserTracking": false,
+  "xaeroMapPatreonCheck": false,
+  "xaeroMapVersionCheck": false,
+  "alexModsContributorCheck": false,
+  "obscureModsCheck": false,
+  "supplementariesCreditsCheck": false,
+  "botaniaContributorCheck": false,
+  "bagusLibSupportersCheck": false,
+  "enigmaticLegacyUpdateCheck": false,
+  "enigmaticLegacyFetchDevotedBelievers": false,
+  "irisUpdateCheck": false,
+  "titaniumReward": false,
+  "projecteUUIDCheck": false,
+  "citadelAprilFoolsContent": false
+}

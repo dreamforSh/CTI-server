@@ -1,7 +1,7 @@
 {
 	id: "6BCBD7ABA89DEC7B"
 	loot_size: 1
-	order_index: 12
+	order_index: 11
 	rewards: [
 		{ count: 4, item: "mekanism:upgrade_speed" }
 		{ count: 4, item: "mekanism:upgrade_energy" }

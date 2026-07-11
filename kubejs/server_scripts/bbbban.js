@@ -43,7 +43,6 @@ ServerEvents.recipes(event => {
 	event.remove([{ mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
 	event.remove([{ mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
 	event.remove([{ mod: 'biomancy', output: 'biomancy:primordial_core' }])
-	event.remove([{ mod: 'biomancy', output: 'biomancy:maw_hopper' }])
 	event.remove([{ mod: 'botania', output: 'botania:loonium' }])
 	event.remove([{ mod: 'enigmaticlegacy', output: 'enigmaticlegacy:extradimensional_eye' }])
 
@@ -103,6 +102,8 @@ ServerEvents.recipes(event => {
 		'mekanism:module_energy_unit',
 		//机械动力和其附属
 		'create:sequenced_assembly/precision_mechanism',
+		'create:sequenced_assembly/sturdy_sheet',
+		'create:mixing/compat/ae2/fluix_crystal',
 		'createutilities:mixing/void_steel_ingot',
 		//沉浸
 		'immersiveengineering:crafting/blastbrick',
@@ -139,7 +140,7 @@ ServerEvents.recipes(event => {
 		'cherrytinker:tables/enchantedgold_block',
 		'cherrytinker:tables/enchantedgold_ingot',
 		'solidarytinker:table/icefantasy_ingot',
-		'solidarytinker:casting/starfall_ingot',
+		'solidarytinker:casting/hoshino_ingot',
 		'solidarytinker:table/experience_steel_ingot',
 		'solidarytinker:casting/extremelycoldsteel_ingot',
 		'solidarytinker:smeltery/alloy/super_dt',
@@ -149,6 +150,7 @@ ServerEvents.recipes(event => {
 		'tinkerscalibration:tools/materials/moonsteel',
 		'tinkers_ingenuity:tables/materials/sea_dream',
 		'tinkers_ingenuity:alloys/shine_alloy',
+		'tinkers_ingenuity:modifiers/enigmaticlegacy/born_with_evil',
 		'tinkersinnovation:alloy/sunsoul_alloy',
 		'tinkersinnovation:alloy/farseeing_alloy',
 		'tinkersinnovation:material/farseeing_alloy/melting/farseeing_alloy_block',
@@ -179,6 +181,7 @@ ServerEvents.recipes(event => {
 		'tinkersinnovation:modifier/corrosion',
 		'tinkersinnovation:modifier/blind',
 		'tinkersinnovation:modifier/stone_cage',
+		'tinkersinnovation:modifier/tanky',
 		'tinkerscalibration:tools/materials/oraclium',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti',
 		'tinkerscalibration:tools/modifiers/slotless/spaghetti_upgrade_1',
@@ -191,6 +194,7 @@ ServerEvents.recipes(event => {
 		'tconstruct:smeltery/alloys/molten_pewter',
 		'tconstruct:smeltery/melting/metal/signalum/ingot',
 		'tconstruct:smeltery/alloys/molten_brass',
+		'tconstruct:tools/modifiers/upgrade/necrotic',
 		//其他
 		'lightmanscurrency:coinmint',
 		'twilightforest:uncrafting_table',
@@ -206,6 +210,21 @@ ServerEvents.recipes(event => {
 		'tinkers_thinking:common/chlorophyte/ingot_blasting',
 		'tinkers_thinking:common/chlorophyte/compound_melting',
 		'kubejs:thermal/smelter/chloro',
+		//维度箱子
+		'dimstorage:dimensional_tank',
+		'dimstorage:dimensional_chest',
+
+		'extradelight:sextuple_meat_treat_bc',
+		'extradelight:oven/haggis_block_item',
+		'extradelight:pot/bhutan_bc',
+		//按照匠魂的比例定义
+		'etshtinker:thermal/crystalizer/soul_fluix',
+		'thermal:machines/crucible/crucible_glowstone_block',
+		'thermal:machines/crucible/crucible_glowstone_dust',
+		'tconstruct:smeltery/alloys/molten_lumium',
+		'tconstruct:smeltery/alloys/molten_enderium',
+		'enigmaticlegacy:cursed_scroll',
+		'enigmaticlegacy:cosmic_heart'
 	]
 	for (let k of other) { event.remove({ id: `${k}` }) }
 
@@ -223,6 +242,10 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'toms_storage:adv_wireless_terminal' })
 	event.remove({ id: 'industrialforegoing:gold_gear' })
 	event.remove({ id: 'drinkbeer:trade_box_normal' })
+	event.remove({ id: 'create:mixing/whippedcream_bottle_create' })
+	event.remove({ id: 'create:mixing/whippedcream_bucket_create' })
+	event.remove({ id: 'mythicbotany:mana_collector'})
+	event.remove({ id: 'industrialforegoing:enchantment_applicator'})
 	//powah能耗增加
 	let powah = [
 		'powah:energizing/dry_ice',
@@ -250,6 +273,33 @@ ServerEvents.recipes(event => {
 		'createoreexcavation:drilling/zinc',
 	]
 	for (let i of coe) { event.remove({ id: `${i}` }) }
+	//移除融合机矿
+	let metals = ['osmium', 'iron', 'gold', 'tin', 'copper', 'lead', 'uranium'];
+	let gems = ['fluorite', 'coal', 'redstone', 'diamond', 'emerald', 'lapis_lazuli', 'quartz'];
+	metals.forEach(metal => {
+		event.remove({ id: `mekanism:processing/${metal}/ore/from_raw` });
+		event.remove({ id: `mekanism:processing/${metal}/ore/deepslate_from_raw` });
+		if (metal === 'gold') {
+			event.remove({ id: `mekanism:processing/gold/ore/nether_from_raw` });
+		}
+	});
+	gems.forEach(min => {
+		event.remove({ id: `mekanism:processing/${min}/to_ore` });
+		event.remove({ id: `mekanism:processing/${min}/to_deepslate_ore` });
+	});
+	event.remove({ id: 'mekanism:processing/netherite/dust_to_ancient_debris' });
+
+	let type = [
+		'smelting','enriching','crushing','compressing','combining','purifying','injecting','infusing','sawing',
+	]
+	let level=[
+		'basic','advanced','elite','ultimate'
+	]
+	for (let i of type) { 
+		for(let j of level){
+			event.remove({ id:`mekanism:factory/${j}/${i}`});
+		}
+	}
 	let immersiveengineeringore = [
 		'immersiveengineering:mineral/amethyst_crevasse',
 		'immersiveengineering:mineral/ancient_seabed',
@@ -263,6 +313,8 @@ ServerEvents.recipes(event => {
 		'immersiveengineering:mineral/cinnabar',
 		'immersiveengineering:mineral/auricupride',
 		'immersiveengineering:mineral/chalcopyrite',
+		'immersiveengineering:mineral/laterite',
+		'immersiveengineering:mineral/galena',
 		'createaddition:compat/immersiveengineering/sphalerite',
 		'immersivepetroleum:reservoirs/aquifer',
 		'immersivepetroleum:reservoirs/lava',
@@ -279,6 +331,7 @@ ServerEvents.recipes(event => {
 		'l2complements:enchantments/magic_reject',
 		'l2complements:enchantments/invincible',
 		'l2complements:enchantments/void_touch',
+		'l2complements:craft/guardian_rune',
 		'l2hostility:naga_boss_spawner',
 		'l2hostility:lich_boss_spawner',
 		'l2hostility:minoshroom_boss_spawner',
@@ -318,6 +371,9 @@ ServerEvents.recipes(event => {
 		'cyclic:charm_crit',
 		'cyclic:crafting_stick',
 		'cyclic:crafting_bag',
+		'cyclic:fluid_pipe',
+		'cyclic:item_pipe',
+		'cyclic:energy_pipe',
 		'cyclic:crusher/rail',
 		'cyclic:crusher/activator_rail',
 		'cyclic:crusher/powered_rail',

@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismCrushing("kubejs:dusts_titanium",'#mekanism:dirty_dusts/titanium')
   event.recipes.mekanismCrushing('4x ae2:certus_quartz_dust', 'ae2:quartz_block')
   event.recipes.mekanismCrushing('9x minecraft:sand', 'cyclic:compressed_cobblestone')
-  event.recipes.mekanismSmelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
+  event.smelting('tinkerscalibration:titanium_ingot', "kubejs:dusts_titanium")
   //富集仓
   event.recipes.mekanismEnriching("cti:enriched_mana", "cti:magic_crystal")
   event.recipes.mekanismEnriching("kubejs:enriched_refined_glowstone", 'mekanism:ingot_refined_glowstone')
@@ -520,23 +520,24 @@ event.custom({
   event.custom({
   "type": "mekanism:reaction",
   "duration": 100,
-  "energyRequired": 100000,
+  "energyRequired": 1000,
   "fluidInput": {
-    "amount": 10,
+    "amount": 100,
     "fluid": "kubejs:radical_initiator"
   },
   "gasInput": {
-    "amount": 1000,
+    "amount": 500,
     "gas": "mekanism:ethene"
   },
   "itemInput": {
     "ingredient": {
-      "item": "mekanism:substrate"
+      "item": "mekanism:substrate",
+      "count":4
     }
   },
   "itemOutput": {
     "item": "mekanism:hdpe_pellet",
-    "count":32
+    "count":16
   }
 })
   rotary("kubejs:phenol","cti:phenol")
@@ -662,11 +663,11 @@ event.custom({
   "energyRequired": 100000,
   "fluidInput": {
     "amount": 80,
-    "fluid": "kubejs:methane"
+    "fluid": "mekanism:sulfuric_acid"
   },
   "gasInput": {
     "amount": 100,
-    "gas": "mekanism:sulfuric_acid"
+    "gas": "cti:methane"
   },
   "itemInput": {
     "ingredient": {
@@ -1279,4 +1280,6 @@ event.custom({
   rotary("mekanismgenerators:tritium","mekanismgenerators:tritium")
   rotary("mekanismgenerators:deuterium","mekanismgenerators:deuterium")
   electrolysis("mekanism:heavy_water",10,"mekanismgenerators:deuterium",10,"mekanism:oxygen",5)
+
+  event.recipes.mekanism.combining('kubejs:particle_container','16x kubejs:unipolar_magnet_shard','#forge:ingots')
 })

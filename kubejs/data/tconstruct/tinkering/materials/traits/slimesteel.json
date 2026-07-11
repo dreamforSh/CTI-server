@@ -1,16 +1,28 @@
 {
   "default": [
     {
-      "level": 1,
-      "name": "tconstruct:overcast"
+      "level": 2,
+      "name": "cti:slime_strike"
     },
     {
       "level": 1,
-      "name": "tconstruct:overgrowth"
+      "name": "cti:slime_explode"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    }
+  ],
+  "perStat": {
+  "tconstruct:armor": [
+    {
+      "level": 2,
+      "name": "cti:slime_shield"
     },
     {
       "level": 1,
       "name": "tconstruct:overslime"
     }
   ]
+}
 }

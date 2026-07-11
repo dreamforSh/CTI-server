@@ -1,0 +1,33 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "chance": 0.5,
+      "item": "kubejs:dusts_titanium"
+    }
+  ],
+  "energy": 20480,
+  "input": {
+    "amount": 1000,
+    "tag": "kubejs:hot_metal_lava"
+  },
+  "results": [
+    {
+      "amount": 180,
+      "fluid": "tconstruct:molten_zinc"
+    },
+    {
+      "amount": 270,
+      "fluid": "tconstruct:molten_nickel"
+    },
+    {
+      "amount": 360,
+      "fluid": "tconstruct:molten_tin"
+    },
+    {
+      "amount": 360,
+      "fluid": "tconstruct:molten_copper"
+    }
+  ],
+  "time": 10
+}

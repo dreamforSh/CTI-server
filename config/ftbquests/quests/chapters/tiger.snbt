@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "tiger"
 	group: "41CA0371CBDA61CC"
-	icon: "lightmanscurrency:vending_machine_pink"
+	icon: "meetyourfight:slicers_dice"
 	id: "75AC808AA284BCCE"
 	images: [{
 		click: ""
@@ -17,14 +17,11 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"&e欢迎来到愉快的老虎机，这里有很多的东西供你进行娱乐，希望能为大家带来笑容！&e"
-				"&m&0&o也许你能在其他任务里找到线索~&0&o&m"
-			]
+			description: ["在这个巨大的世界隐藏着各种奇奇妙妙的彩蛋等待你去发现"]
 			icon: "cyclic:heart"
 			id: "50318EE869E01629"
 			shape: "heart"
@@ -33,128 +30,38 @@
 				id: "160473DFC90140F3"
 				type: "checkmark"
 			}]
-			title: "愉快的抽奖时间到了！"
+			title: "隐藏物品？"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["50318EE869E01629"]
-			description: ["量大管饱"]
-			hide_dependency_lines: true
-			icon: "drinkbeer:spice_roasted_red_pine_nuts"
-			id: "6CF95FA09FC1C838"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3A28C21B75D1662B"
-				table_id: 541804463457550829L
-				team_reward: true
-				type: "random"
-			}]
-			subtitle: "各种奇奇怪怪的香料"
+			description: ["哥哥一定是死了很多次才拿到的吧，真是杂鱼❤"]
+			id: "619A8096658E693E"
+			invisible: true
+			rewards: [
+				{
+					count: 13
+					id: "79D1D4AC79645FD6"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
+					count: 14
+					id: "3C36E26D2C446926"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "我去，真被你挖到了"
 			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "7E2E87C4D473C2C0"
-				item: "lightmanscurrency:coin_iron"
+				id: "65FC69735B8BF948"
+				item: "cti:heart_of_africa"
 				type: "item"
 			}]
-			title: "香料大抽奖"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: "cti:qdbeer"
-			id: "6188F30136D93480"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "74391EBD08EDEF0F"
-				table_id: 280241854384394554L
-				team_reward: true
-				type: "random"
-			}]
-			subtitle: "这些可是cti才能买的到的酒"
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "24172DE3403C6625"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			title: "整活绝版酒"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:diamond"
-			id: "75FA7D9261422623"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "576F905D97C84143"
-				table_id: 6568973918805570383L
-				team_reward: true
-				type: "random"
-			}]
-			subtitle: "试试手气？"
-			tasks: [{
-				consume_items: true
-				id: "36B0697DAFB1B0EA"
-				item: "lightmanscurrency:coin_gold"
-				match_nbt: true
-				type: "item"
-			}]
-			title: "如果你突然缺一颗钻石"
 			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependency_requirement: "one_started"
-			description: ["送你点好吃的代替吧"]
-			icon: "solidarytinker:starfall_ingot"
-			id: "5A24651A04163925"
-			rewards: [{
-				id: "5E137756DA5A46E9"
-				item: "create:sweet_roll"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "有笨蛋没有算好概率"
-			tasks: [{
-				id: "4C4CC9E63D8B6CA3"
-				title: "🐷"
-				type: "checkmark"
-			}]
-			title: "阿拜多斯幸运大转盘( 已停用)"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			id: "5B6758CCE13EDCF2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "04AA9E0A8D1F9B9E"
-				table_id: 3390064789389458640L
-				team_reward: true
-				type: "random"
-			}]
-			shape: "diamond"
-			subtitle: "一次十连喵"
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "22A7962A6934EE3D"
-				item: "lightmanscurrency:coin_emerald"
-				match_nbt: true
-				type: "item"
-			}]
-			title: "附魔书清仓大甩卖"
-			x: -4.0d
-			y: 0.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["消费需谨慎"]
-	title: "老虎机"
+	title: "隐藏物品"
 }

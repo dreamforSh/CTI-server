@@ -1,0 +1,14 @@
+{
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -15,
+                "bottom": -1
+            },
+            "SETTINGS": {
+                "horizontalOffset": -1,
+                "top": -15
+            }
+        }
+    }
+}

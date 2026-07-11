@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "CCGCC",
+    "BDCDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "B": {
+      "item": "aether_redux:refined_sentrite"
+    },
+    "C": {
+      "item": "l2complements:storm_core"
+    },
+    "D": {
+      "item": "l2complements:poseidite_ingot"
+    },
+    "E": {
+      "item": "meetyourfight:phantoplasm"
+    },
+    "G": {
+      "item": "l2complements:guardian_eye"
+    }
+  },
+  "result": {
+    "item": "l2complements:guardian_rune"
+  }
+}

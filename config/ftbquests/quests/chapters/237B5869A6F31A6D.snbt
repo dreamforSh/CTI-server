@@ -1,0 +1,812 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "237B5869A6F31A6D"
+	group: "5B9406893C138689"
+	icon: "tconstruct:slimesteel_ingot"
+	id: "237B5869A6F31A6D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["1级材料"]
+			image: "minecraft:item/light_01"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["2级材料"]
+			image: "minecraft:item/light_02"
+			rotation: 0.0d
+			width: 2.0d
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["3级材料"]
+			image: "minecraft:item/light_03"
+			rotation: 0.0d
+			width: 2.0d
+			x: 31.0d
+			y: -2.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 16711680
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["1级材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 16723989
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["2级材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 16736304
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["3级材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 31.0d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 16748613
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["4级材料"]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 4.0d
+			x: 35.5d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 16760949
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["5级材料"]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 4.0d
+			x: 40.0d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 16773269
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["6级材料"]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 4.0d
+			x: 44.5d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 15794112
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["7级材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 49.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["4级材料"]
+			image: "minecraft:item/light_04"
+			rotation: 0.0d
+			width: 2.0d
+			x: 35.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["5级材料"]
+			image: "minecraft:item/light_05"
+			rotation: 0.0d
+			width: 2.0d
+			x: 40.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["6级材料"]
+			image: "minecraft:item/light_06"
+			rotation: 0.0d
+			width: 2.0d
+			x: 44.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["7级材料"]
+			image: "minecraft:item/light_07"
+			rotation: 0.0d
+			width: 2.0d
+			x: 49.0d
+			y: -2.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 15794175
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["8级材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 53.5d
+			y: 3.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 12632319
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["9级材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 58.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["8级材料"]
+			image: "minecraft:item/light_08"
+			rotation: 0.0d
+			width: 2.0d
+			x: 53.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["9级材料"]
+			image: "minecraft:item/light_09"
+			rotation: 0.0d
+			width: 2.0d
+			x: 58.0d
+			y: -2.0d
+		}
+		{
+			alpha: 72
+			click: ""
+			color: 9466111
+			corner: false
+			dev: false
+			height: 16.0d
+			hover: ["贡献者材料"]
+			image: "#FFFFFF"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 62.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["贡献者材料"]
+			image: "botania:block/alchemy_catalyst_overlay"
+			rotation: 0.0d
+			width: 2.0d
+			x: 62.5d
+			y: -2.0d
+		}
+		{
+			alpha: 20
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: ["贪婪材料"]
+			image: "#FFFFFF"
+			order: -2
+			rotation: 0.0d
+			width: 55.0d
+			x: 40.5d
+			y: 4.0d
+		}
+		{
+			alpha: 20
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: ["黏液材料"]
+			image: "#FFFFFF"
+			order: -2
+			rotation: 0.0d
+			width: 55.0d
+			x: 40.5d
+			y: 0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"      这个章节的任务中记载了全部流派和其包含的材料。"
+				""
+				"      其它材料可以前往材料全收集查看！"
+				""
+				"      需要注意的是：纯流派材料配出来的装备不强，优质的配装永远都离不开流派交互和通用材料的使用，一定不要光盯着流派材料用！"
+				""
+				"      目前流派尚在施工中，后续还会有更多流派！"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:cleaver"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:manyullyn"
+						"tconstruct:manyullyn"
+						"tconstruct:manyullyn"
+						"tconstruct:manyullyn"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "cti:stone_cold_replaced"
+						}
+						{
+							level: 8
+							name: "cti:replaced_insatiable"
+						}
+						{
+							level: 8
+							name: "cti:insatiable_handler"
+						}
+						{
+							level: 5
+							name: "tconstruct:severing"
+						}
+						{
+							level: 2
+							name: "tconstruct:looting"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_aoe_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 3.5f
+						"tconstruct:mining_speed": 0.25f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"cti:insatiable_base": 16.0f
+						"tconstruct:attack_damage": 16.605f
+						"tconstruct:attack_speed": 0.95f
+						"tconstruct:durability": 4812.5f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 1.4625f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "150CEB7BC8DD564E"
+			shape: "heart"
+			size: 3.0d
+			subtitle: "流派是指具有相近机制且能相互配合的一系列材料"
+			tasks: [{
+				id: "74DFA46B0CF1395F"
+				title: "关于流派"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"      黏液覆层是一种用黏液来填充的充能条，在工具受损时会消耗黏液覆层减免耐久损耗。"
+				""
+				"      除此之外，部分材料有将黏液覆层转换为增伤/减伤的效果"
+				""
+				"      总体上来看，黏液流派材料防御性较强"
+				""
+				"      由于黏液覆层有&e消耗黏液球&r的需求，所以推荐&6搭配科技产线生产黏液球&r。仅靠前中期冒险获得黏液球量是不够用的！"
+			]
+			icon: "minecraft:slime_ball"
+			id: "7DC06096C4A45EF3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3E1CEBD0E50CF27E"
+				type: "checkmark"
+			}]
+			title: "黏液覆层流派"
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			id: "28CF7601A41203E0"
+			subtitle: "提供简单的黏液覆层恢复手段，当然比较慢"
+			tasks: [{
+				id: "4277C4564060BFFF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:slimy_planks"
+					}
+				}
+				title: "任意黏木"
+				type: "item"
+			}]
+			title: "黏木"
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			id: "53D88DA50A97AA74"
+			subtitle: "最基础的黏液增伤材料！"
+			tasks: [{
+				id: "061AEDAF141B80DB"
+				item: "tinkersinnovation:slime_bone"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			id: "37800EC3110DA7D1"
+			subtitle: "必定暴击，但是有代价"
+			tasks: [{
+				id: "3F91D1E671FF596B"
+				item: "tinkers_reforged:ender_bone"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			id: "44A48E86D55F867A"
+			subtitle: "对史莱姆造成的伤害增加"
+			tasks: [{
+				id: "2B2D7BB388FB9675"
+				item: {
+					Count: 1b
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tinkers_thinking:dusk"
+					}
+				}
+				type: "item"
+			}]
+			title: "幽暮"
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			id: "739587D53BE9F43D"
+			subtitle: "翻倍黏液覆层的获取量和消耗量"
+			tasks: [{
+				id: "1BFB5155BA59F0E4"
+				item: {
+					Count: 1b
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:plated_slimewood"
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			description: ["需要大量的黏液覆层才能吃满！"]
+			id: "1CDB3D75051ABFE9"
+			subtitle: "黏液材料少有的独立乘算增伤"
+			tasks: [{
+				id: "00C37B11E0D2CA15"
+				item: "tinkerscalibration:emperorslime_ingot"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"对于高耐久的工具提供的黏液覆层非常可观以至于可以担当黏液流派的核心材料"
+				""
+				"搭配高耐久材料（硬铝、永恒等）食用更佳"
+			]
+			id: "01A957D1D06CDD68"
+			subtitle: "减少耐久度，增加黏液覆层"
+			tasks: [{
+				id: "4EB3ACB309CEAEA5"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			id: "5BFE28B754B5813A"
+			subtitle: "消耗黏液覆层修补耐久"
+			tasks: [{
+				id: "707D7E86DAA20B36"
+				item: {
+					Count: 1b
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tinkers_thinking:stewium"
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"搭配有高缓慢等级的材料时可以获得较高的乘算增伤"
+				""
+				"搭配能延长缓慢时间的材料可以获得较高的加算增伤"
+				""
+				"或者我全都要！"
+			]
+			id: "7F443A3432B72464"
+			subtitle: "根据缓慢来增伤！"
+			tasks: [{
+				id: "3BD602F5FFECA117"
+				item: "cloudertinker:mazeslime_ingot"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.5d
+		}
+		{
+			description: ["此外黏钢是后面部分材料和强化的原料，记得多做点"]
+			id: "70ADE638C1B18340"
+			subtitle: "范围爆破+持续伤害"
+			tasks: [{
+				id: "2C6F3C2EBD948AA9"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.5d
+		}
+		{
+			id: "249882884D50DA52"
+			tasks: [{
+				id: "65811335F4ABFD95"
+				item: "tinkersinnovation:slimton_ingot"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 1.0d
+		}
+		{
+			id: "3CE7115742667F34"
+			subtitle: "还在叠时运"
+			tasks: [{
+				id: "581F11DAFBC97956"
+				item: "tinkers_ingenuity:prince_slime_ingot"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 0.0d
+		}
+		{
+			description: ["护甲末影也可以与主手末影打combo"]
+			id: "169F46DB555D2D1F"
+			subtitle: "纯数值"
+			tasks: [{
+				id: "42A0074559D6535E"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 39.5d
+			y: 0.5d
+		}
+		{
+			id: "04235C0F17481FAB"
+			subtitle: "神能晶与黏液覆层，交叉融合！"
+			tasks: [{
+				id: "4C154A2B5EFF34FE"
+				item: "kubejs:swet_bronze_ingot"
+				type: "item"
+			}]
+			x: 40.5d
+			y: 0.5d
+		}
+		{
+			description: ["等级越高伤害的范围越大，同时高频附伤也可以搭配贪婪流派食用"]
+			id: "72C5F93DA133FC63"
+			subtitle: "范围性持续伤害"
+			tasks: [{
+				id: "1341909795068FD6"
+				item: "tinkerscalibration:mangobberslime_ingot"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 0.5d
+		}
+		{
+			description: ["同时作为护甲时可以极大加速飞行，攻击侧则获得了对滞空敌怪的一个较高增伤"]
+			id: "39BBD5ADE958C659"
+			subtitle: "黏钢plus"
+			tasks: [{
+				id: "6F9F87B251224BA0"
+				item: "tinkers_ingenuity:blue_sky_ingot"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"      玛玉灵是匠魂的标志性材料。你可能不知道匠魂3更新了什么，但是一定知道匠魂3会有玛玉灵！"
+				""
+				"      为了适应整合包的数值环境，玛玉灵标志性的贪婪词条被重做成了能几乎贯穿全流程的流派"
+				""
+				"      贪婪效果现在不再仅增加工具的攻击伤害，而是会增加所有来源为你的伤害！"
+				"&8（&m力量战飞剑回旋镖，你知道吗&r&8）"
+				""
+				"      同时这个增伤的生效顺序非常靠后。虽然这意味着&e贪婪的增伤不会被绝大部分伤害增幅加成&r，但相应的，这也意味着&6贪婪的增伤不会被绝大部分减伤所减免&r！"
+				""
+				"      贪婪流派的最大贪婪属性和部分词条效果能在&6护甲和副手&r生效"
+			]
+			icon: "tconstruct:manyullyn_block"
+			id: "3AFFD4328A927132"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0CEFCAC5EF5FBA42"
+				type: "checkmark"
+			}]
+			title: "贪婪流派"
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			id: "2477B8D72347F31E"
+			subtitle: "也不是不能用"
+			tasks: [{
+				id: "1B87FEA7B78FC469"
+				item: "tinkerscalibration:corundum"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 4.0d
+		}
+		{
+			id: "51B043F3C49BCBAA"
+			subtitle: "最基础的贪婪材料！对高血量生物附加多段"
+			tasks: [{
+				id: "0A1E3841BE10B43D"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			id: "218BFB0E5D2F5D87"
+			subtitle: "前期的攻击速度材料"
+			tasks: [{
+				id: "092055B3E86D7109"
+				item: "tinkerscalibration:mandite_ingot"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 4.0d
+		}
+		{
+			id: "21E8417420517AE8"
+			subtitle: "贪婪叠满时增加贪婪的增伤"
+			tasks: [{
+				id: "0BEAEBF1641CBE83"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 4.0d
+		}
+		{
+			id: "3F2D4C2FE249BE4B"
+			subtitle: "生存向的材料，能回血回饱食度"
+			tasks: [{
+				id: "6139C012D4CA5A22"
+				item: "cloudertinker:hydra_scale"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"护甲参与计算的意思是护甲上的词条等级也会计入生效等级。"
+				""
+				"等级会增加百分比伤害但是不增加概率"
+				""
+				"如果你穿了全套爵士合金甲加上主副手5部件爵士合金剑，这个百分比会增加到18%"
+				"&8（&m但是你会变得很脆并且由于缺乏多段打不出来这个伤害&r&8）"
+			]
+			id: "4E5257D819AE339A"
+			subtitle: "贪婪生效时概率造成百分比最大生命的伤害"
+			tasks: [{
+				id: "7068E34EB9B96477"
+				item: "tinkerscalibration:jazz_ingot"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 4.0d
+		}
+		{
+			id: "449285F7142948D0"
+			subtitle: "加速叠层/多段来源"
+			tasks: [{
+				id: "0D60523617768039"
+				item: "tinkersinnovation:hostilium_ingot"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 4.0d
+		}
+		{
+			id: "098367887044E96F"
+			subtitle: "上限材料，如果叠加贪婪的速度够快就能打出极高伤害"
+			tasks: [{
+				id: "2B216B3C9E40EB20"
+				item: "tinkers_ingenuity:gleiter_ingot"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 4.0d
+		}
+		{
+			description: ["      攻击时还能造成持续伤害，效果不错的"]
+			id: "24FA7487E64C2B5A"
+			subtitle: "消耗黏液覆层维持贪婪等级为最大贪婪的一半"
+			tasks: [{
+				id: "1E8EDFE024AA2BFF"
+				item: "tinkerscalibration:mangobberslime_ingot"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DC06096C4A45EF3"]
+			description: [
+				"      更方便给工具补充黏液覆层的方法"
+				""
+				"      在强化&a黏液转置&r后置于饰品栏时可以自动为手持工具和护甲补充"
+				""
+				"      强化&a隔空取黏&r后可以绑定容器并自动消耗容器内可提供黏液覆层的物品充能"
+				""
+				"      可以通过强化&9超强化&r增加容量，强化&a蔓生&r获得少量被动恢复"
+			]
+			id: "3312C97F1E96FFC8"
+			subtitle: "黏液流派的专属饰品"
+			tasks: [{
+				id: "52FD518FD6B83D77"
+				item: {
+					Count: 1b
+					id: "cti:slime_can"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:overslime"
+							}
+							{
+								level: 1
+								name: "cti:super_overslime"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:overslime": 5000.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+	]
+	title: "材料流派大全"
+}

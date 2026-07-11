@@ -1,12 +1,12 @@
 {
   "default": [
     {
-        "name": "tinkerscalibration:united",
+        "name": "cti:united_insatiable",
         "level": 1
       },
     {
-      "name": "cti:endergobberbless",
+      "name": "cti:united_overslime",
       "level": 1
     }
-    ]
+  ]
 }

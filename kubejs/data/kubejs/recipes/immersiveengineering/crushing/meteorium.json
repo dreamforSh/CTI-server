@@ -12,13 +12,6 @@
     },
     "secondaries": [
       {
-        "chance": 0.95,
-        "output": {
-            "count": 8,
-          "item": "thermal:sulfur_dust"
-        }
-      },
-      {
         "chance": 0.75,
         "output": {
             "count": 7,
@@ -33,24 +26,10 @@
         }
       },
       {
-        "chance": 0.52,
-        "output": {
-            "count": 7,
-          "item": "createoreexcavation:raw_emerald"
-        }
-      },
-      {
         "chance": 0.62,
         "output": {
             "count": 6,
           "item": "ae2:certus_quartz_crystal"
-        }
-      },
-      {
-        "chance": 0.52,
-        "output": {
-            "count": 7,
-          "item": "minecraft:amethyst_shard"
         }
       },
       {
@@ -61,9 +40,9 @@
         }
       },
       {
-        "chance": 0.62,
+        "chance": 0.72,
         "output": {
-          "count": 20,
+          "count": 4,
           "item": "mekanism:raw_uranium"
         }
       }

@@ -5,18 +5,32 @@
 	group: "4CD374CEABFCA3D3"
 	icon: "l2complements:resonant_feather"
 	id: "2860B21F067AD1CF"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 2.0d
-		hover: [ ]
-		image: "ftbquests:block/barrier_open"
-		rotation: 0.0d
-		width: 2.0d
-		x: 0.5d
-		y: -3.5d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.5d
+			y: -4.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -25,6 +39,19 @@
 				"这里仅讲述一些简易的东西，因为所有东西都能在jei里面查到来源，这是一个非常不错的mod"
 				""
 				"莱特兰会极大影响boss攻略的流程。在&6挑战-boss全收集&r任务中收录了全部的boss生物和它们的各种基础特性，并给出了挑战时期的建议，&e请仔细查阅。"
+				""
+				"作为一个难度模组，你&c不需要&r知道莱特兰恶意该怎么玩，因为它压根不存在玩法的说法。"
+				""
+				"你需要操作的部分只有&6查看JEI&r，看看自己需要什么材料或者饰品，然后看看它怎么合成。"
+				"&b（ps: 绝大部分恶意的材料都可以通过抢夺宝珠获取，能通过抢夺宝珠获取的材料尽量用抢夺宝珠获取）"
+				""
+				"&6时刻铭记：&e你在玩一个匠魂包，提升你自身战斗力的方法永远是制作更强大的材料，配置更强大的匠魂装备。"
+				""
+				"&l&e当你自己足够强大，一切困难都能迎刃而解"
+				""
+				"&b绝大部分词条都有对应的针对性解法，查阅右侧的词条攻略以了解更多"
+				""
+				"&c不要觉得匠魂部件位很珍贵，&d一个部件只要能克制一个恶心到你的词条就已经是血赚"
 			]
 			icon: "l2hostility:greed_of_nidhoggur"
 			id: "2858B239AAFC570E"
@@ -36,11 +63,24 @@
 			}]
 			title: "世间的扭曲，莱特兰恶意"
 			x: 0.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["126618913B9D8EC8"]
-			description: ["当恶意席卷过了一段时间后，你发现了部分材料组合能够创造出抢夺那些被恶意侵蚀出特殊能力的怪物身上的恶意并变为掉落物的宝珠，它尚有改进的可能，只是目前仅仅只能做到这样。"]
+			description: [
+				"当恶意席卷过了一段时间后，你发现了部分材料组合能够创造出抢夺那些被恶意侵蚀出特殊能力的怪物身上的恶意并变为掉落物的宝珠，它尚有改进的可能，只是目前仅仅只能做到这样。"
+				""
+				"佩戴抢夺宝珠可以在击杀带有词条怪物时产生额外战利品，详情见JEI。"
+				""
+				"在你接下来的流程中你可以合成各式各样的抢夺宝珠（就是下方任务的那几个！），它们能带来的战利品各不相同。"
+				""
+				"宝珠战利品可叠加，意味着你可以佩戴全部宝珠来获得所有宝珠掉落物"
+				"&8（&m然后撑爆你的AE2存储&r&8）"
+				""
+				"现在你可以制作一个粗糙抢夺宝珠，它能给你带来一些基础资源。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "1C61C1A7369EA6F9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -57,25 +97,34 @@
 				type: "item"
 			}]
 			title: "抢夺恶意的本源"
-			x: 3.5d
-			y: -3.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2858B239AAFC570E"]
+			description: [
+				"你的恶意之旅始于暮色，在这里你可以做出最核心的饰品：嫉妒诅咒。"
+				""
+				"有了它你便可以获得怪物的词条，接下来便向着&6尼德霍格&r进发吧！"
+			]
 			id: "22B572D8C3A4D71F"
-			subtitle: "诅咒凝聚七罪……"
+			subtitle: "你的旅途始于暮色..."
 			tasks: [{
-				dimension: "minecraft:overworld"
+				dimension: "twilightforest:twilight_forest"
 				id: "6F9D0860153AD7AA"
 				type: "dimension"
 			}]
 			title: "凝聚恶意，让恶意化为你的力量"
 			x: 0.5d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5B5FB3B99275629D"]
-			description: ["&a恶意被你持握在手中，它在恐惧，因为你掌握着它的独立意志，并随时可能吃掉它……"]
+			description: [
+				"&a恶意被你持握在手中，它在恐惧，因为你掌握着它的独立意志，并随时可能吃掉它……"
+				""
+				"带上这个后在等级高的情况下你会刷到&e非常&6非常&c非常多&r的恶意瓶，建议刷够了就取下来。"
+			]
 			id: "75D4C60C5D33D036"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -92,11 +141,15 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["22B572D8C3A4D71F"]
-			description: ["&5我嫉妒它们为什么会拥有我所得到不到的力量……我要剥夺它们的力量！"]
+			description: [
+				"&5我嫉妒它们为什么会拥有我所得到不到的力量……我要剥夺它们的力量！"
+				""
+				"佩戴嫉妒诅咒时可以在击杀带有词条的怪物时概率获取其词条，是恶意的核心饰品"
+			]
 			id: "5B5FB3B99275629D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -112,7 +165,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5B5FB3B99275629D"]
@@ -133,7 +186,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["205A75EE7CD8C412"]
@@ -167,9 +220,10 @@
 			]
 			title: "停下这无止境的恶意吧"
 			x: -4.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "2BAC664D37C55BEC"
 			tasks: [{
@@ -178,9 +232,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "2AFDE9DA50338E77"
 			tasks: [{
@@ -189,9 +244,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "0AFB1315F3FE7108"
 			tasks: [{
@@ -200,9 +256,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			hide_dependency_lines: false
 			id: "7A3A5CEB02C7D41A"
@@ -212,9 +269,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "51AF8A339D2DBA75"
 			tasks: [{
@@ -223,9 +281,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "6E4B97587B54FC02"
 			tasks: [{
@@ -234,9 +293,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			hide_dependency_lines: false
 			id: "7BC8E214950557FB"
@@ -246,9 +306,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "7DE0F1607E53D5AF"
 			tasks: [{
@@ -257,9 +318,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "40D0F526EFAF3F76"
 			tasks: [{
@@ -268,9 +330,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "52794DCB178AE9D7"
 			tasks: [{
@@ -279,9 +342,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "70E744C13A8D5CC7"
 			tasks: [{
@@ -290,9 +354,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "5849FAD6E1135DE5"
 			tasks: [{
@@ -301,9 +366,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "79C8BCEA3E0EED4C"
 			tasks: [{
@@ -312,9 +378,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "06D41241C82655F0"
 			tasks: [{
@@ -323,9 +390,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "19C8EE26E8018644"
 			tasks: [{
@@ -334,9 +402,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "2A3270A0D7D24058"
 			tasks: [{
@@ -345,9 +414,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["1C61C1A7369EA6F9"]
 			disable_toast: true
 			id: "1D4CCEB2C28E6789"
 			tasks: [{
@@ -362,10 +432,13 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["126618913B9D8EC8"]
 			description: ["巨龙之息与下届之烈焰摩擦钻石而凝聚出来的成果，相较于之前的宝珠有更加强悍的恶意抢夺能力，能得到更加强大的物品，只是它得到的东西种类变少了"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "00B1E97C9A1E358F"
 			rewards: [
 				{
@@ -382,16 +455,17 @@
 			]
 			shape: "square"
 			size: 1.5d
-			subtitle: "内含龙的力量"
+			subtitle: "内含暮色的力量"
 			tasks: [{
 				id: "7C6E18AD3478582A"
 				item: "l2hostility:charm_of_looting_2"
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "691FBE7D0FA17C3E"
 			tasks: [{
@@ -400,9 +474,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "002EF6134FDAD40D"
 			tasks: [{
@@ -411,9 +486,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "7201BC75EACECF40"
 			rewards: [{
@@ -428,9 +504,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "326E10D96A8B8F7A"
 			rewards: [{
@@ -445,9 +522,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "497674F5D9D640D2"
 			rewards: [{
@@ -462,9 +540,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "7A8AC44E8D2EF4F9"
 			rewards: [{
@@ -479,9 +558,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "1EEC93D65EFC5570"
 			rewards: [{
@@ -496,9 +576,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "427F3FD871C3287D"
 			rewards: [{
@@ -513,9 +594,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "30993DA32F2DE20B"
 			rewards: [{
@@ -530,9 +612,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "06C65DDE8FA201DB"
 			rewards: [{
@@ -547,9 +630,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "654BC1F0770623A9"
 			rewards: [{
@@ -564,9 +648,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "369DB1562D43D72A"
 			rewards: [{
@@ -581,10 +666,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
+			dependencies: ["126618913B9D8EC8"]
 			description: ["当生命的精华与混沌交织在一起，它们将会凝缩成一颗来自混沌的宝珠，肆意卷走你所杀生物之恶意。"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "4AAA4F70E7A6F818"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -600,10 +688,11 @@
 				item: "l2hostility:charm_of_looting_3"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 0.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			disable_toast: true
 			id: "02E3AF4DB2AE93E2"
 			rewards: [{
@@ -618,9 +707,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
+			dependencies: ["4AAA4F70E7A6F818"]
 			disable_toast: true
 			id: "0B52FC8C73DB9CCB"
 			rewards: [{
@@ -634,10 +724,11 @@
 				item: "l2complements:captured_wind"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 1.5d
+			y: 14.0d
 		}
 		{
+			dependencies: ["4AAA4F70E7A6F818"]
 			disable_toast: true
 			id: "398892675850AB73"
 			rewards: [{
@@ -651,10 +742,11 @@
 				item: "l2complements:sculkium_nugget"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: -0.5d
+			y: 14.0d
 		}
 		{
+			dependencies: ["4AAA4F70E7A6F818"]
 			disable_toast: true
 			id: "5FCB2219D10C1203"
 			rewards: [{
@@ -668,11 +760,14 @@
 				item: "l2complements:storm_core"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.5d
+			x: 0.5d
+			y: 14.0d
 		}
 		{
+			dependencies: ["126618913B9D8EC8"]
 			description: ["奇迹就在眼前，但是奇迹的后面……似乎还有着什么更加恐怖的东西……"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "08D2F4ABDEFE9DF7"
 			rewards: [
 				{
@@ -695,10 +790,11 @@
 				item: "l2hostility:charm_of_looting_4"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: 0.5d
+			y: 18.0d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			disable_toast: true
 			id: "0E57809E61BB6C77"
 			rewards: [{
@@ -712,10 +808,11 @@
 				item: "l2complements:resonant_feather"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: 2.0d
+			y: 19.5d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			disable_toast: true
 			id: "7F83267C7DCE87F7"
 			rewards: [{
@@ -729,10 +826,11 @@
 				item: "l2hostility:chaos_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: 2.5d
+			y: 20.5d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			disable_toast: true
 			id: "0EDBF7B397B3ECDA"
 			rewards: [{
@@ -746,10 +844,11 @@
 				item: "l2complements:heirophant_green"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -1.0d
+			y: 19.5d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			disable_toast: true
 			id: "016EA69739168E8F"
 			rewards: [{
@@ -763,12 +862,20 @@
 				item: "l2complements:void_eye"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: 0.5d
+			y: 20.5d
 		}
 		{
-			dependencies: ["179ED87BCC4A86A7"]
-			description: ["&0你永远也走不出莱特兰恶意的笼罩，只能日复一日年复一年的抑制……"]
+			dependencies: ["5B5FB3B99275629D"]
+			description: [
+				"&0你永远也走不出莱特兰恶意的笼罩，只能日复一日年复一年的抑制……"
+				""
+				"喜欢我一个灾变boss爆几千个唱片吗"
+				""
+				"尼德霍格是你步入无尽阶段的最后一块垫脚石，它能让你在击杀高难度敌怪时获取巨量掉落物。"
+				""
+				"这使得你&c不需要&r自动化后期boss的掉落物，&6仅仅是击杀一次灾变的boss就能获取足以用到毕业的掉落物。"
+			]
 			id: "4998C054D03FA543"
 			rewards: [
 				{
@@ -784,7 +891,7 @@
 					type: "random"
 				}
 			]
-			shape: "hexagon"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "古老黑龙的欲望在你身上兆现，并包括“祂”的权能"
 			tasks: [{
@@ -817,8 +924,8 @@
 				type: "dimension"
 			}]
 			title: "起始之旅"
-			x: 2.0d
-			y: -3.5d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5B5FB3B99275629D"]
@@ -841,10 +948,11 @@
 				item: "l2hostility:curse_of_greed"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.5d
+			x: -0.5d
+			y: -9.0d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			id: "3A6274FE9B022F22"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -858,10 +966,11 @@
 				item: "l2complements:sun_membrane"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: 1.0d
+			y: 19.5d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			id: "0C709EA974A8B43A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -875,10 +984,11 @@
 				item: "l2complements:eternium_nugget"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -0.5d
+			x: 0.0d
+			y: 19.5d
 		}
 		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
 			id: "33414A01B664D51D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -891,10 +1001,11 @@
 				item: "l2hostility:imagine_breaker"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -1.5d
+			y: 20.5d
 		}
 		{
+			dependencies: ["4AAA4F70E7A6F818"]
 			id: "28535ACDAC66AA80"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -908,10 +1019,11 @@
 				item: "l2complements:force_field"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 0.5d
+			y: 15.0d
 		}
 		{
+			dependencies: ["4AAA4F70E7A6F818"]
 			id: "509E2ADAB01C1880"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -925,10 +1037,11 @@
 				item: "l2complements:blackstone_core"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.5d
+			x: 0.5d
+			y: 16.0d
 		}
 		{
+			dependencies: ["4AAA4F70E7A6F818"]
 			id: "55A3B345D448CECD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -942,10 +1055,11 @@
 				item: "l2hostility:book_of_reprint"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 0.5d
+			y: 13.0d
 		}
 		{
+			dependencies: ["00B1E97C9A1E358F"]
 			id: "10B88D26422BD446"
 			shape: "rsquare"
 			tasks: [{
@@ -953,8 +1067,8 @@
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.0d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["205A75EE7CD8C412"]
@@ -966,7 +1080,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2858B239AAFC570E"]
@@ -979,7 +1093,7 @@
 			}]
 			title: "时尚小玩意儿"
 			x: -1.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["205A75EE7CD8C412"]
@@ -997,7 +1111,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["205A75EE7CD8C412"]
@@ -1015,7 +1129,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["205A75EE7CD8C412"]
@@ -1033,7 +1147,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["205A75EE7CD8C412"]
@@ -1051,7 +1165,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1076,8 +1190,8 @@
 				item: "l2hostility:tank"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1100,8 +1214,8 @@
 				item: "l2hostility:speedy"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1109,6 +1223,10 @@
 				"使用带有&d破魔(bypassMagic)伤害&r的材料/武器即可突破"
 				""
 				"例：暗影复相钢的绿色剑气等无视魔抗的伤害,佩戴破咒遗骨等"
+				""
+				"神谕钢能清除抗性提升效果，从而缴械保护"
+				""
+				"贪婪流派的增伤在保护减伤之后，不受保护减伤影响"
 			]
 			id: "571AB5A0D737F08C"
 			rewards: [{
@@ -1118,14 +1236,14 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "抗性提升，跟重装食用更佳"
+			subtitle: "叠这么厚的甲干嘛"
 			tasks: [{
 				id: "1F49C95A406AF878"
 				item: "l2hostility:protection"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1134,7 +1252,7 @@
 				""
 				"❗整合包独特调整"
 				""
-				"攻击带有&e隐身词条同时具有隐身buff&r的生物时会&6有概率打空&r。其概率随 &6伤害大小/生物当前生命值&r 增大而减小，在0~80%之间（超过80%生命值的伤害不会打空）。"
+				"攻击带有&e隐身词条同时具有隐身buff&r的生物时会&6有概率打空&r。其概率随 &6伤害大小/生物当前生命值&r 增大而减小，在0~30%之间（超过30%生命值的伤害不会打空）。"
 				""
 				"使用超高伤害一次击杀即可避免打空。"
 				""
@@ -1150,18 +1268,22 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "建议带个侦测眼镜先"
+			subtitle: "我去，还有隐形人"
 			tasks: [{
 				id: "6128FBA14A829484"
 				item: "l2hostility:invisible"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
-			description: ["抗火的都行"]
+			description: [
+				"怕烈焰人自带这个你就捏碎一个恶意吸收宝珠去"
+				""
+				"抗火的都行"
+			]
 			id: "6BD1B07FDE88088B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1176,15 +1298,21 @@
 				item: "l2hostility:fiery"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
+				"整合包调整："
+				""
+				"削弱了基础恢复能力，但是在半血时候会触发一段快速回血，类似于黎明使者的效果"
+				""
 				"对怪物施加&d诅咒&r效果吧"
 				""
 				"可以用&d诅咒之刃匠魂强化&r或者其他重伤类材料（如汞齐，拉波尔,琥珀结晶等）"
+				""
+				"重伤强化也可以一定程度抑制此词条"
 			]
 			id: "2FACC659D94C13FC"
 			rewards: [{
@@ -1200,19 +1328,23 @@
 				item: "l2hostility:regenerate"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"整合包略做了限制，此词条现在&c最高2级&r"
 				""
+				"在造成不同伤害时候会记忆住这种伤害，基础免伤90%，如果有一种不同伤害则二者都免疫45%，三者33%以此类推"
+				""
 				"可以高伤害秒掉，也可以堆伤害类型"
 				""
 				"或者使用带有&d无视魔抗(bypassMagic)伤害&r的材料/武器即可"
 				""
-				"例：暗影复相钢的绿色剑气,星野红温的额外伤害，破咒遗骨 ,究极锋利等"
+				"例：暗影复相钢的绿色剑气，破咒遗骨 ,究极锋利等"
+				""
+				"贪婪流派的增伤在适应之后，不被适应的减伤影响"
 			]
 			id: "3E9F6A64E808933B"
 			rewards: [{
@@ -1222,19 +1354,21 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "不能秒掉相当于免疫这一类伤害"
+			subtitle: "冷知识这个标志实际上不是绿帽子"
 			tasks: [{
 				id: "14C58B1A8C4AE813"
 				item: "l2hostility:adaptive"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.5d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"可以叠&d魔法伤害减免&r，或者&d圣光守护之戒&r，也可以用暗影复相/星野/全知魔金等护甲来抵挡"
+				""
+				"铝玻璃，哨石之类的可以很好针对反伤类伤害"
 				""
 				"整合包对其进行了削弱，&4超出怪物最大生命的部分&r不会再反射给玩家"
 				""
@@ -1255,8 +1389,8 @@
 				item: "l2hostility:reflect"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 7.5d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1266,6 +1400,8 @@
 				"&6星野戒指&r可压制目标不再释放潜影球"
 				""
 				"也可以被其他材料的材料效果收缴"
+				""
+				"别和榴弹的悬浮球搞混了"
 			]
 			id: "7570DBAF9721949D"
 			rewards: [{
@@ -1281,15 +1417,19 @@
 				item: "l2hostility:shulker"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -2.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"在你有&6爆炸伤害减免&r之前其实这个&d伤害超高&r"
 				""
+				"前中期可依靠&e铝玻璃&r的大量爆炸抗性来抵抗"
+				""
 				"星钢，苦力怕孢子之类的能免疫爆炸伤害"
+				""
+				"重力晶的排斥力场能偏转榴弹的弹射物"
 				""
 				"携带&6星野戒指&r会抑制目标释放榴弹"
 			]
@@ -1307,8 +1447,8 @@
 				item: "l2hostility:grenade"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.5d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1319,7 +1459,15 @@
 				""
 				"&c生长抑制剂强化&r可以强制将其大小设置回1"
 				""
-				"导致后期会堆积大量的经验球，&c小心你的电脑，可能会卡顿！&r"
+				"尽管整合包对子代史莱姆进行了限制，但是高级生长出的仍然很多"
+				""
+				"整合包调整：迭代&c超过三代&r不会再生长"
+				""
+				"并且&9匠魂史莱姆，史维特等史莱姆&r不会带这个词条"
+				""
+				"想刷建议去下界搞岩浆怪,然后气动刷怪笼"
+				""
+				"&c小心你的电脑，可能会卡顿！&r"
 			]
 			id: "40F93B28F9C22844"
 			rewards: [{
@@ -1329,18 +1477,24 @@
 				type: "random"
 			}]
 			shape: "pentagon"
-			subtitle: "史莱姆家族才会刷新的"
+			subtitle: "生长好似"
 			tasks: [{
 				id: "36A247518A8F1675"
 				item: "l2hostility:growth"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
-			description: ["可以通过分裂抑制强化来压制此效果"]
+			description: [
+				"可以通过分裂抑制强化来压制此效果"
+				""
+				"别想了，分裂出来的不掉东西的"
+				""
+				"史莱姆不会带这个词条，也不要指望史莱姆出"
+			]
 			id: "162D596304C12BF0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1349,18 +1503,20 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "字面意思，爽刷掉落物和词条"
+			subtitle: "啊呀，骇死我力"
 			tasks: [{
 				id: "7B9CCE8E5793E55C"
 				item: "l2hostility:split"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
+				"会清除你身上的正面药水效果"
+				""
 				"debuff也会延长"
 				""
 				"如果你没有以太等清除debuff的遇到这个遭老罪了"
@@ -1375,19 +1531,21 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "延长你的debuff，清除你的buff，总之没有净化很恶心就是了。"
+			subtitle: "别扒拉我飞行药水了"
 			tasks: [{
 				id: "7F6DCB4B4B5DF458"
 				item: "l2hostility:drain"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"偶尔会突然冲向你"
+				""
+				"封号口子再刷怪"
 				""
 				"携带&6星野戒指&r会压制这个效果"
 			]
@@ -1399,30 +1557,22 @@
 				type: "random"
 			}]
 			shape: "square"
-			subtitle: "CSGO"
+			subtitle: "你恶心人也得有个度吧"
 			tasks: [{
 				id: "010D24ED8067D2C0"
 				item: "l2hostility:counter_strike"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
-				"关于&d负面药水效果&r类词条"
-				""
 				"&6前期可以通过针对性免疫的匠魂词条抵抗"
 				"&e（重力通过轻盈脚步免疫）"
 				""
-				"&b以太（免疫负面效果）"
-				""
 				"&e圣光守护之戒&r（获得永久的净化药水效果，代价是不能获得其他药水效果增益）"
-				""
-				"&b神谕钢，奇迹物质等&r（每tick移除负面药水效果）"
-				""
-				"&a魔力铀&r（永久免疫负面/中性，免疫正面药水强制移除效果，并且根据正面效果提供免伤）"
 				""
 				"&e扭曲之魂&r（一劳永逸）"
 				""
@@ -1438,14 +1588,14 @@
 				type: "random"
 			}]
 			shape: "circle"
-			subtitle: "别跳了，没意义"
+			subtitle: "像是个开了大的深蓝, 跳拉不起来"
 			tasks: [{
 				id: "154B0F4A9268620E"
 				item: "l2hostility:gravity"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -0.5d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1483,8 +1633,8 @@
 				item: "l2hostility:moonwalk"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1492,6 +1642,12 @@
 				"摄魂的孪生兄弟"
 				""
 				"这位更是重量级"
+				""
+				"这个会&d转化全部来自怪物的伤害&r"
+				""
+				"不要小看这个造成穿魔伤害，他&d无视匠魂的保护类词条的(近战保护，魔法保护这种词条&r)"
+				""
+				"而且是全额，即其&d造成的杀戮光环，榴弹,甚至是反射等全都穿魔&r"
 				""
 				"威胁程度较高，由于&c其判定存在问题&r，导致此版本破魔永远都会免疫魔法伤害，所有整合包对其进行了修改，现在&d不再免疫魔法伤害&r，但是其他效果仍然生效"
 			]
@@ -1510,8 +1666,8 @@
 				item: "l2hostility:dispell"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 0.5d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1537,8 +1693,8 @@
 				item: "l2hostility:teleport"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 2.5d
+			x: 16.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1564,8 +1720,8 @@
 				item: "l2hostility:killer_aura"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.5d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1601,8 +1757,8 @@
 				item: "l2hostility:weakness"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1635,8 +1791,8 @@
 				item: "l2hostility:slowness"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -0.5d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1672,8 +1828,8 @@
 				item: "l2hostility:poison"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.5d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1709,8 +1865,8 @@
 				item: "l2hostility:wither"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.5d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1746,8 +1902,8 @@
 				item: "l2hostility:levitation"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1783,8 +1939,8 @@
 				item: "l2hostility:blindness"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1820,8 +1976,8 @@
 				item: "l2hostility:nausea"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1857,8 +2013,8 @@
 				item: "l2hostility:soul_burner"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -0.5d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1897,8 +2053,8 @@
 				item: "l2hostility:freezing"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1954,8 +2110,8 @@
 				item: "l2hostility:cursed"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.5d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1971,6 +2127,8 @@
 				"3&d诅咒药水效果&r施加后（最简单的）"
 				""
 				"4&d诅咒之刃&r在手上即使不施加效果也可无视"
+				""
+				"魂戈的斩杀无视此词条，但是你最好真能触发斩杀"
 			]
 			id: "3E7A284EFBBF0FA6"
 			rewards: [{
@@ -1981,14 +2139,14 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "并非不死"
+			subtitle: "多玛姆，我是来谈判的"
 			tasks: [{
 				id: "4D03B5E35C09B0A6"
 				item: "l2hostility:undying"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -1.5d
+			x: 16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2022,8 +2180,8 @@
 				item: "l2hostility:repelling"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -3.5d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2055,8 +2213,8 @@
 				item: "l2hostility:pulling"
 				type: "item"
 			}]
-			x: 19.0d
-			y: -3.5d
+			x: 16.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2069,17 +2227,36 @@
 				""
 				"整合包独特方法：部分材料固有能力"
 				""
-				"带有此材料的&a工具/护甲&r&e免疫封印效果&r：三位一体，星野，乌列尔，魔灵皇，白矮星物质，感电水晶，单极磁石，海梦合金，凤凰"
+				"带有&9遗者&r词条的&a工具/护甲&r&e免疫封印效果&r，你可以在JEI中搜索词条中文名来查询材料"
 				""
-				"带有此材料的&a工具/护甲&r在被装备时，使玩家&b免疫所有封印&r：奇迹物质，星河玛玉灵，星野-恐怖，墨冰，反中子，宏原子，任意一种龙钢"
+				"部分材料不具备遗者词条但是有此效果："
+				"      &d-三位一体"
+				"      &d-魔灵皇"
+				"      &d-完美通用物品"
 				""
-				"带有此材料的&a戒指&r在被装备时，使玩家&b免疫所有封印&r：星野戒指"
+				"带有&6维格利德之魂&r词条的&a工具/护甲&r在被装备时，使玩家&b免疫所有封印&r，你可以在JEI中搜索词条中文名来查询"
 				""
-				"mekasuit由于取消受击判定所以生来免疫"
+				"部分材料不具备维格利德之魂词条但是有此效果："
+				"       &d-奇迹物质"
+				"       &d-星河玛玉灵"
+				"       &d-宏原子"
 				""
-				"非欧立方整合包做了特别加强，穿戴时免疫全部封印"
 				""
-				"飞升护符、神秘护身符、七咒之戒被封印会导致各种问题，故这三个饰品不会被封印"
+				"带有此材料的&a戒指&r在被装备时，使玩家&b免疫所有封印&r："
+				"       &d-星野钢"
+				""
+				"&6mekasuit&r由于取消受击判定所以生来免疫"
+				""
+				"&6非欧立方&r整合包做了特别加强，穿戴时免疫全部封印"
+				""
+				"下面这几个饰品由于特殊原因不会被封印："
+				"&d      -加压黏液罐"
+				" &d     -无线通用终端"
+				" &d     -飞升护符"
+				" &d     -神秘护身符"
+				" &d     -七咒之戒"
+				""
+				"为了便于你逃跑，传送石不会被封印"
 			]
 			id: "7646FB76E714E54A"
 			rewards: [
@@ -2104,8 +2281,8 @@
 				item: "l2hostility:ragnarok"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 0.5d
+			x: 18.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2115,6 +2292,10 @@
 				"后期遇到概率极高"
 				""
 				"威胁程度较高，由于&c其判定存在问题&r，导致此版本摄魂永远都会免疫物理伤害，所有整合包对其进行了修改，现在&d不再免疫物理伤害&r，但是其他效果仍然生效"
+				""
+				"这个会&d转化全部来自怪物的伤害&r"
+				""
+				"而且是全额，即其&d造成的杀戮光环，榴弹,甚至是反射等全都穿甲&r"
 			]
 			id: "71B143DA524759D2"
 			rewards: [{
@@ -2131,8 +2312,8 @@
 				item: "l2hostility:dementor"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 0.5d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2146,13 +2327,14 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "你猜它能不能复印匠魂的"
 			tasks: [{
 				id: "0390D7ACBF8BCD23"
 				item: "l2hostility:reprint"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 2.5d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2160,6 +2342,8 @@
 				"前期遇到这个大概率要破产"
 				""
 				"不给你你可以给你的装备多带一个&6鞣制（皮革绑定结）&r"
+				""
+				"&6工业&r词条可以抑制这个词条"
 				""
 				"或者&6硬化&r强化"
 				""
@@ -2181,8 +2365,8 @@
 				item: "l2hostility:erosion"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.5d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2190,6 +2374,8 @@
 				"前期遇到这个大概率要破产"
 				""
 				"不给你你可以给你的装备多带一个&6鞣制（皮革绑定结）&r"
+				""
+				"&6工业&r词条可以抑制这个词条"
 				""
 				"或者&6硬化&r强化"
 				""
@@ -2211,8 +2397,8 @@
 				item: "l2hostility:corrosion"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.5d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -2247,17 +2433,19 @@
 				type: "checkmark"
 			}]
 			title: "词条攻略"
-			x: 13.5d
-			y: -7.0d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"怪物免疫玩家施加的负面药水效果"
 				""
-				"但是当你佩戴了&b诅咒扭曲之戒/扭曲之魂/星野戒指&r/神谕钢的时候你可以无视这个限制"
+				"但是当你佩戴了&b诅咒扭曲之戒/扭曲之魂/星野戒指&r的时候你可以无视这个限制"
 				""
-				"整合包独创词条"
+				"或者用神谕钢（近战）克制这个"
+				""
+				"&b整合包独创词条"
 			]
 			id: "0672DBF7FB6C559C"
 			rewards: [{
@@ -2273,8 +2461,8 @@
 				item: "l2hostility:purify"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.5d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2300,8 +2488,8 @@
 				item: "l2hostility:extreme_damage_reduce"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 4.5d
+			x: 14.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2331,8 +2519,8 @@
 				item: "l2hostility:temporary_armor"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 4.5d
+			x: 16.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2357,8 +2545,8 @@
 				item: "l2hostility:second_phase"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 5.5d
+			x: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2369,8 +2557,8 @@
 				""
 				"或者你也可以用&a效果清除类&r装备来阻止对方对你施加的效果"
 				""
-				"如：奇美拉α、奇迹物质、非欧立方，魔力铀"
-				" "
+				"如：奇美拉α、奇迹物质、非欧立方"
+				""
 				"&b整合包独创词条&r"
 			]
 			id: "79961F0CCA537D97"
@@ -2387,8 +2575,89 @@
 				item: "l2hostility:oracle"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 5.5d
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B5FB3B99275629D"]
+			description: ["在深暗之圆搭建气动刷怪笼刷僵尸可以快速刷到吸引。因为深暗之园有最高的恶意等级。"]
+			id: "0ACB3CDA219DD344"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D6141D758F0732"
+				table_id: 4785827979895305227L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "有了这个就不怕刷不到吸引了！什么，你问我初始的2个吸引怎么来？"
+			tasks: [{
+				id: "15F866386444FCD3"
+				item: {
+					Count: 1b
+					id: "cti:ring_of_nibelungen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00B1E97C9A1E358F"]
+			id: "56C1D0DBB24340CC"
+			shape: "rsquare"
+			tasks: [{
+				id: "4CAC51B58238EE27"
+				item: "tinkerscalibration:oraclium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4AAA4F70E7A6F818"]
+			id: "2391CC2EB67AFF24"
+			tasks: [{
+				id: "22A1B1C095E585D7"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4AAA4F70E7A6F818"]
+			id: "5AF76FC0FE110529"
+			tasks: [{
+				id: "2C1B36305E562ADE"
+				item: "etshtinker:lightless_alloy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
+			id: "27AA4AA470482F9D"
+			tasks: [{
+				id: "17FDCDD2ACC557D9"
+				item: "etshtinker:activated_chroma_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["08D2F4ABDEFE9DF7"]
+			id: "07E4537B99FB90D0"
+			tasks: [{
+				id: "5030615E9C17F7F0"
+				item: "kubejs:carbon_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.5d
 		}
 	]
 	subtitle: [

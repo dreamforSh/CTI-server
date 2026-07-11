@@ -9,9 +9,9 @@
       "level": 1
     },
     {
-      "name": "tconstruct:insatiable",
-      "level": 1
-    }
+        "name": "cti:insatiable_digest",
+        "level": 1
+      }
   ],
   "tconstruct:limb": [
     {
@@ -23,9 +23,9 @@
       "level": 1
     },
     {
-      "name": "tconstruct:insatiable",
-      "level": 1
-    }
+        "name": "cti:insatiable_digest",
+        "level": 1
+      }
   ],
   "tconstruct:shield_core": [
 
@@ -33,6 +33,10 @@
       "name": "cloudertinker:hydralife",
       "level": 1
     },
+    {
+        "name": "cti:insatiable_digest",
+        "level": 1
+      },
     {
       "level": 2,
       "name": "cti:stress"
@@ -48,6 +52,10 @@
       "name": "cloudertinker:hydralife",
       "level": 1
     },
+    {
+        "name": "cti:insatiable_digest",
+        "level": 1
+      },
     {
       "level": 2,
       "name": "cti:stress"

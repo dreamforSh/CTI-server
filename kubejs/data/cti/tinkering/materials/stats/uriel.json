@@ -68,7 +68,7 @@
     "etshtinker:ionizer": {
       "cooldown": 100,
       "plasmarange": 50,
-      "damagemultiplier": 6.5
+      "damagemultiplier": 4.5
     },
     "tinkers_ingenuity:battery": {
       "energy_capacity": 30000,

@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({id:'powah:crafting/thermo_generator_nitro'}, 'powah:dielectric_paste','kubejs:dielectric_paste_6')
 
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
+    event.recipes.powah.energizing(["minecraft:redstone"], 'cti:refined_stone',3500000)
     event.recipes.powah.energizing(["minecraft:emerald"], "powah:crystal_spirited",8000000)
     event.recipes.powah.energizing(["minecraft:diamond"], "powah:crystal_niotic",2400000)
     event.recipes.powah.energizing(["minecraft:blaze_rod"], "powah:crystal_blazing",600000)
@@ -24,7 +25,7 @@ ServerEvents.recipes(event => {
     event.recipes.powah.energizing(["minecraft:cobblestone"], "minecraft:tnt",10000)
     event.recipes.powah.energizing(["minecraft:iron_ingot","minecraft:gold_ingot"],  Item.of("powah:steel_energized",2),100000)
     event.recipes.powah.energizing(["minecraft:iron_block","minecraft:gold_block"],  Item.of('powah:energized_steel_block',2),900000)
-    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','botania:mana_powder','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',80000)
+    event.recipes.powah.energizing(['minecraft:bone_meal','thermal:phytogro','biomancy:nutrient_paste'], 'kubejs:phytogro_zero',80000)
     event.recipes.powah.energizing(['tinkers_reforged:red_beryl_gem',"tinkers_reforged:hureaulite_gem","tinkerscalibration:vibrating_crystal","tinkers_reforged:epidote_gem","minecraft:diamond","ae2:fluix_crystal"], Item.of("etshtinker:earth_crystal",1),2500000)
     event.recipes.powah.energizing(["ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block","ae2:quartz_block"], Item.of("ae2:charged_certus_quartz_crystal",24),1024000)
     let level=[
@@ -56,7 +57,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: '#forge:ingots/invar',
+        A: '#forge:ingots/steel',
         B: 'powah:capacitor_basic_large',
         C: 'powah:uraninite'
       }
@@ -68,7 +69,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: '#forge:ingots/steel',
+        A: 'kubejs:compressed_hardlead',
         B: 'powah:capacitor_hardened',
         C: 'powah:uraninite'
       }
@@ -80,7 +81,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:compressed_hardlead',
+        A: 'kubejs:tungsten_steel_ingot',
         B: 'powah:capacitor_blazing',
         C: 'powah:uraninite'
       }
@@ -92,7 +93,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:zirconium_alloy',
+        A: 'kubejs:violium_alloy',
         B: 'powah:capacitor_niotic',
         C: 'powah:uraninite'
       }
@@ -104,7 +105,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'kubejs:violium_alloy',
+        A: 'etshtinker:trinity_intereactive_alloy',
         B: 'powah:capacitor_spirited',
         C: 'powah:uraninite'
       }
@@ -116,7 +117,7 @@ ServerEvents.recipes(event => {
         'ABA'
       ],
       {
-        A: 'etshtinker:trinity_intereactive_alloy',
+        A: 'kubejs:atherium_alloy',
         B: 'powah:capacitor_nitro',
         C: 'powah:uraninite'
       }
@@ -486,7 +487,7 @@ ServerEvents.recipes(event => {
 
 })
 PowahEvents.registerHeatSource(event => {
-    event.add('twilightforest:fiery_block', 2750);
+  event.add('twilightforest:fiery_block', 2750);
 	event.add('etshtinker:meteoralloy_block', 3500);
 	event.add('kubejs:stellaralloy_block', 5000);
 	event.add('iceandfire:dragonsteel_fire_block', 8000);
@@ -494,7 +495,9 @@ PowahEvents.registerHeatSource(event => {
 	event.add('avaritia:infinity', 32768);
 })
 PowahEvents.registerCoolants(event => {
-	event.addFluid("kubejs:fluid_cryotheum", -40);
-})
-PowahEvents.registerMagmaticFluid(event => {
+    event.addFluid("tconstruct:powdered_snow", -15);
+    event.addFluid("ad_astra:cryo_fuel", -86);
+	event.addFluid("kubejs:fluid_cryotheum", -125);
+    event.addFluid("cloudertinker:frost_essence", -135);
+	event.addFluid("industrialforegoing:ether_gas", -184);
 })

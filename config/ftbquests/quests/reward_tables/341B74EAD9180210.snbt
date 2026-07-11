@@ -13,7 +13,7 @@
 	}
 	id: "341B74EAD9180210"
 	loot_size: 6
-	order_index: 29
+	order_index: 28
 	rewards: [
 		{ count: 30, item: "lightmanscurrency:coin_gold" }
 		{ item: "thermal:enderium_block" }

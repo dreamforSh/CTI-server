@@ -10,9 +10,9 @@
       "slash_color": 6
     },
     "etshtinker:ionizer": {
-      "cooldown": 30,
+      "cooldown": 40,
       "plasmarange": 26,
-      "damagemultiplier": 8.3
+      "damagemultiplier": 6.3
     },
     "tconstruct:binding": {},
     "tconstruct:handle": {
@@ -25,7 +25,7 @@
       "durability": 1950,
       "mining_speed": 7,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 8
+      "melee_attack": 26.5
     },
     "tconstruct:plating_helmet": {
       "armor": 7.5,

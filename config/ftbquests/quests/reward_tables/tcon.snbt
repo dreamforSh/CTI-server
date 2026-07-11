@@ -2,7 +2,7 @@
 	icon: "tconstruct:materials_and_you"
 	id: "0E2C489886079866"
 	loot_size: 1
-	order_index: 38
+	order_index: 37
 	rewards: [
 		{ count: 8, item: "minecraft:bone" }
 		{ count: 4, item: "iceandfire:dragonbone" }

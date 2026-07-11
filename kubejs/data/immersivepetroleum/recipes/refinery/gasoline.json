@@ -3,7 +3,7 @@
   "energy": 80,
   "input0": {
     "amount": 20,
-    "tag": "forge:naphtha"
+    "tag": "forge:diesel"
   },
   "input1": {
     "amount": 10,

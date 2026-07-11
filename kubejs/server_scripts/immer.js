@@ -3,8 +3,8 @@ ServerEvents.recipes(event => {
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo').time(24000)
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo_nether').time(36000)
   event.recipes.immersiveengineeringBlastFurnaceFuel('gobber2:gobber2_foo_end').time(48000)
-  event.recipes.immersiveengineeringBlastFurnace('thermal:steel_ingot','minecraft:iron_ingot','immersiveengineering:slag').time(600)
-  event.recipes.immersiveengineeringBlastFurnace('immersiveengineering:storage_steel','minecraft:iron_block','9x immersiveengineering:slag').time(5000)
+  event.recipes.immersiveengineeringBlastFurnace('thermal:steel_ingot','minecraft:iron_ingot','immersiveengineering:slag').time(300)
+  event.recipes.immersiveengineeringBlastFurnace('immersiveengineering:storage_steel','minecraft:iron_block','9x immersiveengineering:slag').time(2400)
 
 event.custom({
   "type": "immersiveengineering:refinery",
@@ -57,4 +57,8 @@ event.custom({
   event.replaceInput({id:'immersiveengineering:crafting/rs_engineering'},'#forge:ingots/copper','create:copper_casing')
   event.replaceInput({id:'immersiveengineering:crafting/light_engineering'},'#forge:ingots/copper','create:andesite_casing')
   event.replaceInput({id:'immersiveengineering:crafting/heavy_engineering'},'#forge:ingots/electrum','create:brass_casing')
+
+  event.recipes.immersiveengineering.arc_furnace('4x kubejs:silicon_carbide','kubejs:pure_silicon',['#forge:dusts/coal'])
+  event.recipes.immersiveengineering.arc_furnace('2x kubejs:silicon_carbide','#forge:silicon',['#forge:dusts/coal'])
+  event.recipes.immersiveengineering.arc_furnace('kubejs:silicon_carbide','#forge:sand',['#forge:dusts/coal'])
 })

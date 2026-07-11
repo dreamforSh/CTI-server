@@ -1,7 +1,7 @@
 {
 	id: "154AEB5C7C77B375"
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{ count: 8, item: "minecraft:diamond" }
 		{ count: 8, item: "minecraft:emerald" }

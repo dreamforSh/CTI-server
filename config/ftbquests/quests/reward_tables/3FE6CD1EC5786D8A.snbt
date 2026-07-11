@@ -2,7 +2,7 @@
 	icon: "tinkers_ingenuity:ender_residual_interest"
 	id: "3FE6CD1EC5786D8A"
 	loot_size: 6
-	order_index: 35
+	order_index: 34
 	rewards: [
 		{ count: 18, item: "tinkers_ingenuity:frost_alloy_ingot" }
 		{ count: 18, item: "tinkers_ingenuity:labolas_ingot" }

@@ -1,7 +1,7 @@
 {
 	id: "6E4A983A75A6F172"
 	loot_size: 1
-	order_index: 79
+	order_index: 76
 	rewards: [
 		{ count: 4, item: "immersiveengineering:storage_steel" }
 		{ count: 8, item: "thermal:steel_plate", random_bonus: 8 }

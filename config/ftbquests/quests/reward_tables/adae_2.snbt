@@ -2,7 +2,7 @@
 	icon: "ad_astra:nasa_workbench"
 	id: "0545A6A0C018A20C"
 	loot_size: 6
-	order_index: 61
+	order_index: 60
 	rewards: [
 		{ count: 3, item: "ad_astra:desh_block" }
 		{ count: 3, item: "ad_astra:calorite_block" }

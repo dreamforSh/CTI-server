@@ -10,4 +10,7 @@ ServerEvents.recipes(event => {
     //屠宰机
     event.replaceInput({mod:'industrialforegoing',output:'industrialforegoing:mob_crusher'}, 'industrialforegoing:machine_frame_advanced','industrialforegoing:machine_frame_supreme')
     event.replaceInput({mod:'industrialforegoing',output:'industrialforegoing:mob_slaughter_factory'}, 'industrialforegoing:machine_frame_pity','industrialforegoing:machine_frame_simple')
+    event.recipes.industrialforegoing.fluid_extractor('thermal:rubberwood_log','thermal:stripped_rubberwood_log',0.5,Fluid.of('industrialforegoing:latex',50))
+
+
 })

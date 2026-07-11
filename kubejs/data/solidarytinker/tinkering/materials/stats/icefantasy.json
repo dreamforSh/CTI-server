@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 1.31,
+      "mining_speed": -0.75,
+      "melee_speed": 1.75,
+      "melee_damage": 1.14
+    },
+    "tconstruct:head": {
+      "durability": 3250,
+      "mining_speed": 10,
+      "mining_tier": "solidarytinker:momo",
+      "melee_attack": 879
+    },
+    "tconstruct:limb": {
+      "durability": 2915,
+      "draw_speed": 4.5,
+      "velocity": 4.1,
+      "accuracy": 1.0
+    },
+    "tconstruct:grip": {
+      "durability": 2.6,
+      "accuracy": 1.0,
+      "melee_damage": 5.0
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 5.0,
+      "durability": 1440,
+      "knockback_resistance": 0.2,
+      "toughness": 4.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 11.0,
+      "durability": 3840,
+      "knockback_resistance": 0.2,
+      "toughness": 7.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 8.0,
+      "durability": 2560,
+      "knockback_resistance": 0.2,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_boots": {
+      "armor": 5.0,
+      "durability": 2160,
+      "knockback_resistance": 0.2,
+      "toughness": 4.0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 3715,
+      "knockback_resistance": 0.8,
+      "toughness": 5
+    },
+    "tinkersinnovation:shield_plate": {
+      "durability": 2560,
+      "armor": 5.0,
+      "toughness": 4,
+      "knockback_resistance": 0.4,
+      "block_amount": 1.8,
+      "shield_amount": 9
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 30000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 40,
+      "plasmarange": 50,
+      "damagemultiplier": 6.5
+    },
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 12.4,
+      "criticalrate": 12.4,
+      "fluidefficiency": 5.5,
+      "slash_color": 6
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 30000,
+      "durability": 0.2
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 35,
+      "cooldown": 0.2
+    },
+    "tinkers_ingenuity:curio_extra": {},
+    "tinkers_ingenuity:curio_main": {
+      "movement_speed": 0.25,
+      "armor": 2.0,
+      "toughness": 2.0,
+      "attack": 0.8,
+      "arrow_damage": 0.4
+    },
+    "solidarytinker:soulge_heart": {
+      "detection_range": 100,
+      "exert_times": 80,
+      "attack_frequency": 3,
+      "kill_threshold": 0.76
+    },
+    "solidarytinker:core_battery": {
+      "attack_range": 25,
+      "target_amount": 25,
+      "energy_capability": 912500000
+    }
+  }
+}

@@ -4,37 +4,5 @@
       "level": 1,
       "name": "tinkers_thinking:duritae"
     }
-  ],
-  "perStat": {
-    "tconstruct:maille": [
-      {
-        "level": 1,
-        "name": "cti:mandarinduck"
-      }
-    ],
-    "tconstruct:plating_boots": [
-      {
-        "level": 1,
-        "name": "cti:mandarinduck"
-      }
-    ],
-    "tconstruct:plating_chestplate": [
-      {
-        "level": 1,
-        "name": "cti:mandarinduck"
-      }
-    ],
-    "tconstruct:plating_helmet": [
-      {
-        "level": 1,
-        "name": "cti:mandarinduck"
-      }
-    ],
-    "tconstruct:plating_leggings": [
-      {
-        "level": 1,
-        "name": "cti:mandarinduck"
-      }
-    ]
-  }
+  ]
 }

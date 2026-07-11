@@ -1,20 +1,26 @@
 {
   "type": "tconstruct:alloy",
   "inputs": [
-    { "name": "manaliquidizer:mana_fluid",
-      "amount": 4000 },
-    { "name": "industrialforegoing:biofuel",
-      "amount": 1000 },
-    { "name": "thermal:refined_fuel",
-      "amount": 1000 },
-    { "name": "mekanism:ethene",
-      "amount": 1000 },
-    { "name": "mekanismgenerators:fusion_fuel",
-      "amount": 2000 }
+    {
+      "name": "manaliquidizer:mana_fluid",
+      "amount": 16000
+    },
+    {
+      "name": "thermal:refined_fuel",
+      "amount": 2000
+    },
+    {
+      "name": "mekanismgenerators:fusion_fuel",
+      "amount": 2000
+    },
+    {
+      "name": "cti:lava_atomic",
+      "amount": 2000
+    }
   ],
   "result": {
     "fluid": "solidarytinker:super_dt",
-    "amount": 1000
+    "amount": 2000
   },
-  "temperature": 6300
+  "temperature": 7950
 }

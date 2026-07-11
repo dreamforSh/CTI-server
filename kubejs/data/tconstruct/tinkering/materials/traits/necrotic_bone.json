@@ -1,0 +1,26 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:necrotic"
+    }
+  ],
+  "perStat": {
+    "tconstruct:skull": [
+      {
+        "level": 1,
+        "name": "tconstruct:withered"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:wither_skeleton_disguise"
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "cti:replace_ring_necrotic",
+        "level": 1
+      }
+    ]
+  }
+}

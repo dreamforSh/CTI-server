@@ -440,14 +440,13 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "6BF0A440757F0BBE"
-					item: "avaritia:neutron_ingot"
+					id: "3AF84BFEAC2FBD64"
+					item: "powah:energy_cell_blazing"
 					type: "item"
 				}
 				{
-					id: "3AF84BFEAC2FBD64"
-					item: "powah:energy_cell_blazing"
+					id: "48858165F1C09868"
+					item: "powah:solar_panel_hardened"
 					type: "item"
 				}
 			]

@@ -17,16 +17,16 @@
       "fluid": "tconstruct:molten_diamond"
     },
     {
-      "amount": 100,
+      "amount": 200,
       "fluid": "tconstruct:molten_emerald"
     },
     {
       "amount": 500,
-      "fluid": "thermal:redstone"
+      "fluid": "tconstruct:molten_quartz"
     },
     {
-      "amount": 200,
-      "fluid": "tconstruct:molten_quartz"
+      "amount": 800,
+      "fluid": "thermal:redstone"
     }
   ],
   "time": 2

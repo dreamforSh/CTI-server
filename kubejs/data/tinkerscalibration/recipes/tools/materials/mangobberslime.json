@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "modid": "gobber2",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "tconstruct:molten_queens_slime",
+      "amount": 90
+    },
+    {
+      "name": "tconstruct:molten_manyullyn",
+      "amount": 90
+    },
+    {
+      "name": "tinkerscalibration:moltenendgobber",
+      "amount": 180
+    },
+    {
+      "name": "kubejs:molten_dark_swet",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "tinkerscalibration:moltenmangobberslime",
+    "amount": 360
+  },
+  "temperature": 2500
+}

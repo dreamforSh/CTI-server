@@ -7,11 +7,7 @@
   },
   "results": [
     {
-      "amount": 500,
-      "fluid": "thermal:redstone"
-    },
-    {
-      "amount": 100,
+      "amount": 200,
       "fluid": "tconstruct:molten_emerald"
     },
     {
@@ -19,11 +15,15 @@
       "fluid": "tconstruct:molten_diamond"
     },
     {
-      "amount": 300,
+      "amount": 500,
       "fluid": "tconstruct:molten_quartz"
+    },
+    {
+      "amount": 800,
+      "fluid": "thermal:redstone"
     }
   ],
   "temperature": {
-    "min_temp": 1240
+    "min_temp": 1850
   }
 }

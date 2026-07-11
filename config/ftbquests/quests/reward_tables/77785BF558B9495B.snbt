@@ -1,7 +1,7 @@
 {
 	id: "77785BF558B9495B"
 	loot_size: 1
-	order_index: 5
+	order_index: 4
 	rewards: [
 		{ count: 8, item: "thermal:signalum_ingot" }
 		{ count: 8, item: "thermal:lumium_ingot" }

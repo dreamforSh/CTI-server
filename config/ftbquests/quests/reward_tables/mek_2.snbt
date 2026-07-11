@@ -1,7 +1,7 @@
 {
 	id: "0DD01703E7D9616F"
 	loot_size: 1
-	order_index: 9
+	order_index: 8
 	rewards: [
 		{ count: 16, item: "mekanism:alloy_infused" }
 		{ count: 12, item: "mekanism:alloy_reinforced" }

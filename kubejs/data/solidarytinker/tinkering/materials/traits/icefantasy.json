@@ -12,6 +12,10 @@
       {
         "name": "cti:deepoceanecho",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tconstruct:ranged": [
@@ -26,11 +30,19 @@
       {
         "name": "cti:deepoceanecho",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tconstruct:armor": [
       {
         "name": "solidarytinker:deepoceanprotect",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
         "level": 1
       }
     ],
@@ -46,6 +58,10 @@
       {
         "name": "cti:deepoceanecho",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
@@ -59,6 +75,10 @@
       },
       {
         "name": "cti:deepoceanecho",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
         "level": 1
       }
     ],
@@ -74,13 +94,19 @@
       {
         "name": "cti:deepoceanecho",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
+
     ],
     "tinkers_ingenuity:curio": [
       {
         "name": "solidarytinker:deepoceanchew",
         "level": 1
       }
+
     ]
   }
 }

@@ -214,7 +214,7 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.0d
+			x: 15.5d
 			y: -2.0d
 		}
 		{
@@ -269,12 +269,12 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 2.0d
 			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
-			width: 1.0d
-			x: 19.5d
+			width: 2.0d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -286,7 +286,7 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.5d
+			x: 20.5d
 			y: -2.0d
 		}
 		{
@@ -421,6 +421,79 @@
 			x: -1.5d
 			y: 0.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cti:fluid/lava_plasmatic/still"
+			rotation: 0.0d
+			width: 0.02040816326530612d
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cti:fluid/lava_gaseous/still"
+			rotation: 0.0d
+			width: 0.02040816326530612d
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tconstruct:fluid/molten/compat_alloy/steel/still"
+			rotation: 0.0d
+			width: 0.02040816326530612d
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			click: "#358F70F4CAD2D69E"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["点我查看精炼炉任务"]
+			image: "cti:block/refinery/tank/fuel_gauge"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cti:fluid/lava_plasmatic/still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: -2.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -446,80 +519,17 @@
 			id: "34A01824678F973A"
 			rewards: [
 				{
-					id: "02EB4C63011B38F8"
-					item: {
-						Count: 1b
-						id: "tconstruct:pickaxe"
-						tag: {
-							Damage: 0
-							RepairCost: 0
-							display: {
-								Name: "{\"text\":\"角落里的矿工镐\"}"
-							}
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:seared_stone"
-								"tconstruct:wood"
-								"tconstruct:ancient_hide"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:emerald"
-								}
-								{
-									level: 1
-									name: "tconstruct:searing"
-								}
-								{
-									level: 1
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:fortune"
-								}
-								{
-									level: 1
-									name: "tconstruct:pierce"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.25f
-								"tconstruct:mining_speed": 1.25f
-							}
-							tic_name: "一把平平无奇的镐子"
-							tic_persistent: {
-								upgrades: -1
-							}
-							tic_stats: {
-								"tconstruct:attack_damage": 2.5f
-								"tconstruct:attack_speed": 1.2f
-								"tconstruct:durability": 337.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:mining_speed": 6.5f
-							}
-							tic_upgrades: [{
-								level: 1
-								name: "tconstruct:emerald"
-							}]
-							tic_volatile_data: {
-								abilities: 1
-								"tconstruct:rarity": 1
-								upgrades: 3
-							}
-						}
-					}
-					type: "item"
+					id: "473EA96F2530910F"
+					type: "xp"
+					xp: 100
 				}
 				{
-					id: "0D91A8B4BA62A932"
+					id: "5259EAEE02C8030E"
 					item: {
 						Count: 1b
 						id: "tinkers_things:makeshift_helmet"
 						tag: {
 							Damage: 0
-							Unbreakable: 1b
 							tic_broken: 0b
 							tic_modifiers: [ ]
 							tic_persistent: { }
@@ -536,13 +546,12 @@
 					type: "item"
 				}
 				{
-					id: "6C1086297001C765"
+					id: "33B695EE5D958788"
 					item: {
 						Count: 1b
 						id: "tinkers_things:makeshift_chestplate"
 						tag: {
 							Damage: 0
-							Unbreakable: 1b
 							tic_broken: 0b
 							tic_modifiers: [ ]
 							tic_persistent: { }
@@ -559,44 +568,29 @@
 					type: "item"
 				}
 				{
-					id: "546893235B2DAB75"
+					id: "0A71AA466A2A563A"
 					item: {
 						Count: 1b
-						id: "tinkers_things:laminar_leggings"
+						id: "tconstruct:plate_leggings"
 						tag: {
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: [
-								"tinkers_reforged:duralumin"
-								"tinkers_reforged:duralumin"
-								"tconstruct:bamboo"
+								"tconstruct:copper"
+								"tconstruct:copper"
 							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "cti:industrial_armor"
-								}
-								{
-									level: 4
-									name: "tinkers_reforged:rock_solid"
-								}
-								{
-									level: 1
-									name: "tconstruct:unburdened"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:durability": 1.5f
-							}
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:depth_protection"
+							}]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 6.6000004f
-								"tconstruct:armor_toughness": 1.1f
-								"tconstruct:durability": 990.00006f
+								"tconstruct:armor": 4.0f
+								"tconstruct:durability": 390.0f
 							}
 							tic_volatile_data: {
-								abilities: 2
-								defense: 1
+								abilities: 1
+								defense: 2
 								upgrades: 2
 							}
 						}
@@ -604,44 +598,29 @@
 					type: "item"
 				}
 				{
-					id: "1CC3DDB09490E338"
+					id: "0E5DF55C4FADAF57"
 					item: {
 						Count: 1b
-						id: "tinkers_things:laminar_boots"
+						id: "tconstruct:plate_boots"
 						tag: {
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: [
-								"tinkers_reforged:duralumin"
-								"tinkers_reforged:duralumin"
-								"tconstruct:bamboo"
+								"tconstruct:copper"
+								"tconstruct:copper"
 							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "cti:industrial_armor"
-								}
-								{
-									level: 4
-									name: "tinkers_reforged:rock_solid"
-								}
-								{
-									level: 1
-									name: "tconstruct:unburdened"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:durability": 1.5f
-							}
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:depth_protection"
+							}]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 4.4f
-								"tconstruct:armor_toughness": 1.1f
-								"tconstruct:durability": 858.00006f
+								"tconstruct:armor": 2.0f
+								"tconstruct:durability": 338.0f
 							}
 							tic_volatile_data: {
-								abilities: 2
-								defense: 1
+								abilities: 1
+								defense: 2
 								upgrades: 2
 							}
 						}
@@ -649,123 +628,70 @@
 					type: "item"
 				}
 				{
-					id: "1D31467481EF7636"
+					id: "4EC56CA90FB2B74C"
 					item: {
 						Count: 1b
-						id: "tconstruct:sword"
+						id: "tconstruct:pickaxe"
 						tag: {
 							Damage: 0
+							display: {
+								Lore: [ ]
+								Name: "{\"text\":\"§6 §l §n 来自山西的镐\"}"
+							}
 							tic_broken: 0b
 							tic_materials: [
-								"tinkersinnovation:andesite_alloy"
-								"tconstruct:wood"
-								"tconstruct:wood"
+								"tconstruct:rock"
+								"tconstruct:rock"
+								"tconstruct:rock"
 							]
 							tic_modifiers: [
 								{
 									level: 1
-									name: "tconstruct:diamond"
+									name: "cti:shanxipickaxe"
 								}
 								{
 									level: 1
-									name: "tconstruct:sharpness"
+									name: "tconstruct:luck"
+								}
+								{
+									level: 3
+									name: "tconstruct:stonebound"
 								}
 								{
 									level: 1
-									name: "tconstruct:sturdy"
-								}
-								{
-									level: 2
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:silky_shears"
+									name: "tconstruct:pierce"
 								}
 							]
-							tic_multipliers: {
-								"tconstruct:durability": 1.1f
-								"tconstruct:mining_speed": 0.5f
-							}
-							tic_name: " 新手短剑"
-							tic_persistent: {
-								upgrades: -1
-							}
+							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:attack_damage": 6.5f
-								"tconstruct:attack_speed": 1.6f
-								"tconstruct:durability": 929.77496f
-								"tconstruct:harvest_tier": "minecraft:diamond"
-								"tconstruct:mining_speed": 3.5f
+								"tconstruct:attack_damage": 2.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 117.0f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:mining_speed": 4.2f
 							}
 							tic_upgrades: [
 								{
 									level: 1
-									name: "tconstruct:diamond"
+									name: "cti:shanxipickaxe"
 								}
 								{
 									level: 1
-									name: "tconstruct:sharpness"
+									name: "tconstruct:luck"
 								}
 							]
-							tic_volatile_data: {
-								abilities: 1
-								"tconstruct:rarity": 1
-								upgrades: 3
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "29EF597017E11488"
-					item: {
-						Count: 1b
-						id: "tconstruct:hand_axe"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:wood"
-								"tconstruct:wood"
-								"tconstruct:wood"
-							]
-							tic_modifiers: [
-								{
-									level: 3
-									name: "tconstruct:cultivated"
-								}
-								{
-									level: 1
-									name: "tconstruct:stripping"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 6.0f
-								"tconstruct:attack_speed": 0.9f
-								"tconstruct:durability": 60.0f
-								"tconstruct:harvest_tier": "minecraft:wood"
-								"tconstruct:mining_speed": 2.0f
-							}
 							tic_volatile_data: {
 								abilities: 1
 								upgrades: 3
 							}
 						}
 					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "0BD52990BA5090A4"
-					item: "lightmanscurrency:coin_iron"
 					type: "item"
 				}
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "有些...不一样？"
+			subtitle: "注意，送你的这把⛏来自中国山西"
 			tasks: [{
 				id: "4C6E1933FAAB7D73"
 				title: "万物的开始"
@@ -832,8 +758,20 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1D11FB90BD10CC3D"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "solidarytinker:riptide"
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
+			subtitle: "依旧公式化开局"
 			tasks: [
 				{
 					count: 16L
@@ -907,12 +845,25 @@
 				"&r&l&b匠魂每个材料都是不一样的，因此跟据搭配选择合适的部件吧！&r"
 			]
 			id: "26CAE8F089150BDB"
-			rewards: [{
-				count: 16
-				id: "2B0D26E89EE32E00"
-				item: "minecraft:clay"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2B0D26E89EE32E00"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "2AB7EAC6F41E5084"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "solidarytinker:riptide"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "真神登场"
@@ -1610,7 +1561,7 @@
 				item: "tconstruct:seared_soul_glass"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: -2.0d
 		}
 		{
@@ -1630,14 +1581,14 @@
 			id: "7FCEF2EE1FE310FE"
 			rewards: [
 				{
-					id: "671BE1DCD92BDE8E"
-					item: "brewinandchewin:beer"
-					type: "item"
-				}
-				{
 					count: 4
 					id: "269FC882B87BBEBA"
 					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "25C679F0F2343F88"
+					item: "minecraft:golden_apple"
 					type: "item"
 				}
 			]
@@ -1714,10 +1665,6 @@
 				""
 				"其次你需要有一套&a说得过去的装备&r，在护甲值看得过去的同时还需要提供一些机制减伤。&e硬铝、工匠青铜、强化荧石&r会是不错的选择。"
 				""
-				"护甲选择是一个很讲究的东西，由于MC伤害机制的特殊性，你需要均衡各项属性才能最大化收益，在本包还会有格挡，限伤，回复等属性，当他们结合在一起时候保护效果会更上一层楼"
-				""
-				"还有一些材料单走平平无奇，组合在一起可能会有独特的能力，比如黑曜石和黑曜石青铜，kemomimi和狐狸锭"
-				""
 				"最后你可以做一个&6盾牌&r，这样可以抵御&e弹射物&r"
 				"{@pagebreak}"
 				"牢萤送了你一瓶&b召回药水&r，希望你拿完刷怪笼立马能&a平平安安的就回去&r，&m快说谢谢牢萤"
@@ -1740,17 +1687,6 @@
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "11E985EA759EC3AC"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_turtle_master"
 						}
 					}
 					type: "item"
@@ -1780,6 +1716,16 @@
 							Potion: "cyclic:flight"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "6318638005DAA5FA"
+					item: "cyclic:apple_diamond"
+					type: "item"
+				}
+				{
+					id: "065E719648E3C79E"
+					item: "cyclic:apple_emerald"
 					type: "item"
 				}
 			]
@@ -1855,6 +1801,11 @@
 				{
 					id: "2FA33513CB688C76"
 					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0259864AD1C13F3F"
+					item: "pneumaticcraft:spawner_agitator"
 					type: "item"
 				}
 			]
@@ -1935,13 +1886,19 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["71A49B6C2D816424"]
+			dependencies: [
+				"71A49B6C2D816424"
+				"61F138F9C2813BC8"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"历经千辛万苦，你终于把&e烈焰人刷怪笼&r带回了你的基地"
 				""
+				"也有可能你是&b融化水晶获得了烈焰血&r,总之你获得了这种高温的燃料"
+				""
 				"到这里为止，预备章就可以&d宣告结束了&r"
 				""
-				"我觉得有必要小小交代一下如何搭建&e熔融烈焰人&r的炉子"
+				"如果你真的想学如何搭建笼子,我觉得有必要小小交代一下如何搭建&e熔融烈焰人&r的炉子"
 				""
 				"{@pagebreak}"
 				""
@@ -1972,6 +1929,11 @@
 					count: 5
 					id: "5402363F84BBFBBB"
 					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2AF72CD26315BB48"
+					item: "pneumaticcraft:spawner_agitator"
 					type: "item"
 				}
 			]
@@ -2025,6 +1987,7 @@
 				}
 			]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "现在你不需要做，但是迟早要做（"
 			tasks: [{
 				id: "31DFB3B2434E9698"
@@ -2038,7 +2001,7 @@
 				title: "熔铸炉控制器"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -2074,13 +2037,13 @@
 				}
 			]
 			title: "焦褐炉妙妙小道具"
-			x: 19.5d
+			x: 20.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2B25FFCF7AB3DD8B"]
 			description: [
-				"到这里为止，匠魂的&2相关知识已经全部传授完毕&r，你可以&b正式开始你的科技之旅了&r！"
+				"到这里为止，匠魂的&2相关知识已经全部传授完毕&r，你可以&b正式踏上旅途了&r！"
 				""
 				"&a可以动身前往第一章了&r"
 				""
@@ -2236,8 +2199,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2253,17 +2216,21 @@
 								name: "solidarytinker:watery"
 							}
 							{
+								level: 2
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "cti:imprison"
 							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tinkers_ingenuity:armor": 2.5f
-							"tinkers_ingenuity:armor_toughness": 2.5f
-							"tinkers_ingenuity:arrow_damage": 1.5f
-							"tinkers_ingenuity:damage": 1.5f
-							"tinkers_ingenuity:movement_speed": 0.2f
+							"tinkers_ingenuity:armor": 2.59f
+							"tinkers_ingenuity:armor_toughness": 2.59f
+							"tinkers_ingenuity:arrow_damage": 2.58f
+							"tinkers_ingenuity:damage": 2.58f
+							"tinkers_ingenuity:movement_speed": 0.25f
 						}
 						tic_volatile_data: {
 							abilities: -9999
@@ -2276,52 +2243,8 @@
 				type: "item"
 			}]
 			title: "工匠戒指"
-			x: 18.0d
+			x: 16.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["28932EFD933B505B"]
-			description: ["焦褐村民和焦黑村民是工匠村民新增的两种村民（赞美小樱桃！），它们可以被人工转化或者在焦黑/焦褐小屋中被发现。"]
-			icon: {
-				Count: 1b
-				id: "minecraft:player_head"
-				tag: {
-					SkullOwner: {
-						Id: [I;
-							861461934
-							977357728
-							-1107628460
-							-1228579595
-						]
-						Properties: {
-							textures: [{
-								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0="
-							}]
-						}
-					}
-					display: {
-						Lore: [
-							"{\"italic\":false,\"color\":\"aqua\",\"translate\":\"tooltip.mythicbotany.sacrifice_entity1\"}"
-							"{\"italic\":false,\"color\":\"aqua\",\"translate\":\"tooltip.mythicbotany.sacrifice_entity2\"}"
-						]
-						Name: "{\"italic\":false,\"color\":\"dark_aqua\",\"translate\":\"entity.minecraft.wandering_trader\"}"
-					}
-				}
-			}
-			id: "1CCA226293A5A892"
-			rewards: [{
-				id: "1063755B41593CBC"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "匠魂村民？"
-			tasks: [{
-				id: "63645A2A94A92E35"
-				title: "我知道了"
-				type: "checkmark"
-			}]
-			x: 10.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["26CAE8F089150BDB"]
@@ -2463,8 +2386,111 @@
 				type: "item"
 			}]
 			title: "后悔药"
-			x: 0.0d
-			y: 1.5d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B25FFCF7AB3DD8B"]
+			id: "678A5FF88F219076"
+			rewards: [{
+				count: 8
+				id: "44B654887B6FC769"
+				item: "tconstruct:hepatizon_ingot"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "利用黑色科林斯青铜，你能造出更好的铸造设备！"
+			tasks: [
+				{
+					id: "5A31B911D5221860"
+					item: "cti:hepatizon_casting_basin"
+					type: "item"
+				}
+				{
+					id: "21A0631C071D31C3"
+					item: "cti:hepatizon_casting_table"
+					type: "item"
+				}
+				{
+					id: "43D3D118A148D653"
+					item: "cti:hepatizon_faucet"
+					type: "item"
+				}
+			]
+			title: "加速浇筑？"
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["508340027EE3C321"]
+			id: "49A7BE3A327CFD9D"
+			subtitle: "利用焦褐炉合金！"
+			tasks: [{
+				id: "2B06BFED0478D191"
+				item: "cti:advanced_alloyer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["508340027EE3C321"]
+			description: [
+				"熔铸炉的升级版，在科技第二章中你就会见识到它！"
+				""
+				"（点击上方图片查看对应任务）"
+			]
+			id: "0C971C9A6F595075"
+			rewards: [
+				{
+					count: 8
+					id: "0EAEE7E1EDB22DA2"
+					item: "thermal:steel_ingot"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3C63A8621EB516C6"
+					item: "kubejs:silicon_carbide"
+					random_bonus: 24
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "292A46E1FA11D039"
+				item: "cti:refinery_controller"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71A49B6C2D816424"]
+			dependency_requirement: "one_completed"
+			description: [
+				"在下界随处分布着水晶晶洞，这些洞穴里面有一种名为&l&6灵浆水晶&r的物品"
+				""
+				"将其在&c镕铸炉&r中融化，也可以得到&6&l烈焰血&r"
+			]
+			hide_dependency_lines: true
+			id: "61F138F9C2813BC8"
+			optional: true
+			rewards: [{
+				id: "064CC78CEB657E13"
+				item: "tconstruct:ichor_slime_crystal"
+				type: "item"
+			}]
+			subtitle: "这是？"
+			tasks: [{
+				id: "0F109DB50C434211"
+				item: "tconstruct:ichor_slime_crystal_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
 		}
 	]
 	subtitle: [

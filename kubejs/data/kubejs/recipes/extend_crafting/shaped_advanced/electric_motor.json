@@ -1,0 +1,30 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBBA",
+    "BCDCB",
+    "BDEDB",
+    "BCDCB",
+    "ABBBA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "immersiveengineering:wirecoil_copper"
+    },
+    "D": {
+      "item": "thermal:copper_gear"
+    },
+    "E": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "item": "createaddition:electric_motor"
+  }
+}

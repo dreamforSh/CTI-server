@@ -20,13 +20,13 @@
         {
             "chance": 0.2,
             "output": {
-                "tag": "forge:ores/silver"
+                "item": "thermal:deepslate_lead_ore"
             }
         },
         {
             "chance": 0.25,
             "output": {
-                "tag": "forge:ores/lead"
+                "item": "thermal:deepslate_silver_ore"
             }
         }
     ],

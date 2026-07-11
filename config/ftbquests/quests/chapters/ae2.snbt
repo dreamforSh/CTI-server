@@ -565,16 +565,33 @@
 				""
 				"&o&eps：可以使用纸箱之类的道具转移无瑕母岩用于自动产出赛特斯石英"
 				"&o&e如果你不小心挖坏了母岩，整合包也提供了修复它的配方，参考jei获得更多信息"
+				""
+				"这里送你个侵入型狂矿脉种子,如果你已经有机械动力基础了可以直接大量获取基础材料！"
 			]
 			hide_dependency_lines: false
 			icon: "ae2:meteorite_compass"
 			id: "0940B5D459BF1BC8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "304799F45905A63B"
-				table_id: 1725200357724293558L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "304799F45905A63B"
+					table_id: 1725200357724293558L
+					type: "random"
+				}
+				{
+					id: "7F369EAEB78EAE57"
+					item: {
+						Count: 1b
+						id: "cti:coe_vein_seed"
+						tag: {
+							ExtAmount: 0L
+							MineralType: "minecraft:al"
+							Mul: 0.42511183f
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "初见外星科技"
 			tasks: [{
 				id: "2AF7C7E003887551"
@@ -1721,7 +1738,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "78FAE925530CD81F"
-					table_id: 280241854384394554L
+					table_id: 1725200357724293558L
 					type: "choice"
 				}
 			]
@@ -2125,30 +2142,6 @@
 			title: "一个简单的处理放射性化学品的装置"
 			x: -8.0d
 			y: 13.0d
-		}
-		{
-			dependencies: ["56AFED2ECC901623"]
-			description: ["你成功征服了这座大山"]
-			id: "3EC78827F8FEB53F"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "18362C0AE1171CD3"
-				item: "create:creative_motor"
-				type: "item"
-			}]
-			subtitle: "这是登上山顶的穆罕默德应得的奖励"
-			tasks: [{
-				consume_items: false
-				count: 100L
-				icon: "createaddition:electric_motor"
-				id: "3E1B4C85A271D655"
-				item: "createaddition:electric_motor"
-				type: "item"
-			}]
-			title: "不是，你真做啊"
-			x: 13.0d
-			y: 14.0d
 		}
 		{
 			dependencies: ["030876CB3A0926E9"]

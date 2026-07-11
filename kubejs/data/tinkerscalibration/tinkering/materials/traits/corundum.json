@@ -1,0 +1,26 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+      "level": 1,
+      "name": "cti:replaced_insatiable"
+    }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+      "level": 1,
+      "name": "cti:replaced_insatiable"
+    }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:maiming_armor",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:clustering_armor",
+        "level": 1
+      }
+    ]
+  }
+}

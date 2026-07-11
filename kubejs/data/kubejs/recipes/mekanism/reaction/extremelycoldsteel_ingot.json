@@ -1,17 +1,19 @@
 {
   "type": "mekanism:reaction",
-  "duration": 100,
+  "duration": 140,
+  "energyRequired": 2800,
   "fluidInput": {
-    "amount": 200,
+    "amount": 1000,
     "fluid": "ad_astra:cryo_fuel"
   },
   "gasInput": {
-    "amount": 100,
+    "amount": 1000,
     "gas": "mekanism:oxygen"
   },
   "itemInput": {
     "ingredient": {
-      "item": "pneumaticcraft:ingot_iron_compressed"
+      "count": 1,
+      "tag": "forge:ingots/steel"
     }
   },
   "itemOutput": {

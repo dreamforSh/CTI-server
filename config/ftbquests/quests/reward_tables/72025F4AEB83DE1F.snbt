@@ -2,7 +2,7 @@
 	icon: "tinkers_reforged:aluminum_brass_platform"
 	id: "72025F4AEB83DE1F"
 	loot_size: 9
-	order_index: 45
+	order_index: 44
 	rewards: [
 		{ count: 3, item: "tinkers_reforged:hureaulite_gem" }
 		{ count: 3, item: "tinkers_reforged:red_beryl_gem" }

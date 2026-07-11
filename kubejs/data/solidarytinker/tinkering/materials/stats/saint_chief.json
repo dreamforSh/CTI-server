@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.7,
+      "mining_speed": 2.7,
+      "melee_speed": 0.5,
+      "melee_damage": 0.2
+    },
+    "tconstruct:head": {
+      "durability": 1920,
+      "mining_speed": 5,
+      "mining_tier": "minecraft:diamond",
+      "melee_attack": 8
+    },
+    "tconstruct:limb": {
+      "durability": 1680,
+      "draw_speed": 0.7,
+      "velocity": 3.6,
+      "accuracy": 1.2
+    },
+    "tconstruct:grip": {
+      "durability": 1.7,
+      "accuracy": 2.0,
+      "melee_damage": 4.0
+    },
+    "tinkersinnovation:shield_plate": {
+      "durability": 1022,
+      "armor": 4.0,
+      "toughness": 2,
+      "knockback_resistance": 0.4,
+      "block_amount": 0.25,
+      "shield_amount": 5
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 72000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 40,
+      "plasmarange": 35,
+      "damagemultiplier": 6.5
+    },
+    "tinkers_ingenuity:battery": {
+      "energy_capacity": 64000,
+      "durability": 0.2
+    },
+    "tinkers_ingenuity:laser_medium": {
+      "laser_range": 35,
+      "cooldown": 1.1
+    }
+  }
+}

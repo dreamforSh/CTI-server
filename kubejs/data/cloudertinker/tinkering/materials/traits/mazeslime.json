@@ -1,0 +1,128 @@
+{"perStat": {
+  "tconstruct:head": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost",
+      "level": 1
+    }
+  ],
+  "tconstruct:handle": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost",
+      "level": 1
+    }
+  ],
+  "tconstruct:binding": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost",
+      "level": 1
+    }
+  ],
+  "tconstruct:maille": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilightarmor",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost_armor",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_helmet": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilightarmor",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost_armor",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_chestplate": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilightarmor",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost_armor",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_leggings": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilightarmor",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost_armor",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_boots": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilightarmor",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost_armor",
+      "level": 1
+    }
+  ],
+  "tconstruct:plating_shield": [
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:twilightarmor",
+      "level": 1
+    },
+    {
+      "name": "cti:replace_overlost_armor",
+      "level": 1
+    }
+  ]
+}}

@@ -3,16 +3,71 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting([Item.of('immersiveengineering:blastbrick_reinforced',3)], ['5x minecraft:nether_brick', '3x minecraft:brick',Fluid.of('etshtinker:molten_hardlead').withAmount(270)])
     event.recipes.create.compacting([Item.of('tinkers_reforged:duralumin_ingot',2)],['2x minecraft:copper_ingot','4x immersiveengineering:ingot_aluminum'])
     event.recipes.create.mixing([Item.of('tinkers_thinking:chlorophyte_ingot',4)],['4x minecraft:iron_ingot','tinkers_thinking:chlorophyte_compound',Fluid.of('minecraft:water').withAmount(1000)]).heated()
-    event.recipes.create.filling('cti:ethanol_absolute', [Fluid.of('immersiveengineering:ethanol').withAmount(250),'brewinandchewin:tankard'])
-    event.recipes.create.mixing(Fluid.of('cherrytinker:sun_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(1000),'cherrytinker:cherrygem']).heated()
+    event.recipes.create.mixing(Fluid.of('cherrytinker:sun_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(1000),'cherrytinker:cherrygem'])
+    event.recipes.create.mixing(Fluid.of('cherrytinker:moon_cherryfuel').withAmount(1000), [Fluid.of('tconstruct:magma').withAmount(1000),'cherrytinker:cherrygem'])
     event.recipes.create.mixing(Fluid.of('cti:lava_heated').withAmount(1000), [Fluid.of('tconstruct:blazing_blood').withAmount(500),Fluid.of('minecraft:lava').withAmount(500),'kubejs:thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_overheated').withAmount(1000), [Fluid.of('cti:lava_heated').withAmount(500),'kubejs:aetheric_thermite'])
     event.recipes.create.mixing(Fluid.of('cti:lava_atomic').withAmount(1000), [Fluid.of('cti:lava_plasmatic').withAmount(1000),'tinkers_ingenuity:bedrock_alloy_ingot','aether_redux:gravitite_ingot'])
     event.recipes.create.mixing(Item.of('create:brass_ingot',2), [Fluid.of('tconstruct:molten_copper').withAmount(90),'create:zinc_ingot'])
+    event.recipes.create.mixing(Item.of('createutilities:void_steel_ingot',2), ['2x create:brass_ingot','2x minecraft:ender_pearl'])
 
-    event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x minecraft:redstone']).superheated()
-    event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x thermal:diamond_dust']).superheated()
-    event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(1000), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(1000),'32x create:powdered_obsidian']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:redstone_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x minecraft:redstone']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:diamond_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x thermal:diamond_dust']).superheated()
+    event.recipes.create.mixing(Fluid.of('kubejs:obsidian_additive').withAmount(500), [Fluid.of('immersiveengineering:phenolic_resin').withAmount(500),'32x create:powdered_obsidian']).superheated()
+
+    event.recipes.create.mixing(Item.of('ae2:fluix_crystal',32), ['12x minecraft:quartz','12x ae2:charged_certus_quartz_crystal',Fluid.of('thermal:redstone').withAmount(1000)])
+    //烈光合金部件
+    event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:chestplate_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:leggings_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:boots_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('etshtinker:ionizer', '{Material:"cti:xenoglarium"}').withChance(0.05),Item.of('etshtinker:plasma_generator', '{Material:"cti:xenoglarium"}').withChance(0.05)], ['etshtinker:stellaralloy', 'cti:xenoglarium_ingot'])
+    event.recipes.create.deploying([Item.of('solidarytinker:mining_core', '{Material:"tconstruct:ancient_hide"}')],['mekanism:alloy_atomic', 'minecraft:netherite_scrap'])
+    event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:helmet_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying([Item.of('tconstruct:chestplate_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:chestplate_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying([Item.of('tconstruct:leggings_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:leggings_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying([Item.of('tconstruct:boots_plating', '{Material:"kubejs:sturdy_sheet"}')],['tconstruct:boots_plating_dummy', 'create:sturdy_sheet'])
+    event.recipes.create.deploying('ae2:printed_silicon',['ae2:silicon', 'kubejs:universal_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_silicon',['ae2:silicon', 'ae2:silicon_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_calculation_processor',['ae2:certus_quartz_crystal', 'kubejs:universal_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_calculation_processor',['ae2:certus_quartz_crystal', 'ae2:calculation_processor_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_engineering_processor',['minecraft:diamond', 'kubejs:universal_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_engineering_processor',['minecraft:diamond', 'ae2:engineering_processor_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_logic_processor',['minecraft:gold_ingot', 'kubejs:universal_press']).keepHeldItem()
+    event.recipes.create.deploying('ae2:printed_logic_processor',['minecraft:gold_ingot', 'ae2:logic_processor_press']).keepHeldItem()
+    event.recipes.create.deploying('kubejs:universal_press',['minecraft:iron_block', 'kubejs:universal_press']).keepHeldItem()
+
+    event.recipes.create.haunting('thermal:rich_slag','thermal:slag')
+
+event.recipes.create.sequenced_assembly([
+    Item.of('ae2:calculation_processor')
+]  ,Item.of('ae2:printed_silicon'), [
+    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'ae2:printed_calculation_processor']),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
+]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
+
+event.recipes.create.sequenced_assembly([
+    Item.of('ae2:engineering_processor')
+]  ,Item.of('ae2:printed_silicon'), [
+    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'ae2:printed_engineering_processor']),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
+]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
+
+event.recipes.create.sequenced_assembly([
+    Item.of('ae2:logic_processor')
+]  ,Item.of('ae2:printed_silicon'), [
+    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'ae2:printed_logic_processor']),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('thermal:redstone').withAmount(250)]),
+]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1)
+
+  event.recipes.create.sequenced_assembly([
+    Item.of('create:sturdy_sheet')
+  ], Item.of('create:powdered_obsidian'), [
+    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of("tconstruct:blazing_blood").withAmount(250)]),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+  ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(2)
+
 
     event.recipes.create.sequenced_assembly([
     Item.of('mekanism:mekasuit_helmet')
@@ -78,15 +133,6 @@ event.recipes.create.sequenced_assembly([
     event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', '#forge:nuggets/iron']),
 ]).transitionalItem('create:incomplete_precision_mechanism').loops(3)
 
-event.recipes.create.sequenced_assembly([
-    Item.of('createutilities:void_steel_ingot')
-]  ,Item.of('powah:steel_energized'), [
-    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'minecraft:ender_pearl']),
-    event.recipes.createDeploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'create:sturdy_sheet']),
-    event.recipes.create.filling('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', Fluid.of('tconstruct:blazing_blood').withAmount(1000)]),
-    event.recipes.createPressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-]).transitionalItem('create:unprocessed_obsidian_sheet').loops(2)
-
 event.shaped(Item.of('createoreexcavation:vein_finder',1), [
         'DC ',
         'BA ',
@@ -98,8 +144,7 @@ event.shaped(Item.of('createoreexcavation:vein_finder',1), [
         C: 'minecraft:emerald',
         D: 'minecraft:ender_eye',
     })
-//烈光合金部件
-event.recipes.create.deploying([Item.of('tconstruct:helmet_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:chestplate_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:leggings_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('tconstruct:boots_plating', '{Material:"cti:xenoglarium"}').withChance(0.2),Item.of('etshtinker:ionizer', '{Material:"cti:xenoglarium"}').withChance(0.05),Item.of('etshtinker:plasma_generator', '{Material:"cti:xenoglarium"}').withChance(0.05)], ['etshtinker:stellaralloy', 'cti:xenoglarium_ingot'])
+
 event.recipes.createMechanicalCrafting('cti:roxy_ingot', [
   'AABAA',
   'ACDEA',
@@ -214,4 +259,13 @@ event.custom({
   ]
 })
 
+event.remove('createaddition:compat/tconstruct/slimesteel')
+event.recipes.create.sequenced_assembly([
+    Item.of('tconstruct:slimesteel_ingot',2)
+]  ,Item.of("minecraft:iron_ingot"), [
+    event.recipes.createDeploying('minecraft:iron_ingot', ['minecraft:iron_ingot', 'tconstruct:seared_brick']),
+    event.recipes.create.pressing('minecraft:iron_ingot','minecraft:iron_ingot'),
+    event.recipes.create.filling( 'minecraft:iron_ingot', ['minecraft:iron_ingot', Fluid.of('tconstruct:sky_slime').withAmount(250)]),
+    event.recipes.create.filling( 'minecraft:iron_ingot', ['minecraft:iron_ingot', Fluid.of('tconstruct:blazing_blood').withAmount(100)]),
+]).transitionalItem('minecraft:iron_ingot').loops(2)
 })

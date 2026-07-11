@@ -20,15 +20,6 @@ LootJS.modifiers(event => {
             { item: 'ae2:fluid_storage_cell_16k', count: 1, chance: 1 },
             { item: 'ae2:fluid_storage_cell_16k', count: 2, chance: 0.75 },
         ],
-        //月球村庄
-        moonVillage: [
-            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.3 },
-            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.3 },
-            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.3 },
-            { item: 'ae2:fluix_smart_dense_cable', count: 26, chance: 0.8 },
-            { item: 'ae2:drive', count: 1, chance: 0.4 },
-            { item: 'ae2:energy_cell', count: 1, chance: 0.4 },
-        ],
         //月球地牢
         moonDungeon: [
             { item: 'megacells:cell_component_1m', count: 2, chance: 0.3 },
@@ -41,21 +32,21 @@ LootJS.modifiers(event => {
             { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
         ],
         //金星
-        pygroVillage:[
-            {item: 'mekanism:qio_exporter', count: 2, chance: 0.5},
-            {item: 'mekanism:qio_importer', count: 2, chance: 0.5},
-            {item: 'mekanism:qio_drive_array', count: 1, chance: 0.2},
-            {item: 'mekanism:qio_dashboard', count: 1, chance: 0.2},
-            {item: 'mekanism:qio_redstone_adapter', count: 1, chance: 0.25},
-            {item: 'mekanism:qio_redstone_adapter', count: 1, chance: 0.25},
-            {item: 'mekanism:qio_drive_supermassive', count: 1, chance: 0.05},
-            {item: 'mekanism:qio_drive_time_dilating', count: 1, chance: 0.15},
-            {item: 'mekanism:qio_drive_hyper_dense', count: 1, chance: 0.25},
-            {item: 'mekanism:qio_drive_base', count: 1, chance: 0.25},
-            {item: 'ad_astra:calorite_plate', count: 7, chance: 0.7},
-            {item: 'ad_astra:calorite_block', count: 3, chance: 0.3},
-            {item: 'ad_astra:venus_calorite_ore', count: 35, chance: 0.85},
-            {item: 'ad_astra:calorite_ingot', count: 10, chance: 1},
+        pygroVillage: [
+            { item: 'mekanism:qio_exporter', count: 2, chance: 0.5 },
+            { item: 'mekanism:qio_importer', count: 2, chance: 0.5 },
+            { item: 'mekanism:qio_drive_array', count: 1, chance: 0.2 },
+            { item: 'mekanism:qio_dashboard', count: 1, chance: 0.2 },
+            { item: 'mekanism:qio_redstone_adapter', count: 1, chance: 0.25 },
+            { item: 'mekanism:qio_redstone_adapter', count: 1, chance: 0.25 },
+            { item: 'mekanism:qio_drive_supermassive', count: 1, chance: 0.05 },
+            { item: 'mekanism:qio_drive_time_dilating', count: 1, chance: 0.15 },
+            { item: 'mekanism:qio_drive_hyper_dense', count: 1, chance: 0.25 },
+            { item: 'mekanism:qio_drive_base', count: 1, chance: 0.25 },
+            { item: 'ad_astra:calorite_plate', count: 7, chance: 0.7 },
+            { item: 'ad_astra:calorite_block', count: 3, chance: 0.3 },
+            { item: 'ad_astra:venus_calorite_ore', count: 35, chance: 0.85 },
+            { item: 'ad_astra:calorite_ingot', count: 10, chance: 1 },
         ],
 
     };
@@ -71,11 +62,9 @@ LootJS.modifiers(event => {
     addLootToStructure('#minecraft:village', StructurelootTables.village);
     addLootToStructure("undergarden:catacombs", StructurelootTables.catacombs);
     addLootToStructure("ad_astra:meteor", StructurelootTables.meteor);
-    addLootToStructure("ad_astra:lunar_tower", StructurelootTables.moonVillage);
-    addLootToStructure("ad_astra:lunarian_village", StructurelootTables.moonVillage);
     addLootToStructure("ad_astra:moon_dungeon", StructurelootTables.moonDungeon);
-    addLootToStructure('ad_astra:pygro_village',StructurelootTables.pygroVillage);
-    addLootToStructure('ad_astra:pygro_tower',StructurelootTables.pygroVillage);
+    addLootToStructure('ad_astra:pygro_village', StructurelootTables.pygroVillage);
+    addLootToStructure('ad_astra:pygro_tower', StructurelootTables.pygroVillage);
 
 
     //根据战利品表ID增加战利品,可以用指令/loot来查看精确ID
@@ -94,85 +83,95 @@ LootJS.modifiers(event => {
             { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },//末影残息
         ],
         //悚陵
-        mausoleum:[
+        mausoleum: [
             { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },//霜覆末影
             { item: 'etshtinker:blizz_enderium', count: 2, chance: 1 },
         ],
         //沙漠神殿
-        desertPyramid:[
+        desertPyramid: [
             { item: 'etshtinker:blitz_lumium', count: 1, chance: 1 },//震荡流明
             { item: 'etshtinker:blitz_lumium', count: 3, chance: 0.85 },
         ],
         //迷阵冰封箱子
-        frozenChest:[
+        frozenChest: [
             { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
             { item: 'obscure_api:astral_dust', count: 1, chance: 1 },//保底星体尘尘
             { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
         ],
         //亡灵海盗船普通宝藏
-        seas_dungeon_ship_cheap:[
+        seas_dungeon_ship_cheap: [
             { item: 'cyclic:gem_amber', count: 2, chance: 0.6 },//琥珀结晶
             { item: 'tconstruct:hepatizon_ingot', count: 2, chance: 0.6 },//黑色科林斯青铜
         ],
         //亡灵海盗船高级宝藏
-        seas_dungeon_ship_treasure:[
+        seas_dungeon_ship_treasure: [
             { item: 'cyclic:gem_obsidian', count: 2, chance: 0.6 },//黑耀石结晶
             { item: 'industrialforegoing:advanced_black_hole_tank', count: 1, chance: 0.4 },//黑洞流体储罐T3
             { item: 'l2complements:explosion_shard', count: 2, chance: 0.4 },//破灭残片
             { item: Item.of('sophisticatedstorage:netherite_barrel', '{woodType:"oak"}'), count: 1, chance: 0.4 },//下界合金木桶
         ],
         //掠夺者营地
-        pillager_outpost_treasure:[
+        pillager_outpost_treasure: [
             { item: 'lightmanscurrency:coin_gold', count: 2, chance: 0.8 },//金币
             { item: 'lightmanscurrency:coin_gold', count: 2, chance: 0.8 },//金币
         ],
         //飞艇燃料箱
-        small_blimp_coal_chest:[
+        small_blimp_coal_chest: [
             { item: 'gobber2:gobber2_foo', count: 5, chance: 0.9 },//戈伯煤炭三种
             { item: 'gobber2:gobber2_foo_nether', count: 5, chance: 0.8 },
             { item: 'gobber2:gobber2_foo_end', count: 5, chance: 0.7 },
             { item: 'projecte:alchemical_coal', count: 5, chance: 0.4 },//等价炼金煤炭
         ],
         //飞艇红石箱子
-        small_blimp_redstone_chest:[
+        small_blimp_redstone_chest: [
             { item: 'kubejs:crystal_redstone', count: 12, chance: 0.9 },//红石络合物
             { item: 'minecraft:redstone_block', count: 5, chance: 0.7 },//红石块
-            
+
         ],
         //飞艇宝藏
-        small_blimp_treasure:[
+        small_blimp_treasure: [
             { item: 'l2complements:space_shard', count: 3, chance: 0.5 },//逐日之翼
             { item: 'l2complements:soul_flame', count: 2, chance: 0.7 },//魂火
             { item: 'l2complements:cursed_droplet', count: 3, chance: 0.8 },//亡魂泪
         ],
         //冰火墓地
-        iaf_graveyard:[
-            {item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
-            {item: 'minecraft:gold_ingot', count: 7, chance: 0.6 },
-            {item: 'minecraft:iron_ingot', count: 5, chance: 0.5 },
-            {item: 'minecraft:diamond', count: 5, chance: 0.3 },
-            {item: 'minecraft:emerald', count: 3, chance: 0.4 }
+        iaf_graveyard: [
+            { item: 'enigmaticlegacy:soul_compass', count: 1, chance: 1 },
+            { item: 'minecraft:gold_ingot', count: 7, chance: 0.6 },
+            { item: 'minecraft:iron_ingot', count: 5, chance: 0.5 },
+            { item: 'minecraft:diamond', count: 5, chance: 0.3 },
+            { item: 'minecraft:emerald', count: 3, chance: 0.4 }
         ],
         //滑滑魔石
-        slider:[
-            {item: 'aether_redux:sentry_chip', count: 8, chance: 1 },
+        slider: [
+            { item: 'aether_redux:sentry_chip', count: 8, chance: 1 },
         ],
         //天镜地牢奖励箱
-        silver_dungeon_reward:[
-            {item: 'cti:strange_ice_crystal', count: 1, chance: 1 },
+        silver_dungeon_reward: [
+            { item: 'cti:strange_ice_crystal', count: 1, chance: 1 },
         ],
-        golden_dungeon_reward:[
-            {item: 'kubejs:violium_core', count: 24, chance: 1 },
+        golden_dungeon_reward: [
+            { item: 'kubejs:violium_core', count: 24, chance: 1 },
             { item: "aether:life_shard", count: 12, chance: 1 },
         ],
-        simple_dungeon:[
-        {item: 'pneumaticcraft:spawner_agitator', count: 1, chance: 1 },
-        ]
+        simple_dungeon: [
+            { item: 'pneumaticcraft:spawner_agitator', count: 1, chance: 1 },
+        ],
+        //月球村庄箱子
+        moonVillage: [
+            { item: 'ae2:item_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'ae2:fluid_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'appmek:chemical_storage_cell_256k', count: 1, chance: 0.3 },
+            { item: 'ae2:fluix_smart_dense_cable', count: 26, chance: 0.8 },
+            { item: 'ae2:drive', count: 1, chance: 0.4 },
+            { item: 'ae2:energy_cell', count: 1, chance: 0.4 },
+        ],
+
     }
     function addLootToTable(LootTableID, lootEntries) {
         lootEntries.forEach(entry => {
             event.addLootTableModifier(LootTableID)
-            .addLoot(LootEntry.of(entry.item, entry.count)
+                .addLoot(LootEntry.of(entry.item, entry.count)
                     .when((c) => c.randomChance(entry.chance)))
         });
     }
@@ -199,6 +198,8 @@ LootJS.modifiers(event => {
     addLootToTable("aether:entities/slider", LootToLootTables.slider);
     addLootToTable("aether:chests/dungeon/silver/silver_dungeon_reward", LootToLootTables.silver_dungeon_reward);
     addLootToTable("aether:chests/dungeon/gold/gold_dungeon_reward", LootToLootTables.golden_dungeon_reward);
+    addLootToTable("ad_astra:chests/village/moon/house", LootToLootTables.moonVillage);
+    addLootToTable("ad_astra:chests/village/moon/blacksmith", LootToLootTables.moonVillage);
 
 
     //全局战利品表(按照表移除,参照data/forge/globalxxxx那个)
@@ -230,6 +231,27 @@ LootJS.modifiers(event => {
         "ars_nouveau:dungeon_loot",
         "pneumaticcraft:dungeon_loot",
         "aether_redux:sentry_chip",
+        "extradelight:curry_pyramid",
+        "extradelight:cactus_juice_portal",
+        "extradelight:pestle_nether",
+        "extradelight:food_city",
+        "extradelight:food_outpost",
+        "extradelight:mortar_nether",
+        "extradelight:pestle_dungeon",
+        "extradelight:food_dungeon",
+        "extradelight:curry_ship",
+        "extradelight:cactus_juice_desert",
+        "extradelight:cactus_juice_pyramid",
+        "extradelight:food_ship",
+        "extradelight:furikake_ruins_big",
+        "extradelight:curry_village",
+        "extradelight:furikake_ruins",
+        "extradelight:food_mansion2",
+        "extradelight:curry_mansion",
+        "extradelight:food_igloo",
+        "extradelight:mortar_dungeon",
+        "extradelight:food_city_ice",
+        "extradelight:food_butcher"
     ];
     globalLootToRemove.forEach(removeGlobalLoot);
 
@@ -246,8 +268,7 @@ LootJS.modifiers(event => {
         "sophisticatedbackpacks:inject/chests/desert_pyramid",
         "sophisticatedbackpacks:inject/chests/bastion_treasure",
         "sophisticatedbackpacks:inject/chests/abandoned_mineshaft",
-        "ad_astra:chests/village/moon/blacksmith",
-        "ad_astra:chests/village/moon/house"
+
     ];
     lootLocation.forEach(disableLootbyLocation);
 

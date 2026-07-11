@@ -2,7 +2,7 @@
 	icon: "enigmaticlegacy:the_infinitum"
 	id: "77379EE847D6528C"
 	loot_size: 1
-	order_index: 27
+	order_index: 26
 	rewards: [
 		{ item: "enigmaticlegacy:unwitnessed_amulet", weight: 20.0f }
 		{ item: "enigmaticlegacy:twisted_heart", weight: 4.0f }

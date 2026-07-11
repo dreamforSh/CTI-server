@@ -24,7 +24,7 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -99,8 +99,8 @@
 				type: "item"
 			}]
 			title: "沉默"
-			x: -5.5d
-			y: -3.0d
+			x: -19.5d
+			y: -1.0d
 		}
 		{
 			description: ["朴实无华的伤害转化为穿魔"]
@@ -177,7 +177,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -195,7 +195,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -213,7 +213,25 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 17.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "7CEF0B9AC61693D0"
+			subtitle: "可以很好的抵御腐蚀词条的扣耐久"
+			tasks: [{
+				id: "15EAEF3BA36CF53C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:harden"
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
@@ -231,7 +249,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -248,7 +266,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -9.5d
 			y: 12.0d
 		}
 		{
@@ -267,8 +285,28 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -11.5d
 			y: 12.0d
+		}
+		{
+			disable_toast: true
+			id: "7FDCF21C836D9793"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "首次攻击或被攻击时每级增加5s1级绿宝石水花，再次攻击或被攻击时提升为2级"
+			tasks: [{
+				id: "6203667111093E08"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:heirophant_green"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -286,7 +324,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -345,7 +383,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -363,7 +401,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -380,7 +418,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.5d
+			x: -17.5d
 			y: -1.0d
 		}
 		{
@@ -399,7 +437,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -417,7 +455,27 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 23.5d
+			y: 21.5d
+		}
+		{
+			disable_toast: true
+			id: "2AE351810235024E"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "工匠匠心每添加一个匠魂属性，提高2%挖掘速度与攻击伤害"
+			tasks: [{
+				id: "609968733B492591"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:star_blessing"
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
 		}
 		{
 			description: ["小晶镞"]
@@ -435,7 +493,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -9.5d
 			y: -1.0d
 		}
 		{
@@ -453,7 +511,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -7.5d
 			y: 10.0d
 		}
 		{
@@ -472,8 +530,26 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -7.5d
 			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "599F86D774C73BB4"
+			subtitle: "穿戴者免疫召唤物/宠物的伤害"
+			tasks: [{
+				id: "2AA49B3F36CF320A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:owner_protection"
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -491,7 +567,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 27.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -509,7 +585,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -527,7 +603,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -547,7 +623,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -565,7 +641,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -583,7 +659,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -603,7 +679,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -621,7 +697,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -639,7 +715,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -657,7 +733,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -674,7 +750,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -15.5d
 			y: 6.0d
 		}
 		{
@@ -693,7 +769,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -731,7 +807,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -748,7 +824,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -9.5d
 			y: -3.0d
 		}
 		{
@@ -767,7 +843,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -784,7 +860,7 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
+			x: -15.5d
 			y: -1.0d
 		}
 		{
@@ -802,7 +878,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
+			x: -11.5d
 			y: -1.0d
 		}
 		{
@@ -820,7 +896,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
+			x: -13.5d
 			y: 12.0d
 		}
 		{
@@ -839,7 +915,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -857,7 +933,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -875,7 +951,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -893,7 +969,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -911,7 +987,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -928,7 +1004,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -7.5d
 			y: -1.0d
 		}
 		{
@@ -947,7 +1023,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 27.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -964,7 +1040,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -982,8 +1058,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: -19.5d
+			y: 12.0d
 		}
 		{
 			disable_toast: true
@@ -1001,7 +1077,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			disable_toast: true
@@ -1019,7 +1095,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			disable_toast: true
@@ -1037,7 +1113,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 27.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -1055,7 +1131,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 27.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -1073,7 +1149,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			disable_toast: true
@@ -1091,7 +1167,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -1109,7 +1185,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -1127,7 +1203,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -1145,7 +1221,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -1163,7 +1239,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -1181,7 +1257,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -1199,7 +1275,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -1217,7 +1293,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -1235,7 +1311,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -1253,7 +1329,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			disable_toast: true
@@ -1271,7 +1347,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 27.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -1289,27 +1365,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 27.5d
-		}
-		{
-			disable_toast: true
-			id: "6C6776B6039BD7F0"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "使离子化射线炮蓄力完成时自动发射"
-			tasks: [{
-				id: "2860793B4FE66FBF"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "etshtinker:autoionizing"
-					}
-				}
-				type: "item"
-			}]
-			x: -19.5d
-			y: 4.0d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -1328,7 +1384,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
+			x: -17.5d
 			y: 4.0d
 		}
 		{
@@ -1347,7 +1403,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			disable_toast: true
@@ -1364,7 +1420,7 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
+			x: -15.5d
 			y: 12.0d
 		}
 		{
@@ -1383,7 +1439,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			description: ["这些基本上你都用得上"]
@@ -1424,7 +1480,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -15.5d
 			y: 4.0d
 		}
 		{
@@ -1444,7 +1500,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -13.5d
 			y: 4.0d
 		}
 		{
@@ -1462,7 +1518,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -17.5d
 			y: 6.0d
 		}
 		{
@@ -1482,7 +1538,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -11.5d
 			y: 4.0d
 		}
 		{
@@ -1490,7 +1546,7 @@
 			id: "1ABDBB8EF14EA9E7"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "使工具能使用熔融材料，箭矢获得材料远程属性，每次射击消耗10mb流体（需要储液强化）。不支持添加/减少强化槽的材料，至少需要20mb流体"
+			subtitle: "使工具能使用熔融材料，箭矢获得材料远程属性，每次射击消耗流体（需要储液强化）。不支持添加/减少强化槽的材料，至少需要20mb流体"
 			tasks: [{
 				id: "0483D3326713303F"
 				item: {
@@ -1522,28 +1578,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.5d
 			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "2FEC57F962298F1F"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "每级使离子化射线炮额外射出一束射线，但会增大散射和冷却时间"
-			tasks: [{
-				id: "5CD1126FA7B6DE8A"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "etshtinker:multishotplasma"
-					}
-				}
-				type: "item"
-			}]
-			x: -19.5d
-			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -1562,7 +1598,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.5d
 			y: 4.0d
 		}
 		{
@@ -1580,7 +1616,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: 10.0d
 		}
 		{
@@ -1598,26 +1634,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 6.0d
-		}
-		{
-			disable_toast: true
-			id: "4315753AC3FA9E91"
-			subtitle: "长按右键将自己传送到2500*属性等级格（不改变y坐标），冷却10秒"
-			tasks: [{
-				id: "74FEB0A659CCEB38"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "etshtinker:warpengineex"
-					}
-				}
-				type: "item"
-			}]
 			x: -19.5d
-			y: 12.0d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -1634,7 +1652,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -7.5d
 			y: 12.0d
 		}
 		{
@@ -1654,7 +1672,7 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
+			x: -19.5d
 			y: 4.0d
 		}
 		{
@@ -1672,7 +1690,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -1680,7 +1698,7 @@
 			id: "56B2639A906834C6"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "使工具能使用熔融材料，工具获得部分近战属性，每次攻击消耗10mb流体（需要储液强化）。不支持添加/减少强化槽的材料，至少需要20mb流体"
+			subtitle: "使工具能使用熔融材料，工具获得部分近战属性，每次攻击消耗流体（需要储液强化）。不支持添加/减少强化槽的材料，至少需要20mb流体"
 			tasks: [{
 				id: "787D26C5ECD6449F"
 				item: {
@@ -1714,7 +1732,7 @@
 				type: "checkmark"
 			}]
 			x: -22.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			icon: {
@@ -1754,7 +1772,7 @@
 			}]
 			title: "神射"
 			x: 6.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			description: [""]
@@ -1773,7 +1791,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			description: [""]
@@ -1792,7 +1810,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			description: [""]
@@ -1811,7 +1829,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			description: [""]
@@ -1830,7 +1848,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			description: [""]
@@ -1849,7 +1867,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			description: [""]
@@ -1868,7 +1886,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -1886,7 +1904,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -1903,8 +1921,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.0d
+			x: 14.5d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -1922,7 +1940,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -1939,8 +1957,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 8.0d
+			x: 16.5d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -1975,8 +1993,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 10.0d
+			x: 14.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -1994,7 +2012,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -2012,7 +2030,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -2030,7 +2048,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -2066,7 +2084,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -2083,8 +2101,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 10.0d
+			x: 16.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -2102,7 +2120,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -2120,7 +2138,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2138,7 +2156,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2156,7 +2174,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			disable_toast: true
@@ -2174,7 +2192,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2192,7 +2210,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -2210,7 +2228,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2228,7 +2246,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2246,7 +2264,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -2300,7 +2318,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2317,8 +2335,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 14.0d
+			x: 16.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -2336,7 +2354,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2354,7 +2372,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -2372,7 +2390,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			disable_toast: true
@@ -2390,7 +2408,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2425,8 +2443,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 14.0d
+			x: 12.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -2444,12 +2462,12 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
 			id: "2CD679BAD5A1767A"
-			subtitle: "对攻击者施加10秒等同于词条等级的重伤效果，每级重伤减低30％的回复能力"
+			subtitle: "对攻击者施加10秒等同于的重伤效果，每级重伤减低30％的回复能力"
 			tasks: [{
 				id: "7A81FE37F8CDCE61"
 				item: {
@@ -2480,7 +2498,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2497,8 +2515,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 14.0d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			disable_toast: true
@@ -2516,7 +2534,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2534,7 +2552,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -2552,7 +2570,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2570,7 +2588,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2587,8 +2605,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 14.0d
+			x: 2.5d
+			y: 12.0d
 		}
 		{
 			disable_toast: true
@@ -2606,7 +2624,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			disable_toast: true
@@ -2678,7 +2696,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 25.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -2695,8 +2713,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 14.0d
+			x: 10.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -2714,7 +2732,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 27.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -2749,8 +2767,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 14.0d
+			x: 14.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -2893,8 +2911,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 16.0d
+			x: 6.5d
+			y: 12.0d
 		}
 		{
 			disable_toast: true
@@ -2911,8 +2929,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 16.0d
+			x: 8.5d
+			y: 12.0d
 		}
 		{
 			disable_toast: true
@@ -2950,8 +2968,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 27.5d
+			y: 17.0d
 		}
 		{
 			disable_toast: true
@@ -2968,8 +2986,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 25.5d
+			y: 17.0d
 		}
 		{
 			disable_toast: true
@@ -2986,14 +3004,13 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 31.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
 			id: "6E634857F84A6D76"
-			shape: "diamond"
-			size: 1.5d
+			shape: "circle"
 			subtitle: "每级减少10%冷却时间"
 			tasks: [{
 				id: "1E0F6D07AFA8A86C"
@@ -3006,8 +3023,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 29.5d
+			y: 18.5d
 		}
 		{
 			disable_toast: true
@@ -3024,8 +3041,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 29.5d
+			y: 17.0d
 		}
 		{
 			disable_toast: true
@@ -3042,8 +3059,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.0d
+			x: 31.5d
+			y: 17.0d
 		}
 		{
 			disable_toast: true
@@ -3060,8 +3077,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -3078,8 +3095,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.0d
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -3115,7 +3132,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -3132,8 +3149,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 12.0d
+			x: 16.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3151,7 +3168,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -3168,8 +3185,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 10.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3187,7 +3204,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3205,7 +3222,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -3223,7 +3240,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -3240,8 +3257,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 8.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -3258,8 +3275,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 12.0d
+			x: 10.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3277,7 +3294,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 33.0d
+			y: 29.0d
 		}
 		{
 			disable_toast: true
@@ -3295,7 +3312,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3331,7 +3348,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3349,7 +3366,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3367,7 +3384,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 19.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -3405,7 +3422,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.0d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -3441,7 +3458,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -3477,7 +3494,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3512,8 +3529,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 10.0d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -3530,8 +3547,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 10.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -3549,7 +3566,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -3566,8 +3583,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.0d
+			x: 8.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3676,8 +3693,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -3694,8 +3711,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 12.0d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3714,8 +3731,26 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 8.0d
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			id: "41165C77CD393490"
+			subtitle: "攻击每级施加0.5s一级禁锢"
+			tasks: [{
+				id: "43075906E14DE863"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:stone_cage"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -3732,8 +3767,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 10.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -3751,7 +3786,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3768,8 +3803,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 12.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3787,7 +3822,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 31.0d
+			y: 27.0d
 		}
 		{
 			disable_toast: true
@@ -3807,7 +3842,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.0d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -3827,7 +3862,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 8.0d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -3844,8 +3879,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 14.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -3862,8 +3897,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 14.0d
+			x: 8.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -3880,8 +3915,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 12.0d
+			x: 2.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -3898,8 +3933,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 12.0d
+			x: 14.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3916,8 +3951,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 12.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			disable_toast: true
@@ -3935,7 +3970,27 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 19.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "369411F6A88446BE"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "每级增加一个恶意槽"
+			tasks: [{
+				id: "2DFE6BB2C4797DE9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkersinnovation:hostility"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -3979,7 +4034,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -3997,7 +4052,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -4015,7 +4070,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -4033,7 +4088,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -4051,7 +4106,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -4069,7 +4124,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 21.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -4513,8 +4568,8 @@
 				}
 				type: "item"
 			}]
-			x: 44.5d
-			y: 8.0d
+			x: 58.5d
+			y: 6.0d
 		}
 		{
 			disable_toast: true
@@ -4549,7 +4604,7 @@
 				}
 				type: "item"
 			}]
-			x: 48.5d
+			x: 46.5d
 			y: 8.0d
 		}
 		{
@@ -4647,7 +4702,7 @@
 		{
 			disable_toast: true
 			id: "5E37BFFDA8C609AD"
-			subtitle: "每级提高0.25的霜冻和灼热抗性及0.1的电离抗性，打在头盔时能消耗头盔存储的液氧为玩家供氧。"
+			subtitle: "每级提高0.25的霜冻和灼热抗性及0.1的电离抗性，打在头盔上外星旅游无需氧气"
 			tasks: [{
 				id: "2CA3B3A2498E2D74"
 				item: {
@@ -4695,7 +4750,7 @@
 				}
 				type: "item"
 			}]
-			x: 52.5d
+			x: 50.5d
 			y: 6.0d
 		}
 		{
@@ -4713,7 +4768,7 @@
 				}
 				type: "item"
 			}]
-			x: 58.5d
+			x: 56.5d
 			y: 6.0d
 		}
 		{
@@ -4749,7 +4804,7 @@
 				}
 				type: "item"
 			}]
-			x: 54.5d
+			x: 52.5d
 			y: 6.0d
 		}
 		{
@@ -4785,7 +4840,7 @@
 				}
 				type: "item"
 			}]
-			x: 46.5d
+			x: 44.5d
 			y: 8.0d
 		}
 		{
@@ -4821,7 +4876,7 @@
 				}
 				type: "item"
 			}]
-			x: 56.5d
+			x: 54.5d
 			y: 6.0d
 		}
 		{
@@ -5034,7 +5089,7 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 12.0d
+			y: 8.0d
 		}
 		{
 			description: ["翻一翻看一看，也许有你能用得上的"]
@@ -5046,19 +5101,76 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 23.5d
+			y: 19.5d
 		}
 		{
-			description: ["可能略昂贵，但是效果绝对不会让你失望"]
+			description: ["可能略昂贵，但是对魂戈、离子刀等武器的强度有着关键的影响"]
+			icon: {
+				Count: 1b
+				id: "solidarytinker:soulge"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 5
+							name: "etshtinker:godlymetal"
+						}
+						{
+							level: 5
+							name: "etshtinker:worldforceex"
+						}
+						{
+							level: 5
+							name: "etshtinker:beconcerted"
+						}
+						{
+							level: 1
+							name: "solidarytinker:anymoremode"
+						}
+						{
+							level: 1
+							name: "tconstruct:tank_handler"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"solidarytinker:attack_frequency": 3.0f
+						"solidarytinker:detection_range": 100.0f
+						"solidarytinker:exert_times": 100.0f
+						"solidarytinker:kill_threshold": 0.6f
+						"tconstruct:attack_damage": 321.55347f
+						"tconstruct:attack_speed": 132.69708f
+						"tconstruct:block_amount": 94.78363f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 643960.0f
+						"tconstruct:tank_capacity": 40000.0f
+					}
+					tic_volatile_data: {
+						abilities: 16
+						"tconstruct:total_tanks": 1
+						upgrades: 22
+					}
+				}
+			}
 			id: "7F480345CBFC913E"
+			size: 2.0d
+			subtitle: "进阶工具需求的强化"
 			tasks: [{
 				id: "098FA2162330F490"
 				title: "工具/材料专属"
 				type: "checkmark"
 			}]
-			title: "特定工具专属"
-			x: -0.5d
-			y: 4.0d
+			title: "独特强化"
+			x: 30.5d
+			y: 12.5d
 		}
 		{
 			disable_toast: true
@@ -5075,8 +5187,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
-			y: 6.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			disable_toast: true
@@ -5093,7 +5205,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: 12.0d
 		}
 		{
@@ -5112,7 +5224,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 17.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -5130,7 +5242,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 21.5d
+			y: 19.5d
 		}
 		{
 			disable_toast: true
@@ -5148,7 +5260,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 23.5d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
@@ -5166,7 +5278,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 25.5d
+			y: 23.5d
 		}
 		{
 			disable_toast: true
@@ -5184,7 +5296,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 27.5d
+			y: 25.5d
 		}
 		{
 			disable_toast: true
@@ -5202,7 +5314,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			disable_toast: true
@@ -5220,7 +5332,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			disable_toast: true
@@ -5238,7 +5350,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 29.5d
+			y: 27.5d
 		}
 		{
 			icon: "avaritia:infinity_catalyst"
@@ -5627,7 +5739,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 37.0d
+			y: 33.0d
 		}
 		{
 			id: "3086A403F6369726"
@@ -5644,7 +5756,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 27.5d
+			y: 29.5d
 		}
 		{
 			id: "7E5786513F16D728"
@@ -5661,7 +5773,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			id: "768C08807C58E83F"
@@ -5678,7 +5790,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			id: "2A1AAA3CF8B2DBC6"
@@ -5695,7 +5807,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			id: "7472A4E19622B111"
@@ -5730,7 +5842,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -17.5d
 			y: 12.0d
 		}
 		{
@@ -5747,8 +5859,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -19.5d
+			y: 1.0d
 		}
 		{
 			id: "04CAC3E86673E32C"
@@ -5765,7 +5877,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			id: "06542723E18D69DE"
@@ -5816,7 +5928,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 35.0d
+			y: 31.0d
 		}
 		{
 			id: "05F57BE8422379F9"
@@ -5866,7 +5978,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 37.0d
+			y: 33.0d
 		}
 		{
 			id: "6568A68D2E928E0A"
@@ -5886,21 +5998,556 @@
 			y: 13.0d
 		}
 		{
-			id: "63835E285FB606CF"
-			subtitle: "当你氧气不为满，并且头盔中有水存储的时候，你的头盔每隔0.5秒会尝试为你补充氧气，如果补充成功还有20%概率恢复1点生命，同时消耗10mb水。在外星维度时，消耗水来抵御无氧环境，获得1霜冻抗性，受到的来自生物的伤害降低18%。"
+			description: ["      同时你可以用它移动相当长的距离来刷新自然罗盘，从而定位新的群系。在深园找龙时会非常有用！"]
+			id: "25C49836D460156B"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "方便的长距离移动方式，可以用于长距离跑图"
 			tasks: [{
-				id: "36F31C8135F5A993"
+				id: "01AD3156C6C2A364"
 				item: {
 					Count: 1b
 					id: "tconstruct:modifier_crystal"
 					tag: {
-						modifier: "cti:oxygelium_bud_helmet"
+						modifier: "etshtinker:warpengineex"
 					}
 				}
 				type: "item"
 			}]
-			x: 50.5d
-			y: 6.0d
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "etshtinker:constrained_plasma_saber"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 5
+							name: "etshtinker:godlymetal"
+						}
+						{
+							level: 5
+							name: "etshtinker:worldforceex"
+						}
+						{
+							level: 5
+							name: "etshtinker:beconcerted"
+						}
+						{
+							level: 10
+							name: "tconstruct:tank"
+						}
+						{
+							level: 1
+							name: "tconstruct:tank_handler"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:durability": 2.75f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"etshtinker:critical_rate": 1.28f
+						"etshtinker:damagemultiplier": 194.11687f
+						"etshtinker:fluid_efficiency": 100.0f
+						"etshtinker:slash_color": 10.0f
+						"tconstruct:attack_damage": 197.96512f
+						"tconstruct:attack_speed": 245.4896f
+						"tconstruct:block_amount": 94.78363f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 886474.56f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 312.78598f
+						"tconstruct:tank_capacity": 6760000.0f
+					}
+					tic_volatile_data: {
+						abilities: 19
+						"tconstruct:total_tanks": 1
+						upgrades: 26
+					}
+				}
+			}
+			id: "7AB34732B16ED3E4"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "0A4C7331583BB4BA"
+				type: "checkmark"
+			}]
+			title: "约束等离子阔剑"
+			x: 23.5d
+			y: 15.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "etshtinker:ionized_cannon"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "etshtinker:godlymetal"
+						}
+						{
+							level: 4
+							name: "etshtinker:worldforceex"
+						}
+						{
+							level: 4
+							name: "etshtinker:beconcerted"
+						}
+						{
+							level: 1
+							name: "etshtinker:miracle_catalyst"
+						}
+						{
+							level: 10
+							name: "tconstruct:tank"
+						}
+						{
+							level: 1
+							name: "tconstruct:tank_handler"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.45f
+						"tconstruct:attack_speed": 0.8f
+						"tconstruct:durability": 1.55f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"etshtinker:cooldown": 10.0f
+						"etshtinker:damagemultiplier": 189.56726f
+						"etshtinker:plasmarange": 70.0f
+						"tconstruct:attack_damage": 683.8528f
+						"tconstruct:attack_speed": 128.90575f
+						"tconstruct:block_amount": 94.78363f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 1480796.1f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 888.59656f
+						"tconstruct:tank_capacity": 1.576E7f
+					}
+					tic_volatile_data: {
+						abilities: 16
+						"tconstruct:total_tanks": 1
+						upgrades: 22
+					}
+				}
+			}
+			id: "4ECB0750F7B345CE"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "7A5DC00C420C5008"
+				type: "checkmark"
+			}]
+			title: "离子化射线炮"
+			x: 23.5d
+			y: 18.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "solidarytinker:soulge"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 5
+							name: "etshtinker:godlymetal"
+						}
+						{
+							level: 5
+							name: "etshtinker:worldforceex"
+						}
+						{
+							level: 5
+							name: "etshtinker:beconcerted"
+						}
+						{
+							level: 1
+							name: "solidarytinker:anymoremode"
+						}
+						{
+							level: 1
+							name: "tconstruct:tank_handler"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"solidarytinker:attack_frequency": 3.0f
+						"solidarytinker:detection_range": 100.0f
+						"solidarytinker:exert_times": 100.0f
+						"solidarytinker:kill_threshold": 0.6f
+						"tconstruct:attack_damage": 321.55347f
+						"tconstruct:attack_speed": 132.69708f
+						"tconstruct:block_amount": 94.78363f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 643960.0f
+						"tconstruct:tank_capacity": 40000.0f
+					}
+					tic_volatile_data: {
+						abilities: 16
+						"tconstruct:total_tanks": 1
+						upgrades: 22
+					}
+				}
+			}
+			id: "0AAED12A5330E2C7"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "0B76A10593A14FDE"
+				type: "checkmark"
+			}]
+			title: "魂戈"
+			x: 23.5d
+			y: 21.0d
+		}
+		{
+			id: "016F5E9B7163A05A"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6053C2624CA4F4E9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:plasma_blade"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: 15.5d
+		}
+		{
+			id: "7556FFAC572ABCDD"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "70FD349743A18E80"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:echo_slash"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 15.5d
+		}
+		{
+			id: "670C07C829E44676"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "68D4333F5E8C797A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:modular_modification"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: 18.5d
+		}
+		{
+			id: "0A5A4B98243D96BF"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7FD2339D8DC4AC42"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "etshtinker:multishotplasma"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 18.5d
+		}
+		{
+			id: "6FF935E210EF8C7A"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "055E53872507A00F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:extraburn"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: 21.0d
+		}
+		{
+			id: "706D49B99C3879A5"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4B10905F2B62A4EE"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:overloadburn"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 21.0d
+		}
+		{
+			id: "619FC019EA21A5C1"
+			tasks: [{
+				id: "42770C5046195EA3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:break_through"
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 21.0d
+		}
+		{
+			id: "3456792DF2B1FBD2"
+			tasks: [{
+				id: "20517C6D6C82AFA9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:blood_letting"
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 21.0d
+		}
+		{
+			id: "6FF5D7CA5C7E36F1"
+			tasks: [{
+				id: "357E2EFD2F424AF9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:blasphemy"
+					}
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: 21.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "solidarytinker:electric_batons"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"etshtinker:exo_alloy"
+						"solidarytinker:leadamalgamation"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+						"etshtinker:exo_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "etshtinker:godlymetal"
+						}
+						{
+							level: 4
+							name: "etshtinker:worldforceex"
+						}
+						{
+							level: 4
+							name: "etshtinker:beconcerted"
+						}
+						{
+							level: 1
+							name: "solidarytinker:mercurypoisoning"
+						}
+						{
+							level: 1
+							name: "solidarytinker:electricbatonscore"
+						}
+						{
+							level: 1
+							name: "tconstruct:enderference"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 0.6f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"solidarytinker:detection_range": 20.0f
+						"solidarytinker:energy_capacity": 100000.0f
+						"solidarytinker:target_amount": 3.0f
+						"tconstruct:attack_damage": 433.39816f
+						"tconstruct:attack_speed": 79.61825f
+						"tconstruct:block_amount": 94.78363f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 643960.0f
+					}
+					tic_volatile_data: {
+						abilities: 14
+						flux: 3
+						"solidarytinker:energy_owner": "solidarytinker:electricbatonscore"
+						"solidarytinker:max_energy": 100000
+						upgrades: 20
+					}
+				}
+			}
+			id: "260A2942A9BC492D"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "58180722B7D54192"
+				type: "checkmark"
+			}]
+			title: "电棍"
+			x: 23.5d
+			y: 23.5d
+		}
+		{
+			id: "5C5179AD8EF9D0B2"
+			tasks: [{
+				id: "3E3160088894624D"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:tremblestaff"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 21.0d
+		}
+		{
+			id: "5A85E62D0B0DCDAF"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7FB38D144E28B79C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:fastcharge"
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: 23.5d
+		}
+		{
+			id: "717E317CC612F88D"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4421258467DF33FB"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:energypowerful"
+					}
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 23.5d
+		}
+		{
+			id: "7BBA48EF894C74BD"
+			tasks: [{
+				id: "6FDF3D7E2DC96DA3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:houguoyu"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 23.5d
+		}
+		{
+			id: "07CFFFE5F8A675B6"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4C0C6EA33459CD62"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:reach"
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 15.5d
 		}
 	]
 	subtitle: [

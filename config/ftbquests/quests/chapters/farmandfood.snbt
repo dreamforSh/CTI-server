@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "farmandfood"
 	group: "7E3173C55DD03B0A"
-	icon: "tofucraft:tofudiamond"
+	icon: "minecraft:enchanted_golden_apple"
 	id: "7499383303D8F7BB"
 	order_index: 4
 	quest_links: [ ]
@@ -144,12 +144,7 @@
 		}
 		{
 			dependencies: ["23AFBE695C48D3B5"]
-			description: [
-				"匠心独运为匠魂于农夫乐事在工具层面提供联动——匠魂风格的小刀"
-				"通过在工匠台上使用两个窄刃与一个工具手柄，便可以制作出匠魂小刀。"
-				"匠魂小刀不仅有原版小刀的所有能力，还可以拥有匠魂材料的独特词条，并对水生生物有着额外增伤！"
-				"也许你能拿着小刀去砍利维坦？"
-			]
+			description: ["小刀和直刀是匠魂方面的小刀替代物，它们能执行小刀的配方且在击败生物时能相应产出掉落物！"]
 			id: "3589370F22CF79B2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -160,7 +155,22 @@
 			subtitle: "都来玩匠魂包了，还在用传统厨刀？"
 			tasks: [{
 				id: "119613DB2A7FFA4F"
-				item: "tinkers_thinking:narrow_blade_gold_cast"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cherrytinker:sk_blade_cast"
+							}
+							{
+								Count: 1b
+								id: "tinkers_thinking:narrow_blade_gold_cast"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "匠魂特色厨子"
@@ -260,18 +270,11 @@
 				type: "loot"
 			}]
 			subtitle: "原版最被忽视的农业项目"
-			tasks: [
-				{
-					id: "1FE36A21E22E3AF0"
-					item: "minecraft:beehive"
-					type: "item"
-				}
-				{
-					id: "2214F17FB6AFA943"
-					item: "tofucraft:soymilk_honey"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1FE36A21E22E3AF0"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
 			title: "养蜜蜂"
 			x: 0.0d
 			y: -2.5d
@@ -395,7 +398,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0C2777097F511EA6"]
+			dependencies: [
+				"0C2777097F511EA6"
+				"0068DCAFF4A279FC"
+			]
+			dependency_requirement: "one_completed"
 			id: "57C7034FD8B3E070"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1082,55 +1089,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["051EEE4D91451A1D"]
-			description: [
-				"大豆，豆腐的原材料。"
-				"就和一般的作物种子一样，通过清理杂草有几率掉落，可以在耕地上耕种。"
-			]
-			hide: true
-			icon: "tofucraft:seeds_soybeans"
-			id: "38FA72AF5EB6F797"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "785DD3C4E56F3386"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "颗颗大豆喂骡马"
-			tasks: [{
-				id: "4F88B42E75B96C56"
-				item: "tofucraft:seeds_soybeans"
-				type: "item"
-			}]
-			title: "豆腐之源"
-			x: -3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["38FA72AF5EB6F797"]
-			description: [
-				"通过将大豆与空桶合成，可以得到一桶豆奶。"
-				"如果在合成的时候加入滤布，则可以额外获得一份豆渣。"
-				"豆奶可以装瓶喝，也可以做成豆腐——用卤水做豆腐。"
-			]
-			id: "30EAD6D04E920B1E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A113622D541902D"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "榨豆浆"
-			tasks: [{
-				id: "75379B693CBA00E1"
-				item: "tofucraft:bucket_soymilk"
-				type: "item"
-			}]
-			title: "豆奶特浓"
-			x: -5.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["458F8100BB4649A2"]
 			description: [
 				"沃土与有机肥料可以无视光照种植蘑菇，在经历一段时间后蘑菇便会形成菌落。"
@@ -1179,271 +1137,6 @@
 			title: "蜂蜜自动化"
 			x: 0.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["30EAD6D04E920B1E"]
-			description: [
-				"盐场可以连续放置相互连接成一处大盐场。"
-				"向盐场内灌入水后，条件适宜时，盐场中的水会被晒干，右击可以让其中的盐掉落，露出剩下的浅色液体——盐卤。"
-				"盐卤用空玻璃瓶右击可以取出。"
-				"晒盐需&a满足&r以下条件："
-				"&e盐场上方无方块遮挡"
-				"所在生物群系必须是&e温暖且干燥&r的群系"
-				"&e晴朗的白天"
-			]
-			id: "64B5E05D40BACF90"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "64D5A516950A1741"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "古法晒盐"
-			tasks: [{
-				id: "6AE19F699967CBF4"
-				item: "tofucraft:blocksaltpan"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["30EAD6D04E920B1E"]
-			description: [
-				"向盐炉内填充水（最多三桶），放入燃料点燃，盐炉里的水便会慢慢烤干，产生出盐与盐卤。"
-				"盐卤需要使用空瓶提取。"
-			]
-			id: "2C8C853CF0252CFE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0E57AFD7558FFC95"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "古法煮盐"
-			tasks: [{
-				id: "2131BD6891439CB8"
-				item: "tofucraft:salt_furnace"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"64B5E05D40BACF90"
-				"2C8C853CF0252CFE"
-			]
-			description: [
-				"当你有了豆浆和卤水后，就可以点豆腐了。"
-				"将豆浆倒在世界中，并&a用卤水右击豆浆（完整的水源方块）&r，就会消耗卤水，使豆浆凝固为嫩豆腐。"
-				"将嫩豆腐打碎，你便可以获得四块嫩豆腐。"
-				"但四块嫩豆腐重新合成获得的则是普通的豆腐。"
-			]
-			id: "4C90C3503BF38695"
-			min_required_dependencies: 1
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3190FE6F0317B011"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "卤水点豆腐"
-			tasks: [{
-				id: "3C44151ECA468716"
-				item: "tofucraft:tofukinu"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"4C90C3503BF38695"
-				"3CB33BB3B641FFD7"
-			]
-			description: [
-				"将一块豆腐方块放置在两块圆石（或nei中允许的石头方块）之间，豆腐方块变回出现冒水的粒子动画开始压制。"
-				"压制一定时间后，豆腐就会变成石豆腐。石豆腐再压制一会，便会被压制为钢豆腐。"
-				"钢豆腐是前期性价比较高的材料，但也只是在前期有用。"
-			]
-			id: "4596B32F9DD8DA1F"
-			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "6BE5489E45D68A55"
-					item: "tofucraft:tofumetal"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "65CDB057AAE249E5"
-					table_id: 2563876056126530764L
-					type: "loot"
-				}
-			]
-			subtitle: "阿姨压一压——"
-			tasks: [{
-				id: "397ADAC8F6DEE5AF"
-				item: "tofucraft:blocktofuishi"
-				type: "item"
-			}]
-			title: "豆腐压制"
-			x: -10.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["38FA72AF5EB6F797"]
-			description: [
-				"得益于机械动力对豆腐工艺的兼容配方，如果你的机械动力功底够扎实，可以直接跳过常规的豆腐制取方法，直接使用机械动力搭建流水线大批量生产豆腐。"
-				"为了证明你的确有这样的实力，请拿一组嫩豆腐来——毕竟进入豆腐世界所需要的豆腐可不止这点"
-			]
-			id: "3CB33BB3B641FFD7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C0072F09162053C"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "还得是机械动力"
-			tasks: [
-				{
-					id: "16A14C5F0F58C599"
-					item: "create:basin"
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "0BABFA359BD6850A"
-					item: "tofucraft:tofukinu"
-					type: "item"
-				}
-			]
-			title: "全自动豆腐产线"
-			x: -5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"4C90C3503BF38695"
-				"3CB33BB3B641FFD7"
-			]
-			description: ["现在豆腐魔杖不能通过合成获得，只能通过寻找海洋中生成的箱子来获得。"]
-			id: "0B5788ED1F42E193"
-			min_required_dependencies: 1
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6AB4AF5E5EB81E97"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "豆腐世界的钥匙"
-			tasks: [{
-				id: "70FE8564859FC0ED"
-				item: {
-					Count: 1b
-					id: "tofucraft:tofustick"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["0B5788ED1F42E193"]
-			description: [
-				"现在你的手里已经有了足够多的豆腐（做成烤豆腐块）来搭建前往豆腐世界的大门，也有了豆腐世界的通行证。"
-				"接下来便是搭建豆腐传送门了。"
-				"{@pagebreak}"
-				"豆腐传送门分两层，第一层以&e实心4*4&r的方式铺设一层烤豆腐块，第二层以&e空心4*4&r的方式围一圈烤豆腐块，中间2*2的空间填充豆浆（&e要填满！&r）"
-				"看着是不是很熟悉？这个传送门的结构和暮色传送门很像。"
-				"接下来，用豆腐魔杖右键豆浆，然后纵身一跃，前往豆腐的世界吧！"
-			]
-			id: "530F2DA3C537F6E2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1422273EC24D64DB"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			shape: "pentagon"
-			subtitle: "吃豆腐吃到嘴软"
-			tasks: [{
-				dimension: "tofucraft:tofu_world"
-				id: "1F5F1CC0FF6CBB7B"
-				type: "dimension"
-			}]
-			title: "豆腐世界"
-			x: -10.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["530F2DA3C537F6E2"]
-			description: ["直接挖掘只会掉落豆腐钻石粒，而一个钻石豆腐需要9个粒……"]
-			id: "537B80CB4D864C61"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "422A096808DAACB6"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "深藏在豆腐世界的地下"
-			tasks: [{
-				id: "0875F2A2DD20022C"
-				item: "tofucraft:tofudiamond"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["30EAD6D04E920B1E"]
-			description: ["连续饮用豆奶有独特buff加成，但buff加成公式较繁琐，建议去mc百科参考老“豆腐工艺”模组资料。"]
-			id: "7CADD1323CFF2380"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "07CA8CBBCCA6AB14"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "每天（指游戏内一昼夜）都喝一杯豆奶，会有惊喜发生"
-			tasks: [{
-				id: "7F2EDFC206C4324A"
-				item: "tofucraft:soymilk"
-				type: "item"
-			}]
-			title: "每天一杯（豆）奶，强壮mc人"
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["38FA72AF5EB6F797"]
-			description: ["和普通大豆差不多，只不过一个要种在下界岩上，一个要种在灵魂沙上。"]
-			id: "37A30C2E0244308C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C796115DCD0E3F7"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "来自地狱"
-			tasks: [
-				{
-					id: "1C00380D4B3C0C60"
-					item: "tofucraft:seeds_soybeans_nether"
-					type: "item"
-				}
-				{
-					id: "5CF5B6CCF8938E6B"
-					item: "tofucraft:seeds_soybeans_soul"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["051EEE4D91451A1D"]
@@ -1874,40 +1567,6 @@
 			title: "宽刃镰"
 			x: 2.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["522BC27C9AF57A67"]
-			description: [
-				"饮酒作乐模组作为乐事全家桶的组成部分，为游戏提供了&a发酵桶&r来生产食物与饮品。"
-				"但是，发酵桶有着极其麻烦的&e温度系统&r，不同的食物饮品制作有不同的温度需求，而温度由发酵桶周围&e（3*3*3空间内）&r的方块决定。"
-				"{@pagebreak}"
-				"将发酵桶更改至冷冻状态&e（寒冷与冷）&r需要冷冻方块。"
-				"冷冻方块是本模组给出的带有cold_blocks标签的方块，默认情况下包括：&a冰、浮冰、蓝冰和雪块&r四种方块，也可以在模组文件cold_blocks.json中手动添加。"
-				"冷状态需要空间内有&a2-4个&r冷冻方块，而寒冷状态需要&a5个以上&r。"
-				"{@pagebreak}"
-				"将发酵桶更改至受热状态&e（温暖与热）&r需要热源."
-				"热源方块与农夫乐事模组的热源要求一样，前面的任务已经提过了。"
-				"温暖状态需要空间内有&a2-4个&r热源方块，而热状态需要&a5个以上&r。"
-				"{@pagebreak}"
-				"发酵桶不仅使用麻烦，生产效率还低的吓人(酿造速度慢，且一次只能酿造一杯啤酒）。"
-				"所以我&e并不推荐&r你使用发酵桶来制作啤酒，而是用&a喝啤酒啦&r模组提供的&e啤酒桶&r来生产啤酒。"
-			]
-			id: "34AD2CBA4C00B923"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0989510286D476BB"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "冰火两重天"
-			tasks: [{
-				id: "0F0824A04644E62F"
-				item: "brewinandchewin:keg"
-				type: "item"
-			}]
-			title: "饮酒作乐"
-			x: 7.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["522BC27C9AF57A67"]
@@ -2582,25 +2241,6 @@
 		}
 		{
 			dependencies: ["400DD90AC4505EC1"]
-			description: ["毛豆想要获取，需要采集&e尚未完全成熟的大豆植株&r（生长进度大于71%）。"]
-			id: "3BF0C2A13950BE5F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F3A963C3B7A778A"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "俊达萌的小俊巴（"
-			tasks: [{
-				id: "5737D71E10A0D9C0"
-				item: "tofucraft:edamame"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["400DD90AC4505EC1"]
 			description: [
 				"农夫暇事的咖啡浆果自然生长在&a下界&r的&e玄武岩三角洲群系&r，右键成熟的树枝可以收获一个咖啡浆果。"
 				"如果你想要人工种植，只能种植在玄武岩及其变种和岩浆块上，并且在下界才能正常生长。"
@@ -2740,31 +2380,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["400DD90AC4505EC1"]
-			description: ["将合成好的豆曲之种放在物品栏中携带一段时间，豆曲之种会自动转变为豆曲（&m大概是闷出来的&r）"]
-			id: "7104A049D631B4D3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1091A1D1E23A0FB0"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "酱油之源"
-			tasks: [{
-				id: "1810F374B8FF7EF7"
-				item: {
-					Count: 1b
-					id: "tofucraft:koujibase"
-					tag: {
-						Fermentation: 60
-					}
-				}
-				type: "item"
-			}]
-			x: -8.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["62FD415FA19A1E66"]
 			description: ["你要是真能纯手搓也算你厉害"]
 			icon: "solidarytinker:saint_chief_ingot"
@@ -2792,16 +2407,28 @@
 							]
 							tic_modifiers: [
 								{
+									level: 3
+									name: "cti:united_insatiable"
+								}
+								{
+									level: 12
+									name: "cti:insatiable_handler"
+								}
+								{
+									level: 1
+									name: "cti:overslime_handler"
+								}
+								{
+									level: 1
+									name: "tconstruct:overslime"
+								}
+								{
+									level: 3
+									name: "cti:united_overslime"
+								}
+								{
 									level: 1
 									name: "tinkersinnovation:eternal"
-								}
-								{
-									level: 3
-									name: "tinkerscalibration:united"
-								}
-								{
-									level: 3
-									name: "cti:endergobberbless"
 								}
 								{
 									level: 1
@@ -2822,19 +2449,23 @@
 								abilities: -1
 							}
 							tic_stats: {
-								"tconstruct:attack_damage": 47.36f
-								"tconstruct:attack_speed": 5.7599998f
-								"tconstruct:durability": 9830.399f
+								"cti:insatiable_base": 144.0f
+								"cti:overslime_consumption": 16.0f
+								"cti:overslime_mul": 0.75f
+								"tconstruct:attack_damage": 29.6f
+								"tconstruct:attack_speed": 3.6f
+								"tconstruct:durability": 6144.0f
 								"tconstruct:harvest_tier": "gobber2:end_gobber"
-								"tconstruct:mining_speed": 46.08f
+								"tconstruct:mining_speed": 28.800001f
+								"tconstruct:overslime": 64.0f
 							}
 							tic_upgrades: [{
 								level: 1
 								name: "tinkersinnovation:eternal"
 							}]
 							tic_volatile_data: {
-								abilities: 5
-								upgrades: 9
+								abilities: 1
+								upgrades: 3
 							}
 						}
 					}
@@ -3031,163 +2662,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4596B32F9DD8DA1F"]
-			description: [
-				"酱油、味增、味增豆腐的获得不能通过普通合成方式获取，而是要先合成味增桶与味增豆腐桶，而后进行压制。"
-				"压制好的味增豆腐桶与味增桶颜色会变深。"
-				"对压制好的味增桶使用玻璃瓶，可以获得酱油；将压制好的味增桶与味增豆腐桶破坏，则可以获得味增与味增豆腐。"
-			]
-			id: "04C327A799E715A2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3EE15131F4DA7552"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "晒足……压足一百八十天！"
-			tasks: [
-				{
-					id: "19971445BD66E2AF"
-					item: "tofucraft:barrel_miso"
-					type: "item"
-				}
-				{
-					id: "647CBFF0063E9B5B"
-					item: "tofucraft:barrel_misotofu"
-					type: "item"
-				}
-			]
-			title: "其他需要压制的食材"
-			x: -12.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["537B80CB4D864C61"]
-			description: [
-				"左手持&a回响碎片&r，右手持&a豆腐喇叭&r，对一只&e豆腐蜘蛛&r吹响喇叭，便可以使豆腐蜘蛛进化为强大无比的臭豆腐蜘蛛。"
-				"击杀臭豆腐蜘蛛，会掉落很多掉落物，其中最重要的是臭豆腐和幽匿豆腐。"
-				"幽匿豆腐可以使你的钻石豆腐装备得到进一步升级——虽然在匠魂包里这个材料基本没啥用。"
-			]
-			id: "5EAC0BACE30687DC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0EC872E2D5C6D38E"
-					table_id: 2563876056126530764L
-					type: "loot"
-				}
-				{
-					count: 10
-					id: "3EE2D5F0F52ED3D1"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			subtitle: "臭豆腐腐乳加柠檬，你看这波行不行 "
-			tasks: [{
-				id: "6D448CBE8AD47B3C"
-				item: "tofucraft:soy_sculk_bone"
-				type: "item"
-			}]
-			title: "臭豆腐蜘蛛与幽匿豆腐"
-			x: -14.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["530F2DA3C537F6E2"]
-			description: [
-				"在豆腐世界，有一座藏在森林中的豆腐宫殿，相传那里存放着一把强大的&e毛豆泥神弓&r"
-				"（大概是拿俊达萌做的罢）"
-				"来都来了，不去转一转吗？"
-			]
-			icon: "tofucraft:tofugem"
-			id: "49918D5E668D2273"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2CDB36CDC1EA97AC"
-				table_id: 2563876056126530764L
-				type: "loot"
-			}]
-			subtitle: "寻找神弓之旅"
-			tasks: [{
-				id: "5F22E9085F33A6F6"
-				structure: "tofucraft:tofu_castle"
-				type: "structure"
-			}]
-			title: "豆腐城堡"
-			x: -12.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["49918D5E668D2273"]
-			description: [
-				"在城堡的最高层，豆腐战神守在了最后一道大门前，阻挡你的道路。"
-				"去吧，一刀砍死它，然后将毛豆泥神弓带回来！"
-				"（&m它会招小兵，如果你想的话可以利用这些小兵来疯狂刷材料&r）"
-			]
-			icon: {
-				Count: 1b
-				id: "tofucraft:zunda_bow"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "5497A255E9FA8A8B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "427CD395C72F1569"
-					table_id: 2563876056126530764L
-					type: "loot"
-				}
-				{
-					count: 10
-					id: "389C4448D494A861"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			subtitle: "我，我，我，我豆腐战神啊！！！"
-			tasks: [{
-				entity: "tofucraft:tofu_gandlem"
-				id: "664DF290650C0F56"
-				type: "kill"
-				value: 1L
-			}]
-			title: "豆腐战神"
-			x: -14.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["400DD90AC4505EC1"]
-			description: [
-				"豆腐罐（豆芽罐）是用来生产豆芽的器械。"
-				"在黑暗环境下，向豆芽罐填充水，并放置大豆，等待一段时间便能得到豆芽"
-			]
-			id: "405B73C0AE36BCE0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6F871AAC63BE3867"
-				table_id: 2563876056126530764L
-				type: "choice"
-			}]
-			subtitle: "明明叫豆腐罐，实际用处却是种豆芽的。"
-			tasks: [
-				{
-					id: "1BE1694CC6237D7C"
-					item: "tofucraft:sprouts"
-					type: "item"
-				}
-				{
-					id: "77B8B2DE0CAACBCB"
-					item: "tofucraft:blocksproutsjar"
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["0D07CF5A37EB8E87"]
 			description: ["更贵、更好、更耐用的化肥，同样可用于有机灌注器中使用"]
 			id: "0DAD0F3FE6C3374B"
@@ -3292,10 +2766,65 @@
 			x: 1.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["051EEE4D91451A1D"]
+			description: ["只需要搭配&6高初速度&r和&6高耐久&r的材料，你就能做出一个既秒上钩又能有高概率钓上宝藏的钓鱼竿了！"]
+			id: "0068DCAFF4A279FC"
+			tasks: [{
+				id: "18C5C2A6FD0BCD32"
+				item: {
+					Count: 1b
+					id: "cherrytinker:rod"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"cloudertinker:raven_feather"
+							"cherrytinker:enchantedgold"
+							"cherrytinker:enchantedgold"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:ravenfeather"
+							}
+							{
+								level: 1
+								name: "cloudertinker:seektraces"
+							}
+							{
+								level: 2
+								name: "cherrytinker:egold_a"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:draw_speed": 1.77f
+							"tconstruct:durability": 1777.0f
+							"tconstruct:velocity": 1.77f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 3
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "我说匠魂钓鱼竿特别强"
+			x: -3.0d
+			y: 0.0d
+		}
 	]
 	subtitle: [
 		"并非星期四"
 		"-by 天雨冰痕"
 	]
-	title: "乐事全家桶与豆腐工艺 —— 吃货天堂"
+	title: "乐事全家桶 —— 吃货天堂"
 }

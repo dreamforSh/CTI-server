@@ -11,7 +11,7 @@
       "durability": 666,
       "mining_speed": 1.6,
       "mining_tier": "minecraft:diamond",
-      "melee_attack": 3
+      "melee_attack": 15.5
     },
     "tconstruct:limb": {
       "durability": 333,
@@ -68,7 +68,7 @@
     "etshtinker:ionizer": {
       "cooldown": 60,
       "plasmarange": 50,
-      "damagemultiplier": 6.5
+      "damagemultiplier": 2.5
     },
     "tinkers_ingenuity:battery": {
       "energy_capacity": 56000,
@@ -89,8 +89,8 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 20,
       "exert_times": 8,
-      "attack_frequency": 6,
-      "kill_threshold": 0.16
+      "attack_frequency": 8,
+      "kill_threshold": 0.08
     },
     "solidarytinker:core_battery": {
       "attack_range": 15,

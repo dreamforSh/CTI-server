@@ -1,7 +1,7 @@
 {
 	id: "7BE000E2D6449860"
 	loot_size: 1
-	order_index: 15
+	order_index: 14
 	rewards: [
 		{ item: "industrialforegoing:machine_frame_supreme" }
 		{ count: 4, item: "industrialforegoing:machine_frame_advanced" }

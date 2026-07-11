@@ -1,7 +1,7 @@
 {
 	id: "681AF890FC69D0AA"
 	loot_size: 1
-	order_index: 16
+	order_index: 15
 	rewards: [
 		{ count: 8, item: "powah:crystal_blazing" }
 		{ count: 8, item: "powah:crystal_niotic" }

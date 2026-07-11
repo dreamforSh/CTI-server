@@ -2,7 +2,7 @@
 	icon: "tinkers_thinking:chromatic_crystal"
 	id: "3323AB18B55DB7F1"
 	loot_size: 6
-	order_index: 37
+	order_index: 36
 	rewards: [
 		{ count: 3, item: "tinkers_thinking:ardite_block" }
 		{ count: 3, item: "tinkers_thinking:beetron_block" }

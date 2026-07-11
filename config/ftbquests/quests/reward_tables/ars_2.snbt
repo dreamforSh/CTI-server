@@ -6,7 +6,7 @@
 	}
 	id: "4B3BB8922D5BC282"
 	loot_size: 1
-	order_index: 48
+	order_index: 47
 	rewards: [
 		{ item: "ars_nouveau:abjuration_essence" }
 		{ item: "ars_nouveau:conjuration_essence" }

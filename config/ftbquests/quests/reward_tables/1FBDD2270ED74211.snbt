@@ -2,7 +2,7 @@
 	icon: "l2hostility:greed_of_nidhoggur"
 	id: "1FBDD2270ED74211"
 	loot_size: 6
-	order_index: 59
+	order_index: 58
 	rewards: [
 		{ count: 9, item: "l2hostility:chaos_ingot" }
 		{ count: 9, item: "l2hostility:miracle_ingot", weight: 0.75f }

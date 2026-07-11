@@ -4281,6 +4281,20 @@
 			x: 5.0d
 			y: 1.5d
 		}
+		{
+			id: "23EE91EF86D9C5A9"
+			tasks: [{
+				id: "6EC666A36E65E909"
+				item: {
+					Count: 1b
+					id: "cti:ring_of_nibelungen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.5d
+		}
 	]
 	subtitle: [
 		"暴雨诗歌——尘封的秘宝与科技的结晶"

@@ -2,7 +2,7 @@
 	icon: "botania:rune_water"
 	id: "610347CA4AA42BF3"
 	loot_size: 1
-	order_index: 80
+	order_index: 77
 	rewards: [
 		{ item: "botania:rune_water" }
 		{ item: "botania:rune_fire" }

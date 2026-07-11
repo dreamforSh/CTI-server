@@ -2,7 +2,7 @@
 	icon: "twilightforest:experiment_115"
 	id: "73D13AA8406E2AC4"
 	loot_size: 1
-	order_index: 18
+	order_index: 17
 	rewards: [
 		{ count: 5, item: "iceandfire:dragonbone" }
 		{ count: 5, item: "minecraft:iron_ingot" }

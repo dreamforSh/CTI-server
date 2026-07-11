@@ -12,6 +12,10 @@
       {
         "name": "cti:tinge",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tconstruct:ranged": [
@@ -26,6 +30,10 @@
       {
         "name": "cti:tinge",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tconstruct:armor": [
@@ -35,6 +43,10 @@
       },
       {
         "name": "cti:infinity",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
         "level": 1
       }
     ],
@@ -50,6 +62,10 @@
       {
         "name": "cti:tinge",
         "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ],
     "tinkers_ingenuity:laser_gun": [
@@ -63,6 +79,10 @@
       },
       {
         "name": "cti:tinge",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
         "level": 1
       }
     ],
@@ -78,6 +98,10 @@
       {
         "name": "cti:tinge",
         "level": 3
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
       }
     ]
   }

@@ -8,7 +8,7 @@
 	}
 	id: "4E4A1B2E76C3D7E7"
 	loot_size: 6
-	order_index: 63
+	order_index: 62
 	rewards: [
 		{ item: "iceandfire:dragonsteel_fire_block" }
 		{ item: "iceandfire:dragonsteel_ice_block" }

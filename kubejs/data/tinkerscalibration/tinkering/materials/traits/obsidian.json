@@ -20,10 +20,6 @@
       {
         "name": "tconstruct:blast_protection",
         "level": 1
-      },
-      {
-        "name": "cti:thepast",
-        "level": 1
       }
     ]
   }

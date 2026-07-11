@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:replaced_overarmy",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:replaced_overempire",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      }
+    ]
+  }
+}

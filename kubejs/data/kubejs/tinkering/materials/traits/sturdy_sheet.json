@@ -1,0 +1,18 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 2
+      },
+      {
+        "name": "cti:fragment",
+        "level": 1
+      },
+      {
+        "name": "cti:reforge",
+        "level": 1
+      }
+    ]
+  }
+}

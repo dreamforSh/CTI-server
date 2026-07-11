@@ -1,9 +1,9 @@
 {
   "type": "tconstruct:table_casting_material",
   "cast": {
-    "item": "l2complements:guardian_eye"
+    "item": "l2complements:guardian_rune"
   },
   "cast_consumed": true,
-  "item_cost": 6,
+  "item_cost": 5,
   "result": "solidarytinker:soulge_heart"
 }

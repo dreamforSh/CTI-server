@@ -1,7 +1,7 @@
 {
 	id: "627D2952DCF3F49C"
 	loot_size: 1
-	order_index: 69
+	order_index: 68
 	rewards: [
 		{ count: 64, item: "mekanism:basic_control_circuit" }
 		{ count: 32, item: "mekanism:advanced_control_circuit" }

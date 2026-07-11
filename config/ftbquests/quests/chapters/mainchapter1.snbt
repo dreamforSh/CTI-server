@@ -34,18 +34,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "biomancy:item/loot/living_flesh"
-			rotation: 0.0d
-			width: 1.5d
-			x: 14.0d
-			y: 7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
 			hover: [ ]
 			image: "kubejs:textures/ftbq_images/chuizi.png"
@@ -63,8 +51,8 @@
 			image: "kubejs:textures/ftbq_images/humujing.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 1.5d
-			y: -3.5d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			click: ""
@@ -75,32 +63,8 @@
 			image: "kubejs:textures/ftbq_images/hui.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 26.0d
+			x: 26.5d
 			y: -3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.5d
-			hover: [ ]
-			image: "ftbquests:block/barrier_open"
-			rotation: 0.0d
-			width: 2.5d
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "ftblibrary:icons/down"
-			rotation: 0.0d
-			width: 2.0d
-			x: -3.0d
-			y: -2.0d
 		}
 		{
 			click: ""
@@ -164,15 +128,21 @@
 				type: "item"
 			}]
 			title: "章节介绍"
-			x: -0.5d
+			x: 0.25d
 			y: 0.0d
 		}
 		{
-			dependencies: ["673842350B281F50"]
+			dependencies: [
+				"673842350B281F50"
+				"61C91163DFC92FCA"
+				"1EF9EE87D5E78AFC"
+			]
 			description: [
-				"你可能会诧异难道上来就做&c锅炉&r吗"
+				"当前版本的&c锅炉&r是真正的强者"
 				""
 				"是的！"
+				""
+				"仅需9级即可拥有29w的应力，搭配虚空马达可以轻松单维度全供应"
 				""
 				"&e工程师锤&r可以绕过前面繁琐的水车风车和辊压机步骤，这里你可以直接起锅炉"
 				""
@@ -236,10 +206,9 @@
 			]
 			title: "锅炉，启动!"
 			x: 10.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0ED937A115776F3E"]
 			description: [
 				"&9蓝图大炮&r是机械动力中非常好用的一个小工具，它可以让你&a&l轻而易举&r的建造出来各种&a预设好的结构&r"
 				""
@@ -308,11 +277,10 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["2EBBB8752760FDD9"]
 			description: [
 				"机械动力使用&c熔岩&r当燃料是极其明智的方法"
 				""
@@ -336,12 +304,20 @@
 			]
 			icon: "minecraft:lava_bucket"
 			id: "716A41CB9E96C7AA"
-			rewards: [{
-				count: 2
-				id: "335A0305D798BA32"
-				item: "waystones:waystone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "335A0305D798BA32"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F848377D53FA028"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "内容略长,耐心看完"
@@ -364,25 +340,19 @@
 				}
 			]
 			title: "前期的无限熔岩的方法"
-			x: 5.5d
-			y: 0.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["716A41CB9E96C7AA"]
 			description: [
 				"你可能会好奇，有&c无限熔岩&r了，如何运回你的基地呢"
 				""
-				"&a循环加入了流体传输节点&r，这是前期&a极其便宜且强大的无线传输流体&r手段"
+				"可以&d跨纬度&r"
 				""
-				"而且可以&d跨纬度&r"
-				""
-				"&aGPS&r卡对着&a流体传输节点shift右键&r即可记录其信息"
-				""
-				"使用方法也很简单，只需要在&c“源头”&r的内部插入&c你想要输出到的方块的gps卡对应的位置&r，意思就是，&a&l卡指向哪个方块，就向哪个方块传输其中的流体&r"
-				""
-				"当你想要1对多的时候可以尝试一下&b嵌套&r(1号节点放2号的GPS卡，2号节点放3号的GPS卡......)"
+				"频道对应上即可跨纬度"
 			]
-			icon: "cyclic:wireless_fluid"
+			icon: "dimstorage:dimensional_tank"
 			id: "61C91163DFC92FCA"
 			rewards: [{
 				count: 9
@@ -391,22 +361,15 @@
 				type: "item"
 			}]
 			subtitle: "必做的"
-			tasks: [
-				{
-					count: 2L
-					id: "7AFB12F10582FF23"
-					item: "cyclic:wireless_fluid"
-					type: "item"
-				}
-				{
-					id: "0E17174257F57E97"
-					item: "cyclic:location_data"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "2D5B87C7F3E4AD5E"
+				item: "dimstorage:dimensional_tank"
+				type: "item"
+			}]
 			title: "无线，且跨纬度"
-			x: 7.5d
-			y: 0.0d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0ED937A115776F3E"]
@@ -442,19 +405,19 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0637668E953F51C9"]
 			description: [
 				"&a锌和铜&r在工作盆里混合形成的一种合金"
 				""
-				"&b你可以使用匠魂炉子获取熔融铜从而制作出来这种合金&r，无需烈焰人燃烧室"
-				""
 				"是制作很多机器，结构所需的材料"
 				""
 				"也是一个不错的耐久系材料"
+				""
+				"后面你也可以通过感应炉来烧制"
 			]
 			icon: "create:brass_ingot"
 			id: "248DC6FE865D1EAF"
@@ -505,8 +468,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["62EF52A9B2083245"]
@@ -531,8 +494,8 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["62EF52A9B2083245"]
@@ -555,8 +518,8 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -584,11 +547,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7687FDCCA0CED7F7"
-				"333B832015A14FCE"
-				"1EF9EE87D5E78AFC"
-			]
+			dependencies: ["0ED937A115776F3E"]
 			description: [
 				"在其中可以购买各种植物（如海带等等），妈妈再也不用担心我满世界找作物了"
 				""
@@ -606,8 +565,8 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 0.25d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -649,7 +608,7 @@
 				}
 			]
 			x: 10.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["673842350B281F50"]
@@ -679,7 +638,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["112E8741C3C8D87F"]
@@ -773,8 +732,8 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["62EF52A9B2083245"]
@@ -794,13 +753,13 @@
 				item: "createutilities:void_motor"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
-				"01E0A6C792C60A8D"
 				"29E21F219F641A8B"
+				"43B6ED2CA158BB08"
 			]
 			description: [
 				"这或许是你做机械动力最想要的一个东西吧"
@@ -848,81 +807,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0ED937A115776F3E"]
-			description: [
-				"机械动力中需要很多&a板材&r，虽然&7辊压机&r可以无损耗的做，但是在本包起步阶段我更推荐你用&e工程师锤&r直接敲出来,&a工作台合成&r即可"
-				""
-				"前期很缺铁，多补点"
-			]
-			icon: "create:iron_sheet"
-			id: "7687FDCCA0CED7F7"
-			rewards: [
-				{
-					count: 16
-					id: "2F593B8A0CC5C5D5"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "653A072E4573FA04"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
-			subtitle: "需要好多"
-			tasks: [
-				{
-					count: 32L
-					id: "2713786ED7189C9D"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/copper"
-						}
-					}
-					title: "Any #forge:plates/copper"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "43B42F14E4623B0D"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/iron"
-						}
-					}
-					title: "Any #forge:plates/iron"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "09C7977A3A274DA1"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/gold"
-						}
-					}
-					title: "Any #forge:plates/gold"
-					type: "item"
-				}
-			]
-			title: "一些板材"
-			x: 1.5d
-			y: -1.0d
-		}
-		{
 			dependencies: [
 				"3BD3D6DDCE21E1D7"
 				"307690994A9D4B28"
 				"15BCC233ABB91FEC"
 				"3D00C704E1989C35"
-				"61C91163DFC92FCA"
+				"62EF52A9B2083245"
 				"2858F1DE39B9D1CD"
 			]
 			description: ["电动马达，锅炉，风车水车均可以提供应力，不过先做锅炉肯定是最为简便的"]
@@ -975,7 +865,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -998,7 +888,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -1023,8 +913,8 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.0d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["333B832015A14FCE"]
@@ -1041,8 +931,8 @@
 				type: "checkmark"
 			}]
 			title: "传动的好手段"
-			x: 1.5d
-			y: 2.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19DBCA14E3B7A773"]
@@ -1054,6 +944,14 @@
 				"&a水平放置/垂直放置&r均可"
 				""
 				"&4他会对玩家造成很高的伤害，要小心！&r"
+				""
+				"在本包被极大的加强了，现在有&b极高的&r矿物产出比例，不用担心他运作的慢，他一次可以加工一组，原矿倍率&c3.5&r，粗矿&e2.5&r的倍率"
+				""
+				"值得注意的是&a粉碎的矿石&r还可以在&b匠魂炉子里再次二倍增产&r，这就使得这个东西的摆放尤为讲究"
+				""
+				"最简单的方法自然就是使用十字齿轮箱中间夹着传送带，十字齿轮箱上放置粉碎轮，但是这样空间利用率并不高，好在他本&e身处理速度够快所以远远够用"
+				"&r"
+				"&6&l不要担心有性能问题，如果你的电脑带俩粉碎轮就卡，遇到mek的反应堆只会更卡&r&r"
 			]
 			id: "3D7A4B793E16B94B"
 			rewards: [{
@@ -1062,15 +960,17 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			subtitle: "注意旋转方向"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "斗轮的原矿无脑喂给他"
 			tasks: [{
 				count: 2L
 				id: "2C841C5276515C30"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 1.5d
+			x: 23.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["112E8741C3C8D87F"]
@@ -1202,6 +1102,7 @@
 				type: "item"
 			}]
 			size: 1.5d
+			subtitle: "这玩意做药水超级好用"
 			tasks: [{
 				id: "5BC9468679D19056"
 				item: "create:basin"
@@ -1243,6 +1144,10 @@
 				" 历经万难你终于是挖到了这种虚空矿物"
 				""
 				"但是看到后面做奇点还需要它，会不会有点小担心呢"
+				""
+				"{@pagebreak}"
+				""
+				"其实这玩意暮色森林也有"
 			]
 			icon: "etshtinker:bismuthinite_ore_deepslate"
 			id: "3EC6B61326AAA312"
@@ -1305,7 +1210,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["248DC6FE865D1EAF"]
@@ -1315,6 +1220,8 @@
 				"记得要&l&a调整内部指针朝向&r，&a使其最终能集中到一个格子上&r"
 				""
 				"注：在后续的任务中你还需要进行一次5*5合成，也就是需要25个动力合成器。所以此任务要求合成27个（动力合成器一次合成3个）"
+				""
+				"如果你真的需要&d自动化&r，我给你指条明路，可以&d用封包合成的定位分配器&r即可非常轻松的自动化"
 			]
 			id: "19DBCA14E3B7A773"
 			rewards: [{
@@ -1323,6 +1230,8 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
 			subtitle: "麻烦但是浪漫"
 			tasks: [{
 				count: 27L
@@ -1331,7 +1240,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6150C4F647A5EA69"]
@@ -1377,7 +1286,15 @@
 				"4CDDA19402DCCD1B"
 				"3D7A4B793E16B94B"
 			]
-			description: ["这个其实比精密构件简单"]
+			description: [
+				"是较为强力的5级材料"
+				""
+				"其反伤可以穿透护甲，并且有较高的基础数值"
+				""
+				"对反伤和魔法伤害有较高的抗性"
+				""
+				"值得注意的是如果你想用它做盔甲要用&c机械手&r"
+			]
 			id: "29E21F219F641A8B"
 			rewards: [{
 				count: 10
@@ -1472,160 +1389,6 @@
 		}
 		{
 			description: [
-				"会不会好奇这玩意有啥用"
-				""
-				"是的，这种材料可以&a凭空生成动物&r"
-				""
-				"只需要&a用其制作的工具对着训练人偶左键&r"
-				""
-				"不要想着让假玩家用它，会炸掉的，所以取消了假玩家判定"
-			]
-			icon: "tinkerscalibration:grain_ingot"
-			id: "71307D791FBF264C"
-			rewards: [{
-				count: 12
-				id: "37D6417595E21336"
-				item: "minecraft:hay_block"
-				type: "item"
-			}]
-			subtitle: "一种名为谷锭的材料"
-			tasks: [
-				{
-					id: "63B0C4093AD957DF"
-					item: "tinkerscalibration:grain_ingot"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "74D32AAF85956612"
-					item: "dummmmmmy:target_dummy"
-					type: "item"
-				}
-			]
-			title: "欢迎来到第一章的支线——血肉重铸"
-			x: 15.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["71307D791FBF264C"]
-			description: [
-				"它本身的&a伤害很低，很难用&r"
-				""
-				"不过放在&a副手&r仍然生效"
-				""
-				"可以让你获取一些&a特殊的掉落物&r"
-			]
-			id: "5991CD600304C4CC"
-			rewards: [
-				{
-					count: 2
-					id: "431BC8E23BB1B78E"
-					item: "biomancy:mob_fang"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "43BED6A1660B975C"
-					item: "biomancy:mob_claw"
-					type: "item"
-				}
-			]
-			subtitle: "开始血肉生涯"
-			tasks: [{
-				id: "5B5D7C0ECEC8F9B6"
-				item: {
-					Count: 1b
-					id: "biomancy:despoil_sickle"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5991CD600304C4CC"]
-			description: [
-				"你可以在jei搜索&c\"抽筋脱骨\"&r"
-				""
-				"可以看到一个&b匠魂强化&r"
-				""
-				"它的作用和抽筋脱骨附魔书一样，而且有&a更高的上限等级&r，可以&a帮你获取大量的血肉重铸专属物品&r"
-			]
-			icon: {
-				Count: 1b
-				id: "tconstruct:modifier_crystal"
-				tag: {
-					modifier: "solidarytinker:despoil"
-				}
-			}
-			id: "455D745CF9463E5D"
-			subtitle: "有这玩意谁还用那个破镰刀"
-			tasks: [{
-				id: "3FF2363B9B8B25FC"
-				type: "checkmark"
-			}]
-			title: "匠魂强化"
-			x: 17.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5991CD600304C4CC"]
-			description: [
-				"&c不要拿贵重物品右键喂它!&r"
-				"&c不要拿贵重物品右键喂它!&r"
-				"&c不要拿贵重物品右键喂它!&r"
-				""
-				"喂食肉（&c别喂腐肉&r）类会增加其进度条（侧面的小眼睛紫色程度）"
-				""
-				"满了之后喂食&d治疗药水&r，短暂时间后有极高概率出来一个&c肉块&r小生物"
-				""
-				"击杀了就可以获得&c活肉&r了"
-				""
-				"也有概率失败，会在下方方块形成一个&c恶性肉块&r"
-				""
-				"记得如果失败了及时清除恶性经脉，不然会&c蔓延&r"
-				""
-				"如果失败了就再来一次！"
-			]
-			id: "4768F38F7B4A3BAB"
-			rewards: [
-				{
-					id: "0737667D57FB8D3F"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A735D92374E9A38"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "这位更是重量级"
-			tasks: [{
-				id: "6550F9975CAC9696"
-				item: "biomancy:primordial_cradle"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 7.0d
-		}
-		{
-			description: [
 				"本章主要涉及3个模组："
 				""
 				"&a机械动力（高炉前置）&r"
@@ -1672,306 +1435,8 @@
 				type: "checkmark"
 			}]
 			title: "第一章的开始"
-			x: -3.0d
+			x: -2.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4768F38F7B4A3BAB"]
-			description: ["据说它还在动"]
-			id: "44DA77E745886EAE"
-			rewards: [{
-				count: 5
-				id: "2F4FE04F6488F366"
-				item: "biomancy:mob_gland"
-				type: "item"
-			}]
-			subtitle: "好恶心"
-			tasks: [{
-				id: "7BE637601DD9427C"
-				item: "biomancy:living_flesh"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5991CD600304C4CC"]
-			description: [
-				"毒腺需要&8洞穴蜘蛛&r才可以"
-				""
-				"其他的都比较好获得"
-				""
-				"而且几个&a还可以吃&r，吃了会怎么样就不清楚了...反正&c别在低血量时候吃就行&r"
-			]
-			icon: "biomancy:mob_sinew"
-			id: "350558F695ACB4A4"
-			rewards: [{
-				description: ""
-				id: "70809E9757124DC6"
-				title: "泥旧逝生物专家，快把这些献给那张巨口吧"
-				type: "toast"
-			}]
-			subtitle: "独特掉落也就这些"
-			tasks: [
-				{
-					id: "57BF234805BDBBD2"
-					item: "biomancy:mob_sinew"
-					type: "item"
-				}
-				{
-					id: "2B988AF0AB56097A"
-					item: "biomancy:mob_fang"
-					type: "item"
-				}
-				{
-					id: "127AD4EFA9E24CE6"
-					item: "biomancy:mob_claw"
-					type: "item"
-				}
-				{
-					id: "5BCA54453868D237"
-					item: "biomancy:mob_marrow"
-					type: "item"
-				}
-				{
-					id: "129A7614F161C556"
-					item: "biomancy:withered_mob_marrow"
-					type: "item"
-				}
-				{
-					id: "3B8B040FEEE41377"
-					item: "biomancy:mob_gland"
-					type: "item"
-				}
-				{
-					id: "4FC18CF7E10BD354"
-					item: "biomancy:toxin_gland"
-					type: "item"
-				}
-				{
-					id: "2E99B03AE244BCA9"
-					item: "biomancy:volatile_gland"
-					type: "item"
-				}
-			]
-			title: "生物掉落大收集"
-			x: 17.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"44DA77E745886EAE"
-				"2D0B37E0F6B627FA"
-			]
-			description: [
-				"主要用于生产一些血肉重铸的原料，配方可以在JEI查看"
-				""
-				"&d怪异尘&r可以分解&d烈焰棒&r来获取（你前面都做了烈焰血自动化不会缺这个了吧）"
-				""
-				"头颅分解价值也极高，前面送的头颅有大用了呢😈"
-			]
-			id: "3466893A9AA38F62"
-			rewards: [{
-				count: 10
-				id: "200EB99B3880B18F"
-				item: "biomancy:mob_gland"
-				type: "item"
-			}]
-			subtitle: "牙口真好"
-			tasks: [{
-				id: "6D3E619380237133"
-				item: "biomancy:decomposer"
-				type: "item"
-			}]
-			x: 21.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"44DA77E745886EAE"
-				"2D0B37E0F6B627FA"
-			]
-			description: [
-				"可以制作一些生物制品"
-				""
-				"比较有用的有"
-				""
-				"末影珍珠"
-				""
-				"狂风人掉落物"
-				""
-				"暴雪人掉落物"
-				""
-				"岩石人掉落物"
-				""
-				"海绵"
-				""
-				"海龟鳞片"
-				""
-				"鹦鹉螺"
-			]
-			id: "03699BAF1A38B340"
-			rewards: [{
-				count: 4
-				id: "3EB044AC61B84908"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			subtitle: "“重铸”"
-			tasks: [{
-				id: "75E4C95A253454E1"
-				item: "biomancy:bio_forge"
-				type: "item"
-			}]
-			x: 21.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"03699BAF1A38B340"
-				"3466893A9AA38F62"
-				"2D0B37E0F6B627FA"
-			]
-			description: [
-				"像胃囊一样蠕动"
-				""
-				"可以喂给它&a各种杂七杂八的可消化&r的让它给你转化成&a营养膏&r"
-				""
-				"&a营养棒和营养膏&r都可以给血肉机器&a供能&r"
-				""
-				"营养膏看着很奇怪，但做成&a营养棒&r就可以嘎嘎吃了"
-				""
-				"毕竟加那么多呢"
-				""
-				"你问我喂它什么比较好？"
-				""
-				"&c去下界连锁一些下界疣块吧，能让你吃好久&r"
-			]
-			id: "2A828380CB6B019A"
-			rewards: [{
-				count: 64
-				id: "57AA69CCBBDB0BF5"
-				item: "minecraft:nether_wart_block"
-				type: "item"
-			}]
-			subtitle: "高效营养"
-			tasks: [{
-				id: "774A465028ADA652"
-				item: "biomancy:digester"
-				type: "item"
-			}]
-			x: 23.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["44DA77E745886EAE"]
-			description: [
-				"血肉重铸机器都是需要营养供给的，在你&a做出来消化器之前先用一些食物（如西瓜皮等）放在左边转化槽转化为营养&r"
-				""
-				"&6上方输入原料&r"
-				""
-				"&b侧面供给营养&r"
-				""
-				"&d下方输出产物&r"
-				""
-				"怎么感觉这么像&c熔炉&r呢"
-			]
-			id: "2D0B37E0F6B627FA"
-			subtitle: "看我一眼啊"
-			tasks: [{
-				id: "740572A6FB792032"
-				title: "注意事项"
-				type: "checkmark"
-			}]
-			x: 21.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2A828380CB6B019A"]
-			description: [
-				"可以酿造一些生物药剂"
-				""
-				"具体药剂效果可以在信息显示查看"
-				""
-				"需要装载在这个扎针上&ashift右键&r才能注射给自己"
-				""
-				"&b值得注意的是如果被注射的生物有护甲将会有概率失败，护甲越高失败率越高，可以增加其模组自带的附魔来穿透（大多数时候都是给自己打针，记得脱甲打药就行）&r"
-				""
-				"直接右键生物就是注射给生物"
-				""
-				"这里特别提一下&a伤痛反应原液&r，这个东西虽然造价略高，但是可以给你无限的💛"
-				""
-				"说不定和某些材料有独特效果呢"
-			]
-			icon: "biomancy:bio_lab"
-			id: "29BE56A6D0556FF8"
-			rewards: [
-				{
-					id: "71CEB65E21C233A3"
-					item: "biomancy:mob_marrow"
-					type: "item"
-				}
-				{
-					id: "469181B10810F65D"
-					item: "biomancy:volatile_gland"
-					type: "item"
-				}
-				{
-					id: "1E303F04FE6C4D27"
-					item: "biomancy:withered_mob_marrow"
-					type: "item"
-				}
-			]
-			subtitle: "不是原版酿药"
-			tasks: [
-				{
-					id: "3ABB7D6479AD4E63"
-					item: "biomancy:bio_lab"
-					type: "item"
-				}
-				{
-					id: "3E64F6CF81856FD2"
-					item: {
-						Count: 1b
-						id: "biomancy:injector"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 24.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["03699BAF1A38B340"]
-			description: [
-				"一种前期较为强势的材料"
-				""
-				"有腐蚀伤害和💛转攻击"
-				""
-				"但是面板较低"
-				""
-				"如果你爱玩血肉重铸或许可以尝试一下呢"
-			]
-			hide: true
-			id: "5998A2EBEE604DED"
-			invisible_until_tasks: 1
-			rewards: [{
-				id: "38163C99BAE9916C"
-				item: "biomancy:nutrient_bar"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "想起来了Herobug"
-			tasks: [{
-				id: "0F2B2488D97B0320"
-				item: "solidarytinker:bloodmeat_ingot"
-				type: "item"
-			}]
-			x: 21.5d
-			y: 5.0d
 		}
 		{
 			dependencies: ["29E21F219F641A8B"]
@@ -1990,6 +1455,13 @@
 		{
 			dependencies: ["3EC6B61326AAA312"]
 			description: ["      只有熔铸炉会产生副产物，你用冶炼炉再怎么烧也烧不出铋的！"]
+			icon: {
+				Count: 1b
+				id: "tconstruct:foundry_controller"
+				tag: {
+					texture: "tconstruct:scorched_bricks"
+				}
+			}
 			id: "6ECDA6EFF0B289C1"
 			subtitle: "在接下来获得强化高炉前，你需要用熔铸炉熔炼铋"
 			tasks: [{
@@ -2011,6 +1483,7 @@
 		{
 			dependencies: ["6ECDA6EFF0B289C1"]
 			description: ["      同时硬铅也是个性能不错的材料"]
+			icon: "etshtinker:hardlead_plate"
 			id: "14CDA6660F191BFF"
 			rewards: [{
 				count: 4
@@ -2037,13 +1510,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["14CDA6660F191BFF"]
+			dependencies: [
+				"14CDA6660F191BFF"
+				"2E09F7DCFCC64BB0"
+			]
 			description: [
 				"      在本包中，你不再需要合成高炉而是直接合成强化高炉，请用&e工作盆-压块塑形&r方式合成强化高炉砖。"
 				""
 				"      强化高炉的正面输出产物，背面输出炉渣，上面输入原料。左右两侧则是放置高炉预热器，每个高炉预热器会消耗40FE/t的能量来加速强化高炉（每个+100%速率）。"
 				"{image:kubejs:textures/ftbq_images/ie/blast_furnace.png width:125 height:100 align:1 fit:true}"
+				""
+				"注：本包中高炉烧钢被加速了4倍，别再嫌慢了！,  被动挂上绝对足足的"
+				""
+				"&c&l&m原版1锭可是足足60秒，CTI只要15秒，太良心了&r&r&r"
 			]
+			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "42BC151C49F52922"
 			rewards: [{
 				count: 8
@@ -2096,7 +1577,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["      高级工作台用来合成mek和热力的设备，有了它你就能愉快地前往第二章玩耍了！"]
+			description: [
+				"      高级工作台用来合成mek和热力的设备，有了它你就能愉快地前往第二章玩耍了！"
+				""
+				"      注：高级工作台有一个冒险侧配方和一个科技侧配方，如果你用科技的做法请查看动力合成的配方！"
+			]
 			id: "209B07DB3C1EB800"
 			shape: "gear"
 			size: 2.0d
@@ -2111,7 +1596,7 @@
 		}
 		{
 			dependencies: ["3EC6B61326AAA312"]
-			description: ["     有着全词条等级+1的属性，多彩合金是前中期就唾手可得的强力辅助材料！"]
+			description: ["     有着均衡+3的属性，多彩合金是前中期就唾手可得的强力辅助材料！"]
 			id: "7FB992AEB90FD1DC"
 			rewards: [{
 				id: "1646614C4D2D8160"
@@ -2167,8 +1652,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0637668E953F51C9"]
-			description: ["      也是耐久系材料，不过黏钢是提供了一个可以用黏液球充能的耐久护盾"]
+			dependencies: ["71B37EFF402B0C2B"]
+			description: [
+				"      在这个阶段你只能用装配来合成黏钢，进入第二章后才可以用感应炉合金"
+				""
+				"      黏液流派不错的爆发性材料，防端的加算格挡也非常不错。     "
+			]
 			id: "5DAA595AD6035AE2"
 			rewards: [{
 				id: "0E900448EF558924"
@@ -2182,8 +1671,8 @@
 				item: "tconstruct:slimesteel_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 20.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0637668E953F51C9"]
@@ -2208,8 +1697,8 @@
 				item: "tinkers_ingenuity:blood_binding_ingot"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.5d
+			x: 16.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["716A41CB9E96C7AA"]
@@ -2220,6 +1709,7 @@
 				""
 				"      目标显示器可以用来提交需要的熔岩！"
 			]
+			icon: "create:hose_pulley"
 			id: "33F13671FDB5EB00"
 			rewards: [{
 				id: "1F90CAB36D64E6F1"
@@ -2261,8 +1751,644 @@
 				}
 			]
 			title: "无限熔岩单元"
-			x: 5.5d
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01E0A6C792C60A8D"]
+			description: [
+				"矿脉提取工具是本包添加的一种特殊的对于机械动力和沉浸工程矿脉的优化工具，你背包里面有南瓜种子/西瓜种子可以分别消耗其一个来提取一个对应的机械动力/沉浸工程矿脉到你的背包中"
+				""
+				"值得注意的是，提取出来的矿脉对地面长按右键就可以直接放置，而且记住不要让矿脉重叠（如果你当前区块已经有矿脉了）"
+			]
+			icon: "botania:grass_seeds"
+			id: "43B6ED2CA158BB08"
+			rewards: [
+				{
+					id: "4208D2EC9F010140"
+					item: "cti:coe_vein_remove_tool"
+					type: "item"
+				}
+				{
+					id: "5B081ABCB4618A35"
+					item: "cti:ie_vein_remove_tool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08015AF28CC0057C"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C7608BB3CAB5ADE"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "这对吗????"
+			tasks: [{
+				id: "25306439A1198039"
+				type: "checkmark"
+			}]
+			title: "矿脉提取工具"
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["673842350B281F50"]
+			description: [
+				"本包新添加的超级燃烧物品，这俩也可以让烈焰人燃烧室超级燃烧，但是需要推沉浸原油才能获取石蜡"
+				""
+				"戈伯煤炭则遍布地下"
+			]
+			icon: "immersivepetroleum:paraffin_wax"
+			id: "69AEFD9D4A454E73"
+			rewards: [{
+				id: "4787C398EBCFCECD"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "你是？？？"
+			tasks: [
+				{
+					id: "2FC20A488FC5948E"
+					item: "immersivepetroleum:paraffin_wax"
+					type: "item"
+				}
+				{
+					id: "786E19F692739527"
+					item: "gobber2:gobber2_foo"
+					type: "item"
+				}
+			]
+			title: "其他的超级加热"
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D7A4B793E16B94B"]
+			description: ["可以用来强化感知刺剑，当然你不用这个武器可以直接通垃圾桶或者一键使用掉"]
+			id: "26E60709FA37D469"
+			rewards: [{
+				id: "171310F6A41C6D5E"
+				item: "biomancy:mineral_fragment"
+				type: "item"
+			}]
+			subtitle: "这玩意还能有可莉的？"
+			tasks: [{
+				id: "6FBC80CA67ADD61A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19DBCA14E3B7A773"]
+			description: [
+				"可以用来将配方发过来的物品精确分配到每个合成器，需要用分配器标记先标记好"
+				""
+				"&m插一嘴，这玩意高版本龙研也用得上，而且能吃时间手杖，其他分配式合成也能全部兼容，所以学到就是赚到，玩别的包也能用&r"
+				""
+				"&m&a你问我是跟谁学的？我是跟比格舜学的&r"
+			]
+			icon: "packagedauto:distributor"
+			id: "18C5C18E446EE368"
+			rewards: [{
+				ftb_money: 300L
+				id: "72ECE2FEA55871AB"
+				type: "sdmshop:money"
+			}]
+			shape: "pentagon"
+			subtitle: "对的，说的就是这个"
+			tasks: [
+				{
+					id: "3660AE1D609B0892"
+					item: "packagedauto:distributor"
+					type: "item"
+				}
+				{
+					id: "5024110B18D15CBE"
+					item: "packagedauto:distributor_marker"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29E21F219F641A8B"]
+			description: [
+				"第一章时期的强力材料"
+				""
+				"需要机械手拼装石头镶板，有较高的属性，其反伤可以让你轻松对抗小怪,其魔法伤害抗性可以很好的针对反射等伤害类型"
+			]
+			id: "12C28B4831CAD721"
+			rewards: [{
+				id: "326043474FCB5D47"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "回来了都回来了"
+			tasks: [{
+				id: "2A74F2E430EB47DB"
+				item: {
+					Count: 1b
+					id: "tconstruct:chestplate_plating"
+					tag: {
+						Material: "kubejs:sturdy_sheet"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0637668E953F51C9"
+				"3D7A4B793E16B94B"
+			]
+			description: [
+				"这是你最早获得加热熔岩的时候"
+				""
+				"虽然效率低下但是好歹也是有了温度的提升，后面可以用&6炼油厂&r来制作"
+			]
+			hide_dependency_lines: true
+			id: "73476B7217B9E22C"
+			rewards: [{
+				id: "5CA079C61EC7DA63"
+				item: "kubejs:thermite"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "我去，熔岩还能加热？"
+			tasks: [{
+				amount: 1000L
+				fluid: "cti:lava_heated"
+				id: "53F5BD285E0FF243"
+				type: "fluid"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6ECDA6EFF0B289C1"]
+			description: [
+				"在本包，可以通过&b晶体催生器&r来对这四种母岩来加速，之后可以提取到水晶，各种水晶在&a镕铸炉有专属的副流体产出和对应的黏液&r"
+				""
+				"&a&l大地对应黏土"
+				"&r"
+				"&b&l碧空对应细雪"
+				"&r"
+				"&6&l灵浆对应烈焰血"
+				"&r"
+				"&d&l末影对应末影珍珠&r"
+				""
+				"这四种可以选择性的进行批量生产"
+				""
+				"如果你需要母岩，可以用&e纸箱&r，或者&a热力的结晶机&r来生产"
+			]
+			icon: "tconstruct:budding_earth_slime_crystal"
+			id: "65FFDBCD8D04F65E"
+			rewards: [
+				{
+					id: "0418094956164F0B"
+					item: "tconstruct:ender_slime_ball"
+					type: "item"
+				}
+				{
+					id: "6158D3589CBEEB34"
+					item: "tconstruct:sky_slime_ball"
+					type: "item"
+				}
+				{
+					id: "6D4CEEE1E9F925A9"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "00DFFCB11671D95A"
+					item: "tconstruct:ichor_slime_ball"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "四大才子"
+			tasks: [
+				{
+					id: "1F00A39A46F3590E"
+					item: "tconstruct:budding_earth_slime_crystal"
+					type: "item"
+				}
+				{
+					id: "1DD4159DBD8DD0FB"
+					item: "tconstruct:budding_sky_slime_crystal"
+					type: "item"
+				}
+				{
+					id: "7138EC89B6C98C0A"
+					item: "tconstruct:budding_ichor_slime_crystal"
+					type: "item"
+				}
+				{
+					id: "7BB1444057877F0D"
+					item: "tconstruct:budding_ender_slime_crystal"
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["323C7AED40D42454"]
+			description: [
+				"如果你玩习惯了带飞行的包，想建造东西结果发现自己飞不起来，是不是很难受"
+				""
+				"这里介绍一种前期的飞行方式，&a飞行药水&r，前面给过你一瓶，那种爽感现在应该记忆犹新吧"
+				""
+				"飞行药水需要紫颂果，而紫颂果原版的种植方式，就是需要在&a末地石上放置紫颂花&r，即可生长"
+				""
+				"你肯定在想，&l&c啊我玩科技包了怎么还在用这么原始的方法&r，别急，万事开头难，开头不难你怎么尝得到后面的甜头"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "cyclic:flight"
+				}
+			}
+			id: "69344FB49FC15B8F"
+			rewards: [{
+				ftb_money: 100L
+				id: "49C125938EDBC613"
+				type: "sdmshop:money"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "兄弟们受不了了！我要起飞了"
+			tasks: [{
+				id: "4E388F3B601DB28D"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "？！起飞？！"
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69344FB49FC15B8F"]
+			description: [
+				"飞行药水和其他的药水配方不太一样，循环的作者&b在Forge上注册而非用的原版的字段"
+				"&r"
+				"这意味着你&e没法通过热力的酿造机&r制作"
+				""
+				"不过好在机械动力足够强大，兼容所有的酿造配方，只需要你按照我这样做..."
+				"{image:kubejs:textures/ftbq_images/ftbcreate1.png width:150 height:120 align:1}"
+				"最终在注液器上直接罐装即可"
+			]
+			icon: "create:mechanical_mixer"
+			id: "3D19D71BCA9C2DF7"
+			rewards: [{
+				id: "46BE756FBD5E1DCE"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "我去不早说"
+			tasks: [
+				{
+					id: "4A390C82D425F4A1"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5DC0F237304C03E2"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "6202DA4F1A37DD9B"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "简易自动酿药"
+			x: 20.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D19D71BCA9C2DF7"]
+			description: [
+				"使用&a药水注射器&r可以很轻易的自动续上药水,还可以在工匠工作台上为其强化，可以加药效时长等等"
+				""
+				"不过有时候有刻差距可能会断续一瞬间，但是不会摔死，放心"
+				""
+				"&m&l&d你问我这玩意哪里来？除了自己做以外你猜&r"
+			]
+			icon: {
+				Count: 1b
+				id: "thermal:potion_infuser"
+				tag: { }
+			}
+			id: "3486BA27AC4B3DD0"
+			rewards: [{
+				id: "3EBC8773715998DC"
+				item: "l2hostility:booster_potion"
+				type: "item"
+			}]
+			subtitle: "别人：以太重力晶， \\n我：飞行药水 \\n 就很😂"
+			tasks: [
+				{
+					id: "2C0C8C1C56CB7873"
+					item: {
+						Count: 1b
+						id: "thermal:potion_infuser"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4533BBAF55F8B74C"
+					item: "thermal:tinker_bench"
+					type: "item"
+				}
+			]
+			title: "自动喂药"
+			x: 22.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69344FB49FC15B8F"]
+			description: [
+				"使用这两个材料任意其中一个在盔甲上即可轻松飞行"
+				""
+				"当然你也可以星钢和陨铁合金，但是这俩是最轻松的"
+			]
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "366A64E2E9407B3F"
+			rewards: [{
+				id: "72EB9608F489FD04"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			subtitle: "豪到你了小妹妹？😂"
+			tasks: [
+				{
+					id: "316AC0B0B491DBB7"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					id: "4C3EF169660D502F"
+					item: "aether_redux:gravitite_ingot"
+					type: "item"
+				}
+			]
+			title: "豪情在天"
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["69344FB49FC15B8F"]
+			description: ["是的这个也可以飞，略薄荷区你们赢了"]
+			id: "61DF32B9E13A29DB"
+			rewards: [{
+				id: "4E427B299A1E2BBA"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "cyclic:flight"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "别人：飞行药水，以太，重力晶， \\n薄荷糖：新生魔艺 \\n 就很😂"
+			tasks: [{
+				id: "5796B62F16BE5816"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			title: "还有高手"
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69344FB49FC15B8F"]
+			description: ["这个也能飞，但是要植物魔法"]
+			id: "2655893DA1FC4E0F"
+			rewards: [{
+				id: "6ECD45E9DE99794A"
+				item: {
+					Count: 1b
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A：天使之祝术石牛逼\\nB：一组紫颂果牛逼\\n 铀铀: !? 天翼族牛逼!?"
+			tasks: [{
+				id: "43761450B4D1E4F3"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["69344FB49FC15B8F"]
+			description: [" 好了别诧异，我知道没人做这个，我就提一嘴"]
+			id: "4FF1ADD04B7E7EE1"
+			rewards: [{
+				id: "3A36020DA9A2EB3B"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			subtitle: "不是哥们"
+			tasks: [{
+				id: "4A04E87F97D46E2B"
+				item: "gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6ECDA6EFF0B289C1"]
+			icon: "minecraft:deepslate_iron_ore"
+			id: "18FBFB5DCC0738D2"
+			tasks: [{
+				id: "29299EFDE34B4933"
+				type: "checkmark"
+			}]
+			title: "原矿的比例被整合包改为了3倍，因此部分情况下可以选择性扔进原矿"
+			x: 30.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28E2122722681099"]
+			description: ["虽然不自然刷新矿物，但是你可以通过钻井找到矿脉，找到就末影珍珠资源自由"]
+			icon: "kubejs:crystal_ender"
+			id: "7302EB6348ABD498"
+			rewards: [{
+				count: 10
+				id: "5AB16FF9B30E57A9"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "旧时代的回忆"
+			tasks: [
+				{
+					id: "499EFDF34F9D1987"
+					item: "kubejs:crystal_ender"
+					type: "item"
+				}
+				{
+					id: "75F6A74D7C42EB31"
+					item: "kubejs:crystal_glowstone"
+					type: "item"
+				}
+				{
+					id: "7BBD007E1B6D79C9"
+					item: "kubejs:crystal_redstone"
+					type: "item"
+				}
+			]
+			title: "络合物矿"
+			x: 28.5d
 			y: -2.0d
+		}
+		{
+			description: [
+				"你或许好奇早期用什么发电"
+				""
+				"我告诉你吧，无脑powah即可"
+				""
+				"powah在本包的数值被极大的加强了，可以无脑使用"
+				""
+				"这里就拿太阳能板举例了"
+			]
+			icon: "powah:solar_panel_starter"
+			id: "2E09F7DCFCC64BB0"
+			rewards: [{
+				id: "24E1991E15740AEF"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			subtitle: "选择恐惧症翻了"
+			tasks: [{
+				id: "7796BB47445BE36F"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			title: "早期电力"
+			x: 34.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2495AA61B35F7090"
+				"2E09F7DCFCC64BB0"
+			]
+			description: [
+				"早期没有什么过早获取铀的方法，可以先用矿机过渡着"
+				""
+				"晶质铀是这个反应堆的&6原料&r，可以通过天然铀充能转化（1->2）"
+				""
+				"&l不用担心，这个&a反应堆皮实得很&r，不会泄露也不会炸也不会坏掉"
+				""
+				"可以放入&a可燃烧物增加产能(戈伯煤炭类，木板类那些能烧的东西)&r，&c红石（精炼红石/红石/红石块都可以）来额外超频&r"
+				""
+				"值得注意的是，放入煤炭/红石都会增加温度，温度越高燃料消耗越快，想让燃料耐用你得对其&b冷却&r"
+				""
+				"本包对这个反应堆进行了小重做，现在可以压低到负温度，而且是正向减少燃料消耗，同时可以用&4精炼红石&r"
+				""
+				"可以放入&a液体冷却剂和固体冷却剂&r，具体可以在jei查看"
+				""
+				"前期很好的&9液体冷却剂&r就是&b细雪&r，你或许可以在高山上找到"
+				""
+				"固体可以用冰类或者&b干冰&r"
+				""
+				"二者合一才可最大程度发挥冷却作用"
+			]
+			icon: "powah:reactor_basic"
+			id: "4FFCD406D8A18A6F"
+			rewards: [{
+				id: "41719821C96D0F7B"
+				item: "cti:refined_stone"
+				type: "item"
+			}]
+			subtitle: "核资危机"
+			tasks: [
+				{
+					count: 36L
+					id: "4EC68F0DDA260787"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+				{
+					id: "56EC31EAE7C439EB"
+					item: "powah:uraninite"
+					type: "item"
+				}
+			]
+			title: "powah反应堆"
+			x: 34.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"可以在机械动力矿脉中挖到，也可以手动合成"
+				""
+				"是本包性价比&a最最最最高的燃料&r(不要跟我犟什么木板无限量，戈伯煤炭单个皮实啊,一个末影戈伯煤顶80煤炭时长)"
+				""
+				"可以很好的给&b烈焰人燃烧室/高炉/powah反应堆&r充当填充物"
+			]
+			icon: "gobber2:gobber2_foo_end"
+			id: "676B12B4E3679509"
+			rewards: [{
+				id: "2818EC16EF96D115"
+				item: "gobberdelight:green_burger"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "小众宝藏燃料"
+			tasks: [
+				{
+					id: "4F951DF5FE8D97CF"
+					item: "gobber2:gobber2_foo"
+					type: "item"
+				}
+				{
+					id: "567083052D5DF55F"
+					item: "gobber2:gobber2_foo_nether"
+					type: "item"
+				}
+				{
+					id: "10E4A8D9FBF958AC"
+					item: "gobber2:gobber2_foo_end"
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: 3.0d
 		}
 	]
 	subtitle: [

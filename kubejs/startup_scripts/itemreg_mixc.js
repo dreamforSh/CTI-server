@@ -7,7 +7,7 @@ StartupEvents.registry("item",event=>{
     event.create("dusts_titanium","basic")
     event.create("tungsten_ingot","basic")
     event.create("halfdone_exoalloy","basic")
-    event.create("pyrocrystal","basic")
+    event.create("pyrocrystal","basic").fireResistant(true)
     event.create("electrocrystal","basic")
     event.create("violium_alloy","basic")
     event.create("activated_matter_dust","basic")
@@ -25,7 +25,8 @@ StartupEvents.registry("item",event=>{
     event.create("phytogro_zero","basic")
     event.create("ancient_circuitboard","basic")
     event.create("enriched_refined_glowstone","basic")
-    event.create("uncomplete_upgrade_augment_6","basic")
+    event.create("uncomplete_upgrade_augment_7","basic")
+    event.create("uncomplete_upgrade_augment_8","basic")
     event.create("disintegrate_crystal","basic")
     event.create("cnt","basic")
 
@@ -54,6 +55,7 @@ StartupEvents.registry("item",event=>{
     event.create("dust_cryotheum","basic")
     event.create("dust_pyrotheum","basic")
     event.create("dust_petrotheum","basic")
+    event.create("dust_aerotheum","basic")
 
     event.create("crystal_ender","basic")
     event.create("crystal_glowstone","basic")
@@ -75,6 +77,8 @@ StartupEvents.registry("item",event=>{
     event.create("broken_victory_medal","basic")
     event.create("phoenix_ingot","basic")
     event.create("valkyrie_ingot","basic")
+    event.create("unipolar_magnet_shard","basic")
+    event.create("silicon_carbide","basic")
 
     event.create("luminous_metal_plate","basic")
     event.create("radient_engine","basic")
@@ -91,4 +95,6 @@ StartupEvents.registry("item",event=>{
     event.create("carbon_plate","basic")
     event.create("life_crystal","basic")
     event.create("evil_processor","basic")
+
+    event.create("swet_bronze_ingot","basic")
 })

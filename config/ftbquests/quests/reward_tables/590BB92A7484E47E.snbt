@@ -2,7 +2,7 @@
 	icon: "iceandfire:dragon_stick"
 	id: "590BB92A7484E47E"
 	loot_size: 4
-	order_index: 62
+	order_index: 61
 	rewards: [
 		{ count: 2, item: "iceandfire:dragonsteel_fire_ingot" }
 		{ count: 2, item: "iceandfire:dragonsteel_ice_ingot" }

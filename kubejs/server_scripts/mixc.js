@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
     }
    event.shapeless('9x etshtinker:blitz_lumium', 'kubejs:blitz_luminium_block')
    event.shapeless('kubejs:blitz_luminium_block', '9x etshtinker:blitz_lumium')
+
    //星图
    event.shaped(Item.of('cti:astra_tablet_5', 1), [
       'AAA',
@@ -84,6 +85,15 @@ ServerEvents.recipes(event => {
          C: 'l2complements:life_essence',
       }
    )
+   event.shaped(Item.of('tconstruct:clear_glass', 4), [
+      'AA ',
+      'AA ',
+      '   '
+   ],
+      {
+         A: 'cyclic:glass_connected',
+      }
+   )
    //末影珍珠
    event.shaped(Item.of('cyclic:eye_teleport', 1), [
       ' B ',
@@ -112,6 +122,11 @@ ServerEvents.recipes(event => {
       'avaritia:neutron_nugget',
    ]
    )
+   event.shapeless(Item.of('ae2:fluix_covered_cable', 1), [
+      'thermal:white_rockwool',
+      'ae2:fluix_glass_cable',
+   ]
+   )
    event.shapeless(Item.of('immersiveengineering:graphite_electrode').withNBT('{Unbreakable:1b}'), [
       'immersiveengineering:graphite_electrode',
       'l2complements:eternium_ingot'
@@ -121,6 +136,74 @@ ServerEvents.recipes(event => {
       'kubejs:crystal_ender',
       'minecraft:snowball'
    ]
+   )
+   event.shapeless(Item.of('cti:test_tool',1), [
+      'ae2:certus_quartz_wrench',
+   ]
+   )
+   event.shapeless(Item.of('tinkers_reforged:raw_titanium_block', 1), [
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+      '#forge:raw_materials/zirconium',
+   ]
+   )
+   event.shaped(Item.of('cti:feima_ingot', 2), [
+      'BAB',
+      'DED',
+      'CFC'
+   ],
+      {
+         A: 'minecraft:tropical_fish',
+         B: 'tinkers_reforged:duralumin_ingot',
+         C: 'minecraft:soul_sand',
+         D: 'etshtinker:hardlead_plate',
+         E: 'iceandfire:graveyard_soil',
+         F: 'etshtinker:basalz_signalum',
+      }
+   )
+   event.shaped(Item.of('extradelight:pestle_amethyst',1), [
+      'A  ',
+      ' B ',
+      '   '
+   ],
+      {
+         A: 'minecraft:amethyst_shard',
+         B: 'minecraft:stick',
+      }
+   )
+   event.shaped(Item.of('extradelight:pestle_gilded_blackstone',1), [
+      'A  ',
+      ' B ',
+      '   '
+   ],
+      {
+         A: 'minecraft:gilded_blackstone',
+         B: 'minecraft:stick',
+      }
+   )
+   event.shaped(Item.of('extradelight:mortar_gilded_blackstone',1), [
+      'A A',
+      ' A ',
+      '   '
+   ],
+      {
+         A: 'minecraft:gilded_blackstone',
+      }
+   )
+   event.shaped(Item.of('extradelight:mortar_amethyst',1), [
+      'A A',
+      ' A ',
+      '   '
+   ],
+      {
+         A: 'minecraft:amethyst_shard',
+      }
    )
    event.shapeless(Item.of('tconstruct:seared_brick',4), [
       'tconstruct:seared_bricks',
@@ -135,6 +218,15 @@ ServerEvents.recipes(event => {
       'minecraft:blue_dye'
    ]
    )
+   event.shapeless(Item.of('waystones:waystone',1), [
+      'waystones:sharestone',
+   ]
+   )
+   event.shapeless(Item.of('waystones:sharestone',1), [
+      'waystones:waystone',
+   ]
+   )
+
 
    //通用压印模板
    event.shaped(Item.of('kubejs:universal_press', 1), [
@@ -315,7 +407,9 @@ ServerEvents.recipes(event => {
          A: 'kubejs:meteorium_scrap',
       }
    )
+
    event.smithing('cti:meteorium_plane','ae2:annihilation_plane','kubejs:meteorium_ingot')
+   
 
    event.shaped(Item.of('cti:meteor_shower_tablet', 1), [
       'CA',
@@ -325,43 +419,38 @@ ServerEvents.recipes(event => {
          C: 'ars_nouveau:red_archwood_log',
          A: 'kubejs:meteorium_scrap',
       }
-   )
+   );
     event.shaped(Item.of('gobber2:gobber2_ingot',2), [
-        'ABC',
+        'FBC',
         'BEB',
         'DBF'
     ], {
-        A: '#forge:ingots/electrum',
         B: 'tconstruct:sky_slime_ball',
-        C: 'tinkers_ingenuity:ocean_alloy_ingot',
-        D: 'tconstruct:slimesteel_ingot',
+        C: 'tconstruct:seared_brick',
+        D: 'tconstruct:seared_brick',
         E: 'gobber2:gobber2_glob',
         F: '#forge:ingots/bronze'
     });
-    event.shaped(Item.of('gobber2:gobber2_ingot_nether',2), [
-        'ABC',
+    event.shaped(Item.of('gobber2:gobber2_ingot_nether',2),[
+        'FBC',
         'GEG',
-        'DBF'
+        'CBF'
     ], {
-        A: 'tinkerscalibration:witherium_ingot',
         B: 'gobber2:gobber2_ingot',
         C: '#minecraft:soul_fire_base_blocks',
-        D: 'minecraft:nether_star',
         E: 'gobber2:gobber2_glob_nether',
         F: 'minecraft:nether_brick',
         G: 'tconstruct:ichor_slime_ball'
     });
     event.shaped(Item.of('gobber2:gobber2_ingot_end',2), [
-        'ABC',
+        'ABD',
         'GEG',
-        'DBF'
+        'DBA'
     ], {
         A: 'thermal:enderium_ingot',
         B: 'gobber2:gobber2_ingot_nether',
-        C: 'minecraft:chorus_flower',
         D: 'minecraft:dragon_breath',
         E: 'gobber2:gobber2_glob_end',
-        F: 'tinkers_ingenuity:twilight_ingot',
         G: 'tconstruct:ender_slime_ball'
     });
     event.shaped(Item.of('minecraft:diamond_horse_armor', 1), [
@@ -616,7 +705,7 @@ event.custom({
       }
    )
 
-   event.recipes.industrialforegoing.fluid_extractor('thermal:rubberwood_log','thermal:stripped_rubberwood_log',0.5,Fluid.of('industrialforegoing:latex',50))
+
    event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
@@ -656,6 +745,38 @@ event.custom({
     "item": "minecraft:dragon_egg"
   }
 })
+event.shaped(Item.of('dimstorage:dimensional_chest', 1), [
+   'AAA',
+   'ACA',
+   'AAA'
+],
+   {
+      A: 'tinkers_thinking:tinkers_bronze_ingot',
+      C: 'minecraft:ender_eye',
+   }
+)
+event.shaped(Item.of('dimstorage:dimensional_tank', 1), [
+   'ABA',
+   'BCB',
+   'ABA'
+],
+   {
+      A: 'tinkers_thinking:tinkers_bronze_ingot',
+      C: 'minecraft:ender_eye',
+      B: '#forge:glass',
+   }
+)
    event.shapeless('aether:enchanted_gravitite', '9x aether_redux:gravitite_ingot')
    event.shapeless('9x aether_redux:gravitite_ingot', 'aether:enchanted_gravitite')
+
+   event.remove({id:'enigmaticlegacy:evil_ingot'})
+   event.shaped(Item.of('enigmaticlegacy:evil_ingot',4),[
+      'ABA',
+      'BCB',
+      'ABA'
+   ],{
+      A:'tconstruct:dragon_scale',
+      B:'enigmaticlegacy:evil_essence',
+      C:'tconstruct:manyullyn_ingot'
+   })
 })

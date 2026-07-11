@@ -2,7 +2,7 @@
 	icon: "tinkers_thinking:drying_rack"
 	id: "754C75D34C0D9CF9"
 	loot_size: 8
-	order_index: 36
+	order_index: 35
 	rewards: [
 		{ count: 3, item: "tinkers_thinking:ardite_ingot" }
 		{ count: 3, item: "tinkers_thinking:beetron_ingot" }

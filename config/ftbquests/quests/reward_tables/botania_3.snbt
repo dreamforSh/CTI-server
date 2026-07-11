@@ -2,7 +2,7 @@
 	icon: "botania:dice"
 	id: "4EC9912ED8104CB9"
 	loot_size: 1
-	order_index: 44
+	order_index: 43
 	rewards: [
 		{ count: 8, item: "botania:elementium_ingot" }
 		{ count: 4, item: "botania:dragonstone" }

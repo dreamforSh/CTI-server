@@ -2,7 +2,7 @@
 	icon: "tinkers_reforged:reforging_guide"
 	id: "6760CB9C15C82497"
 	loot_size: 6
-	order_index: 47
+	order_index: 46
 	rewards: [
 		{ count: 3, item: "tinkers_reforged:hureaulite_block" }
 		{ count: 3, item: "tinkers_reforged:red_beryl_block" }

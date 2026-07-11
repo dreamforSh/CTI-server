@@ -11,7 +11,7 @@
       "durability": 752,
       "mining_speed": 6.5,
       "mining_tier": "minecraft:diamond",
-      "melee_attack": 5
+      "melee_attack": 11
     },
     "tconstruct:limb": {
       "durability": 706,

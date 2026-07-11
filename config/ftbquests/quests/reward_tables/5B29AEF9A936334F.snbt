@@ -2,7 +2,7 @@
 	icon: "minecraft:diamond"
 	id: "5B29AEF9A936334F"
 	loot_size: 1
-	order_index: 84
+	order_index: 81
 	rewards: [
 		{ item: "minecraft:copper_ingot" }
 		{ item: "minecraft:iron_ingot" }

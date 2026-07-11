@@ -8,7 +8,7 @@
 	}
 	id: "658984AEF34CAC97"
 	loot_size: 6
-	order_index: 33
+	order_index: 32
 	rewards: [
 		{ count: 2, item: "tconstruct:cobalt_block" }
 		{ count: 2, item: "tconstruct:rose_gold_block" }

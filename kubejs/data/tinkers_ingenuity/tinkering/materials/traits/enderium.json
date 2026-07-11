@@ -1,0 +1,46 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "cti:ender_stiction",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:alien",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "cti:ender_suppress",
+        "level": 1
+      },
+      {
+        "name": "cti:slime_shield",
+        "level": 4
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:ender_stiction",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:overslime",
+        "level": 1
+      },
+      {
+        "name": "tinkers_ingenuity:alien",
+        "level": 1
+      }
+    ]
+  }
+}

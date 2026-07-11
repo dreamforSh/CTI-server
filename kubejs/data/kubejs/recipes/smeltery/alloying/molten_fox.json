@@ -3,15 +3,15 @@
   "inputs": [
     {
       "fluid": "cherrytinker:sun_cherryfuel",
-      "amount": 4000
+      "amount": 1000
     },
     {
       "fluid": "tconstruct:liquid_soul",
-      "amount": 2000
+      "amount": 4000
     },
     {
       "fluid": "cherrytinker:moon_cherryfuel",
-      "amount": 4000
+      "amount": 1000
     }
   ],
   "result": {

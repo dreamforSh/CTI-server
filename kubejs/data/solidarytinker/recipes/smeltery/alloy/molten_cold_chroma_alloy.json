@@ -16,8 +16,12 @@
       "amount": 270
     },
     {
+      "name": "tinkersinnovation:molten_hostilium",
+      "amount": 180
+    },
+    {
       "name": "solidarytinker:molten_extremelycoldsteel",
-      "amount": 360
+      "amount": 810
     },
     {
       "name": "kubejs:fluid_cryotheum",
@@ -28,5 +32,5 @@
     "fluid": "solidarytinker:molten_cold_chroma_alloy",
     "amount": 180
   },
-  "temperature": 4320
+  "temperature": 6969
 }

@@ -1790,92 +1790,44 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6B5AE157E562DB3E"]
-			description: ["玩笑般的世界深藏着无人察觉的暗流"]
-			hide: true
-			hide_dependent_lines: true
-			icon: "tofucraft:tofumomen"
-			id: "720E153F311B05DB"
-			shape: "hexagon"
-			tasks: [{
-				dimension: "tofucraft:tofu_world"
-				icon: "tofucraft:tofumomen"
-				id: "2A214681AA3131F8"
-				title: "豆腐世界"
-				type: "dimension"
-			}]
-			title: "豆腐工艺"
-			x: 15.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["720E153F311B05DB"]
+			dependencies: ["1FA523662EB0EEEB"]
 			description: [
-				"level：无基础等级"
-				"hp：较高"
-				"仪式召唤"
-				"因该维度的难度偏低，故等级不高战斗力一般"
-				"但其拥有不低的基础血量"
+				"&b非进度目标&r"
+				"恐蚁族初始中立，可以通过将蚁脂给予恐蚁劳工以增加其族对玩家的信任度，信任度到达一定程度会隶属于玩家门下，同时女皇开放恐蚁商店"
 			]
 			hide: true
-			icon: "tofucraft:soy_sculk_bone"
-			id: "0198A4ED42744FCD"
-			rewards: [
-				{
-					count: 2
-					id: "62A540295DEF6DF2"
-					item: "lightmanscurrency:coin_emerald"
-					type: "item"
-				}
-				{
-					id: "5E7B45897114231D"
-					item: "kubejs:evil_mechanism"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "tofucraft:shudofuspider"
-				id: "61166B7121551EA0"
-				title: "击杀：1x臭豆腐蜘蛛"
-				type: "kill"
-				value: 1L
+			icon: "iceandfire:myrmex_desert_swarm"
+			id: "7E666CD270F444DF"
+			rewards: [{
+				id: "4028C6E77A56204B"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
 			}]
-			x: 15.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["720E153F311B05DB"]
-			description: [
-				"level：无基础等级"
-				"hp：中等"
-				"结构生成"
-				"因该维度的难度偏低，故其等级不高战斗力一般"
-			]
-			hide: true
-			icon: "tofucraft:tofugem"
-			id: "7080A1029767AC13"
-			rewards: [
-				{
-					id: "0BB8CE387C4EDCE3"
-					item: "lightmanscurrency:coin_emerald"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7C2C9464B7B655AE"
-					item: "kubejs:evil_mechanism"
-					type: "item"
-				}
-			]
+			shape: "rsquare"
 			tasks: [{
-				entity: "tofucraft:tofu_gandlem"
-				id: "6DB5E8390750C695"
-				type: "kill"
-				value: 1L
+				id: "6D50D51F1724A1DD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_jungle_swarm"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_desert_swarm"
+							}
+						]
+					}
+				}
+				title: "友谊的证明"
+				type: "item"
 			}]
-			title: "击杀：1x豆腐守卫"
-			x: 15.0d
-			y: 4.5d
+			title: "与恐蚁女皇结盟"
+			x: 4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3BD735DDFA413FB3"]
@@ -2125,14 +2077,14 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [{
 				entity: "iceandfire:myrmex_queen"
 				id: "5FE0413865B02590"
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 8.5d
 		}
 		{
@@ -2324,7 +2276,6 @@
 				"5FDF9AC1BD58DC0C"
 				"7F4D72770FF19581"
 				"4D7724B37E62416C"
-				"0198A4ED42744FCD"
 				"0C20EA07C057F0BD"
 				"105FD2D0C8A2D2E3"
 				"1F0CC824D472DD95"
@@ -2336,12 +2287,12 @@
 				"60F074A5C01037AA"
 				"724357FDF500F3CA"
 				"6D7D599CC9048813"
-				"7080A1029767AC13"
 				"02F302A3E169D8C1"
 				"18A4F6940B4D4C84"
 				"3C4A0AEC994C7F10"
 				"7C3C9233B3D9382A"
 				"2675E243E76F73D2"
+				"7CDF374DE632C89A"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:copper_ingot"
@@ -2390,7 +2341,6 @@
 				"5FDF9AC1BD58DC0C"
 				"7F4D72770FF19581"
 				"4D7724B37E62416C"
-				"0198A4ED42744FCD"
 				"0C20EA07C057F0BD"
 				"105FD2D0C8A2D2E3"
 				"1F0CC824D472DD95"
@@ -2402,12 +2352,12 @@
 				"60F074A5C01037AA"
 				"724357FDF500F3CA"
 				"6D7D599CC9048813"
-				"7080A1029767AC13"
 				"02F302A3E169D8C1"
 				"18A4F6940B4D4C84"
 				"3C4A0AEC994C7F10"
 				"7C3C9233B3D9382A"
 				"2675E243E76F73D2"
+				"7CDF374DE632C89A"
 			]
 			hide_dependency_lines: true
 			icon: "tconstruct:manyullyn_ingot"
@@ -2464,7 +2414,6 @@
 				"5FDF9AC1BD58DC0C"
 				"7F4D72770FF19581"
 				"4D7724B37E62416C"
-				"0198A4ED42744FCD"
 				"0C20EA07C057F0BD"
 				"105FD2D0C8A2D2E3"
 				"1F0CC824D472DD95"
@@ -2476,12 +2425,12 @@
 				"60F074A5C01037AA"
 				"724357FDF500F3CA"
 				"6D7D599CC9048813"
-				"7080A1029767AC13"
 				"02F302A3E169D8C1"
 				"18A4F6940B4D4C84"
 				"3C4A0AEC994C7F10"
 				"7C3C9233B3D9382A"
 				"2675E243E76F73D2"
+				"7CDF374DE632C89A"
 			]
 			hide_dependency_lines: true
 			icon: "etshtinker:electronium"
@@ -2538,7 +2487,6 @@
 				"5FDF9AC1BD58DC0C"
 				"7F4D72770FF19581"
 				"4D7724B37E62416C"
-				"0198A4ED42744FCD"
 				"0C20EA07C057F0BD"
 				"105FD2D0C8A2D2E3"
 				"1F0CC824D472DD95"
@@ -2550,12 +2498,12 @@
 				"60F074A5C01037AA"
 				"724357FDF500F3CA"
 				"6D7D599CC9048813"
-				"7080A1029767AC13"
 				"02F302A3E169D8C1"
 				"18A4F6940B4D4C84"
 				"3C4A0AEC994C7F10"
 				"7C3C9233B3D9382A"
 				"2675E243E76F73D2"
+				"7CDF374DE632C89A"
 			]
 			hide_dependency_lines: true
 			icon: "etshtinker:exo_alloy"
@@ -2612,7 +2560,6 @@
 				"5FDF9AC1BD58DC0C"
 				"7F4D72770FF19581"
 				"4D7724B37E62416C"
-				"0198A4ED42744FCD"
 				"0C20EA07C057F0BD"
 				"105FD2D0C8A2D2E3"
 				"1F0CC824D472DD95"
@@ -2624,17 +2571,16 @@
 				"60F074A5C01037AA"
 				"724357FDF500F3CA"
 				"6D7D599CC9048813"
-				"7080A1029767AC13"
 				"02F302A3E169D8C1"
 				"18A4F6940B4D4C84"
 				"3C4A0AEC994C7F10"
 				"7C3C9233B3D9382A"
 				"2675E243E76F73D2"
+				"7CDF374DE632C89A"
 			]
 			hide_dependency_lines: true
 			icon: "avaritia:infinity_ingot"
 			id: "2D5E7C3E60D40514"
-			min_required_dependencies: 45
 			rewards: [
 				{
 					exclude_from_claim_all: true

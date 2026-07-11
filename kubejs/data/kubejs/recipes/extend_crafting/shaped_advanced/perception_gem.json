@@ -1,0 +1,27 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  A  ",
+    " BCB ",
+    "ACDCA",
+    " BCB ",
+    "  A  "
+  ],
+  "key": {
+    "A": {
+      "item": "biomancy:mineral_fragment"
+    },
+    "B": {
+      "item": "biomancy:gem_fragments"
+    },
+    "C": {
+      "item": "create:rose_quartz"
+    },
+    "D": {
+      "item": "biomancy:primordial_core"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:perception_gem"
+  }
+}

@@ -1,7 +1,7 @@
 {
 	id: "73E3DD0340FDE32C"
 	loot_size: 1
-	order_index: 70
+	order_index: 69
 	rewards: [
 		{ item: "cti:upgrade_augment_4" }
 		{ item: "cti:upgrade_augment_5" }
@@ -11,6 +11,7 @@
 		{ item: "cti:advanced_dyano_augment" }
 		{ item: "cti:advanced_range_augment" }
 		{ item: "cti:advanced_output_augment" }
+		{ item: "cti:upgrade_augment_7" }
 	]
 	title: "高级热力插件"
 }

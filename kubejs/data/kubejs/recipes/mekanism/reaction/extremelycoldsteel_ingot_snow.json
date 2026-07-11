@@ -1,0 +1,27 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 300,
+  "energyRequired": 5800,
+  "fluidInput": {
+    "amount": 8000,
+    "fluid": "tconstruct:powdered_snow"
+  },
+  "gasInput": {
+    "amount": 2000,
+    "gas": "mekanism:oxygen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "count": 1,
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "itemOutput": {
+    "count": 1,
+    "item": "solidarytinker:extremelycoldsteel_ingot"
+  },
+  "gasOutput": {
+    "amount": 5000,
+    "gas": "mekanism:hydrogen"
+  }
+}

@@ -2,7 +2,7 @@
 	icon: "drinkbeer:spice_frozen_persimmon"
 	id: "0784E049F61BC1ED"
 	loot_size: 1
-	order_index: 77
+	order_index: 75
 	rewards: [
 		{ count: 10, item: "drinkbeer:spice_frozen_persimmon" }
 		{ count: 10, item: "drinkbeer:spice_roasted_pecans" }

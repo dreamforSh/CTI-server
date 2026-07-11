@@ -15,7 +15,8 @@
     "fluid.kubejs.tar_mix": "焦油混合物",
     "fluid.kubejs.ethyne": "液态乙炔",
     "fluid.kubejs.royal_jelly": "蜂王浆",
-    "fluid.kubejs.hot_heavymetal_lava": "重金属高温熔岩",
+    "fluid.kubejs.hot_heavymetal_lava": "重质金属高温熔岩",
+    "fluid.kubejs.hot_metal_lava": "金属高温熔岩",
     "fluid.kubejs.hot_heavycrystal_lava": "晶体高温熔岩",
     "fluid.kubejs.metalic_hydrogen": "超流体金属氢",
     "fluid.kubejs.metalic_hellium": "超流体金属氦",
@@ -37,7 +38,21 @@
     "fluid.kubejs.phenol": "苯酚",
     "fluid.kubejs.benzoic_acid": "苯甲酸",
 
-    
+    "fluid.kubejs.vinegar": "流体醋",
+
+    "fluid.kubejs.molten_blue_sky": "熔融碧空",
+    "fluid.kubejs.molten_azure_swet": "天蓝史维特粘浆",
+    "fluid.kubejs.molten_gold_swet": "金黄史维特粘浆",
+    "fluid.kubejs.molten_dark_swet": "暗黑史维特粘浆",
+    "fluid.kubejs.molten_swet_bronze": "熔融史维特青铜",
+
+    "item.kubejs.sausage":"肉肠",
+    "item.kubejs.cooked_sausage":"熟肉肠",
+    "item.kubejs.liver":"肝",
+    "item.kubejs.oxtail":"牛尾",
+    "item.kubejs.heart":"心脏",
+    "item.kubejs.brain":"脑子",
+    "item.kubejs.ribs":"排骨",
     "item.kubejs.molten_veridium_bucket":"熔融实金桶",
     "item.kubejs.molten_gravitite_bucket":"熔融重力晶桶",
     "item.kubejs.molten_sentrite_bucket":"熔融哨石桶",
@@ -158,7 +173,8 @@
     "item.kubejs.violium_core":"维奥能量核心",
     "item.kubejs.ancient_circuitboard":"始源之板",
     "item.kubejs.enriched_refined_glowstone":"富集强化萤石",
-    "item.kubejs.uncomplete_upgrade_augment_6":"待注入的活化彩钢组件",
+    "item.kubejs.uncomplete_upgrade_augment_7":"待注入的极寒组件",
+    "item.kubejs.uncomplete_upgrade_augment_8":"待注入的活化彩钢组件",
     "item.kubejs.empty_record":"空白唱片",
     "item.kubejs.aetheric_thermite":"神能铝热剂",
     "item.kubejs.phoenix_ingot":"凤凰锭",
@@ -169,7 +185,9 @@
     "item.kubejs.dielectric_paste_4":"化学纯 绝缘覆层",
     "item.kubejs.dielectric_paste_5":"分析纯 绝缘覆层",
     "item.kubejs.dielectric_paste_6":"光谱纯 绝缘覆层",
+    "item.kubejs.silicon_carbide":"碳化硅",
     "item.kubejs.life_crystal":"生命水晶碎块",
+    "item.kubejs.dust_aerotheum":"清风粉",
 
     "item.kubejs.cosmic_mechanism":"宇宙构象",
     "item.kubejs.electro_magnetic_mechanism":"电磁构象",
@@ -181,7 +199,7 @@
 
 
     "desc.immersiveengineering.info.mineral.gas_hydrate":"甲烷化深层永久冻土",
-    "desc.immersiveengineering.info.mineral.chalcopyrite_al":"铜锌矿",
+    "desc.immersiveengineering.info.mineral.chalcopyrite_al":"铝土铜锌矿",
     "desc.immersiveengineering.info.mineral.mars":"火星大型矿脉",
     "desc.immersiveengineering.info.mineral.moon":"月球大型矿脉",
     "desc.immersiveengineering.info.mineral.venus":"金星大型矿脉",
@@ -232,6 +250,7 @@
     "item.kubejs.phytogro_zero":"植育零号",
     "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
     "item.kubejs.sentrite":"纯化哨石",
+    "item.kubejs.unipolar_magnet_shard":"单极磁石小块",
 
     "item.ae2wtlib.quantum_bridge_card": "量子桥卡",
 
@@ -279,6 +298,10 @@
     "modifier.cti.zanite.flavor": "蕴含天镜能量的宝石",
     "modifier.cti.zanite.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。移除天镜对你工具的削弱。",
 
+    "modifier.tinkers_reforged.weight_exchange": "重量交换",
+    "modifier.tinkers_reforged.weight_exchange.description": "将工具50%的挖掘速度添加到攻击伤害上。",
+    "modifier.tinkers_reforged.weight_exchange.flavor": "重量交换",
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
 
@@ -290,8 +313,9 @@
     "kubejs.jei.moonsteel_ingot": "这个虽然是匠魂校准联动蔚蓝浩空的材料，但是你别真加蔚蓝浩空啊，看锭的灌注机配方",
     "kubejs.jei.mana_fluid": "将魔力传输到'魔力液化器'中便会以1mana:1mB液态魔力的比例开始转换，上限1000mB/tick",
     "kubejs.jei.royal_jelly": "蜂王浆需要在主世界用机械动力的钻井开采,容量略大",
-    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉,可以在热力精炼机或者分馏塔精炼出来其中产物",
-    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种流体矿脉,可以在热力精炼机或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_heavymetal_lava": "主世界和下界刷新的一种富含大量重金属的流体矿脉,可以在精炼厂或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_heavycrystal_lava": "主世界和下界刷新的一种含晶体的流体矿脉,可以在精炼厂或者分馏塔精炼出来其中产物",
+    "kubejs.jei.hot_metal_lava": "主世界和下界刷新的一种含金属的流体矿脉,可以在精炼厂或者分馏塔精炼出来其中产物",
     "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。",
     "kubejs.jei.accelerator": "由于潜在的崩档问题，Bigger AE2的并行单元已被禁用。",
     "kubejs.jei.compression_card": "压缩卡出了一些问题，功能异常，在查明问题前暂时先禁用了。",
@@ -353,6 +377,10 @@
     "material.kubejs.forgotten_metal": "遗忆金属",
     "material.kubejs.forgotten_metal.flavor": "残存的记忆",
     "material.kubejs.forgotten_metal.encyclopedia": "是谁创造了这种金属？让我们来读读它的内存...",
+
+    "material.kubejs.sturdy_sheet": "坚固板",
+    "material.kubejs.sturdy_sheet.flavor": "千锤万击和烈焰血的力量蕴含其中",
+    "material.kubejs.sturdy_sheet.encyclopedia": "虽然烈焰血和锻打强化了他,但是他本质上还是很脆，小心扎到手",
     
     "material.kubejs.refined_sentrite": "精炼哨石",
     "material.kubejs.refined_sentrite.flavor": "哨石中的精华组分",
@@ -366,9 +394,17 @@
     "material.kubejs.star_dragon.flavor": "游荡于星界之龙",
     "material.kubejs.star_dragon.encyclopedia": "",
 
+    "material.kubejs.endergobber": "末影戈伯",
+    "material.kubejs.endergobber.flavor": "结束了?",
+    "material.kubejs.endergobber.encyclopedia": "戈伯的最终形态！",
+
+    "item.kubejs.swet_bronze_ingot": "史维特青铜锭",
+    "material.kubejs.swet_bronze": "史维特青铜",
+    "material.kubejs.swet_bronze.flavor": "拥有神之能量的黏液合金",
+    "material.kubejs.swet_bronze.encyclopedia": "拥有神之能量的黏液合金",
 
 
-    "kubejs.jei.ingot_cast": "热力的锭铸膜存在bug，不能正确处理配方。热力原版提供的锭铸膜配方可以用匠魂铸膜进行，其余配方则无法使用。",
+
     "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
     "dimension.ad_astra.venus": "金星",
     "dimension.ad_astra.mars": "火星",
@@ -382,7 +418,7 @@
     "block.kubejs.aetheric_meteorite_ore":"神赐陨铁",
     
 
-    "kubejs.jei.unipolar_magnet": "单极磁石母岩发现于电离冻土星的异常区域群系的地下。当单极磁石母岩被放在超质量霜星石上方时会被加速生长，但是每次加速生长时都会释放一束致命的等离子爆炸（比超质量霜星石正常产生的威力更大！）。",
+    "kubejs.jei.unipolar_magnet": "单极磁石母岩发现于电离冻土星的异常区域群系的地下。当单极磁石母岩被放在超质量霜星石上方时会被加速生长，但是每次加速生长时都会释放一束致命的等离子爆炸（比超质量霜星石正常产生的威力更大！）。单极磁石可以被时运增产。",
     "kubejs.jei.rasterite": "光栅石母岩的晶洞可以在霜原星（非常稀有！）和电离冻土星除了异常区域外群系的地下发现。它可以被晶体催生器加速，且在方块亮度高的地方生长得更快。",
     "kubejs.jei.fracture_silicon": "分形硅石的晶洞可以在水星（非常稀有！）和炼狱星的深处发现。它可以被晶体催生器加速。当与水、熔岩、焦黑/焦褐熔石接触时消耗流体加速生长，这三者的加速效率分别是3x、30x、300x。",
     "kubejs.jei.aetherium_core": "可以在深暗之园的下僻巢穴(Catacombs)中找到，用于制作一些高级插件或者转化为阳清合金",
@@ -404,6 +440,7 @@
     "item.aether_redux.sentry_chip": "哨卫石AI芯片",
     "item.aether_redux.gravitite_ingot": "小块重力晶",
     "item.aether_redux.veridium_ingot": "实金锭",
+    "item.aether_redux.dark_swet_ball": "暗黑史维特球",
 
     "item.kubejs.carbon_plate": "碳复合板",
     "item.kubejs.pneumatic_shield": "压强抵抗装置",
@@ -433,5 +470,16 @@
     "gui.aether_redux.solar_emblem_fireball": "按 [%s] 释放火球",
     "gui.aether_redux.vampire_amulet_day_debuff": "白天时受到伤害增加",
     "gui.aether_redux.vampire_amulet_night_ability": "在佩戴超过一个主世界日后，增加伤害吸收量。",
-    "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成"
+    "gui.aether_redux.wisdom_ring_xp_increase": "获得20%~30%的来自生物的经验加成",
+
+
+
+    "modifier.tconstruct.overworked.description": "使黏液覆层的回复量和消耗量均加倍",
+    "material.tconstruct.manyullyn.encyclopedia": "8次连击后，每级伤害+4。",
+
+    "effect.cti.insatiable_boost":"贪婪增强",
+
+    "curios.identifier.slime_can": "加压黏液罐",
+    "curios.identifier.oxygen_can": "热力贮液器供氧槽"
+
 }

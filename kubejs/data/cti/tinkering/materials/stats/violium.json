@@ -4,9 +4,9 @@
       "fluid_capacity": 2400000
     },
     "etshtinker:ionizer": {
-      "cooldown": 16,
+      "cooldown": 50,
       "plasmarange": 60,
-      "damagemultiplier": 9.05
+      "damagemultiplier": 6.75
     },
     "tconstruct:binding": {},
     "tconstruct:handle": {
@@ -19,7 +19,7 @@
       "durability": 1787,
       "mining_speed": 9,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 7.3
+      "melee_attack": 49.6
     },
     "tconstruct:limb": {
       "durability": 1676,
@@ -65,8 +65,8 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 45,
       "exert_times": 45,
-      "attack_frequency": 4,
-      "kill_threshold": 0.28
+      "attack_frequency": 14,
+      "kill_threshold": 0.14
     }
   }
 }

@@ -11,6 +11,10 @@
     {
       "name": "cti:phoenix",
       "level": 1
-    }
+    },
+    {
+        "name": "cti:the_relic",
+        "level": 1
+      }
   ]
 }

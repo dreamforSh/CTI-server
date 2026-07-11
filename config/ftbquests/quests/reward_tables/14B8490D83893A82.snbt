@@ -2,7 +2,7 @@
 	icon: "ars_nouveau:glyph_touch"
 	id: "14B8490D83893A82"
 	loot_size: 1
-	order_index: 81
+	order_index: 78
 	rewards: [
 		{ item: "ars_nouveau:ritual_burrowing" }
 		{ item: "ars_nouveau:ritual_challenge" }

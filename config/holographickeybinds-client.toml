@@ -1,0 +1,7 @@
+#Currently selected client theme id for the holographic key viewer
+selectedThemeId = "default"
+#Selected tooltip style id in the holographic key viewer
+selectedTooltipStyle = "HOLOGRAPHIC"
+#Selected keyboard style id in the holographic key viewer
+selectedKeyboardStyle = "VANILLA"
+

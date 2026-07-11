@@ -9,7 +9,7 @@ enableEntitySpecificDatapack = true
 	exponentialHealth = false
 	#Damage factor per level
 	#Range: 0.0 ~ 1000.0
-	damageFactor = 0.01
+	damageFactor = 0.02
 	#Use exponential damage
 	exponentialDamage = false
 	#Experience drop factor per level
@@ -362,9 +362,4 @@ enableEntitySpecificDatapack = true
 	allow_soul_burner = true
 	allow_freezing = true
 	allow_cursed = true
-	allow_purify = true
-	allow_oracle = true
-	allow_extreme_damage_reduce = true
-	allow_temporary_armor = true
-	allow_second_phase = true
 

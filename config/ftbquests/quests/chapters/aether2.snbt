@@ -1298,18 +1298,6 @@
 					table_id: 8608731797032356187L
 					type: "random"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1D5AE7008213E06A"
-					table_id: 7096874023676802204L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3DDD83664FE73A86"
-					table_id: 1355798249144543854L
-					type: "random"
-				}
 			]
 			size: 2.0d
 			subtitle: "老登实验室天镜分室"

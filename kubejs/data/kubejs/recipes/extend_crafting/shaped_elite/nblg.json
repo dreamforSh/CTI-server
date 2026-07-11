@@ -1,0 +1,47 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAA  ",
+    " ABCBA ",
+    " ADEDA ",
+    "AFGHGFA",
+    " ADIDA ",
+    " ABJBA ",
+    "  AAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:totemic_gold_ingot"
+    },
+    "B": {
+      "item": "l2hostility:hard_skin"
+    },
+    "C": {
+      "item": "enigmaticlegacy:monster_charm"
+    },
+    "D": {
+      "item": "tconstruct:dragon_scale"
+    },
+    "E": {
+      "item": "kubejs:evil_mechanism"
+    },
+    "F": {
+      "item": "l2hostility:pulling"
+    },
+    "G": {
+      "item": "l2complements:life_essence"
+    },
+    "H": {
+      "item": "gobber2:dragon_star"
+    },
+    "I": {
+      "item": "enigmaticlegacy:soul_crystal"
+    },
+    "J": {
+      "item": "enigmaticlegacy:guardian_heart"
+    }
+  },
+  "result": {
+    "item": "cti:ring_of_nibelungen"
+  }
+}

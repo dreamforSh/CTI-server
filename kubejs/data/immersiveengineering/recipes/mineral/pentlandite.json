@@ -14,7 +14,7 @@
         {
             "chance": 0.3,
             "output": {
-                "tag": "forge:ores/nickel"
+                "item": "thermal:deepslate_nickel_ore"
             }
         },
         {
@@ -50,5 +50,5 @@
             }
         }
     ],
-    "weight": 20
+    "weight": 10
 }

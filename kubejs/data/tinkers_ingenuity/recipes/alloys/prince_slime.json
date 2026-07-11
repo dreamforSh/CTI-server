@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_queens_slime",
+      "amount": 270
+    },
+    {
+      "name": "tconstruct:molten_diamond",
+      "amount": 100
+    },
+    {
+      "name": "tconstruct:molten_debris",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_prince_slime",
+    "amount": 450
+  },
+  "temperature": 1250
+}

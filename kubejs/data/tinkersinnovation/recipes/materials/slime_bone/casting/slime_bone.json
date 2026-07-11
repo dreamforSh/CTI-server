@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:bone"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:slime",
+    "amount": 1000
+  },
+  "result": "tinkersinnovation:slime_bone",
+  "cooling_time": 200
+}

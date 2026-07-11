@@ -26,8 +26,8 @@
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
-			"powah:blazing_crystal_block": 1500,
 			"minecraft:magma_block": 800,
+			"powah:blazing_crystal_block": 1500,
 			"minecraft:lava": 1000
 		},
 		// Energy produced per fuel tick in the Furnator.
@@ -109,22 +109,22 @@
 				"nitro": 838608000
 			},
 			"transfer_rates": {
-				"starter": 2560,
-				"basic": 10240,
-				"hardened": 40960,
-				"blazing": 163840,
-				"niotic": 1310720,
-				"spirited": 5242880,
-				"nitro": 41943040
+				"starter": 8192,
+				"basic": 32768,
+				"hardened": 131072,
+				"blazing": 524288,
+				"niotic": 2097152,
+				"spirited": 8388608,
+				"nitro": 134217728
 			},
 			"generation_rates": {
-				"starter": 1024,
-				"basic": 4096,
-				"hardened": 16384,
-				"blazing": 65536,
-				"niotic": 524288,
-				"spirited": 2097152,
-				"nitro": 16777216
+				"starter": 2048,
+				"basic": 8192,
+				"hardened": 32768,
+				"blazing": 131072,
+				"niotic": 1048576,
+				"spirited": 4194304,
+				"nitro": 33554432
 			}
 		},
 		"solar_panels": {
@@ -210,13 +210,13 @@
 		},
 		"cables": {
 			"transfer_rates": {
-				"starter": 16384,
-				"basic": 65536,
-				"hardened": 262144,
-				"blazing": 1048576,
-				"niotic": 4194304,
-				"spirited": 16777216,
-				"nitro": 67108864
+				"starter": 32768,
+				"basic": 131072,
+				"hardened": 524288,
+				"blazing": 2097152,
+				"niotic": 8388608,
+				"spirited": 33554432,
+				"nitro": 134217728
 			}
 		},
 		"dischargers": {

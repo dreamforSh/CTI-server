@@ -1,7 +1,7 @@
 {
 	id: "156688C407B01F44"
 	loot_size: 1
-	order_index: 68
+	order_index: 67
 	rewards: [
 		{ count: 3, item: "ad_astra:cryo_fuel_bucket" }
 		{ item: "ad_astra:launch_pad" }

@@ -41,13 +41,13 @@
 			tic_stats: {
 				"etshtinker:fluid_efficiency": 8.84918f
 				"etshtinker:plasmarange": 8.84918f
-				"tconstruct:attack_damage": 2048.0f
+				"tconstruct:attack_damage": 2530.4038f
 				"tconstruct:attack_speed": 263.44363f
 				"tconstruct:block_amount": 44.245903f
 				"tconstruct:block_angle": 180.0f
 				"tconstruct:durability": 53856.63f
 				"tconstruct:harvest_tier": "minecraft:netherite"
-				"tconstruct:mining_speed": 2048.0f
+				"tconstruct:mining_speed": 8862.365f
 			}
 			tic_volatile_data: {
 				abilities: 11
@@ -56,11 +56,182 @@
 		}
 	}
 	id: "1EE7D7975002670A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["常规武器"]
+			image: "minecraft:item/stone_sword"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["收获工具"]
+			image: "minecraft:item/stone_pickaxe"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["杂项工具"]
+			image: "minecraft:item/fishing_rod"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["护具"]
+			image: "minecraft:item/chainmail_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["远程武器"]
+			image: "minecraft:item/bow"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["常规武器"]
+			image: "minecraft:item/diamond_sword"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["收获工具"]
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["远程武器"]
+			image: "tconstruct:item/tool/crossbow/limb_tinkerscalibration_diamond"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["护具"]
+			image: "minecraft:item/diamond_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["杂项工具"]
+			image: "aquaculture:item/diamond_fishing_rod_uncast"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "tconstruct:item/tool/crossbow/bowstring_1_kubejs_star_alloy"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "tinkers_ingenuity:item/tool/heavy_crossbow/grip_tinkerscalibration_diamond"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["科技"]
+			image: "avaritia:item/resource/neutron_gear"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["冒险"]
+			image: "kubejs:item/evil_processor"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 19.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["此处&e星&r&d野&r&b钢&r和&a奇迹物质&r只是为了好看"]
+			description: ["此处&e星&r&d野&r&b钢&r和&a奇迹物质&r只是为了好看，实际上制作任意材质的工具都可以完成任务"]
 			icon: {
 				Count: 1b
 				id: "tinkers_ingenuity:gscore"
@@ -75,17 +246,18 @@
 				xp: 100
 			}]
 			shape: "heart"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "什么材质工具都可以"
 			tasks: [{
 				id: "312E987150BBF20D"
 				type: "checkmark"
 			}]
 			title: "工具大全"
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: -10.5d
 		}
 		{
+			description: ["     你开局能做的第一个工具，虽然部件数较少但是其中实际上不乏功能性强悍的宝藏工具"]
 			icon: {
 				Count: 1b
 				id: "tconstruct:tinker_station"
@@ -99,13 +271,16 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
+			subtitle: "3部件及以下，通常用工匠站即可合成"
 			tasks: [{
 				id: "16637AD20429B769"
 				title: "工匠站就可以合成的"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
+			title: "窄型工具"
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -128,9 +303,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -139,15 +314,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "solidarytinker:seabless"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -157,13 +336,13 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 39.2f
-						"tconstruct:attack_speed": 2.6880004f
-						"tconstruct:durability": 7903.72f
+						"tconstruct:attack_damage": 752.5f
+						"tconstruct:attack_speed": 2.5440004f
+						"tconstruct:durability": 84705.28f
 					}
 					tic_volatile_data: {
-						abilities: 5
-						upgrades: 5
+						abilities: 2
+						upgrades: 2
 					}
 				}
 			}
@@ -184,9 +363,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -195,15 +374,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "solidarytinker:seabless"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -213,21 +396,21 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 39.2f
-							"tconstruct:attack_speed": 2.6880004f
-							"tconstruct:durability": 7903.72f
+							"tconstruct:attack_damage": 752.5f
+							"tconstruct:attack_speed": 2.5440004f
+							"tconstruct:durability": 84705.28f
 						}
 						tic_volatile_data: {
-							abilities: 5
-							upgrades: 5
+							abilities: 2
+							upgrades: 2
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -246,9 +429,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -257,15 +440,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:silky_shears"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -274,15 +461,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 19.800001f
-						"tconstruct:attack_speed": 3.5200002f
-						"tconstruct:durability": 6011.2803f
+						"tconstruct:attack_damage": 382.5f
+						"tconstruct:attack_speed": 3.36f
+						"tconstruct:durability": 68485.12f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 4.05f
+						"tconstruct:mining_speed": 5.5f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -303,9 +490,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -314,15 +501,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:silky_shears"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -331,23 +522,23 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 19.800001f
-							"tconstruct:attack_speed": 3.5200002f
-							"tconstruct:durability": 6011.2803f
+							"tconstruct:attack_damage": 382.5f
+							"tconstruct:attack_speed": 3.36f
+							"tconstruct:durability": 68485.12f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 4.05f
+							"tconstruct:mining_speed": 5.5f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.5d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -368,9 +559,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -379,15 +570,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tinkers_reforged:longsword_mod"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -396,15 +591,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 30.6f
-						"tconstruct:attack_speed": 5.44f
-						"tconstruct:durability": 9796.161f
+						"tconstruct:attack_damage": 680.0f
+						"tconstruct:attack_speed": 5.1200004f
+						"tconstruct:durability": 100925.44f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 6.6000004f
+						"tconstruct:mining_speed": 6.0f
 					}
 					tic_volatile_data: {
-						abilities: 5
-						upgrades: 5
+						abilities: 2
+						upgrades: 2
 					}
 				}
 			}
@@ -425,9 +620,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -436,15 +631,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tinkers_reforged:longsword_mod"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -453,26 +652,30 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 30.6f
-							"tconstruct:attack_speed": 5.44f
-							"tconstruct:durability": 9796.161f
+							"tconstruct:attack_damage": 680.0f
+							"tconstruct:attack_speed": 5.1200004f
+							"tconstruct:durability": 100925.44f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 6.6000004f
+							"tconstruct:mining_speed": 6.0f
 						}
 						tic_volatile_data: {
-							abilities: 5
-							upgrades: 5
+							abilities: 2
+							upgrades: 2
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
-			description: ["持有时（主手或副手）+110%伤害，减少0.3攻击速度。"]
+			description: [
+				"持有时（主手或副手）+110%伤害，减少0.3攻击速度。"
+				""
+				"你可以副手放个来增伤"
+			]
 			icon: {
 				Count: 1b
 				id: "tinkers_reforged:greatsword"
@@ -480,9 +683,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -491,15 +694,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tinkers_reforged:greatsword_mod"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -509,15 +716,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 34.0f
-						"tconstruct:attack_speed": 1.4960002f
-						"tconstruct:durability": 9796.161f
+						"tconstruct:attack_damage": 688.0f
+						"tconstruct:attack_speed": 1.4080001f
+						"tconstruct:durability": 100925.44f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 6.6000004f
+						"tconstruct:mining_speed": 6.0f
 					}
 					tic_volatile_data: {
-						abilities: 5
-						upgrades: 5
+						abilities: 2
+						upgrades: 2
 					}
 				}
 			}
@@ -538,9 +745,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -549,15 +756,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tinkers_reforged:greatsword_mod"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -567,15 +778,15 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 34.0f
-							"tconstruct:attack_speed": 1.4960002f
-							"tconstruct:durability": 9796.161f
+							"tconstruct:attack_damage": 688.0f
+							"tconstruct:attack_speed": 1.4080001f
+							"tconstruct:durability": 100925.44f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 6.6000004f
+							"tconstruct:mining_speed": 6.0f
 						}
 						tic_volatile_data: {
-							abilities: 5
-							upgrades: 5
+							abilities: 2
+							upgrades: 2
 						}
 					}
 				}
@@ -583,7 +794,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -602,8 +813,8 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -612,11 +823,11 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -630,6 +841,10 @@
 							level: 1
 							name: "tconstruct:silky_shears"
 						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.65f
@@ -638,18 +853,18 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 12.87f
-						"tconstruct:attack_speed": 4.4f
+						"tconstruct:attack_damage": 248.62498f
+						"tconstruct:attack_speed": 4.2f
 						"tconstruct:block_amount": 10.0f
-						"tconstruct:durability": 4098.6f
+						"tconstruct:durability": 46694.4f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 6.0750003f
+						"tconstruct:mining_speed": 8.25f
 						"tconstruct:use_item_speed": 1.0f
 					}
 					tic_volatile_data: {
-						abilities: 3
+						abilities: 1
 						"tconstruct:duel_wielding": 1b
-						upgrades: 5
+						upgrades: 3
 					}
 				}
 			}
@@ -670,8 +885,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -680,11 +895,11 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -698,6 +913,10 @@
 								level: 1
 								name: "tconstruct:silky_shears"
 							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.65f
@@ -706,26 +925,26 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 12.87f
-							"tconstruct:attack_speed": 4.4f
+							"tconstruct:attack_damage": 248.62498f
+							"tconstruct:attack_speed": 4.2f
 							"tconstruct:block_amount": 10.0f
-							"tconstruct:durability": 4098.6f
+							"tconstruct:durability": 46694.4f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 6.0750003f
+							"tconstruct:mining_speed": 8.25f
 							"tconstruct:use_item_speed": 1.0f
 						}
 						tic_volatile_data: {
-							abilities: 3
+							abilities: 1
 							"tconstruct:duel_wielding": 1b
-							upgrades: 5
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -744,9 +963,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -755,11 +974,11 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -777,6 +996,10 @@
 							level: 1
 							name: "tconstruct:axe_wax_off"
 						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:durability": 1.25f
@@ -784,15 +1007,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 23.1f
-						"tconstruct:attack_speed": 2.42f
-						"tconstruct:durability": 6831.0005f
+						"tconstruct:attack_damage": 389.25f
+						"tconstruct:attack_speed": 2.31f
+						"tconstruct:durability": 77824.0f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 6.4800005f
+						"tconstruct:mining_speed": 8.8f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -813,9 +1036,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -824,11 +1047,11 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -846,6 +1069,10 @@
 								level: 1
 								name: "tconstruct:axe_wax_off"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 1.25f
@@ -853,23 +1080,23 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 23.1f
-							"tconstruct:attack_speed": 2.42f
-							"tconstruct:durability": 6831.0005f
+							"tconstruct:attack_damage": 389.25f
+							"tconstruct:attack_speed": 2.31f
+							"tconstruct:durability": 77824.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 6.4800005f
+							"tconstruct:mining_speed": 8.8f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.5d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -888,9 +1115,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -899,28 +1126,32 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:pierce"
 						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 15.400001f
-						"tconstruct:attack_speed": 2.64f
-						"tconstruct:durability": 5464.8003f
+						"tconstruct:attack_damage": 373.5f
+						"tconstruct:attack_speed": 2.52f
+						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 8.1f
+						"tconstruct:mining_speed": 11.0f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -941,9 +1172,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -952,28 +1183,32 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:pierce"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 15.400001f
-							"tconstruct:attack_speed": 2.64f
-							"tconstruct:durability": 5464.8003f
+							"tconstruct:attack_damage": 373.5f
+							"tconstruct:attack_speed": 2.52f
+							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 8.1f
+							"tconstruct:mining_speed": 11.0f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
@@ -981,7 +1216,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -1002,9 +1237,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1013,28 +1248,32 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:stripping"
 						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 26.400002f
-						"tconstruct:attack_speed": 1.98f
-						"tconstruct:durability": 5464.8003f
+						"tconstruct:attack_damage": 396.0f
+						"tconstruct:attack_speed": 1.8899999f
+						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 8.1f
+						"tconstruct:mining_speed": 11.0f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1055,9 +1294,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1066,28 +1305,32 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:stripping"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 26.400002f
-							"tconstruct:attack_speed": 1.98f
-							"tconstruct:durability": 5464.8003f
+							"tconstruct:attack_damage": 396.0f
+							"tconstruct:attack_speed": 1.8899999f
+							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 8.1f
+							"tconstruct:mining_speed": 11.0f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
@@ -1095,7 +1338,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -1116,9 +1359,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1127,11 +1370,11 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -1145,21 +1388,25 @@
 							level: 1
 							name: "tconstruct:harvest"
 						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.5f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 7.7000003f
-						"tconstruct:attack_speed": 3.5200002f
-						"tconstruct:durability": 5464.8003f
+						"tconstruct:attack_damage": 186.75f
+						"tconstruct:attack_speed": 3.36f
+						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 8.1f
+						"tconstruct:mining_speed": 11.0f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1180,9 +1427,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1191,11 +1438,11 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -1209,21 +1456,25 @@
 								level: 1
 								name: "tconstruct:harvest"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.5f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 7.7000003f
-							"tconstruct:attack_speed": 3.5200002f
-							"tconstruct:durability": 5464.8003f
+							"tconstruct:attack_damage": 186.75f
+							"tconstruct:attack_speed": 3.36f
+							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 8.1f
+							"tconstruct:mining_speed": 11.0f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
@@ -1231,7 +1482,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -1250,9 +1501,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1261,15 +1512,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:pathing"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -1279,15 +1534,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 16.445f
-						"tconstruct:attack_speed": 2.86f
-						"tconstruct:durability": 7104.24f
+						"tconstruct:attack_damage": 426.9375f
+						"tconstruct:attack_speed": 2.7299998f
+						"tconstruct:durability": 80936.95f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 6.0750003f
+						"tconstruct:mining_speed": 8.25f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1307,9 +1562,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1318,15 +1573,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:pathing"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -1336,23 +1595,23 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 16.445f
-							"tconstruct:attack_speed": 2.86f
-							"tconstruct:durability": 7104.24f
+							"tconstruct:attack_damage": 426.9375f
+							"tconstruct:attack_speed": 2.7299998f
+							"tconstruct:durability": 80936.95f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 6.0750003f
+							"tconstruct:mining_speed": 8.25f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -1371,8 +1630,8 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1381,11 +1640,11 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -1395,18 +1654,22 @@
 							level: 1
 							name: "tconstruct:pathing"
 						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 16.5f
-						"tconstruct:attack_speed": 2.2f
-						"tconstruct:durability": 5464.8003f
+						"tconstruct:attack_damage": 375.75f
+						"tconstruct:attack_speed": 2.1f
+						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 8.1f
+						"tconstruct:mining_speed": 11.0f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						upgrades: 7
+						abilities: 1
+						upgrades: 5
 					}
 				}
 			}
@@ -1427,8 +1690,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1437,11 +1700,11 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -1451,26 +1714,30 @@
 								level: 1
 								name: "tconstruct:pathing"
 							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 16.5f
-							"tconstruct:attack_speed": 2.2f
-							"tconstruct:durability": 5464.8003f
+							"tconstruct:attack_damage": 375.75f
+							"tconstruct:attack_speed": 2.1f
+							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 8.1f
+							"tconstruct:mining_speed": 11.0f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							upgrades: 7
+							abilities: 1
+							upgrades: 5
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -1491,9 +1758,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1502,11 +1769,11 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -1516,6 +1783,10 @@
 							level: 1
 							name: "tconstruct:silky_shears"
 						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.8f
@@ -1524,15 +1795,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 16.72f
-						"tconstruct:attack_speed": 3.96f
-						"tconstruct:durability": 4371.8403f
+						"tconstruct:attack_damage": 307.80002f
+						"tconstruct:attack_speed": 3.7799997f
+						"tconstruct:durability": 49807.36f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 9.720001f
+						"tconstruct:mining_speed": 13.200001f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1553,9 +1824,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1564,11 +1835,11 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -1578,6 +1849,10 @@
 								level: 1
 								name: "tconstruct:silky_shears"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.8f
@@ -1586,23 +1861,23 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 16.72f
-							"tconstruct:attack_speed": 3.96f
-							"tconstruct:durability": 4371.8403f
+							"tconstruct:attack_damage": 307.80002f
+							"tconstruct:attack_speed": 3.7799997f
+							"tconstruct:durability": 49807.36f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 9.720001f
+							"tconstruct:mining_speed": 13.200001f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.5d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1623,9 +1898,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1634,15 +1909,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:tilling"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -1652,15 +1931,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 18.15f
-						"tconstruct:attack_speed": 1.98f
-						"tconstruct:durability": 6831.0005f
+						"tconstruct:attack_damage": 413.325f
+						"tconstruct:attack_speed": 1.8899999f
+						"tconstruct:durability": 77824.0f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 8.910001f
+						"tconstruct:mining_speed": 12.1f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1681,9 +1960,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1692,15 +1971,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:tilling"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -1710,15 +1993,15 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 18.15f
-							"tconstruct:attack_speed": 1.98f
-							"tconstruct:durability": 6831.0005f
+							"tconstruct:attack_damage": 413.325f
+							"tconstruct:attack_speed": 1.8899999f
+							"tconstruct:durability": 77824.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 8.910001f
+							"tconstruct:mining_speed": 12.1f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
@@ -1730,9 +2013,9 @@
 		}
 		{
 			description: [
-				"拉弓速更快的弓，代价是箭矢初速度略低"
+				"相比长弓拉弓速更快，但箭矢初速度略低"
 				""
-				"具体怎样自己权衡吧，毕竟这个还少了一个部件"
+				"并且还少了一个部件"
 			]
 			icon: {
 				Count: 1b
@@ -1741,8 +2024,8 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 						"tconstruct:string"
 					]
 					tic_modifiers: [
@@ -1752,15 +2035,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:stringy"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -1769,14 +2056,14 @@
 					tic_persistent: { }
 					tic_stats: {
 						"tconstruct:accuracy": 1.0f
-						"tconstruct:draw_speed": 1.6f
-						"tconstruct:durability": 4168.0f
+						"tconstruct:draw_speed": 2.6f
+						"tconstruct:durability": 17248.0f
 						"tconstruct:use_item_speed": 0.8f
-						"tconstruct:velocity": 13.6f
+						"tconstruct:velocity": 16.800001f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						upgrades: 5
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1797,8 +2084,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 							"tconstruct:string"
 						]
 						tic_modifiers: [
@@ -1808,15 +2095,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:stringy"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -1825,22 +2116,22 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:draw_speed": 1.6f
-							"tconstruct:durability": 4168.0f
+							"tconstruct:draw_speed": 2.6f
+							"tconstruct:durability": 17248.0f
 							"tconstruct:use_item_speed": 0.8f
-							"tconstruct:velocity": 13.6f
+							"tconstruct:velocity": 16.800001f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							upgrades: 5
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1863,8 +2154,8 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1873,11 +2164,11 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -1887,6 +2178,10 @@
 							level: 1
 							name: "tinkers_thinking:repulsive"
 						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:durability": 0.8f
@@ -1894,15 +2189,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 26.400002f
-						"tconstruct:attack_speed": 1.1f
-						"tconstruct:durability": 4371.8403f
+						"tconstruct:attack_damage": 396.0f
+						"tconstruct:attack_speed": 1.05f
+						"tconstruct:durability": 49807.36f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 11.34f
+						"tconstruct:mining_speed": 15.4f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						upgrades: 5
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -1923,8 +2218,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -1933,11 +2228,11 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -1947,6 +2242,10 @@
 								level: 1
 								name: "tinkers_thinking:repulsive"
 							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 0.8f
@@ -1954,23 +2253,23 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 26.400002f
-							"tconstruct:attack_speed": 1.1f
-							"tconstruct:durability": 4371.8403f
+							"tconstruct:attack_damage": 396.0f
+							"tconstruct:attack_speed": 1.05f
+							"tconstruct:durability": 49807.36f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 11.34f
+							"tconstruct:mining_speed": 15.4f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							upgrades: 5
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 7.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1987,8 +2286,8 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -1997,11 +2296,15 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 1
@@ -2015,16 +2318,16 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 9.900001f
-						"tconstruct:attack_speed": 2.2f
-						"tconstruct:durability": 6831.0005f
+						"tconstruct:attack_damage": 276.75f
+						"tconstruct:attack_speed": 2.1f
+						"tconstruct:durability": 77824.0f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 4.05f
+						"tconstruct:mining_speed": 5.5f
 						"tconstruct:use_item_speed": 1.0f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						upgrades: 4
+						abilities: 1
+						upgrades: 2
 					}
 				}
 			}
@@ -2045,8 +2348,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2055,11 +2358,15 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 1
@@ -2073,26 +2380,27 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 9.900001f
-							"tconstruct:attack_speed": 2.2f
-							"tconstruct:durability": 6831.0005f
+							"tconstruct:attack_damage": 276.75f
+							"tconstruct:attack_speed": 2.1f
+							"tconstruct:durability": 77824.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 4.05f
+							"tconstruct:mining_speed": 5.5f
 							"tconstruct:use_item_speed": 1.0f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							upgrades: 4
+							abilities: 1
+							upgrades: 2
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
+			description: ["吹箭筒射出的箭矢是不满蓄力的箭矢，所以你可能会发现部分词条不被触发，这是正常的"]
 			icon: {
 				Count: 1b
 				id: "tinkers_ingenuity:blowpipe"
@@ -2100,9 +2408,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
 						"tconstruct:string"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -2111,15 +2419,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tconstruct:stringy"
+						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -2128,14 +2440,14 @@
 					tic_persistent: { }
 					tic_stats: {
 						"tconstruct:accuracy": 1.0f
-						"tconstruct:attack_damage": 6.0f
-						"tconstruct:draw_speed": 1.3f
-						"tconstruct:durability": 8602.2f
-						"tconstruct:velocity": 9.0f
+						"tconstruct:attack_damage": 26.0f
+						"tconstruct:draw_speed": 1.8f
+						"tconstruct:durability": 38988.0f
+						"tconstruct:velocity": 11.0f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						upgrades: 5
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -2156,9 +2468,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
 							"tconstruct:string"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2167,15 +2479,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tconstruct:stringy"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -2184,25 +2500,31 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 6.0f
-							"tconstruct:draw_speed": 1.3f
-							"tconstruct:durability": 8602.2f
-							"tconstruct:velocity": 9.0f
+							"tconstruct:attack_damage": 26.0f
+							"tconstruct:draw_speed": 1.8f
+							"tconstruct:durability": 38988.0f
+							"tconstruct:velocity": 11.0f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							upgrades: 5
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
-			description: ["持有时（主手或副手）+4攻击距离。"]
+			description: [
+				"持有时（主手或副手）+4攻击距离。是手最长的武器。"
+				""
+				"同时它具有比战戟更高的攻击速度，适合前期过渡。"
+				""
+				"当然，后期也可以放个在副手加加reach"
+			]
 			icon: {
 				Count: 1b
 				id: "tinkers_ingenuity:lograzor"
@@ -2210,9 +2532,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -2221,15 +2543,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 4
 							name: "tconstruct:reach"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -2237,13 +2563,13 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 23.75f
-						"tconstruct:attack_speed": 3.25f
-						"tconstruct:durability": 9487.5f
+						"tconstruct:attack_damage": 459.5625f
+						"tconstruct:attack_speed": 3.0874999f
+						"tconstruct:durability": 104448.0f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -2264,9 +2590,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2275,15 +2601,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 4
 								name: "tconstruct:reach"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -2291,21 +2621,21 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 23.75f
-							"tconstruct:attack_speed": 3.25f
-							"tconstruct:durability": 9487.5f
+							"tconstruct:attack_damage": 459.5625f
+							"tconstruct:attack_speed": 3.0874999f
+							"tconstruct:durability": 104448.0f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			description: ["      高攻速高伤害的同时能使伤害100%穿甲，不过鉴于本包有不少破甲手段所以主要优势区间在于前中期。当然对于喜欢高攻速的人而言也值得一看。"]
@@ -2316,9 +2646,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -2327,15 +2657,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
 							name: "tinkers_ingenuity:puncture"
+						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -2344,13 +2678,13 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 18.59f
-						"tconstruct:attack_speed": 4.62f
-						"tconstruct:durability": 11954.25f
+						"tconstruct:attack_damage": 427.05f
+						"tconstruct:attack_speed": 4.4099994f
+						"tconstruct:durability": 136192.0f
 					}
 					tic_volatile_data: {
-						abilities: 4
-						upgrades: 6
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -2371,9 +2705,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2382,15 +2716,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
 								name: "tinkers_ingenuity:puncture"
+							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -2399,21 +2737,21 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 18.59f
-							"tconstruct:attack_speed": 4.62f
-							"tconstruct:durability": 11954.25f
+							"tconstruct:attack_damage": 427.05f
+							"tconstruct:attack_speed": 4.4099994f
+							"tconstruct:durability": 136192.0f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.5d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			icon: {
@@ -2423,8 +2761,8 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -2433,11 +2771,11 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 2
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -2447,22 +2785,26 @@
 							level: 1
 							name: "tconstruct:blocking"
 						}
+						{
+							level: 2
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:durability": 1.3f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 15.84f
-						"tconstruct:attack_speed": 2.2f
+						"tconstruct:attack_damage": 374.4f
+						"tconstruct:attack_speed": 2.1f
 						"tconstruct:block_amount": 100.0f
 						"tconstruct:block_angle": 150.0f
-						"tconstruct:durability": 7104.24f
+						"tconstruct:durability": 80936.95f
 						"tconstruct:use_item_speed": 0.6f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						upgrades: 5
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -2482,8 +2824,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2492,11 +2834,11 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -2506,30 +2848,34 @@
 								level: 1
 								name: "tconstruct:blocking"
 							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 1.3f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 15.84f
-							"tconstruct:attack_speed": 2.2f
+							"tconstruct:attack_damage": 374.4f
+							"tconstruct:attack_speed": 2.1f
 							"tconstruct:block_amount": 100.0f
 							"tconstruct:block_angle": 150.0f
-							"tconstruct:durability": 7104.24f
+							"tconstruct:durability": 80936.95f
 							"tconstruct:use_item_speed": 0.6f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							upgrades: 5
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -2546,9 +2892,9 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -2557,11 +2903,11 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:reliable"
+							name: "solidarytinker:sandstrom"
 						}
 						{
 							level: 3
-							name: "solidarytinker:tacticsattack"
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -2571,6 +2917,10 @@
 							level: 1
 							name: "tinkers_ingenuity:back_attack"
 						}
+						{
+							level: 3
+							name: "solidarytinker:reliable"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.8f
@@ -2579,14 +2929,14 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 15.840001f
-						"tconstruct:attack_speed": 4.4275f
-						"tconstruct:durability": 6557.7607f
+						"tconstruct:attack_damage": 306.0f
+						"tconstruct:attack_speed": 4.2262497f
+						"tconstruct:durability": 74711.04f
 					}
 					tic_volatile_data: {
-						abilities: 4
+						abilities: 1
 						"tconstruct:duel_wielding": 1b
-						upgrades: 6
+						upgrades: 3
 					}
 				}
 			}
@@ -2606,9 +2956,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2617,11 +2967,11 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -2631,6 +2981,10 @@
 								level: 1
 								name: "tinkers_ingenuity:back_attack"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.8f
@@ -2639,28 +2993,28 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 15.840001f
-							"tconstruct:attack_speed": 4.4275f
-							"tconstruct:durability": 6557.7607f
+							"tconstruct:attack_damage": 306.0f
+							"tconstruct:attack_speed": 4.2262497f
+							"tconstruct:durability": 74711.04f
 						}
 						tic_volatile_data: {
-							abilities: 4
+							abilities: 1
 							"tconstruct:duel_wielding": 1b
-							upgrades: 6
+							upgrades: 3
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			description: [
 				"虽然只有两个部件在配装上有点尴尬，但是它有2倍的部件倍率（2倍的护甲值、护甲韧性和击退抗性）。"
 				""
-				"适合前期过渡。"
+				"适合前期过渡，在推进暮色的过程中可以逐渐替换为层板护甲。"
 			]
 			icon: {
 				Count: 1b
@@ -2669,13 +3023,13 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:sandbless"
 						}
 						{
 							level: 2
@@ -2685,21 +3039,25 @@
 							level: 2
 							name: "solidarytinker:tacticsprotect"
 						}
+						{
+							level: 2
+							name: "cti:shadow_of_vigrid"
+						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.4f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:armor": 20.0f
-						"tconstruct:armor_toughness": 14.0f
-						"tconstruct:durability": 3896.0f
-						"tconstruct:knockback_resistance": 0.4f
+						"tconstruct:armor": 38.0f
+						"tconstruct:armor_toughness": 18.0f
+						"tconstruct:durability": 65368.0f
+						"tconstruct:knockback_resistance": 1.0f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						defense: 4
-						upgrades: 4
+						abilities: 1
+						defense: 2
+						upgrades: 2
 					}
 				}
 			}
@@ -2721,13 +3079,13 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: [
-								"solidarytinker:starfall"
-								"solidarytinker:starfall"
+								"solidarytinker:hoshino"
+								"solidarytinker:hoshino"
 							]
 							tic_modifiers: [
 								{
 									level: 2
-									name: "solidarytinker:sandstrom"
+									name: "solidarytinker:sandbless"
 								}
 								{
 									level: 2
@@ -2737,18 +3095,22 @@
 									level: 2
 									name: "solidarytinker:tacticsprotect"
 								}
+								{
+									level: 2
+									name: "cti:shadow_of_vigrid"
+								}
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 10.0f
-								"tconstruct:armor_toughness": 8.0f
-								"tconstruct:durability": 2048.0f
-								"tconstruct:knockback_resistance": 0.4f
+								"tconstruct:armor": 18.0f
+								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:durability": 47350.0f
+								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 3
-								defense: 4
-								upgrades: 4
+								abilities: 1
+								defense: 2
+								upgrades: 2
 							}
 						}
 					}
@@ -2764,13 +3126,13 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: [
-								"solidarytinker:starfall"
-								"solidarytinker:starfall"
+								"solidarytinker:hoshino"
+								"solidarytinker:hoshino"
 							]
 							tic_modifiers: [
 								{
 									level: 2
-									name: "solidarytinker:sandstrom"
+									name: "solidarytinker:sandbless"
 								}
 								{
 									level: 2
@@ -2780,21 +3142,25 @@
 									level: 2
 									name: "solidarytinker:tacticsprotect"
 								}
+								{
+									level: 2
+									name: "cti:shadow_of_vigrid"
+								}
 							]
 							tic_multipliers: {
 								"tconstruct:attack_damage": 0.4f
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 20.0f
-								"tconstruct:armor_toughness": 14.0f
-								"tconstruct:durability": 3896.0f
-								"tconstruct:knockback_resistance": 0.4f
+								"tconstruct:armor": 38.0f
+								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:durability": 65368.0f
+								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 3
-								defense: 4
-								upgrades: 4
+								abilities: 1
+								defense: 2
+								upgrades: 2
 							}
 						}
 					}
@@ -2810,13 +3176,13 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: [
-								"solidarytinker:starfall"
-								"solidarytinker:starfall"
+								"solidarytinker:hoshino"
+								"solidarytinker:hoshino"
 							]
 							tic_modifiers: [
 								{
 									level: 2
-									name: "solidarytinker:sandstrom"
+									name: "solidarytinker:sandbless"
 								}
 								{
 									level: 2
@@ -2826,18 +3192,22 @@
 									level: 2
 									name: "solidarytinker:tacticsprotect"
 								}
+								{
+									level: 2
+									name: "cti:shadow_of_vigrid"
+								}
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 14.0f
-								"tconstruct:armor_toughness": 10.0f
-								"tconstruct:durability": 3120.0f
-								"tconstruct:knockback_resistance": 0.4f
+								"tconstruct:armor": 34.0f
+								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:durability": 60508.0f
+								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 3
-								defense: 4
-								upgrades: 4
+								abilities: 1
+								defense: 2
+								upgrades: 2
 							}
 						}
 					}
@@ -2853,13 +3223,13 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: [
-								"solidarytinker:starfall"
-								"solidarytinker:starfall"
+								"solidarytinker:hoshino"
+								"solidarytinker:hoshino"
 							]
 							tic_modifiers: [
 								{
 									level: 2
-									name: "solidarytinker:sandstrom"
+									name: "solidarytinker:sandbless"
 								}
 								{
 									level: 2
@@ -2869,18 +3239,22 @@
 									level: 2
 									name: "solidarytinker:tacticsprotect"
 								}
+								{
+									level: 2
+									name: "cti:shadow_of_vigrid"
+								}
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 10.0f
-								"tconstruct:armor_toughness": 10.0f
-								"tconstruct:durability": 2270.0f
-								"tconstruct:knockback_resistance": 0.4f
+								"tconstruct:armor": 16.0f
+								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:durability": 48114.0f
+								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 3
-								defense: 4
-								upgrades: 4
+								abilities: 1
+								defense: 2
+								upgrades: 2
 							}
 						}
 					}
@@ -2889,10 +3263,11 @@
 				}
 			]
 			title: "镶板护甲"
-			x: 3.0d
-			y: -3.5d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
+			description: ["      更多的部件数提供了更高的上限，宽型工具已经具备了能够用到毕业的素质"]
 			icon: {
 				Count: 1b
 				id: "tconstruct:tinkers_anvil"
@@ -2906,13 +3281,16 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
+			subtitle: "4~5部件，需要工匠站才能合成/替换部件"
 			tasks: [{
 				id: "169B9FF7DBC46586"
 				title: "需要工匠砧才能合成的"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			title: "宽型工具"
+			x: -9.0d
+			y: 9.0d
 		}
 		{
 			icon: {
@@ -2923,7 +3301,7 @@
 					tic_broken: 0b
 					tic_materials: [
 						"tconstruct:bamboo"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
@@ -2932,7 +3310,7 @@
 						}
 						{
 							level: 1
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:sandbless"
 						}
 						{
 							level: 1
@@ -2944,6 +3322,10 @@
 						}
 						{
 							level: 1
+							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 1
 							name: "tconstruct:blocking"
 						}
 					]
@@ -2952,14 +3334,13 @@
 						"tconstruct:armor_toughness": 5.0f
 						"tconstruct:block_amount": 100.0f
 						"tconstruct:block_angle": 180.0f
-						"tconstruct:durability": 1200.0f
-						"tconstruct:knockback_resistance": 0.4f
+						"tconstruct:durability": 30254.0f
+						"tconstruct:knockback_resistance": 1.0f
 						"tconstruct:use_item_speed": 0.3f
 					}
 					tic_volatile_data: {
-						abilities: 1
-						defense: 4
-						upgrades: 3
+						defense: 3
+						upgrades: 2
 					}
 				}
 			}
@@ -2980,7 +3361,7 @@
 						tic_broken: 0b
 						tic_materials: [
 							"tconstruct:bamboo"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -2989,7 +3370,7 @@
 							}
 							{
 								level: 1
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:sandbless"
 							}
 							{
 								level: 1
@@ -3001,6 +3382,10 @@
 							}
 							{
 								level: 1
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
 								name: "tconstruct:blocking"
 							}
 						]
@@ -3009,22 +3394,21 @@
 							"tconstruct:armor_toughness": 5.0f
 							"tconstruct:block_amount": 100.0f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1200.0f
-							"tconstruct:knockback_resistance": 0.4f
+							"tconstruct:durability": 30254.0f
+							"tconstruct:knockback_resistance": 1.0f
 							"tconstruct:use_item_speed": 0.3f
 						}
 						tic_volatile_data: {
-							abilities: 1
-							defense: 4
-							upgrades: 3
+							defense: 3
+							upgrades: 2
 						}
 					}
 				}
 				match_nbt: false
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			icon: {
@@ -3034,13 +3418,13 @@
 					Damage: 0
 					tic_broken: 0b
 					tic_materials: [
-						"solidarytinker:starfall"
-						"solidarytinker:starfall"
+						"solidarytinker:hoshino"
+						"solidarytinker:hoshino"
 					]
 					tic_modifiers: [
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:sandbless"
 						}
 						{
 							level: 2
@@ -3049,6 +3433,10 @@
 						{
 							level: 2
 							name: "solidarytinker:tacticsprotect"
+						}
+						{
+							level: 2
+							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 1
@@ -3063,14 +3451,13 @@
 						"tconstruct:armor_toughness": 6.0f
 						"tconstruct:block_amount": 40.0f
 						"tconstruct:block_angle": 130.0f
-						"tconstruct:durability": 1800.0f
-						"tconstruct:knockback_resistance": 0.4f
+						"tconstruct:durability": 45381.0f
+						"tconstruct:knockback_resistance": 1.0f
 						"tconstruct:use_item_speed": 0.4f
 					}
 					tic_volatile_data: {
-						abilities: 3
-						defense: 2
-						upgrades: 5
+						abilities: 1
+						upgrades: 3
 					}
 				}
 			}
@@ -3090,13 +3477,13 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:sandbless"
 							}
 							{
 								level: 2
@@ -3105,6 +3492,10 @@
 							{
 								level: 2
 								name: "solidarytinker:tacticsprotect"
+							}
+							{
+								level: 2
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -3119,14 +3510,13 @@
 							"tconstruct:armor_toughness": 6.0f
 							"tconstruct:block_amount": 40.0f
 							"tconstruct:block_angle": 130.0f
-							"tconstruct:durability": 1800.0f
-							"tconstruct:knockback_resistance": 0.4f
+							"tconstruct:durability": 45381.0f
+							"tconstruct:knockback_resistance": 1.0f
 							"tconstruct:use_item_speed": 0.4f
 						}
 						tic_volatile_data: {
-							abilities: 3
-							defense: 2
-							upgrades: 5
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
@@ -3134,17 +3524,21 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
 			description: [
-				"手感最佳的近战武器之一，当然开局是做不了的。"
+				"手感强的轮椅武器之一"
 				""
 				"离子刀以极低的伤害换来了高攻速以及所谓的“真实横扫”。"
 				""
 				"同时约束场发生器和燃料拓宽了伤害计算的维度，是个低下限高上限的武器。"
 				""
-				"约束等离子阔剑使用的是冶炼炉燃料，记得与离子化射线炮区分！     "
+				"&d长臂&r词条可以大大增加弧光的尺寸从而增大攻击半径"
+				""
+				"专属强化&d回响斩击&r和&d粒子波&r能极大影响其强度。加持了这两个强化的离子刀是非常强力的&6多段输出武器&r，适合搭配一些&e需要高频触发&r的词条。"
+				""
+				"约束等离子阔剑使用的是冶炼炉燃料，燃料温度越高伤害越高，记得与离子化射线炮区分！     "
 			]
 			id: "6937D29D6EC312C3"
 			rewards: [{
@@ -3153,7 +3547,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "范围攻击+多次判定+燃料增伤+高攻速"
+			subtitle: "真实横扫，但是不完全真实"
 			tasks: [{
 				id: "676FB1227257FE19"
 				item: {
@@ -3163,27 +3557,71 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
+							"etshtinker:activated_chroma_plate"
+							"tconstruct:manyullyn"
+							"etshtinker:anti_neutronium"
+							"etshtinker:ultra_dense"
+							"etshtinker:activated_chroma_plate"
 						]
 						tic_modifiers: [
 							{
-								level: 5
-								name: "etshtinker:godlymetal"
+								level: 1
+								name: "cti:stone_cold_replaced"
 							}
 							{
-								level: 5
-								name: "etshtinker:worldforceex"
+								level: 2
+								name: "cti:replaced_insatiable"
 							}
 							{
-								level: 5
-								name: "etshtinker:beconcerted"
+								level: 2
+								name: "cti:insatiable_handler"
 							}
 							{
-								level: 5
+								level: 2
+								name: "cti:industrial"
+							}
+							{
+								level: 2
+								name: "etshtinker:thermalstrike"
+							}
+							{
+								level: 2
+								name: "etshtinker:thermalenhance"
+							}
+							{
+								level: 4
+								name: "etshtinker:fluxloaded"
+							}
+							{
+								level: 1
+								name: "etshtinker:controllableannihl"
+							}
+							{
+								level: 1
+								name: "etshtinker:selfassemble"
+							}
+							{
+								level: 1
+								name: "etshtinker:solidex"
+							}
+							{
+								level: 1
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
+								name: "etshtinker:sharpnessex"
+							}
+							{
+								level: 1
+								name: "etshtinker:overweightex"
+							}
+							{
+								level: 1
+								name: "etshtinker:gravityaccelerate"
+							}
+							{
+								level: 10
 								name: "tconstruct:tank"
 							}
 							{
@@ -3197,23 +3635,24 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"etshtinker:critical_rate": 1.28f
-							"etshtinker:damagemultiplier": 191.57187f
-							"etshtinker:fluid_efficiency": 100.0f
+							"cti:insatiable_base": 16.0f
+							"etshtinker:critical_rate": 0.5f
+							"etshtinker:damagemultiplier": 1.25f
+							"etshtinker:fluid_efficiency": 5.0f
 							"etshtinker:slash_color": 10.0f
-							"tconstruct:attack_damage": 195.36966f
-							"tconstruct:attack_speed": 242.27107f
-							"tconstruct:block_amount": 93.540955f
-							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 874852.3f
+							"tconstruct:attack_damage": 8.989f
+							"tconstruct:attack_speed": 3.6537502f
+							"tconstruct:durability": 5977.125f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 308.68515f
-							"tconstruct:tank_capacity": 9005000.0f
+							"tconstruct:mining_speed": 9.0f
+							"tconstruct:tank_capacity": 47500.0f
 						}
 						tic_volatile_data: {
-							abilities: 17
+							abilities: 7
+							"etshtinker:energy_owner": "etshtinker:fluxloaded"
+							"etshtinker:max_energy": 4000000
 							"tconstruct:total_tanks": 1
-							upgrades: 23
+							upgrades: 11
 						}
 					}
 				}
@@ -3221,14 +3660,16 @@
 				type: "item"
 			}]
 			title: "约束等离子阔剑"
-			x: -4.5d
-			y: 3.5d
+			x: -3.0d
+			y: 17.0d
 		}
 		{
 			description: [
 				"伤害极高的范围攻击武器，是对群最优解。"
 				""
 				"离子化射线炮拥有流体效果这个特殊的维度，导致它既可以具有强辅助性也可以具有强进攻性。不过更昂贵的流体考验你的自动化能力"
+				""
+				"其四部件的缺点在能够强化&d模组改造&r后便可消除。&d多重电离&r能显著提高射线炮的伤害，搭配具有自瞄效果的流体更佳。"
 				""
 				"离子化射线炮的弹药可以用JEI查看（对着工具查询配方即可）"
 			]
@@ -3239,7 +3680,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "极致伤害+极致昂贵+超大范围+炫酷特效（大嘘）"
+			subtitle: "有种原始人手搓核聚变的美"
 			tasks: [{
 				id: "116BEDC1602A5DA4"
 				item: {
@@ -3249,30 +3690,62 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
+							"etshtinker:anti_neutronium"
 							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
+							"cti:aetherium"
+							"cti:xenoglarium"
 						]
 						tic_modifiers: [
 							{
-								level: 4
-								name: "etshtinker:godlymetal"
-							}
-							{
-								level: 4
-								name: "etshtinker:worldforceex"
-							}
-							{
-								level: 4
-								name: "etshtinker:beconcerted"
+								level: 1
+								name: "cti:ion_apocalypse"
 							}
 							{
 								level: 1
-								name: "etshtinker:miracle_catalyst"
+								name: "etshtinker:controllableannihl"
+							}
+							{
+								level: 1
+								name: "etshtinker:selfassemble"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
+							}
+							{
+								level: 1
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 1
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 1
+								name: "etshtinker:beconcerted"
 							}
 							{
 								level: 5
+								name: "cti:refined"
+							}
+							{
+								level: 1
+								name: "etshtinker:plasmaenhance"
+							}
+							{
+								level: 1
+								name: "cti:star_fury"
+							}
+							{
+								level: 1
+								name: "cti:stellar_blessing"
+							}
+							{
+								level: 10
 								name: "tconstruct:tank"
 							}
 							{
@@ -3287,22 +3760,25 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"etshtinker:cooldown": 10.0f
-							"etshtinker:damagemultiplier": 187.08191f
-							"etshtinker:plasmarange": 70.0f
-							"tconstruct:attack_damage": 674.887f
-							"tconstruct:attack_speed": 127.2157f
-							"tconstruct:block_amount": 93.540955f
+							"etshtinker:cooldown": 42.0f
+							"etshtinker:damagemultiplier": 179.14107f
+							"etshtinker:fluid_efficiency": 1.5f
+							"etshtinker:fluidmultiplier": 1.5f
+							"etshtinker:plasmarange": 39.0f
+							"etshtinker:scale": 2.0f
+							"tconstruct:attack_damage": 11522.743f
+							"tconstruct:attack_speed": 193.35861f
+							"tconstruct:block_amount": 142.17545f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1461381.9f
+							"tconstruct:durability": 1239075.6f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 876.9465f
-							"tconstruct:tank_capacity": 9005000.0f
+							"tconstruct:mining_speed": 844.1667f
+							"tconstruct:tank_capacity": 359058.75f
 						}
 						tic_volatile_data: {
-							abilities: 14
+							abilities: 12
 							"tconstruct:total_tanks": 1
-							upgrades: 21
+							upgrades: 15
 						}
 					}
 				}
@@ -3310,8 +3786,8 @@
 				type: "item"
 			}]
 			title: "离子化射线炮"
-			x: -3.0d
-			y: 3.5d
+			x: -4.5d
+			y: 17.0d
 		}
 		{
 			description: ["暴击（跳劈等）造成200%伤害。"]
@@ -3360,9 +3836,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1599.2784f
-							"tconstruct:attack_speed": 72.026535f
-							"tconstruct:durability": 6116853.5f
+							"tconstruct:attack_damage": 1620.5245f
+							"tconstruct:attack_speed": 72.9834f
+							"tconstruct:durability": 6198115.0f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3373,11 +3849,11 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
-			description: ["      有+3的触及半径和适中的攻击速度和伤害，同时4个部件任您支配，对于喜欢手长的人而言是前中期的不二之选。"]
+			description: ["      有+3的触及半径和适中的攻击速度和伤害，同时4个部件任您支配，对于喜欢手长的人而言是宽型工具的不二之选。"]
 			id: "3DEB5B59A5EB27F6"
 			rewards: [{
 				count: 3
@@ -3427,9 +3903,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 495.11227f
-							"tconstruct:attack_speed": 74.83276f
-							"tconstruct:durability": 1433533.9f
+							"tconstruct:attack_damage": 501.68976f
+							"tconstruct:attack_speed": 75.826904f
+							"tconstruct:durability": 1452578.0f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3440,8 +3916,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			description: ["      有+2的触及半径和中高的攻击速度和伤害"]
@@ -3490,11 +3966,11 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 672.6179f
-							"tconstruct:attack_speed": 104.76587f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 681.5536f
+							"tconstruct:attack_speed": 106.15766f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1429913.8f
+							"tconstruct:durability": 1448910.0f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3505,14 +3981,16 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			description: [
 				"数值怪，除了5部件与较高的基础数值外没有任何其它特性。"
 				""
-				"前期若材料充裕则也比较推荐。"
+				"但是话又说回来了，5部件和高数值何尝不是一种特性"
+				""
+				"前期若材料充裕则比较推荐。"
 			]
 			id: "05167D430988F25F"
 			rewards: [{
@@ -3558,9 +4036,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1332.8184f
-							"tconstruct:attack_speed": 108.03981f
-							"tconstruct:durability": 4385069.0f
+							"tconstruct:attack_damage": 1350.5245f
+							"tconstruct:attack_speed": 109.4751f
+							"tconstruct:durability": 4443323.5f
 						}
 						tic_volatile_data: {
 							abilities: 16
@@ -3571,14 +4049,15 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			description: [
 				"拥有四个部件，攻速较快"
 				""
-				"主副手持有利爪时可以同时攻击"
+				"自带双击词条，主副手持有利爪时可以同时攻击，这使得它能触发更多词条"
+				"（当然其它武器强化了双击也可以）"
 				""
 				"主副手持有利爪+1触及半径"
 			]
@@ -3636,13 +4115,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 478.07614f
-							"tconstruct:attack_speed": 261.91467f
-							"tconstruct:block_amount": 187.08191f
+							"tconstruct:attack_damage": 484.42728f
+							"tconstruct:attack_speed": 265.39417f
+							"tconstruct:block_amount": 189.56726f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 714956.9f
+							"tconstruct:durability": 724455.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 694.54156f
+							"tconstruct:mining_speed": 703.76843f
 							"tconstruct:use_item_speed": 1.0f
 						}
 						tic_volatile_data: {
@@ -3655,8 +4134,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -3714,9 +4193,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1066.9574f
-							"tconstruct:attack_speed": 192.01619f
-							"tconstruct:durability": 3371057.2f
+							"tconstruct:attack_damage": 1081.1318f
+							"tconstruct:attack_speed": 194.56711f
+							"tconstruct:durability": 3415841.5f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3727,18 +4206,16 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
+			x: 7.5d
 			y: 5.0d
 		}
 		{
 			description: [
-				"手长是唯一优点，没有了。"
+				"但是它手很长"
 				""
-				"镭射枪无论是数值还是机制都有替代品，还和其它模组的能量装载材料冲突。"
+				"镭射枪最大的缺点是在4部件的同时还有2个部件是兼容材料极少的特殊部件，这使得它上限非常低并且配置高度受限"
 				""
-				"顺便一提，镭射枪攻击时会重置玩家的蓄力时间，所以它其实受冷却和攻击速度的双重约束"
-				""
-				"这也是为什么镭射枪的射线在攻击到一个敌人后伤害骤减，故镭射枪不适合对群"
+				"但是无论如何，无需蓄力的长距离近战武器，要什么自行车！"
 			]
 			id: "46D3B74BF63E1913"
 			rewards: [{
@@ -3789,9 +4266,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 306.98975f
-							"tconstruct:attack_speed": 130.95734f
-							"tconstruct:durability": 677026.06f
+							"tconstruct:attack_damage": 311.06805f
+							"tconstruct:attack_speed": 132.69708f
+							"tconstruct:durability": 686020.2f
 							"tinkers_ingenuity:cooldown": 1.1f
 							"tinkers_ingenuity:energy_capacity": 20000.0f
 							"tinkers_ingenuity:laser_range": 20.0f
@@ -3808,7 +4285,7 @@
 				type: "item"
 			}]
 			title: "镭射枪"
-			x: -1.5d
+			x: 9.0d
 			y: 5.0d
 		}
 		{
@@ -3860,9 +4337,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 796.9924f
-							"tconstruct:attack_speed": 51.447525f
-							"tconstruct:durability": 1085407.1f
+							"tconstruct:attack_damage": 807.58026f
+							"tconstruct:attack_speed": 52.130997f
+							"tconstruct:durability": 1099826.6f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3873,7 +4350,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
+			x: 6.0d
 			y: 5.0d
 		}
 		{
@@ -3928,13 +4405,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 413.91873f
-							"tconstruct:attack_speed": 130.95734f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 419.41757f
+							"tconstruct:attack_speed": 132.69708f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2383189.8f
+							"tconstruct:durability": 2414850.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 185.21109f
+							"tconstruct:mining_speed": 187.67159f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3945,8 +4422,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			id: "2DEE61CCCE4647E3"
@@ -3995,13 +4472,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 887.8557f
-							"tconstruct:attack_speed": 78.57441f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 899.6507f
+							"tconstruct:attack_speed": 79.618256f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2700948.2f
+							"tconstruct:durability": 2736830.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 185.21109f
+							"tconstruct:mining_speed": 187.67159f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4012,8 +4489,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			id: "620F6D989554BA2F"
@@ -4069,13 +4546,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 317.33768f
-							"tconstruct:attack_speed": 91.670135f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 321.55347f
+							"tconstruct:attack_speed": 92.88796f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1588793.1f
+							"tconstruct:durability": 1609900.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 277.81665f
+							"tconstruct:mining_speed": 281.50735f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4086,8 +4563,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			id: "748A28EAF6177DC3"
@@ -4137,13 +4614,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 603.6315f
-							"tconstruct:attack_speed": 111.31374f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 611.65063f
+							"tconstruct:attack_speed": 112.79253f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 3177586.2f
+							"tconstruct:durability": 3219800.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 185.21109f
+							"tconstruct:mining_speed": 187.67159f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4154,8 +4631,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			id: "33605B0E93469268"
@@ -4205,13 +4682,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 577.4166f
-							"tconstruct:attack_speed": 98.218f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 585.0876f
+							"tconstruct:attack_speed": 99.52281f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2542069.0f
+							"tconstruct:durability": 2575840.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 246.94812f
+							"tconstruct:mining_speed": 250.22879f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4222,10 +4699,15 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.5d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
+			description: [
+				"      长弓是比较标准的远程武器，但是整合包中远程武器普遍弱于近战武器，加上前期过渡不需要蓄力的吹箭筒和回旋镖优势更高，长弓大部分阶段没有就业空间。"
+				""
+				"      不过在进入第三章后长弓还是很有强度的。另外利用&b电子+谐振幽匿&r的长弓命中方块产生音爆且可以连发的特性可以在后期速杀监守者而大量刷取谐振幽匿"
+			]
 			id: "0BAFE5B2A69CB0DC"
 			rewards: [{
 				count: 3
@@ -4233,6 +4715,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
+			subtitle: "很标准的远程武器"
 			tasks: [{
 				id: "4D36DA5BB05A88B5"
 				item: {
@@ -4271,13 +4754,13 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 467.70477f
-							"tconstruct:attack_speed": 18.70819f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 473.91815f
+							"tconstruct:attack_speed": 18.956726f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:draw_speed": 299.33105f
-							"tconstruct:durability": 575838.1f
-							"tconstruct:projectile_damage": 37.41638f
+							"tconstruct:draw_speed": 303.30762f
+							"tconstruct:durability": 583488.0f
+							"tconstruct:projectile_damage": 37.913452f
 							"tconstruct:velocity": 4.0f
 						}
 						tic_volatile_data: {
@@ -4289,8 +4772,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.5d
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			id: "5F5CB945A978F3B6"
@@ -4300,6 +4783,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
+			subtitle: "弓都没就业了，弩就更没（"
 			tasks: [{
 				id: "5B6D28DA8D3D2FC2"
 				item: {
@@ -4342,13 +4826,13 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 935.40955f
-							"tconstruct:attack_speed": 18.70819f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 947.8363f
+							"tconstruct:attack_speed": 18.956726f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:draw_speed": 159.01962f
-							"tconstruct:durability": 507366.12f
-							"tconstruct:projectile_damage": 37.41638f
+							"tconstruct:draw_speed": 161.13217f
+							"tconstruct:durability": 514106.4f
+							"tconstruct:projectile_damage": 37.913452f
 							"tconstruct:velocity": 2.5f
 						}
 						tic_volatile_data: {
@@ -4360,8 +4844,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.5d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			description: [
@@ -4417,13 +4901,13 @@
 							tic_persistent: { }
 							tic_stats: {
 								"tconstruct:accuracy": 1.0f
-								"tconstruct:attack_damage": 344.93228f
-								"tconstruct:attack_speed": 235.72319f
-								"tconstruct:block_amount": 327.39334f
+								"tconstruct:attack_damage": 349.51465f
+								"tconstruct:attack_speed": 238.85474f
+								"tconstruct:block_amount": 331.7427f
 								"tconstruct:block_angle": 180.0f
-								"tconstruct:draw_speed": 18.70819f
-								"tconstruct:durability": 644754.44f
-								"tconstruct:projectile_damage": 37.41638f
+								"tconstruct:draw_speed": 18.956726f
+								"tconstruct:durability": 653319.9f
+								"tconstruct:projectile_damage": 37.913452f
 								"tconstruct:use_item_speed": 0.4f
 							}
 							tic_volatile_data: {
@@ -4469,11 +4953,11 @@
 							tic_persistent: { }
 							tic_stats: {
 								"tconstruct:accuracy": 1.0f
-								"tconstruct:block_amount": 280.62286f
+								"tconstruct:block_amount": 284.3509f
 								"tconstruct:block_angle": 180.0f
-								"tconstruct:draw_speed": 299.33105f
-								"tconstruct:durability": 253683.06f
-								"tconstruct:projectile_damage": 37.41638f
+								"tconstruct:draw_speed": 303.30762f
+								"tconstruct:durability": 257053.2f
+								"tconstruct:projectile_damage": 37.913452f
 								"tconstruct:use_item_speed": 0.4f
 								"tconstruct:velocity": 4.0f
 							}
@@ -4488,8 +4972,8 @@
 				}
 			]
 			title: "手杖"
-			x: 1.5d
-			y: 6.5d
+			x: -4.5d
+			y: 13.0d
 		}
 		{
 			description: ["增加的盾牌基底带来了更多的配装选择。虽然盾牌基底的选择较为有限，但是作用无疑是在的。"]
@@ -4527,9 +5011,9 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:armor": 30.0f
-						"tconstruct:armor_toughness": 20.0f
-						"tconstruct:durability": 919516.94f
+						"tconstruct:armor": 120.0f
+						"tconstruct:armor_toughness": 80.0f
+						"tconstruct:durability": 931732.56f
 						"tconstruct:knockback_resistance": 1.0f
 					}
 					tic_volatile_data: {
@@ -4584,9 +5068,9 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 30.0f
-								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 919516.94f
+								"tconstruct:armor": 120.0f
+								"tconstruct:armor_toughness": 80.0f
+								"tconstruct:durability": 931732.56f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4635,9 +5119,9 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 30.0f
-								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 919516.94f
+								"tconstruct:armor": 120.0f
+								"tconstruct:armor_toughness": 80.0f
+								"tconstruct:durability": 931732.56f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4686,9 +5170,9 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 30.0f
-								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 919516.94f
+								"tconstruct:armor": 120.0f
+								"tconstruct:armor_toughness": 80.0f
+								"tconstruct:durability": 931732.56f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4737,9 +5221,9 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 30.0f
-								"tconstruct:armor_toughness": 20.0f
-								"tconstruct:durability": 919516.94f
+								"tconstruct:armor": 120.0f
+								"tconstruct:armor_toughness": 80.0f
+								"tconstruct:durability": 931732.56f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
@@ -4754,15 +5238,20 @@
 				}
 			]
 			title: "层板护甲"
-			x: 4.5d
-			y: 6.5d
+			x: -4.5d
+			y: 11.0d
 		}
 		{
 			description: [
 				"与剑类似，可以横扫"
+				""
 				"自带两级加固与两级长臂"
+				""
 				"可以使用磨刀石（指燧石修补件）修复耐久"
-				"可以充当农夫乐事的刀使用"
+				""
+				"同时可以充当农夫乐事的刀使用"
+				""
+				"功能性强于长剑，数值略低于长剑，同样开局必做"
 			]
 			id: "1BB01260FC084EBE"
 			rewards: [{
@@ -4781,9 +5270,9 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -4792,11 +5281,11 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 3
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 2
@@ -4806,31 +5295,43 @@
 								level: 2
 								name: "tconstruct:reach"
 							}
+							{
+								level: 3
+								name: "solidarytinker:reliable"
+							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 24.2f
-							"tconstruct:attack_speed": 4.4f
-							"tconstruct:durability": 5464.8003f
+							"tconstruct:attack_damage": 391.5f
+							"tconstruct:attack_speed": 4.2f
+							"tconstruct:durability": 62259.2f
 						}
 						tic_volatile_data: {
-							abilities: 4
-							upgrades: 6
+							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.0d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			description: [
+				"在钓鱼方面数一数二，合理配置下上钩速度比原版满配鱼竿快得多！"
+				""
 				"耐久正相关宝藏与鱼的概率"
+				""
 				"拉弓速度正相关钓鱼速度"
+				""
 				"钩中目标造成伤害与流血"
+				""
 				"伤害正相关初速度与弹射物力量"
+				""
 				"不支持远程加伤词条，支持修改面板的词条"
+				""
+				"现在它能加持&6自动钓鱼强化&r辣，好耶！"
 			]
 			id: "740E2F2DEA004F84"
 			rewards: [{
@@ -4839,6 +5340,7 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
+			subtitle: "别惦记你的原版钓竿了！"
 			tasks: [{
 				id: "1E44D974586F795D"
 				item: {
@@ -4849,8 +5351,8 @@
 						tic_broken: 0b
 						tic_materials: [
 							"tconstruct:string"
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -4863,30 +5365,34 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "solidarytinker:sandstrom"
 							}
 							{
 								level: 2
-								name: "solidarytinker:tacticsattack"
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
 							}
 						]
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:draw_speed": 1.3f
-							"tconstruct:durability": 2024.0f
-							"tconstruct:velocity": 9.0f
+							"tconstruct:draw_speed": 1.8f
+							"tconstruct:durability": 8564.0f
+							"tconstruct:velocity": 11.0f
 						}
 						tic_volatile_data: {
-							abilities: 5
-							upgrades: 5
+							abilities: 3
+							upgrades: 3
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -4945,11 +5451,11 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 967.53503f
-							"tconstruct:attack_speed": 130.95734f
-							"tconstruct:durability": 2859827.5f
+							"tconstruct:attack_damage": 980.3886f
+							"tconstruct:attack_speed": 132.69708f
+							"tconstruct:durability": 2897820.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 1389.0831f
+							"tconstruct:mining_speed": 1407.5369f
 						}
 						tic_volatile_data: {
 							abilities: 16
@@ -4959,8 +5465,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -4984,8 +5490,8 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"solidarytinker:starfall"
-							"solidarytinker:starfall"
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
 						]
 						tic_modifiers: [
 							{
@@ -5001,17 +5507,21 @@
 								name: "solidarytinker:watery"
 							}
 							{
+								level: 2
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "cti:imprison"
 							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tinkers_ingenuity:armor": 2.5f
-							"tinkers_ingenuity:armor_toughness": 2.5f
-							"tinkers_ingenuity:arrow_damage": 1.5f
-							"tinkers_ingenuity:damage": 1.5f
-							"tinkers_ingenuity:movement_speed": 0.2f
+							"tinkers_ingenuity:armor": 2.59f
+							"tinkers_ingenuity:armor_toughness": 2.59f
+							"tinkers_ingenuity:arrow_damage": 2.58f
+							"tinkers_ingenuity:damage": 2.58f
+							"tinkers_ingenuity:movement_speed": 0.25f
 						}
 						tic_volatile_data: {
 							abilities: -9999
@@ -5022,14 +5532,17 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			description: [
 				"相比吹箭筒，回旋镖有4个部件、略低的基础初速度、更高的初速度倍率。"
 				""
-				"所以回旋镖在大多数情况下伤害显著高于吹箭筒。"
+				"所以回旋镖在有较好材料后就强度就远高于吹箭筒"
+				""
+				"不同于1.12的回旋镖，整合包中的回旋镖是远程武器而非近战武器。"
+				"&m&7顺带一提这玩意其实应该叫手里剑吧（"
 			]
 			id: "1901BB91B0D5AA12"
 			rewards: [{
@@ -5074,11 +5587,11 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 74.83276f
-							"tconstruct:attack_speed": 18.70819f
-							"tconstruct:draw_speed": 439.6425f
-							"tconstruct:durability": 137662.36f
-							"tconstruct:projectile_damage": 37.41638f
+							"tconstruct:attack_damage": 75.826904f
+							"tconstruct:attack_speed": 18.956726f
+							"tconstruct:draw_speed": 445.48306f
+							"tconstruct:durability": 139491.19f
+							"tconstruct:projectile_damage": 37.913452f
 							"tconstruct:velocity": 4.5099998f
 						}
 						tic_volatile_data: {
@@ -5089,8 +5602,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: -1.5d
+			y: 9.0d
 		}
 		{
 			description: [
@@ -5153,13 +5666,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 641.57404f
-							"tconstruct:attack_speed": 130.95734f
-							"tconstruct:block_amount": 93.540955f
+							"tconstruct:attack_damage": 650.0972f
+							"tconstruct:attack_speed": 132.69708f
+							"tconstruct:block_amount": 94.78363f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2224310.2f
+							"tconstruct:durability": 2253860.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 154.34258f
+							"tconstruct:mining_speed": 156.39299f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -5169,25 +5682,41 @@
 				}
 				type: "item"
 			}]
-			x: 2.25d
-			y: 8.0d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			description: [
-				"外表平平，但是效果并不差"
+				"外表平庸，强度中规中矩"
 				""
-				"自带多段攻击,自带锁头,自带斩杀效果"
+				"不吃攻速但是攻速会转化为&4伤害倍率&r,过低攻速&d伤害很低&r"
 				""
-				"魂珠会决定斩杀线等属性"
+				"有&b双形态&r，可按下&a按键打开配置界面切换&r&c单头模式&r/&b多头模式&r"
+				""
+				"单头模式类似于&c地狱塔&r，持续攻击&4会升温&r，三档会&e大幅提升基础伤害&r"
+				""
+				"专属强化&c加力燃烧&r(不是加力燃烧室)和&4超载燃烧&r（可自我配置消耗速度，会影响最终倍率）可&e大幅提升额外倍率&r"
+				""
+				"&b可用燃料可在JEI查看&r。"
+				""
+				""
+				"&b多头模式&r类似于王者荣耀的&9大司命&r，可给敌人&b施加标记后自动索敌&r开始摄魂"
+				""
+				"多头模式自带&d&l斩杀功能&r，可将敌人拖至空中摔到地上处决，如果目标会飞/无法拖动则会在9tick后&5强制处决&r"
+				""
+				"只要你攻击过一次该生物最终斩杀者是你则必定视为你击杀的"
+				""
+				"&l&b多头模式不会消耗燃料，单头模式不会触发斩杀&r"
+				""
+				"&9&l&n魂珠&r会决定&a斩杀线&r和&6攻击频率&r等属性"
 			]
 			id: "1DF5E6C328F6D252"
 			rewards: [{
-				count: 3
-				id: "2ACA5EF21D6C6919"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
+				ftb_money: 300L
+				id: "654211C61B37DCDC"
+				type: "sdmshop:money"
 			}]
-			subtitle: "小时候看这集被甩天上斩杀了"
+			subtitle: "小时候看这集被甩天上斩杀了,然后复活过一会忘带冰冻法术了"
 			tasks: [{
 				id: "14DFF6632B2FE202"
 				item: {
@@ -5197,71 +5726,94 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
+							"tinkersinnovation:polychrome_alloy"
 							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
+							"solidarytinker:icefantasy"
+							"tinkersinnovation:polychrome_alloy"
 							"etshtinker:exo_alloy"
 						]
 						tic_modifiers: [
 							{
-								level: 5
+								level: 2
+								name: "cti:omnipotent"
+							}
+							{
+								level: 2
 								name: "etshtinker:godlymetal"
 							}
 							{
-								level: 5
+								level: 2
 								name: "etshtinker:worldforceex"
 							}
 							{
-								level: 5
+								level: 2
 								name: "etshtinker:beconcerted"
 							}
 							{
 								level: 1
-								name: "tconstruct:stripping"
+								name: "solidarytinker:ancientocean"
+							}
+							{
+								level: 1
+								name: "solidarytinker:deepoceanblessing"
+							}
+							{
+								level: 1
+								name: "cti:deepoceanecho"
+							}
+							{
+								level: 1
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
+								name: "solidarytinker:anymoremode"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
 							}
 						]
-						tic_multipliers: {
-							"tconstruct:attack_damage": 0.8f
-							"tconstruct:durability": 1.2f
+						tic_persistent: {
+							"solidarytinker:temperature_rise_tick": 0
 						}
-						tic_persistent: { }
 						tic_stats: {
-							"solidarytinker:attack_frequency": 1.0f
+							"solidarytinker:attack_frequency": 3.0f
 							"solidarytinker:detection_range": 100.0f
 							"solidarytinker:exert_times": 100.0f
-							"solidarytinker:kill_threshold": 0.72f
-							"tconstruct:attack_damage": 454.7587f
-							"tconstruct:attack_speed": 130.95734f
-							"tconstruct:durability": 1525241.4f
-							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 1234.7406f
+							"solidarytinker:kill_threshold": 0.6f
+							"tconstruct:attack_damage": 12428.741f
+							"tconstruct:attack_speed": 132.69708f
+							"tconstruct:block_amount": 94.78363f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 131038.37f
+							"tconstruct:tank_capacity": 40000.0f
 						}
 						tic_volatile_data: {
-							abilities: 16
-							upgrades: 22
+							abilities: 7
+							ocean: 5
+							"tconstruct:total_tanks": 1
+							upgrades: 10
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: 0.75d
-			y: 8.0d
+			title: "魂戈"
+			x: -3.0d
+			y: 19.0d
 		}
 		{
 			description: [
 				"来自暮色的毕业武器，拥有5部件、最高的伤害、最大的横扫（伪横扫，判定与宽刃镰类似）、不错的攻击距离增幅和最低的攻速。"
 				""
 				"利刃词条使得在对待高血量生物时，它会具备最高的单体伤害。"
-				""
-				"后期解决了攻速问题后可以是T0级别的武器"
 			]
 			id: "440A3EB67EE3E6F4"
 			rewards: [{
-				count: 3
-				id: "2E97126032931874"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
+				ftb_money: 300L
+				id: "067DE7B3ED4B31F1"
+				type: "sdmshop:money"
 			}]
 			subtitle: "豪大大巨剑！"
 			tasks: [{
@@ -5273,27 +5825,67 @@
 						Damage: 0
 						tic_broken: 0b
 						tic_materials: [
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
-							"etshtinker:exo_alloy"
+							"cti:aetherium"
+							"etshtinker:coronation_alloy"
+							"cti:xenoglarium"
+							"cti:ultra_dense_hydride_crystal"
+							"tinkersinnovation:hostilium"
 						]
 						tic_modifiers: [
 							{
-								level: 5
-								name: "etshtinker:godlymetal"
+								level: 1
+								name: "cti:ion_apocalypse"
+							}
+							{
+								level: 1
+								name: "cti:arrogance_insatiable"
+							}
+							{
+								level: 6
+								name: "cti:insatiable_handler"
 							}
 							{
 								level: 5
-								name: "etshtinker:worldforceex"
+								name: "cti:refined"
 							}
 							{
-								level: 5
-								name: "etshtinker:beconcerted"
+								level: 1
+								name: "etshtinker:solidex"
 							}
 							{
-								level: 3
+								level: 1
+								name: "etshtinker:plasmawaveslashmodifier"
+							}
+							{
+								level: 1
+								name: "cti:star_fury"
+							}
+							{
+								level: 1
+								name: "etshtinker:masseffect"
+							}
+							{
+								level: 1
+								name: "cti:stellar_blessing"
+							}
+							{
+								level: 1
+								name: "cti:pressure_induced"
+							}
+							{
+								level: 1
+								name: "etshtinker:semicrystaline"
+							}
+							{
+								level: 2
+								name: "tinkersinnovation:hostility"
+							}
+							{
+								level: 1
+								name: "tinkersinnovation:no_sealed"
+							}
+							{
+								level: 2
 								name: "tconstruct:reach"
 							}
 							{
@@ -5302,28 +5894,33 @@
 							}
 						]
 						tic_multipliers: {
-							"tconstruct:attack_damage": 2.5f
-							"tconstruct:attack_speed": 0.5f
-							"tconstruct:durability": 3.75f
+							"tconstruct:attack_damage": 3.5f
+							"tconstruct:attack_speed": 0.35f
+							"tconstruct:durability": 5.0f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1759.1545f
-							"tconstruct:attack_speed": 39.287205f
-							"tconstruct:block_amount": 93.540955f
+							"cti:insatiable_base": 96.0f
+							"etshtinker:fluid_efficiency": 1.5f
+							"etshtinker:plasmarange": 1.5f
+							"tconstruct:attack_damage": 491.3672f
+							"tconstruct:attack_speed": 0.2625f
+							"tconstruct:block_amount": 7.5f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2383189.8f
+							"tconstruct:durability": 46599.754f
 						}
 						tic_volatile_data: {
-							abilities: 17
-							upgrades: 22
+							abilities: 10
+							hostilities: 2
+							upgrades: 10
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: -0.75d
-			y: 8.0d
+			title: "巨人剑"
+			x: -4.5d
+			y: 19.0d
 		}
 		{
 			description: [
@@ -5333,10 +5930,9 @@
 			]
 			id: "1439DDE9F887BC1C"
 			rewards: [{
-				count: 3
-				id: "04009C75C1896F68"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
+				ftb_money: 300L
+				id: "1CE047695D0E1831"
+				type: "sdmshop:money"
 			}]
 			subtitle: "盾反之极意"
 			tasks: [{
@@ -5393,12 +5989,12 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:armor_toughness": 20.0f
-							"tconstruct:attack_damage": 144.98848f
-							"tconstruct:attack_speed": 28.062286f
-							"tconstruct:block_amount": 2048.0f
+							"tconstruct:armor_toughness": 80.0f
+							"tconstruct:attack_damage": 146.91463f
+							"tconstruct:attack_speed": 28.43509f
+							"tconstruct:block_amount": 2843.5088f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1702583.9f
+							"tconstruct:durability": 1725202.5f
 							"tconstruct:knockback_resistance": 1.0f
 							"tconstruct:use_item_speed": 0.3f
 						}
@@ -5411,8 +6007,465 @@
 				}
 				type: "item"
 			}]
-			x: -2.25d
-			y: 8.0d
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			description: ["在有创造模式飞行后，其右键技能跑图速度甚至可以超过三叉戟！"]
+			id: "5FD6196FB3C7BA04"
+			rewards: [{
+				ftb_money: 300L
+				id: "267E33721DA31788"
+				type: "sdmshop:money"
+			}]
+			subtitle: "666还有雷横"
+			tasks: [{
+				id: "15E927D7B3A65ACD"
+				item: {
+					Count: 1b
+					id: "cloudertinker:tiantuistar_blade"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "cloudertinker:tiantuistar"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 650.0972f
+							"tconstruct:attack_speed": 132.69708f
+							"tconstruct:durability": 2253860.0f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 18
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"不错的副手拐，不适合作为主武器使用"
+				""
+				"专属强化电能充沛和快速蓄能等会极大影响强度，一定要打"
+				""
+				"可在末影箱中被星野锭触发"
+			]
+			id: "48CDA9217DEA60F8"
+			rewards: [{
+				ftb_money: 300L
+				id: "5D6B2978F495BF25"
+				type: "sdmshop:money"
+			}]
+			subtitle: "冲刺！冲♿"
+			tasks: [{
+				id: "4B27C274BDFEFF5E"
+				item: {
+					Count: 1b
+					id: "solidarytinker:electric_batons"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"solidarytinker:hoshino"
+							"cti:xenoglarium"
+							"cti:stellar_manyullyn"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "cti:all"
+							}
+							{
+								level: 2
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 2
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 3
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 1
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 1
+								name: "solidarytinker:deadlyrhythm"
+							}
+							{
+								level: 2
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
+								name: "cti:star_fury"
+							}
+							{
+								level: 1
+								name: "etshtinker:masseffect"
+							}
+							{
+								level: 1
+								name: "cti:stellar_blessing"
+							}
+							{
+								level: 1
+								name: "cti:stellar_blade"
+							}
+							{
+								level: 1
+								name: "solidarytinker:electricbatonscore"
+							}
+							{
+								level: 1
+								name: "solidarytinker:reliable"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 0.6f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"cti:electric_resistance": 5.0f
+							"cti:frozen_resistance": 5.0f
+							"cti:pressure_resistance": 5.0f
+							"cti:scorch_resistance": 5.0f
+							"solidarytinker:detection_range": 20.0f
+							"solidarytinker:energy_capacity": 6.48641E7f
+							"solidarytinker:target_amount": 18.0f
+							"tconstruct:attack_damage": 317.40668f
+							"tconstruct:attack_speed": 49.761406f
+							"tconstruct:block_amount": 94.78363f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 242740.88f
+						}
+						tic_volatile_data: {
+							abilities: 11
+							flux: 3
+							"solidarytinker:energy_owner": "solidarytinker:electricbatonscore"
+							"solidarytinker:max_energy": 100000
+							upgrades: 16
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "电棍"
+			x: -1.5d
+			y: 17.0d
+		}
+		{
+			description: [
+				"      最高级的工具！它们或是具有极高的数值，或是有强大的机制。"
+				""
+				"      但是将它们合成出来只是一个开始。部分进阶工具在消耗资源和加持大量的强化的前提下才能展现它们的真正实力。"
+			]
+			icon: "cti:qi_yao_matrix"
+			id: "55A7516590843058"
+			size: 2.0d
+			subtitle: "强大，但是有阶段需求的工具"
+			tasks: [{
+				id: "3AAA922D2EE36DFC"
+				type: "checkmark"
+			}]
+			title: "进阶工具"
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			description: ["可以无视挖掘等级的工具，同时初始自带能量装载和2级时运"]
+			id: "73886F8BBB83AA74"
+			subtitle: "原子分解机，但是匠魂"
+			tasks: [{
+				id: "5350BD82D4EB96E6"
+				item: {
+					Count: 1b
+					id: "solidarytinker:mekatool"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:nights_alloy"
+							"etshtinker:exo_alloy"
+							"tinkersinnovation:polychrome_alloy"
+							"etshtinker:manalyn_queen"
+							"tinkersinnovation:polychrome_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 30
+								name: "etshtinker:hyperfluxloaded"
+							}
+							{
+								level: 3
+								name: "etshtinker:nightsedge"
+							}
+							{
+								level: 3
+								name: "etshtinker:nightsenhance"
+							}
+							{
+								level: 1
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 1
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 1
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 2
+								name: "cti:omnipotent"
+							}
+							{
+								level: 1
+								name: "etshtinker:manaoverload"
+							}
+							{
+								level: 1
+								name: "etshtinker:modifierenchantedsword"
+							}
+							{
+								level: 1
+								name: "solidarytinker:precise"
+							}
+							{
+								level: 1
+								name: "etshtinker:fluxloaded"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 4.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 263.91318f
+							"tconstruct:attack_speed": 16.264872f
+							"tconstruct:block_amount": 94.78363f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 280276.12f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 294.89557f
+						}
+						tic_volatile_data: {
+							abilities: 5
+							"etshtinker:energy_owner": "etshtinker:hyperfluxloaded"
+							"etshtinker:max_energy": 4000000
+							upgrades: 8
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "开拓者工具"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "7A289FB5FD300BF0"
+			subtitle: "手感不如弓类武器"
+			tasks: [{
+				id: "25AD09E80DF35EDF"
+				item: {
+					Count: 1b
+					id: "tconstruct:crossbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"solidarytinker:hoshino"
+							"solidarytinker:hoshino"
+							"cloudertinker:raven_feather"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "solidarytinker:neverend"
+							}
+							{
+								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 2
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:ravenfeather"
+							}
+							{
+								level: 1
+								name: "cloudertinker:seektraces"
+							}
+							{
+								level: 2
+								name: "solidarytinker:reliable"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 25.0f
+							"tconstruct:draw_speed": 1.8f
+							"tconstruct:durability": 51384.0f
+							"tconstruct:velocity": 11.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"0.43版本新加入的武器"
+				""
+				"右键可以释放技能---华尔兹，右键后立刻后退一小步，在接下来的40tick快速依次瞬步至目标的四个对角，并且在瞬步至对角时候对目标执行一次全额的打击，如果目标提前死亡则结束打击，完整的四次打击的尾端会附带一小段生命恢复"
+				""
+				"其存在配置界面，可以在按键设置中打开，默认Z"
+				""
+				"当你击杀怪物后，会依据怪物一部分最大生命积累经验，可shift查看，单一怪物击杀次数达到400次则无法感知到更多经验，需要击杀新的怪物才能累计"
+				""
+				"每升一级可以消耗64的机械动力的经验颗粒，来进行一次词条抽取，抽取到的词条会永久附加到工具上并且永久加成"
+				""
+				"这把工具也会牢牢记住你杀过的每种怪物的数量，专属强化“刻骨铭心”会依据你击杀过的生物来针对性增伤"
+			]
+			id: "34FD13C527DB303C"
+			rewards: [{
+				count: 3
+				id: "1ABD1F4E9A2BC969"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "别和西洋剑搞混了！！"
+			tasks: [{
+				id: "0C03C3FE16804FE0"
+				item: {
+					Count: 1b
+					id: "solidarytinker:perception_rapier"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"solidarytinker:kemomimi"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "solidarytinker:ordinaryessence"
+							}
+							{
+								level: 4
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 4
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 4
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 1
+								name: "solidarytinker:voraciousfox"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:attack_speed": 1.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"solidarytinker:max_level": 12.0f
+							"solidarytinker:perception_count": 1000.0f
+							"tconstruct:attack_damage": 645.9031f
+							"tconstruct:attack_speed": 258.7593f
+							"tconstruct:block_amount": 94.78363f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 1287920.0f
+						}
+						tic_volatile_data: {
+							abilities: 13
+							upgrades: 19
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "感知刺剑"
+			x: 1.5d
+			y: 17.0d
 		}
 	]
 	subtitle: [

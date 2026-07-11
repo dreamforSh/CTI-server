@@ -1,0 +1,94 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 2,
+        "name": "tconstruct:ductile"
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:armorcoating",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:sophisticated",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "level": 2,
+        "name": "tconstruct:ductile"
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:armorcoating",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:sophisticated",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 2,
+        "name": "tconstruct:ductile"
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:armorcoating",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:sophisticated",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "level": 2,
+        "name": "tconstruct:ductile"
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:armorcoating",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:sophisticated",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "level": 2,
+        "name": "tconstruct:ductile"
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:armorcoating",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:sophisticated",
+        "level": 1
+      }
+    ]
+  }
+}

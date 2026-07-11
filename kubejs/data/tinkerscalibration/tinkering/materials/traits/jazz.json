@@ -1,0 +1,24 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:replaced_benthamism",
+        "level": 1
+      },
+      {
+        "name": "cti:replaced_well_trained",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:replaced_insatiable",
+        "level": 4
+      },
+      {
+        "name": "cti:replaced_well_trained",
+        "level": 1
+      }
+    ]
+  }
+}

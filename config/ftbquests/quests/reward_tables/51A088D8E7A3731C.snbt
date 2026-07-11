@@ -2,7 +2,7 @@
 	icon: "thermal:machine_frame"
 	id: "51A088D8E7A3731C"
 	loot_size: 4
-	order_index: 28
+	order_index: 27
 	rewards: [
 		{ item: "thermal:enderium_ingot" }
 		{ item: "thermal:signalum_ingot" }

@@ -17,7 +17,7 @@
   },
   "resultfluid": {
     "amount": 100,
-    "fluid": "immersivepetroleum:diesel_sulfur"
+    "fluid": "kubejs:tar_mix"
   },
-  "time": 15
+  "time": 2
 }

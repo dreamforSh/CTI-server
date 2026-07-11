@@ -6,7 +6,7 @@
 	}
 	id: "5A10E21EC607984E"
 	loot_size: 1
-	order_index: 46
+	order_index: 45
 	rewards: [
 		{ count: 4, item: "ars_nouveau:blue_archwood_log" }
 		{ count: 4, item: "ars_nouveau:purple_archwood_log" }

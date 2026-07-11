@@ -3,7 +3,7 @@
     "pattern": [
       " ABA ",
       "ACDCA",
-      " EFE ",
+      " E E ",
       "  G  ",
       "AAAAA"
     ],
@@ -22,9 +22,6 @@
       },
       "E": {
         "item": "biomancy:mob_fang"
-      },
-      "F": {
-        "item": "biomancy:tendon_chain"
       },
       "G": {
         "item": "l2hostility:chaos_ingot"

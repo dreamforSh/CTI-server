@@ -1,7 +1,7 @@
 {
 	id: "426AAD30F9C8F40B"
 	loot_size: 1
-	order_index: 39
+	order_index: 38
 	rewards: [
 		{ item: "l2complements:warden_bone_shard" }
 		{ item: "l2complements:guardian_eye" }

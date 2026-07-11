@@ -1,7 +1,7 @@
 {
 	id: "0A956CC895CC2A42"
 	loot_size: 1
-	order_index: 41
+	order_index: 40
 	rewards: [
 		{ item: "l2complements:force_field", weight: 6.0f }
 		{ item: "l2hostility:book_of_reprint", weight: 6.0f }

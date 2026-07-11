@@ -1,0 +1,46 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  A  A   ",
+    "  BAAB   ",
+    " CBDDBC  ",
+    "CBEFFEBC ",
+    "GHDFFDHG ",
+    " AEIIEA  ",
+    " AADDAA  ",
+    "   EE    ",
+    "  G  G   "
+  ],
+  "key": {
+    "A": {
+      "item": "l2complements:storm_core"
+    },
+    "B": {
+      "item": "etshtinker:coronation_alloy"
+    },
+    "C": {
+      "item": "l2complements:resonant_feather"
+    },
+    "D": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "E": {
+      "item": "industrialforegoing:pink_slime"
+    },
+    "F": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "G": {
+      "item": "l2hostility:witch_droplet"
+    },
+    "H": {
+      "item": "cataclysm:void_jaw"
+    },
+    "I": {
+      "item": "l2complements:life_essence"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:mika_ingot"
+  }
+}

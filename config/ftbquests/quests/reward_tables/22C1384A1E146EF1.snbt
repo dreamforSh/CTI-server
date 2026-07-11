@@ -2,7 +2,7 @@
 	icon: "thermal:sapphire_ore"
 	id: "22C1384A1E146EF1"
 	loot_size: 6
-	order_index: 67
+	order_index: 66
 	rewards: [
 		{ item: "mekanism:block_steel" }
 		{ item: "mekanism:block_lead" }

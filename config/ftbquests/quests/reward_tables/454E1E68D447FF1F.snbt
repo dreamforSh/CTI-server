@@ -2,7 +2,7 @@
 	icon: "l2hostility:hostility_orb"
 	id: "454E1E68D447FF1F"
 	loot_size: 3
-	order_index: 58
+	order_index: 57
 	rewards: [
 		{ count: 3, item: "l2hostility:chaos_ingot" }
 		{ count: 3, item: "l2hostility:miracle_ingot" }

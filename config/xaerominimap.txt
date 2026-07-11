@@ -19,8 +19,8 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:true
-zoom:0
-minimapSize:0
+zoom:1
+minimapSize:120
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
@@ -70,12 +70,12 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:1
+uiScale:3
 bossHealthPushBox:0
 potionEffectPushBox:0
 minimapFrame:2
@@ -126,4 +126,4 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
-module;id=xaerominimap:minimap;active=true;x=-24;y=-36;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;
+module;id=xaerominimap:minimap;active=true;x=-2;y=31;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;

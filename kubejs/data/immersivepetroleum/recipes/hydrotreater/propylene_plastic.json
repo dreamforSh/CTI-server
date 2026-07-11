@@ -1,6 +1,6 @@
 {
   "type": "immersivepetroleum:hydrotreater",
-  "time": 60,
+  "time": 10,
   "energy": 61440,
   "result": {
     "fluid": "pneumaticcraft:plastic",
@@ -18,6 +18,6 @@
   },
   "secondary_result": {
     "item": "immersivepetroleum:bitumen",
-    "chance": "0.1"
+    "chance": "0.5"
   }
 }

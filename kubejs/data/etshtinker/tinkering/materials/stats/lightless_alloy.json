@@ -4,15 +4,15 @@
       "fluid_capacity": 75000
     },
     "etshtinker:plasma_generator": {
-      "damagemultiplier": 1.7,
+      "damagemultiplier": 2.2,
       "criticalrate": 0.65,
       "fluidefficiency": 0.5,
       "slash_color": 9
     },
     "etshtinker:ionizer": {
-      "cooldown": 40,
+      "cooldown": 45,
       "plasmarange": 18,
-      "damagemultiplier": 8.5
+      "damagemultiplier": 7
     },
     "tconstruct:binding": {},
     "tconstruct:handle": {

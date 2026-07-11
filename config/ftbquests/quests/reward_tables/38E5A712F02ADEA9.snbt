@@ -2,7 +2,7 @@
 	icon: "twilightforest:experiment_115"
 	id: "38E5A712F02ADEA9"
 	loot_size: 1
-	order_index: 19
+	order_index: 18
 	rewards: [
 		{ count: 8, item: "tconstruct:pig_iron_ingot" }
 		{ count: 8, item: "tinkers_thinking:chlorophyll_ore" }

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:chiller",
+  "ingredient": {
+    "fluid": "thermal:glowstone",
+    "amount": 400
+  },
+  "result": [
+    {
+      "item": "minecraft:glowstone"
+    }
+  ],
+  "energy": 10000
+}

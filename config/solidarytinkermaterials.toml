@@ -54,4 +54,7 @@
 	FluxArmorBlock = 200
 	#大马士革钢是否直接杀死目标,如果否则会造成1000点高额玩家伤害，默认开启
 	should_direct_kill = true
+	#极寒彩钢免伤比例，默认96%
+	#Range: 0.0 ~ 1.0
+	FluxArmorBlockPer = 0.96
 

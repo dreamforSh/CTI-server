@@ -2,7 +2,7 @@
 	icon: "tinkers_ingenuity:dragon_soul_crystal"
 	id: "7B109A82F824AB58"
 	loot_size: 12
-	order_index: 34
+	order_index: 33
 	rewards: [
 		{ count: 2, item: "tinkers_ingenuity:knight_crystal_ingot" }
 		{ count: 2, item: "tinkers_ingenuity:ocean_alloy_ingot" }

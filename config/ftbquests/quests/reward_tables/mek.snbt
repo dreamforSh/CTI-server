@@ -1,7 +1,7 @@
 {
 	id: "0E1731CDE4F2D775"
 	loot_size: 1
-	order_index: 8
+	order_index: 7
 	rewards: [
 		{ count: 24, item: "mekanism:ingot_osmium" }
 		{ count: 24, item: "minecraft:iron_ingot" }

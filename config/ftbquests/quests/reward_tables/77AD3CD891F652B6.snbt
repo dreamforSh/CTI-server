@@ -2,7 +2,7 @@
 	icon: "minecraft:bedrock"
 	id: "77AD3CD891F652B6"
 	loot_size: 6
-	order_index: 50
+	order_index: 49
 	rewards: [
 		{ count: 8, item: "minecraft:iron_block" }
 		{ count: 8, item: "minecraft:gold_block" }

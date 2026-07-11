@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "tconstruct:ichor_slime_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tconstruct:ichor_slime_crystal"
+  }
+}

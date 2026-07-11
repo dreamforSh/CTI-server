@@ -1,7 +1,7 @@
 {
   "type": "pneumaticcraft:fluid_mixer",
   "fluid_output": {
-    "amount": 4000,
+    "amount": 1000,
     "fluid": "kubejs:volatile_lava"
   },
   "input1": {

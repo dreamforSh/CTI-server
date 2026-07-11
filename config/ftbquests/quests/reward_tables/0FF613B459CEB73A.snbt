@@ -2,7 +2,7 @@
 	icon: "create:wrench"
 	id: "0FF613B459CEB73A"
 	loot_size: 6
-	order_index: 57
+	order_index: 56
 	rewards: [
 		{ count: 4, item: "create:andesite_alloy_block" }
 		{ count: 4, item: "create:brass_block" }

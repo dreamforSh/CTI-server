@@ -2,7 +2,7 @@
 	icon: "cataclysm:flame_eye"
 	id: "5563D2F727876A6E"
 	loot_size: 5
-	order_index: 60
+	order_index: 59
 	rewards: [
 		{ count: 3, item: "ad_astra:desh_ingot" }
 		{ count: 3, item: "ad_astra:calorite_ingot" }

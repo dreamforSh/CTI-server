@@ -17,6 +17,6 @@
     "pressure": 2.5,
     "speed": 1,
     "temperature": {
-      "min_temp": 37
+      "min_temp": 300
     }
   }

@@ -1,0 +1,16 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "cti:over_aetheric"
+      },
+      {
+      "name": "tconstruct:overslime",
+      "level": 1
+    },
+      {
+        "name": "cti:ambrosium_powered",
+        "level": 1
+      }
+    ]
+}

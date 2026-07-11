@@ -17,7 +17,7 @@
         {
             "chance": 0.4,
             "output": {
-                "tag": "forge:ores/tin"
+                "item": "thermal:deepslate_tin_ore"
             }
         },
         {
@@ -53,5 +53,5 @@
             }
         }
     ],
-    "weight": 20
+    "weight": 10
 }

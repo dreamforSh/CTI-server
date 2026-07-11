@@ -1,0 +1,36 @@
+{
+    "type": "tconstruct:modifier",
+    "inputs": [
+      {
+        "item": "immersiveengineering:toolupgrade_powerpack_tesla",
+        "amount_needed": 1
+      },
+      {
+        "item": "kubejs:electro_magnetic_mechanism",
+        "amount_needed": 4
+      },
+      {
+        "item": "immersiveengineering:toolupgrade_powerpack_tesla",
+        "amount_needed": 1
+      },
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "amount_needed": 8
+      },
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "amount_needed": 8
+      }
+    ],
+    "tools": {
+      "tag": "tconstruct:modifiable/melee"
+    },
+    "slots": {
+        "upgrades": 1
+    },
+    "allow_crystal": true,
+    "result":"cti:witherinhibitor",
+    "level": {
+      "max": 1
+    }
+  }

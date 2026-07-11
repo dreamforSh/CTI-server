@@ -4,7 +4,7 @@
     "tconstruct:handle": {
       "durability": 0.5,
       "mining_speed": 0.75,
-      "melee_speed": 1.5,
+      "melee_speed": 0.75,
       "melee_damage": 1.75
     },
     "tconstruct:head": {
@@ -19,7 +19,7 @@
     "etshtinker:ionizer": {
       "cooldown": 32,
       "plasmarange": 24,
-      "damagemultiplier": 12.5
+      "damagemultiplier": 6.5
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 3.3,

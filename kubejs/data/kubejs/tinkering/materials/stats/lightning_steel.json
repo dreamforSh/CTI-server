@@ -8,21 +8,21 @@
       "durability": 2.5,
       "mining_speed": 2.5,
       "melee_speed": -0.1,
-      "melee_damage": 7.5
+      "melee_damage": 3.5
     },
     "tconstruct:head": {
       "durability": 16384,
       "mining_speed": 25.0,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 30.0
+      "melee_attack": 126.0
     },
     "etshtinker:fluid_chamber": {
       "fluid_capacity": 240000
     },
     "etshtinker:ionizer": {
-      "cooldown": 48,
+      "cooldown": 58,
       "plasmarange": 36,
-      "damagemultiplier": 25
+      "damagemultiplier": 9.5
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 5.5,

@@ -305,7 +305,7 @@
 			}]
 			title: "产出魔力——你的第一朵产能花"
 			x: -6.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -361,7 +361,7 @@
 				item: "botania:elven_spreader"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: -5.0d
 		}
 		{
@@ -379,7 +379,7 @@
 				item: "botania:gaia_spreader"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -6.0d
 		}
 		{
@@ -408,7 +408,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["0DEF1B6BD4C86475"]
+			dependencies: [
+				"0DEF1B6BD4C86475"
+				"5A76CB6E2F4CDEB1"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"通过将相应物品丢入&a有魔力的魔力池&r中转化。"
 				"用量比较大，多多益善。"
@@ -451,7 +455,8 @@
 			description: [
 				"制作好符文后，合成泰拉凝聚板，再按照下图的方式摆放。将合成泰拉钢所需的三种材料：&a魔力钢，魔力钻石，魔力珍珠&r右键放置上去，消耗半池子的魔力即可合成泰拉钢。"
 				""
-				"&e十分推荐在合成泰拉钢时用火花传输魔力。&r"
+				"&e为了保证在掉落物消失前完成合成，请使用传输量够大的手段传输魔力"
+				"（比如火花和扩展输出总线）"
 				"{image:kubejs:textures/ftbq_images/tailaningjuban.png width:190 height:100 align:1}"
 			]
 			icon: "botania:terra_plate"
@@ -716,6 +721,8 @@
 				"每一个tnt在热爆花范围内爆炸能产出6500魔力。&e热爆花只有在内部魔力完全排空时才会重新吸收tnt，所以请注意及时排出产生的魔力&r，不然花会因为无法吸收后续的tnt而产生爆炸破坏地形。"
 				""
 				"&0&m什么，你问我送你的东西是做什么的，我不知道&r"
+				""
+				"或者你也可以用powah的充能台合成TNT"
 			]
 			id: "7F4715ACF092C851"
 			rewards: [
@@ -1668,7 +1675,7 @@
 				type: "item"
 			}]
 			title: "更快地收集，更高的效率"
-			x: 0.0d
+			x: -0.75d
 			y: 0.75d
 		}
 		{
@@ -2389,7 +2396,7 @@
 				type: "item"
 			}]
 			title: "为你的发射器安装透镜让它变得更强"
-			x: -8.5d
+			x: -9.0d
 			y: -5.0d
 		}
 		{
@@ -2420,7 +2427,7 @@
 		}
 		{
 			dependencies: ["470A698F7EC80221"]
-			description: ["每种结构生成对应的荒野怪物。荒野召唤之板之板会生成全部三种荒野怪物。"]
+			description: ["见到了可别手软！"]
 			icon: "ars_nouveau:wilden_stalker_se"
 			id: "328CE0529C3E8488"
 			rewards: [
@@ -2460,29 +2467,8 @@
 					type: "kill"
 					value: 1L
 				}
-				{
-					id: "40B2D09AA537D574"
-					item: "ars_nouveau:ritual_wilden_summon"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "60B6EBACF9893A5B"
-					structure: "ars_nouveau:guardian_wilden_den"
-					type: "structure"
-				}
-				{
-					id: "770059F917D1A84A"
-					structure: "ars_nouveau:hunter_wilden_den"
-					type: "structure"
-				}
-				{
-					id: "438E64B4CF3C3D61"
-					structure: "ars_nouveau:stalker_wilden_den"
-					type: "structure"
-				}
 			]
-			title: "三种特定结构出现的怪物/或者试试荒野召唤之板之板"
+			title: "三种野外常见的怪物"
 			x: -4.5d
 			y: 13.0d
 		}
@@ -4111,7 +4097,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["所有机器都可以使用&e魔力发射器&r或&e火花&r来导入/导出魔力。"]
+			description: ["所有机器都可以使用&e魔力发射器&r、&e输出总线&r或&e火花&r来导入/导出魔力。"]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "1A560D54ED008AAD"
 			shape: "diamond"
@@ -4222,6 +4208,129 @@
 			title: " 仪式板兑换"
 			x: -7.5d
 			y: 20.0d
+		}
+		{
+			dependencies: ["613F4153D3D4AC92"]
+			description: [
+				"对消花的作用机制类似于旧版热力的反应能源炉，当把有相反元素性质的物品丢给它时，它会消耗物品并产出魔力。"
+				""
+				"在四种元素中，&4大地&r与&e狂风&r相对，&6烈焰&r与&b凛冰&r相对"
+				""
+				"被消耗的物品会按照两个物品所蕴含元素能量（见JEI）的最小值*2产生魔力，每刻产出总魔力量的1/1000（最大2000mana/t）"
+			]
+			id: "5A76CB6E2F4CDEB1"
+			rewards: [
+				{
+					count: 4
+					id: "2CCFEFDB5E45A552"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10171CDB2BC5C4ED"
+					item: "thermal:blizz_powder"
+					type: "item"
+				}
+			]
+			subtitle: "火红莲玩腻了？不妨试试我们CTI特产"
+			tasks: [{
+				id: "4E73DDD5AB279D4F"
+				item: "cti:reactive_flower"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"      相比ME接口，你可以将产能花绑定到ME集魔接口上，产能花产出的魔力会直接传输到ME接口里"
+				"{image:kubejs:textures/ftbq_images/appbot3.png width:150 height:100 align:1 fit:true}"
+				""
+				"      光听这个是不是已经够强大了？所以ME集魔接口造价也相当昂贵！"
+			]
+			id: "1FFD05CC125B0AD2"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "魔力全部进磁盘！"
+			tasks: [{
+				id: "1F0B9139E5B6191E"
+				item: "cti:mana_interface"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["66ED51C27A3598AA"]
+			description: [
+				"      感谢应用植魔这个模组，现在你可以用AE2的设备来传输魔力了！"
+				""
+				"      除了符文祭坛外的大部分机器都可以用输出总线或者存储总线来输入魔力，这甚至包括了泰拉凝聚板。"
+				"{image:kubejs:textures/ftbq_images/appbot4.png width:180 height:100 align:1 fit:true}"
+				""
+				"      使用带有魔力的魔力石板可以标记魔力"
+				"{image:kubejs:textures/ftbq_images/appbot2.png width:150 height:100 align:1 fit:true}"
+			]
+			icon: "ae2:storage_bus"
+			id: "2D7D37977C651C9F"
+			subtitle: "猜猜为什么我在这里？"
+			tasks: [
+				{
+					id: "13873CF68DE2AA24"
+					item: "ae2:storage_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "187F47E3A5379158"
+					item: "ae2:export_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21D04882EE1BFFBD"
+					item: "ae2:import_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A2AC0194E5E8770"
+					type: "checkmark"
+				}
+			]
+			title: "AE2的各种总线"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["14CDB0C06048937A"]
+			id: "13881368341C7BC0"
+			subtitle: "更高效的魔力存储！"
+			tasks: [{
+				id: "7F193290C591B30B"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D7D37977C651C9F"]
+			description: [
+				"{image:kubejs:textures/ftbq_images/appbot5.png width:100 height:160 align:1}"
+				"{image:kubejs:textures/ftbq_images/appbot6.png width:100 height:200 align:1}"
+			]
+			id: "14230BDD775A1D74"
+			invisible: true
+			subtitle: "注：你并不需要跟着做"
+			tasks: [{
+				id: "5E8B2364C1E2AEA0"
+				type: "checkmark"
+			}]
+			title: "产线鉴赏：一种神秘魔力传输设备"
+			x: -8.0d
+			y: -6.0d
 		}
 	]
 	subtitle: [

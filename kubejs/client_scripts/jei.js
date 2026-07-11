@@ -8,6 +8,7 @@ event.addFluid('manaliquidizer:mana_fluid', Text.black({ "translate": "kubejs.je
 event.addFluid('kubejs:hot_heavymetal_lava', Text.black({ "translate": "kubejs.jei.hot_heavymetal_lava" }))
 event.addFluid('kubejs:royal_jelly', Text.black({ "translate": "kubejs.jei.royal_jelly" }))
 event.addFluid('kubejs:hot_heavycrystal_lava', Text.black({ "translate": "kubejs.jei.hot_heavycrystal_lava" }))
+event.addFluid('kubejs:hot_metal_lava', Text.black({ "translate": "kubejs.jei.hot_metal_lava" }))
 event.addItem('immersiveengineering:railgun', Text.black({ "translate": "kubejs.jei.railgun" }))
 
 event.addItem('tinkers_ingenuity:splendid_ingot', Text.black({ "translate": "kubejs.jei.glorious_seal" }))
@@ -22,6 +23,7 @@ event.addItem('cti:rasterite', Text.black({ "translate": "kubejs.jei.rasterite" 
 event.addItem('cti:rasterite_budding', Text.black({ "translate": "kubejs.jei.rasterite" }))
 event.addItem('cti:unipolar_magnet', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
 event.addItem('cti:unipolar_magnet_budding', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
+event.addItem('cti:unipolar_magnet_shard', Text.black({ "translate": "kubejs.jei.unipolar_magnet" }))
 event.addItem('kubejs:aetherium_core', Text.black({ "translate": "kubejs.jei.aetherium_core" }))
 event.addItem('kubejs:violium_core', Text.black({ "translate": "kubejs.jei.violium_core" }))
 event.addItem('obscure_api:astral_dust', Text.black({ "translate": "kubejs.jei.astral_dusttt" }))

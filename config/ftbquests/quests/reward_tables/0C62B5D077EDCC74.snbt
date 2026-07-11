@@ -8,7 +8,7 @@
 	}
 	id: "0C62B5D077EDCC74"
 	loot_size: 4
-	order_index: 56
+	order_index: 55
 	rewards: [
 		{ count: 4, item: "create:andesite_alloy" }
 		{ count: 4, item: "create:brass_ingot" }

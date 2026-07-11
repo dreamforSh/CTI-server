@@ -4,9 +4,9 @@
       "fluid_capacity": 100000
     },
     "etshtinker:ionizer": {
-      "cooldown": 16,
+      "cooldown": 20,
       "plasmarange": 60,
-      "damagemultiplier": 6
+      "damagemultiplier": 3
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 0.8,
@@ -71,8 +71,8 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 30,
       "exert_times": 40,
-      "attack_frequency": 5,
-      "kill_threshold": 0.27
+      "attack_frequency": 9,
+      "kill_threshold": 0.17
     }
   }
 }

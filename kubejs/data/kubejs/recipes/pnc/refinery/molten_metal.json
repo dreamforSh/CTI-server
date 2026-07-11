@@ -3,27 +3,27 @@
   "input": {
     "type": "pneumaticcraft:fluid",
     "amount": 1000,
-    "fluid": "kubejs:hot_heavymetal_lava"
+    "fluid": "kubejs:hot_metal_lava"
   },
   "results": [
     {
-      "amount": 270,
-      "fluid": "tconstruct:molten_iron"
-    },
-    {
       "amount": 180,
-      "fluid": "tconstruct:molten_gold"
-    },
-    {
-      "amount": 180,
-      "fluid": "tconstruct:molten_silver"
+      "fluid": "tconstruct:molten_zinc"
     },
     {
       "amount": 270,
-      "fluid": "tconstruct:molten_lead"
+      "fluid": "tconstruct:molten_nickel"
+    },
+    {
+      "amount": 360,
+      "fluid": "tconstruct:molten_tin"
+    },
+    {
+      "amount": 360,
+      "fluid": "tconstruct:molten_copper"
     }
   ],
   "temperature": {
-    "min_temp": 1240
+    "min_temp": 1850
   }
 }

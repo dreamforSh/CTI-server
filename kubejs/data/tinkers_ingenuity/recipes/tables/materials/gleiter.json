@@ -5,26 +5,23 @@
       "item": "minecraft:nether_star"
     },
     {
-      "item": "tinkers_ingenuity:glasya_ingot"
+      "item": "tinkers_ingenuity:ender_residual_interest"
     },
     {
       "item": "undergarden:forgotten_ingot"
     },
     {
-      "item": "tinkers_ingenuity:ender_residual_interest"
+      "item": "tinkersinnovation:hostilium_ingot"
     },
     {
-      "item": "undergarden:utherium_crystal"
+      "item": "l2hostility:miracle_ingot"
     },
     {
-      "item": "minecraft:chorus_fruit"
-    },
-    {
-      "item": "minecraft:blaze_powder"
+      "item": "tconstruct:manyullyn_block"
     }
   ],
   "result": {
     "item": "tinkers_ingenuity:gleiter_ingot",
-    "count": 1
+    "count": 2
   }
 }

@@ -1,0 +1,38 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "A B C",
+    " BDC ",
+    "BDEFB",
+    " CFB ",
+    "C B A"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:life_essence"
+    },
+    "B": {
+      "item": "botania:mana_powder"
+    },
+    "C": {
+      "item": "etshtinker:activated_chroma_plate"
+    },
+    "D": {
+      "item": "immersivepetroleum:paraffin_wax"
+    },
+    "E": {
+      "type": "forge:partial_nbt",
+      "item": "cti:coe_vein_seed",
+      "nbt": "{MineralType:\"minecraft:poor_oil\"}"
+    },
+    "F": {
+      "item": "immersivepetroleum:bitumen"
+    }
+  },
+  "result": {
+      "type": "forge:nbt",
+      "item": "cti:coe_vein_seed",
+      "count": 1,
+      "nbt": "{ExtAmount:0L,MineralType:\"minecraft:rich_oil\",Mul:0.8f}"
+    }
+}

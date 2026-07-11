@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aether:victory_medal"
+    },
+    {
+      "item": "aether:ambrosium_block"
+    },
+    {
+      "item": "aether:icestone"
+    },
+    {
+      "item": "tinkers_ingenuity:shine_alloy_ingot"
+    },
+    {
+      "item": "tinkers_ingenuity:knight_crystal_ingot"
+    }
+  ],
+  "result": {
+    "item": "tinkers_ingenuity:crocell_ingot",
+    "count": 6
+  }
+}

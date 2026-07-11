@@ -1,19 +1,19 @@
 {
   "default": [
     {
-      "name": "tconstruct:insatiable",
-      "level": 1
+      "name": "cti:replaced_insatiable",
+      "level": 2
     },
     {
-      "name": "tinkerscalibration:stone_cold",
+      "name": "cti:stone_cold_replaced",
       "level": 1
     }
   ],
   "perStat": {
   "tconstruct:armor": [
     {
-      "level": 2,
-      "name": "tconstruct:kinetic"
+      "level": 1,
+      "name": "cti:replaced_insatiable"
     },
     {
       "level": 1,
@@ -22,8 +22,8 @@
   ],
   "tconstruct:shield_core": [
       {
-      "level": 3,
-      "name": "tconstruct:kinetic"
+      "level": 2,
+      "name": "cti:replaced_insatiable"
     },
     {
       "level": 2,
@@ -37,7 +37,7 @@
     "tconstruct:maille": [
       {
       "level": 3,
-      "name": "tconstruct:kinetic"
+      "name": "cti:replaced_insatiable"
     },
     {
       "level": 2,

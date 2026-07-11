@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
   event.recipes.botania.mana_infusion('projecte:mobius_fuel', ['projecte:alchemical_coal'], 50000, 'kubejs:philosophers_catalyst')
   event.recipes.botania.mana_infusion('projecte:aeternalis_fuel', ['projecte:mobius_fuel'], 200000, 'kubejs:philosophers_catalyst')
   event.recipes.botania.mana_infusion('ae2:certus_quartz_crystal', ['minecraft:lapis_lazuli'], 4000)
-  event.recipes.botania.mana_infusion('kubejs:dust_mana', ['etshtinker:os_induced_netherstarshard'], 10000)
+  event.recipes.botania.mana_infusion('kubejs:dust_mana', ['botania:pixie_dust'], 10000)
   event.recipes.botania.terra_plate('dreadsteel:dreadsteel_ingot', ['minecraft:blaze_powder', 'tinkerscalibration:witherium_ingot','minecraft:nether_brick', 'botania:elementium_ingot', 'botania:quartz_dark', 'iceandfire:dread_shard'], 500000)
   event.recipes.botania.terra_plate('solidarytinker:magicuranium_ingot', ['#forge:ingots/uranium', 'tinkerscalibration:oraclium_ingot','mythicbotany:alfsteel_ingot','botania:gaia_ingot','botanicalmachinery:mana_emerald'], 250000)
   event.recipes.botania.terra_plate('projecte:red_matter', ['etshtinker:evil_orb', 'cti:magic_crystal', 'projecte:dark_matter', 'botania:quartz_red'], 500000)
@@ -17,6 +17,9 @@ ServerEvents.recipes(event => {
   event.recipes.botania.terra_plate('projecte:dm_chestplate', ['botania:terrasteel_chestplate', 'tconstruct:hepatizon_block', 'mythicbotany:midgard_rune', 'mythicbotany:helheim_rune','mythicbotany:alfheim_rune','projecte:dark_matter_block'], 1000000)
   event.recipes.botania.terra_plate('projecte:dm_leggings', ['botania:terrasteel_leggings', 'tconstruct:hepatizon_block', 'mythicbotany:muspelheim_rune', 'mythicbotany:helheim_rune','mythicbotany:joetunheim_rune','projecte:dark_matter_block'], 1000000)
   event.recipes.botania.terra_plate('projecte:dm_boots', ['botania:terrasteel_boots','tconstruct:hepatizon_block', 'mythicbotany:helheim_rune', 'mythicbotany:nidavellir_rune','mythicbotany:vanaheim_rune','projecte:dark_matter_block'], 1000000)
+
+  event.recipes.botania.petal_apothecary('cti:reactive_flower',['botania:red_petal','botania:yellow_petal','botania:light_blue_petal','botania:brown_petal','minecraft:blaze_powder','thermal:blitz_powder','thermal:blizz_powder','thermal:basalz_powder'])
+
   event.shaped(Item.of('kubejs:philosophers_catalyst', 1), [
     'ABA',
     'BCB',
@@ -26,7 +29,20 @@ ServerEvents.recipes(event => {
       A: 'minecraft:glowstone_dust',
       B: 'minecraft:diamond',
       C: 'botania:alchemy_catalyst'
-    })
+   }
+   )
+   event.shaped(Item.of('mythicbotany:mana_collector', 1), [
+    'ABA',
+    'BCB',
+    'ADA'
+  ],
+    {
+      A: 'botania:dreamwood',
+      B: 'botania:terrasteel_ingot',
+      C: 'botania:pixie_dust',
+      D: 'botania:rune_mana'
+   }
+   )
   event.custom({
     "type": "mythicbotany:infuser",
     "fromColor": 3683394,
@@ -52,4 +68,16 @@ ServerEvents.recipes(event => {
     },
     "toColor": 16729871
   })
+  event.shaped(Item.of('cti:mana_interface',1), [
+    'ABA',
+    'BCB',
+    'ADA'
+  ],
+    {
+      A: 'botania:life_essence',
+      B: 'botania:gaia_ingot',
+      C: 'ae2:interface',
+      D: 'mythicbotany:mana_collector'
+   }
+   )
 })

@@ -2,7 +2,7 @@
 	icon: "tinkerscalibration:queens_slime_reinforcement"
 	id: "098E37963E9E8653"
 	loot_size: 6
-	order_index: 52
+	order_index: 51
 	rewards: [
 		{ count: 9, item: "tinkerscalibration:corundum_block" }
 		{ count: 9, item: "tinkerscalibration:spinel_block" }

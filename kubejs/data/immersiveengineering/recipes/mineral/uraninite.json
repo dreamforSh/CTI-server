@@ -8,13 +8,13 @@
         {
             "chance": 0.7,
             "output": {
-                "tag": "forge:ores/uranium"
+                "item": "mekanism:deepslate_uranium_ore"
             }
         },
         {
             "chance": 0.3,
             "output": {
-                "tag": "forge:ores/uraninite"
+                "item": "powah:deepslate_uraninite_ore_dense"
             }
         },
         {

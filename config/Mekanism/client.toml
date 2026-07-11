@@ -22,7 +22,7 @@
 	#Range: 0.25 ~ 1.0
 	hudScale = 0.6
 	#Enable item information HUD during gameplay
-	enableHUD = true
+	enableHUD = false
 	#Color of energy in item durability display.
 	energyColor = 3997338
 	#Range at which Tile Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for TERs to 64 for most blocks, but uses a range of 256 for beacons and end gateways.
@@ -75,8 +75,8 @@
 				y = 2147483647
 
 			[client.gui.window.crafting0]
-				x = 2147483647
-				y = 2147483647
+				x = 11
+				y = 15
 
 			[client.gui.window.crafting1]
 				x = 2147483647
@@ -99,8 +99,8 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 9
-				y = 22
+				x = 15
+				y = 25
 
 			[client.gui.window.transporterConfig]
 				x = 10
@@ -114,14 +114,14 @@
 	[client.qio]
 		#Sorting strategy when viewing items in a QIO Item Viewer.
 		#Allowed Values: NAME, SIZE, MOD
-		itemViewerSortType = "NAME"
+		itemViewerSortType = "SIZE"
 		#Sorting direction when viewing items in a QIO Item Viewer.
 		#Allowed Values: ASCENDING, DESCENDING
-		itemViewerSortDirection = "ASCENDING"
+		itemViewerSortDirection = "DESCENDING"
 		#Number of slots to view horizontally on a QIO Item Viewer.
 		#Range: 8 ~ 16
 		itemViewerSlotsX = 8
 		#Number of slots to view vertically on a QIO Item Viewer.
 		#Range: 2 ~ 48
-		itemViewerSlotsY = 4
+		itemViewerSlotsY = 10
 

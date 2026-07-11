@@ -2,7 +2,7 @@
   "type": "botania:terra_plate",
   "ingredients": [
     {
-      "item": "megacells:mana_storage_cell_1m"
+      "item": "appbot:mana_storage_cell_16k"
     },
     {
       "item": "tconstruct:manyullyn_ingot"
@@ -14,7 +14,7 @@
       "item": "botania:gaia_ingot"
     }
   ],
-  "mana": 1000000,
+  "mana": 500000,
   "result": {
     "item": "etshtinker:manalyn_queen"
   }

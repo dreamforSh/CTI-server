@@ -2,7 +2,7 @@
 	icon: "tinkersinnovation:teleport_core"
 	id: "3E43E62AAFEC45E9"
 	loot_size: 6
-	order_index: 54
+	order_index: 53
 	rewards: [
 		{ count: 4, item: "tinkersinnovation:slimton_ingot" }
 		{ count: 4, item: "tinkersinnovation:polychrome_alloy_ingot" }

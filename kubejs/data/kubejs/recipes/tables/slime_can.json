@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "A A",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:iron_plate"
+    },
+    "B": {
+      "tag": "tconstruct:slimy_logs"
+    }
+  },
+  "result": {
+    "item": "cti:slime_can"
+  }
+}

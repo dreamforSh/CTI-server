@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "cti:slime_strike",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:overslime",
+      "level": 1
+    }
+  ]
+}

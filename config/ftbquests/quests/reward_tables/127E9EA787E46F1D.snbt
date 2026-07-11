@@ -2,7 +2,7 @@
 	icon: "tinkerscalibration:hymon_arrow"
 	id: "127E9EA787E46F1D"
 	loot_size: 17
-	order_index: 51
+	order_index: 50
 	rewards: [
 		{ count: 4, item: "tinkerscalibration:corundum" }
 		{ count: 4, item: "tinkerscalibration:tourmaline" }

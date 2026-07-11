@@ -13,7 +13,7 @@
 	}
 	id: "657B402C6C1DAB68"
 	loot_size: 6
-	order_index: 65
+	order_index: 64
 	rewards: [
 		{ count: 2, item: "mekanism:block_refined_obsidian" }
 		{ count: 2, item: "mekanism:block_refined_glowstone" }

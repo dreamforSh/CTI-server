@@ -1,0 +1,54 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:crushing",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:crushing",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:ignore",
+        "level": 1
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:ignore",
+        "level": 1
+      }
+    ],
+    "tinkers_ingenuity:laser_gun": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:crushing",
+        "level": 1
+      }
+    ]
+  }
+}

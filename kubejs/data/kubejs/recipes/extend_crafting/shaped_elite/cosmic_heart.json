@@ -1,0 +1,61 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "   AAA   ",
+    "  ABCDE  ",
+    " FGCHIEF ",
+    " FAJKHLF ",
+    " FDIJLMF ",
+    "  FNNMM  ",
+    "   FFF   ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "aether_redux:veridium_ingot"
+    },
+    "B": {
+      "item": "l2hostility:ragnarok"
+    },
+    "C": {
+      "item": "aether_redux:gravitite_ingot"
+    },
+    "D": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "E": {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    },
+    "F": {
+      "item": "undergarden:utherium_crystal"
+    },
+    "G": {
+      "item": "l2complements:heirophant_green"
+    },
+    "H": {
+      "item": "kubejs:phoenix_ingot"
+    },
+    "I": {
+      "item": "l2hostility:miracle_powder"
+    },
+    "J": {
+      "item": "tinkers_ingenuity:orichalcum_ingot"
+    },
+    "K": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "L": {
+      "item": "iceandfire:dragonsteel_lightning_ingot"
+    },
+    "M": {
+      "item": "undergarden:regalium_crystal"
+    },
+    "N": {
+      "item": "iceandfire:dragonsteel_ice_ingot"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:cosmic_heart"
+  }
+}

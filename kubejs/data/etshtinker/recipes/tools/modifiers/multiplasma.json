@@ -22,7 +22,5 @@
   },
   "allow_crystal": true,
   "result": "etshtinker:multishotplasma",
-  "level": {
-    "max": 4
-  }
+  "level": 1
 }

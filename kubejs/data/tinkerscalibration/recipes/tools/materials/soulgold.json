@@ -6,13 +6,17 @@
       "amount": 1000
     },
     {
+      "name": "tinkerscalibration:moltenichor",
+      "amount": 1000
+    },
+    {
       "name": "tconstruct:molten_gold",
-      "amount": 270
+      "amount": 180
     }
   ],
   "result": {
     "fluid": "tinkerscalibration:moltensoulgold",
-    "amount": 360
+    "amount": 180
   },
-  "temperature": 1000
+  "temperature": 1950
 }

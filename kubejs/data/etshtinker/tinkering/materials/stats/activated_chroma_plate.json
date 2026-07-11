@@ -1,10 +1,73 @@
 {  
-    "stats": {
-        "solidarytinker:soulge_heart": {
+  "stats": {
+    "etshtinker:plasma_generator": {
+      "damagemultiplier": 1.25,
+      "criticalrate": 0.5,
+      "fluidefficiency": 5,
+      "slash_color": 10
+    },
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 16000
+    },
+    "etshtinker:ionizer": {
+      "cooldown": 12,
+      "plasmarange": 32,
+      "damagemultiplier": 2.75
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.75,
+      "mining_speed": 0.25,
+      "melee_speed": 0.5,
+      "melee_damage": 0.5
+    },
+    "tconstruct:head": {
+      "durability": 2060,
+      "mining_speed": 9,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 6
+    },
+    "tconstruct:limb": {
+      "durability": 2060,
+      "draw_speed": 0.8,
+      "velocity": 0.5,
+      "accuracy": 0.2
+    },
+    "tconstruct:grip": {
+      "durability": 0.5,
+      "accuracy": 0.5,
+      "melee_damage": 6.0
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 8,
+      "durability": 2060,
+      "toughness": 6
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 10.5,
+      "durability": 2680,
+      "toughness": 6
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 9.0,
+      "durability": 2350,
+      "toughness": 6
+    },
+    "tconstruct:plating_boots": {
+      "armor": 7.0,
+      "durability": 1760,
+      "toughness": 6
+    },
+    "tconstruct:plating_shield": {
+      "durability": 2060,
+      "toughness": 6
+    },
+    "solidarytinker:soulge_heart": {
       "detection_range": 20,
       "exert_times": 20,
-      "attack_frequency": 6,
-      "kill_threshold": 0.25
+      "attack_frequency": 12,
+      "kill_threshold": 0.15
     }
-    }
+  }
 }

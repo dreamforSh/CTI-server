@@ -4,7 +4,10 @@
     "cti:oracle_drop_oraclum_nuggets",
     "cti:lightless_alloy_drop",
     "cti:extreme_damage_reduce_drops",
-    "cti:temporary_armor_drops"
+    "cti:temporary_armor_drops",
+    "l2hostility:hard_skin_drop_iron",
+    "l2hostility:hard_skin_drop_armor_steel",
+    "l2hostility:purify_drop_star_dust"
   ],
   "replace": false
 }

@@ -12,11 +12,11 @@
 						1648969079
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_copper"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 1b
@@ -41,11 +41,11 @@
 						-2082924632
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_iron"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 1b
@@ -70,11 +70,11 @@
 						564699967
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_gold"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 1b
@@ -99,11 +99,11 @@
 						226104154
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_emerald"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 1b
@@ -134,11 +134,11 @@
 						-2046767721
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_diamond"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 1b
@@ -163,11 +163,11 @@
 						-1424691961
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_netherite"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 1b
@@ -192,11 +192,11 @@
 						117628916
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_copper"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -227,11 +227,11 @@
 						157209458
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_iron"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -262,11 +262,11 @@
 						-860004503
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_gold"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -297,11 +297,11 @@
 						1293957
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_emerald"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -336,11 +336,11 @@
 						-195191219
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_diamond"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -371,11 +371,11 @@
 						-2028047292
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "lightmanscurrency:coin_netherite"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -427,11 +427,11 @@
 						-529056105
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:redstone"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -456,11 +456,11 @@
 						-1883279038
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:lapis_lazuli"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -485,11 +485,11 @@
 						1251683019
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:amethyst_shard"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -514,11 +514,11 @@
 						79038850
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:copper_ingot"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -543,11 +543,11 @@
 						-1001981508
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:iron_ingot"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -572,11 +572,11 @@
 						1779547282
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:gold_ingot"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -601,11 +601,11 @@
 						99139331
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:diamond"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -630,11 +630,11 @@
 						-188731482
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:coal"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -659,11 +659,11 @@
 						688505771
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:quartz"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -688,11 +688,11 @@
 						661581631
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:glowstone_dust"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -717,11 +717,11 @@
 						-1239683866
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "create:zinc_ingot"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -732,6 +732,40 @@
 					}
 					description: [ ]
 					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1000L
+					entryUUID: [I;
+						-683124124
+						1006454397
+						-1326112920
+						-2007339566
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "cti:coe_vein_seed"
+							Count: 1b
+							tag: {
+								ExtAmount: 0L
+								MineralType: "minecraft:create_food"
+								Mul: 0.8f
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "糖果世界邀请来的魔法师携带来的种子"
 					entryCondition: [{
 						questID: [ ]
 						entryConditionID: "ftbquestConditions"
@@ -767,11 +801,11 @@
 						-1274466312
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:dirt"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -796,11 +830,11 @@
 						-1939722879
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:sand"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -825,11 +859,11 @@
 						1551797491
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:gravel"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -854,11 +888,11 @@
 						-976024425
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:oak_log"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -883,11 +917,11 @@
 						-203162436
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:white_wool"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -912,68 +946,9 @@
 						103119083
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:obsidian"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-				}
-				{
-					entryPrice: 250L
-					entryUUID: [I;
-						-1694342517
-						1280197324
-						-1972497417
-						2075028302
-					]
-					entryType: {
-						itemStack: {
-							id: "minecraft:clay"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 32
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-				}
-				{
-					entryPrice: 0L
-					entryUUID: [I;
-						-1829526200
-						-763739376
-						-2070203988
-						-579328450
-					]
-					entryType: {
-						advancement: "minecraft:story/root"
-						shopEntryTypeID: "advancementType"
-						iconPath: {
-							id: "minecraft:wheat"
 							Count: 1b
 						}
 					}
@@ -1021,11 +996,11 @@
 						1901577791
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:diamond_backpack"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1050,11 +1025,11 @@
 						1316206264
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:netherite_backpack"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1085,11 +1060,11 @@
 						1248928597
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1114,11 +1089,11 @@
 						1055840616
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:stack_upgrade_tier_1"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1143,6 +1118,7 @@
 						-2009399875
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedstorage:diamond_barrel"
 							Count: 1b
@@ -1150,7 +1126,6 @@
 								woodType: "oak"
 							}
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1181,6 +1156,7 @@
 						-374396942
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedstorage:netherite_barrel"
 							Count: 1b
@@ -1188,7 +1164,6 @@
 								woodType: "oak"
 							}
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1219,11 +1194,11 @@
 						1627417642
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedstorage:stack_upgrade_tier_2"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1254,11 +1229,11 @@
 						497895855
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedstorage:stack_upgrade_tier_3"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1289,11 +1264,11 @@
 						-789999395
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedstorage:stack_upgrade_tier_4"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1324,11 +1299,11 @@
 						-190387756
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:stack_upgrade_tier_2"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1353,11 +1328,11 @@
 						-378649905
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:stack_upgrade_tier_3"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1388,11 +1363,11 @@
 						-783330761
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:stack_upgrade_tier_4"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1423,11 +1398,11 @@
 						-1516490840
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:pickup_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1458,81 +1433,11 @@
 						-94984922
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_pickup_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-					]
-				}
-				{
-					entryPrice: 450L
-					entryUUID: [I;
-						-1708335076
-						1194871477
-						-1430662782
-						-138777623
-					]
-					entryType: {
-						itemStack: {
-							id: "sophisticatedbackpacks:magnet_upgrade"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-					]
-				}
-				{
-					entryPrice: 500L
-					entryUUID: [I;
-						1449866438
-						1269254690
-						-1314352870
-						1784898164
-					]
-					entryType: {
-						itemStack: {
-							id: "sophisticatedbackpacks:advanced_magnet_upgrade"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1563,11 +1468,11 @@
 						2059636807
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:filter_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1592,11 +1497,11 @@
 						-1945506182
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_filter_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1627,11 +1532,11 @@
 						-1828816523
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:feeding_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1662,11 +1567,81 @@
 						381937980
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_feeding_upgrade"
 							Count: 1b
 						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-1708335076
+						1194871477
+						-1430662782
+						-138777623
+					]
+					entryType: {
 						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "sophisticatedbackpacks:magnet_upgrade"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						1449866438
+						1269254690
+						-1314352870
+						1784898164
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+							Count: 1b
+						}
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1697,11 +1672,11 @@
 						1073445021
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:compacting_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1732,11 +1707,11 @@
 						692480807
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_compacting_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1771,11 +1746,11 @@
 						-1041718619
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:void_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1810,11 +1785,11 @@
 						1706009118
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_void_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1839,11 +1814,11 @@
 						971636040
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:restock_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1868,11 +1843,11 @@
 						-1464087437
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_restock_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1903,11 +1878,11 @@
 						-1561864799
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:deposit_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1938,11 +1913,11 @@
 						830107425
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_deposit_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -1973,11 +1948,11 @@
 						628410238
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:refill_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2008,11 +1983,11 @@
 						468719899
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:advanced_refill_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2043,11 +2018,11 @@
 						-1026210725
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:inception_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2078,11 +2053,11 @@
 						-1592468176
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sophisticatedbackpacks:everlasting_upgrade"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2134,12 +2109,12 @@
 						1220041268
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:portable_item_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2164,12 +2139,12 @@
 						-829068680
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:portable_fluid_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2194,12 +2169,12 @@
 						-1806129925
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:item_storage_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2224,12 +2199,12 @@
 						-1837868311
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:fluid_storage_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2254,12 +2229,12 @@
 						-1287288438
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "appbot:mana_storage_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2284,12 +2259,12 @@
 						212340881
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "appbot:portable_mana_storage_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2314,12 +2289,12 @@
 						1511952796
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "appmek:chemical_storage_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2344,12 +2319,12 @@
 						-1994463599
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "appmek:portable_chemical_storage_cell_1k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2380,12 +2355,12 @@
 						306206760
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2additions:super_cell_16k"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2416,12 +2391,12 @@
 						80494976
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "megacells:bulk_item_cell"
 							Count: 1b
 							tag: { }
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2456,11 +2431,11 @@
 						-682638546
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:cell_component_256k"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2491,48 +2466,92 @@
 					]
 				}
 				{
-					entryPrice: 3000L
+					entryPrice: 7000L
 					entryUUID: [I;
-						-1174281654
-						-1757592669
-						-1586600790
-						574841312
+						-430100844
+						1818053428
+						-1586329425
+						1733144115
 					]
 					entryType: {
-						itemStack: {
-							id: "ae2:flawless_budding_quartz"
-							Count: 1b
-						}
 						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-				}
-				{
-					entryPrice: 0L
-					entryUUID: [I;
-						363767447
-						899697423
-						-1330403561
-						-513229554
-					]
-					entryType: {
 						itemStack: {
-							id: "minecraft:air"
+							id: "ae2:drive"
 							Count: 1b
+							tag: {
+								BlockEntityTag: {
+									inv: {
+										item0: {
+											Count: 1b
+											id: "ae2:item_storage_cell_256k"
+											tag: { }
+										}
+										item2: {
+											Count: 1b
+											id: "ae2:item_storage_cell_256k"
+											tag: { }
+										}
+										item1: {
+											Count: 1b
+											id: "ae2:item_storage_cell_256k"
+											tag: { }
+										}
+										item8: {
+											Count: 1b
+											id: "appmek:chemical_storage_cell_256k"
+											tag: { }
+										}
+										item7: {
+											Count: 1b
+											id: "ae2:fluid_storage_cell_256k"
+											tag: { }
+										}
+										item9: {
+											Count: 1b
+											id: "appmek:chemical_storage_cell_256k"
+											tag: { }
+										}
+										item4: {
+											Count: 1b
+											id: "ae2:fluid_storage_cell_256k"
+											tag: { }
+										}
+										item3: {
+											Count: 1b
+											id: "ae2:item_storage_cell_256k"
+											tag: { }
+										}
+										item6: {
+											Count: 1b
+											id: "ae2:fluid_storage_cell_256k"
+											tag: { }
+										}
+										item5: {
+											Count: 1b
+											id: "ae2:fluid_storage_cell_256k"
+											tag: { }
+										}
+									}
+									proxy: {
+										p: 0
+										k: -1L
+										g: 0L
+									}
+									forward: "EAST"
+									ForgeCaps: { }
+									id: "ae2:drive"
+									up: "UP"
+									priority: 0
+								}
+								display: {
+									Lore: [
+										"[{\"text\":\"里面有磁盘\",\"color\":\"yellow\",\"italic\":false}]"
+										"[{\"text\":\"物品流体化学品都有\",\"color\":\"light_purple\",\"italic\":false}]"
+									]
+									Name: "{\"text\":\"§c 刀片服务器\"}"
+								}
+							}
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 1
 					isSell: 0b
@@ -2578,11 +2597,11 @@
 						-766213066
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:pink_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2613,11 +2632,11 @@
 						-431507569
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:white_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2636,52 +2655,17 @@
 				{
 					entryPrice: 500L
 					entryUUID: [I;
-						-1358739110
-						-613661682
-						-1541559871
-						-744262731
-					]
-					entryType: {
-						itemStack: {
-							id: "ae2:white_covered_cable"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 64
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: "ME包层线缆"
-					entryCondition: [
-						{
-							questID: [ ]
-							entryConditionID: "ftbquestConditions"
-						}
-						{
-							questID: ["048B42E1342DFC74"]
-							entryConditionID: "ftbquestConditions"
-						}
-					]
-				}
-				{
-					entryPrice: 500L
-					entryUUID: [I;
 						-568449811
 						1511606379
 						-1277133859
 						1565178346
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:magenta_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2712,11 +2696,11 @@
 						-664681488
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:light_blue_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2747,11 +2731,11 @@
 						1439378822
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:yellow_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2782,11 +2766,11 @@
 						-1250960258
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:lime_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2817,11 +2801,11 @@
 						-1143220654
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:gray_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2856,11 +2840,11 @@
 						891420076
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:light_gray_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2895,11 +2879,11 @@
 						-340968976
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:cyan_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2934,11 +2918,11 @@
 						992017574
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:purple_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -2973,11 +2957,11 @@
 						1681489666
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:blue_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3012,11 +2996,11 @@
 						-99520500
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:brown_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3051,11 +3035,11 @@
 						-1137337918
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:green_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3090,11 +3074,11 @@
 						1526794155
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:red_covered_cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3129,11 +3113,54 @@
 						-682357768
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "ae2:black_covered_cable"
 							Count: 1b
 						}
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "ME包层线缆"
+					entryCondition: [
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							questID: ["048B42E1342DFC74"]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+				}
+				{
+					entryPrice: 400L
+					entryUUID: [I;
+						-2071302117
+						-197636436
+						-1419868628
+						-896397476
+					]
+					entryType: {
 						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "ae2:fluix_covered_cable"
+							Count: 1b
+						}
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3166,17 +3193,46 @@
 				{
 					entryPrice: 500L
 					entryUUID: [I;
+						-1680415328
+						982601616
+						-1826422872
+						429644819
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "ae2:orange_covered_cable"
+							Count: 64b
+						}
+					}
+					entryCount: 64
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 500L
+					entryUUID: [I;
 						-1509022805
 						-1644540173
 						-1886331831
 						-1309743993
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "pipez:item_pipe"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3201,11 +3257,11 @@
 						1602254947
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "pipez:fluid_pipe"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3236,11 +3292,11 @@
 						-813775810
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "pipez:energy_pipe"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3271,11 +3327,11 @@
 						-2002663379
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "pipez:gas_pipe"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3306,11 +3362,11 @@
 						-1218718772
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "pipez:universal_pipe"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3337,64 +3393,6 @@
 					]
 				}
 				{
-					entryPrice: 100L
-					entryUUID: [I;
-						1514430355
-						-1977335310
-						-1955720795
-						-1325008429
-					]
-					entryType: {
-						itemStack: {
-							id: "ae2:fluix_smart_cable"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 10
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-				}
-				{
-					entryPrice: 200L
-					entryUUID: [I;
-						-1782602163
-						720980952
-						-1648802484
-						1674660804
-					]
-					entryType: {
-						itemStack: {
-							id: "ae2:fluix_smart_dense_cable"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 5
-					isSell: 0b
-					entryLimiter: [ ]
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					description: [ ]
-					title: ""
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-				}
-				{
 					entryPrice: 1000L
 					entryUUID: [I;
 						1961576938
@@ -3403,11 +3401,11 @@
 						-1482469624
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "sfm:cable"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3456,11 +3454,11 @@
 						906433058
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:white_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3485,11 +3483,11 @@
 						-1663046136
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:orange_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3520,11 +3518,11 @@
 						385871840
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:magenta_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3559,11 +3557,11 @@
 						-424723217
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:light_blue_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3598,11 +3596,11 @@
 						992427649
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:yellow_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3637,11 +3635,11 @@
 						2034115962
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:lime_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3676,11 +3674,11 @@
 						-274593933
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:pink_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3715,11 +3713,11 @@
 						-98478838
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:gray_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3754,11 +3752,11 @@
 						-550790118
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:light_gray_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3793,11 +3791,11 @@
 						-1493073764
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:cyan_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3832,11 +3830,11 @@
 						604935071
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:purple_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3871,11 +3869,11 @@
 						-967801354
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:blue_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3914,11 +3912,11 @@
 						-1746984627
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:brown_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -3961,11 +3959,11 @@
 						-1380451129
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:green_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4004,11 +4002,11 @@
 						-141047697
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:red_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4047,11 +4045,11 @@
 						-2028434771
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "cookingforblockheads:black_kitchen_floor"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4090,11 +4088,11 @@
 						-1186138798
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:white_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4137,11 +4135,11 @@
 						342896933
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:orange_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4188,11 +4186,11 @@
 						-1406866826
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:magenta_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4239,11 +4237,11 @@
 						-1920156573
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:light_blue_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4290,11 +4288,11 @@
 						-1990286027
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:yellow_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4341,11 +4339,11 @@
 						-1057397258
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:lime_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4392,11 +4390,11 @@
 						105136189
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:pink_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4443,11 +4441,11 @@
 						-1330493195
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:gray_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4494,11 +4492,11 @@
 						-912990505
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:light_gray_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4545,11 +4543,11 @@
 						770965550
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:cyan_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4596,11 +4594,11 @@
 						1288200911
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:purple_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4647,11 +4645,11 @@
 						-1086504352
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:brown_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4698,11 +4696,11 @@
 						-1607513799
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:green_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4749,11 +4747,11 @@
 						-1592949798
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:red_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4800,11 +4798,11 @@
 						1445527603
 					]
 					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
 						itemStack: {
 							id: "minecraft:black_concrete"
 							Count: 1b
 						}
-						shopEntryTypeID: "shopItemEntryType"
 					}
 					entryCount: 64
 					isSell: 0b
@@ -4860,6 +4858,975 @@
 				767316138
 			]
 			title: "地基建筑材料"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 2000L
+					entryUUID: [I;
+						-915270803
+						-146651372
+						-1407053315
+						1837021747
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "expatternprovider:infinity_cell"
+							Count: 1b
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "minecraft:lava"
+								}
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: "无限熔岩元件"
+					entryCondition: [{
+						questID: ["33F13671FDB5EB00"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2000L
+					entryUUID: [I;
+						2008391072
+						1066943924
+						-1595664713
+						-470526704
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "expatternprovider:infinity_cell"
+							Count: 1b
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "ad_astra:cryo_fuel"
+								}
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["22737449F47F4650"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 2000L
+					entryUUID: [I;
+						-250856728
+						907169331
+						-1615811303
+						-2130365076
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "expatternprovider:infinity_cell"
+							Count: 1b
+							tag: {
+								record: {
+									"#c": "ae2:f"
+									id: "mekanism:hydrogen"
+								}
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: ["07ADBB5AF2B02BA4"]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "expatternprovider:infinity_cell"
+				Count: 1b
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "mekanism:hydrogen"
+					}
+				}
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: ["可在完成任务后购买的无限原件"]
+			shopTabUUID: [I;
+				583703526
+				-349548690
+				-1770471299
+				-963813184
+			]
+			title: "无限原件"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 800L
+					entryUUID: [I;
+						-221700955
+						1392461757
+						-2091638346
+						1733933171
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tconstruct:modifier_crystal"
+							Count: 1b
+							tag: {
+								modifier: "tconstruct:luck"
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 900L
+					entryUUID: [I;
+						-412127487
+						1332298535
+						-1616143450
+						2123150483
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tconstruct:modifier_crystal"
+							Count: 1b
+							tag: {
+								modifier: "solidarytinker:removeradition"
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 700L
+					entryUUID: [I;
+						-1226949574
+						2131446887
+						-1205547725
+						-570450107
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tconstruct:modifier_crystal"
+							Count: 1b
+							tag: {
+								modifier: "cti:end_slayer"
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 1000L
+					entryUUID: [I;
+						707057499
+						1395871397
+						-2014245524
+						1570159208
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tconstruct:modifier_crystal"
+							Count: 1b
+							tag: {
+								modifier: "solidarytinker:crcs"
+							}
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "tconstruct:modifier_crystal"
+				Count: 1b
+				tag: {
+					modifier: "tconstruct:luck"
+				}
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				956169416
+				1223510956
+				-1806970455
+				1365789166
+			]
+			title: "强化"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 500L
+					entryUUID: [I;
+						1109169276
+						-1330690303
+						-1811326616
+						1119167973
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "naturescompass:naturescompass"
+							Count: 1b
+							tag: { }
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 700L
+					entryUUID: [I;
+						-1795896555
+						300109665
+						-1967446843
+						-783343740
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "explorerscompass:explorerscompass"
+							Count: 1b
+							tag: { }
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						1596766405
+						-616215628
+						-1334319553
+						-1171776790
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "waystones:waystone"
+							Count: 1b
+						}
+					}
+					entryCount: 2
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 10000L
+					entryUUID: [I;
+						939277584
+						1283542013
+						-1725700038
+						-284146851
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "buildinggadgets:construction_paste_container_creative"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 700L
+					entryUUID: [I;
+						1655923238
+						1547977793
+						-1539818433
+						1695699391
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "enigmaticlegacy:mending_mixture"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 200L
+					entryUUID: [I;
+						-1166505866
+						1219579519
+						-1785665578
+						1731435719
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "enigmaticlegacy:twisted_mirror"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 3000L
+					entryUUID: [I;
+						681685518
+						1287670222
+						-2141506005
+						414438212
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "enigmaticlegacy:soul_crystal"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "pneumaticcraft:amadron_tablet"
+				Count: 1b
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				764493853
+				487147391
+				-1348147826
+				563594626
+			]
+			title: "亚马龙商店"
+		}
+		{
+			tabEntry: [
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						295816940
+						-1868411293
+						-1650246068
+						-532835678
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_ice_patchouli"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						-22118464
+						1646676808
+						-1187681511
+						432719661
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_storm_shards"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						-1369557119
+						-1440988614
+						-1955145837
+						-647377399
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_roasted_red_pine_nuts"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						569349735
+						-1856747110
+						-1541010615
+						-1938992479
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_glace_goji_berries"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1151499931
+						-1215869547
+						-1977741770
+						-1411685028
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_frozen_persimmon"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1148512789
+						-45135701
+						-1767857667
+						-1929258469
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_roasted_pecans"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						866184553
+						-919714343
+						-1843707908
+						1213221668
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_silver_needle_white_tea"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						878267281
+						267013611
+						-1982717676
+						-1881526038
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_golden_cinnamon_powder"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1956530015
+						-2074787121
+						-1325740293
+						-231762954
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_dried_selaginella"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						-2032739530
+						1499942443
+						-1612219254
+						-1584591851
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_blaze_paprika"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1934689554
+						856441705
+						-1444618145
+						-220833041
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_dried_eglia_bud"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						-952180352
+						790252969
+						-2051280444
+						590277892
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_smoked_eglia_bud"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						885322734
+						-263765011
+						-2014716352
+						-1437361859
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_amethyst_nigella_seeds"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1379438482
+						1321287752
+						-1192070377
+						-734963742
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_citrine_nigella_seeds"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 50L
+					entryUUID: [I;
+						1066056306
+						1386368137
+						-1132186074
+						-240140283
+					]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "drinkbeer:spice_ice_mint"
+							Count: 1b
+						}
+					}
+					entryCount: 10
+					isSell: 0b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "drinkbeer:spice_ice_patchouli"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-1995846147
+				780092901
+				-1632775304
+				-1998154587
+			]
+			title: "遗失的香料"
 		}
 	]
 }

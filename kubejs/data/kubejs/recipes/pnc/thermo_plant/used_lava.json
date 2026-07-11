@@ -4,7 +4,7 @@
     "exothermic": false,
     "fluid_input": {
       "type": "pneumaticcraft:fluid",
-      "amount": 1000,
+      "amount": 2000,
       "fluid": "kubejs:dense_lava"
     },
     "item_input": {
@@ -21,6 +21,6 @@
     "pressure": 2.0,
     "speed": 1,
     "temperature": {
-      "min_temp": 773
+      "min_temp": 1800
     }
   }

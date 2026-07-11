@@ -70,7 +70,54 @@ ServerEvents.recipes(event => {
       ],
       result: "minecraft:sponge",
       nutrients: 1
-    }
+    },
+    {
+      items: [
+        { item: 'biomancy:elastic_fibers', count: 1 },
+        { item: 'biomancy:flesh_bits', count: 2 },
+      ],
+      result: "kubejs:heart",
+      nutrients: 1
+    },
+
+    {
+      items: [
+        { item: 'biomancy:elastic_fibers', count: 2 },
+        { item: 'biomancy:flesh_bits', count: 2 },
+        { item: 'minecraft:bone', count: 5 },
+      ],
+      result: "kubejs:ribs",
+      nutrients: 1
+    },
+
+    {
+      items: [
+        { item: 'biomancy:flesh_bits', count: 1 },
+        { item: 'biomancy:exotic_dust', count: 1 },
+        { item: 'biomancy:hormone_secretion', count: 1 },
+      ],
+      result: "kubejs:brain",
+      nutrients: 1
+    },
+
+    {
+      items: [
+        { item: 'biomancy:elastic_fibers', count: 3 },
+        { item: 'biomancy:flesh_bits', count: 1 },
+      ],
+      result: 'kubejs:oxtail',
+      nutrients: 1
+    },
+
+    {
+      items: [
+        { item: 'biomancy:flesh_bits', count: 1 },
+        { item: 'biomancy:nutrients', count: 4 },
+        { item: 'biomancy:bile', count: 1 },
+      ],
+      result: "kubejs:liver",
+      nutrients: 1
+    },
   ];
   recipes.forEach(recipe => {
     event.custom({

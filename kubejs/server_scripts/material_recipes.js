@@ -244,4 +244,56 @@ ServerEvents.recipes(event => {
     metalMaterialNoNuggetMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_nugget",4950)
     craftableMaterial("kubejs:carbon_plate","kubejs:carbon_plate")
     metalMaterial("kubejs:star_dragon","cti:molten_star_dragon","cti:star_dragon_ingot",9273)
+    metalMaterialNoIngotMelt("kubejs:endergobber","tinkerscalibration:moltenendgobber","gobber2:gobber2_ingot_end",1750)
+    metalMaterial("tinkers_ingenuity:blue_sky","kubejs:molten_blue_sky","tinkers_ingenuity:blue_sky_ingot",3900)
+    craftableMaterial("cti:unipolar_magnet","kubejs:unipolar_magnet_shard")
+event.custom({
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_slimesteel",
+      "amount": 180
+    },
+    {
+      "name": "kubejs:molten_swet_bronze",
+      "amount": 90
+    },
+    {
+      "name": "kubejs:molten_azure_swet",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_blue_sky",
+    "amount": 360
+  },
+  "temperature": 3900
+})
+    metalMaterial("kubejs:swet_bronze","kubejs:molten_swet_bronze","kubejs:swet_bronze_ingot",1800)
+event.custom({
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tinkers_thinking:molten_tinkers_bronze",
+      "amount": 270
+    },
+    {
+      "name": "kubejs:molten_veridium",
+      "amount": 90
+    },
+    {
+      "name": "kubejs:molten_azure_swet",
+      "amount": 250
+    },
+    {
+      "name": "kubejs:molten_gold_swet",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_swet_bronze",
+    "amount": 360
+  },
+  "temperature": 1800
+})
 })

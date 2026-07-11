@@ -1,0 +1,21 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "    A",
+    "   A ",
+    " AA  ",
+    "ABA  ",
+    "AA   "
+  ],
+  "key": {
+    "A": {
+      "item": "iceandfire:dread_shard"
+    },
+    "B": {
+      "item": "l2complements:explosion_shard"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dread_key"
+  }
+}
