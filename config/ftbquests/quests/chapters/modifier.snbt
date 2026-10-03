@@ -12,7 +12,7 @@
 		}
 	}
 	id: "1B6F59FBB07102D2"
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -103,35 +103,6 @@
 			y: -1.0d
 		}
 		{
-			description: ["朴实无华的伤害转化为穿魔"]
-			disable_toast: true
-			icon: {
-				Count: 1b
-				id: "tconstruct:modifier_crystal"
-				tag: {
-					modifier: "tinkersinnovation:abyss_resonance"
-				}
-			}
-			id: "46ECD158B093890C"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "需要玛玉玲/邪恶钢作为前置"
-			tasks: [{
-				id: "5B344408FD8675CE"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkersinnovation:abyss_resonance"
-					}
-				}
-				type: "item"
-			}]
-			title: "深渊共鸣"
-			x: -17.5d
-			y: -3.0d
-		}
-		{
 			description: ["无限时长的生命恢复"]
 			disable_toast: true
 			icon: {
@@ -217,24 +188,6 @@
 		}
 		{
 			disable_toast: true
-			id: "7CEF0B9AC61693D0"
-			subtitle: "可以很好的抵御腐蚀词条的扣耐久"
-			tasks: [{
-				id: "15EAEF3BA36CF53C"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkersinnovation:harden"
-					}
-				}
-				type: "item"
-			}]
-			x: -13.5d
-			y: -1.0d
-		}
-		{
-			disable_toast: true
 			id: "1090BDB2E1FB7F97"
 			subtitle: "主手武器有此强化且主/副武器类型相同时，可以主副手一起攻击"
 			tasks: [{
@@ -250,63 +203,6 @@
 			}]
 			x: -19.5d
 			y: 19.5d
-		}
-		{
-			disable_toast: true
-			id: "01092BE3C414B955"
-			subtitle: "工具无法破坏，不会无视强制消耗耐久"
-			tasks: [{
-				id: "3EA8736143237410"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkersinnovation:eternal_weaker"
-					}
-				}
-				type: "item"
-			}]
-			x: -9.5d
-			y: 12.0d
-		}
-		{
-			description: ["有两个平行配方"]
-			disable_toast: true
-			id: "07339BF1493C3DAA"
-			subtitle: "消耗10点黏液覆层减少30%盾值消耗"
-			tasks: [{
-				id: "4B2BEEF7A411B3EF"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkersinnovation:over_cushion"
-					}
-				}
-				type: "item"
-			}]
-			x: -11.5d
-			y: 12.0d
-		}
-		{
-			disable_toast: true
-			id: "7FDCF21C836D9793"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "首次攻击或被攻击时每级增加5s1级绿宝石水花，再次攻击或被攻击时提升为2级"
-			tasks: [{
-				id: "6203667111093E08"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkersinnovation:heirophant_green"
-					}
-				}
-				type: "item"
-			}]
-			x: -9.5d
-			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -458,26 +354,6 @@
 			y: 21.5d
 		}
 		{
-			disable_toast: true
-			id: "2AE351810235024E"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "工匠匠心每添加一个匠魂属性，提高2%挖掘速度与攻击伤害"
-			tasks: [{
-				id: "609968733B492591"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkers_ingenuity:star_blessing"
-					}
-				}
-				type: "item"
-			}]
-			x: -11.5d
-			y: 10.0d
-		}
-		{
 			description: ["小晶镞"]
 			disable_toast: true
 			id: "02D1099524297F50"
@@ -493,8 +369,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: -7.5d
+			y: -3.0d
 		}
 		{
 			disable_toast: true
@@ -511,27 +387,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.5d
 			y: 10.0d
-		}
-		{
-			description: ["商店有卖"]
-			disable_toast: true
-			id: "3C015F5AFCF579F4"
-			subtitle: "提供200%伤害，免疫火焰，50%免伤"
-			tasks: [{
-				id: "1DA50A8CBD3EB8B3"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkers_ingenuity:born_with_evil"
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: -3.0d
 		}
 		{
 			disable_toast: true
@@ -810,6 +667,7 @@
 			y: 19.5d
 		}
 		{
+			description: ["       在匠魂3中，抢夺和时运合并为了幸运强化"]
 			disable_toast: true
 			id: "06438E89405867F1"
 			subtitle: "增加一点时运/抢夺"
@@ -824,8 +682,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -3.0d
+			x: -15.0d
+			y: -18.5d
 		}
 		{
 			disable_toast: true
@@ -879,7 +737,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			disable_toast: true
@@ -896,8 +754,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 12.0d
+			x: -5.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -990,22 +848,45 @@
 			y: 23.5d
 		}
 		{
+			description: [
+				"      虽然量少，但是好歹也是减伤！"
+				""
+				"      虽然后期能靠材料撑减伤，但是前期保护类词条（包括后面推荐的几个）是很重要的"
+				""
+				"      借着保护词条，这里说明一下匠魂保护是有上限的，默认所有保护加起来对一个伤害的减免量最大为80%（所有保护共用计算）"
+				""
+				"      无垠强化能增加保护的上限值到90%"
+			]
 			disable_toast: true
 			id: "4D2526E0237A0F92"
 			subtitle: "原版的保护附魔"
-			tasks: [{
-				id: "7F08495660BBF0D0"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tconstruct:protection"
+			tasks: [
+				{
+					id: "7F08495660BBF0D0"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "tconstruct:protection"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: -1.0d
+				{
+					id: "218F3414A951743C"
+					item: {
+						Count: 1b
+						id: "tconstruct:modifier_crystal"
+						tag: {
+							modifier: "tconstruct:boundless"
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: -16.0d
+			y: -19.5d
 		}
 		{
 			disable_toast: true
@@ -1026,6 +907,11 @@
 			y: 25.5d
 		}
 		{
+			description: [
+				"你可能没找到精准采集在哪，我来告诉你："
+				""
+				"      在匠魂里我们管它叫丝触"
+			]
 			disable_toast: true
 			id: "018C60F85F954219"
 			subtitle: "原版的精准采集"
@@ -1040,26 +926,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			disable_toast: true
-			id: "0CB006C8904FE36C"
-			subtitle: "武器/工具黏液覆层上限+300，每50点提供1%伤害提升/1%物理和爆炸抗性。受到生命值50%以上物理伤害时，消耗最大值25%黏液覆层抵消90%伤害"
-			tasks: [{
-				id: "403BABB26E929AB2"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "solidarytinker:slimecuring"
-					}
-				}
-				type: "item"
-			}]
-			x: -19.5d
-			y: 12.0d
+			x: -14.0d
+			y: -18.5d
 		}
 		{
 			disable_toast: true
@@ -1420,8 +1288,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 12.0d
+			x: -11.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -1603,24 +1471,6 @@
 		}
 		{
 			disable_toast: true
-			id: "5B925AC9D31BBE88"
-			subtitle: "攻击时在目标头顶召唤下落的灵剑，造成1/4伤害，等级越高灵剑越多"
-			tasks: [{
-				id: "12AE67130B9C05F2"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "etshtinker:phantomreforged"
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: 10.0d
-		}
-		{
-			disable_toast: true
 			id: "5ED6AC684F473B92"
 			subtitle: "曲率航行结束后对离你最近的生物造成伤害，伤害与曲率速度有关"
 			tasks: [{
@@ -1652,7 +1502,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -19.5d
 			y: 12.0d
 		}
 		{
@@ -1690,7 +1540,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -9.5d
 			y: -3.0d
 		}
 		{
@@ -2053,6 +1903,8 @@
 		{
 			disable_toast: true
 			id: "279F1D45BCF0A25F"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "概率掉落目标头颅及其他身体部位"
 			tasks: [{
 				id: "0D51486B54C83507"
@@ -2065,8 +1917,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 14.5d
+			y: -3.0d
 		}
 		{
 			disable_toast: true
@@ -2267,6 +2119,11 @@
 			y: 29.0d
 		}
 		{
+			description: [
+				"      你可能看不起钻石给的固定值伤害增幅，但是下界合金不一样，它是百分比增幅。"
+				""
+				"      钻石不打下界合金总得打吧~"
+			]
 			disable_toast: true
 			id: "2A9D2EFD7A2276D8"
 			subtitle: "增强工具并使工具无法被焚毁"
@@ -2281,26 +2138,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			disable_toast: true
-			id: "144594EB99F9C2BC"
-			subtitle: "攻击吸血"
-			tasks: [{
-				id: "7C20879363C31D1D"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkerscalibration:necroticrewrite"
-					}
-				}
-				type: "item"
-			}]
-			x: 16.5d
-			y: -1.0d
+			x: -14.5d
+			y: -17.5d
 		}
 		{
 			disable_toast: true
@@ -2411,6 +2250,11 @@
 			y: 23.5d
 		}
 		{
+			description: [
+				"      如果你被榴弹词条炸过，应该清楚爆炸保护在前期有多重要。"
+				""
+				"      反正有槽就打就对了"
+			]
 			disable_toast: true
 			id: "2267DB8DEBEFE3AF"
 			subtitle: "降低爆炸伤害及击退效果"
@@ -2425,8 +2269,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.5d
-			y: -3.0d
+			x: -14.0d
+			y: -19.5d
 		}
 		{
 			disable_toast: true
@@ -2627,9 +2471,10 @@
 			y: 31.0d
 		}
 		{
+			description: ["      免费的耐久为什么不打？它还会被工具和其它词条的耐久倍率增幅"]
 			disable_toast: true
 			id: "1287FCD7AE73454E"
-			subtitle: "增加工具的基础数据，包括挖掘等级和挖掘速度"
+			subtitle: "增加工具的耐久"
 			tasks: [{
 				id: "4790482500EAB561"
 				item: {
@@ -2641,10 +2486,11 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: -16.5d
+			y: -17.5d
 		}
 		{
+			description: ["       蚊子腿也是肉"]
 			disable_toast: true
 			id: "639AB12B7F2A6577"
 			subtitle: "提升工具的耐久和各项数据"
@@ -2659,8 +2505,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.0d
+			x: -15.5d
+			y: -17.5d
 		}
 		{
 			disable_toast: true
@@ -2821,10 +2667,15 @@
 				}
 				type: "item"
 			}]
-			x: 33.5d
-			y: -1.0d
+			x: 37.5d
+			y: -3.0d
 		}
 		{
+			description: [
+				"      最通用的保护类，只要不是其它专项保护类/穿甲伤害/穿魔伤害都能防，而在前期跟你打交道最多的就是这类伤害。"
+				""
+				"      后期由于穿魔穿甲满地跑而失去效用，但是前期还是特别推荐。"
+			]
 			disable_toast: true
 			id: "67DE352BE1FE1067"
 			subtitle: "降低直接物理类型伤害"
@@ -2839,8 +2690,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: -1.0d
+			x: -15.0d
+			y: -19.5d
 		}
 		{
 			disable_toast: true
@@ -2968,8 +2819,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: 17.0d
+			x: 0.5d
+			y: -22.5d
 		}
 		{
 			disable_toast: true
@@ -2986,8 +2837,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: 17.0d
+			x: -1.5d
+			y: -22.5d
 		}
 		{
 			disable_toast: true
@@ -3004,8 +2855,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.5d
-			y: 15.5d
+			x: 4.5d
+			y: -24.0d
 		}
 		{
 			disable_toast: true
@@ -3023,8 +2874,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.5d
-			y: 18.5d
+			x: 2.5d
+			y: -21.0d
 		}
 		{
 			disable_toast: true
@@ -3041,8 +2892,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.5d
-			y: 17.0d
+			x: 2.5d
+			y: -22.5d
 		}
 		{
 			disable_toast: true
@@ -3059,8 +2910,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.5d
-			y: 17.0d
+			x: 4.5d
+			y: -22.5d
 		}
 		{
 			disable_toast: true
@@ -3097,24 +2948,6 @@
 			}]
 			x: 6.5d
 			y: 6.0d
-		}
-		{
-			disable_toast: true
-			id: "3C8CC2B1602D3A00"
-			subtitle: "穿着全套时，持续产生魔力。所以匠魂物品的魔力消耗降低20%；每4秒恢复2点生命值"
-			tasks: [{
-				id: "4EDBC578C8530D39"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tcintegrations:terrestrial"
-					}
-				}
-				type: "item"
-			}]
-			x: 12.5d
-			y: -1.0d
 		}
 		{
 			disable_toast: true
@@ -3329,8 +3162,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
@@ -3401,8 +3234,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.0d
+			x: 16.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
@@ -3463,6 +3296,8 @@
 		{
 			disable_toast: true
 			id: "7BFDED3BB657048C"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "提高两点抢夺等级"
 			tasks: [{
 				id: "3FB90E57C06B6266"
@@ -3475,8 +3310,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.0d
+			x: 12.5d
+			y: -3.0d
 		}
 		{
 			disable_toast: true
@@ -3601,7 +3436,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 16.5d
 			y: -3.0d
 		}
 		{
@@ -3639,24 +3474,6 @@
 			}]
 			x: 8.5d
 			y: -1.0d
-		}
-		{
-			disable_toast: true
-			id: "5C898863D18FFE3D"
-			subtitle: "攻击时有概率提高工具伤害，最高六点"
-			tasks: [{
-				id: "488FEE18E1E9984B"
-				item: {
-					Count: 1b
-					id: "tconstruct:modifier_crystal"
-					tag: {
-						modifier: "tinkers_ingenuity:fate_glory"
-					}
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: -3.0d
 		}
 		{
 			disable_toast: true
@@ -4127,6 +3944,11 @@
 			y: 17.5d
 		}
 		{
+			description: [
+				"       当你步入冒险流程的早期时，你会很容易受到魔法伤害（说你呢反射词条），而魔法保护是最简单的解。"
+				""
+				"       同近战保护，后期的穿甲穿魔伤害魔法保护是减免不了的，但是对于打算&e进入暮色&r的你还是非常重要"
+			]
 			disable_toast: true
 			id: "33A6F31411ED95B2"
 			subtitle: "降低药水等魔法伤害"
@@ -4141,8 +3963,8 @@
 				}
 				type: "item"
 			}]
-			x: 35.5d
-			y: -3.0d
+			x: -13.0d
+			y: -19.5d
 		}
 		{
 			icon: {
@@ -4241,7 +4063,7 @@
 				}
 				type: "item"
 			}]
-			x: 37.5d
+			x: 31.5d
 			y: -3.0d
 		}
 		{
@@ -4622,8 +4444,8 @@
 				}
 				type: "item"
 			}]
-			x: 46.5d
-			y: 11.0d
+			x: 58.5d
+			y: 13.0d
 		}
 		{
 			disable_toast: true
@@ -5120,6 +4942,14 @@
 					]
 					tic_modifiers: [
 						{
+							level: 1
+							name: "solidarytinker:anymoremode"
+						}
+						{
+							level: 1
+							name: "tconstruct:tank_handler"
+						}
+						{
 							level: 5
 							name: "etshtinker:godlymetal"
 						}
@@ -5132,12 +4962,8 @@
 							name: "etshtinker:beconcerted"
 						}
 						{
-							level: 1
-							name: "solidarytinker:anymoremode"
-						}
-						{
-							level: 1
-							name: "tconstruct:tank_handler"
+							level: 25
+							name: "cti:shadow_of_vigrid"
 						}
 					]
 					tic_persistent: { }
@@ -5146,11 +4972,11 @@
 						"solidarytinker:detection_range": 100.0f
 						"solidarytinker:exert_times": 100.0f
 						"solidarytinker:kill_threshold": 0.6f
-						"tconstruct:attack_damage": 321.55347f
-						"tconstruct:attack_speed": 132.69708f
-						"tconstruct:block_amount": 94.78363f
+						"tconstruct:attack_damage": 325.76926f
+						"tconstruct:attack_speed": 134.43684f
+						"tconstruct:block_amount": 96.02631f
 						"tconstruct:block_angle": 180.0f
-						"tconstruct:durability": 643960.0f
+						"tconstruct:durability": 652402.8f
 						"tconstruct:tank_capacity": 40000.0f
 					}
 					tic_volatile_data: {
@@ -5161,7 +4987,7 @@
 				}
 			}
 			id: "7F480345CBFC913E"
-			size: 2.0d
+			size: 4.0d
 			subtitle: "进阶工具需求的强化"
 			tasks: [{
 				id: "098FA2162330F490"
@@ -5169,8 +4995,8 @@
 				type: "checkmark"
 			}]
 			title: "独特强化"
-			x: 30.5d
-			y: 12.5d
+			x: -8.0d
+			y: -18.5d
 		}
 		{
 			disable_toast: true
@@ -5205,8 +5031,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 12.0d
+			x: -7.5d
+			y: 10.0d
 		}
 		{
 			disable_toast: true
@@ -5859,8 +5685,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.5d
-			y: 1.0d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			id: "04CAC3E86673E32C"
@@ -5944,7 +5770,7 @@
 				type: "item"
 			}]
 			x: 35.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			id: "7FEA5CDDE8102A4C"
@@ -5961,7 +5787,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			id: "23DBC444D475EAF4"
@@ -6014,7 +5840,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
+			x: -17.5d
 			y: -3.0d
 		}
 		{
@@ -6045,6 +5871,10 @@
 							name: "etshtinker:beconcerted"
 						}
 						{
+							level: 25
+							name: "cti:shadow_of_vigrid"
+						}
+						{
 							level: 10
 							name: "tconstruct:tank"
 						}
@@ -6054,28 +5884,29 @@
 						}
 					]
 					tic_multipliers: {
-						"tconstruct:attack_damage": 0.8f
-						"tconstruct:durability": 2.75f
+						"tconstruct:attack_damage": 0.9f
+						"tconstruct:attack_speed": 1.25f
+						"tconstruct:durability": 2.0f
 					}
 					tic_persistent: { }
 					tic_stats: {
 						"etshtinker:critical_rate": 1.28f
-						"etshtinker:damagemultiplier": 194.11687f
+						"etshtinker:damagemultiplier": 196.6619f
 						"etshtinker:fluid_efficiency": 100.0f
 						"etshtinker:slash_color": 10.0f
-						"tconstruct:attack_damage": 197.96512f
-						"tconstruct:attack_speed": 245.4896f
-						"tconstruct:block_amount": 94.78363f
+						"tconstruct:attack_damage": 293.19235f
+						"tconstruct:attack_speed": 336.0921f
+						"tconstruct:block_amount": 96.02631f
 						"tconstruct:block_angle": 180.0f
-						"tconstruct:durability": 886474.56f
+						"tconstruct:durability": 1305564.1f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 312.78598f
+						"tconstruct:mining_speed": 633.7737f
 						"tconstruct:tank_capacity": 6760000.0f
 					}
 					tic_volatile_data: {
-						abilities: 19
+						abilities: 23
 						"tconstruct:total_tanks": 1
-						upgrades: 26
+						upgrades: 28
 					}
 				}
 			}
@@ -6087,8 +5918,8 @@
 				type: "checkmark"
 			}]
 			title: "约束等离子阔剑"
-			x: 23.5d
-			y: 15.5d
+			x: -3.5d
+			y: -24.0d
 		}
 		{
 			icon: {
@@ -6117,6 +5948,10 @@
 							name: "etshtinker:beconcerted"
 						}
 						{
+							level: 20
+							name: "cti:shadow_of_vigrid"
+						}
+						{
 							level: 1
 							name: "etshtinker:miracle_catalyst"
 						}
@@ -6132,26 +5967,26 @@
 					tic_multipliers: {
 						"tconstruct:attack_damage": 1.45f
 						"tconstruct:attack_speed": 0.8f
-						"tconstruct:durability": 1.55f
+						"tconstruct:durability": 3.0f
 					}
 					tic_persistent: { }
 					tic_stats: {
 						"etshtinker:cooldown": 10.0f
-						"etshtinker:damagemultiplier": 189.56726f
+						"etshtinker:damagemultiplier": 192.05263f
 						"etshtinker:plasmarange": 70.0f
-						"tconstruct:attack_damage": 683.8528f
-						"tconstruct:attack_speed": 128.90575f
-						"tconstruct:block_amount": 94.78363f
+						"tconstruct:attack_damage": 692.81866f
+						"tconstruct:attack_speed": 130.5958f
+						"tconstruct:block_amount": 96.02631f
 						"tconstruct:block_angle": 180.0f
-						"tconstruct:durability": 1480796.1f
+						"tconstruct:durability": 2903633.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 888.59656f
+						"tconstruct:mining_speed": 900.2467f
 						"tconstruct:tank_capacity": 1.576E7f
 					}
 					tic_volatile_data: {
-						abilities: 16
+						abilities: 20
 						"tconstruct:total_tanks": 1
-						upgrades: 22
+						upgrades: 24
 					}
 				}
 			}
@@ -6163,8 +5998,8 @@
 				type: "checkmark"
 			}]
 			title: "离子化射线炮"
-			x: 23.5d
-			y: 18.5d
+			x: -3.5d
+			y: -21.0d
 		}
 		{
 			icon: {
@@ -6182,6 +6017,14 @@
 					]
 					tic_modifiers: [
 						{
+							level: 1
+							name: "solidarytinker:anymoremode"
+						}
+						{
+							level: 1
+							name: "tconstruct:tank_handler"
+						}
+						{
 							level: 5
 							name: "etshtinker:godlymetal"
 						}
@@ -6194,12 +6037,8 @@
 							name: "etshtinker:beconcerted"
 						}
 						{
-							level: 1
-							name: "solidarytinker:anymoremode"
-						}
-						{
-							level: 1
-							name: "tconstruct:tank_handler"
+							level: 25
+							name: "cti:shadow_of_vigrid"
 						}
 					]
 					tic_persistent: { }
@@ -6208,11 +6047,11 @@
 						"solidarytinker:detection_range": 100.0f
 						"solidarytinker:exert_times": 100.0f
 						"solidarytinker:kill_threshold": 0.6f
-						"tconstruct:attack_damage": 321.55347f
-						"tconstruct:attack_speed": 132.69708f
-						"tconstruct:block_amount": 94.78363f
+						"tconstruct:attack_damage": 325.76926f
+						"tconstruct:attack_speed": 134.43684f
+						"tconstruct:block_amount": 96.02631f
 						"tconstruct:block_angle": 180.0f
-						"tconstruct:durability": 643960.0f
+						"tconstruct:durability": 652402.8f
 						"tconstruct:tank_capacity": 40000.0f
 					}
 					tic_volatile_data: {
@@ -6230,8 +6069,8 @@
 				type: "checkmark"
 			}]
 			title: "魂戈"
-			x: 23.5d
-			y: 21.0d
+			x: -3.5d
+			y: -18.5d
 		}
 		{
 			id: "016F5E9B7163A05A"
@@ -6248,8 +6087,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: 15.5d
+			x: -1.5d
+			y: -24.0d
 		}
 		{
 			id: "7556FFAC572ABCDD"
@@ -6266,8 +6105,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: 15.5d
+			x: 0.5d
+			y: -24.0d
 		}
 		{
 			id: "670C07C829E44676"
@@ -6284,8 +6123,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: 18.5d
+			x: -1.5d
+			y: -21.0d
 		}
 		{
 			id: "0A5A4B98243D96BF"
@@ -6302,8 +6141,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: 18.5d
+			x: 0.5d
+			y: -21.0d
 		}
 		{
 			id: "6FF935E210EF8C7A"
@@ -6320,8 +6159,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: 21.0d
+			x: -1.5d
+			y: -18.5d
 		}
 		{
 			id: "706D49B99C3879A5"
@@ -6338,8 +6177,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: 21.0d
+			x: 0.0d
+			y: -18.5d
 		}
 		{
 			id: "619FC019EA21A5C1"
@@ -6354,8 +6193,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.5d
-			y: 21.0d
+			x: 7.5d
+			y: -18.0d
 		}
 		{
 			id: "3456792DF2B1FBD2"
@@ -6370,8 +6209,8 @@
 				}
 				type: "item"
 			}]
-			x: 33.5d
-			y: 21.0d
+			x: 6.5d
+			y: -18.0d
 		}
 		{
 			id: "6FF5D7CA5C7E36F1"
@@ -6386,8 +6225,8 @@
 				}
 				type: "item"
 			}]
-			x: 35.5d
-			y: 21.0d
+			x: 8.5d
+			y: -18.0d
 		}
 		{
 			icon: {
@@ -6417,6 +6256,10 @@
 							name: "etshtinker:beconcerted"
 						}
 						{
+							level: 20
+							name: "cti:shadow_of_vigrid"
+						}
+						{
 							level: 1
 							name: "solidarytinker:mercurypoisoning"
 						}
@@ -6437,18 +6280,18 @@
 						"solidarytinker:detection_range": 20.0f
 						"solidarytinker:energy_capacity": 100000.0f
 						"solidarytinker:target_amount": 3.0f
-						"tconstruct:attack_damage": 433.39816f
-						"tconstruct:attack_speed": 79.61825f
-						"tconstruct:block_amount": 94.78363f
+						"tconstruct:attack_damage": 439.08035f
+						"tconstruct:attack_speed": 80.66211f
+						"tconstruct:block_amount": 96.02631f
 						"tconstruct:block_angle": 180.0f
-						"tconstruct:durability": 643960.0f
+						"tconstruct:durability": 652402.8f
 					}
 					tic_volatile_data: {
-						abilities: 14
+						abilities: 18
 						flux: 3
 						"solidarytinker:energy_owner": "solidarytinker:electricbatonscore"
 						"solidarytinker:max_energy": 100000
-						upgrades: 20
+						upgrades: 22
 					}
 				}
 			}
@@ -6460,8 +6303,8 @@
 				type: "checkmark"
 			}]
 			title: "电棍"
-			x: 23.5d
-			y: 23.5d
+			x: -3.5d
+			y: -16.0d
 		}
 		{
 			id: "5C5179AD8EF9D0B2"
@@ -6476,8 +6319,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.5d
-			y: 21.0d
+			x: 8.0d
+			y: -19.0d
 		}
 		{
 			id: "5A85E62D0B0DCDAF"
@@ -6494,8 +6337,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: 23.5d
+			x: -1.5d
+			y: -16.0d
 		}
 		{
 			id: "717E317CC612F88D"
@@ -6512,8 +6355,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: 23.5d
+			x: 0.5d
+			y: -16.0d
 		}
 		{
 			id: "7BBA48EF894C74BD"
@@ -6528,8 +6371,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.5d
-			y: 23.5d
+			x: 2.5d
+			y: -16.0d
 		}
 		{
 			id: "07CFFFE5F8A675B6"
@@ -6546,8 +6389,778 @@
 				}
 				type: "item"
 			}]
-			x: 29.5d
-			y: 15.5d
+			x: 2.5d
+			y: -24.0d
+		}
+		{
+			id: "7FA1B7D4058ED1B3"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "2DE0FE975A0246F2"
+				item: {
+					Count: 1b
+					id: "cloudertinker:giantsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+							"etshtinker:exo_alloy"
+						]
+						tic_modifiers: [
+							{
+								level: 5
+								name: "etshtinker:godlymetal"
+							}
+							{
+								level: 5
+								name: "etshtinker:worldforceex"
+							}
+							{
+								level: 5
+								name: "etshtinker:beconcerted"
+							}
+							{
+								level: 25
+								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "cti:sharpblade"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 2.75f
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:durability": 3.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3392.6038f
+							"tconstruct:attack_speed": 100.82764f
+							"tconstruct:block_amount": 96.02631f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 5675904.5f
+						}
+						tic_volatile_data: {
+							abilities: 21
+							upgrades: 26
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			id: "00659ECE8AC8F803"
+			tasks: [{
+				id: "75CD0408F2DC0009"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:slash_colorize"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -24.0d
+		}
+		{
+			id: "59DE1561336E7F4E"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "115BFC172BA895E2"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:reach"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			id: "52E2E98C341F01F3"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "喏，你要的百分比锋利"
+			tasks: [{
+				id: "766F948722E8FB46"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:enforced_sharpness"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"      不一定很强，但是一定很有用。"
+				""
+				"      你可能不一定想在下面那一大堆强化里翻找，但是这几个至少要看一眼"
+				""
+				"      这三行强化分别是："
+				"      1.保护类"
+				"      2.时运/精准采集"
+				"      3.流程性属性增幅"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:scorched_anvil"
+				tag: {
+					texture: "tconstruct:manyullyn_block"
+				}
+			}
+			id: "3F5C3473F89747A9"
+			size: 4.0d
+			subtitle: "这些是一些推荐的基础强化"
+			tasks: [{
+				id: "6A6C0B3976DA9832"
+				type: "checkmark"
+			}]
+			title: "重要强化"
+			x: -20.0d
+			y: -18.5d
+		}
+		{
+			description: [
+				"      紫晶石强化在提供百分比增幅的基础上还会叠加时运等级，并取消天境的工具惩罚（是不是还不知道有这个特性就去刮魔石了？）"
+				""
+				"      它也是少数能强化流体效率和伤害倍率属性的强化"
+			]
+			id: "5F811143CE610E83"
+			subtitle: "增加时运和百分比属性增幅"
+			tasks: [{
+				id: "6968BFB032ED4372"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:zanite"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: -17.5d
+		}
+		{
+			description: ["       增幅的属性列表与紫晶石一致，附带使石生体中立"]
+			id: "5267573FEFA01B3D"
+			subtitle: "依旧属性增幅"
+			tasks: [{
+				id: "4B63DC2AAB1FEA6A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:regalium"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.5d
+			y: -17.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "cloudertinker:giantsword"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"kubejs:fire_steel"
+						"kubejs:fire_steel"
+						"kubejs:fire_steel"
+						"kubejs:fire_steel"
+						"kubejs:fire_steel"
+					]
+					tic_modifiers: [
+						{
+							level: 5
+							name: "cti:devourer_of_dragons"
+						}
+						{
+							level: 2
+							name: "cti:burnt_handler"
+						}
+						{
+							level: 5
+							name: "cti:replaced_heat_sword"
+						}
+						{
+							level: 5
+							name: "cti:melee_fiery_javelin"
+						}
+						{
+							level: 5
+							name: "etshtinker:solidex"
+						}
+						{
+							level: 5
+							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "tconstruct:reach"
+						}
+						{
+							level: 1
+							name: "cti:sharpblade"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 2.75f
+						"tconstruct:attack_speed": 0.75f
+						"tconstruct:durability": 3.0f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"cti:burnt_base": 225.0f
+						"cti:burnt_mul": 1.25f
+						"tconstruct:attack_damage": 1054.3501f
+						"tconstruct:attack_speed": 1.6875f
+						"tconstruct:durability": 498892.78f
+					}
+					tic_volatile_data: {
+						abilities: 6
+						upgrades: 6
+					}
+				}
+			}
+			id: "62ABDCE39868C55D"
+			size: 4.0d
+			subtitle: "部分流派需求的强化"
+			tasks: [{
+				id: "25F36F0F5471135C"
+				type: "checkmark"
+			}]
+			title: "流派强化"
+			x: 13.5d
+			y: -18.5d
+		}
+		{
+			description: [
+				"      这里解释一下&b专业化魔力脉冲强化&r："
+				""
+				"      通常有指向性很强的功能，一把武器只能强化一种专业化魔力脉冲强化"
+			]
+			icon: "botania:creative_pool"
+			id: "47883345683FCF2C"
+			shape: "square"
+			size: 1.5d
+			title: "魔力脉冲流派"
+			x: 17.0d
+			y: -23.0d
+		}
+		{
+			icon: "cloudertinker:glavenus_ingot"
+			id: "7A245BF77B9B6449"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "4BAFAFBEB456CF84"
+				type: "checkmark"
+			}]
+			title: "灼伤流派"
+			x: 17.0d
+			y: -20.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:queens_slime"
+				}
+			}
+			id: "762246E34A14656E"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5C82B337648A52FB"
+				type: "checkmark"
+			}]
+			title: "黏液流派"
+			x: 17.0d
+			y: -17.0d
+		}
+		{
+			icon: "tconstruct:manyullyn_ingot"
+			id: "4DDF3C06F188D2B2"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "6124A79CA68E67C4"
+				type: "checkmark"
+			}]
+			title: "贪婪流派"
+			x: 17.0d
+			y: -14.0d
+		}
+		{
+			id: "63F2695D14C26179"
+			subtitle: "流派核心强化，让工具失去攻击挖掘手段但是允许魔力脉冲触发词条"
+			tasks: [{
+				id: "7C9F4784C56B40E6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:farther_sights"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 19.0d
+			y: -23.5d
+		}
+		{
+			id: "048256A24874CB93"
+			subtitle: "更高的速度，更好命中，很合理吧"
+			tasks: [{
+				id: "0F0DD13F54DB0FAC"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:burst_accelerate"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 20.5d
+			y: -23.5d
+		}
+		{
+			id: "0A3B48DEF7126C0D"
+			subtitle: "增加脉冲的魔力携带量，这样会增加脉冲的穿透次数"
+			tasks: [{
+				id: "4A82FE4FD323ADD5"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:mana_capacity"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 22.0d
+			y: -23.5d
+		}
+		{
+			description: [
+				"      如果你打了魔化之刃强化，大部分情况下是没用的。因为很多词条都有无视无敌帧机制"
+				""
+				"      也许某种情况下玩魔力脉冲不需要打魔化之刃"
+			]
+			id: "32E6BB5720B00338"
+			tasks: [{
+				id: "7556879298804E80"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:burst_bypass_cooldown"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 23.5d
+			y: -23.5d
+		}
+		{
+			id: "59800EC450452705"
+			subtitle: "采矿镭射枪，但是魔力脉冲版本"
+			tasks: [{
+				id: "384E48243B8D1C4E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:destruction_magic"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 19.0d
+			y: -22.5d
+		}
+		{
+			description: ["      在魔力充足的情况下能打非常多段伤害"]
+			id: "22F76CECABA2695E"
+			subtitle: "以前玩法师的时候每次都要刷一把，我说改版改烂了"
+			tasks: [{
+				id: "45B51474082298D1"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:thunderstorm"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 20.5d
+			y: -22.5d
+		}
+		{
+			description: ["      追踪且倍率高，是玩数值脉冲的核心强化"]
+			id: "3042E10FB6CB322A"
+			subtitle: "想你了，王者圣剑"
+			tasks: [{
+				id: "269B402853D3A2B3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:chasing_burst"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 22.0d
+			y: -22.5d
+		}
+		{
+			id: "3752F752471B10B2"
+			subtitle: "烧燃料增幅灼伤的伤害"
+			tasks: [{
+				id: "402200F7002F85A6"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:exothermic"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 19.0d
+			y: -20.0d
+		}
+		{
+			description: ["      和灼热攻击一样，每次强化以等差数列增幅"]
+			id: "7B86310EEBE9B307"
+			subtitle: "依旧尽孝灼热叠"
+			tasks: [{
+				id: "32BD4C5C9019DF0F"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:searing_blow"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 20.5d
+			y: -20.0d
+		}
+		{
+			id: "009387E2C3051C26"
+			subtitle: "每级+75黏液覆层最大值，简单粗暴"
+			tasks: [{
+				id: "66C73636E95A0E71"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:overforced"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 19.0d
+			y: -17.0d
+		}
+		{
+			id: "50085230F54C8310"
+			subtitle: "打空时也能续贪婪"
+			tasks: [{
+				id: "26CAE2DF0F963F65"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:shadow_slash"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 19.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"      在本包中，刻印被重新以强化的形式加回来了。"
+				""
+				"      不过刻印的强度你也知道，所以包里对刻印进行了一定的改动"
+			]
+			icon: {
+				Count: 1b
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "glorious"
+				}
+			}
+			id: "0395BC7CF7F398E2"
+			size: 4.0d
+			subtitle: "遗老这一块"
+			tasks: [{
+				id: "2B79AEDE9ABDBB72"
+				type: "checkmark"
+			}]
+			title: "刻印强化"
+			x: 27.0d
+			y: -18.0d
+		}
+		{
+			description: ["      顺序是按部件显示词条从上到下来确定的"]
+			id: "202AE351C79AFEC4"
+			subtitle: "刻印第一个词条"
+			tasks: [{
+				id: "482F55B73E74C72E"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:gobber_etch_1"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 30.0d
+			y: -18.0d
+		}
+		{
+			id: "05F4A7F834DF76D0"
+			subtitle: "刻印第二个词条"
+			tasks: [{
+				id: "677640D620B744C9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:gobber_etch_2"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 31.0d
+			y: -18.0d
+		}
+		{
+			description: ["      别问我第四个第五个怎么办，戈伯只能帮你帮到第三个词条"]
+			id: "3CCBB1673804B0FF"
+			subtitle: "刻印第三个词条"
+			tasks: [{
+				id: "2A1A6B44E67F33E0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:gobber_etch_3"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 32.0d
+			y: -18.0d
+		}
+		{
+			id: "46CDB87B3338EF1B"
+			subtitle: "刻印（完全体）（巨贵）"
+			tasks: [{
+				id: "58D741CD2AA7BC6A"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:glory_etch"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 34.5d
+			y: -18.0d
+		}
+		{
+			id: "073260AAD1D3DA59"
+			subtitle: "这是辉煌刻印的准入证明"
+			tasks: [{
+				id: "16AFE9477B976ED0"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tinkers_ingenuity:glorious"
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -18.0d
+		}
+		{
+			id: "04A5BA0B4F570A31"
+			tasks: [{
+				id: "0EB59C61C7326695"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:circuit_cutting"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -24.0d
+		}
+		{
+			id: "493EC2D940960B04"
+			subtitle: "大锤砸砸砸"
+			tasks: [{
+				id: "30578670C1F53724"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:plate_smashing"
+					}
+				}
+				type: "item"
+			}]
+			x: 46.5d
+			y: 11.0d
+		}
+		{
+			id: "15D6B9B869CA05A8"
+			subtitle: "你可以用它产魔"
+			tasks: [{
+				id: "2C8AB57E7C99B95C"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "cti:slimy_mana"
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -22.5d
+		}
+		{
+			id: "4F7D34BB508CCA5C"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0830154AB7B79DE9"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:inferno_core"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -18.5d
+		}
+		{
+			id: "1FF01EE2ED66BC02"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6DC16B74E0AC9ECA"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:zywooplay"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.5d
+		}
+		{
+			id: "538FA94976FA2DB7"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "733D6930ADC8C630"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:soulback"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -18.5d
+		}
+		{
+			id: "75FFA433FFF1AE49"
+			tasks: [{
+				id: "71DD77B02D63A0A3"
+				item: {
+					Count: 1b
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "solidarytinker:reality_ruler"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -19.0d
 		}
 	]
 	subtitle: [

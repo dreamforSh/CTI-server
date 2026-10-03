@@ -1,0 +1,42 @@
+#最远的渲染距离，超出此半径的不渲染
+showDistance = 32
+#最多渲染的数字量
+maxShowRender = 128
+#启用渲染的最小数值
+minValueDisplay = 0.5
+#是否启用同类型伤害数字合并
+enableCombineString = true
+#是否将同一实体的所有伤害合并为一个数字（不合并治疗），颜色使用默认色
+enableCombineEntity = false
+#合并生成在多少 tick 以内的文字
+mergeMaxAge = 20.0
+#伤害数字合并时的尺寸放大上限（每次合并 +1%，达到此值后不再放大）
+#1.0 表示不放大，默认 2.0 即最多放大到 2 倍
+#Range: 1.0 ~ 10.0
+mergeScaleMax = 1.5
+#伤害数字存活时间（tick）
+#Range: 5 ~ 600
+damageStringLife = 30
+#是否显示治疗数字
+showHealNumbers = true
+#伤害数字使用的纹理资源路径（namespace:path 格式）
+#纹理需为 0-9 与 '.' 共 11 个字符的水平图集，每字符 6x9 像素
+#切换后立即生效，无需重启游戏
+texture = "damagerender:textures/damagefont/number_0.png"
+#合并伤害时是否重置飘字存活时间
+#true：每次合并恢复为完整存活时间；false：保持当前剩余时间
+mergeResetLife = false
+#伤害数字基础缩放的对数底数
+#底数越大，大伤害数字的缩放增长越慢；底数越小增长越快
+#Range: 1.01 ~ 1.0E7
+baseScaleLogBase = 1000.0
+#伤害数字最终组合缩放上限（合并缩放、基础对数缩放和合并弹跳缩放之和）
+#淡出时的缩小倍率会在限制后继续生效
+#Range: 1.0 ~ 100.0
+maxCombinedScale = 10.0
+#是否启用伤害数字基础缩放的对数计算；关闭后仅保留合并缩放和动画缩放
+enableBaseScaleLogarithm = true
+#伤害数字生成时的初始纵向速度；正数向上，负数向下
+#Range: -10.0 ~ 10.0
+initialUpwardSpeed = 0.2
+

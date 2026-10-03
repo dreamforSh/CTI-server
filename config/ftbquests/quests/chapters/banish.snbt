@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "21B9A8A36D386C63"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -407,7 +407,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "3091F2EB90113293"
@@ -418,7 +418,84 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "7ECBD46E6DAFED80"
+			tasks: [{
+				id: "787E8FBAF41D972F"
+				item: {
+					Count: 1b
+					id: "cyclic:antigravity"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "0F0A198F1C18B616"
+			tasks: [{
+				id: "7F63237D63DDDAE4"
+				item: "mekanism:ultimate_logistical_transporter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "63225DE89EE0E7B9"
+			tasks: [{
+				id: "625BF90E272CBE07"
+				item: {
+					Count: 1b
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "182E85BB6999712A"
+			tasks: [{
+				id: "74409433EF111B28"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "6ED1F0DC2C949642"
+			tasks: [{
+				id: "7E11C8620FF3889C"
+				item: "cyclic:item_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["在服务端有很严重的破坏方块不同步问题，而且主手工具等效挖掘"]
+			id: "4E3FBAFC204EEB84"
+			tasks: [{
+				id: "6FCE3A8171EAB196"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
 		}
 	]
 	subtitle: [

@@ -1070,6 +1070,8 @@
 			description: [
 				"      陨铁矿可以在陨石撞击后的残骸中被发现，只能利用沉浸工程的粉碎机处理。在获得陨铁碎片的同时能获取部分矿物副产物！"
 				""
+				"      在&e月球地牢&r的箱子里有&65%&r的概率开出流星雨之板，是不“看天”获取陨铁最简单的办法"
+				""
 				"      在获得了戴斯、紫金和耐热金属后也可以用陨铁碎片合成陨铁合金。陨铁合金可以作为星钢的镶板替代材料"
 			]
 			hide_dependent_lines: true
@@ -1783,6 +1785,7 @@
 			subtitle: "兑换权限"
 			tasks: [{
 				amount: 10000000L
+				consume_fluid: true
 				fluid: "mekanism:hydrogen"
 				id: "31429179328BEF5A"
 				type: "fluid"
@@ -1802,6 +1805,7 @@
 			subtitle: "兑换权限"
 			tasks: [{
 				amount: 10000000L
+				consume_fluid: true
 				fluid: "ad_astra:cryo_fuel"
 				id: "350E0F70C9BEC552"
 				type: "fluid"

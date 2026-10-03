@@ -1,0 +1,32 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "solidarytinker:fresh",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:hunterplay",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:deepfear",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:deathdeclare",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "solidarytinker:fresh",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:witherium",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -4,17 +4,17 @@ enableEntitySpecificDatapack = true
 [scaling]
 	#Health factor per level
 	#Range: 0.0 ~ 1000.0
-	healthFactor = 0.03
+	healthFactor = 0.04
 	#Use exponential health
 	exponentialHealth = false
 	#Damage factor per level
 	#Range: 0.0 ~ 1000.0
-	damageFactor = 0.02
+	damageFactor = 0.032
 	#Use exponential damage
 	exponentialDamage = false
 	#Experience drop factor per level
 	#Range: 0.0 ~ 1000.0
-	expDropFactor = 0.06
+	expDropFactor = 0.04
 	#Armor rank per n level
 	#Range: 0 ~ 1000
 	armorFactor = 150
@@ -40,7 +40,7 @@ enableEntitySpecificDatapack = true
 	#Chance to stop adding traits after adding a trait
 	#Not applicable to mobs with minimum level.
 	#Range: 0.0 ~ 1.0
-	globalTraitSuppression = 0.3
+	globalTraitSuppression = 0.0
 	#Allow legendary traits
 	allowLegendary = true
 	#Allow chunk section to accumulate difficulty

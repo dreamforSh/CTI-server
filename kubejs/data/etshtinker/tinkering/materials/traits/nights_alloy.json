@@ -1,0 +1,41 @@
+{
+  "condition": {
+    "modid": "thermal",
+    "type": "forge:mod_loaded"
+  },
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "etshtinker:nightsedge",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:hyperfluxloaded",
+        "level": 10
+      }, 
+      {
+        "name": "etshtinker:nightsenhance",
+        "level": 1
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "etshtinker:hyperfluxloaded",
+        "level": 8
+      },
+      
+      {
+        "name": "etshtinker:nightsenhance",
+        "level": 1
+      },
+      {
+        "name": "cti:industrial",
+        "level": 1
+      }
+    ]
+  }
+}

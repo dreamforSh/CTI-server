@@ -1,16 +1,16 @@
 {
   "stats": { "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": -0.1,
+      "durability": 0.3,
       "mining_speed": 0,
-      "melee_speed": 0.1,
-      "melee_damage": 0.25
+      "melee_speed": 0.25,
+      "melee_damage": 0.3
     },
     "tconstruct:head": {
-      "durability": 280,
+      "durability": 1560,
       "mining_speed": 4.2,
       "mining_tier": "minecraft:iron",
-      "melee_attack": 4.6
+      "melee_attack": 6.6
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {

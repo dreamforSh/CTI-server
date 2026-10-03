@@ -8,7 +8,6 @@
       "laser_range": 1,
       "cooldown": 1
     },
-    "tinkers_ingenuity:curio_extra": {},
     "tinkers_ingenuity:curio_main": {
       "movement_speed": 0.5,
       "armor": 12,

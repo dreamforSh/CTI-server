@@ -4,7 +4,7 @@
   "modules": [
     {
       "type": "tconstruct:stat_boost",
-      "each_level": 0.3,
+      "each_level": 0.8,
       "operation": "multiply_base",
       "stat": "tconstruct:durability"
     }

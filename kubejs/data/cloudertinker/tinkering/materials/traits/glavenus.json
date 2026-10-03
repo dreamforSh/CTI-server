@@ -1,0 +1,38 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cti:replaced_heat_sword",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:highspirits",
+        "level": 1
+      },
+      {
+        "name": "cti:infernal",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cti:replaced_heat_sword",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:highspirits",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cti:replaced_heat_sword",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:highspirits",
+        "level": 1
+      }
+    ]
+  }
+}

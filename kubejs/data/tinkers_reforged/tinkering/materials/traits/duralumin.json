@@ -7,6 +7,10 @@
     {
       "level": 1,
       "name": "tinkers_reforged:rock_solid"
+    },
+    {
+      "level": 1,
+      "name": "solidarytinker:lighting"
     }
   ],
   "perStat": {

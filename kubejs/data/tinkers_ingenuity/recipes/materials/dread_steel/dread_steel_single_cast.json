@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dreadsteel"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tinkers_ingenuity:molten_dread_steel",
+    "amount": 90
+  },
+  "result": "dreadsteel:dreadsteel_ingot",
+  "cooling_time": 40
+}

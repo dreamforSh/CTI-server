@@ -2,14 +2,14 @@
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "   ABA   ",
-    "CDEBFBEDC",
-    "GHIJKJLHG",
-    " MNIOLPM ",
-    " QMGRGMQ ",
-    " DQSTSQD ",
-    "  DUVUD  ",
-    "   WUW   ",
-    " XXXWXXX "
+    "CDEFGHEDC",
+    "IJKLMLNJI",
+    " OPKQNRO ",
+    " STIUITS ",
+    " DSVWVSD ",
+    "  DXYXD  ",
+    "   ZXZ   ",
+    "abbbZbbba"
   ],
   "key": {
     "A": {
@@ -28,60 +28,72 @@
       "item": "industrialforegoing:pink_slime_ingot"
     },
     "F": {
-      "item": "l2complements:void_eye"
+      "item": "l2hostility:dispell"
     },
     "G": {
-      "item": "tinkersinnovation:hostilium_ingot"
+      "item": "l2complements:void_eye"
     },
     "H": {
-      "item": "l2hostility:purify"
+      "item": "l2hostility:dementor"
     },
     "I": {
-      "item": "kubejs:pyrocrystal"
+      "item": "tinkersinnovation:hostilium_ingot"
     },
     "J": {
-      "item": "l2hostility:imagine_breaker"
+      "item": "l2hostility:purify"
     },
     "K": {
-      "item": "l2hostility:ragnarok"
+      "item": "kubejs:pyrocrystal"
     },
     "L": {
-      "item": "kubejs:electrocrystal"
+      "item": "l2hostility:imagine_breaker"
     },
     "M": {
-      "item": "kubejs:tungsten_steel_ingot"
+      "item": "l2hostility:ragnarok"
     },
     "N": {
-      "item": "kubejs:core_blaze"
+      "item": "kubejs:electrocrystal"
     },
     "O": {
-      "item": "l2hostility:temporary_armor"
+      "item": "kubejs:violium_alloy"
     },
     "P": {
-      "item": "kubejs:core_diamond"
+      "item": "kubejs:core_blaze"
     },
     "Q": {
-      "item": "cataclysm:ancient_metal_block"
+      "item": "l2hostility:temporary_armor"
     },
     "R": {
-      "item": "l2hostility:second_phase"
+      "item": "kubejs:core_diamond"
     },
     "S": {
-      "item": "l2complements:sun_membrane"
+      "item": "cataclysm:ancient_metal_block"
     },
     "T": {
-      "item": "l2complements:eternium_ingot"
+      "item": "undergarden:forgotten_ingot"
     },
     "U": {
-      "item": "l2hostility:miracle_ingot"
+      "item": "l2hostility:second_phase"
     },
     "V": {
-      "item": "l2hostility:oracle"
+      "item": "l2complements:sun_membrane"
     },
     "W": {
-      "item": "enigmaticlegacy:etherium_ingot"
+      "item": "l2complements:eternium_ingot"
     },
     "X": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "Y": {
+      "item": "l2hostility:oracle"
+    },
+    "Z": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "a": {
+      "item": "l2hostility:farewell_gift"
+    },
+    "b": {
       "item": "l2complements:life_essence"
     }
   },

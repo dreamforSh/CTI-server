@@ -10,30 +10,50 @@
       {
         "level": 1,
         "name": "cti:healthboost"
+      },
+      {
+        "level": 1,
+        "name": "solidarytinker:auto_health_inject"
       }
     ],
     "tconstruct:plating_boots": [
       {
         "level": 1,
         "name": "cti:healthboost"
+      },
+      {
+        "level": 1,
+        "name": "solidarytinker:auto_health_inject"
       }
     ],
     "tconstruct:plating_chestplate": [
       {
         "level": 1,
         "name": "cti:healthboost"
+      },
+      {
+        "level": 1,
+        "name": "solidarytinker:auto_health_inject"
       }
     ],
     "tconstruct:plating_helmet": [
       {
         "level": 1,
         "name": "cti:healthboost"
+      },
+      {
+        "level": 1,
+        "name": "solidarytinker:auto_health_inject"
       }
     ],
     "tconstruct:plating_leggings": [
       {
         "level": 1,
         "name": "cti:healthboost"
+      },
+      {
+        "level": 1,
+        "name": "solidarytinker:auto_health_inject"
       }
     ]
   }

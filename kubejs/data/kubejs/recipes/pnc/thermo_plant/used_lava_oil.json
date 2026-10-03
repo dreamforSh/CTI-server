@@ -11,14 +11,14 @@
       "item": "immersivepetroleum:petcoke_dust"
     },
     "item_output": {
-      "count": 2,
+      "count": 4,
       "item": "kubejs:dense_slag"
     },
     "fluid_output":{
       "amount": 400,
       "fluid": "kubejs:used_lava"
     },
-    "pressure": 2.0,
+    "pressure": 4.0,
     "speed": 1,
     "temperature": {
       "min_temp": 1800

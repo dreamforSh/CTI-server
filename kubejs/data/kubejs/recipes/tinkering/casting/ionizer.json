@@ -4,6 +4,6 @@
       "item": "immersiveengineering:component_electronic_adv"
     },
     "cast_consumed": true,
-    "item_cost": 16,
+    "item_cost": 8,
     "result": "etshtinker:ionizer"
   }

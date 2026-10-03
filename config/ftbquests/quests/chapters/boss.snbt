@@ -262,7 +262,7 @@
 			description: [
 				"      次元融合，你的世界多出了一些从未见过的“本土”生物"
 				""
-				"      此模组的boss均出现于主世界的原版群系。图腾鸟在热带草原群系的结构(&eUmvuthana Grove&r)刷新，钢铁守卫在非海洋群系的结构(&eWrought Chamber&r)刷新，霜冻巨兽在寒冷群系随机刷新。"
+				"      此模组的boss均出现于主世界的原版群系。图腾鸟在热带草原群系的结构(&eUmvuthana Grove&r)刷新，钢铁守卫在非海洋群系的结构(&eWrought Chamber&r)刷新，霜冻巨兽在寒冷群系的结构(&eFrostmaw Spawn&r)刷新。"
 			]
 			hide: true
 			hide_dependent_lines: true
@@ -676,7 +676,7 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：50+"
+				"level：100+"
 				"hp：中等"
 				"基础词条：神速II~III、诅咒I、重装III~IV"
 				"缺失词条：适应"
@@ -713,7 +713,7 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：70+"
+				"level：150+"
 				"hp：较低"
 				"基础词条：虚弱III~V、诅咒I~II"
 				"缺失词条：适应"
@@ -750,10 +750,8 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：120+"
+				"level：400+"
 				"hp：中等"
-				"基础词条：重装III~IV、诅咒I~II"
-				"缺失词条：适应"
 				""
 				"结构生成(牛头人迷宫)"
 				"蓄力一段时间后会冲刺"
@@ -791,10 +789,8 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：100+"
+				"level：400+"
 				"hp：中等"
-				"基础词条：再生II~III、诅咒I~II"
-				"缺失词条：适应"
 				""
 				"结构生成(雪怪洞窟)"
 				"移动时会破坏阻挡方块，每隔一段时间会停止行动"
@@ -827,10 +823,8 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：200+"
+				"level：400+"
 				"hp：极低"
-				"基础词条：反射I、诅咒I~II"
-				"缺失词条：适应"
 				""
 				"结构生成(黑森骑士要塞)"
 				"该boss为6只同体，每只血量不高但是有不同攻击手段"
@@ -863,10 +857,8 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：300+"
+				"level：800+"
 				"hp：较高"
-				"基础词条：业火I~II、诅咒I~II"
-				"缺失词条：适应"
 				""
 				"结构生成(九头蛇巢穴)"
 				"需要至少食用过一次牛头人沙拉酱肉才能正常挑战"
@@ -903,10 +895,8 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：300+"
+				"level：800+"
 				"hp：中等"
-				"基础词条：凋零I~II、诅咒I~II"
-				"缺失词条：再生、适应"
 				""
 				"结构生成(幽冥高塔)"
 				"会对正下方造成持续伤害，此攻击可被方块阻挡"
@@ -943,10 +933,7 @@
 		{
 			dependencies: ["72B482CDD14825BF"]
 			description: [
-				"level：300+"
-				"hp：中等"
-				"基础词条：寒流I~II、诅咒I~II"
-				"缺失词条：适应"
+				"level：800+"
 				""
 				"结构生成(极光宫殿)"
 				"会免疫击中周围冰冻护盾的伤害，移动能力不强且攻击手段为近战碰撞，会召唤小怪。"
@@ -1150,7 +1137,7 @@
 		{
 			dependencies: ["1F2463D5633888E7"]
 			description: [
-				"level：700+"
+				"level：4000"
 				"hp：13200+"
 				"基础词条：重装V、再生V、保护III~IV"
 				""
@@ -1494,7 +1481,7 @@
 		{
 			dependencies: ["0749E394DC92CFA8"]
 			description: [
-				"level：600+"
+				"level：1000"
 				"hp：较高"
 				"基础词条：业火I~II、诅咒I~II"
 				"缺失词条：适应"
@@ -1533,7 +1520,7 @@
 				"15DECDAD3FAA1D94"
 			]
 			description: [
-				"level：659+"
+				"level：1200"
 				"hp：较高"
 				"基础词条：业火I~II、诅咒I~II"
 				""
@@ -1569,7 +1556,7 @@
 		{
 			dependencies: ["0749E394DC92CFA8"]
 			description: [
-				"level：700+"
+				"level：1500"
 				"hp：很低"
 				"基础词条：业火I~II、诅咒I~II"
 				""
@@ -2130,7 +2117,7 @@
 		{
 			dependencies: ["0749E394DC92CFA8"]
 			description: [
-				"level：无基础等级"
+				"level：??"
 				"hp：很低"
 				""
 				"结构刷新(Silver Dungeon)"

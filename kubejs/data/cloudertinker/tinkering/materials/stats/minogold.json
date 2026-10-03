@@ -4,7 +4,7 @@
     "tconstruct:handle": {
       "durability": -0.45,
       "mining_speed": 0.6,
-      "melee_speed": 0.0,
+      "melee_speed": 0.25,
       "melee_damage": 0.9
     },
     "tconstruct:head": {
@@ -13,5 +13,4 @@
       "mining_tier": "minecraft:gold",
       "melee_attack": 3.3
     }
-
   }}

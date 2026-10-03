@@ -2,8 +2,8 @@
   "type": "tconstruct:alloy",
   "inputs": [
     {
-      "name": "tinkerscalibration:moltensoulgold",
-      "amount": 360
+      "name": "tconstruct:meat_soup",
+      "amount": 1000
     },
     {
       "name": "tconstruct:molten_obsidian",

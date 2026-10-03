@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dreadsteel"
+    }
+  ],
+  "ingredient": {
+    "item": "dreadsteel:dreadsteel_ingot"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "tinkers_ingenuity:dread_steel"
+}

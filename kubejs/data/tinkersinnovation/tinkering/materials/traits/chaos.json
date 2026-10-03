@@ -1,0 +1,22 @@
+{
+    "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkersinnovation:chaos",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkersinnovation:chaos",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkersinnovation:chaos_armor",
+        "level": 1
+      }
+    ]
+  }
+}

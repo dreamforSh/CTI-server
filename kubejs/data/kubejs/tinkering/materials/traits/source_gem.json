@@ -1,0 +1,12 @@
+{
+    "default": [
+        {
+            "level": 1,
+            "name": "cti:mana_resonance"
+        },
+        {
+            "name": "tinkers_ingenuity:crystalline",
+            "level": 1
+        }
+    ]
+}

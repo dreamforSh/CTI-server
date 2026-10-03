@@ -1,0 +1,41 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:crystal_resonance",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:refraction",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:crystal_resonance",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidified",
+        "level": 3
+      },
+      {
+        "name": "cti:advanced_igneous",
+        "level": 2
+      }
+    ],
+    "tconstruct:maille": null,
+    "tconstruct:plating_boots": null,
+    "tconstruct:plating_chestplate": null,
+    "tconstruct:plating_helmet": null,
+    "tconstruct:plating_leggings": null
+  }
+}

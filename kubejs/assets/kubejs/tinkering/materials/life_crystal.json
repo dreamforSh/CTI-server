@@ -1,7 +1,7 @@
 {
   "color": "FF42000D",
   "fallbacks": [
-    "metal"
+    "crystal"
   ],
   "generator": {
     "ignoreMaterialStats": false,

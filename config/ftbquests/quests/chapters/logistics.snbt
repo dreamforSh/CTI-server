@@ -27,7 +27,7 @@
 			image: "sfm:item/labelgun"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -213,9 +213,12 @@
 			description: [
 				"优势："
 				"无线物流、跨纬度传输、精确控制、中低占用、中低造价"
+				"AE2是整合包的核心玩法之一，体系内物流用起来非常方便"
 				""
 				"缺陷："
-				"中等速率上限"
+				"中等速率上限（但是大多数情况下是够用的）"
+				""
+				"&e不会用SFM，那就用AE"
 				""
 				"&8点击下方图片查看ae任务"
 			]
@@ -266,7 +269,7 @@
 				title: "或许SFM符合你的需求"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -277,6 +280,7 @@
 				""
 				"缺陷："
 				"较高造价"
+				"没有任何调度"
 				""
 				"ps：mek的物品管道极其难用，如非必要尽量不要使用，此外mek线缆主要占用为渲染占用，三思而后用"
 			]
@@ -307,11 +311,16 @@
 				"优势："
 				"用起来非常简单"
 				"中等精确控制（高自由度的过滤和单线传输多类型）、低造价、中低占用"
+				"少见的每tick传输手段"
 				""
 				"缺陷："
-				"对mek多方快设备兼容较差"
+				"对多方块设备兼容较差（重进时断开）"
 				""
-				"ps：经过实际测试，pip占用和mek非常接近，并没有所谓的性能优势"
+				"ps：经过实际测试，pip占用和mek非常接近（除了物流管道，mek的物流管道还是太烂了），并没有所谓的性能优势"
+				"      &b所以仅推荐用于传输物品，传能量、化学品、流体数值过低"
+				""
+				"&e仅在需要高频传输时使用，常态物流AE2占用更低效果更好"
+				""
 				"ps：绝对的中庸之道，各个方面都比较平衡"
 			]
 			hide_dependent_lines: true
@@ -330,36 +339,6 @@
 				type: "checkmark"
 			}]
 			x: -9.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0964EF2C5ABB735A"]
-			description: [
-				"优势："
-				"无线、跨纬度、低造价、较高物流数值"
-				""
-				"缺陷："
-				"较高占用（无线节点）、无法精确控制"
-				""
-				"ps：最廉价的无线传输"
-			]
-			hide_dependent_lines: true
-			icon: "cyclic:cable_wrench"
-			id: "48821E549A403989"
-			rewards: [{
-				id: "58370947F7DF72E4"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "59BC1B1038F5AAA0"
-				title: "或许可以考虑循环？"
-				type: "checkmark"
-			}]
-			title: "或许可以考虑CYCLIC"
-			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -422,7 +401,6 @@
 			dependencies: [
 				"122970E6038AA89F"
 				"5E7E89085EB56AFE"
-				"48821E549A403989"
 				"64DBD649E4327AA5"
 				"3CBC534D416A0E45"
 			]
@@ -539,124 +517,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["48821E549A403989"]
-			id: "6FD8B1E6171BBB6F"
-			rewards: [{
-				id: "75C656AA54875774"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "038B1ACDECD8CDC5"
-				item: "cyclic:item_pipe"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["48821E549A403989"]
-			id: "3730C470B89D2F46"
-			rewards: [{
-				id: "18F4C83121732EFE"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "606FCF4FA4C89ACD"
-				item: "cyclic:energy_pipe"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["48821E549A403989"]
-			description: ["&4破坏后会损失其中的缓存"]
-			id: "5E5DB532789ABBDD"
-			rewards: [{
-				id: "10485AB4BAB0A05F"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6494A4BE1C3496CF"
-				item: "cyclic:fluid_pipe"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["48821E549A403989"]
-			description: [
-				"配合GPS卡使用"
-				""
-				"&4性能占用极高"
-			]
-			id: "46DD8AE7267BE3AE"
-			rewards: [{
-				id: "4B6D760F14017921"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "124646CD831857EF"
-				item: "cyclic:wireless_energy"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["48821E549A403989"]
-			description: [
-				"配合GPS卡使用"
-				""
-				"&4性能占用极高"
-			]
-			id: "3CAA645E8262A583"
-			rewards: [{
-				id: "56649F8247701B59"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "21C008AA906F5F76"
-				item: "cyclic:wireless_item"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["48821E549A403989"]
-			description: [
-				"配合GPS卡使用"
-				""
-				"&4性能占用极高"
-			]
-			id: "1E0808B60FCE9578"
-			rewards: [{
-				id: "273A98094EA762B5"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "77E201AF6C5C7C24"
-				item: "cyclic:wireless_fluid"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
 			dependencies: ["3CBC534D416A0E45"]
 			description: ["标记后需要右键导入工厂管理器"]
 			id: "034552F0CFDCDE64"
@@ -676,7 +536,7 @@
 				type: "item"
 			}]
 			title: "标签枪"
-			x: -2.5d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -698,7 +558,7 @@
 				type: "item"
 			}]
 			title: "程序磁盘"
-			x: -1.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -717,7 +577,7 @@
 				type: "item"
 			}]
 			title: "工厂管理器"
-			x: -2.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -737,7 +597,7 @@
 				type: "item"
 			}]
 			title: "工厂线缆"
-			x: -2.0d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -776,25 +636,6 @@
 		}
 		{
 			dependencies: ["64DBD649E4327AA5"]
-			description: ["极差的调度和极高的性能占用，如非必要请勿使用"]
-			id: "520967FE69DCE895"
-			rewards: [{
-				id: "11A8ABA64BE58F2E"
-				type: "xp"
-				xp: 1
-			}]
-			shape: "diamond"
-			subtitle: "别用这个就行了"
-			tasks: [{
-				id: "209E3DB8C65A6809"
-				item: "mekanism:basic_logistical_transporter"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["64DBD649E4327AA5"]
 			id: "3A84D20A3F8F46C6"
 			rewards: [{
 				id: "27C28FD65735E6E6"
@@ -807,8 +648,8 @@
 				item: "mekanism:basic_thermodynamic_conductor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["64DBD649E4327AA5"]

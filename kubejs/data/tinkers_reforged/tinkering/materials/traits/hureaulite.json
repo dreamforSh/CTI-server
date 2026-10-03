@@ -1,0 +1,40 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tinkers_reforged:radiant"
+    }
+  ],
+  "perStat": {
+    "tconstruct:maille": [
+      {
+        "level": 1,
+        "name": "solidarytinker:immersed_in_sin"
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "level": 1,
+        "name": "solidarytinker:immersed_in_sin"
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "level": 1,
+        "name": "solidarytinker:immersed_in_sin"
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "level": 1,
+        "name": "solidarytinker:immersed_in_sin"
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "level": 1,
+        "name": "solidarytinker:immersed_in_sin"
+      }
+    ]
+  }
+}

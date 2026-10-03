@@ -1183,15 +1183,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "高额血条与护甲"
 			tasks: [{
 				id: "6B5AB3CE2E1B831B"
 				item: "l2hostility:tank"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1207,15 +1207,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
-			subtitle: "卡托离奇太"
+			shape: "diamond"
+			subtitle: "你跑不过我你信吗"
 			tasks: [{
 				id: "75E5F7437240EA2A"
 				item: "l2hostility:speedy"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1235,15 +1235,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "叠这么厚的甲干嘛"
 			tasks: [{
 				id: "1F49C95A406AF878"
 				item: "l2hostility:protection"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1267,22 +1267,26 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
-			subtitle: "我去，还有隐形人"
+			shape: "hexagon"
+			subtitle: "尼古拉，我hide了"
 			tasks: [{
 				id: "6128FBA14A829484"
 				item: "l2hostility:invisible"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"怕烈焰人自带这个你就捏碎一个恶意吸收宝珠去"
 				""
-				"抗火的都行"
+				"抗火的都可以免疫他的点燃，如果你是前期，&6抗火药水&r即可"
+				""
+				"如果觉得抗火药水&c太原始人&r了，那就&b玻璃纤维&r"
+				""
+				"&a5阶星空板实际上也有防火效果的，任务可以领(AD ASTRA章节)&r"
 			]
 			id: "6BD1B07FDE88088B"
 			rewards: [{
@@ -1291,26 +1295,26 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "diamond"
 			subtitle: "火免，攻击与被玩家攻击都会导致玩家着火。"
 			tasks: [{
 				id: "0BCF99D3B09180FE"
 				item: "l2hostility:fiery"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"整合包调整："
 				""
-				"削弱了基础恢复能力，但是在半血时候会触发一段快速回血，类似于黎明使者的效果"
+				"&e削弱了基础恢复能力&r，&c但是在半血时候会触发一段快速回血，类似于&r&b黎明使者&r的效果，&l&4后续怪物造成伤害提升75%&r(黎明使者回血效果为强制，无法被重伤影响)"
 				""
 				"对怪物施加&d诅咒&r效果吧"
 				""
-				"可以用&d诅咒之刃匠魂强化&r或者其他重伤类材料（如汞齐，拉波尔,琥珀结晶等）"
+				"可以用&d诅咒之刃匠魂强化&r或者其他重伤类材料（如汞齐，拉波尔,琥珀结晶,影袭，凋灵等）"
 				""
 				"重伤强化也可以一定程度抑制此词条"
 			]
@@ -1321,26 +1325,28 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "秒回百分比血量"
 			tasks: [{
 				id: "2D0735772699AD13"
 				item: "l2hostility:regenerate"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
-				"整合包略做了限制，此词条现在&c最高2级&r"
+				"整合包&e重做了此词条&r"
 				""
-				"在造成不同伤害时候会记忆住这种伤害，基础免伤90%，如果有一种不同伤害则二者都免疫45%，三者33%以此类推"
+				"在造成不同伤害时候会记忆住这种伤害，&a基础免伤90%&r，如果有一种不同伤害则二者都免疫45%，三者33%以此类推"
 				""
-				"可以高伤害秒掉，也可以堆伤害类型"
+				"&l&d计算公式:90%/伤害类型数量 x√词条等级&r"
 				""
-				"或者使用带有&d无视魔抗(bypassMagic)伤害&r的材料/武器即可"
+				"可以堆&a伤害类型&r"
+				""
+				"&l&9无视魔抗这个免伤减半，无视无敌这个免伤无效"
 				""
 				"例：暗影复相钢的绿色剑气，破咒遗骨 ,究极锋利等"
 				""
@@ -1353,15 +1359,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "冷知识这个标志实际上不是绿帽子"
 			tasks: [{
 				id: "14C58B1A8C4AE813"
 				item: "l2hostility:adaptive"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.0d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1381,16 +1387,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "octagon"
 			subtitle: "前期大爹级词条，受伤返还你部分法伤（也有可能更高）"
 			tasks: [{
 				id: "2859FFA82F51E87F"
 				item: "l2hostility:reflect"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 10.0d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1410,15 +1415,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "pentagon"
 			subtitle: "有点污染屏幕了"
 			tasks: [{
 				id: "00206E126E408646"
 				item: "l2hostility:shulker"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1447,8 +1452,8 @@
 				item: "l2hostility:grenade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1461,8 +1466,8 @@
 				""
 				"尽管整合包对子代史莱姆进行了限制，但是高级生长出的仍然很多"
 				""
-				"整合包调整：迭代&c超过三代&r不会再生长"
-				""
+				"&4(整合包调整：迭代&c超过三代&r不会再生长)"
+				"&r"
 				"并且&9匠魂史莱姆，史维特等史莱姆&r不会带这个词条"
 				""
 				"想刷建议去下界搞岩浆怪,然后气动刷怪笼"
@@ -1476,15 +1481,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			subtitle: "生长好似"
 			tasks: [{
 				id: "36A247518A8F1675"
 				item: "l2hostility:growth"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1502,15 +1507,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "pentagon"
 			subtitle: "啊呀，骇死我力"
 			tasks: [{
 				id: "7B9CCE8E5793E55C"
 				item: "l2hostility:split"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1530,15 +1535,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "别扒拉我飞行药水了"
 			tasks: [{
 				id: "7F6DCB4B4B5DF458"
 				item: "l2hostility:drain"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1547,7 +1552,7 @@
 				""
 				"封号口子再刷怪"
 				""
-				"携带&6星野戒指&r会压制这个效果"
+				"携带&6星野戒指/虚弱药水效果&r会压制这个效果"
 			]
 			id: "2E996BC0AC54DF13"
 			rewards: [{
@@ -1556,15 +1561,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "你恶心人也得有个度吧"
 			tasks: [{
 				id: "010D24ED8067D2C0"
 				item: "l2hostility:counter_strike"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1587,15 +1592,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "diamond"
 			subtitle: "像是个开了大的深蓝, 跳拉不起来"
 			tasks: [{
 				id: "154B0F4A9268620E"
 				item: "l2hostility:gravity"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1626,15 +1631,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "diamond"
 			subtitle: "月球般的重力"
 			tasks: [{
 				id: "1683AB7AD4053262"
 				item: "l2hostility:moonwalk"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1647,9 +1652,21 @@
 				""
 				"不要小看这个造成穿魔伤害，他&d无视匠魂的保护类词条的(近战保护，魔法保护这种词条&r)"
 				""
-				"而且是全额，即其&d造成的杀戮光环，榴弹,甚至是反射等全都穿魔&r"
+				"而且是全额，即其&d造成的杀戮光环，榴弹等全都穿魔&r"
 				""
 				"威胁程度较高，由于&c其判定存在问题&r，导致此版本破魔永远都会免疫魔法伤害，所有整合包对其进行了修改，现在&d不再免疫魔法伤害&r，但是其他效果仍然生效"
+				""
+				"现在还会额外附带一段破魔伤害，&l&c无视大多数免伤&r但是不无视&a免死&r"
+				""
+				"此段破魔伤害取决于此词条等级x怪物等级x0.02"
+				""
+				"&a超坚硬可以独立减免20%（全身不叠加）&r"
+				""
+				"&9有遗者词条时候,依据全身等级,每级降低该伤害3%&r"
+				""
+				"&e有维格利得之影词条时,依据全身等级,每级再次降低该伤害7%&r"
+				""
+				"&l&c无尽之前不要招惹等级过高的怪，不要无脑磕恶意药水，不然高等级怪这个伤害会极高&r"
 			]
 			id: "359BA61F05D63284"
 			rewards: [{
@@ -1659,15 +1676,14 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.5d
 			subtitle: "穿透魔法防御"
 			tasks: [{
 				id: "1640631B05AB12A6"
 				item: "l2hostility:dispell"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1685,16 +1701,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "octagon"
 			subtitle: "飞雷神"
 			tasks: [{
 				id: "25ADC151FBF34E71"
 				item: "l2hostility:teleport"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 5.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1704,6 +1719,8 @@
 				"如果怪物等级很高这个会很疼"
 				""
 				"可以用&6圣光守护之戒/暗影复相/星野护甲/魔法减免/魔法免疫&r等来反制"
+				""
+				"值得注意的是这个&l&c会额外触发怪物词条效果&r&r"
 			]
 			id: "28A3FF9C8E8D06B3"
 			rewards: [{
@@ -1712,16 +1729,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "octagon"
 			subtitle: "一定时间造成一定范围魔法伤害。"
 			tasks: [{
 				id: "6F35E67F9247B4CD"
 				item: "l2hostility:killer_aura"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: 9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1750,15 +1766,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "挨打吃虚弱buff"
 			tasks: [{
 				id: "18FC66FDAF9C3418"
 				item: "l2hostility:weakness"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1784,15 +1800,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "动不了了力（缓慢）"
 			tasks: [{
 				id: "79CB4FAB7023C2BD"
 				item: "l2hostility:slowness"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1821,15 +1837,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "啊，我中毒了（无表情）"
 			tasks: [{
 				id: "5DF67FF5FA2B96FD"
 				item: "l2hostility:poison"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1858,15 +1874,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "字面意思"
 			tasks: [{
 				id: "3DED7D1E048D1E0E"
 				item: "l2hostility:wither"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1895,15 +1911,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "前期最恶心词条没有之一，飞起来！"
 			tasks: [{
 				id: "4001C41B0D16A4C3"
 				item: "l2hostility:levitation"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1932,15 +1948,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "相当于瞎了"
 			tasks: [{
 				id: "26A9EA32381E6436"
 				item: "l2hostility:blindness"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -1969,15 +1985,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "口区（反胃）"
 			tasks: [{
 				id: "2E379EC32E853776"
 				item: "l2hostility:nausea"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2006,15 +2022,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "燃起来了！"
 			tasks: [{
 				id: "1E64896DBE4B7CF8"
 				item: "l2hostility:soul_burner"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2046,15 +2062,15 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "circle"
+			shape: "pentagon"
 			subtitle: "跟流沙食用是真的动不了了"
 			tasks: [{
 				id: "05DEB36ABDBEA194"
 				item: "l2hostility:freezing"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2110,23 +2126,23 @@
 				item: "l2hostility:cursed"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
-				"怪物相当于无限续杯不死图腾"
+				"怪物可复活至多9次"
 				""
 				"处理方法也很简单"
 				""
 				"1&8 bypassInvul类&r的伤害，如虚空伤害/环境伤害/其他带有这个属性的材料"
 				""
-				"2&d bypassMagic类的伤害&r(穿魔伤，这个是整合包为了降低难度Mixin改的，原版莱特兰不可以)，如破咒遗骨/墨冰等特殊材料"
+				"2&d诅咒药水效果&r施加后（最简单的）"
 				""
-				"3&d诅咒药水效果&r施加后（最简单的）"
+				"3&d诅咒之刃&r在手上即使不施加效果也克制"
 				""
-				"4&d诅咒之刃&r在手上即使不施加效果也可无视"
+				"诅咒和重伤类&a只能将复活减少到1次&r，无法完全阻止不死"
 				""
 				"魂戈的斩杀无视此词条，但是你最好真能触发斩杀"
 			]
@@ -2137,21 +2153,22 @@
 				table_id: 762635320671611458L
 				type: "random"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
 			subtitle: "多玛姆，我是来谈判的"
 			tasks: [{
 				id: "4D03B5E35C09B0A6"
 				item: "l2hostility:undying"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.0d
+			x: 14.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"排斥力超强"
+				""
+				"&e稳健步伐&r匠魂词条可以抵抗"
 				""
 				"可以做&6扭曲之魂/星野钢工匠戒指&r来抵消"
 				""
@@ -2172,23 +2189,24 @@
 					type: "random"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "octagon"
 			subtitle: "只会在部分远程怪物身上刷新（例如骷髅）"
 			tasks: [{
 				id: "32C0EC00050CD928"
 				item: "l2hostility:repelling"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.0d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"吸力超强"
 				""
-				"可以做&6扭曲之魂/星野钢工匠戒指&r来抵消"
+				"&e稳健步伐&r匠魂词条可以抵抗"
+				""
+				"也可以做&6扭曲之魂/星野钢工匠戒指&r来抵消"
 			]
 			id: "181AC21A1397FCD4"
 			rewards: [
@@ -2205,16 +2223,15 @@
 					type: "random"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
+			shape: "octagon"
 			subtitle: "只会在部分近战怪物身上刷新（例如僵尸）"
 			tasks: [{
 				id: "4814032595A2BBDE"
 				item: "l2hostility:pulling"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -1.0d
+			x: 15.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2228,35 +2245,27 @@
 				"整合包独特方法：部分材料固有能力"
 				""
 				"带有&9遗者&r词条的&a工具/护甲&r&e免疫封印效果&r，你可以在JEI中搜索词条中文名来查询材料"
-				""
 				"部分材料不具备遗者词条但是有此效果："
 				"      &d-三位一体"
 				"      &d-魔灵皇"
 				"      &d-完美通用物品"
-				""
 				"带有&6维格利德之魂&r词条的&a工具/护甲&r在被装备时，使玩家&b免疫所有封印&r，你可以在JEI中搜索词条中文名来查询"
-				""
 				"部分材料不具备维格利德之魂词条但是有此效果："
 				"       &d-奇迹物质"
 				"       &d-星河玛玉灵"
 				"       &d-宏原子"
-				""
-				""
 				"带有此材料的&a戒指&r在被装备时，使玩家&b免疫所有封印&r："
 				"       &d-星野钢"
-				""
 				"&6mekasuit&r由于取消受击判定所以生来免疫"
-				""
 				"&6非欧立方&r整合包做了特别加强，穿戴时免疫全部封印"
-				""
 				"下面这几个饰品由于特殊原因不会被封印："
 				"&d      -加压黏液罐"
 				" &d     -无线通用终端"
 				" &d     -飞升护符"
 				" &d     -神秘护身符"
 				" &d     -七咒之戒"
-				""
 				"为了便于你逃跑，传送石不会被封印"
+				"此词条还会额外扣除玩家最大生命上限，需要对应的&6维格利德之魂&r词条来抵消，每级抵消25%削血效果"
 			]
 			id: "7646FB76E714E54A"
 			rewards: [
@@ -2273,16 +2282,15 @@
 					type: "random"
 				}
 			]
-			shape: "octagon"
-			size: 2.0d
+			shape: "gear"
 			subtitle: "眼前一黑"
 			tasks: [{
 				id: "058C112123461702"
 				item: "l2hostility:ragnarok"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 3.0d
+			x: 12.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2295,7 +2303,19 @@
 				""
 				"这个会&d转化全部来自怪物的伤害&r"
 				""
-				"而且是全额，即其&d造成的杀戮光环，榴弹,甚至是反射等全都穿甲&r"
+				"而且是全额，即其&d造成的杀戮光环，榴弹,等全都穿甲&r"
+				""
+				"现在还会额外附带一段摄魂伤害，&l&c无视大多数免伤&r但是不无视&a免死&r"
+				""
+				"此段摄魂伤害取决于此词条等级x怪物等级x0.02"
+				""
+				"&a超坚硬可以独立减免20%（全身不叠加）&r"
+				""
+				"&9有遗者词条时候,依据全身等级,每级降低该伤害3%&r"
+				""
+				"&e有维格利得之影词条时,依据全身等级,每级再次降低该伤害7%&r"
+				""
+				"&l&c无尽之前不要招惹等级过高的怪，不要无脑磕恶意药水，不然高等级怪这个伤害会极高&r"
 			]
 			id: "71B143DA524759D2"
 			rewards: [{
@@ -2305,19 +2325,22 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.5d
 			subtitle: "摄魂夺魄"
 			tasks: [{
 				id: "4FBF8B758AA63C72"
 				item: "l2hostility:dementor"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
-			description: ["可以给装备敲上&d\"加密\"&r强化来防止被怪物偷走词条"]
+			description: [
+				"可以给装备敲上&d\"加密\"&r强化来防止被怪物偷走词条"
+				""
+				"择日重做成可以触发玩家的词条"
+			]
 			id: "39B21AEFBBEE365B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2325,8 +2348,7 @@
 				table_id: 762635320671611458L
 				type: "random"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "diamond"
 			subtitle: "你猜它能不能复印匠魂的"
 			tasks: [{
 				id: "0390D7ACBF8BCD23"
@@ -2334,18 +2356,20 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
 			description: [
 				"前期遇到这个大概率要破产"
 				""
-				"不给你你可以给你的装备多带一个&6鞣制（皮革绑定结）&r"
+				"你可以考虑给你的装备多带一个&6鞣制（皮革绑定结）&r"
 				""
 				"&6工业&r词条可以抑制这个词条"
 				""
-				"或者&6硬化&r强化"
+				"&c额外会腐蚀玩家护甲&r，需要对应等级&7&l&n工业&r词条来抵抗"
+				""
+				"&d对于护甲低于100的目标伤害会额外提升，提升数值从50%-300%不等，护甲越接近100这个加成越低，100则完全不易伤&r"
 				""
 				"&7不毁&r或者&b通量装载&r等属性也可以很好的反制这个"
 				""
@@ -2358,14 +2382,14 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			subtitle: "这个是最大耐久百分比"
 			tasks: [{
 				id: "76AE02CEE473AE31"
 				item: "l2hostility:erosion"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -2373,11 +2397,13 @@
 			description: [
 				"前期遇到这个大概率要破产"
 				""
-				"不给你你可以给你的装备多带一个&6鞣制（皮革绑定结）&r"
+				"你可以考虑给你的装备多带一个&6鞣制（皮革绑定结）&r"
 				""
 				"&6工业&r词条可以抑制这个词条"
 				""
-				"或者&6硬化&r强化"
+				"&c额外会腐蚀玩家护甲&r，需要对应等级&7&l&n工业&r词条来抵抗"
+				""
+				"&d对于护甲低于100的目标伤害会额外提升，提升数值从50%-300%不等，护甲越接近100这个加成越低，100则完全不易伤&r"
 				""
 				"&7不毁&r或者&b通量装载&r等属性也可以很好的反制这个"
 				""
@@ -2390,14 +2416,14 @@
 				table_id: 4785827979895305227L
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			subtitle: "这个是已损耐久百分比"
 			tasks: [{
 				id: "67FB38AB653B8339"
 				item: "l2hostility:corrosion"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -2441,9 +2467,11 @@
 			description: [
 				"怪物免疫玩家施加的负面药水效果"
 				""
-				"但是当你佩戴了&b诅咒扭曲之戒/扭曲之魂/星野戒指&r的时候你可以无视这个限制"
+				"额外附带清除效果，短时长的会被直接清除掉,清除时候会回血"
 				""
-				"或者用神谕钢（近战）克制这个"
+				"&c&l此外，当这个词条大于3级，并且怪物生命值大于你3.5倍时候，额外附带禁飞效果，会强制取消玩家飞行状态,此效果需要3级维格利得之影来抵消&r"
+				""
+				"或者用神谕钢（近战）克制这个的免疫效果,但是清除负面效果无法被免疫"
 				""
 				"&b整合包独创词条"
 			]
@@ -2454,15 +2482,15 @@
 				table_id: 762635320671611458L
 				type: "random"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			subtitle: "牛奶无限续杯！"
 			tasks: [{
 				id: "736252D616B77918"
 				item: "l2hostility:purify"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2480,16 +2508,15 @@
 				table_id: 762635320671611458L
 				type: "random"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "octagon"
 			subtitle: "别听到名字就被吓跑了"
 			tasks: [{
 				id: "58BA6DAC2702C90B"
 				item: "l2hostility:extreme_damage_reduce"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 7.0d
+			x: 12.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2511,16 +2538,15 @@
 				table_id: 762635320671611458L
 				type: "random"
 			}]
-			shape: "gear"
-			size: 1.5d
+			shape: "hexagon"
 			subtitle: "反·适应"
 			tasks: [{
 				id: "48911F88E5CBA9C5"
 				item: "l2hostility:temporary_armor"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 7.0d
+			x: 15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2545,8 +2571,8 @@
 				item: "l2hostility:second_phase"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4B9715223EAC970D"]
@@ -2568,15 +2594,15 @@
 				table_id: 762635320671611458L
 				type: "random"
 			}]
-			shape: "hexagon"
+			shape: "octagon"
 			subtitle: "神不让你加buff，你加吗"
 			tasks: [{
 				id: "49EA4E73B80576B7"
 				item: "l2hostility:oracle"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5B5FB3B99275629D"]
@@ -2658,6 +2684,215 @@
 			}]
 			x: 1.5d
 			y: 20.5d
+		}
+		{
+			dependencies: ["4B9715223EAC970D"]
+			description: [
+				"会在死后反噬你"
+				""
+				"&l&c这个伤害倍率极高，扛不住一定不要离得太近&r"
+				""
+				"&l&c再次提醒，高等级时候，一定不要离得太近&r"
+				""
+				"他还会额外&l&4触发摄魂，破魔，诸神黄昏等词条的附加效果&r&r"
+			]
+			id: "41095D751B94C0E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FE8E68CFF5C10F0"
+				table_id: 762635320671611458L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "这音效有力气"
+			tasks: [{
+				id: "03252EAB1FCD45E1"
+				item: "l2hostility:farewell_gift"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E8F9E2849186D93"
+			rewards: [{
+				id: "48F5464610BE58F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "这些词条还算友善，没那么难针对"
+			tasks: [{
+				id: "4D3375D68A9B5CC8"
+				title: "简单"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"在有负面清除材料之前略有点恶心，有免疫后要小心神谕，神谕钢后可以完全无视"
+				""
+				"榴弹和生长和分裂则是比较好针对"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "097E21394D9B097F"
+			rewards: [{
+				id: "35F4A1AD69085457"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "基本都是负面药水效果"
+			tasks: [{
+				id: "146EFC19834FA55E"
+				title: "普通"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"基本上对于怪物的防御能力会有质变，亦或者有高额伤害"
+				""
+				"好针对，但是在针对之前比较棘手"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B0CE6767B78B902"
+			rewards: [{
+				id: "133DBDE875E1550B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这里开始出现的需要开始注意了"
+			tasks: [{
+				id: "7E8C28061A7DC14D"
+				title: "困难"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"在有对应的对策之前不要招惹，非常致命"
+				""
+				"腐蚀风蚀有高额易伤，神谕会导致你对负面免疫失效,反射由于数值高可能直接致死"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B490CDDE05EC91D"
+			subtitle: "从这里开始一定要注意这些词条了"
+			tasks: [{
+				id: "2EF6F54617BE27FB"
+				type: "checkmark"
+			}]
+			title: "噩梦"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			description: ["这些词条危险系数非常高，哪怕是后期了，在完全免疫之前仍然不要小看"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48888E0C974E56BF"
+			rewards: [{
+				id: "4482AACCBDB75045"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "危险性极高的词条，只有后期才有完全的针对手段"
+			tasks: [{
+				id: "63B6C3788EF56E01"
+				title: "炼狱"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2858B239AAFC570E"]
+			description: [
+				"是的，以太有个独一无二的词条，可以收缴怪物身上的两个词条"
+				""
+				"如果你真运气极差,想要吸引或者其他稀有词条，不妨可以试试用这个&a巧妙的小方法&r"
+			]
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "2E03B900D916317E"
+			rewards: [{
+				id: "5728F1F5E49BEFE0"
+				item: "l2hostility:repelling"
+				type: "item"
+			}]
+			subtitle: "孩子们以太牢的时代已经彻底过去了"
+			tasks: [
+				{
+					id: "07CD6D0823468830"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					id: "345F92525D007306"
+					item: "l2hostility:miracle_ingot"
+					type: "item"
+				}
+			]
+			title: "热血沸腾组合技"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B0CE6767B78B902"]
+			description: [
+				"比较克制多段伤害流派，上穿甲伤害可大幅度削减这个效果."
+				""
+				"另外这个格挡值不会超过500,所以你伤害够高也可以无视部分"
+			]
+			id: "58CCCFC689779EDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C2CDE21E37892D6"
+				table_id: 762635320671611458L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "跟我读,坚硬biao皮"
+			tasks: [{
+				id: "492E0FCF0CB5C693"
+				item: "l2hostility:hard_skin"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
 		}
 	]
 	subtitle: [

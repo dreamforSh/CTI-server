@@ -6,17 +6,17 @@
       "amount": 90
     },
     {
-      "name": "tconstruct:molten_amethyst",
-      "amount": 100
+      "name": "tconstruct:molten_amethyst_bronze",
+      "amount": 180
     },
     {
       "name": "tconstruct:molten_diamond",
-      "amount": 400
+      "amount": 200
     }
   ],
   "result": {
     "fluid": "tinkers_ingenuity:molten_knight_crystal",
-    "amount": 90
+    "amount": 180
     },
   "temperature": 2000
 }

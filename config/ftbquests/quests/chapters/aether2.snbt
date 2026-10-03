@@ -63,7 +63,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 3.2d
-			x: 0.0d
+			x: -3.5d
 			y: 0.0d
 		}
 	]
@@ -91,7 +91,7 @@
 				type: "dimension"
 			}]
 			title: "天境往事"
-			x: 0.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -110,7 +110,7 @@
 				item: "aether:book_of_lore"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -1.5d
 			y: -2.0d
 		}
 		{
@@ -138,7 +138,7 @@
 				type: "item"
 			}]
 			title: "天空中的国度"
-			x: -5.5d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
@@ -179,7 +179,7 @@
 				}
 			]
 			title: "虚无飘渺的云朵"
-			x: -5.5d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
@@ -198,32 +198,48 @@
 			}
 			id: "732C53D394820469"
 			rewards: [{
-				id: "79DA096CB2663ABE"
-				item: "aether:victory_medal"
-				random_bonus: 7
+				id: "1A73F77C8AABADE5"
+				item: "aether:golden_gummy_swet"
 				type: "item"
 			}]
 			size: 2.0d
 			subtitle: "有的箱子是宝箱怪哦，记得要杀死十个女武神"
-			tasks: [
-				{
-					id: "57A10D72BCB88A88"
-					structure: "aether:silver_dungeon"
-					type: "structure"
-				}
-				{
-					id: "1DDF885F8188EC41"
-					item: "aether:victory_medal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57A10D72BCB88A88"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
 			title: "寻找白银地牢：女武神之神庙"
 			x: 8.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["732C53D394820469"]
+			dependencies: [
+				"732C53D394820469"
+				"4E4309F69DC8DF96"
+			]
 			description: [
+				"----&9&l情报&r----"
+				""
+				"最低等级：1200"
+				"必定&a不会出现&r的词条 :"
+				""
+				"&5传送 "
+				"&5破魔"
+				"&5隐身"
+				""
+				"必定&e会出现&r的词条:"
+				""
+				"&5魂火I&r"
+				"&5诅咒I&r"
+				"&5重装V&r"
+				"&5保护IV&r"
+				"&5适应V&r"
+				"&d坚硬表皮III&r"
+				"&e净化V&r"
+				"&e摄魂I&r"
+				""
+				"{@pagebreak}"
 				"&l&b武神女王——女武神的女王！"
 				"&l&b旅者赞叹您的光芒，武者屈于您的力量！"
 				"&l&b您不愿欺凌弱者，也不愿谄媚强者"
@@ -283,8 +299,6 @@
 			description: [
 				"烈阳巨灵在被冰结球击中后会&e短时间内解除无敌&r，使用前面击败女武神获取的&b奇特的冰晶&r可以发射冰结球，主动进攻！"
 				""
-				"此外，使用超低温钢即可无视烈阳巨灵的无敌造成有效伤害，来一场公平（指一刀秒）公正的比拼吧！"
-				""
 				"&e黄金钥匙&r的保管者——残暴的天境统治者&4烈阳巨灵&r，就位于深红色的大堂正中央。"
 				""
 				"结构名称：Golden Dungeon"
@@ -303,7 +317,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["312A48DBACD88CE0"]
+			dependencies: ["56F8A7076E8D2309"]
 			description: [
 				"在滑石迷宫内部最庞大的昏暗房间的平台之上，沉眠着古老迷宫的主脑中枢，&6青铜钥匙&r的保管者——&4滑行魔石&r。"
 				""
@@ -325,12 +339,36 @@
 				type: "structure"
 			}]
 			title: "寻找青铜地牢：滑行魔石之迷宫"
-			x: 3.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["02EAD2FD2F0A7944"]
 			description: [
+				"----&9&l情报&r----"
+				""
+				"最低等级：1500"
+				""
+				"必定&a不会出现&r的词条 :"
+				""
+				"&5传送 "
+				"&5诅咒"
+				"&5隐身"
+				"&5神速"
+				""
+				"必定&e会出现&r的词条:"
+				""
+				"&5重装V&r"
+				"&5保护IV&r"
+				"&5适应V&r"
+				"&d坚硬表皮III&r"
+				"&d榴弹V&r"
+				"&e净化V&r"
+				"&e摄魂I&r"
+				"&e破魔III&r"
+				"&e杀戮光环III&r"
+				""
+				"{@pagebreak}"
 				"当你杀死烈阳魔灵后，附着于天境的神秘之力就会消散——昼夜重新循环。"
 				"也许这并不是个好事情……但如果现在天境的昼夜由你掌控呢？同时，将这份昼夜轮回的力量融入你的&d全息世界投影板&r中，或许能得到一份与众不同的惊喜......"
 			]
@@ -374,6 +412,36 @@
 		}
 		{
 			dependencies: ["790DEF69B4AF66B9"]
+			description: [
+				"使用镐子类可以伤害到他"
+				""
+				"当然这个只判定主手"
+				""
+				" 你也可以给你的武器敲上&a石破天惊&r强化来强行绕开这个限制"
+				""
+				"他的移动方式很笨拙，但是一旦碰到就是毁灭性打击！！！！"
+				""
+				"建议有中期装备才可以考虑来打他(如&8碳复合板&r，&b超低温钢&r等)"
+				""
+				"----&9&l情报&r----"
+				""
+				"最低等级：1000"
+				""
+				"必定&a不会出现&r的词条 :"
+				""
+				"&5传送 "
+				"&5隐身"
+				"&5神速"
+				""
+				"必定&e会出现&r的词条:"
+				""
+				"&5反射II&r"
+				"&5诅咒I&r"
+				"&d保护IV"
+				"&d重装V"
+				"&e净化V"
+				"&e杀戮光环III&r"
+			]
 			icon: "aether_redux:sentry_chip"
 			id: "6881CC008DAF68A8"
 			rewards: [
@@ -434,17 +502,19 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -10.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["3BE3A88B213952D5"]
+			dependencies: ["312A48DBACD88CE0"]
 			description: [
 				"紫晶是天镜的常见矿物，地位类似于铁。"
 				""
 				"从紫晶这个等级的斧子开始，采伐金琥珀橡木可以得到树干中的金琥珀。"
 				""
-				"可以作为强化物打在匠魂工具上，移除天镜对工具的惩罚，并增加部分属性。"
+				"可以作为强化物打在匠魂工具上，&a移除天镜对工具的惩罚&r，并增加部分属性。"
+				""
+				"&l&4&o非常重要，不给工具打这个强化会被削弱很多！！！！&r"
 			]
 			id: "56F8A7076E8D2309"
 			rewards: [{
@@ -453,14 +523,16 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "天境铁矿"
 			tasks: [{
 				id: "1022D5F169522F36"
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -2.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3BE3A88B213952D5"]
@@ -469,6 +541,7 @@
 				"被开采后的重力晶矿不能直接使用，经过神能炉的附神后才能用于装备制作。"
 				"这种矿石在上方没有遮挡物事会持续的反重力上升——这正是天境高悬于天空的原因。"
 			]
+			icon: "aether:gravitite_ore"
 			id: "13A55E21480931F6"
 			rewards: [{
 				id: "31FBC34C6FEBBA26"
@@ -498,7 +571,7 @@
 				type: "item"
 			}]
 			title: "史上最重的矿"
-			x: -4.5d
+			x: -8.0d
 			y: -3.5d
 		}
 		{
@@ -510,6 +583,13 @@
 				"而穿戴一整套武神盔甲可以让你像女武神那样短暂飞行——不过非常慢&5&m(不如用重力晶做个部件打身上)"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "aether:valkyrie_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "431D9040F378437B"
 			rewards: [{
 				id: "0360BBC02B53F4F0"
@@ -590,6 +670,13 @@
 				"它能被熔炼为凤凰金属，穿着以其为原料的装备时你会拥有持续的抗火buff，并且让你可以轻松在岩浆里游泳，同时能提供1层免死。"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "aether:phoenix_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4D3C95C8926DF48E"
 			rewards: [{
 				id: "5BBCBB3F92826059"
@@ -666,6 +753,13 @@
 				"&a不过这并不意味着你可以在水里呼吸了……"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "aether:neptune_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "59D1121C2F0856C8"
 			rewards: [{
 				id: "09C38D32F6B9072F"
@@ -761,6 +855,13 @@
 		{
 			dependencies: ["4D3C95C8926DF48E"]
 			description: ["      不过不用担心，以工匠之力驾驭的凤凰装备碰水并不会变成黑曜石"]
+			icon: {
+				Count: 1b
+				id: "aether:obsidian_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "773546151838BE44"
 			subtitle: "这就是凤凰套碰水的下场"
 			tasks: [
@@ -824,7 +925,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["56F8A7076E8D2309"]
 			id: "401BEC234F110372"
 			rewards: [{
 				id: "65E0F0F1BCE6FF1D"
@@ -837,12 +937,13 @@
 				item: "aether:golden_amber"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["401BEC234F110372"]
 			description: ["放着更先进的匠魂吹箭筒不用，为什么要用这个白板吹箭筒呢？"]
+			icon: "aether:golden_dart_shooter"
 			id: "30BE689A277C82A8"
 			rewards: [{
 				id: "53D38A8B9593AD08"
@@ -862,12 +963,13 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6881CC008DAF68A8"]
 			description: ["冷冻器可以使用冰石为“燃料”来将物品进行冷冻，例如将水桶冻成冰方块，又或是制造某些天境独有饰品"]
+			icon: "aether:freezer"
 			id: "26AB0CF222F881A1"
 			rewards: [{
 				id: "00AC5E3B8896C91D"
@@ -914,7 +1016,7 @@
 				type: "advancement"
 			}]
 			title: "母猪上天了！"
-			x: -7.0d
+			x: -10.5d
 			y: 3.0d
 		}
 		{
@@ -940,7 +1042,7 @@
 				type: "item"
 			}]
 			title: "恐鸟骑士传说 其一"
-			x: -6.0d
+			x: -9.5d
 			y: 3.0d
 		}
 		{
@@ -973,7 +1075,7 @@
 				}
 			]
 			title: "恐鸟骑士传说 其二"
-			x: -7.0d
+			x: -10.5d
 			y: 4.0d
 		}
 		{
@@ -1000,7 +1102,7 @@
 				type: "advancement"
 			}]
 			title: "恐鸟骑士传说 其三"
-			x: -6.0d
+			x: -9.5d
 			y: 4.0d
 		}
 		{
@@ -1032,7 +1134,7 @@
 				type: "advancement"
 			}]
 			title: "恐鸟骑士传说 其四"
-			x: -5.0d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -1049,7 +1151,7 @@
 				type: "item"
 			}]
 			title: "恐鸟骑士传说 其五"
-			x: -5.0d
+			x: -8.5d
 			y: 4.0d
 		}
 		{
@@ -1068,7 +1170,7 @@
 				value: 200L
 			}]
 			title: "恐鸟骑士传说 外传 堕入黑暗之人"
-			x: -4.0d
+			x: -7.5d
 			y: 3.0d
 		}
 		{
@@ -1088,7 +1190,7 @@
 				type: "advancement"
 			}]
 			title: "恐鸟骑士传说 终"
-			x: -4.0d
+			x: -7.5d
 			y: 4.0d
 		}
 		{
@@ -1115,6 +1217,7 @@
 				random_bonus: 7
 				type: "item"
 			}]
+			subtitle: "熔炼她身上的盔甲"
 			tasks: [{
 				id: "549D397D7B5F8CA4"
 				item: "kubejs:valkyrie_ingot"
@@ -1125,7 +1228,14 @@
 		}
 		{
 			dependencies: ["59791E2D5B1845B0"]
+			description: ["有免死效果，而且能抵抗诸神黄昏，为你接下来的深园铺路"]
 			id: "3EFF5F1B7A6A5DBD"
+			rewards: [{
+				id: "7DFE3F3BC00947EB"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			subtitle: "强大的材料"
 			tasks: [{
 				id: "4C1DBA6A9A30402D"
 				item: "kubejs:phoenix_ingot"
@@ -1155,7 +1265,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7EEBFF940C295E99"]
@@ -1208,11 +1318,11 @@
 				item: "aether_redux:veridium_ingot"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -9.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["59791E2D5B1845B0"]
+			dependencies: ["0E823AF260330D98"]
 			description: ["      由于生命补片不能堆叠，所以额外加了这么个材料"]
 			id: "097C75271A3DE242"
 			rewards: [
@@ -1235,7 +1345,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["59791E2D5B1845B0"]
@@ -1260,18 +1370,27 @@
 			description: [
 				"      神谕是天镜及天镜后流程里特有的高危词条，被打中后短时间内无法获得正面效果且失去效果免疫（当然，效果清除依然可用）。"
 				""
-				"      通过用宝珠刷取神谕钢即可快速摆脱来自它的烦恼，只需要做成护甲部件使用就能免疫神谕！"
+				"      通过用宝珠刷取神谕钢粒即可快速摆脱来自它的烦恼，只需要做成护甲部件使用就能免疫神谕！"
+				""
+				"      神谕钢可以极好的针对\"保护\"\"隐身\"等药水状态类词条，合理利用打怪事半功倍"
 			]
+			icon: "tinkerscalibration:oraclium_ingot"
 			id: "3F2AA7F2775E2BF6"
+			rewards: [{
+				count: 4
+				id: "24C266C8BD7EB240"
+				item: "tinkerscalibration:oraclium_nugget"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "还害怕神谕词条？"
 			tasks: [{
-				id: "7068924B4DAE4B7E"
-				item: "tinkerscalibration:oraclium_ingot"
+				id: "2309D207594C7CD1"
+				item: "tinkerscalibration:oraclium_nugget"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -1307,7 +1426,7 @@
 				type: "structure"
 			}]
 			title: "发现一个小行星球实验室"
-			x: -2.0d
+			x: -5.5d
 			y: 2.0d
 		}
 		{
@@ -1315,7 +1434,9 @@
 			description: [
 				"宝藏小行星球（Planetoid Treasure）是本包新增的天镜结构，里面有一个来自青铜/白银/黄金地牢的随机箱子。"
 				""
-				"虽然它需要钥匙来开启，但是在你&e手头有多余的钥匙&r或者&e有强行撬开锁的方式&r的情况下它可以帮助你大量获取天镜战利品。"
+				"它需要钥匙来开启，你可以通关&a&l深园后制作钥匙来&r大量获取天镜战利品。"
+				""
+				"&l&4不要试图强制破坏，不然什么都不会掉&r&4"
 			]
 			icon: "aether:treasure_chest"
 			id: "26449188F5744DD3"
@@ -1327,7 +1448,7 @@
 				title: "发现一个宝藏小行星球"
 				type: "structure"
 			}]
-			x: 2.0d
+			x: -1.5d
 			y: 2.0d
 		}
 		{
@@ -1374,6 +1495,54 @@
 			}]
 			x: 16.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["732C53D394820469"]
+			description: ["拿去给神能炉修复一下，即可变成完整的，这样就可以去挑战了"]
+			id: "4E4309F69DC8DF96"
+			rewards: [{
+				id: "30EA9C32C2B09D36"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			subtitle: "等下，破损的？"
+			tasks: [{
+				id: "5DA36443D53512DB"
+				item: "kubejs:broken_victory_medal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59791E2D5B1845B0"]
+			description: ["可以永久提升你的最大生命"]
+			id: "0E823AF260330D98"
+			rewards: [{
+				id: "7E8BB040F99D0CDA"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			subtitle: "悄悄告诉你，这玩意可以右键使用"
+			tasks: [{
+				id: "558FD3CB5329CD67"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["732C53D394820469"]
+			id: "0BDD368637E56057"
+			subtitle: "有这个可以无限次数挑战女武神了"
+			tasks: [{
+				id: "1208305249C5C0C9"
+				item: "aether_redux:grand_victory_medal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
 		}
 	]
 	subtitle: [

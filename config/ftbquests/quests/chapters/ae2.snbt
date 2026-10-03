@@ -517,6 +517,30 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/barrier"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "ftbquests:block/barrier"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 6.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1504,12 +1528,18 @@
 				title: "精妙存储"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["38190D04D6020295"]
-			description: ["tss的&e存储整合器&r，能够整合一定范围内各种容器，甚至me驱动器中的存储元件都会被识别进去（只是存储元件，不能调用其中存储的内容）"]
+			description: [
+				"tss的&e存储整合器&r，能够整合一定范围内各种容器，甚至me驱动器中的存储元件都会被识别进去（只是存储元件，不能调用其中存储的内容）"
+				""
+				"但是，存储整合器读取存储设备会导致&c较大的卡顿&r，极端情况下甚至会&c导致卡死（特别是存储总线读取后）&r。"
+				""
+				"因把存储整合器接入AE而导致卡死的情况每天都在发生，我们强烈不建议用存储总线读取存储整合器"
+			]
 			icon: "toms_storage:ts.inventory_connector"
 			id: "5B24A6988F6A6984"
 			rewards: [{
@@ -1518,13 +1548,15 @@
 				table_id: 8776799107351546644L
 				type: "random"
 			}]
+			subtitle: "省流：卡死"
 			tasks: [{
 				id: "1C9E24B7BA49E7ED"
 				title: "存储整合器"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 16.5d
+			title: "为什么不推荐用存储总线识别存储整合器？"
+			x: -1.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["38190D04D6020295"]
@@ -1570,7 +1602,7 @@
 				title: "存储整合器"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 16.0d
 		}
 		{
@@ -1613,6 +1645,10 @@
 				"{image:kubejs:textures/ftbq_images/package1.png width:200 height:120 align:1}"
 				"现在打开终端，你会看到无尽已经能够自动合成了"
 				"{image:kubejs:textures/ftbq_images/terminal.png width:200 height:100 align:1}"
+				"{@pagebreak}"
+				"当你结合封包机和解包机，你就会获得封包供应器，它一台机器就能承担封包机和解包机的功能。"
+				""
+				"此时你可以像样板供应器和分子装配室那样进行封包自动化"
 			]
 			icon: "packagedavaritia:extreme_crafter"
 			id: "18FFB9D41FDD3A16"
@@ -1626,16 +1662,6 @@
 				{
 					id: "40360601481205A9"
 					item: "packagedauto:encoder"
-					type: "item"
-				}
-				{
-					id: "7DBB0C750F560C34"
-					item: "packagedauto:packager"
-					type: "item"
-				}
-				{
-					id: "747BA0B90943F5A3"
-					item: "packagedauto:unpackager"
 					type: "item"
 				}
 				{
@@ -1673,6 +1699,24 @@
 					title: "封包合成器"
 					type: "item"
 				}
+				{
+					id: "1BA40E4E4C15962D"
+					item: "packagedauto:packager"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1648B63E1834577C"
+					item: "packagedauto:unpackager"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "068293BBAB6A4ABD"
+					item: "packagedauto:packaging_provider"
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "封包合成——更大的配方"
 			x: 5.0d
@@ -1698,7 +1742,7 @@
 				"最后的最后，不要拘泥于将物品从样板供应器传输到花格箱之类的东西里，我们&e最强大的物流模组其实是ae自己啊！&r如果你发现一个合成的自动化非常复杂，用普通管道或者花格箱之类完全无法实现，尝试归结好原料与产物，然后将原料传输进一个&e新的me网络（也就是子网）&r，用ae来分配每一个原料该去的地方"
 				""
 				"课后作业：仅用ae、原版和机械动力实现电动马达的自动化"
-				"&m做一百个电动马达或许会有什么神奇的事情发生&r"
+				""
 				""
 				"&o&8ps：大山不会走向穆罕默德，但穆罕默德能够走向大山。发挥天马行空的想象力，你能实现一切自动化！"
 				"&o&8pps：为什么是法师兜帽——因为我喜欢魔法~"
@@ -1975,7 +2019,7 @@
 		}
 		{
 			dependencies: ["5F4B91A0A27B3C25"]
-			description: ["能够传输32个频道，但是&e每个面最多只能传输8个&r"]
+			description: ["能够传输32个频道，但是需要&6注意大部分AE设备（比如ME接口）都有8的频道传输限制&r所以它并不总是能传输32频道"]
 			id: "15675937DD1E86BB"
 			rewards: [
 				{
@@ -2029,7 +2073,7 @@
 		}
 		{
 			dependencies: ["5F4B91A0A27B3C25"]
-			description: ["更粗的智能线缆，同样最多传输32个频道但一个面最多传输8个频道"]
+			description: ["更粗的智能线缆，同样最多传输32个频道"]
 			id: "2DAAC3FD35E39A5F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2793,15 +2837,27 @@
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
-			description: ["模组添加的无线设备，前者不能跨纬度链接且最远支持1000格（耗电低），后者不能跨纬度但无限距离（耗电高）配合p2p能够降低线缆使用，搭建近乎无线的me网络"]
+			description: [
+				"模组添加的无线设备，不能跨维度链接且最远支持1000格，配合p2p能够降低线缆使用，搭建近乎无线的me网络"
+				""
+				"在获得钨钢后可以合成，在此之前可以在天境的小行星球中发现"
+			]
 			id: "37BAABDF17C79239"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06DEAD18CDE57DBD"
-				table_id: 8776799107351546644L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06DEAD18CDE57DBD"
+					table_id: 8776799107351546644L
+					type: "random"
+				}
+				{
+					id: "5A5DEF339C4BE5FC"
+					item: "kubejs:tungsten_steel_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -2816,8 +2872,9 @@
 					type: "item"
 				}
 				{
-					id: "73BC83DD0B368A76"
-					item: "ae2additions:me_wireless_transceiver"
+					id: "3398A0E64460E13B"
+					item: "kubejs:wireless_connect_broken"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2939,7 +2996,7 @@
 				}
 			]
 			title: "好玩的小东西"
-			x: 8.0d
+			x: 7.5d
 			y: 4.0d
 		}
 		{
@@ -3249,7 +3306,7 @@
 				}
 			]
 			title: "触发总线"
-			x: 9.0d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
@@ -3274,8 +3331,8 @@
 				item: "expatternprovider:ingredient_buffer"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.0d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["40DB7E8B04D971D5"]
@@ -3327,7 +3384,7 @@
 				type: "item"
 			}]
 			title: "传统主义"
-			x: 7.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
@@ -3634,7 +3691,11 @@
 		}
 		{
 			dependencies: ["4A180764069FEF5D"]
-			description: ["      把大宗存储元件放在元件工作台上可以给它插入压缩卡。此时大宗元件就会像一个压缩抽屉一样，以接近无限的速度自动根据需求压缩/解压缩存储中的物品。"]
+			description: [
+				"      把大宗存储元件放在元件工作台上可以给它插入压缩卡。此时大宗元件就会像一个压缩抽屉一样，以接近无限的速度自动根据需求压缩/解压缩存储中的物品。"
+				""
+				"      不过可惜的是，由于&c某种bug本包中大部分锭/块/粒都无法自动解压缩"
+			]
 			id: "74B4922A3CBBC08D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3718,6 +3779,59 @@
 			title: "观察猪"
 			x: 1.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3F7C1D3A07ED6D81"]
+			hide_dependency_lines: true
+			id: "61AC78BD5D8570F2"
+			tasks: [{
+				id: "71238A64B100E8B3"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			title: "在没电的时候也可以用手摇曲柄发电"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40DB7E8B04D971D5"]
+			description: [
+				"      放进网络中可以提供&64096AE/t&r的能量"
+				""
+				" &e     注：1AE=2FE"
+				""
+				" &e     在月球地牢的箱子里10%的概率开出"
+			]
+			id: "72826F5A19E3FF3E"
+			shape: "square"
+			subtitle: "虽然只有4k，但起码是无限能源"
+			tasks: [{
+				id: "6E0DDF44FBC8EDFB"
+				item: "cti:creative_energy_cell_4k"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["40DB7E8B04D971D5"]
+			description: ["       把它接入网络然后右键绑定一下，它就能自动识别AE里的物品来完成那些不消耗的任务目标。"]
+			id: "4AAF55EDE152E724"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3559E5AD8B53E426"
+				table_id: 1725200357724293558L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "妈妈再也不用担心我任务物品放AE里忘记检测了"
+			tasks: [{
+				id: "723332BFA6B79927"
+				item: "questsenhance:me_quests_detector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
 		}
 	]
 	subtitle: [

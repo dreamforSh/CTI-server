@@ -1,0 +1,18 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:ruby_laser",
+        "level": 1
+      },
+      {
+        "name": "cti:replaced_conducting",
+        "level": 3
+      },
+      {
+        "name": "etshtinker:fluxloaded",
+        "level": 2
+      }
+    ]
+  }
+}

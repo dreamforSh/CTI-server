@@ -6,16 +6,8 @@
         "level": 1
       },
       {
-        "name": "cti:transmigration",
-        "level": 1
-      },
-      {
-        "name": "cti:trauma",
-        "level": 1
-      },
-      {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 100
       }
     ],
     "tconstruct:ranged": [
@@ -24,16 +16,8 @@
         "level": 1
       },
       {
-        "name": "cti:transmigration",
-        "level": 1
-      },
-      {
-        "name": "cti:trauma",
-        "level": 1
-      },
-      {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 100
       }
     ],
     "tconstruct:armor": [
@@ -42,16 +26,12 @@
         "level": 1
       },
       {
-        "name": "cti:transmigration",
-        "level": 1
-      },
-      {
-        "name": "cti:trauma",
+        "name": "solidarytinker:clean",
         "level": 1
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 100
       }
     ],
     "tinkersinnovation:shield": [
@@ -60,15 +40,11 @@
         "level": 1
       },
       {
-        "name": "cti:transmigration",
-        "level": 1
-      },
-      {
-        "name": "cti:trauma",
-        "level": 1
-      },
-      {
         "name": "cti:shadow_of_vigrid",
+        "level": 100
+      },
+      {
+        "name": "solidarytinker:clean",
         "level": 1
       }
     ],
@@ -78,16 +54,26 @@
         "level": 1
       },
       {
-        "name": "cti:transmigration",
-        "level": 1
+        "name": "cti:shadow_of_vigrid",
+        "level": 100
+      }
+    ],
+    "tinkers_ingenuity:curio": [
+      {
+        "name": "solidarytinker:bha",
+        "level": 1110
       },
       {
-        "name": "cti:trauma",
-        "level": 1
+        "name": "solidarytinker:natived",
+        "level": 1110
+      },
+      {
+        "name": "solidarytinker:watery",
+        "level": 1110
       },
       {
         "name": "cti:shadow_of_vigrid",
-        "level": 1
+        "level": 1110
       }
     ]
   }

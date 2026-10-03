@@ -1,12 +1,12 @@
 {
     "default": [
       {
-        "level": 3,
-        "name": "cti:pressure_loaded"
+        "name": "cti:industrial",
+        "level": 4
       },
       {
-        "name": "cti:industrial",
-        "level": 2
+        "level": 5,
+        "name": "cti:pressure_loaded"
       },
       {
         "name": "cti:carcinogenic",
@@ -16,12 +16,16 @@
     "perStat": {
       "tconstruct:armor": [
         {
+          "level": 5,
+          "name": "cti:pressure_loaded"
+        },
+        {
           "name": "etshtinker:solidified",
           "level": 2
         },
         {
           "name": "cti:industrial_armor",
-          "level": 2
+          "level": 3
         },
         {
           "name": "cti:piercing_immune",

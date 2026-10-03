@@ -62,6 +62,10 @@
       {
         "level": 1,
         "name": "cti:fiery_capable"
+      },
+      {
+        "level": 2,
+        "name": "cti:endless_hatred"
       }
     ],
     "tconstruct:shield_core": [
@@ -76,6 +80,10 @@
       {
         "level": 1,
         "name": "cti:fiery_capable"
+      },
+      {
+        "level": 4,
+        "name": "cti:endless_hatred"
       }
     ],
     "tconstruct:plating_helmet": [
@@ -86,6 +94,10 @@
       {
         "name": "cloudertinker:nodienoend",
         "level": 1
+      },
+      {
+        "level": 4,
+        "name": "cti:endless_hatred"
       }
     ],
     "tconstruct:plating_chestplate": [
@@ -96,6 +108,10 @@
       {
         "name": "cloudertinker:nodienoend",
         "level": 1
+      },
+      {
+        "level": 4,
+        "name": "cti:endless_hatred"
       }
     ],
     "tconstruct:plating_leggings": [
@@ -106,6 +122,10 @@
       {
         "name": "cloudertinker:nodienoend",
         "level": 1
+      },
+      {
+        "level": 4,
+        "name": "cti:endless_hatred"
       }
     ],
     "tconstruct:plating_boots": [
@@ -116,6 +136,10 @@
       {
         "name": "cloudertinker:nodienoend",
         "level": 1
+      },
+      {
+        "level": 4,
+        "name": "cti:endless_hatred"
       }
     ],
     "tconstruct:plating_shield": [
@@ -126,6 +150,10 @@
       {
         "name": "cloudertinker:nodienoend",
         "level": 1
+      },
+      {
+        "level": 4,
+        "name": "cti:endless_hatred"
       }
     ]
   }

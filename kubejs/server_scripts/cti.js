@@ -1,6 +1,11 @@
 PlayerEvents.loggedIn(event => {
     var player = event.player;
-    var text = Text.green("工匠：技艺革新[版本:0.43]").hover("全新冒险更新");
+    var text = Text.green("工匠：技艺革新[版本:0.46]").hover("材料大重做与数值平衡");
+    player.tell(text);
+});
+PlayerEvents.loggedIn(event => {
+    var player = event.player;
+    var text = Text.yellow("已为正式版,有问题及时反馈").hover("真的是正式版");
     player.tell(text);
 });
 PlayerEvents.loggedIn(event => {

@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "tinkerscalibration:iceland_spar_crystal" },
+  "result": {
+    "fluid": "tinkerscalibration:moltenicelandspar",
+    "amount": 100
+  },
+  "temperature": 2800,
+  "time": 30
+}

@@ -25,4 +25,24 @@ StartupEvents.registry("block",event=>{
     event.create("pressurized_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
     event.create("aetheric_meteorite_ore","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.ANCIENT_DEBRIS)
     event.create("reactor_casing","basic").requiresTool(true).hardness(2.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.NETHERITE_BLOCK)
+    event.create("wireless_connect_broken","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
+    event.create("steel_leaved_iron_block","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe")
+        .tagBlock('minecraft:needs_iron_tool').tagBlock("ae2:growth_acceleratable").material('netherite').soundType(SoundType.METAL).requiresTool(true)
+        .randomTick(handler=>{
+            let level = handler.level
+            let blockPos = handler.block.pos
+            let block = handler.block
+            if (Math.random()<0.2){
+                level.setBlock(blockPos,Blocks.AIR.defaultBlockState(),3)
+                block.popItem(Item.of("thermal:steel_dust",9))
+                block.popItem(Item.of("thermal:steel_dust",9))
+                block.popItem(Item.of("thermal:steel_dust",9))
+                block.popItem(Item.of("thermal:steel_dust",9))
+                block.popItem(Item.of("twilightforest:steeleaf_ingot",2))
+                block.popItem(Item.of('twilightforest:carminite',1))
+                level.playSound(null,blockPos.x,blockPos.y,blockPos.z,"block.metal.break","blocks",1,1)
+            }
+        })
+    event.create("dense_certus_block","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
+    event.create("silicon_block","basic").requiresTool(true).hardness(1.5).resistance(2048).tagBlock("mineable/pickaxe").tagBlock('minecraft:needs_iron_tool').material('netherite').soundType(SoundType.METAL).requiresTool(true)
 })

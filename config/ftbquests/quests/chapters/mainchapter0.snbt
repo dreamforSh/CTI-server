@@ -431,7 +431,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 24.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			click: ""
@@ -480,7 +480,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 24.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			click: ""
@@ -492,7 +492,19 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 24.0d
-			y: -2.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.0d
+			y: 1.0d
 		}
 	]
 	order_index: 0
@@ -589,9 +601,9 @@
 								"tconstruct:durability": 390.0f
 							}
 							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 2
+								abilities: 3
+								defense: 3
+								upgrades: 3
 							}
 						}
 					}
@@ -619,9 +631,9 @@
 								"tconstruct:durability": 338.0f
 							}
 							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 2
+								abilities: 3
+								defense: 3
+								upgrades: 3
 							}
 						}
 					}
@@ -1119,6 +1131,10 @@
 							name: "tinkers_reforged:rock_solid"
 						}
 						{
+							level: 1
+							name: "solidarytinker:lighting"
+						}
+						{
 							level: 2
 							name: "tconstruct:cultivated"
 						}
@@ -1129,11 +1145,11 @@
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 9.45f
-						"tconstruct:attack_speed": 0.9f
-						"tconstruct:durability": 409.5f
+						"tconstruct:attack_damage": 11.88f
+						"tconstruct:attack_speed": 1.3f
+						"tconstruct:durability": 2636.0642f
 						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:mining_speed": 6.825f
+						"tconstruct:mining_speed": 7.0200005f
 					}
 					tic_volatile_data: {
 						abilities: 2
@@ -2035,6 +2051,18 @@
 					item: "tconstruct:scorched_basin"
 					type: "item"
 				}
+				{
+					id: "3D321FA8AE9B4483"
+					item: "tconstruct:gold_platform"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "465C34E05F989487"
+					item: "tconstruct:gold_bars"
+					optional_task: true
+					type: "item"
+				}
 			]
 			title: "焦褐炉妙妙小道具"
 			x: 20.5d
@@ -2219,10 +2247,6 @@
 								level: 2
 								name: "cti:shadow_of_vigrid"
 							}
-							{
-								level: 1
-								name: "cti:imprison"
-							}
 						]
 						tic_persistent: { }
 						tic_stats: {
@@ -2233,9 +2257,8 @@
 							"tinkers_ingenuity:movement_speed": 0.25f
 						}
 						tic_volatile_data: {
-							abilities: -9999
-							defense: -10000
-							upgrades: -9999
+							abilities: 1
+							upgrades: 1
 						}
 					}
 				}
@@ -2391,6 +2414,11 @@
 		}
 		{
 			dependencies: ["2B25FFCF7AB3DD8B"]
+			description: [
+				"      黑铜的浇筑设备继承了焦褐设备的属性，所以在浇筑时需要铸膜"
+				""
+				"      查阅“焦褐炉妙妙小道具”任务以了解更多"
+			]
 			id: "678A5FF88F219076"
 			rewards: [{
 				count: 8
@@ -2465,7 +2493,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["71A49B6C2D816424"]
@@ -2491,6 +2519,86 @@
 			}]
 			x: 10.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["09BC32B4F6BEB432"]
+			description: [
+				"这里列举几个显著提高防御能力的"
+				""
+				"&a&l保护"
+				"&a&l近战保护"
+				"&a&l额外夹板"
+				""
+				"这些消耗升级槽的很推荐获得的时候顺手打上，稳定的正向提升！"
+				""
+				"&l&b钻石"
+				"&l&b绿宝石"
+				"&l&b下界合金"
+				"&l&b紫晶石"
+				"&l&b贵豪"
+				""
+				"当然强化其实还有很多，琳琅满目，仔细检阅和权衡强度给你的盔甲敲上吧"
+			]
+			icon: "undergarden:regalium_crystal"
+			id: "0011B8FD6C95493B"
+			rewards: [{
+				id: "0CB1CF047BAC57E4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "匠魂的强化非常重要，尤其是盔甲的"
+			tasks: [{
+				id: "0709A92810CE3B98"
+				title: "一些强化"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["508340027EE3C321"]
+			description: [
+				"      和精炼炉一样是需要封顶封边的炉子"
+				"{image:kubejs:textures/ftbq_images/7c7087299ea12e95bad4d1ddda1a4e00.png width:100 height:110 align:1 fit:true}"
+				"      不同的是顶部的方块固定为缚魂导热件。它可以与炉子进行热交换。"
+				""
+				"      无法熔炼物品，只能熔炼实体"
+				""
+				"      它也可以抽到-0.5bar以下获得增产，另外熔魂炉还需要冷却，随温度下降而增加熔炼产量（最低0℃）。"
+				""
+				"      不同于常规的冶炼炉，熔魂炉的伤害穿甲、穿魔，所以不用担心目标由于抗火而熔炼不了。"
+				""
+				"      当采用等离子态熔岩以上的燃料时，熔炼不再使目标受到伤害，并且在熔炼&e血量低于5000的生物&r时会&6阻止生物更新（不会攻击，不会寻敌，减少卡顿）"
+			]
+			id: "59F4436122F05A78"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "实体熔炼特化的炉子"
+			tasks: [
+				{
+					id: "32B309ECB304182F"
+					item: "cti:soul_forge_controller"
+					type: "item"
+				}
+				{
+					id: "43534BF6AA0A91FF"
+					item: "cti:soul_forge_bricks"
+					type: "item"
+				}
+				{
+					id: "4A30AE374C49F826"
+					item: "cti:soul_brick_heat_conductor"
+					type: "item"
+				}
+				{
+					id: "0FFECA3FD1FD2A04"
+					item: "cti:soul_valve"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 1.0d
 		}
 	]
 	subtitle: [

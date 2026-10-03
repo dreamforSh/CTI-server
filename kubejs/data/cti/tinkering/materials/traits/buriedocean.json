@@ -3,6 +3,10 @@
     {
       "name": "cti:buriedocean",
       "level": 1
+    },
+    {
+      "name": "cti:the_relic",
+      "level": 1
     }
   ]
 }

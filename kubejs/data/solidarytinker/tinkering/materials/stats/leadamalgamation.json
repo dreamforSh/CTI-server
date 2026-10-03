@@ -4,14 +4,14 @@
     "tconstruct:handle": {
       "durability": -0.35,
       "mining_speed": -0.05,
-      "melee_speed": 0.35,
+      "melee_speed": 0.75,
       "melee_damage": 0
     },
     "tconstruct:head": {
       "durability": 278,
       "mining_speed": 1.1,
       "mining_tier": "minecraft:iron",
-      "melee_attack": 8
+      "melee_attack": 2
     },
     "tconstruct:limb": {
       "durability": 241,
@@ -89,13 +89,18 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 10,
       "exert_times": 18,
-      "attack_frequency": 7,
+      "attack_frequency": 8,
       "kill_threshold": 0.09
     },
     "solidarytinker:core_battery": {
       "attack_range": 20,
       "target_amount": 3,
       "energy_capability": 100000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 10,
+      "perception_count": 4,
+      "perception_cooldown": 8
     }
   }
 }

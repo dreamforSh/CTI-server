@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "modid": "ae2",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "etshtinker:ragedangery",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    },
+    {
+      "name": "cti:industrial",
+      "level": 1
+    }
+  ]
+}

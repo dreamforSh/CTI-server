@@ -1,0 +1,33 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABABA",
+    "CDBDC",
+    "ECFCE",
+    "EFDFE",
+    "AECEA"
+  ],
+  "key": {
+    "A": {
+      "item": "miners_delight:cave_carrot"
+    },
+    "B": {
+      "item": "extradelight:butter"
+    },
+    "C": {
+      "item": "extradelight:whipped_cream"
+    },
+    "D": {
+      "item": "tconstruct:cheese_ingot"
+    },
+    "E": {
+      "item": "cherrytinker:cherrygem"
+    },
+    "F": {
+      "item": "cloudertinker:prublaze_ingot"
+    }
+  },
+  "result": {
+    "item": "solidarytinker:llk_ingot"
+  }
+}

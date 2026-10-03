@@ -12,7 +12,7 @@
     "fluid.kubejs.co2_water": "富二氧化碳水",
     "fluid.kubejs.ca_solution": "钙质溶液",
     "fluid.kubejs.biotic_acids": "浓缩腐蚀性生物酸",
-    "fluid.kubejs.tar_mix": "焦油混合物",
+    "fluid.kubejs.tar_mix": "裂解混合物",
     "fluid.kubejs.ethyne": "液态乙炔",
     "fluid.kubejs.royal_jelly": "蜂王浆",
     "fluid.kubejs.hot_heavymetal_lava": "重质金属高温熔岩",
@@ -21,6 +21,7 @@
     "fluid.kubejs.metalic_hydrogen": "超流体金属氢",
     "fluid.kubejs.metalic_hellium": "超流体金属氦",
     "fluid.kubejs.fuming_sulfuric_acid": "发烟硫酸",
+    "fluid.kubejs.molten_absorption_boost": "半熔融态伤痛反应药剂",
 
     "fluid.kubejs.molten_veridium": "熔融实金",
     "fluid.kubejs.molten_gravitite": "熔融重力晶",
@@ -99,6 +100,10 @@
     "block.kubejs.mercury_tungsten_ore":"水星钨矿石",
     "block.kubejs.mercury_orichalcum_ore":"水星山铜矿",
     "block.kubejs.reactor_casing":"反应堆外壳",
+    "block.kubejs.wireless_connect_broken":"<破损>无线连接器",
+    "block.kubejs.steel_leaved_iron_block":"钢化叶铁",
+    "block.kubejs.dense_certus_block":"致密赛特斯石英块",
+    "block.kubejs.silicon_block":"硅块",
 
     "item.kubejs.zirconium_fluid_bucket":"熔融锆桶",
     "item.kubejs.volatile_lava_bucket":"挥发性熔岩桶",
@@ -238,6 +243,7 @@
     "gas.cti.precursor": "前驱体",
     "gas.cti.pure_matter": "纯粹物质",
     "gas.cti.concentrated_carbon": "浓化碳",
+    "gas.cti.gaseous_uranium": "铀蒸汽",
 
     "block.cti.ultra_dense_hydride_ore": "氢化超致密水晶矿",
 
@@ -248,7 +254,7 @@
     "item.cti.advanced_range_augment": "高级范围插件",
     "item.cti.advanced_output_augment": "高级深度催化器",
     "item.kubejs.phytogro_zero":"植育零号",
-    "item.kubejs.broken_victory_medal":"碎裂 胜利奖牌",
+    "item.kubejs.broken_victory_medal":"<碎裂>胜利奖牌",
     "item.kubejs.sentrite":"纯化哨石",
     "item.kubejs.unipolar_magnet_shard":"单极磁石小块",
 
@@ -290,10 +296,6 @@
     "modifier.cti.structure.flavor": "结构化学的知识增加了",
     "modifier.cti.structure.description": "增加2个升级槽",
 
-    "modifier.cti.refined": "精炼",
-    "modifier.cti.refined.flavor": "由最先进的科技炼成，有着至强的效用。",
-    "modifier.cti.refined.description": "每级提供10%大部分属性提升和能力槽、升级槽各一个，增加25%（最大100%）不消耗耐久的概率。\n作为护甲时基于全身词条等级获得每级10%，最大60%的伤害减免，该减免对穿甲伤害具有一半的效力。",
-
     "modifier.cti.zanite": "紫晶石",
     "modifier.cti.zanite.flavor": "蕴含天镜能量的宝石",
     "modifier.cti.zanite.description": "像钻石一样增幅大部分属性，同时给予+1时运和抢夺等级。移除天镜对你工具的削弱。",
@@ -302,8 +304,14 @@
     "modifier.tinkers_reforged.weight_exchange.description": "将工具50%的挖掘速度添加到攻击伤害上。",
     "modifier.tinkers_reforged.weight_exchange.flavor": "重量交换",
 
+    "modifier.cti.enforced_sharpness": "强化锋利",
+    "modifier.cti.enforced_sharpness.flavor": "打磨，抛光，直至最利。",
+    "modifier.cti.enforced_sharpness.description": "每级+2.5和5%攻击伤害。",
+
+
     "item.extendedcrafting.flux_star":"通量之星",
     "item.extendedcrafting.flux_star_block":"通量之星块",
+    "item.minecraft.brush":"刷子",
 
     "_null_": "jei信息显示部分",
     "kubejs.jei.coinmint": "铸币机器已经被禁用",
@@ -319,7 +327,13 @@
     "kubejs.jei.railgun": "现在磁轨炮能使用工具手柄、坚韧手柄作为弹药。工具手柄有较高的弹速和伤害，坚韧手柄伤害、弹速低但是附带穿甲伤害并且能穿透2次。",
     "kubejs.jei.accelerator": "由于潜在的崩档问题，Bigger AE2的并行单元已被禁用。",
     "kubejs.jei.compression_card": "压缩卡出了一些问题，功能异常，在查明问题前暂时先禁用了。",
-    "kubejs.jei.astral_dusttt": "星体尘埃可以在避难所（Shelter）结构的冻结箱子里开出，你需要先击败船长科妮莉亚亡灵这个boss才能获得钥匙。",
+    "kubejs.jei.astral_dust": "星体尘埃可以在避难所（Shelter）结构的冻结箱子里开出，你需要先击败船长科妮莉亚亡灵这个boss才能获得钥匙。",
+    "kubejs.jei.unipolar_magnet": "单极磁石母岩发现于电离冻土星的异常区域群系的地下。当单极磁石母岩被放在超质量霜星石上方时会被加速生长，但是每次加速生长时都会释放一束致命的等离子爆炸（比超质量霜星石正常产生的威力更大！）。单极磁石可以被时运增产。",
+    "kubejs.jei.rasterite": "光栅石母岩的晶洞可以在霜原星（非常稀有！）和电离冻土星除了异常区域外群系的地下发现。它可以被晶体催生器加速，且在方块亮度高的地方生长得更快。",
+    "kubejs.jei.fracture_silicon": "分形硅石的晶洞可以在水星（非常稀有！）和炼狱星的深处发现。它可以被晶体催生器加速。当与水、熔岩、焦黑/焦褐熔石接触时消耗流体加速生长，这三者的加速效率分别是3x、30x、300x。",
+    "kubejs.jei.aetherium_core": "可以在深暗之园的下僻巢穴(Catacombs)中找到，用于制作一些高级插件或者转化为阳清合金",
+    "kubejs.jei.violium_core": "可以在天镜的黄金地牢中找到，用于制作一些高级插件或者转化为维奥合金",
+    "kubejs.jei.upgrade_argument9": "该组件仅可在冰雪迷阵的冰冻箱子中开到,非常稀有",
 
     "material.kubejs.zirconium_alloy": "钛锆合金",
     "material.kubejs.zirconium_alloy.flavor": "空气锻造",
@@ -403,9 +417,27 @@
     "material.kubejs.swet_bronze.flavor": "拥有神之能量的黏液合金",
     "material.kubejs.swet_bronze.encyclopedia": "拥有神之能量的黏液合金",
 
+    "item.kubejs.industrial_gel": "工业胶质",
+    "material.kubejs.industrial_gel": "工业胶质",
+    "material.kubejs.industrial_gel.flavor": "复合复合复合材料",
+    "material.kubejs.industrial_gel.encyclopedia": "复合复合复合材料",
+
+    "material.kubejs.source_gem": "魔源宝石",
+    "material.kubejs.source_gem.flavor": "魔源宝石",
+
+    "material.kubejs.terrasteel": "泰拉钢",
+    "material.kubejs.terrasteel.flavor": "泰拉钢",
+
+    "item.kubejs.quantum_alloy_ingot": "量子合金锭",
+    "material.kubejs.quantum_alloy_ingot": "量子合金",
+    "material.kubejs.quantum_alloy_ingot.flavor": "量子合金",
+    "material.kubejs.quantum_alloy_ingot.encyclopedia": "融入了量子材料的金属",
+
+    "material.kubejs.fortunes_favor": "命运之眷",
+    "material.kubejs.fortunes_favor.flavor": "命运之眷",
 
 
-    "kubejs.jei.glorious_seal": "辉煌刻印可以将部件的词条添加到工具上，类似于TiC2的刻印。除了待刻印的部件外，你还需要放上一个纸、金块、玛玉灵锭和海梦合金锭。",
+
     "dimension.ad_astra.venus": "金星",
     "dimension.ad_astra.mars": "火星",
     "dimension.ad_astra.moon": "月球",
@@ -416,13 +448,6 @@
     "block.kubejs.block_yellow_cake_uranium":"铀饼",
     "block.kubejs.pressurized_casing":"耐压外壳",
     "block.kubejs.aetheric_meteorite_ore":"神赐陨铁",
-    
-
-    "kubejs.jei.unipolar_magnet": "单极磁石母岩发现于电离冻土星的异常区域群系的地下。当单极磁石母岩被放在超质量霜星石上方时会被加速生长，但是每次加速生长时都会释放一束致命的等离子爆炸（比超质量霜星石正常产生的威力更大！）。单极磁石可以被时运增产。",
-    "kubejs.jei.rasterite": "光栅石母岩的晶洞可以在霜原星（非常稀有！）和电离冻土星除了异常区域外群系的地下发现。它可以被晶体催生器加速，且在方块亮度高的地方生长得更快。",
-    "kubejs.jei.fracture_silicon": "分形硅石的晶洞可以在水星（非常稀有！）和炼狱星的深处发现。它可以被晶体催生器加速。当与水、熔岩、焦黑/焦褐熔石接触时消耗流体加速生长，这三者的加速效率分别是3x、30x、300x。",
-    "kubejs.jei.aetherium_core": "可以在深暗之园的下僻巢穴(Catacombs)中找到，用于制作一些高级插件或者转化为阳清合金",
-    "kubejs.jei.violium_core": "可以在天镜的黄金地牢中找到，用于制作一些高级插件或者转化为维奥合金",
 
     "item.kubejs.pure_silicon": "高纯硅棒",
     "item.kubejs.meteorium_scrap": "陨铁碎片",

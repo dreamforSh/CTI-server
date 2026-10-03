@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "name": "tinkerscalibration:moltenfiberglass",
+    "amount": 250
+  },
+  "result": "tinkerscalibration:fiberglass",
+  "cooling_time": 175
+}

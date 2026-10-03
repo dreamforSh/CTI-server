@@ -4,6 +4,7 @@
       "durability": 2147483647
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
     "tconstruct:plating_helmet": {
       "armor": 16.0,
       "durability": 10200,

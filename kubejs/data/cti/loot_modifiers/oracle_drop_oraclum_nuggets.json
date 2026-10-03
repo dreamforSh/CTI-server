@@ -1,6 +1,6 @@
 {
   "type": "l2hostility:trait_scaled",
-  "chance": 0.0,
+  "chance": 0.3,
   "conditions": [
     {
       "condition": "minecraft:killed_by_player"
@@ -16,10 +16,10 @@
       "item": "l2hostility:charm_of_looting_2"
     }
   ],
-  "rankBonus": 0.2,
+  "rankBonus": 0.1,
   "result": {
-    "Count": 2,
-    "id": "tinkerscalibration:oraclium_ingot"
+    "Count": 5,
+    "id": "tinkerscalibration:oraclium_nugget"
   },
   "trait": "l2hostility:oracle"
 }

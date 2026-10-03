@@ -1004,7 +1004,6 @@
 				""
 				"如果你想用&a自动酿药&r，记得工作盆叠成&a阶梯状&r，这样可以顺着流程往下做"
 				""
-				"&c切记如果自动酿药，一定要把 &l  豆腐世界  的  盐 &r&c 加入黑名单过滤列表&r"
 			]
 			id: "323C7AED40D42454"
 			rewards: [
@@ -1634,7 +1633,12 @@
 		}
 		{
 			dependencies: ["0637668E953F51C9"]
-			description: ["      高贵的百分比回血，你的血量上限越高就越能回。"]
+			description: [
+				"      高贵的百分比回血，你的血量上限越高就越能回。"
+				""
+				"      叶绿矿可以在丛林浅层被找到"
+				"（注：包里的叶绿矿没法种，挖一些够用了）"
+			]
 			id: "6F34559EE13F3083"
 			rewards: [{
 				id: "6AB13EFF5A64CA8F"
@@ -1707,7 +1711,7 @@
 				""
 				"      只要你提供材料，就可以立刻派遣一个电子前往你的AE2存储中为你提供无限的熔岩。"
 				""
-				"      目标显示器可以用来提交需要的熔岩！"
+				"      目标显示器可以用来提交需要的熔岩，&e以及后面其它任务还会需要的其它流体！"
 			]
 			icon: "create:hose_pulley"
 			id: "33F13671FDB5EB00"
@@ -1729,6 +1733,7 @@
 			tasks: [
 				{
 					amount: 1000000L
+					consume_fluid: true
 					fluid: "minecraft:lava"
 					id: "2A20262A0FD792B2"
 					type: "fluid"
@@ -1798,11 +1803,7 @@
 		}
 		{
 			dependencies: ["673842350B281F50"]
-			description: [
-				"本包新添加的超级燃烧物品，这俩也可以让烈焰人燃烧室超级燃烧，但是需要推沉浸原油才能获取石蜡"
-				""
-				"戈伯煤炭则遍布地下"
-			]
+			description: ["本包新添加的超级燃烧物品，这俩也可以让烈焰人燃烧室超级燃烧，但是需要推沉浸原油才能获取石蜡"]
 			icon: "immersivepetroleum:paraffin_wax"
 			id: "69AEFD9D4A454E73"
 			rewards: [{
@@ -1811,18 +1812,11 @@
 				type: "item"
 			}]
 			subtitle: "你是？？？"
-			tasks: [
-				{
-					id: "2FC20A488FC5948E"
-					item: "immersivepetroleum:paraffin_wax"
-					type: "item"
-				}
-				{
-					id: "786E19F692739527"
-					item: "gobber2:gobber2_foo"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FC20A488FC5948E"
+				item: "immersivepetroleum:paraffin_wax"
+				type: "item"
+			}]
 			title: "其他的超级加热"
 			x: 12.5d
 			y: -6.0d
@@ -2291,7 +2285,7 @@
 				item: "powah:uraninite"
 				type: "item"
 			}]
-			subtitle: "选择恐惧症翻了"
+			subtitle: "选择恐惧症犯了"
 			tasks: [{
 				id: "7796BB47445BE36F"
 				item: "powah:solar_panel_starter"
@@ -2389,6 +2383,37 @@
 			]
 			x: 32.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["29E21F219F641A8B"]
+			description: ["可以提供额外的护甲值给你的盔甲，非常推荐敲上！"]
+			icon: "tconstruct:nahuatl"
+			id: "1CCB5302FD5195EC"
+			rewards: [{
+				id: "0091564FB92D0526"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			subtitle: "一个匠魂强化"
+			tasks: [
+				{
+					id: "077E55F2988D4B21"
+					title: "额外夹板"
+					type: "checkmark"
+				}
+				{
+					id: "45AE263BB1EC4DB1"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "3BF2D6CAEC7976D3"
+					item: "tconstruct:nahuatl"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: -1.5d
 		}
 	]
 	subtitle: [

@@ -4,6 +4,6 @@
       "item": "immersiveengineering:toolupgrade_powerpack_tesla"
     },
     "cast_consumed": true,
-    "item_cost": 16,
+    "item_cost": 8,
     "result": "etshtinker:plasma_generator"
   }

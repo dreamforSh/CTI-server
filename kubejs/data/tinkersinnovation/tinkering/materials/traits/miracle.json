@@ -1,0 +1,34 @@
+{
+    "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkersinnovation:miracle",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkersinnovation:miracle",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkersinnovation:miracle",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
+    ]
+  }
+}

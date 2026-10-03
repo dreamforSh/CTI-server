@@ -1,0 +1,37 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:long_time_shape",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:lighting",
+        "level": 2
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 2
+      },
+      {
+        "name": "solidarytinker:deep_diving",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:armorcoating",
+        "level": 3
+      }
+    ],
+    "tconstruct:maille": null,
+    "tconstruct:plating_boots": null,
+    "tconstruct:plating_chestplate": null,
+    "tconstruct:plating_helmet": null,
+    "tconstruct:plating_leggings": null
+  }
+}

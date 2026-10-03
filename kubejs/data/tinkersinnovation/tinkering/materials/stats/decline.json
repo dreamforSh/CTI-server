@@ -62,13 +62,7 @@
       "block_amount": 0.2,
       "shield_amount": 6
     },
-    "tinkers_ingenuity:curio_extra": {},
-    "tinkers_ingenuity:curio_main": {
-      "movement_speed": 0.1,
-      "armor": 0.5,
-      "toughness": 0.5,
-      "attack": 0.4,
-      "arrow_damage": 0.2
-    }
+    "tinkers_ingenuity:curio_extra": null,
+    "tinkers_ingenuity:curio_main": null
   }
 }

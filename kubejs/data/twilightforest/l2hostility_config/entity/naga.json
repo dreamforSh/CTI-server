@@ -3,12 +3,14 @@
   "list": [
     {
       "blacklist": [
-        "l2hostility:adaptive"
+        "l2hostility:adaptive",
+        "l2hostility:speedy",
+        "l2hostility:invisible"
       ],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 20,
-        "min": 50,
+        "min": 100,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0
@@ -19,18 +21,13 @@
       "items": [],
       "traits": [
         {
-          "free": 1,
-          "min": 2,
-          "trait": "l2hostility:speedy"
-        },
-        {
           "free": 0,
           "min": 1,
           "trait": "l2hostility:cursed"
         },
         {
           "free": 1,
-          "min": 3,
+          "min": 2,
           "trait": "l2hostility:tank"
         }
       ]

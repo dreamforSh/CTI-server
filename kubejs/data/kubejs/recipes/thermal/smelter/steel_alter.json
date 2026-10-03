@@ -13,11 +13,11 @@
     "result": [
       {
         "item": "thermal:steel_ingot",
-        "count": 2
+        "count": 3
       },
       {
         "item": "thermal:steel_ingot",
-        "chance": 1.75
+        "chance": 1.15
       }
     ],
     "energy": 9600,

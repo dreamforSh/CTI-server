@@ -477,34 +477,6 @@
 			y: 0.5d
 		}
 		{
-			id: "19EA2BA2E5758A53"
-			subtitle: "众神之父赐予我视野"
-			tasks: [{
-				id: "2BCAD69E219B07F0"
-				item: "meetyourfight:spectres_eye"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.5d
-		}
-		{
-			id: "1BA25A32A76F75F2"
-			subtitle: "耐炸王"
-			tasks: [{
-				id: "1487A7C323B389B1"
-				item: {
-					Count: 1b
-					id: "cyclic:charm_creeper"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 2.0d
-		}
-		{
 			id: "0C3365C49653EB12"
 			subtitle: "我的剑上可是有剧毒的！"
 			tasks: [{
@@ -522,23 +494,6 @@
 			y: 2.0d
 		}
 		{
-			id: "3BEBE78B9C31AF62"
-			subtitle: "感觉不如以太飞仙"
-			tasks: [{
-				id: "4F31314DFA47EB14"
-				item: {
-					Count: 1b
-					id: "cyclic:antigravity"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 2.0d
-		}
-		{
 			id: "660423B6E2F2D7DB"
 			subtitle: "耐活王"
 			tasks: [{
@@ -552,8 +507,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			id: "5276E634F33E08D2"
@@ -566,72 +521,6 @@
 			y: 3.0d
 		}
 		{
-			id: "2F1F3B62F0488459"
-			subtitle: "无限水"
-			tasks: [{
-				id: "03E6CF926FE0B96F"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:evertide_amulet"
-				}
-				type: "item"
-			}]
-			x: 8.5d
-			y: 3.0d
-		}
-		{
-			id: "0559F40BF4CDB675"
-			subtitle: "无限熔岩"
-			tasks: [{
-				id: "4893FC9BFED1733C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:volcanite_amulet"
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 3.0d
-		}
-		{
-			id: "0B37CE9E33123451"
-			tasks: [{
-				id: "362664250D97165A"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:body_stone"
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 3.0d
-		}
-		{
-			id: "05F87F0BA0D0313E"
-			tasks: [{
-				id: "3F7AD481893865A9"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:soul_stone"
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 4.0d
-		}
-		{
 			id: "564C5F079E6F47C8"
 			tasks: [{
 				id: "77D81EA5BF82250C"
@@ -639,7 +528,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "478EEFAEE965E760"
@@ -649,7 +538,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "53E51A6A0C6350F2"
@@ -679,7 +568,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "7DEEECA0F369015C"
@@ -688,8 +577,8 @@
 				item: "ars_nouveau:amulet_of_mana_boost"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			id: "5C481A7972AB5552"
@@ -698,42 +587,8 @@
 				item: "botania:blood_pendant"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"05F87F0BA0D0313E"
-				"0B37CE9E33123451"
-			]
-			id: "4B29F0B9FB2081B3"
-			tasks: [{
-				id: "5324E00807556195"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:life_stone"
-				}
-				type: "item"
-			}]
-			x: 11.5d
-			y: 3.5d
-		}
-		{
-			id: "012C6DDFE5CA774A"
-			tasks: [{
-				id: "193422491A852A12"
-				item: {
-					Count: 1b
-					id: "thermal:satchel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 17.5d
-			y: 2.5d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			id: "54AA892722F28308"
@@ -872,28 +727,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 4.5d
-		}
-		{
-			id: "7D25FC550031777A"
-			tasks: [{
-				id: "539FB440D99957CA"
-				item: "meetyourfight:caged_heart"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 2.0d
-		}
-		{
-			id: "37B9EC78E559CB21"
-			tasks: [{
-				id: "305D490F4FCEA44D"
-				item: "meetyourfight:ace_of_iron"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 2.0d
+			x: 17.5d
+			y: 2.5d
 		}
 		{
 			id: "19AAB58011646B87"
@@ -903,8 +738,8 @@
 				item: "botania:third_eye"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.0d
+			x: 10.5d
+			y: 0.5d
 		}
 		{
 			id: "40ED24B921EFC325"
@@ -945,24 +780,6 @@
 			}]
 			x: 13.0d
 			y: 3.0d
-		}
-		{
-			id: "3961DD25C8956835"
-			subtitle: "emc储存"
-			tasks: [{
-				id: "6904373D0EA38644"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "^projecte:klein_star_.*"
-					}
-				}
-				type: "item"
-			}]
-			title: "卡莱恩能量之星"
-			x: 15.5d
-			y: 0.5d
 		}
 		{
 			id: "69407340EBF0F62A"
@@ -1700,114 +1517,6 @@
 			y: 13.5d
 		}
 		{
-			id: "75C797A47941C16C"
-			tasks: [{
-				id: "30BAC320DB303B03"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:black_hole_band"
-				}
-				type: "item"
-			}]
-			x: 18.0d
-			y: 7.5d
-		}
-		{
-			id: "2B47E4549FD5502E"
-			tasks: [{
-				id: "31A331A1A13F13D6"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:harvest_goddess_band"
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: 7.5d
-		}
-		{
-			id: "41E254CD5A890BCB"
-			subtitle: "日  炎  圣  盾"
-			tasks: [{
-				id: "6662AAE5D1857BE8"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:ignition_ring"
-				}
-				type: "item"
-			}]
-			x: 20.0d
-			y: 7.5d
-		}
-		{
-			id: "4906578986667F9A"
-			tasks: [{
-				id: "388F8E2B0E2F2DFB"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:zero_ring"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 18.0d
-			y: 8.5d
-		}
-		{
-			id: "021E64307296D7E4"
-			subtitle: "雷公助我！"
-			tasks: [{
-				id: "653EE24C8CF90ACE"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:swiftwolf_rending_gale"
-					tag: {
-						Mode: 1
-						StoredEMC: 49L
-						UnprocessedEMC: 0.6799939274787903d
-					}
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: 8.5d
-		}
-		{
-			id: "26173B7AFE5AFD36"
-			subtitle: "没有效果，只是装饰品……"
-			tasks: [{
-				id: "6F752D08476168A5"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:arcana_ring"
-					tag: {
-						Mode: 0b
-					}
-				}
-				type: "item"
-			}]
-			x: 20.0d
-			y: 8.5d
-		}
-		{
 			id: "2662A5909D95F06A"
 			tasks: [{
 				id: "3459E99EC26FE57E"
@@ -2231,16 +1940,6 @@
 			y: 17.5d
 		}
 		{
-			id: "2175B53CF1965B65"
-			tasks: [{
-				id: "1C52746F12F47931"
-				item: "meetyourfight:slicers_dice"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 18.5d
-		}
-		{
 			id: "1E1436F4002950FD"
 			tasks: [{
 				id: "05E5BE35E45B6324"
@@ -2382,8 +2081,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 16.5d
+			x: 10.5d
+			y: 18.5d
 		}
 		{
 			id: "7ACA155220430D8D"
@@ -2422,17 +2121,6 @@
 			}]
 			x: 1.5d
 			y: 4.0d
-		}
-		{
-			id: "51C3A696388B552B"
-			shape: "pentagon"
-			tasks: [{
-				id: "7B4185DCB8F31CD8"
-				item: "enigmaticlegacy:cursed_scroll"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.0d
 		}
 		{
 			id: "12D2DBA1FE05ACDE"
@@ -2699,7 +2387,6 @@
 		}
 		{
 			dependencies: [
-				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
 				"46F2F058F892D631"
@@ -2725,20 +2412,15 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
 				"1FC5CDA6A6DBAAFC"
 				"2AD780EB3FDEC7A4"
 				"1753F4BF509F5335"
-				"75C797A47941C16C"
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
 				"1951C16AC8D1D08C"
-				"2F1F3B62F0488459"
-				"41E254CD5A890BCB"
-				"012C6DDFE5CA774A"
 				"7F628B1909FFD5F7"
 				"54AA892722F28308"
 				"5FA4251F021B48DB"
@@ -2766,7 +2448,6 @@
 				"5F5CA318473FB7CD"
 				"0C3365C49653EB12"
 				"380213AB2B9A3485"
-				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
 				"5A61FFADC9A360D2"
@@ -2785,33 +2466,26 @@
 				"4E835DEE29931A1F"
 				"702862A610BF7CD3"
 				"4939BAA1E2820FF9"
-				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
 				"7A20E0F9E434360A"
-				"2B47E4549FD5502E"
 				"275E5D9A011C0B31"
-				"0B37CE9E33123451"
 				"564C5F079E6F47C8"
 				"4E23B3C714EB5FE3"
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"51C3A696388B552B"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
-				"4B29F0B9FB2081B3"
 				"1F8708D04D170D45"
 				"66476E79804DF97A"
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
-				"1BA25A32A76F75F2"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
-				"05F87F0BA0D0313E"
 				"7F34C562316BCA20"
 				"53E51A6A0C6350F2"
 				"6DB13B0EE8E87948"
@@ -2823,7 +2497,6 @@
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
 				"70CB4F70DB5661DC"
-				"3BEBE78B9C31AF62"
 				"03260A6F539AE1EF"
 				"16D3AE165A334BC8"
 				"79A56BA97BBE888D"
@@ -2835,15 +2508,12 @@
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
 				"0072382AAB4D5849"
-				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
 				"128D29D06709ED32"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
-				"19EA2BA2E5758A53"
-				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
 				"589E19E643290329"
@@ -2877,7 +2547,6 @@
 				"395C430F2086AB67"
 				"2593F1BAA461BBFA"
 				"6292CF3279408D55"
-				"37B9EC78E559CB21"
 				"76A966043B087C1F"
 				"4784F0000DC2E1F9"
 				"492D1E19551C31E9"
@@ -2892,7 +2561,6 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
@@ -2940,7 +2608,6 @@
 		}
 		{
 			dependencies: [
-				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
 				"46F2F058F892D631"
@@ -2966,20 +2633,15 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
 				"1FC5CDA6A6DBAAFC"
 				"2AD780EB3FDEC7A4"
 				"1753F4BF509F5335"
-				"75C797A47941C16C"
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
 				"1951C16AC8D1D08C"
-				"2F1F3B62F0488459"
-				"41E254CD5A890BCB"
-				"012C6DDFE5CA774A"
 				"7F628B1909FFD5F7"
 				"54AA892722F28308"
 				"5FA4251F021B48DB"
@@ -3007,7 +2669,6 @@
 				"5F5CA318473FB7CD"
 				"0C3365C49653EB12"
 				"380213AB2B9A3485"
-				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
 				"5A61FFADC9A360D2"
@@ -3026,33 +2687,26 @@
 				"4E835DEE29931A1F"
 				"702862A610BF7CD3"
 				"4939BAA1E2820FF9"
-				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
 				"7A20E0F9E434360A"
-				"2B47E4549FD5502E"
 				"275E5D9A011C0B31"
-				"0B37CE9E33123451"
 				"564C5F079E6F47C8"
 				"4E23B3C714EB5FE3"
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"51C3A696388B552B"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
-				"4B29F0B9FB2081B3"
 				"1F8708D04D170D45"
 				"66476E79804DF97A"
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
-				"1BA25A32A76F75F2"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
-				"05F87F0BA0D0313E"
 				"7F34C562316BCA20"
 				"53E51A6A0C6350F2"
 				"6DB13B0EE8E87948"
@@ -3064,7 +2718,6 @@
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
 				"70CB4F70DB5661DC"
-				"3BEBE78B9C31AF62"
 				"03260A6F539AE1EF"
 				"16D3AE165A334BC8"
 				"79A56BA97BBE888D"
@@ -3076,15 +2729,12 @@
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
 				"0072382AAB4D5849"
-				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
 				"128D29D06709ED32"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
-				"19EA2BA2E5758A53"
-				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
 				"589E19E643290329"
@@ -3118,7 +2768,6 @@
 				"395C430F2086AB67"
 				"2593F1BAA461BBFA"
 				"6292CF3279408D55"
-				"37B9EC78E559CB21"
 				"76A966043B087C1F"
 				"4784F0000DC2E1F9"
 				"492D1E19551C31E9"
@@ -3133,7 +2782,6 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
@@ -3191,7 +2839,6 @@
 		}
 		{
 			dependencies: [
-				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
 				"46F2F058F892D631"
@@ -3217,20 +2864,15 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
 				"1FC5CDA6A6DBAAFC"
 				"2AD780EB3FDEC7A4"
 				"1753F4BF509F5335"
-				"75C797A47941C16C"
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
 				"1951C16AC8D1D08C"
-				"2F1F3B62F0488459"
-				"41E254CD5A890BCB"
-				"012C6DDFE5CA774A"
 				"7F628B1909FFD5F7"
 				"54AA892722F28308"
 				"5FA4251F021B48DB"
@@ -3258,7 +2900,6 @@
 				"5F5CA318473FB7CD"
 				"0C3365C49653EB12"
 				"380213AB2B9A3485"
-				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
 				"5A61FFADC9A360D2"
@@ -3277,33 +2918,26 @@
 				"4E835DEE29931A1F"
 				"702862A610BF7CD3"
 				"4939BAA1E2820FF9"
-				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
 				"7A20E0F9E434360A"
-				"2B47E4549FD5502E"
 				"275E5D9A011C0B31"
-				"0B37CE9E33123451"
 				"564C5F079E6F47C8"
 				"4E23B3C714EB5FE3"
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"51C3A696388B552B"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
-				"4B29F0B9FB2081B3"
 				"1F8708D04D170D45"
 				"66476E79804DF97A"
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
-				"1BA25A32A76F75F2"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
-				"05F87F0BA0D0313E"
 				"7F34C562316BCA20"
 				"53E51A6A0C6350F2"
 				"6DB13B0EE8E87948"
@@ -3315,7 +2949,6 @@
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
 				"70CB4F70DB5661DC"
-				"3BEBE78B9C31AF62"
 				"03260A6F539AE1EF"
 				"16D3AE165A334BC8"
 				"79A56BA97BBE888D"
@@ -3327,15 +2960,12 @@
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
 				"0072382AAB4D5849"
-				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
 				"128D29D06709ED32"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
-				"19EA2BA2E5758A53"
-				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
 				"589E19E643290329"
@@ -3369,7 +2999,6 @@
 				"395C430F2086AB67"
 				"2593F1BAA461BBFA"
 				"6292CF3279408D55"
-				"37B9EC78E559CB21"
 				"76A966043B087C1F"
 				"4784F0000DC2E1F9"
 				"492D1E19551C31E9"
@@ -3384,7 +3013,6 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
@@ -3438,7 +3066,6 @@
 		}
 		{
 			dependencies: [
-				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
 				"46F2F058F892D631"
@@ -3464,20 +3091,15 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
 				"1FC5CDA6A6DBAAFC"
 				"2AD780EB3FDEC7A4"
 				"1753F4BF509F5335"
-				"75C797A47941C16C"
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
 				"1951C16AC8D1D08C"
-				"2F1F3B62F0488459"
-				"41E254CD5A890BCB"
-				"012C6DDFE5CA774A"
 				"7F628B1909FFD5F7"
 				"54AA892722F28308"
 				"5FA4251F021B48DB"
@@ -3505,7 +3127,6 @@
 				"5F5CA318473FB7CD"
 				"0C3365C49653EB12"
 				"380213AB2B9A3485"
-				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
 				"5A61FFADC9A360D2"
@@ -3524,33 +3145,26 @@
 				"4E835DEE29931A1F"
 				"702862A610BF7CD3"
 				"4939BAA1E2820FF9"
-				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
 				"7A20E0F9E434360A"
-				"2B47E4549FD5502E"
 				"275E5D9A011C0B31"
-				"0B37CE9E33123451"
 				"564C5F079E6F47C8"
 				"4E23B3C714EB5FE3"
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"51C3A696388B552B"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
-				"4B29F0B9FB2081B3"
 				"1F8708D04D170D45"
 				"66476E79804DF97A"
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
-				"1BA25A32A76F75F2"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
-				"05F87F0BA0D0313E"
 				"7F34C562316BCA20"
 				"53E51A6A0C6350F2"
 				"6DB13B0EE8E87948"
@@ -3562,7 +3176,6 @@
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
 				"70CB4F70DB5661DC"
-				"3BEBE78B9C31AF62"
 				"03260A6F539AE1EF"
 				"16D3AE165A334BC8"
 				"79A56BA97BBE888D"
@@ -3574,15 +3187,12 @@
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
 				"0072382AAB4D5849"
-				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
 				"128D29D06709ED32"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
-				"19EA2BA2E5758A53"
-				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
 				"589E19E643290329"
@@ -3616,7 +3226,6 @@
 				"395C430F2086AB67"
 				"2593F1BAA461BBFA"
 				"6292CF3279408D55"
-				"37B9EC78E559CB21"
 				"76A966043B087C1F"
 				"4784F0000DC2E1F9"
 				"492D1E19551C31E9"
@@ -3631,7 +3240,6 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"
@@ -3679,7 +3287,6 @@
 		}
 		{
 			dependencies: [
-				"26173B7AFE5AFD36"
 				"6E8AB3C31C5B8116"
 				"1B33E8D1593D74DA"
 				"46F2F058F892D631"
@@ -3705,20 +3312,15 @@
 				"1E1436F4002950FD"
 				"566FF558DD7A2E78"
 				"3CDBF460ADFB0176"
-				"7D25FC550031777A"
 				"56AF40FA3ED7A6B9"
 				"1D6CB03D4E3B772B"
 				"1FC5CDA6A6DBAAFC"
 				"2AD780EB3FDEC7A4"
 				"1753F4BF509F5335"
-				"75C797A47941C16C"
 				"18668FB121BFD027"
 				"7ACA155220430D8D"
 				"1CDBCF939A77E95D"
 				"1951C16AC8D1D08C"
-				"2F1F3B62F0488459"
-				"41E254CD5A890BCB"
-				"012C6DDFE5CA774A"
 				"7F628B1909FFD5F7"
 				"54AA892722F28308"
 				"5FA4251F021B48DB"
@@ -3746,7 +3348,6 @@
 				"5F5CA318473FB7CD"
 				"0C3365C49653EB12"
 				"380213AB2B9A3485"
-				"2175B53CF1965B65"
 				"3C5756EF5D838181"
 				"3BF48BA7C693747B"
 				"5A61FFADC9A360D2"
@@ -3765,33 +3366,26 @@
 				"4E835DEE29931A1F"
 				"702862A610BF7CD3"
 				"4939BAA1E2820FF9"
-				"3961DD25C8956835"
 				"1AD2018601DEEC6D"
 				"7A20E0F9E434360A"
-				"2B47E4549FD5502E"
 				"275E5D9A011C0B31"
-				"0B37CE9E33123451"
 				"564C5F079E6F47C8"
 				"4E23B3C714EB5FE3"
 				"42B889973D553696"
 				"7355BB4AF71563E7"
 				"7806A20C4D564FAD"
-				"51C3A696388B552B"
 				"10E71A65169880E2"
 				"2B122A3F83134CC6"
 				"04D18B99727427C5"
 				"5099381FC6489DCE"
 				"5C659D4A4052187F"
-				"4B29F0B9FB2081B3"
 				"1F8708D04D170D45"
 				"66476E79804DF97A"
 				"34EE1E3F6F481693"
 				"13EC0A4A77CB8D66"
-				"1BA25A32A76F75F2"
 				"4F89477D35BDF45F"
 				"4CA2F9E720145847"
 				"7CB25EE6B6114D5F"
-				"05F87F0BA0D0313E"
 				"7F34C562316BCA20"
 				"53E51A6A0C6350F2"
 				"6DB13B0EE8E87948"
@@ -3803,7 +3397,6 @@
 				"4F5C497DD541E24B"
 				"7B46C8C07D26738C"
 				"70CB4F70DB5661DC"
-				"3BEBE78B9C31AF62"
 				"03260A6F539AE1EF"
 				"16D3AE165A334BC8"
 				"79A56BA97BBE888D"
@@ -3815,15 +3408,12 @@
 				"7BC246435275ECA6"
 				"1B05794566B023A2"
 				"0072382AAB4D5849"
-				"021E64307296D7E4"
 				"42A97D3D67622DAB"
 				"191E4ACB024E52F9"
 				"6DF921F5D43D8155"
 				"128D29D06709ED32"
 				"2C33DE83ACA31378"
 				"3B4E99655E5C471A"
-				"19EA2BA2E5758A53"
-				"4906578986667F9A"
 				"42F249693C0E1AE0"
 				"63ABD2F36E9AA4B4"
 				"589E19E643290329"
@@ -3857,7 +3447,6 @@
 				"395C430F2086AB67"
 				"2593F1BAA461BBFA"
 				"6292CF3279408D55"
-				"37B9EC78E559CB21"
 				"76A966043B087C1F"
 				"4784F0000DC2E1F9"
 				"492D1E19551C31E9"
@@ -3872,7 +3461,6 @@
 				"687DBE5C2594DC61"
 				"2380A35F57D9C8D3"
 				"69407340EBF0F62A"
-				"0559F40BF4CDB675"
 				"22C4B6F6FD7076A8"
 				"0037E265FD0FDEB6"
 				"101528F3A8225D28"

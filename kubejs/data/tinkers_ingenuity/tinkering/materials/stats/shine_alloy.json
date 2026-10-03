@@ -52,7 +52,7 @@
     "tinkers_ingenuity:curio_extra": {},
     "tinkers_ingenuity:curio_main": {
       "movement_speed": 0.35,
-      "armor": 1.5,
+      "armor": 0.75,
       "toughness": 0.4,
       "attack": 0.75,
       "arrow_damage": 0.25

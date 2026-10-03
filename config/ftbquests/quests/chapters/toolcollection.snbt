@@ -28,6 +28,14 @@
 					name: "etshtinker:trinitycurse"
 				}
 				{
+					level: 3
+					name: "etshtinker:solidex"
+				}
+				{
+					level: 9
+					name: "cti:the_relic"
+				}
+				{
 					level: 1
 					name: "tinkers_reforged:greatsword_mod"
 				}
@@ -41,16 +49,17 @@
 			tic_stats: {
 				"etshtinker:fluid_efficiency": 8.84918f
 				"etshtinker:plasmarange": 8.84918f
-				"tconstruct:attack_damage": 2530.4038f
+				"tconstruct:attack_damage": 33696.996f
 				"tconstruct:attack_speed": 263.44363f
-				"tconstruct:block_amount": 44.245903f
+				"tconstruct:block_amount": 23.287315f
 				"tconstruct:block_angle": 180.0f
-				"tconstruct:durability": 53856.63f
+				"tconstruct:durability": 921314.6f
 				"tconstruct:harvest_tier": "minecraft:netherite"
-				"tconstruct:mining_speed": 8862.365f
+				"tconstruct:mining_speed": 131072.0f
 			}
 			tic_volatile_data: {
 				abilities: 11
+				defense: 9
 				upgrades: 11
 			}
 		}
@@ -227,7 +236,7 @@
 			y: 19.0d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -314,19 +323,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "solidarytinker:seabless"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -336,13 +349,13 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 752.5f
-						"tconstruct:attack_speed": 2.5440004f
+						"tconstruct:attack_damage": 927.5f
+						"tconstruct:attack_speed": 2.832f
 						"tconstruct:durability": 84705.28f
 					}
 					tic_volatile_data: {
-						abilities: 2
-						upgrades: 2
+						abilities: 3
+						upgrades: 4
 					}
 				}
 			}
@@ -374,19 +387,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "solidarytinker:seabless"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -396,13 +413,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 752.5f
-							"tconstruct:attack_speed": 2.5440004f
+							"tconstruct:attack_damage": 927.5f
+							"tconstruct:attack_speed": 2.832f
 							"tconstruct:durability": 84705.28f
 						}
 						tic_volatile_data: {
-							abilities: 2
-							upgrades: 2
+							abilities: 3
+							upgrades: 4
 						}
 					}
 				}
@@ -440,19 +457,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tconstruct:silky_shears"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -461,8 +482,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 382.5f
-						"tconstruct:attack_speed": 3.36f
+						"tconstruct:attack_damage": 472.5f
+						"tconstruct:attack_speed": 3.68f
 						"tconstruct:durability": 68485.12f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 5.5f
@@ -501,19 +522,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tconstruct:silky_shears"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -522,8 +547,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 382.5f
-							"tconstruct:attack_speed": 3.36f
+							"tconstruct:attack_damage": 472.5f
+							"tconstruct:attack_speed": 3.68f
 							"tconstruct:durability": 68485.12f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 5.5f
@@ -570,19 +595,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tinkers_reforged:longsword_mod"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -591,8 +620,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 680.0f
-						"tconstruct:attack_speed": 5.1200004f
+						"tconstruct:attack_damage": 840.0f
+						"tconstruct:attack_speed": 5.7599998f
 						"tconstruct:durability": 100925.44f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 6.0f
@@ -631,19 +660,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tinkers_reforged:longsword_mod"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -652,8 +685,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 680.0f
-							"tconstruct:attack_speed": 5.1200004f
+							"tconstruct:attack_damage": 840.0f
+							"tconstruct:attack_speed": 5.7599998f
 							"tconstruct:durability": 100925.44f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 6.0f
@@ -694,19 +727,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tinkers_reforged:greatsword_mod"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -716,8 +753,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 688.0f
-						"tconstruct:attack_speed": 1.4080001f
+						"tconstruct:attack_damage": 848.0f
+						"tconstruct:attack_speed": 1.584f
 						"tconstruct:durability": 100925.44f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 6.0f
@@ -756,19 +793,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tinkers_reforged:greatsword_mod"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -778,8 +819,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 688.0f
-							"tconstruct:attack_speed": 1.4080001f
+							"tconstruct:attack_damage": 848.0f
+							"tconstruct:attack_speed": 1.584f
 							"tconstruct:durability": 100925.44f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 6.0f
@@ -823,11 +864,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -841,10 +890,6 @@
 							level: 1
 							name: "tconstruct:silky_shears"
 						}
-						{
-							level: 2
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.65f
@@ -853,8 +898,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 248.62498f
-						"tconstruct:attack_speed": 4.2f
+						"tconstruct:attack_damage": 307.125f
+						"tconstruct:attack_speed": 4.6f
 						"tconstruct:block_amount": 10.0f
 						"tconstruct:durability": 46694.4f
 						"tconstruct:harvest_tier": "minecraft:netherite"
@@ -895,11 +940,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -913,10 +966,6 @@
 								level: 1
 								name: "tconstruct:silky_shears"
 							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.65f
@@ -925,8 +974,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 248.62498f
-							"tconstruct:attack_speed": 4.2f
+							"tconstruct:attack_damage": 307.125f
+							"tconstruct:attack_speed": 4.6f
 							"tconstruct:block_amount": 10.0f
 							"tconstruct:durability": 46694.4f
 							"tconstruct:harvest_tier": "minecraft:netherite"
@@ -974,11 +1023,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -996,10 +1053,6 @@
 							level: 1
 							name: "tconstruct:axe_wax_off"
 						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:durability": 1.25f
@@ -1007,8 +1060,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 389.25f
-						"tconstruct:attack_speed": 2.31f
+						"tconstruct:attack_damage": 479.25f
+						"tconstruct:attack_speed": 2.53f
 						"tconstruct:durability": 77824.0f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 8.8f
@@ -1047,11 +1100,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -1069,10 +1130,6 @@
 								level: 1
 								name: "tconstruct:axe_wax_off"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 1.25f
@@ -1080,8 +1137,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 389.25f
-							"tconstruct:attack_speed": 2.31f
+							"tconstruct:attack_damage": 479.25f
+							"tconstruct:attack_speed": 2.53f
 							"tconstruct:durability": 77824.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 8.8f
@@ -1126,25 +1183,29 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tconstruct:pierce"
 						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 373.5f
-						"tconstruct:attack_speed": 2.52f
+						"tconstruct:attack_damage": 463.5f
+						"tconstruct:attack_speed": 2.76f
 						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 11.0f
@@ -1183,25 +1244,29 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tconstruct:pierce"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 373.5f
-							"tconstruct:attack_speed": 2.52f
+							"tconstruct:attack_damage": 463.5f
+							"tconstruct:attack_speed": 2.76f
 							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 11.0f
@@ -1248,25 +1313,29 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tconstruct:stripping"
 						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 396.0f
-						"tconstruct:attack_speed": 1.8899999f
+						"tconstruct:attack_damage": 486.0f
+						"tconstruct:attack_speed": 2.07f
 						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 11.0f
@@ -1305,25 +1374,29 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tconstruct:stripping"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 396.0f
-							"tconstruct:attack_speed": 1.8899999f
+							"tconstruct:attack_damage": 486.0f
+							"tconstruct:attack_speed": 2.07f
 							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 11.0f
@@ -1370,11 +1443,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -1388,18 +1469,14 @@
 							level: 1
 							name: "tconstruct:harvest"
 						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.5f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 186.75f
-						"tconstruct:attack_speed": 3.36f
+						"tconstruct:attack_damage": 231.75f
+						"tconstruct:attack_speed": 3.68f
 						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 11.0f
@@ -1438,11 +1515,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -1456,18 +1541,14 @@
 								level: 1
 								name: "tconstruct:harvest"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.5f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 186.75f
-							"tconstruct:attack_speed": 3.36f
+							"tconstruct:attack_damage": 231.75f
+							"tconstruct:attack_speed": 3.68f
 							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 11.0f
@@ -1512,19 +1593,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tconstruct:pathing"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -1534,8 +1619,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 426.9375f
-						"tconstruct:attack_speed": 2.7299998f
+						"tconstruct:attack_damage": 530.4375f
+						"tconstruct:attack_speed": 2.9899998f
 						"tconstruct:durability": 80936.95f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 8.25f
@@ -1573,19 +1658,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tconstruct:pathing"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -1595,8 +1684,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 426.9375f
-							"tconstruct:attack_speed": 2.7299998f
+							"tconstruct:attack_damage": 530.4375f
+							"tconstruct:attack_speed": 2.9899998f
 							"tconstruct:durability": 80936.95f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 8.25f
@@ -1640,11 +1729,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -1654,15 +1751,11 @@
 							level: 1
 							name: "tconstruct:pathing"
 						}
-						{
-							level: 2
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 375.75f
-						"tconstruct:attack_speed": 2.1f
+						"tconstruct:attack_damage": 465.75f
+						"tconstruct:attack_speed": 2.3f
 						"tconstruct:durability": 62259.2f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 11.0f
@@ -1700,11 +1793,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -1714,15 +1815,11 @@
 								level: 1
 								name: "tconstruct:pathing"
 							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 375.75f
-							"tconstruct:attack_speed": 2.1f
+							"tconstruct:attack_damage": 465.75f
+							"tconstruct:attack_speed": 2.3f
 							"tconstruct:durability": 62259.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 11.0f
@@ -1769,11 +1866,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -1783,10 +1888,6 @@
 							level: 1
 							name: "tconstruct:silky_shears"
 						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.8f
@@ -1795,8 +1896,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 307.80002f
-						"tconstruct:attack_speed": 3.7799997f
+						"tconstruct:attack_damage": 379.80002f
+						"tconstruct:attack_speed": 4.14f
 						"tconstruct:durability": 49807.36f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 13.200001f
@@ -1835,11 +1936,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -1849,10 +1958,6 @@
 								level: 1
 								name: "tconstruct:silky_shears"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.8f
@@ -1861,8 +1966,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 307.80002f
-							"tconstruct:attack_speed": 3.7799997f
+							"tconstruct:attack_damage": 379.80002f
+							"tconstruct:attack_speed": 4.14f
 							"tconstruct:durability": 49807.36f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 13.200001f
@@ -1909,19 +2014,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tconstruct:tilling"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -1931,8 +2040,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 413.325f
-						"tconstruct:attack_speed": 1.8899999f
+						"tconstruct:attack_damage": 512.325f
+						"tconstruct:attack_speed": 2.07f
 						"tconstruct:durability": 77824.0f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 12.1f
@@ -1971,19 +2080,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tconstruct:tilling"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -1993,8 +2106,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 413.325f
-							"tconstruct:attack_speed": 1.8899999f
+							"tconstruct:attack_damage": 512.325f
+							"tconstruct:attack_speed": 2.07f
 							"tconstruct:durability": 77824.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 12.1f
@@ -2028,43 +2141,9 @@
 						"solidarytinker:hoshino"
 						"tconstruct:string"
 					]
-					tic_modifiers: [
-						{
-							level: 2
-							name: "solidarytinker:neverend"
-						}
-						{
-							level: 2
-							name: "solidarytinker:sandstrom"
-						}
-						{
-							level: 2
-							name: "cti:shadow_of_vigrid"
-						}
-						{
-							level: 1
-							name: "tconstruct:stringy"
-						}
-						{
-							level: 2
-							name: "solidarytinker:reliable"
-						}
-					]
-					tic_multipliers: {
-						"tconstruct:velocity": 0.8f
-					}
+					tic_modifiers: [ ]
 					tic_persistent: { }
-					tic_stats: {
-						"tconstruct:accuracy": 1.0f
-						"tconstruct:draw_speed": 2.6f
-						"tconstruct:durability": 17248.0f
-						"tconstruct:use_item_speed": 0.8f
-						"tconstruct:velocity": 16.800001f
-					}
-					tic_volatile_data: {
-						abilities: 1
-						upgrades: 3
-					}
+					tic_stats: { }
 				}
 			}
 			id: "24BABA5BD98410DE"
@@ -2088,43 +2167,9 @@
 							"solidarytinker:hoshino"
 							"tconstruct:string"
 						]
-						tic_modifiers: [
-							{
-								level: 2
-								name: "solidarytinker:neverend"
-							}
-							{
-								level: 2
-								name: "solidarytinker:sandstrom"
-							}
-							{
-								level: 2
-								name: "cti:shadow_of_vigrid"
-							}
-							{
-								level: 1
-								name: "tconstruct:stringy"
-							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:velocity": 0.8f
-						}
+						tic_modifiers: [ ]
 						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:accuracy": 1.0f
-							"tconstruct:draw_speed": 2.6f
-							"tconstruct:durability": 17248.0f
-							"tconstruct:use_item_speed": 0.8f
-							"tconstruct:velocity": 16.800001f
-						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 3
-						}
+						tic_stats: { }
 					}
 				}
 				match_nbt: false
@@ -2164,11 +2209,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -2178,10 +2231,6 @@
 							level: 1
 							name: "tinkers_thinking:repulsive"
 						}
-						{
-							level: 2
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:durability": 0.8f
@@ -2189,8 +2238,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 396.0f
-						"tconstruct:attack_speed": 1.05f
+						"tconstruct:attack_damage": 486.0f
+						"tconstruct:attack_speed": 1.15f
 						"tconstruct:durability": 49807.36f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 15.4f
@@ -2228,11 +2277,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -2242,10 +2299,6 @@
 								level: 1
 								name: "tinkers_thinking:repulsive"
 							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 0.8f
@@ -2253,8 +2306,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 396.0f
-							"tconstruct:attack_speed": 1.05f
+							"tconstruct:attack_damage": 486.0f
+							"tconstruct:attack_speed": 1.15f
 							"tconstruct:durability": 49807.36f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 15.4f
@@ -2296,15 +2349,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 6
 							name: "cti:shadow_of_vigrid"
 						}
 						{
 							level: 2
-							name: "solidarytinker:reliable"
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -2318,8 +2375,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 276.75f
-						"tconstruct:attack_speed": 2.1f
+						"tconstruct:attack_damage": 344.25f
+						"tconstruct:attack_speed": 2.3f
 						"tconstruct:durability": 77824.0f
 						"tconstruct:harvest_tier": "minecraft:netherite"
 						"tconstruct:mining_speed": 5.5f
@@ -2358,15 +2415,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -2380,8 +2441,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 276.75f
-							"tconstruct:attack_speed": 2.1f
+							"tconstruct:attack_damage": 344.25f
+							"tconstruct:attack_speed": 2.3f
 							"tconstruct:durability": 77824.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
 							"tconstruct:mining_speed": 5.5f
@@ -2419,19 +2480,23 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tconstruct:stringy"
-						}
-						{
-							level: 2
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -2440,10 +2505,10 @@
 					tic_persistent: { }
 					tic_stats: {
 						"tconstruct:accuracy": 1.0f
-						"tconstruct:attack_damage": 26.0f
+						"tconstruct:attack_damage": 151.0f
 						"tconstruct:draw_speed": 1.8f
 						"tconstruct:durability": 38988.0f
-						"tconstruct:velocity": 11.0f
+						"tconstruct:velocity": 6.0f
 					}
 					tic_volatile_data: {
 						abilities: 1
@@ -2479,19 +2544,23 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tconstruct:stringy"
-							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -2500,10 +2569,10 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 26.0f
+							"tconstruct:attack_damage": 151.0f
 							"tconstruct:draw_speed": 1.8f
 							"tconstruct:durability": 38988.0f
-							"tconstruct:velocity": 11.0f
+							"tconstruct:velocity": 6.0f
 						}
 						tic_volatile_data: {
 							abilities: 1
@@ -2543,19 +2612,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 4
 							name: "tconstruct:reach"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -2563,8 +2636,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 459.5625f
-						"tconstruct:attack_speed": 3.0874999f
+						"tconstruct:attack_damage": 567.0625f
+						"tconstruct:attack_speed": 3.4125f
 						"tconstruct:durability": 104448.0f
 					}
 					tic_volatile_data: {
@@ -2601,19 +2674,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 4
 								name: "tconstruct:reach"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -2621,8 +2698,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 459.5625f
-							"tconstruct:attack_speed": 3.0874999f
+							"tconstruct:attack_damage": 567.0625f
+							"tconstruct:attack_speed": 3.4125f
 							"tconstruct:durability": 104448.0f
 						}
 						tic_volatile_data: {
@@ -2657,19 +2734,23 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
 							name: "tinkers_ingenuity:puncture"
-						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
 						}
 					]
 					tic_multipliers: {
@@ -2678,8 +2759,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 427.05f
-						"tconstruct:attack_speed": 4.4099994f
+						"tconstruct:attack_damage": 529.425f
+						"tconstruct:attack_speed": 4.8299994f
 						"tconstruct:durability": 136192.0f
 					}
 					tic_volatile_data: {
@@ -2716,19 +2797,23 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
 								name: "tinkers_ingenuity:puncture"
-							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
 							}
 						]
 						tic_multipliers: {
@@ -2737,8 +2822,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 427.05f
-							"tconstruct:attack_speed": 4.4099994f
+							"tconstruct:attack_damage": 529.425f
+							"tconstruct:attack_speed": 4.8299994f
 							"tconstruct:durability": 136192.0f
 						}
 						tic_volatile_data: {
@@ -2771,11 +2856,19 @@
 						}
 						{
 							level: 2
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 2
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -2785,18 +2878,14 @@
 							level: 1
 							name: "tconstruct:blocking"
 						}
-						{
-							level: 2
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:durability": 1.3f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 374.4f
-						"tconstruct:attack_speed": 2.1f
+						"tconstruct:attack_damage": 464.4f
+						"tconstruct:attack_speed": 2.3f
 						"tconstruct:block_amount": 100.0f
 						"tconstruct:block_angle": 150.0f
 						"tconstruct:durability": 80936.95f
@@ -2834,11 +2923,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -2848,18 +2945,14 @@
 								level: 1
 								name: "tconstruct:blocking"
 							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 1.3f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 374.4f
-							"tconstruct:attack_speed": 2.1f
+							"tconstruct:attack_damage": 464.4f
+							"tconstruct:attack_speed": 2.3f
 							"tconstruct:block_amount": 100.0f
 							"tconstruct:block_angle": 150.0f
 							"tconstruct:durability": 80936.95f
@@ -2903,11 +2996,19 @@
 						}
 						{
 							level: 3
-							name: "solidarytinker:sandstrom"
+							name: "solidarytinker:reliable"
 						}
 						{
 							level: 3
+							name: "solidarytinker:sandstrom"
+						}
+						{
+							level: 9
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 3
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -2917,10 +3018,6 @@
 							level: 1
 							name: "tinkers_ingenuity:back_attack"
 						}
-						{
-							level: 3
-							name: "solidarytinker:reliable"
-						}
 					]
 					tic_multipliers: {
 						"tconstruct:attack_damage": 0.8f
@@ -2929,8 +3026,8 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 306.0f
-						"tconstruct:attack_speed": 4.2262497f
+						"tconstruct:attack_damage": 378.0f
+						"tconstruct:attack_speed": 4.62875f
 						"tconstruct:durability": 74711.04f
 					}
 					tic_volatile_data: {
@@ -2967,11 +3064,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -2981,10 +3086,6 @@
 								level: 1
 								name: "tinkers_ingenuity:back_attack"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 0.8f
@@ -2993,8 +3094,8 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 306.0f
-							"tconstruct:attack_speed": 4.2262497f
+							"tconstruct:attack_damage": 378.0f
+							"tconstruct:attack_speed": 4.62875f
 							"tconstruct:durability": 74711.04f
 						}
 						tic_volatile_data: {
@@ -3040,8 +3141,12 @@
 							name: "solidarytinker:tacticsprotect"
 						}
 						{
-							level: 2
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 					]
 					tic_multipliers: {
@@ -3049,15 +3154,15 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:armor": 38.0f
-						"tconstruct:armor_toughness": 18.0f
+						"tconstruct:armor": 110.0f
+						"tconstruct:armor_toughness": 200.0f
 						"tconstruct:durability": 65368.0f
 						"tconstruct:knockback_resistance": 1.0f
 					}
 					tic_volatile_data: {
-						abilities: 1
-						defense: 2
-						upgrades: 2
+						abilities: 3
+						defense: 3
+						upgrades: 3
 					}
 				}
 			}
@@ -3096,21 +3201,25 @@
 									name: "solidarytinker:tacticsprotect"
 								}
 								{
-									level: 2
+									level: 6
 									name: "cti:shadow_of_vigrid"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
 								}
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 18.0f
-								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:armor": 90.0f
+								"tconstruct:armor_toughness": 200.0f
 								"tconstruct:durability": 47350.0f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 2
+								abilities: 3
+								defense: 3
+								upgrades: 3
 							}
 						}
 					}
@@ -3143,8 +3252,12 @@
 									name: "solidarytinker:tacticsprotect"
 								}
 								{
-									level: 2
+									level: 6
 									name: "cti:shadow_of_vigrid"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
 								}
 							]
 							tic_multipliers: {
@@ -3152,15 +3265,15 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 38.0f
-								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:armor": 110.0f
+								"tconstruct:armor_toughness": 200.0f
 								"tconstruct:durability": 65368.0f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 2
+								abilities: 3
+								defense: 3
+								upgrades: 3
 							}
 						}
 					}
@@ -3193,21 +3306,25 @@
 									name: "solidarytinker:tacticsprotect"
 								}
 								{
-									level: 2
+									level: 6
 									name: "cti:shadow_of_vigrid"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
 								}
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 34.0f
-								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:armor": 100.0f
+								"tconstruct:armor_toughness": 200.0f
 								"tconstruct:durability": 60508.0f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 2
+								abilities: 3
+								defense: 3
+								upgrades: 3
 							}
 						}
 					}
@@ -3240,21 +3357,25 @@
 									name: "solidarytinker:tacticsprotect"
 								}
 								{
-									level: 2
+									level: 6
 									name: "cti:shadow_of_vigrid"
+								}
+								{
+									level: 2
+									name: "etshtinker:solidex"
 								}
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 16.0f
-								"tconstruct:armor_toughness": 18.0f
+								"tconstruct:armor": 90.0f
+								"tconstruct:armor_toughness": 200.0f
 								"tconstruct:durability": 48114.0f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 2
+								abilities: 3
+								defense: 3
+								upgrades: 3
 							}
 						}
 					}
@@ -3321,8 +3442,12 @@
 							name: "solidarytinker:tacticsprotect"
 						}
 						{
-							level: 1
+							level: 3
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 1
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -3381,8 +3506,12 @@
 								name: "solidarytinker:tacticsprotect"
 							}
 							{
-								level: 1
+								level: 3
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 1
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -3435,8 +3564,12 @@
 							name: "solidarytinker:tacticsprotect"
 						}
 						{
-							level: 2
+							level: 6
 							name: "cti:shadow_of_vigrid"
+						}
+						{
+							level: 2
+							name: "etshtinker:solidex"
 						}
 						{
 							level: 1
@@ -3494,8 +3627,12 @@
 								name: "solidarytinker:tacticsprotect"
 							}
 							{
-								level: 2
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -3566,6 +3703,10 @@
 						tic_modifiers: [
 							{
 								level: 1
+								name: "cti:burnt_handler"
+							}
+							{
+								level: 1
 								name: "cti:stone_cold_replaced"
 							}
 							{
@@ -3630,29 +3771,32 @@
 							}
 						]
 						tic_multipliers: {
-							"tconstruct:attack_damage": 0.8f
-							"tconstruct:durability": 2.75f
+							"tconstruct:attack_damage": 0.9f
+							"tconstruct:attack_speed": 1.25f
+							"tconstruct:durability": 2.0f
 						}
 						tic_persistent: { }
 						tic_stats: {
+							"cti:burnt_base": 100.0f
+							"cti:burnt_mul": 0.8f
 							"cti:insatiable_base": 16.0f
 							"etshtinker:critical_rate": 0.5f
 							"etshtinker:damagemultiplier": 1.25f
 							"etshtinker:fluid_efficiency": 5.0f
 							"etshtinker:slash_color": 10.0f
-							"tconstruct:attack_damage": 8.989f
-							"tconstruct:attack_speed": 3.6537502f
-							"tconstruct:durability": 5977.125f
+							"tconstruct:attack_damage": 14.710501f
+							"tconstruct:attack_speed": 4.9375f
+							"tconstruct:durability": 9127.3f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 9.0f
+							"tconstruct:mining_speed": 18.990002f
 							"tconstruct:tank_capacity": 47500.0f
 						}
 						tic_volatile_data: {
-							abilities: 7
+							abilities: 12
 							"etshtinker:energy_owner": "etshtinker:fluxloaded"
 							"etshtinker:max_energy": 4000000
 							"tconstruct:total_tanks": 1
-							upgrades: 11
+							upgrades: 14
 						}
 					}
 				}
@@ -3713,7 +3857,7 @@
 								name: "etshtinker:solidex"
 							}
 							{
-								level: 1
+								level: 7
 								name: "cti:shadow_of_vigrid"
 							}
 							{
@@ -3729,7 +3873,7 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
-								level: 5
+								level: 4
 								name: "cti:refined"
 							}
 							{
@@ -3756,29 +3900,30 @@
 						tic_multipliers: {
 							"tconstruct:attack_damage": 1.45f
 							"tconstruct:attack_speed": 0.8f
-							"tconstruct:durability": 1.55f
+							"tconstruct:durability": 3.0f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"etshtinker:cooldown": 42.0f
-							"etshtinker:damagemultiplier": 179.14107f
-							"etshtinker:fluid_efficiency": 1.5f
+							"etshtinker:cooldown": 40.25f
+							"etshtinker:damagemultiplier": 169.39043f
+							"etshtinker:fluid_efficiency": 1.4f
 							"etshtinker:fluidmultiplier": 1.5f
-							"etshtinker:plasmarange": 39.0f
+							"etshtinker:plasmarange": 36.399998f
 							"etshtinker:scale": 2.0f
-							"tconstruct:attack_damage": 11522.743f
-							"tconstruct:attack_speed": 193.35861f
-							"tconstruct:block_amount": 142.17545f
+							"tconstruct:attack_damage": 14008.578f
+							"tconstruct:attack_speed": 182.8341f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1239075.6f
+							"tconstruct:durability": 3239538.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 844.1667f
-							"tconstruct:tank_capacity": 359058.75f
+							"tconstruct:mining_speed": 1254.3438f
+							"tconstruct:tank_capacity": 239372.5f
 						}
 						tic_volatile_data: {
-							abilities: 12
+							abilities: 15
+							defense: 4
 							"tconstruct:total_tanks": 1
-							upgrades: 15
+							upgrades: 16
 						}
 					}
 				}
@@ -3826,6 +3971,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tinkers_ingenuity:violent"
 							}
@@ -3836,9 +3985,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1620.5245f
-							"tconstruct:attack_speed": 72.9834f
-							"tconstruct:durability": 6198115.0f
+							"tconstruct:attack_damage": 1641.771f
+							"tconstruct:attack_speed": 73.94027f
+							"tconstruct:durability": 6279377.0f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3890,6 +4039,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 3
 								name: "tconstruct:reach"
 							}
@@ -3903,9 +4056,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 501.68976f
-							"tconstruct:attack_speed": 75.826904f
-							"tconstruct:durability": 1452578.0f
+							"tconstruct:attack_damage": 508.2673f
+							"tconstruct:attack_speed": 76.82105f
+							"tconstruct:durability": 1471622.5f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -3956,6 +4109,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tinkers_things:range"
 							}
@@ -3966,11 +4123,11 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 681.5536f
-							"tconstruct:attack_speed": 106.15766f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 690.48926f
+							"tconstruct:attack_speed": 107.54947f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1448910.0f
+							"tconstruct:durability": 1467906.2f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4028,17 +4185,21 @@
 								level: 5
 								name: "etshtinker:beconcerted"
 							}
+							{
+								level: 25
+								name: "cti:shadow_of_vigrid"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_damage": 1.4f
 							"tconstruct:attack_speed": 0.75f
-							"tconstruct:durability": 2.3f
+							"tconstruct:durability": 1.8f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1350.5245f
-							"tconstruct:attack_speed": 109.4751f
-							"tconstruct:durability": 4443323.5f
+							"tconstruct:attack_damage": 1368.231f
+							"tconstruct:attack_speed": 110.9104f
+							"tconstruct:durability": 3522975.0f
 						}
 						tic_volatile_data: {
 							abilities: 16
@@ -4096,6 +4257,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tconstruct:offhand_attack"
 							}
@@ -4115,13 +4280,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 484.42728f
-							"tconstruct:attack_speed": 265.39417f
-							"tconstruct:block_amount": 189.56726f
+							"tconstruct:attack_damage": 490.7785f
+							"tconstruct:attack_speed": 268.8737f
+							"tconstruct:block_amount": 192.05263f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 724455.0f
+							"tconstruct:durability": 733953.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 703.76843f
+							"tconstruct:mining_speed": 712.9954f
 							"tconstruct:use_item_speed": 1.0f
 						}
 						tic_volatile_data: {
@@ -4178,6 +4343,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tinkers_ingenuity:reaper"
 							}
@@ -4193,9 +4362,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 1081.1318f
-							"tconstruct:attack_speed": 194.56711f
-							"tconstruct:durability": 3415841.5f
+							"tconstruct:attack_damage": 1095.3063f
+							"tconstruct:attack_speed": 197.11803f
+							"tconstruct:durability": 3460625.5f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4253,8 +4422,8 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
-								level: 2
-								name: "solidarytinker:uncannyvalley"
+								level: 10
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -4266,12 +4435,11 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 311.06805f
-							"tconstruct:attack_speed": 132.69708f
-							"tconstruct:durability": 686020.2f
-							"tinkers_ingenuity:cooldown": 1.1f
-							"tinkers_ingenuity:energy_capacity": 20000.0f
-							"tinkers_ingenuity:laser_range": 20.0f
+							"tconstruct:attack_damage": 315.1464f
+							"tconstruct:attack_speed": 134.43684f
+							"tconstruct:durability": 645954.56f
+							"tinkers_ingenuity:cooldown": 0.0f
+							"tinkers_ingenuity:laser_range": 1.0f
 						}
 						tic_volatile_data: {
 							abilities: 7
@@ -4326,6 +4494,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tinkers_ingenuity:damage"
 							}
@@ -4337,9 +4509,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 807.58026f
-							"tconstruct:attack_speed": 52.130997f
-							"tconstruct:durability": 1099826.6f
+							"tconstruct:attack_damage": 818.1683f
+							"tconstruct:attack_speed": 52.814472f
+							"tconstruct:durability": 1114246.1f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4390,6 +4562,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 2
 								name: "tconstruct:knockback"
 							}
@@ -4405,13 +4581,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 419.41757f
-							"tconstruct:attack_speed": 132.69708f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 424.91644f
+							"tconstruct:attack_speed": 134.43684f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2414850.0f
+							"tconstruct:durability": 2446510.5f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 187.67159f
+							"tconstruct:mining_speed": 190.13211f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4461,6 +4637,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tconstruct:stripping"
 							}
@@ -4472,13 +4652,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 899.6507f
-							"tconstruct:attack_speed": 79.618256f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 911.4458f
+							"tconstruct:attack_speed": 80.66211f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2736830.0f
+							"tconstruct:durability": 2772711.8f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 187.67159f
+							"tconstruct:mining_speed": 190.13211f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4528,6 +4708,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tconstruct:tilling"
 							}
@@ -4546,13 +4730,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 321.55347f
-							"tconstruct:attack_speed": 92.88796f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 325.76926f
+							"tconstruct:attack_speed": 94.10579f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1609900.0f
+							"tconstruct:durability": 1631007.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 281.50735f
+							"tconstruct:mining_speed": 285.19815f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4603,6 +4787,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 2
 								name: "tconstruct:pierce"
 							}
@@ -4614,13 +4802,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 611.65063f
-							"tconstruct:attack_speed": 112.79253f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 619.6698f
+							"tconstruct:attack_speed": 114.271324f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 3219800.0f
+							"tconstruct:durability": 3262014.0f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 187.67159f
+							"tconstruct:mining_speed": 190.13211f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4671,6 +4859,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 2
 								name: "tconstruct:smite"
 							}
@@ -4682,13 +4874,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 585.0876f
-							"tconstruct:attack_speed": 99.52281f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 592.7585f
+							"tconstruct:attack_speed": 100.82763f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2575840.0f
+							"tconstruct:durability": 2609611.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 250.22879f
+							"tconstruct:mining_speed": 253.50948f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -4744,6 +4936,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 15
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tconstruct:stringy"
 							}
@@ -4754,13 +4950,13 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 473.91815f
-							"tconstruct:attack_speed": 18.956726f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 480.1316f
+							"tconstruct:attack_speed": 19.205263f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:draw_speed": 303.30762f
-							"tconstruct:durability": 583488.0f
-							"tconstruct:projectile_damage": 37.913452f
+							"tconstruct:draw_speed": 307.2842f
+							"tconstruct:durability": 591138.0f
+							"tconstruct:projectile_damage": 38.410526f
 							"tconstruct:velocity": 4.0f
 						}
 						tic_volatile_data: {
@@ -4812,6 +5008,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 15
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tconstruct:stringy"
 							}
@@ -4826,13 +5026,13 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 947.8363f
-							"tconstruct:attack_speed": 18.956726f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 960.2632f
+							"tconstruct:attack_speed": 19.205263f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:draw_speed": 161.13217f
-							"tconstruct:durability": 514106.4f
-							"tconstruct:projectile_damage": 37.913452f
+							"tconstruct:draw_speed": 163.24474f
+							"tconstruct:durability": 520846.75f
+							"tconstruct:projectile_damage": 38.410526f
 							"tconstruct:velocity": 2.5f
 						}
 						tic_volatile_data: {
@@ -4877,43 +5077,9 @@
 								"etshtinker:exo_alloy"
 								"etshtinker:exo_alloy"
 							]
-							tic_modifiers: [
-								{
-									level: 3
-									name: "etshtinker:godlymetal"
-								}
-								{
-									level: 3
-									name: "etshtinker:worldforceex"
-								}
-								{
-									level: 3
-									name: "etshtinker:beconcerted"
-								}
-								{
-									level: 2
-									name: "tinkers_thinking:targeted"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.5f
-							}
+							tic_modifiers: [ ]
 							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:accuracy": 1.0f
-								"tconstruct:attack_damage": 349.51465f
-								"tconstruct:attack_speed": 238.85474f
-								"tconstruct:block_amount": 331.7427f
-								"tconstruct:block_angle": 180.0f
-								"tconstruct:draw_speed": 18.956726f
-								"tconstruct:durability": 653319.9f
-								"tconstruct:projectile_damage": 37.913452f
-								"tconstruct:use_item_speed": 0.4f
-							}
-							tic_volatile_data: {
-								abilities: 11
-								upgrades: 15
-							}
+							tic_stats: { }
 						}
 					}
 					match_nbt: false
@@ -4946,6 +5112,10 @@
 									name: "etshtinker:beconcerted"
 								}
 								{
+									level: 10
+									name: "cti:shadow_of_vigrid"
+								}
+								{
 									level: 1
 									name: "tconstruct:stringy"
 								}
@@ -4953,11 +5123,11 @@
 							tic_persistent: { }
 							tic_stats: {
 								"tconstruct:accuracy": 1.0f
-								"tconstruct:block_amount": 284.3509f
+								"tconstruct:block_amount": 288.07895f
 								"tconstruct:block_angle": 180.0f
-								"tconstruct:draw_speed": 303.30762f
-								"tconstruct:durability": 257053.2f
-								"tconstruct:projectile_damage": 37.913452f
+								"tconstruct:draw_speed": 307.2842f
+								"tconstruct:durability": 260423.38f
+								"tconstruct:projectile_damage": 38.410526f
 								"tconstruct:use_item_speed": 0.4f
 								"tconstruct:velocity": 4.0f
 							}
@@ -5002,6 +5172,10 @@
 							name: "etshtinker:beconcerted"
 						}
 						{
+							level: 10
+							name: "cti:shadow_of_vigrid"
+						}
+						{
 							level: 1
 							name: "tconstruct:unburdened"
 						}
@@ -5011,14 +5185,14 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:armor": 120.0f
-						"tconstruct:armor_toughness": 80.0f
-						"tconstruct:durability": 931732.56f
+						"tconstruct:armor": 576.1579f
+						"tconstruct:armor_toughness": 480.1316f
+						"tconstruct:durability": 1415922.5f
 						"tconstruct:knockback_resistance": 1.0f
 					}
 					tic_volatile_data: {
-						abilities: 7
-						defense: 4
+						abilities: 8
+						defense: 5
 						upgrades: 6
 					}
 				}
@@ -5059,6 +5233,10 @@
 									name: "etshtinker:beconcerted"
 								}
 								{
+									level: 10
+									name: "cti:shadow_of_vigrid"
+								}
+								{
 									level: 1
 									name: "tconstruct:unburdened"
 								}
@@ -5068,14 +5246,14 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 120.0f
-								"tconstruct:armor_toughness": 80.0f
-								"tconstruct:durability": 931732.56f
+								"tconstruct:armor": 345.69473f
+								"tconstruct:armor_toughness": 480.1316f
+								"tconstruct:durability": 1415922.5f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 7
-								defense: 4
+								abilities: 8
+								defense: 5
 								upgrades: 6
 							}
 						}
@@ -5110,6 +5288,10 @@
 									name: "etshtinker:beconcerted"
 								}
 								{
+									level: 10
+									name: "cti:shadow_of_vigrid"
+								}
+								{
 									level: 1
 									name: "tconstruct:unburdened"
 								}
@@ -5119,14 +5301,14 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 120.0f
-								"tconstruct:armor_toughness": 80.0f
-								"tconstruct:durability": 931732.56f
+								"tconstruct:armor": 576.1579f
+								"tconstruct:armor_toughness": 480.1316f
+								"tconstruct:durability": 1415922.5f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 7
-								defense: 4
+								abilities: 8
+								defense: 5
 								upgrades: 6
 							}
 						}
@@ -5161,23 +5343,27 @@
 									name: "etshtinker:beconcerted"
 								}
 								{
+									level: 10
+									name: "cti:shadow_of_vigrid"
+								}
+								{
 									level: 1
 									name: "tconstruct:unburdened"
 								}
 							]
 							tic_multipliers: {
-								"tconstruct:durability": 1.5f
+								"tconstruct:durability": 1.35f
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 120.0f
-								"tconstruct:armor_toughness": 80.0f
-								"tconstruct:durability": 931732.56f
+								"tconstruct:armor": 399.46945f
+								"tconstruct:armor_toughness": 418.6747f
+								"tconstruct:durability": 1104419.4f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 7
-								defense: 4
+								abilities: 8
+								defense: 5
 								upgrades: 6
 							}
 						}
@@ -5212,6 +5398,10 @@
 									name: "etshtinker:beconcerted"
 								}
 								{
+									level: 10
+									name: "cti:shadow_of_vigrid"
+								}
+								{
 									level: 1
 									name: "tconstruct:unburdened"
 								}
@@ -5221,14 +5411,14 @@
 							}
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:armor": 120.0f
-								"tconstruct:armor_toughness": 80.0f
-								"tconstruct:durability": 931732.56f
+								"tconstruct:armor": 288.07895f
+								"tconstruct:armor_toughness": 480.1316f
+								"tconstruct:durability": 1415922.5f
 								"tconstruct:knockback_resistance": 1.0f
 							}
 							tic_volatile_data: {
-								abilities: 7
-								defense: 4
+								abilities: 8
+								defense: 5
 								upgrades: 6
 							}
 						}
@@ -5281,11 +5471,19 @@
 							}
 							{
 								level: 3
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 3
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 9
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 3
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 2
@@ -5295,15 +5493,11 @@
 								level: 2
 								name: "tconstruct:reach"
 							}
-							{
-								level: 3
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 391.5f
-							"tconstruct:attack_speed": 4.2f
+							"tconstruct:attack_damage": 481.5f
+							"tconstruct:attack_speed": 4.6f
 							"tconstruct:durability": 62259.2f
 						}
 						tic_volatile_data: {
@@ -5365,15 +5559,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 2
-								name: "solidarytinker:reliable"
+								name: "etshtinker:solidex"
 							}
 						]
 						tic_persistent: { }
@@ -5381,7 +5579,7 @@
 							"tconstruct:accuracy": 1.0f
 							"tconstruct:draw_speed": 1.8f
 							"tconstruct:durability": 8564.0f
-							"tconstruct:velocity": 11.0f
+							"tconstruct:velocity": 6.0f
 						}
 						tic_volatile_data: {
 							abilities: 3
@@ -5437,6 +5635,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 25
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "tconstruct:stripping"
 							}
@@ -5451,11 +5653,13 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 980.3886f
-							"tconstruct:attack_speed": 132.69708f
-							"tconstruct:durability": 2897820.0f
+							"tconstruct:attack_damage": 993.24225f
+							"tconstruct:attack_speed": 134.43684f
+							"tconstruct:block_amount": 96.02631f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 2935812.5f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 1407.5369f
+							"tconstruct:mining_speed": 1425.9908f
 						}
 						tic_volatile_data: {
 							abilities: 16
@@ -5510,10 +5714,6 @@
 								level: 2
 								name: "cti:shadow_of_vigrid"
 							}
-							{
-								level: 1
-								name: "cti:imprison"
-							}
 						]
 						tic_persistent: { }
 						tic_stats: {
@@ -5524,9 +5724,8 @@
 							"tinkers_ingenuity:movement_speed": 0.25f
 						}
 						tic_volatile_data: {
-							abilities: -9999
-							defense: -10000
-							upgrades: -9999
+							abilities: 1
+							upgrades: 1
 						}
 					}
 				}
@@ -5579,6 +5778,10 @@
 								level: 4
 								name: "etshtinker:beconcerted"
 							}
+							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 0.36f
@@ -5587,11 +5790,11 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 75.826904f
-							"tconstruct:attack_speed": 18.956726f
-							"tconstruct:draw_speed": 445.48306f
-							"tconstruct:durability": 139491.19f
-							"tconstruct:projectile_damage": 37.913452f
+							"tconstruct:attack_damage": 76.82105f
+							"tconstruct:attack_speed": 19.205263f
+							"tconstruct:draw_speed": 451.32367f
+							"tconstruct:durability": 141320.02f
+							"tconstruct:projectile_damage": 38.410526f
 							"tconstruct:velocity": 4.5099998f
 						}
 						tic_volatile_data: {
@@ -5647,12 +5850,20 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 5
 								name: "tconstruct:severing"
 							}
 							{
-								level: 2
+								level: 3
 								name: "tconstruct:looting"
+							}
+							{
+								level: 4
+								name: "cti:supercrithit"
 							}
 							{
 								level: 1
@@ -5660,23 +5871,23 @@
 							}
 						]
 						tic_multipliers: {
-							"tconstruct:attack_damage": 1.5f
-							"tconstruct:durability": 3.5f
+							"tconstruct:attack_damage": 1.6f
+							"tconstruct:durability": 2.5f
 							"tconstruct:mining_speed": 0.25f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 650.0972f
-							"tconstruct:attack_speed": 132.69708f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 1194.9275f
+							"tconstruct:attack_speed": 163.24474f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 2253860.0f
+							"tconstruct:durability": 3387178.2f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 156.39299f
+							"tconstruct:mining_speed": 315.08633f
 						}
 						tic_volatile_data: {
-							abilities: 13
-							upgrades: 18
+							abilities: 14
+							upgrades: 19
 						}
 					}
 				}
@@ -5734,6 +5945,14 @@
 						]
 						tic_modifiers: [
 							{
+								level: 1
+								name: "solidarytinker:anymoremode"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+							{
 								level: 2
 								name: "cti:omnipotent"
 							}
@@ -5750,6 +5969,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 15
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "solidarytinker:ancientocean"
 							}
@@ -5763,15 +5986,7 @@
 							}
 							{
 								level: 1
-								name: "cti:shadow_of_vigrid"
-							}
-							{
-								level: 1
-								name: "solidarytinker:anymoremode"
-							}
-							{
-								level: 1
-								name: "tconstruct:tank_handler"
+								name: "etshtinker:solidex"
 							}
 						]
 						tic_persistent: {
@@ -5782,11 +5997,11 @@
 							"solidarytinker:detection_range": 100.0f
 							"solidarytinker:exert_times": 100.0f
 							"solidarytinker:kill_threshold": 0.6f
-							"tconstruct:attack_damage": 12428.741f
-							"tconstruct:attack_speed": 132.69708f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 3810.084f
+							"tconstruct:attack_speed": 134.43684f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 131038.37f
+							"tconstruct:durability": 735565.2f
 							"tconstruct:tank_capacity": 40000.0f
 						}
 						tic_volatile_data: {
@@ -5845,12 +6060,16 @@
 								name: "cti:insatiable_handler"
 							}
 							{
-								level: 5
+								level: 4
 								name: "cti:refined"
 							}
 							{
 								level: 1
 								name: "etshtinker:solidex"
+							}
+							{
+								level: 1
+								name: "cti:shadow_of_vigrid"
 							}
 							{
 								level: 1
@@ -5877,12 +6096,8 @@
 								name: "etshtinker:semicrystaline"
 							}
 							{
-								level: 2
-								name: "tinkersinnovation:hostility"
-							}
-							{
 								level: 1
-								name: "tinkersinnovation:no_sealed"
+								name: "cti:the_relic"
 							}
 							{
 								level: 2
@@ -5894,24 +6109,22 @@
 							}
 						]
 						tic_multipliers: {
-							"tconstruct:attack_damage": 3.5f
-							"tconstruct:attack_speed": 0.35f
-							"tconstruct:durability": 5.0f
+							"tconstruct:attack_damage": 2.75f
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:durability": 3.0f
 						}
 						tic_persistent: { }
 						tic_stats: {
 							"cti:insatiable_base": 96.0f
-							"etshtinker:fluid_efficiency": 1.5f
-							"etshtinker:plasmarange": 1.5f
-							"tconstruct:attack_damage": 491.3672f
-							"tconstruct:attack_speed": 0.2625f
-							"tconstruct:block_amount": 7.5f
-							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 46599.754f
+							"etshtinker:fluid_efficiency": 1.4f
+							"etshtinker:plasmarange": 1.4f
+							"tconstruct:attack_damage": 922.2468f
+							"tconstruct:attack_speed": 1.3125f
+							"tconstruct:durability": 82728.01f
 						}
 						tic_volatile_data: {
 							abilities: 10
-							hostilities: 2
+							defense: 4
 							upgrades: 10
 						}
 					}
@@ -5964,6 +6177,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "etshtinker:mindprotection"
 							}
@@ -5989,12 +6206,12 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:armor_toughness": 80.0f
-							"tconstruct:attack_damage": 146.91463f
-							"tconstruct:attack_speed": 28.43509f
-							"tconstruct:block_amount": 2843.5088f
+							"tconstruct:armor_toughness": 307.2842f
+							"tconstruct:attack_damage": 148.84079f
+							"tconstruct:attack_speed": 28.807896f
+							"tconstruct:block_amount": 2880.7896f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1725202.5f
+							"tconstruct:durability": 1747821.1f
 							"tconstruct:knockback_resistance": 1.0f
 							"tconstruct:use_item_speed": 0.3f
 						}
@@ -6047,6 +6264,10 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "cloudertinker:tiantuistar"
 							}
@@ -6057,9 +6278,9 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 650.0972f
-							"tconstruct:attack_speed": 132.69708f
-							"tconstruct:durability": 2253860.0f
+							"tconstruct:attack_damage": 658.62054f
+							"tconstruct:attack_speed": 134.43684f
+							"tconstruct:durability": 2283409.8f
 						}
 						tic_volatile_data: {
 							abilities: 13
@@ -6121,8 +6342,16 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 12
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "solidarytinker:neverend"
+							}
+							{
+								level: 1
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 1
@@ -6133,8 +6362,8 @@
 								name: "solidarytinker:deadlyrhythm"
 							}
 							{
-								level: 2
-								name: "cti:shadow_of_vigrid"
+								level: 1
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -6156,10 +6385,6 @@
 								level: 1
 								name: "solidarytinker:electricbatonscore"
 							}
-							{
-								level: 1
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:attack_speed": 0.6f
@@ -6173,18 +6398,18 @@
 							"solidarytinker:detection_range": 20.0f
 							"solidarytinker:energy_capacity": 6.48641E7f
 							"solidarytinker:target_amount": 18.0f
-							"tconstruct:attack_damage": 317.40668f
-							"tconstruct:attack_speed": 49.761406f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 321.5681f
+							"tconstruct:attack_speed": 50.41382f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 242740.88f
+							"tconstruct:durability": 245923.39f
 						}
 						tic_volatile_data: {
-							abilities: 11
+							abilities: 15
 							flux: 3
 							"solidarytinker:energy_owner": "solidarytinker:electricbatonscore"
 							"solidarytinker:max_energy": 100000
-							upgrades: 16
+							upgrades: 18
 						}
 					}
 				}
@@ -6238,12 +6463,28 @@
 								name: "etshtinker:hyperfluxloaded"
 							}
 							{
+								level: 1
+								name: "cti:mana_overload"
+							}
+							{
+								level: 4
+								name: "cti:insatiable_handler"
+							}
+							{
+								level: 1
+								name: "cti:overslime_handler"
+							}
+							{
 								level: 3
 								name: "etshtinker:nightsedge"
 							}
 							{
 								level: 3
 								name: "etshtinker:nightsenhance"
+							}
+							{
+								level: 6
+								name: "cti:industrial"
 							}
 							{
 								level: 1
@@ -6258,16 +6499,24 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 5
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 2
 								name: "cti:omnipotent"
 							}
 							{
 								level: 1
-								name: "etshtinker:manaoverload"
+								name: "cti:enchanted_sword"
 							}
 							{
 								level: 1
-								name: "etshtinker:modifierenchantedsword"
+								name: "cti:mana_burst_handler"
+							}
+							{
+								level: 1
+								name: "etshtinker:manarepair"
 							}
 							{
 								level: 1
@@ -6288,19 +6537,20 @@
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 263.91318f
-							"tconstruct:attack_speed": 16.264872f
-							"tconstruct:block_amount": 94.78363f
+							"cti:insatiable_base": 32.0f
+							"tconstruct:attack_damage": 470.0728f
+							"tconstruct:attack_speed": 16.478117f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 280276.12f
+							"tconstruct:durability": 413756.84f
 							"tconstruct:harvest_tier": "minecraft:netherite"
-							"tconstruct:mining_speed": 294.89557f
+							"tconstruct:mining_speed": 449.71524f
 						}
 						tic_volatile_data: {
-							abilities: 5
+							abilities: 10
 							"etshtinker:energy_owner": "etshtinker:hyperfluxloaded"
 							"etshtinker:max_energy": 4000000
-							upgrades: 8
+							upgrades: 12
 						}
 					}
 				}
@@ -6334,11 +6584,19 @@
 							}
 							{
 								level: 2
-								name: "solidarytinker:sandstrom"
+								name: "solidarytinker:reliable"
 							}
 							{
 								level: 2
+								name: "solidarytinker:sandstrom"
+							}
+							{
+								level: 6
 								name: "cti:shadow_of_vigrid"
+							}
+							{
+								level: 2
+								name: "etshtinker:solidex"
 							}
 							{
 								level: 1
@@ -6352,10 +6610,6 @@
 								level: 1
 								name: "cloudertinker:seektraces"
 							}
-							{
-								level: 2
-								name: "solidarytinker:reliable"
-							}
 						]
 						tic_multipliers: {
 							"tconstruct:durability": 2.0f
@@ -6363,10 +6617,10 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:accuracy": 1.0f
-							"tconstruct:attack_damage": 25.0f
+							"tconstruct:attack_damage": 150.0f
 							"tconstruct:draw_speed": 1.8f
 							"tconstruct:durability": 51384.0f
-							"tconstruct:velocity": 11.0f
+							"tconstruct:velocity": 6.0f
 						}
 						tic_volatile_data: {
 							abilities: 1
@@ -6419,10 +6673,6 @@
 						]
 						tic_modifiers: [
 							{
-								level: 1
-								name: "solidarytinker:ordinaryessence"
-							}
-							{
 								level: 4
 								name: "etshtinker:godlymetal"
 							}
@@ -6435,27 +6685,33 @@
 								name: "etshtinker:beconcerted"
 							}
 							{
+								level: 20
+								name: "cti:shadow_of_vigrid"
+							}
+							{
 								level: 1
 								name: "solidarytinker:voraciousfox"
 							}
+							{
+								level: 1
+								name: "solidarytinker:ordinaryessence"
+							}
 						]
 						tic_multipliers: {
-							"tconstruct:attack_damage": 1.1f
-							"tconstruct:attack_speed": 1.3f
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 1.2f
 						}
 						tic_persistent: { }
 						tic_stats: {
-							"solidarytinker:max_level": 12.0f
-							"solidarytinker:perception_count": 1000.0f
-							"tconstruct:attack_damage": 645.9031f
-							"tconstruct:attack_speed": 258.7593f
-							"tconstruct:block_amount": 94.78363f
+							"tconstruct:attack_damage": 256.083f
+							"tconstruct:attack_speed": 193.58907f
+							"tconstruct:block_amount": 96.02631f
 							"tconstruct:block_angle": 180.0f
-							"tconstruct:durability": 1287920.0f
+							"tconstruct:durability": 406598.62f
 						}
 						tic_volatile_data: {
-							abilities: 13
-							upgrades: 19
+							abilities: 17
+							upgrades: 21
 						}
 					}
 				}

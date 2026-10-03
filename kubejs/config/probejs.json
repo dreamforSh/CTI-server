@@ -5,7 +5,7 @@
   "allowRegistryObjectDumps": false,
   "requireSingleAndPerm": true,
   "enabled": true,
-  "disableRecipeJsonDump": true,
+  "disableRecipeJsonDump": false,
   "dumpJSONIntermediates": false,
   "version": 1
 }

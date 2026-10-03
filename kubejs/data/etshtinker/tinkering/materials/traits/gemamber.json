@@ -5,12 +5,16 @@
   },
   "default": [
     {
+      "name": "cti:industrial",
+      "level": 1
+    },
+    {
       "name": "etshtinker:semicrystaline",
       "level": 1
     },
     {
       "name": "solidarytinker:injured",
-      "level": 1
+      "level": 2
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "selectedProfile": 0,
+  "profiles": [],
+  "priorities": {
+    "gui.xaero_minimap_settings": 0,
+    "gui.xaero_reverse_entity_radar": 0,
+    "gui.xaero_toggle_tracked_players": 0
+  }
+}

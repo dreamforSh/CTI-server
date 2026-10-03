@@ -15,6 +15,10 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
         "level": 1
       }
     ],
@@ -33,6 +37,10 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
         "level": 1
       }
     ],
@@ -42,7 +50,15 @@
         "level": 1
       },
       {
+        "name": "solidarytinker:somatizationdemon",
+        "level": 1
+      },
+      {
         "name": "cti:shadow_of_vigrid",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
         "level": 1
       }
     ],
@@ -56,11 +72,19 @@
         "level": 1
       },
       {
+        "name": "solidarytinker:somatizationdemon",
+        "level": 1
+      },
+      {
         "name": "cti:deepoceanecho",
         "level": 1
       },
       {
         "name": "cti:shadow_of_vigrid",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
         "level": 1
       }
     ],
@@ -79,6 +103,10 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
         "level": 1
       }
     ],
@@ -97,16 +125,26 @@
       },
       {
         "name": "cti:shadow_of_vigrid",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
         "level": 1
       }
-
     ],
     "tinkers_ingenuity:curio": [
       {
         "name": "solidarytinker:deepoceanchew",
         "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
       }
-
     ]
   }
 }

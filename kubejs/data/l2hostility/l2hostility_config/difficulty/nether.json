@@ -4,7 +4,7 @@
   "levelMap": {
     "minecraft:the_nether": {
       "apply_chance": 1.0,
-      "base": 5,
+      "base": 50,
       "min": 0,
       "scale": 1.2,
       "trait_chance": 1.0,

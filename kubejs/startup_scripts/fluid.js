@@ -154,4 +154,5 @@ StartupEvents.registry("fluid",event=>{
     createThinFluid(["molten_dark_swet",0x3B1552,1750])
     createFluid(["molten_swet_bronze",0xFFF47D,1880])
     createThinFluid(["vinegar",0xa56c32,25])
+    createThinFluid(["molten_absorption_boost",0xffff00,20])
 })

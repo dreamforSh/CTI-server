@@ -2,11 +2,13 @@
   "_class": "dev.xkmc.l2hostility.content.config.EntityConfig",
   "list": [
     {
-      "blacklist": [],
+      "blacklist": [
+        "l2hostility:invisible"
+      ],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 250,
-        "min": 500,
+        "min": 1000,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0

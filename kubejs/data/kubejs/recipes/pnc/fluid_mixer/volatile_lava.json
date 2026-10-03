@@ -15,7 +15,7 @@
     "fluid": "tconstruct:molten_glass"
   },
   "item_output": {
-    "item": "thermal:rich_slag_block"
+    "item": "thermal:slag"
   },
   "pressure": 2.0,
   "time": 80

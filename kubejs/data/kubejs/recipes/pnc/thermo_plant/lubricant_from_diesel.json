@@ -3,17 +3,17 @@
   "exothermic": false,
   "fluid_input": {
     "type": "pneumaticcraft:fluid",
-    "amount": 1000,
+    "amount": 16000,
     "tag": "forge:diesel"
   },
   "fluid_output": {
-    "amount": 1000,
+    "amount": 16000,
     "fluid": "immersivepetroleum:lubricant"
   },
   "item_input": {
-    "tag": "forge:dusts/redstone"
+    "item": "immersivepetroleum:petcoke_dust"
   },
   "temperature": {
-    "min_temp": 373
+    "min_temp": 473
   }
 }

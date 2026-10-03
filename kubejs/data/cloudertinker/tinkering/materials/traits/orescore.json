@@ -1,0 +1,31 @@
+{"perStat": {
+  "tconstruct:head": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:stoneshield",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:fortune",
+      "level": 3
+    }
+  ],
+  "tconstruct:handle": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:stoneshield",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:fortune",
+      "level": 3
+    }
+  ]
+}
+}

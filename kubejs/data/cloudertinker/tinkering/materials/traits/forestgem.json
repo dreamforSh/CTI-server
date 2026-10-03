@@ -1,0 +1,138 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostsword",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostsword",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostsword",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostbomb",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostbomb",
+        "level": 1
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostaround",
+        "level": 1
+      },
+      {
+        "name": "cti:messengerofdawn",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostaround",
+        "level": 1
+      },
+      {
+        "name": "cti:messengerofdawn",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostaround",
+        "level": 1
+      },
+      {
+        "name": "cti:messengerofdawn",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostaround",
+        "level": 1
+      },
+      {
+        "name": "cti:messengerofdawn",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostaround",
+        "level": 1
+      },{
+        "name": "cti:messengerofdawn",
+        "level": 1
+      }
+
+    ],
+    "tconstruct:plating_shield": [
+      {
+        "name": "cloudertinker:frostcraft",
+        "level": 2
+      },
+      {
+        "name": "cloudertinker:frostaround",
+        "level": 1
+      },
+      {
+        "name": "cti:messengerofdawn",
+        "level": 1
+      }
+    ]
+  }
+}

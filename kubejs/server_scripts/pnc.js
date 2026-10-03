@@ -30,14 +30,24 @@ ServerEvents.recipes(event => {
   event.remove({id:'pneumaticcraft:speed_upgrade_from_glycerol'})
 
   event.custom({
-  "type": "pneumaticcraft:heat_properties",
-  "block": "aether:icestone",
-  "temperature": 233,
-  "thermalResistance": 5,
-  "heatCapacity": 1000000,
-  "transformHot": {
-    "block": "aether:icestone"
-  }
-})
+    "type": "pneumaticcraft:heat_properties",
+    "block": "aether:icestone",
+    "temperature": 233,
+    "thermalResistance": 5,
+    "heatCapacity": 1000000,
+    "transformHot": {
+      "block": "aether:icestone"
+    }
+  })
+  event.custom({
+    "type": "pneumaticcraft:heat_properties",
+    "block": "twilightforest:fiery_block",
+    "temperature": 1773,
+    "thermalResistance": 5,
+    "heatCapacity": 1000000,
+    "transformCold": {
+      "block": "twilightforest:fiery_block"
+    }
+  })
 
 })

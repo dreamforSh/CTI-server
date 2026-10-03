@@ -6,7 +6,7 @@
       "difficulty": {
          "apply_chance": 1.0,
         "base": 20,
-        "min": 10,
+        "min": 40,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0

@@ -17,16 +17,16 @@
     },
     {
       "name": "tconstruct:molten_steel",
-      "amount": 180
+      "amount": 270
     },
     {
       "name": "tinkers_reforged:red_beryl",
-      "amount": 900
+      "amount": 600
     }
   ],
   "result": {
     "fluid": "solidarytinker:molten_heavy_armor_steel",
-    "amount": 90
+    "amount": 180
   },
-  "temperature": 1400
+  "temperature": 1725
 }

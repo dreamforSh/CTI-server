@@ -3,9 +3,9 @@
   "pattern": [
     "ABABABA",
     "BCCDCCB",
-    "ACCECCA",
+    "ACCACCA",
     "BDEFEDB",
-    "ACCECCA",
+    "ACCACCA",
     "BCCDCCB",
     "ABABABA"
   ],
@@ -23,10 +23,10 @@
       "item": "megacells:mega_energy_cell"
     },
     "E": {
-      "item": "etshtinker:sculk_energycore"
+      "item": "avaritia:infinity_catalyst"
     },
     "F": {
-      "item": "ae2:creative_energy_cell"
+      "item": "cti:creative_energy_cell_4k"
     }
   },
   "result": {

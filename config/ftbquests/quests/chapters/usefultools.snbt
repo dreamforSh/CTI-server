@@ -17,7 +17,7 @@
 		x: -33.0d
 		y: -18.5d
 	}]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -155,6 +155,8 @@
 				"存储整合器可以与其他存储容器相连，可以作为前期的存储系统过渡。"
 				"&e&l强大的力量可以让很多事情都能发生&r"
 				"&4注意，最好不要与循环的板条箱相连，否则会出现吞物品的现象。&r"
+				""
+				"&c不要用AE2的存储总线连接，可能导致卡死！"
 			]
 			icon: "toms_storage:ts.inventory_connector"
 			id: "714E514A2D084E22"

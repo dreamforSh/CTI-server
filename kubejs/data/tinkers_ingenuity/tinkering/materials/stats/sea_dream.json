@@ -26,6 +26,30 @@
     },
     "tconstruct:maille": {},
     "tconstruct:shield_core": {},
+    "tconstruct:plating_helmet": {
+      "armor": 10.0,
+      "durability": 3250,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 13.0,
+      "durability": 3250,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 12.0,
+      "durability": 3250,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
+    "tconstruct:plating_boots": {
+      "armor": 9.0,
+      "durability": 3250,
+      "knockback_resistance": 0.05,
+      "toughness": 2.5
+    },
     "tinkers_ingenuity:battery": {
       "energy_capacity": 30000,
       "durability": 0.2
@@ -37,9 +61,9 @@
     "tinkers_ingenuity:curio_extra": {},
     "tinkers_ingenuity:curio_main": {
       "movement_speed": 0.1,
-      "armor": 0.65,
-      "toughness": 0.35,
-      "attack": 0.75,
+      "armor": 1.5,
+      "toughness": 1.5,
+      "attack": 0.9,
       "arrow_damage": 0.5
     }
   }

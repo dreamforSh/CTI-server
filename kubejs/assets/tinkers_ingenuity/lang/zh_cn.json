@@ -15,6 +15,10 @@
   "modifier.tinkers_ingenuity.gaia_guard.flavor": "盖亚意志。",
   "modifier.tinkers_ingenuity.gaia_guard.description": "每拥有50点魔力降低1点受到伤害，单次至多降低100点受到伤害。",
 
+  "modifier.tinkers_ingenuity.reactive": "应激",
+  "modifier.tinkers_ingenuity.reactive.flavor": "他妈的还想困住我？",
+  "modifier.tinkers_ingenuity.reactive.description": "受到攻击获得可叠加的2%免伤效果,至多叠加21层,全身4件分别计算",
+
   "modifier.tinkers_ingenuity.damage": "强击",
   "modifier.tinkers_ingenuity.damage.flavor": "对高护甲特攻，完全科学！"
 }

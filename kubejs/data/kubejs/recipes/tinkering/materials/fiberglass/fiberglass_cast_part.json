@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "tinkerscalibration:moltenfiberglass",
+    "amount": 250
+  },
+  "temperature": 1450,
+  "output": "tinkerscalibration:fiberglass"
+}

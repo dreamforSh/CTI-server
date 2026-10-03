@@ -15,7 +15,7 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 3.0d
-			x: 7.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -27,7 +27,7 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.0d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 3.0d
-			x: 12.0d
+			x: 18.0d
 			y: 4.0d
 		}
 		{
@@ -51,8 +51,8 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 3.2d
-			x: 0.0d
-			y: 1.5d
+			x: 14.0d
+			y: -1.0d
 		}
 	]
 	order_index: 3
@@ -66,7 +66,7 @@
 				""
 				"不过有意思的一点是深园催化石既不会被消耗也没有耐久，因此它可以被无限次的重复使用。毕竟是催化石（jì）嘛。（迫真）"
 				""
-				"&c深园的怪物具备1000+的初始等级，意味着你一进门就能看到如诸神黄昏这种顶级词条，谨记这一点！"
+				"&c深园的怪物具备2000+的初始等级，意味着你一进门就能看到如诸神黄昏这种顶级词条，谨记这一点！"
 			]
 			icon: "undergarden:catalyst"
 			id: "3351BC4716C05698"
@@ -103,7 +103,7 @@
 				}
 			]
 			title: "深暗之园"
-			x: 0.0d
+			x: -2.25d
 			y: 1.5d
 		}
 		{
@@ -126,8 +126,8 @@
 				type: "advancement"
 			}]
 			title: "深园的特殊矿物"
-			x: -2.0d
-			y: -1.0d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08D4DE294FE0E8A1"]
@@ -148,8 +148,8 @@
 				type: "item"
 			}]
 			title: "扼塞矿石"
-			x: -1.5d
-			y: -4.5d
+			x: -4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["08D4DE294FE0E8A1"]
@@ -169,8 +169,8 @@
 				type: "item"
 			}]
 			title: "御腐矿石"
-			x: -3.0d
-			y: -4.5d
+			x: -6.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["08D4DE294FE0E8A1"]
@@ -193,8 +193,8 @@
 				type: "item"
 			}]
 			title: "霜钢矿石"
-			x: -1.5d
-			y: -3.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["08D4DE294FE0E8A1"]
@@ -219,8 +219,8 @@
 				type: "item"
 			}]
 			title: "贵豪矿石"
-			x: -3.0d
-			y: -3.0d
+			x: -8.25d
+			y: -5.25d
 		}
 		{
 			dependencies: ["6F368891161CDB8F"]
@@ -239,8 +239,8 @@
 				type: "advancement"
 			}]
 			title: "异世界猪灵"
-			x: -4.5d
-			y: -3.0d
+			x: -9.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["353E27D8A62F845D"]
@@ -253,7 +253,7 @@
 				type: "item"
 			}]
 			title: "通过与石生体交易获取"
-			x: -8.25d
+			x: -10.5d
 			y: 2.25d
 		}
 		{
@@ -270,7 +270,7 @@
 				type: "advancement"
 			}]
 			title: "深园的特殊怪物"
-			x: -2.0d
+			x: -4.25d
 			y: 4.0d
 		}
 		{
@@ -291,7 +291,7 @@
 				type: "observation"
 			}]
 			title: "居存者"
-			x: -3.0d
+			x: -5.25d
 			y: 7.5d
 		}
 		{
@@ -305,7 +305,7 @@
 				type: "checkmark"
 			}]
 			title: "深园的有趣物品"
-			x: -4.0d
+			x: -6.25d
 			y: 1.5d
 		}
 		{
@@ -322,7 +322,7 @@
 				to_observe: "undergarden:gloomper"
 				type: "observation"
 			}]
-			x: -3.0d
+			x: -5.25d
 			y: 6.0d
 		}
 		{
@@ -343,7 +343,7 @@
 					type: "advancement"
 				}
 			]
-			x: -4.5d
+			x: -6.75d
 			y: 6.0d
 		}
 		{
@@ -367,7 +367,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -9.0d
 			y: 2.25d
 		}
 		{
@@ -388,7 +388,7 @@
 				item: "undergarden:shiverstone"
 				type: "item"
 			}]
-			x: -8.25d
+			x: -10.5d
 			y: 0.75d
 		}
 		{
@@ -411,7 +411,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -9.0d
 			y: 0.75d
 		}
 		{
@@ -427,7 +427,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
+			x: -3.75d
 			y: 7.5d
 		}
 		{
@@ -446,7 +446,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
+			x: -3.75d
 			y: 6.0d
 		}
 		{
@@ -479,7 +479,7 @@
 					type: "advancement"
 				}
 			]
-			x: 2.0d
+			x: -0.25d
 			y: -3.0d
 		}
 		{
@@ -506,7 +506,7 @@
 				item: "undergarden:forgotten_ingot"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.25d
 			y: -3.0d
 		}
 		{
@@ -527,7 +527,7 @@
 				type: "advancement"
 			}]
 			title: "遗忆府邸"
-			x: 2.0d
+			x: -0.25d
 			y: -1.0d
 		}
 		{
@@ -541,7 +541,7 @@
 				item: "kubejs:aetherium_core"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -551,7 +551,7 @@
 				""
 				"      深园是龙的唯一刷新维度，此处的龙均为4~5级龙，有着强大的战斗力。"
 				""
-				"      冰龙在寒霜之地刷新，电龙在所有蘑菇、真菌群系刷新，火龙在所有森林和烟雾尖顶群系刷新，其余区域不刷新龙，安全区半径为1000。"
+				"      冰龙在&b寒霜之地&r刷新，电龙在所有&5蘑菇、真菌群系&r刷新，火龙在所有&c森林和烟雾尖顶&r群系刷新，其余区域不刷新龙，安全区半径为&c&o&l1000。"
 			]
 			id: "31816F3E8B987A68"
 			rewards: [{
@@ -604,38 +604,7 @@
 				}
 			]
 			title: "寻找巨龙"
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["67A18085791201F0"]
-			description: [
-				"      冒险侧的准毕业材料，有着高强度的词条且自带不毁。"
-				""
-				"      关于龙魂吞噬者：它读取的是你的统计信息，所以你&6不需要&r做出龙钢装备后每个装备拿去杀50条龙，所有你杀过的龙都会参与计数。"
-			]
-			id: "251F4CEE57CB1317"
-			size: 2.0d
-			subtitle: "龙之合金"
-			tasks: [
-				{
-					id: "173FA5B31E469551"
-					item: "iceandfire:dragonsteel_lightning_ingot"
-					type: "item"
-				}
-				{
-					id: "07BE4E44FF351EC7"
-					item: "iceandfire:dragonsteel_ice_ingot"
-					type: "item"
-				}
-				{
-					id: "72892B99AD577141"
-					item: "iceandfire:dragonsteel_fire_ingot"
-					type: "item"
-				}
-			]
-			title: "驾驭龙息"
-			x: 7.0d
+			x: -0.25d
 			y: 4.0d
 		}
 		{
@@ -714,16 +683,12 @@
 				type: "item"
 			}]
 			title: "杀龙取卵"
-			x: 4.5d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["08D4DE294FE0E8A1"]
-			description: [
-				"      在4<y<10的近基岩层发现，挖掘后掉落粗的虚空结晶，作为匠魂工具时可以挖掘不可破坏的方块（包括基岩、末地传送门框架等）"
-				""
-				" &e     大胆想象下它在天镜会有什么作用？"
-			]
+			description: ["      在4<y<10的近基岩层发现，挖掘后掉落粗的虚空结晶，作为匠魂工具时可以挖掘不可破坏的方块（包括基岩、末地传送门框架等）"]
 			id: "272710452EFD0B9D"
 			subtitle: "破基岩！"
 			tasks: [{
@@ -731,8 +696,8 @@
 				item: "tinkersinnovation:raw_void_crystal"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3E1039454694FED5"]
@@ -756,29 +721,55 @@
 				item: "cti:orb_of_curse"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -0.25d
 			y: -4.5d
 		}
 		{
-			dependencies: ["251F4CEE57CB1317"]
+			dependencies: [
+				"4AD25471A643825A"
+				"009D5EC79DD6A9D6"
+				"647B16598C588007"
+				"06870983EA984368"
+				"49AA22A59AEE0FCE"
+			]
+			description: [
+				"龙之旅程的终章，天王级的材料"
+				""
+				"带上他可以尽情享受极致的数值碾压与宰杀"
+			]
 			id: "12E77EE886C48DC8"
+			rewards: [{
+				ftb_money: 10000L
+				id: "1B9D374A9A98CFFF"
+				type: "sdmshop:money"
+			}]
+			shape: "pentagon"
+			size: 3.0d
 			subtitle: "龙钢三合一！"
 			tasks: [{
 				id: "0DC24D6B30E167D8"
 				item: "cti:star_dragon_ingot"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["12E77EE886C48DC8"]
+			description: [
+				"真正的终幕，从此你再也不用终日生活在需要刷掉落物的途中了"
+				""
+				"等级越高掉的越多，而且和其他的加成是完全独立的！！"
+				""
+				"甚至可以刷&7中子素尘埃&r这些额外掉落物"
+			]
 			id: "079D75B511A477DD"
 			rewards: [{
 				id: "0A89C14DC8AEBD55"
 				item: "cti:soul_spell"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 2.0d
 			subtitle: "非常重要的饰品，有了它可以大量节省无尽阶段的肝度"
 			tasks: [{
@@ -786,8 +777,593 @@
 				item: "l2hostility:greed_of_nidhoggur"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 18.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["67A18085791201F0"]
+			description: ["欸，你说巧不巧，我这刚好多一块砖"]
+			icon: "iceandfire:dragonforge_lightning_core_disabled"
+			id: "227A53E3DB301D19"
+			rewards: [{
+				id: "30908386C3CF959C"
+				item: "iceandfire:dragonforge_lightning_brick"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "制作锻炉的核心"
+			tasks: [{
+				id: "7E156ED2CA727958"
+				item: "iceandfire:dragonforge_lightning_core_disabled"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41265AD22A69EB6B"]
+			description: [
+				"在大洋彼岸，极寒之处深埋海底的冤魂"
+				""
+				"掌管着&9星界异尘&r的保管室---避难所的钥匙"
+				""
+				"击杀她之后即可前往迷阵最深处的避难所(shelter)结构的箱子中，开到&9星界异尘&r"
+				""
+				"只需要&a一个即可通过液态魔力无限复制&r！！"
+				""
+				"等级&c6657&r级"
+				""
+				"必定携带"
+				""
+				"&6诸神黄昏III"
+				"&6破魔III"
+				"&6摄魂I"
+				"&6杀戮光环III"
+				"&6临别馈赠V"
+				"&6临时护盾I"
+				"&6极端伤害防护I"
+				"&6净化V"
+				"&6二阶段I"
+				""
+				"&d重装V"
+				"&d保护IV"
+				"&d适应V"
+				""
+				"她手中&d有一把匠魂的直刀，其使用的材料为海葬&r，对你会造成&c&l&o非常非常高的穿甲穿魔伤害&r，并且&4削弱你的最大生命&r，你可以&a尝试打掉她的武器&r，打掉武器后伤害减半，并且&5削减生命值效果&r变为随机触发，或者依靠&a免疫类的饰品/材料(次数盾等)&r来打她"
+				""
+				"她会&e间歇性尝试把你拉向她&r，请&e控制好距离&r"
+				""
+				"另外在她命中你时候会施加&b5秒梦魇效果&r(&6玩家造成的所有伤害降低40%，并且无法获得伤害吸收&r)和&d10秒真实诅咒&r(&6完全不回复血量，无法免疫&r)"
+				""
+				"在她&b死亡的瞬间会有巨大的怨念&r，请确保你全身所有盔甲&c至少拥有1次免死效果&r，&l&c不然这次怨念可能会带走你&r"
+				""
+				"如果你没死，会被其怨念束缚，减少&490%最大生命和90%最大护甲&r,这个效果会慢慢衰减掉，同时&d梦魇缠身5分钟&r"
+				""
+				"她&c&l&o非常强大&r，你最好做&d足了准备再去&r"
+			]
+			icon: {
+				Count: 1b
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C51019DD398988A"
+			rewards: [{
+				id: "734258317C6811E9"
+				item: "aquamirae:frozen_chest"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.2d
+			subtitle: "几天不见这么这么狠了"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "3BE8E88D121A83CC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			description: [
+				"击杀里面的所有劫掠者，必有一个会掉落"
+				""
+				"怕你实在找不到掉的那个，我送你一个吧"
+			]
+			hide_dependency_lines: true
+			id: "41265AD22A69EB6B"
+			rewards: [{
+				id: "4E6157ABA2A2BC29"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			subtitle: "用结构指南针大法"
+			tasks: [{
+				id: "1BB3E568C732B7ED"
+				structure: "aquamirae:ship"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C51019DD398988A"]
+			description: ["通过魔力液化之后，再使用结晶机可无限复制"]
+			id: "4AD25471A643825A"
+			rewards: [
+				{
+					id: "2FE36A1A94BB5E50"
+					item: {
+						Count: 1b
+						id: "botania:mana_tablet"
+						tag: {
+							mana: 500000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4861729E77D27212"
+					item: "ars_nouveau:ritual_flight"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6EC64CFC6E92CF93"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "来自星界的怪异的尘埃，仿佛有无穷的能量"
+			tasks: [{
+				id: "69765578544C9E2C"
+				item: "obscure_api:astral_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.2000000000000002d
+		}
+		{
+			dependencies: ["3351BC4716C05698"]
+			description: [
+				"对末影龙造成&6爆炸类型&r的伤害即可获得"
+				""
+				"悄悄告诉你，&a铝玻璃有3倍产出&r"
+				""
+				"灾变的绞肉锯可以刷的非常快，但是你现在不一定能打得过机械凋灵，后面可以考虑"
+			]
+			hide_dependency_lines: true
+			id: "009D5EC79DD6A9D6"
+			rewards: [{
+				id: "53124D76316E6284"
+				item: "cti:aluminium_glass"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.8d
+			subtitle: "此龙鳞非彼龙鳞"
+			tasks: [{
+				id: "6122B12CC623C3F3"
+				item: "tconstruct:dragon_scale"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.699999999999999d
+		}
+		{
+			dependencies: ["67A18085791201F0"]
+			description: ["欸，你说巧不巧，我这刚好多一块砖"]
+			id: "50D1F44D31AB8079"
+			rewards: [{
+				id: "52B0BA0779176FCD"
+				item: "iceandfire:dragonforge_fire_brick"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5FD406D5E10676C5"
+				item: "iceandfire:dragonforge_fire_core_disabled"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67A18085791201F0"]
+			description: ["欸，你说巧不巧，我这刚好多一块砖"]
+			id: "40400FFB4C0667F2"
+			rewards: [{
+				id: "3E2AB002FC670C41"
+				item: "iceandfire:dragonforge_ice_brick"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "64753CDD4DA3EF27"
+				item: "iceandfire:dragonforge_ice_core_disabled"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["227A53E3DB301D19"]
+			description: [
+				"好巧不巧，刚好要17个砖作为建筑材料"
+				""
+				"还需要一个锻孔"
+				""
+				"我前面送了你一个之后你不用做4剩3了"
+				""
+				"&l&m&9还不快谢谢我&r"
+			]
+			icon: "iceandfire:dragonforge_lightning_input"
+			id: "46F02408917E2E82"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "其他的部件"
+			tasks: [
+				{
+					count: 4L
+					id: "06BF6CC161D0671A"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "1540C53F35F42F6F"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "005ACB90FE56C1A3"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+			]
+			title: "龙霆锻炉"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40400FFB4C0667F2"]
+			description: [
+				"好巧不巧，刚好要17个砖作为建筑材料"
+				""
+				"哦对了，其实霜原的悚陵里面有龙霜锻炉的部分材料"
+				""
+				"还需要一个锻孔"
+				""
+				"我前面送了你一个之后你不用做4剩3了"
+				""
+				"&l&m&9还不快谢谢我&r"
+			]
+			icon: "iceandfire:dragonforge_ice_input"
+			id: "7031EA462F6A1979"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "1B8773BAFCEAD821"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "38EE164073A002F1"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "34740B4AC19BB5DA"
+					item: "iceandfire:dragonforge_ice_brick"
+					type: "item"
+				}
+			]
+			title: "龙霜锻炉"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50D1F44D31AB8079"]
+			icon: "iceandfire:dragonforge_fire_input"
+			id: "375DF434800993D6"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "00C4F8CEFBCDB727"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					id: "1E53E93392D49908"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "57D74594B507702E"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+			]
+			title: "龙炎锻炉"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7031EA462F6A1979"]
+			description: [
+				"只在深园的寒霜之地才有"
+				""
+				"虽然这个群系普遍挺小，但是你有高时运+精炼炉绝对用不完这么多霜钢的"
+			]
+			id: "5B5CE9F92770EBBC"
+			rewards: [{
+				id: "30668EAF25842095"
+				item: "undergarden:raw_froststeel"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "找冰龙顺手的事"
+			tasks: [{
+				id: "0C2DB2AC7EEDD0E2"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["46F02408917E2E82"]
+			description: [
+				"可以开天镜野外的小行星的箱子，里面随机出现白银地牢"
+				""
+				"你会发现这个熔炼比例本包贴心的给你放大了九倍，所以不用担心不够用"
+			]
+			id: "042B91FE93BBEB5C"
+			rewards: [{
+				id: "0492665E270C7C03"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "哦天哪是女武神大人"
+			tasks: [{
+				id: "3499E47234C4EB6C"
+				item: "kubejs:valkyrie_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["375DF434800993D6"]
+			description: [
+				"刷九头蛇或者暮初恶魂都可以大量获取到炽惹血泪"
+				""
+				"或者熔炼强化/熔炼九头蛇都可以获得血"
+				""
+				"总之最后获得到炽铁"
+			]
+			id: "06F7A569E58DA39C"
+			rewards: [{
+				count: 10
+				id: "21394D26D1A9BFCB"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "烈火"
+			tasks: [{
+				id: "1D923101AEA5F008"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06F7A569E58DA39C"]
+			description: [
+				"      冒险侧的准毕业材料，有着高强度的词条且自带不毁。"
+				""
+				"你不玩远程对吧，那你可以纯把这个当星界龙原材料"
+			]
+			id: "06870983EA984368"
+			rewards: [{
+				id: "7E46BC7DCB3CD133"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "远程市区"
+			tasks: [{
+				id: "73A2D5D61B6C2003"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B5CE9F92770EBBC"]
+			description: [
+				"有&e维格利得之影&r词条，只需要一件，即可全身任何槽位防&9诸神黄昏&r"
+				""
+				"同时抵抗诸神黄昏20%削血效果"
+				""
+				"他作为后期护甲真的可以"
+				""
+				"而且还有&b免死&r效果，可以提供大量容错"
+			]
+			id: "49AA22A59AEE0FCE"
+			rewards: [{
+				id: "45A49A8D50B54E82"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "我去复活cd久大人"
+			tasks: [{
+				id: "7BCCA3BEB9FA669E"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["042B91FE93BBEB5C"]
+			description: ["      关于龙魂吞噬者：它读取的是你的统计信息，所以你&6不需要&r做出龙钢装备后每个装备拿去杀50条龙，所有你杀过的龙都会参与计数。"]
+			id: "647B16598C588007"
+			rewards: [{
+				id: "4F51096C73F69D70"
+				item: {
+					Count: 1b
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "请输入文本"
+			tasks: [{
+				id: "6932095DE2A4A59A"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["108B742C79DFBB87"]
+			id: "5E1C975A3D98CB50"
+			subtitle: "是的，能做钥匙了"
+			tasks: [{
+				id: "645544C4CE1F2112"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5814329DCABB54FD"]
+			id: "11BA0FF4A4CB5D35"
+			subtitle: "是的，能做钥匙了"
+			tasks: [{
+				id: "0F177D4F3988CA2F"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6F368891161CDB8F"]
+			id: "491B99307928C5D6"
+			subtitle: "是的，能做钥匙了"
+			tasks: [{
+				id: "267B060934BDC35C"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["272710452EFD0B9D"]
+			description: ["记得不要配合连锁，会出问题"]
+			id: "6AE51AD3EAFA4F68"
+			subtitle: "这玩意居然也能挖？"
+			tasks: [{
+				id: "4136BA69F1093572"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6AE51AD3EAFA4F68"]
+			description: [
+				"豪罢他确实挺弱的"
+				""
+				"不过可以用来做更高级的熔岩"
+			]
+			id: "159FB46E8BEBB58D"
+			subtitle: "看着好弱..."
+			tasks: [{
+				id: "7D04A8C21E4FD290"
+				item: "tinkers_ingenuity:bedrock_alloy_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["159FB46E8BEBB58D"]
+			id: "61DE8F6D4512EF82"
+			rewards: [
+				{
+					id: "7319784BB605C33A"
+					item: "cti:lava_plasmatic_bucket"
+					type: "item"
+				}
+				{
+					id: "6761E560E3BE8971"
+					item: "aether_redux:gravitite_ingot"
+					type: "item"
+				}
+				{
+					id: "487F9352573B287D"
+					item: "tinkers_ingenuity:bedrock_alloy_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "你冒险线能获得的最高温的燃料"
+			tasks: [{
+				id: "01B00439BA6724B1"
+				item: "cti:lava_atomic_bucket"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
 		}
 	]
 	subtitle: [

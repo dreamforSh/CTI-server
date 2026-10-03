@@ -26,25 +26,25 @@
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 4.0,
+      "armor": 10.0,
       "durability": 750,
       "knockback_resistance": 0.2,
       "toughness": 3.0
     },
     "tconstruct:plating_chestplate": {
-      "armor": 9.0,
+      "armor": 15.0,
       "durability": 1130,
       "knockback_resistance": 0.2,
       "toughness": 6.0
     },
     "tconstruct:plating_leggings": {
-      "armor": 7.0,
+      "armor": 12.0,
       "durability": 910,
       "knockback_resistance": 0.2,
       "toughness": 4.0
     },
     "tconstruct:plating_boots": {
-      "armor": 4.0,
+      "armor": 10.0,
       "durability": 890,
       "knockback_resistance": 0.2,
       "toughness": 3.0
@@ -73,27 +73,24 @@
     },
     "etshtinker:ionizer": {
       "cooldown": 100,
-      "plasmarange": 50,
-      "damagemultiplier": 7.5
-    },
-    "tinkers_ingenuity:battery": {
-      "energy_capacity": 30000,
-      "durability": 0.2
-    },
-    "tinkers_ingenuity:laser_medium": {
-      "laser_range": 35,
-      "cooldown": 0.2
+      "plasmarange": 35,
+      "damagemultiplier": 5.5
     },
     "solidarytinker:soulge_heart": {
-      "detection_range": 95,
+      "detection_range": 55,
       "exert_times": 40,
-      "attack_frequency": 16,
+      "attack_frequency": 8,
       "kill_threshold": 0.4
     },
     "solidarytinker:core_battery": {
       "attack_range": 10,
       "target_amount": 4,
       "energy_capability": 3000000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 35,
+      "perception_count": 21,
+      "perception_cooldown": 5
     }
   }
 }

@@ -1,0 +1,4 @@
+#是否根据工具剩余耐久按比例决定旧部件返还概率。
+#Whether remaining tool durability affects the chance of returning the replaced part.
+durabilityAffectsReclaimChance = true
+

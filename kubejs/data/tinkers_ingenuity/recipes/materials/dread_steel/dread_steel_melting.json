@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dreadsteel"
+    }
+  ],
+  "ingredient": {
+    "item": "dreadsteel:dreadsteel_ingot"
+  },
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_dread_steel",
+    "amount": 90
+  },
+  "temperature": 3000,
+  "time": 20
+}

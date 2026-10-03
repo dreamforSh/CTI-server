@@ -1,0 +1,42 @@
+{
+  "default": [
+    {
+      "name": "tinkersinnovation:harden",
+      "level": 1
+    },
+    {
+      "name": "tinkersinnovation:transparent",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "name": "tinkersinnovation:harden",
+        "level": 1
+      },
+      {
+        "name": "tinkersinnovation:transparent",
+        "level": 1
+      },
+      {
+        "name": "cti:shulker_protect",
+        "level": 2
+      }
+    ],
+    "tinkersinnovation:shield": [
+      {
+        "name": "tinkersinnovation:harden",
+        "level": 1
+      },
+      {
+        "name": "tinkersinnovation:transparent",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:shulking",
+        "level": 1
+      }
+    ]
+  }
+}

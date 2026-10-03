@@ -78,6 +78,30 @@
 			x: 11.0d
 			y: 8.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 0.0625d
+			x: -36.0d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 8.0d
+			x: -18.0d
+			y: 7.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -523,7 +547,7 @@
 			dependencies: ["7BAF261EE40421DD"]
 			description: [
 				"消耗大量魔力制作出的泰拉钢兼顾了美观与实用，可以用来制作武器和装备，同时也可以为你开启通向精灵国度的大门。"
-				"十分遗憾，整合包内没有泰拉钢的匠魂材料。"
+				"它还是匠魂材料。"
 			]
 			id: "04C3A41617547688"
 			rewards: [
@@ -4167,28 +4191,6 @@
 		}
 		{
 			can_repeat: true
-			id: "1168F39B1994870F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D0826809C8731EB"
-				table_id: 6990509980770380787L
-				type: "random"
-			}]
-			shape: "heart"
-			subtitle: "知道你们不爱玩了ヽ(`Д´)ﾉ"
-			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "4E0A6F3C786D0B18"
-				item: "botania:mana_diamond"
-				type: "item"
-			}]
-			title: "符文兑换"
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			can_repeat: true
 			id: "7ED946D08DFBC0F8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4331,6 +4333,19 @@
 			title: "产线鉴赏：一种神秘魔力传输设备"
 			x: -8.0d
 			y: -6.0d
+		}
+		{
+			id: "05383F6C3CD0F90E"
+			shape: "diamond"
+			size: 8.0d
+			subtitle: "由于魔法线濒临重做，这个任务已经过时了，仅能起到参考作用"
+			tasks: [{
+				id: "02E9459C8B4C1531"
+				type: "checkmark"
+			}]
+			title: "注意：任务过时！"
+			x: -18.0d
+			y: 7.0d
 		}
 	]
 	subtitle: [

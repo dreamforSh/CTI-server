@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input":"tinkerscalibration:icelandspar",
+  "result": {
+    "fluid": "tinkerscalibration:moltenicelandspar",
+    "amount": 100
+  },
+  "temperature": 800
+}

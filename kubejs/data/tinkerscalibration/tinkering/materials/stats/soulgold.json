@@ -56,7 +56,8 @@
     },
     "solidarytinker:perception_core": {
       "max_level": 20,
-      "perception_count": 1000
+      "perception_count": 16,
+      "perception_cooldown": 24
     }
   }
 }

@@ -91,6 +91,42 @@
 			x: -6.5d
 			y: 5.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			click: "#13C9CE8309ACDC24"
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["点我查看阳清能量核心任务"]
+			image: "kubejs:item/aetherium_core"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.25d
+			y: -0.75d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -1128,22 +1164,28 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5548DF381652354D"]
+			dependencies: [
+				"5548DF381652354D"
+				"5DACB4D5286BA855"
+			]
 			description: [
 				" &b     裂变产线的最大轮椅，单方块的高速废料产出。"
 				"      使用方法在tooltip里已经说明的很详细了。&dmek的化学品管道自带缓存，可以被视为容器，所以你只要从机器左侧用管道输入裂变燃料，再从机器右侧用管道导出核废料就行了。"
 				"{image:kubejs:textures/ftbq_images/cb8129192445bb157da276484ccc2bbc.png width:98 height:65 align:1}"
 				"      这个机器满电时不工作"
 			]
+			hide_dependency_lines: true
 			id: "6FFCE411DDEB0250"
+			shape: "gear"
+			size: 1.5d
 			subtitle: "♿♿♿"
 			tasks: [{
 				id: "70A0B5D6444EEE45"
 				item: "cti:sodium_cooler"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5DACB4D5286BA855"]
@@ -1156,13 +1198,7 @@
 				"          锅炉的运行&c必须要用水和温度进行，锅炉持续运行后温度很难提升上来，即使你电阻加热到极致&r，所以我建议你做出&4聚变后专门分出一个接口接上热导线缆并接到锅炉的任何一个方块都可以供热&r。聚变的温度足够最大的锅炉运行到极致。"
 				"          如果只是用于水变蒸汽那就只需要两个锅炉阀门。&a如果是冷却过热钠，那就需要四个锅炉阀门，作用分别为接受水和过热钠，输出蒸汽和钠蒸汽。这期间&r&e钠蒸汽&r&a并不会减少，所以可以积攒足够量进行无限循环。"
 				"{@pagebreak}"
-				" &d        反应堆中子素收集器&r则是钠冷裂变的另一种选择，它能从&b左侧&r吸收过热钠并向&b右侧&r排出钠蒸汽（但是自身并不具备化学品缓存），并向机器&b上方&r的容器输出产物。你可以用加压管道来输入过热钠和接受钠蒸汽。"
-				"{image:kubejs:textures/ftbq_images/6b1a069dce9ba44920347a49ea84f012.png width:126 height:58 align:1}"
-				" &b        反应堆中子素收集器只要有过热钠输入、钠蒸汽输出和物品接受就能运作。无论是物品满了还是能量满了都会继续转化过热钠。"
-				"         反应堆中子素收集器的初始速率为&e100 000mB/t、100kFE/t&r，对应裂变反应堆的燃烧速率为&e0.5mB/t&r，通过加入催化剂可以提高效率。"
-				" &c       JEI&r显示的催化剂为&6催化剂单元&r，我们以&5超致密&r为例。JEI中超致密的数量为&b3&r，意味着超致密的催化剂单元按照&b3个超致密&r来计算。比如如果放入了36个超致密，那么催化剂单元数就是&b12&r，效率就是&61+22.67*12 = 272.04倍&r，催化剂消耗概率为&e0.12‰/t&r，此时过热钠最大消耗速率为&27 204 000&r，对应燃烧速率&e136.02&r，能量产出&27.204MFE/t。"
-				" &6     在反物质后，不会消耗的&c反中子&6也是另一种更为诱人选择。其最大效率为512.5mB/t----102.5MFE/t。"
-				"      &d阳清合金有着最高的效率。但是会消耗导致其略显昂贵。其最大效率为1928.5mB/t----385.7MFE/t"
+				" &d        反应堆中子素收集器&r则是钠冷裂变的另一种选择（但是需要冒险第三章进度），其用法请查看上方任务"
 			]
 			icon: "mekanism:boiler_valve"
 			id: "0B604DD2BD9FCA62"
@@ -1746,6 +1782,28 @@
 			]
 			x: -3.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["5DACB4D5286BA855"]
+			description: [
+				"它能从&b左侧&r吸收过热钠并向&b右侧&r排出钠蒸汽（但是自身并不具备化学品缓存），并向机器&b上方&r的容器输出产物。你可以用&6加压管道来&r输入过热钠和接受钠蒸汽。"
+				"{image:kubejs:textures/ftbq_images/6b1a069dce9ba44920347a49ea84f012.png width:126 height:58 align:1}"
+				" &b        反应堆中子素收集器只要有过热钠输入、钠蒸汽输出和物品接受就能运作。无论是物品满了还是能量满了都会继续转化过热钠。"
+				"         反应堆中子素收集器的初始速率为&e100 000mB/t、100kFE/t&r，对应裂变反应堆的燃烧速率为&e0.5mB/t&r，通过加入催化剂可以提高效率。"
+				" &c       JEI&r显示的催化剂为&6催化剂单元&r，我们以&5超致密&r为例。JEI中超致密的数量为&b3&r，意味着超致密的催化剂单元按照&b3个超致密&r来计算。比如如果放入了36个超致密，那么催化剂单元数就是&b12&r，效率就是&61+42.67*12 = 513.04倍&r，催化剂消耗概率为&e0.12‰/t&r，此时过热钠最大消耗速率为&e51 304 000&r，对应燃烧速率&e256.52&r，能量产出&e51.304MFE/t。"
+				" &6     在反物质后，不会消耗的&c反中子&6也是另一种更为诱人选择。其最大效率为512.5mB/t----102.5MFE/t。"
+			]
+			hide_dependency_lines: true
+			id: "46A100DA7B7586F0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0F6A86AB09B95A44"
+				item: "cti:reactor_neutron_collector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
 		}
 	]
 	subtitle: [

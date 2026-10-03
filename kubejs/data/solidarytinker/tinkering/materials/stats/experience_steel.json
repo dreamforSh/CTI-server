@@ -4,19 +4,19 @@
     "tconstruct:handle": {
       "durability": -0.1,
       "mining_speed": 0.5,
-      "melee_speed": 0.2,
-      "melee_damage": 0.1
+      "melee_speed": 0.5,
+      "melee_damage": 0.75
     },
     "tconstruct:head": {
       "durability": 650,
       "mining_speed": 5,
-      "mining_tier": "minecraft:diamond",
-      "melee_attack": 63
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 55
     },
     "tconstruct:limb": {
       "durability": 560,
       "draw_speed": 0.3,
-      "velocity": 2.6,
+      "velocity": 2.0,
       "accuracy": 1.2
     },
     "tconstruct:grip": {
@@ -25,6 +25,7 @@
       "melee_damage": 1.0
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
     "tconstruct:plating_helmet": {
       "armor": 2.0,
       "durability": 350,
@@ -54,14 +55,6 @@
       "knockback_resistance": 0.4,
       "toughness": 2
     },
-    "tinkersinnovation:shield_plate": {
-      "durability": 650,
-      "armor": 3.0,
-      "toughness": 2,
-      "knockback_resistance": 0.4,
-      "block_amount": 0.1,
-      "shield_amount": 3
-    },
     "etshtinker:fluid_chamber": {
       "fluid_capacity": 18000
     },
@@ -76,24 +69,21 @@
       "fluidefficiency": 0.2,
       "slash_color": 3
     },
-    "tinkers_ingenuity:battery": {
-      "energy_capacity": 28000,
-      "durability": 0.3
-    },
-    "tinkers_ingenuity:laser_medium": {
-      "laser_range": 30,
-      "cooldown": 1.1
-    },
     "solidarytinker:soulge_heart": {
       "detection_range": 20,
       "exert_times": 40,
-      "attack_frequency": 9,
+      "attack_frequency": 8,
       "kill_threshold": 0.22
     },
     "solidarytinker:core_battery": {
       "attack_range": 8,
       "target_amount": 9,
-      "energy_capability": 1000000
+      "energy_capability": 7000000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 30,
+      "perception_count": 18,
+      "perception_cooldown": 8
     }
   }
 }

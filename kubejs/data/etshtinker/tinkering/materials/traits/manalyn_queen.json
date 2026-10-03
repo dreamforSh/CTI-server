@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "modid": "botania",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "cti:mana_overload",
+      "level": 1
+    },
+    {
+      "name": "cti:enchanted_sword",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:manarepair",
+      "level": 1
+    }
+  ]
+}

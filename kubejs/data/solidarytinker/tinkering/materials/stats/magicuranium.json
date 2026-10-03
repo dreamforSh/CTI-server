@@ -4,14 +4,14 @@
     "tconstruct:handle": {
       "durability": 0.8,
       "mining_speed": 0.5,
-      "melee_speed": 0.25,
+      "melee_speed": 0.2,
       "melee_damage": 0.1
     },
     "tconstruct:head": {
       "durability": 650,
       "mining_speed": 5,
       "mining_tier": "minecraft:diamond",
-      "melee_attack": 14
+      "melee_attack": 2
     },
     "tconstruct:limb": {
       "durability": 560,
@@ -25,26 +25,27 @@
       "melee_damage": 1.0
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
     "tconstruct:plating_helmet": {
-      "armor": 2.0,
+      "armor": 7.0,
       "durability": 350,
       "knockback_resistance": 0.3,
       "toughness": 2.0
     },
     "tconstruct:plating_chestplate": {
-      "armor": 5.0,
+      "armor": 12.0,
       "durability": 480,
       "knockback_resistance": 0.2,
       "toughness": 2.0
     },
     "tconstruct:plating_leggings": {
-      "armor": 4.0,
+      "armor": 10.0,
       "durability": 390,
       "knockback_resistance": 0.2,
       "toughness": 2.0
     },
     "tconstruct:plating_boots": {
-      "armor": 2.0,
+      "armor": 7.0,
       "durability": 370,
       "knockback_resistance": 0.2,
       "toughness": 2.0
@@ -89,13 +90,18 @@
     "solidarytinker:soulge_heart": {
       "detection_range": 30,
       "exert_times": 30,
-      "attack_frequency": 8,
+      "attack_frequency": 4,
       "kill_threshold": 0.2
     },
     "solidarytinker:core_battery": {
-      "attack_range": 10,
+      "attack_range": 15,
       "target_amount": 5,
       "energy_capability": 200000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 25,
+      "perception_count": 20,
+      "perception_cooldown": 2
     }
   }
 }

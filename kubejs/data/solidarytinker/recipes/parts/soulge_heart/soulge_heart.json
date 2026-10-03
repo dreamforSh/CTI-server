@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:table_casting_material",
   "cast": {
-    "item": "l2complements:guardian_rune"
+    "item": "biomancy:primordial_core"
   },
   "cast_consumed": true,
   "item_cost": 5,

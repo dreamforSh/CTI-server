@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/mosite"
+  },
+  "result": {
+    "amount": 810,
+    "fluid": "tinkers_reforged:mosite"
+  },
+  "temperature": 1955,
+  "time": 208
+}

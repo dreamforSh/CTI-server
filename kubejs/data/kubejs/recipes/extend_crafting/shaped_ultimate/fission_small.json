@@ -4,9 +4,9 @@
     "AAAAAAAAA",
     "ABBCBCBBA",
     "ABDEDEDBA",
-    "ABFHFHFBA",
+    "ABFIFHFBA",
     "AGFEFEFGA",
-    "ABFHFHFBA",
+    "ABFHFIFBA",
     "ABFEFEFBA",
     "ABBCBCBBA",
     "AAAAAAAAA"
@@ -35,6 +35,9 @@
     },
     "H": {
       "item": "kubejs:core_emerald"
+    },
+    "I": {
+      "item": "kubejs:aetherium_core"
     }
   },
   "result": {

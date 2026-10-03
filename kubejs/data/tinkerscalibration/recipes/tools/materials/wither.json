@@ -3,16 +3,24 @@
   "inputs": [
     {
       "name": "tinkerscalibration:molteninertwitherium",
-      "amount": 90
+      "amount": 180
     },
     {
-      "name": "tconstruct:liquid_soul",
-      "amount": 2000
+      "name": "solidarytinker:molten_bloodmeat",
+      "amount": 90
+    },
+     {
+      "name": "kubejs:molten_absorption_boost",
+      "amount": 500
+    },
+    {
+      "name": "undergarden:virulent_mix_source",
+      "amount": 1000
     }
   ],
   "result": {
     "fluid": "tinkerscalibration:moltenwitherium",
     "amount": 180
   },
-  "temperature": 1490
+  "temperature": 1890
 }

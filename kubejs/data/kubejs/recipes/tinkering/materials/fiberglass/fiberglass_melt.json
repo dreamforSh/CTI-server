@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient":{ "item":"tinkerscalibration:fiberglass"},
+  "result": {
+    "fluid": "tinkerscalibration:moltenfiberglass",
+    "amount": 250
+  },
+  "temperature": 1450,
+  "time": 60
+}

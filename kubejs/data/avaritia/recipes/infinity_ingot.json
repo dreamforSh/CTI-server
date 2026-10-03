@@ -2,6 +2,9 @@
   "type": "avaritia:shaped_extreme_craft",
   "category": "misc",
   "key": {
+    "A": {
+      "item": "avaritia:infinity_nugget"
+    },
     "B": {
       "item": "avaritia:neutron_gear"
     },
@@ -21,7 +24,7 @@
   "pattern": [
     "NNNNNNNNN",
     "NCXXDXXCN",
-    "NXCBXBCXN",
+    "NACBABCAN",
     "NCXXDXXCN",
     "NNNNNNNNN"
   ],

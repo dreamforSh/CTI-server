@@ -1,0 +1,32 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:replace_sin_root",
+        "level": 5
+      },
+      {
+        "name": "tinkers_ingenuity:alien",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "cti:replace_sin_root",
+        "level": 5
+      },
+      {
+        "name": "tinkers_ingenuity:alien",
+        "level": 1
+      },
+      {
+        "name": "cti:the_relic",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -30,22 +30,22 @@
 	#协调伤害上限。
 	#Range: > 1
 	Harmonize_MAX = 64
+	#Blue burn damage , 18% by default.
+	#蓝焰伤害，默认18%。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Blue_Burn_Damage = 0.18
 
 #Tiantuistar blade
 #天退星刀
 [tiantuistar_blade]
-	#Charge attack range, 0.5 by default.
-	#冲刺攻击范围，默认0.5。
+	#Charge attack range, 1.0 by default.
+	#冲刺攻击范围，默认1.0。
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Charge attack range" = 0.5
-	#Expanded charge attack range, 0.5*level by default.
+	#Expanded charge attack range, 1.5*level by default.
 	#延展冲刺攻击范围，默认每级0.5。
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Expanded charge attack range" = 0.5
-	#Savage tigermark round damage, 150% by default.
-	#猛虎标弹伤害，默认150%。
-	#Range: 0.0 ~ 1.7976931348623157E308
-	"Savage tigermark round damage" = 1.5
 
 #Tigermark rounds
 #虎标弹
@@ -66,6 +66,34 @@
 	#猛虎标弹爆炸伤害，默认25%
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Savage tigermark round Explosion damage" = 0.25
+	#Savage tigermark round damage, 150% by default.
+	#猛虎标弹伤害，默认150%。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Savage tigermark round damage" = 1.5
+	#Void power round push power, 0.2 by default.
+	#虚空动力弹推进力度，默认0.2。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Void power round push power" = 0.2
+	#Void power round damage, 150% by default.
+	#虚空动力弹伤害，默认270%。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Void power round damage" = 2.7
+	#Void power round Explosion damage, 25% by default.
+	#虚空动力弹爆炸伤害，默认75%
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Void power round Explosion damage" = 0.75
+	#Fiery round push power, 0.4 by default.
+	#炽虎爆弹推进力度，默认0.4。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Fiery round push power" = 0.4
+	#Fiery round damage, 150% by default.
+	#炽虎爆弹伤害，默认100%。
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Fiery round damage" = 1.0
+	#Fiery round Explosion damage, 250% by default.
+	#炽虎爆弹爆炸伤害，默认250%
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Fiery round Explosion damage" = 2.5
 
 #Fiery melter
 #炽铁熔化炉

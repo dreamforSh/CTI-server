@@ -62,6 +62,10 @@
       {
         "level": 1,
         "name": "cti:strengthen"
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ],
     "tconstruct:shield_core": [
@@ -76,6 +80,10 @@
       {
         "level": 1,
         "name": "cti:strengthen"
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ],
     "tconstruct:plating_helmet": [
@@ -86,6 +94,10 @@
       {
         "name": "cloudertinker:unrestrainedsystem",
         "level": 1
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ],
     "tconstruct:plating_chestplate": [
@@ -96,6 +108,10 @@
       {
         "name": "cloudertinker:unrestrainedsystem",
         "level": 1
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ],
     "tconstruct:plating_leggings": [
@@ -106,6 +122,10 @@
       {
         "name": "cloudertinker:unrestrainedsystem",
         "level": 1
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ],
     "tconstruct:plating_boots": [
@@ -116,6 +136,10 @@
       {
         "name": "cloudertinker:unrestrainedsystem",
         "level": 1
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ],
     "tconstruct:plating_shield": [
@@ -126,6 +150,10 @@
       {
         "name": "cloudertinker:unrestrainedsystem",
         "level": 1
+      },
+      {
+        "level": 3,
+        "name": "cti:arrogant_person"
       }
     ]
   }

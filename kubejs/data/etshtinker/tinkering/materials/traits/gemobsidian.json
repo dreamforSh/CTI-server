@@ -1,0 +1,24 @@
+{
+  "condition": {
+    "modid": "cyclic",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "cti:industrial_armor",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:semicrystaline",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:inorganiccr",
+      "level": 1
+    },
+    {
+      "name": "cti:advanced_igneous",
+      "level": 1
+    }
+  ]
+}

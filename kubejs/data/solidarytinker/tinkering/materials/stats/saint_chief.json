@@ -4,14 +4,14 @@
     "tconstruct:handle": {
       "durability": 0.7,
       "mining_speed": 2.7,
-      "melee_speed": 0.5,
+      "melee_speed": 1.2,
       "melee_damage": 0.2
     },
     "tconstruct:head": {
       "durability": 1920,
       "mining_speed": 5,
       "mining_tier": "minecraft:diamond",
-      "melee_attack": 8
+      "melee_attack": 5.5
     },
     "tconstruct:limb": {
       "durability": 1680,
@@ -47,6 +47,11 @@
     "tinkers_ingenuity:laser_medium": {
       "laser_range": 35,
       "cooldown": 1.1
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 25,
+      "perception_count": 16,
+      "perception_cooldown": 7
     }
   }
 }

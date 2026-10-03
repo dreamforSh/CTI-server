@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "cti:breakstone",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+
+  }
+}

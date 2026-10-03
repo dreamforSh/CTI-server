@@ -1,44 +1,47 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "  AAA  ",
-    " ABCBA ",
-    " ADEDA ",
-    "AFGHGFA",
-    " ADIDA ",
-    " ABJBA ",
-    "  AAA  "
+    "A BBB A",
+    " BCDCB ",
+    " BEFEB ",
+    "BGHIHGB",
+    " BJKJB ",
+    " BCDCB ",
+    "A BBB A"
   ],
   "key": {
     "A": {
-      "item": "l2complements:totemic_gold_ingot"
+      "item": "l2complements:soul_flame"
     },
     "B": {
-      "item": "l2hostility:hard_skin"
+      "item": "l2complements:totemic_gold_ingot"
     },
     "C": {
-      "item": "enigmaticlegacy:monster_charm"
-    },
-    "D": {
-      "item": "tconstruct:dragon_scale"
-    },
-    "E": {
-      "item": "kubejs:evil_mechanism"
-    },
-    "F": {
       "item": "l2hostility:pulling"
     },
+    "D": {
+      "item": "l2hostility:farewell_gift"
+    },
+    "E": {
+      "item": "tconstruct:dragon_scale"
+    },
+    "F": {
+      "item": "kubejs:evil_mechanism"
+    },
     "G": {
-      "item": "l2complements:life_essence"
+      "item": "l2hostility:hard_skin"
     },
     "H": {
-      "item": "gobber2:dragon_star"
+      "item": "undergarden:regalium_crystal"
     },
     "I": {
-      "item": "enigmaticlegacy:soul_crystal"
+      "item": "gobber2:dragon_star"
     },
     "J": {
-      "item": "enigmaticlegacy:guardian_heart"
+      "item": "undergarden:forgotten_ingot"
+    },
+    "K": {
+      "item": "enigmaticlegacy:soul_crystal"
     }
   },
   "result": {

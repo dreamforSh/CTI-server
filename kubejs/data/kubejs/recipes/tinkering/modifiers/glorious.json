@@ -3,7 +3,15 @@
   "inputs": [
     {
       "item": "tinkers_ingenuity:splendid_ingot",
-      "amount_needed": 6
+      "amount_needed": 2
+    },
+    {
+      "item": "aether:victory_medal",
+      "amount_needed": 4
+    },
+    {
+      "item": "tinkers_ingenuity:crocell_ingot",
+      "amount_needed": 2
     }
   ],
   "tools": {
@@ -12,9 +20,9 @@
   "allow_crystal": true,
   "result": "tinkers_ingenuity:glorious",
   "level": {
-    "max": 1
+    "max": 2
   },
   "slots": {
-    "abilities": 2
+    "abilities": 3
   }
 }

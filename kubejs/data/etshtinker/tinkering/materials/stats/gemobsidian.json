@@ -1,0 +1,38 @@
+{
+  "condition": {
+    "modid": "cyclic",
+    "type": "forge:mod_loaded"
+  },
+  "stats": {
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 6,
+      "durability": 875,
+      "knockback_resistance": 0.3,
+      "toughness":4
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 10,
+      "durability": 1250,
+      "knockback_resistance": 0.3,
+      "toughness": 4
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 9,
+      "durability": 1125,
+      "knockback_resistance": 0.3,
+      "toughness": 4
+    },
+    "tconstruct:plating_boots": {
+      "armor": 6,
+      "durability": 925,
+      "knockback_resistance": 0.3,
+      "toughness": 4
+    },
+    "tconstruct:plating_shield": {
+      "durability": 750,
+      "knockback_resistance": 0.1,
+      "toughness": 2
+    }
+  }
+}

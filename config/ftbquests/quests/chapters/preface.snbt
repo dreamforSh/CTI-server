@@ -36,7 +36,7 @@
 	quests: [
 		{
 			description: [
-				"感谢你下载这个整合包，这是一个以&b科技&r为主题，&b匠魂&r为主要玩法的整合包"
+				"感谢你下载这个整合包，这是一个以&b匠魂&r为主题，&b科技冒险混合&r玩法的整合包"
 				"其中有整合包自己添加的&e材料&r，&9星系&r和&d独特配方&r&a等等&r"
 				""
 				"虽然我知道这很啰嗦，但是&c接下来请看完前言全部内容&r，这样可以解决很多你&9游玩时的疑问&r"
@@ -1789,16 +1789,16 @@
 							tic_stats: {
 								"etshtinker:fluid_efficiency": 7.223693f
 								"etshtinker:plasmarange": 0.036118463f
-								"tconstruct:armor_toughness": 0.25282925f
-								"tconstruct:block_amount": 1.4447385f
-								"tconstruct:block_angle": 4.6954f
-								"tconstruct:durability": 541.50604f
+								"tconstruct:armor_toughness": 0.36118463f
+								"tconstruct:block_amount": 1.0319561f
+								"tconstruct:block_angle": 3.3538573f
+								"tconstruct:durability": 773.5801f
 								"tconstruct:knockback_resistance": 0.025798902f
 								"tconstruct:use_item_speed": 0.4f
 							}
 							tic_volatile_data: {
 								abilities: 6
-								defense: 2
+								defense: 6
 								upgrades: 8
 							}
 						}

@@ -5,6 +5,10 @@
       "parts": [
         {
           "item": "tconstruct:broad_blade",
+          "scale": 1.25
+        },
+        {
+          "item": "tconstruct:tough_handle",
           "scale": 0.75
         },
         {
@@ -12,12 +16,8 @@
           "scale": 0.5
         },
         {
-          "item": "tconstruct:tough_handle",
-          "scale": 0.5
-        },
-        {
           "item": "tconstruct:large_plate",
-          "scale": 0.25
+          "scale": 0.5
         }
       ]
     },
@@ -52,16 +52,16 @@
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:attack_damage": 1.5,
-        "tconstruct:durability": 3.5,
+        "tconstruct:attack_damage": 1.6,
+        "tconstruct:durability": 2.5,
         "tconstruct:mining_speed": 0.25
       }
     },
     {
       "type": "tconstruct:modifier_slots",
       "slots": {
-        "abilities": 1,
-        "upgrades": 2
+        "abilities": 2,
+        "upgrades": 3
       }
     },
     {
@@ -76,8 +76,12 @@
           "name": "tconstruct:silky_aoe_shears"
         },
         {
-          "level": 2,
+          "level": 3,
           "name": "tconstruct:looting"
+        },
+        {
+          "level": 4,
+          "name": "cti:supercrithit"
         }
       ]
     },

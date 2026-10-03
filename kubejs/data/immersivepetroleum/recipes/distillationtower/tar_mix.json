@@ -17,16 +17,12 @@
       "fluid": "kubejs:ethyne"
     },
     {
-      "amount": 20,
-      "fluid": "immersivepetroleum:kerosene"
+      "amount": 60,
+      "fluid": "mekanism:ethene"
     },
     {
       "amount": 100,
       "fluid": "immersivepetroleum:diesel_sulfur"
-    },
-    {
-      "amount": 20,
-      "fluid": "immersivepetroleum:lubricant"
     }
   ],
   "time": 2

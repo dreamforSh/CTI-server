@@ -2,16 +2,46 @@
   "modifier.kubejs": {
   },
   "modifier.cti": {
-    "refined": "#A48DFF",
     "zanite": "#A984D1",
-    "weight_unstable": "#948B8B"
+    "weight_unstable": "#948B8B",
+    "farther_sights":"#8E9DFF",
+    "alf_burst":"#F79100",
+    "terra_burst":"#4BFF4E",
+    "destruction_magic":"#FF813D",
+    "echo_form":"#3BFFC4",
+    "burst_accelerate":"#5CC9FF",
+    "mana_capacity":"#5CC9FF",
+    "mana_resonance":"#F18CFF",
+    "mana_overload":"#6F96FF",
+    "enchanted_sword":"#6F96FF",
+    "glory_etch":"#FFC209",
+    "burst_bypass_cooldown":"#6F96FF",
+    "gobber_etch_1":"#00A2E8",
+    "gobber_etch_2":"#C2001E",
+    "gobber_etch_3":"#00E88C",
+    "coordinator":"#3B190A",
+    "golden_amber_touch":"#FFCC44",
+    "replaced_conducting":"#FFEE39",
+    "high_heat":"#FFEE39",
+    "replaced_fiery":"#E35336",
+    "replaced_heat_sword":"#FF6613",
+    "scorched":"#381910",
+    "ruby_laser":"#FF5151",
+    "exothermic":"#FF923B",
+    "searing_blow":"#FF923B",
+    "oxidizing_flame":"#FF6845",
+    "melee_fiery_javelin":"#FF6C00",
+    "phantom_forged":"#4BFFA3",
+    "birefringent":"#A5FFFD"
   },
   "material.cti": {
     "violium": "#A48DFF",
-    "aetherium": "#A48DFF"
+    "aetherium": "#A48DFF",
+    "xenoglarium": "#415ea2"
   },
   "material.kubejs": {
     "zirconium_alloy": "#FACCFF",
+    "tungsten_steel": "#7d7d7d",
     "perfect_generic_item_new": "#90FF90",
     "veridium": "#00A2E8",
     "star_alloy": "#3259be",
@@ -26,6 +56,10 @@
     "carbon_plate": "#303030",
     "star_dragon": "#0041E8",
     "endergobber": "#70e5ab",
-    "sturdy_sheet": "#3B2754"
+    "industrial_gel": "#3B190A",
+    "source_gem": "#F18CFF",
+    "terrasteel": "#4BFF4E",
+    "sturdy_sheet": "#3B2754",
+    "swet_bronze": "#ffe978"
   }
 }

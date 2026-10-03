@@ -1,0 +1,32 @@
+{
+  "condition": {
+    "modid": "thermal",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "etshtinker:sidechannelattack",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:shattered",
+      "level": 1
+    },
+    {
+      "name": "cti:industrial",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:basalzdefence",
+        "level": 1
+      },
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "condition": {
+    "modid": "thermal",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "etshtinker:iluminate",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:shocked",
+      "level": 1
+    },
+    {
+      "name": "cti:industrial",
+      "level": 1
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:blitzdefense",
+        "level": 1
+      },
+      {
+        "name": "cti:industrial_armor",
+        "level": 2
+      }
+    ]
+  }
+}

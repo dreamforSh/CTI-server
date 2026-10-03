@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_ingenuity:dread_steel",
+  "temperature": 3000,
+  "result": {
+    "fluid": "tinkers_ingenuity:molten_dread_steel",
+    "amount": 90
+  }
+}

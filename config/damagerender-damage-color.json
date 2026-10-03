@@ -1,0 +1,12 @@
+{
+	"magic": "#8A2BE2",
+	"witherSkull": "#27004B",
+	"indirectMagic": "#8A2BE2",
+	"freeze": "#00FFFF",
+	"inFire": "#FF0000",
+	"lava": "#FF0000",
+	"heal": "#00FF00",
+	"wither": "#27004B",
+	"onFire": "#FF0000",
+	"lightningBolt": "#FFFF00"
+}

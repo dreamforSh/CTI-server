@@ -17,6 +17,46 @@
         "name": "cti:shadow_of_vigrid",
         "level": 1
       }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:devourer_of_dragons_armor",
+        "level": 1
+      },
+      {
+        "name": "cti:fiery_capable",
+        "level": 5
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:devourer_of_dragons",
+        "level": 1
+      },
+      {
+        "name": "cti:replaced_heat_sword",
+        "level": 1
+      },
+      {
+        "name": "cti:melee_fiery_javelin",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 1
+      }
     ]
   }
 }

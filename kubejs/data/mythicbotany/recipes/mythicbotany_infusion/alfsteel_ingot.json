@@ -1,0 +1,22 @@
+{
+  "type": "mythicbotany:infuser",
+  "fromColor": 16711821,
+  "group": "infuser",
+  "ingredients": [
+    {
+      "tag": "botania:elementium_ingots"
+    },
+    {
+      "tag": "botania:dragonstone_gems"
+    },
+    {
+      "item": "botania:pixie_dust"
+    }
+  ],
+  "mana": 750000,
+  "output": {
+    "count": 1,
+    "item": "mythicbotany:alfsteel_ingot"
+  },
+  "toColor": 16750080
+}

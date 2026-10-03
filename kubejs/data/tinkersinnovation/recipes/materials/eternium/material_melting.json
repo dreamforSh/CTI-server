@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkersinnovation:eternium",
+  "temperature": 6324,
+  "result": {
+    "fluid": "tinkersinnovation:molten_eternium",
+    "amount": 90
+  }
+}

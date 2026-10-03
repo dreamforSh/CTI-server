@@ -55,20 +55,9 @@ ServerEvents.recipes(event => {
             //配方id
             .id("hot_heavycrystal_lava");
 
-//富油
-        event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 2000', '{"text": "富油"}', 0, 20)
-            //钻头等级
-            .drill('#createoreexcavation:second_createore_drill')
-            //无限量
-            .alwaysInfinite()
-            //应力值
-            .stress(640)
-            .biomeWhitelist('kubejs:null')
-            //配方id
-            .id("rich_oil");
 
-//贫油
-        event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 4000', '{"text": "贫油"}', 40, 20)
+//原油
+        event.recipes.createoreexcavation.extracting('immersivepetroleum:crudeoil 500', '{"text": "原油"}', 40, 20)
             //钻头等级
             .drill('#createoreexcavation:second_createore_drill')
             //应力值
@@ -76,13 +65,13 @@ ServerEvents.recipes(event => {
             //生物群落白名单
             .biomeWhitelist('minecraft:is_overworld')
             //配方id
-            .id("poor_oil");
+            .id("oil");
 
 
 //钴-阿迪特伴生矿
-        event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite'), Item.of('tinkerscalibration:raw_inert_witherium').withChance(0.2)], '{"text": "钴-阿迪特伴生矿"}', 30, 80)
+        event.recipes.createoreexcavation.drilling([Item.of('tconstruct:raw_cobalt'), Item.of('tinkers_thinking:raw_ardite')], '{"text": "钴-阿迪特伴生矿"}', 30, 80)
             .drill('#createoreexcavation:second_createore_drill')
-            .fluid('minecraft:lava')
+            .fluid('minecraft:water')
             .biomeWhitelist('minecraft:is_nether')
             .stress(512)
             .id("cobalt_ardite_complex");

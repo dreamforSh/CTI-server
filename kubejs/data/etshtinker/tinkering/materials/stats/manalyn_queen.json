@@ -1,0 +1,26 @@
+{
+  "condition": {
+    "modid": "botania",
+    "type": "forge:mod_loaded"
+  },
+  "stats": {
+    "tconstruct:binding": {},
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 48000
+    },
+    "tconstruct:handle": {
+      "durability": -0.1,
+      "mining_speed": 0.5,
+      "melee_speed": 1.3,
+      "melee_damage": 0.85
+    },
+    "tconstruct:head": {
+      "durability": 384,
+      "mining_speed": 9.5,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 19.5
+    },
+    "tconstruct:limb": null,
+    "tconstruct:grip": null
+  }
+}

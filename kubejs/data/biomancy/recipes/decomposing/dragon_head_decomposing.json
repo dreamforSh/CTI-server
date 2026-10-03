@@ -30,14 +30,7 @@
     {
       "countRange": {
         "type": "constant",
-        "value": 40
-      },
-      "item": "biomancy:mineral_fragment"
-    },
-    {
-      "countRange": {
-        "type": "constant",
-        "value": 100
+        "value": 10
       },
       "item": "biomancy:bone_fragments"
     }

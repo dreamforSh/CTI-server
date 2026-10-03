@@ -3,11 +3,11 @@
   "pattern": [
     "AABBCBBAA",
     "ADEEEEEDA",
-    "BEDDFDDEB",
-    "BEDGGGDEB",
-    "CEFGHGFEC",
-    "BEDGGGDEB",
-    "BEDDFDDEB",
+    "BEAFGFAEB",
+    "BEFHHHFEB",
+    "CEGHIHGEC",
+    "BEFHHHFEB",
+    "BEAFGFAEB",
     "ADEEEEEDA",
     "AABBCBBAA"
   ],
@@ -19,21 +19,24 @@
       "item": "etshtinker:exotic_matter"
     },
     "C": {
-      "item": "mekanism:ultimate_energy_cube"
+      "item": "mekanism:ultimate_induction_cell"
     },
     "D": {
-      "item": "avaritia:crystal_matrix_ingot"
+      "item": "avaritia:infinity_ingot"
     },
     "E": {
       "item": "mekanism:ultimate_induction_provider"
     },
     "F": {
-      "item": "cti:quantum_miner"
+      "item": "avaritia:crystal_matrix_ingot"
     },
     "G": {
-      "item": "etshtinker:anti_neutronium"
+      "item": "cti:quantum_miner"
     },
     "H": {
+      "item": "etshtinker:anti_neutronium"
+    },
+    "I": {
       "item": "kubejs:core_nether"
     }
   },

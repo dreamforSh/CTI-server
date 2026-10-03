@@ -1,0 +1,56 @@
+{
+  "condition": {
+    "modid": "mythicbotany",
+    "type": "forge:mod_loaded"
+  },
+  "stats": {
+    "etshtinker:fluid_chamber": {
+      "fluid_capacity": 32000
+    },
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.2,
+      "mining_speed": 0.5,
+      "melee_speed": 1.3,
+      "melee_damage": 0.2
+    },
+    "tconstruct:head": {
+      "durability": 790,
+      "mining_speed": 9,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 7.7
+    },
+    "tconstruct:limb": null,
+    "tconstruct:grip": null,
+    "tconstruct:maille": {},
+    "tconstruct:plating_helmet": {
+      "armor": 8,
+      "durability": 455,
+      "knockback_resistance": 0.02,
+      "toughness":5
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 14.0,
+      "durability": 502,
+      "knockback_resistance": 0.02,
+      "toughness": 5
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 12,
+      "durability": 425,
+      "knockback_resistance": 0.02,
+      "toughness": 5
+    },
+    "tconstruct:plating_boots": {
+      "armor": 7.0,
+      "durability": 360,
+      "knockback_resistance": 0.02,
+      "toughness": 5
+    },
+    "tconstruct:plating_shield": {
+      "durability": 355,
+      "knockback_resistance": 0.02,
+      "toughness": 5
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/mosite"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "tinkers_reforged:mosite"
+  },
+  "temperature": 1955,
+  "time": 69
+}

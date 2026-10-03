@@ -2,16 +2,16 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 1.31,
+      "durability": 8.6,
       "mining_speed": -0.75,
       "melee_speed": 1.75,
-      "melee_damage": 1.14
+      "melee_damage": 4.5
     },
     "tconstruct:head": {
-      "durability": 3250,
+      "durability": 35035,
       "mining_speed": 10,
       "mining_tier": "solidarytinker:momo",
-      "melee_attack": 879
+      "melee_attack": 259
     },
     "tconstruct:limb": {
       "durability": 2915,
@@ -25,29 +25,30 @@
       "melee_damage": 5.0
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core": {},
     "tconstruct:plating_helmet": {
-      "armor": 5.0,
-      "durability": 1440,
+      "armor": 20.0,
+      "durability": 14400,
       "knockback_resistance": 0.2,
-      "toughness": 4.0
+      "toughness": 20.0
     },
     "tconstruct:plating_chestplate": {
-      "armor": 11.0,
-      "durability": 3840,
+      "armor": 25.0,
+      "durability": 38400,
       "knockback_resistance": 0.2,
-      "toughness": 7.0
+      "toughness": 20.0
     },
     "tconstruct:plating_leggings": {
-      "armor": 8.0,
-      "durability": 2560,
+      "armor": 23.0,
+      "durability": 25600,
       "knockback_resistance": 0.2,
-      "toughness": 5.0
+      "toughness": 20.0
     },
     "tconstruct:plating_boots": {
-      "armor": 5.0,
-      "durability": 2160,
+      "armor": 20.0,
+      "durability": 21600,
       "knockback_resistance": 0.2,
-      "toughness": 4.0
+      "toughness": 20.0
     },
     "tconstruct:plating_shield": {
       "durability": 3715,
@@ -68,7 +69,7 @@
     "etshtinker:ionizer": {
       "cooldown": 40,
       "plasmarange": 50,
-      "damagemultiplier": 6.5
+      "damagemultiplier": 15
     },
     "etshtinker:plasma_generator": {
       "damagemultiplier": 12.4,
@@ -77,12 +78,12 @@
       "slash_color": 6
     },
     "tinkers_ingenuity:battery": {
-      "energy_capacity": 30000,
-      "durability": 0.2
+      "energy_capacity": 100000,
+      "durability": 0.5
     },
     "tinkers_ingenuity:laser_medium": {
-      "laser_range": 35,
-      "cooldown": 0.2
+      "laser_range": 50,
+      "cooldown": 1
     },
     "tinkers_ingenuity:curio_extra": {},
     "tinkers_ingenuity:curio_main": {
@@ -102,6 +103,11 @@
       "attack_range": 25,
       "target_amount": 25,
       "energy_capability": 912500000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 125,
+      "perception_count": 48,
+      "perception_cooldown": 5
     }
   }
 }

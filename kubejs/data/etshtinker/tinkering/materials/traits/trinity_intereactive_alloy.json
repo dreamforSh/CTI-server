@@ -1,0 +1,28 @@
+{
+  "condition": {
+    "modid": "mekanism",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "cti:refined",
+      "level": 3
+    },
+    {
+      "name": "etshtinker:trinityblessing",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:trinitycurse",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:solidex",
+      "level": 1
+    },
+    {
+      "name": "cti:the_relic",
+      "level": 3
+    }
+  ]
+}

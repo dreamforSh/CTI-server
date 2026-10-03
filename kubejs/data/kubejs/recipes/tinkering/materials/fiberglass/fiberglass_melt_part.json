@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input":"tinkerscalibration:fiberglass",
+  "result": {
+    "fluid": "tinkerscalibration:moltenfiberglass",
+    "amount": 250
+  },
+  "temperature": 1450
+}

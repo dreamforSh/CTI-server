@@ -3,12 +3,14 @@
   "list": [
     {
       "blacklist": [
-        "l2hostility:adaptive"
+        "l2hostility:adaptive",
+        "l2hostility:invisible",
+        "l2hostility:teleport"
       ],
       "difficulty": {
         "apply_chance": 1.0,
         "base": 100,
-        "min": 200,
+        "min": 400,
         "scale": 0.0,
         "trait_chance": 1.0,
         "variation": 0.0
@@ -19,14 +21,24 @@
       "items": [],
       "traits": [
         {
-          "free": 0,
-          "min": 1,
+          "free": 2,
+          "min": 2,
           "trait": "l2hostility:reflect"
+        },
+         {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:killer_aura"
         },
         {
           "free": 1,
           "min": 1,
           "trait": "l2hostility:cursed"
+        },
+        {
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:farewell_gift"
         }
       ]
     }

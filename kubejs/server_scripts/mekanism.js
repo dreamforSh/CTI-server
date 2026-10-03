@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
   event.recipes.mekanismEnriching("cti:enriched_mana", "cti:magic_crystal")
   event.recipes.mekanismEnriching("kubejs:enriched_refined_glowstone", 'mekanism:ingot_refined_glowstone')
   event.recipes.mekanismEnriching("aether_redux:refined_sentrite", 'kubejs:sentrite')
+  event.recipes.mekanismEnriching('createutilities:polished_amethyst', 'minecraft:amethyst_shard')
   //其他
   event.recipes.mekanismSmelting("kubejs:overchargedultradense", "kubejs:activated_matter_dust")
   event.recipes.mekanismSmelting('immersiveengineering:ingot_aluminum', '#forge:dusts/aluminum')
@@ -1282,4 +1283,26 @@ event.custom({
   electrolysis("mekanism:heavy_water",10,"mekanismgenerators:deuterium",10,"mekanism:oxygen",5)
 
   event.recipes.mekanism.combining('kubejs:particle_container','16x kubejs:unipolar_magnet_shard','#forge:ingots')
+
+  event.custom({
+  "type": "mekanism:rotary",
+  "fluidInput": {
+    "amount": 90,
+    "fluid": "tconstruct:molten_uranium"
+  },
+  "fluidOutput": {
+    "amount": 90,
+    "fluid": "tconstruct:molten_uranium"
+  },
+  "gasInput": {
+    "amount": 512,
+    "gas": "cti:gaseous_uranium"
+  },
+  "gasOutput": {
+    "amount": 512,
+    "gas": "cti:gaseous_uranium"
+  }
+  })
+
+  chemicalInfuse("cti:gaseous_uranium",1,"mekanism:oxygen",1,"mekanism:uranium_oxide",2)
 })

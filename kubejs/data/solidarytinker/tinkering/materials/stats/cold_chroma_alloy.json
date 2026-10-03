@@ -2,92 +2,81 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 0.2,
+      "durability": 0.6,
       "mining_speed": 0.0,
-      "melee_speed": 0.8,
-      "melee_damage": 0.2
+      "melee_speed": 0.6,
+      "melee_damage": 0.95
     },
     "tconstruct:head": {
-      "durability": 1456,
+      "durability": 3840,
       "mining_speed": 7.5,
       "mining_tier": "minecraft:netherite",
-      "melee_attack": 75
+      "melee_attack": 55
     },
     "tconstruct:limb": {
-      "durability": 1456,
+      "durability": 2650,
       "draw_speed": 0.5,
-      "velocity": 2.4,
-      "accuracy": 1.2
+      "velocity": 1.2,
+      "accuracy": 1.4
     },
     "tconstruct:grip": {
       "durability": 1.1,
       "accuracy": 1.0,
-      "melee_damage": 6.0
+      "melee_damage": 8.0
     },
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 5.5,
-      "durability": 536,
-      "knockback_resistance": 0.1,
-      "toughness": 1.0
+      "armor": 8,
+      "durability": 1360,
+      "knockback_resistance": 0.5,
+      "toughness": 6.0
     },
     "tconstruct:plating_chestplate": {
-      "armor": 9.5,
-      "durability": 890,
-      "knockback_resistance": 0.1,
-      "toughness": 1.0
+      "armor": 15,
+      "durability": 3568,
+      "knockback_resistance": 0.5,
+      "toughness": 6.0
     },
     "tconstruct:plating_leggings": {
-      "armor": 7.5,
-      "durability": 756,
-      "knockback_resistance": 0.1,
-      "toughness": 1.0
+      "armor": 13,
+      "durability": 2542,
+      "knockback_resistance": 0.5,
+      "toughness": 6.0
     },
     "tconstruct:plating_boots": {
-      "armor": 5.5,
-      "durability": 632,
-      "knockback_resistance": 0.1,
-      "toughness": 1.0
+      "armor": 7,
+      "durability": 1650,
+      "knockback_resistance": 0.5,
+      "toughness": 6.0
     },
     "tconstruct:plating_shield": {
-      "durability": 1560,
-      "knockback_resistance": 0.2,
-      "toughness": 4
-    },
-    "tinkersinnovation:shield_plate": {
-      "durability": 2248,
-      "armor": 6.0,
-      "toughness": 3,
-      "knockback_resistance": 0.2,
-      "block_amount": 0.5,
-      "shield_amount": 15
+      "durability": 2960,
+      "knockback_resistance": 0.5,
+      "toughness": 6
     },
     "etshtinker:fluid_chamber": {
-      "fluid_capacity": 160000
+      "fluid_capacity": 320000
     },
     "etshtinker:ionizer": {
-      "cooldown": 20,
+      "cooldown": 10,
       "plasmarange": 40,
-      "damagemultiplier": 3.5
-    },
-    "tinkers_ingenuity:battery": {
-      "energy_capacity": 84000,
-      "durability": 0.4
-    },
-    "tinkers_ingenuity:laser_medium": {
-      "laser_range": 40,
-      "cooldown": 0.1
+      "damagemultiplier": 2.2
     },
     "solidarytinker:soulge_heart": {
       "detection_range": 40,
       "exert_times": 40,
-      "attack_frequency": 10,
-      "kill_threshold": 0.26
+      "attack_frequency": 7,
+      "kill_threshold": 0.32
     },
     "solidarytinker:core_battery": {
       "attack_range": 20,
       "target_amount": 10,
-      "energy_capability": 1000000
+      "energy_capability": 3000000
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 55,
+      "perception_count": 18,
+      "perception_cooldown": 5
     }
   }
 }

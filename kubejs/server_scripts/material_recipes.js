@@ -1,14 +1,14 @@
 ServerEvents.recipes(event => {
-    function metalMaterial(materialId,fluid,ingot,temp){
+    function metalMaterial(materialId, fluid, ingot, temp) {
         event.custom(
             {
-                "type":"tconstruct:melting",
-                "ingredient":{
-                    "item":ingot
+                "type": "tconstruct:melting",
+                "ingredient": {
+                    "item": ingot
                 },
                 "temperature": temp,
                 "time": 20,
-                "result":{
+                "result": {
                     "fluid": fluid,
                     "amount": 90
                 }
@@ -16,8 +16,8 @@ ServerEvents.recipes(event => {
         )
         event.custom(
             {
-                "type":"tconstruct:casting_table",
-                "cast": { "tag": "tconstruct:casts/multi_use/ingot" },
+                "type": "tconstruct:casting_table",
+                "cast": {"tag": "tconstruct:casts/multi_use/ingot"},
                 "cast_consumed": false,
                 "fluid": {
                     "name": fluid,
@@ -29,8 +29,8 @@ ServerEvents.recipes(event => {
         )
         event.custom(
             {
-                "type":"tconstruct:casting_table",
-                "cast": { "tag": "tconstruct:casts/single_use/ingot" },
+                "type": "tconstruct:casting_table",
+                "cast": {"tag": "tconstruct:casts/single_use/ingot"},
                 "cast_consumed": true,
                 "fluid": {
                     "name": fluid,
@@ -74,16 +74,17 @@ ServerEvents.recipes(event => {
             }
         )
     }
-    function customMaterial(materialId,fluid,ingot,fluidAmount,fluidPerItem,itemCount,temp){
+
+    function customMaterial(materialId, fluid, ingot, fluidAmount, fluidPerItem, itemCount, temp) {
         event.custom(
             {
-                "type":"tconstruct:melting",
-                "ingredient":{
-                    "item":ingot
+                "type": "tconstruct:melting",
+                "ingredient": {
+                    "item": ingot
                 },
                 "temperature": temp,
                 "time": 20,
-                "result":{
+                "result": {
                     "fluid": fluid,
                     "amount": fluidPerItem
                 }
@@ -91,8 +92,8 @@ ServerEvents.recipes(event => {
         )
         event.custom(
             {
-                "type":"tconstruct:casting_table",
-                "cast": { "tag": "tconstruct:casts/multi_use/ingot" },
+                "type": "tconstruct:casting_table",
+                "cast": {"tag": "tconstruct:casts/multi_use/ingot"},
                 "cast_consumed": false,
                 "fluid": {
                     "name": fluid,
@@ -104,8 +105,8 @@ ServerEvents.recipes(event => {
         )
         event.custom(
             {
-                "type":"tconstruct:casting_table",
-                "cast": { "tag": "tconstruct:casts/single_use/ingot" },
+                "type": "tconstruct:casting_table",
+                "cast": {"tag": "tconstruct:casts/single_use/ingot"},
                 "cast_consumed": true,
                 "fluid": {
                     "name": fluid,
@@ -149,7 +150,8 @@ ServerEvents.recipes(event => {
             }
         )
     }
-    function metalMaterialNoIngotMelt(materialId,fluid,ingot,temp){
+
+    function metalMaterialNoIngotMelt(materialId, fluid, ingot, temp) {
         event.custom(
             {
                 "type": "tconstruct:material_fluid",
@@ -185,7 +187,7 @@ ServerEvents.recipes(event => {
         )
     }
 
-    function metalMaterialNoNuggetMelt(materialId,fluid,ingot,temp){
+    function metalMaterialNoNuggetMelt(materialId, fluid, ingot, temp) {
         event.custom(
             {
                 "type": "tconstruct:material_fluid",
@@ -220,7 +222,8 @@ ServerEvents.recipes(event => {
             }
         )
     }
-    function craftableMaterial(materialId,ingred_item){
+
+    function craftableMaterial(materialId, ingred_item) {
         event.custom(
             {
                 "type": "tconstruct:material",
@@ -234,66 +237,22 @@ ServerEvents.recipes(event => {
         )
     }
 
-    metalMaterial("kubejs:veridium","kubejs:molten_veridium","aether_redux:veridium_ingot",1500)
-    metalMaterial("kubejs:sentrite","kubejs:molten_sentrite","kubejs:sentrite",2000)
-    metalMaterial("kubejs:refined_sentrite","kubejs:molten_refined_sentrite","aether_redux:refined_sentrite",2000)
-    metalMaterial("kubejs:gravitite","kubejs:molten_gravitite","aether_redux:gravitite_ingot",3000)
-    metalMaterial("kubejs:phoenix","kubejs:molten_phoenix","kubejs:phoenix_ingot",3350)
-    customMaterial("kubejs:valkyrie","kubejs:molten_valkyrie","kubejs:valkyrie_ingot",900,90,10,3200)
-    craftableMaterial("kubejs:life_crystal","kubejs:life_crystal")
-    metalMaterialNoNuggetMelt("kubejs:forgotten_metal","tcintegrations:forgotten","undergarden:forgotten_nugget",4950)
-    craftableMaterial("kubejs:carbon_plate","kubejs:carbon_plate")
-    metalMaterial("kubejs:star_dragon","cti:molten_star_dragon","cti:star_dragon_ingot",9273)
-    metalMaterialNoIngotMelt("kubejs:endergobber","tinkerscalibration:moltenendgobber","gobber2:gobber2_ingot_end",1750)
-    metalMaterial("tinkers_ingenuity:blue_sky","kubejs:molten_blue_sky","tinkers_ingenuity:blue_sky_ingot",3900)
-    craftableMaterial("cti:unipolar_magnet","kubejs:unipolar_magnet_shard")
-event.custom({
-  "type": "tconstruct:alloy",
-  "inputs": [
-    {
-      "name": "tconstruct:molten_slimesteel",
-      "amount": 180
-    },
-    {
-      "name": "kubejs:molten_swet_bronze",
-      "amount": 90
-    },
-    {
-      "name": "kubejs:molten_azure_swet",
-      "amount": 250
-    }
-  ],
-  "result": {
-    "fluid": "kubejs:molten_blue_sky",
-    "amount": 360
-  },
-  "temperature": 3900
-})
-    metalMaterial("kubejs:swet_bronze","kubejs:molten_swet_bronze","kubejs:swet_bronze_ingot",1800)
-event.custom({
-  "type": "tconstruct:alloy",
-  "inputs": [
-    {
-      "name": "tinkers_thinking:molten_tinkers_bronze",
-      "amount": 270
-    },
-    {
-      "name": "kubejs:molten_veridium",
-      "amount": 90
-    },
-    {
-      "name": "kubejs:molten_azure_swet",
-      "amount": 250
-    },
-    {
-      "name": "kubejs:molten_gold_swet",
-      "amount": 250
-    }
-  ],
-  "result": {
-    "fluid": "kubejs:molten_swet_bronze",
-    "amount": 360
-  },
-  "temperature": 1800
-})
+    metalMaterial("kubejs:veridium", "kubejs:molten_veridium", "aether_redux:veridium_ingot", 2300)
+    metalMaterial("kubejs:sentrite", "kubejs:molten_sentrite", "kubejs:sentrite", 3350)
+    metalMaterial("kubejs:refined_sentrite", "kubejs:molten_refined_sentrite", "aether_redux:refined_sentrite", 3350)
+    metalMaterial("kubejs:gravitite", "kubejs:molten_gravitite", "aether_redux:gravitite_ingot", 4950)
+    metalMaterial("kubejs:phoenix", "kubejs:molten_phoenix", "kubejs:phoenix_ingot", 4820)
+    customMaterial("kubejs:valkyrie", "kubejs:molten_valkyrie", "kubejs:valkyrie_ingot", 810, 90, 9, 4125)
+    craftableMaterial("kubejs:life_crystal", "kubejs:life_crystal")
+    metalMaterialNoNuggetMelt("kubejs:forgotten_metal", "tcintegrations:forgotten", "undergarden:forgotten_nugget", 6342)
+    craftableMaterial("kubejs:carbon_plate", "kubejs:carbon_plate")
+    metalMaterial("kubejs:star_dragon", "cti:molten_star_dragon", "cti:star_dragon_ingot", 9273)
+    metalMaterialNoIngotMelt("kubejs:endergobber", "tinkerscalibration:moltenendgobber", "gobber2:gobber2_ingot_end", 1750)
+    metalMaterial("kubejs:swet_bronze", "kubejs:molten_swet_bronze", "kubejs:swet_bronze_ingot", 3255)
+    metalMaterial("tinkers_ingenuity:blue_sky", "kubejs:molten_blue_sky", "tinkers_ingenuity:blue_sky_ingot", 4535)
+    craftableMaterial("cti:unipolar_magnet", "kubejs:unipolar_magnet_shard")
+    craftableMaterial("kubejs:industrial_gel", 'kubejs:industrial_gel')
+    craftableMaterial("kubejs:source_gem", 'ars_nouveau:source_gem')
+    craftableMaterial("kubejs:terrasteel", 'botania:terrasteel_ingot')
+    craftableMaterial("kubejs:fortunes_favor", 'meetyourfight:fortunes_favor')
 })

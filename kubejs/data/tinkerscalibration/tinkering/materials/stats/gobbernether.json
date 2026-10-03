@@ -2,16 +2,16 @@
   "stats": {
     "tconstruct:binding": {},
     "tconstruct:handle": {
-      "durability": 0.8,
-      "mining_speed": 0.8,
-      "melee_speed": 0.8,
-      "melee_damage": 0.8
+      "durability": 0.5,
+      "mining_speed": 0.5,
+      "melee_speed": 0.5,
+      "melee_damage": 0.5
     },
     "tconstruct:head": {
       "durability": 2560,
       "mining_speed": 10,
       "mining_tier": "gobber2:nether_gobber",
-      "melee_attack": 10
+      "melee_attack": 12
     },
     "tconstruct:limb": {
       "durability": 2560,
@@ -56,7 +56,8 @@
     },
     "solidarytinker:perception_core": {
       "max_level": 20,
-      "perception_count": 1000
+      "perception_count": 12,
+      "perception_cooldown": 20
     }
   }
 }

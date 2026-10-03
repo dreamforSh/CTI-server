@@ -7,7 +7,7 @@
     "tag": "forge:biodiesel"
   },
   "fluid_output": {
-    "amount": 1000,
+    "amount": 4000,
     "fluid": "immersivepetroleum:lubricant"
   },
   "item_input": {

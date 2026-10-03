@@ -12,8 +12,8 @@
   },
   "equilibrium": 0,
   "fluid": "immersivepetroleum:crudeoil",
-  "fluidcapacity": 76500000,
-  "fluidminimum": 6500000,
+  "fluidcapacity": 99600000,
+  "fluidminimum": 65000000,
   "fluidtrace": 6,
   "name": "oil",
   "weight": 100

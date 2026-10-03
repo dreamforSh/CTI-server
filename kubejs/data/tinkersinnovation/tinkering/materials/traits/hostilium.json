@@ -2,43 +2,31 @@
   "perStat": {
     "tconstruct:melee_harvest": [
       {
-        "name": "tinkersinnovation:hostility",
-        "level": 2
-      },
-      {
         "name": "cti:arrogance_insatiable",
         "level": 1
       },
       {
-        "name": "tinkersinnovation:no_sealed",
+        "name": "cti:the_relic",
         "level": 1
       }
     ],
     "tconstruct:ranged": [
       {
-        "name": "tinkersinnovation:hostility",
-        "level": 2
-      },
-      {
         "name": "cti:arrogance_insatiable",
         "level": 1
       },
       {
-        "name": "tinkersinnovation:no_sealed",
+        "name": "cti:the_relic",
         "level": 1
       }
     ],
     "tconstruct:armor": [
       {
-        "name": "tinkersinnovation:hostility",
-        "level": 2
-      },
-      {
         "name": "tinkersinnovation:arrogance_armor",
         "level": 1
       },
       {
-        "name": "tinkersinnovation:no_sealed",
+        "name": "cti:the_relic",
         "level": 1
       }
     ]

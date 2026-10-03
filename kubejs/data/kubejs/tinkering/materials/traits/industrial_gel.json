@@ -1,0 +1,40 @@
+{
+    "default": [
+      {
+        "level": 5,
+        "name": "cti:pressure_loaded"
+      },
+      {
+        "name": "cti:coordinator",
+        "level": 1
+      },
+      {
+        "name": "cti:industrial",
+        "level": 2
+      },
+      {
+        "name": "cti:refined",
+        "level": 1
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+          "level": 5,
+          "name": "cti:pressure_loaded"
+        },
+        {
+          "name": "cti:coordinator",
+          "level": 1
+        },
+        {
+          "name": "cti:industrial_armor",
+          "level": 2
+        },
+        {
+          "name": "cti:refined",
+          "level": 1
+        }
+      ]
+    }
+  }

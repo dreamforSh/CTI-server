@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "modid": "l2complements",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "l2complements:eternium_nugget"
+  },
+  "result": {
+    "fluid": "tinkersinnovation:molten_eternium",
+    "amount": 10
+  },
+  "temperature": 6324,
+  "time": 45
+}

@@ -20,6 +20,116 @@ ServerEvents.recipes(event => {
 
   event.recipes.botania.petal_apothecary('cti:reactive_flower',['botania:red_petal','botania:yellow_petal','botania:light_blue_petal','botania:brown_petal','minecraft:blaze_powder','thermal:blitz_powder','thermal:blizz_powder','thermal:basalz_powder'])
 
+  event.remove({id:'botania:runic_altar/fire'})
+  event.remove({id:'botania:runic_altar/earth'})
+  event.remove({id:'botania:runic_altar/water'})
+  event.remove({id:'botania:runic_altar/air'})
+
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_fire",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_pyrotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:fire_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_water",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_cryotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "etshtinker:blizz_enderium"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:water_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_earth",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_petrotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "etshtinker:basalz_signalum"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:earth_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+event.custom({
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "botania:livingrock"
+  },
+  "output": "botania:rune_air",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "kubejs:dust_aerotheum"
+      }
+    },
+    {
+      "item": {
+        "item": "etshtinker:blitz_lumium"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      }
+    }
+  ],
+  "source": 100
+})
+
   event.shaped(Item.of('kubejs:philosophers_catalyst', 1), [
     'ABA',
     'BCB',
@@ -80,4 +190,101 @@ ServerEvents.recipes(event => {
       D: 'mythicbotany:mana_collector'
    }
    )
+   event.remove({id:'botania:runic_altar'})
+   event.remove({id:'botania:runic_altar_alt'})
+   event.remove({id:'botanicalmachinery:runic_altar'})
+
+  event.shaped(Item.of('botania:runic_altar',1), [
+    '   ',
+    'BEC',
+    'AFD'
+  ],
+    {
+      A: 'botania:rune_water',
+      B: 'botania:rune_fire',
+      C: 'botania:rune_air',
+      D: 'botania:rune_earth',
+      E: 'botania:livingrock',
+      F: 'botania:mana_pearl'
+   }
+  )
+  event.remove({id:'botania:terra_plate'})
+  event.shaped(Item.of('botania:terra_plate',1), [
+    'AAA',
+    'CGD',
+    'BFE'
+  ],
+    {
+      A: 'minecraft:lapis_block',
+      B: 'botania:rune_spring',
+      C: 'botania:rune_summer',
+      D: 'botania:rune_autumn',
+      E: 'botania:rune_winter',
+      F: 'botania:rune_mana',
+      G: 'botania:manasteel_block'
+   }
+  )
+  event.remove({id:'mythicbotany:mana_infuser'})
+  event.recipes.botania.terra_plate('mythicbotany:mana_infuser', 
+    [
+      'botania:dragonstone_block',
+      'mythicbotany:nidavellir_rune',
+      'mythicbotany:niflheim_rune', 
+      'mythicbotany:muspelheim_rune',
+      'mythicbotany:joetunheim_rune',
+      'mythicbotany:midgard_rune',
+      'mythicbotany:alfheim_rune',
+      'mythicbotany:asgard_rune',
+      'mythicbotany:vanaheim_rune',
+      'mythicbotany:helheim_rune'
+    ], 
+    4000000
+  )
+  event.remove({id:'botania:gaia_ingot'})
+
+  event.custom({
+    "type": "mythicbotany:infuser",
+    "fromColor": 0xFF7F27,
+    "group": "infuser",
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_scrap"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "kubejs:tungsten_ingot"
+      }
+    ],
+    "mana": 125000,
+    "output": {
+      "count": 1,
+      "item": "minecraft:netherite_ingot"
+    },
+    "toColor": 0x261B1B
+  })
+  event.custom({
+    "type": "mythicbotany:infuser",
+    "fromColor": 0xFFffFF,
+    "group": "infuser",
+    "ingredients": [
+      {
+        "item": "etshtinker:basalz_signalum"
+      },
+      {
+        "item": "etshtinker:blitz_lumium"
+      },
+      {
+        "item": "etshtinker:blizz_enderium"
+      }
+    ],
+    "mana": 750000,
+    "output": {
+      "count": 3,
+      "item": "etshtinker:activated_chroma_plate"
+    },
+    "toColor": 0xFFFFFF
+  })
+
 })

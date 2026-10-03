@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input":"tinkerscalibration:wither",
+  "result": {
+    "fluid": "tinkerscalibration:moltenwitherium",
+    "amount": 90
+  },
+  "temperature": 1850
+}

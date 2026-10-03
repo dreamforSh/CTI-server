@@ -3,18 +3,18 @@
     "tconstruct:binding": {},
     "tconstruct:handle": {
       "durability": 0.1,
-      "mining_speed": 0.4,
-      "melee_speed": 0.4,
-      "melee_damage": 0.1
+      "mining_speed": -0.2,
+      "melee_speed": 0.6,
+      "melee_damage": 0.6
     },
     "tconstruct:head": {
-      "durability": 1200,
-      "mining_speed": 6.6,
+      "durability": 850,
+      "mining_speed": 3,
       "mining_tier": "minecraft:diamond",
-      "melee_attack": 3
+      "melee_attack": 9.5
     },
     "tconstruct:limb": {
-      "durability": 1200,
+      "durability": 820,
       "draw_speed": 0.20,
       "velocity": 0.20,
       "accuracy": 0.2
@@ -25,20 +25,21 @@
       "melee_damage": 4.5
     },
     "tconstruct:maille": {},
+    "tconstruct:shield_core":{},
     "tconstruct:plating_boots": {
-      "armor": 4.0,
+      "armor": 5.0,
       "durability": 423,
       "knockback_resistance": 0.04,
       "toughness": 3
     },
     "tconstruct:plating_chestplate": {
-      "armor": 10,
+      "armor": 9,
       "durability": 505,
       "knockback_resistance": 0.04,
       "toughness": 3
     },
     "tconstruct:plating_helmet": {
-      "armor": 4.0,
+      "armor": 5,
       "durability": 436,
       "knockback_resistance": 0.04,
       "toughness": 3
@@ -53,6 +54,11 @@
       "durability": 512,
       "knockback_resistance": 0.04,
       "toughness": 3
+    },
+    "solidarytinker:perception_core": {
+      "max_level": 23,
+      "perception_count": 10,
+      "perception_cooldown": 22
     }
   }
 }

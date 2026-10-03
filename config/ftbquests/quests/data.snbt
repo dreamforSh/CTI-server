@@ -28,11 +28,19 @@
 				}
 				{
 					level: 4
-					name: "solidarytinker:sandstrom"
+					name: "solidarytinker:reliable"
 				}
 				{
 					level: 4
+					name: "solidarytinker:sandstrom"
+				}
+				{
+					level: 12
 					name: "cti:shadow_of_vigrid"
+				}
+				{
+					level: 4
+					name: "etshtinker:solidex"
 				}
 				{
 					level: 10
@@ -42,32 +50,28 @@
 					level: 1
 					name: "tconstruct:tank_handler"
 				}
-				{
-					level: 4
-					name: "solidarytinker:reliable"
-				}
 			]
 			tic_multipliers: {
 				"tconstruct:attack_damage": 1.45f
 				"tconstruct:attack_speed": 0.8f
-				"tconstruct:durability": 1.55f
+				"tconstruct:durability": 3.0f
 			}
 			tic_persistent: { }
 			tic_stats: {
 				"etshtinker:cooldown": 20.0f
 				"etshtinker:damagemultiplier": 6.5f
 				"etshtinker:plasmarange": 35.0f
-				"tconstruct:attack_damage": 808.9913f
-				"tconstruct:attack_speed": 1.9f
-				"tconstruct:durability": 134916.11f
+				"tconstruct:attack_damage": 1003.835f
+				"tconstruct:attack_speed": 2.1000001f
+				"tconstruct:durability": 261127.97f
 				"tconstruct:harvest_tier": "minecraft:netherite"
 				"tconstruct:mining_speed": 14.0625f
 				"tconstruct:tank_capacity": 1725000.0f
 			}
 			tic_volatile_data: {
-				abilities: 4
+				abilities: 8
 				"tconstruct:total_tanks": 1
-				upgrades: 6
+				upgrades: 8
 			}
 		}
 	}

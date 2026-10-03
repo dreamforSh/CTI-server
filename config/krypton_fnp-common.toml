@@ -15,7 +15,7 @@
 	#Level 3 is the zstd reference implementation default.
 	#Range: 1 – 22  |  Default: 3
 	#Range: 1 ~ 22
-	zstd_level = 9
+	zstd_level = 3
 
 #Krypton Hybrid – Light Data Optimization
 #Reduces ClientboundLevelChunkWithLightPacket size by replacing uniform

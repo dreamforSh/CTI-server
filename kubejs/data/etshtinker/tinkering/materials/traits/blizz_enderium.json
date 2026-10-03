@@ -1,0 +1,32 @@
+{
+  "condition": {
+    "modid": "thermal",
+    "type": "forge:mod_loaded"
+  },
+  "default": [
+    {
+      "name": "tconstruct:enderference",
+      "level": 5
+    },
+    {
+      "name": "etshtinker:chilled",
+      "level": 1
+    },
+    {
+      "name": "cti:industrial",
+      "level": 2
+    }
+  ],
+  "perStat" : {
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:blizzdefense",
+        "level": 1
+      },
+      {
+        "name": "cti:industrial_armor",
+        "level": 3
+      }
+    ]
+  }
+}

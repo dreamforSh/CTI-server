@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["ad_astra:glacio_ice_peaks","ad_astra:glacio_snowy_barrens"],
+  "features": "tinkerscalibration:iceland_spar_geode",
+  "step": "local_modifications"
+}

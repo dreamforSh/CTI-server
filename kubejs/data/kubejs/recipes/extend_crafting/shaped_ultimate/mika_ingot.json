@@ -1,15 +1,15 @@
 {
   "type": "extendedcrafting:shaped_table",
   "pattern": [
-    "  A  A   ",
-    "  BAAB   ",
-    " CBDDBC  ",
-    "CBEFFEBC ",
-    "GHDFFDHG ",
-    " AEIIEA  ",
-    " AADDAA  ",
-    "   EE    ",
-    "  G  G   "
+    "ABCCDCCBA",
+    "EFGBHBGFE",
+    "EIBJIJBIE",
+    "AKILMLINA",
+    "OLAKPNALO",
+    "FQRSTSRQF",
+    "ORQUVUQRO",
+    "RWUXXXUWR",
+    "WUYZZZYUW"
   ],
   "key": {
     "A": {
@@ -19,25 +19,79 @@
       "item": "etshtinker:coronation_alloy"
     },
     "C": {
-      "item": "l2complements:resonant_feather"
+      "item": "undergarden:froststeel_ingot"
     },
     "D": {
-      "item": "enigmaticlegacy:astral_dust"
+      "item": "l2hostility:killer_aura"
     },
     "E": {
-      "item": "industrialforegoing:pink_slime"
+      "item": "undergarden:regalium_crystal"
     },
     "F": {
-      "item": "industrialforegoing:pink_slime_ingot"
+      "item": "l2complements:eternium_ingot"
     },
     "G": {
-      "item": "l2hostility:witch_droplet"
+      "item": "etshtinker:stellaralloy"
     },
     "H": {
-      "item": "cataclysm:void_jaw"
+      "type": "forge:nbt",
+      "item": "enigmaticlegacy:etherium_sword",
+      "count": 1,
+      "nbt": "{Damage:0}"
     },
     "I": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "J": {
+      "item": "l2hostility:dispell"
+    },
+    "K": {
+      "item": "l2hostility:witch_charge"
+    },
+    "L": {
+      "item": "l2complements:resonant_feather"
+    },
+    "M": {
+      "item": "l2hostility:farewell_gift"
+    },
+    "N": {
+      "item": "l2hostility:eternal_witch_charge"
+    },
+    "O": {
+      "item": "l2hostility:witch_droplet"
+    },
+    "P": {
+      "item": "obscure_api:astral_dust"
+    },
+    "Q": {
+      "item": "l2hostility:miracle_ingot"
+    },
+    "R": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "S": {
+      "item": "l2hostility:drain"
+    },
+    "T": {
+      "item": "kubejs:core_diamond"
+    },
+    "U": {
+      "item": "l2hostility:hostility_essence"
+    },
+    "V": {
+      "item": "l2complements:void_eye"
+    },
+    "W": {
+      "item": "l2complements:soul_flame"
+    },
+    "X": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "Y": {
       "item": "l2complements:life_essence"
+    },
+    "Z": {
+      "item": "l2complements:space_shard"
     }
   },
   "result": {

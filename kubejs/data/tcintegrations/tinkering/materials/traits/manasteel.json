@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:ductile"
+    },
+    {
+      "name": "etshtinker:manarepair",
+      "level": 1
+    },
+    {
+      "name": "cti:mana_capacity",
+      "level": 2
+    }
+  ]
+}

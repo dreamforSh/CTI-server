@@ -60,6 +60,10 @@
       {
         "name": "cloudertinker:questprotect",
         "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:nature_power"
       }
     ],
     "tconstruct:plating_chestplate": [
@@ -71,6 +75,10 @@
       {
         "name": "cloudertinker:questprotect",
         "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:nature_power"
       }
     ],
     "tconstruct:plating_leggings": [
@@ -82,6 +90,10 @@
       {
         "name": "cloudertinker:questprotect",
         "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:nature_power"
       }
     ],
     "tconstruct:plating_boots": [
@@ -93,6 +105,10 @@
       {
         "name": "cloudertinker:questprotect",
         "level": 1
+      },
+      {
+        "level": 1,
+        "name": "cti:nature_power"
       }
     ],
     "tconstruct:shield_core": [
@@ -112,6 +128,10 @@
       {
         "level": 1,
         "name": "cti:clean"
+      },
+      {
+        "level": 1,
+        "name": "cti:nature_power"
       }
     ],
     "tconstruct:maille": [
@@ -130,6 +150,10 @@
       {
         "level": 1,
         "name": "cti:clean"
+      },
+      {
+        "level": 1,
+        "name": "cti:nature_power"
       }
     ]
   }

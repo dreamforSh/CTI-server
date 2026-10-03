@@ -1,0 +1,50 @@
+{
+  "condition": {
+    "modid": "mythicbotany",
+    "type": "forge:mod_loaded"
+  },
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:alf_burst",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:manarepair",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:alfsmind",
+        "level": 1
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "etshtinker:manarepair",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:alfsmind",
+        "level": 1
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:manarepair",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:gracearrival",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:alfsmind",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:threshold",
+        "level": 1
+      }
+    ]
+  }
+}

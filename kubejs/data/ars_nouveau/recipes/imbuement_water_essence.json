@@ -1,0 +1,21 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:gems/source"
+  },
+  "output": "ars_nouveau:water_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "thermal:blizz_rod"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:wilden_spike"
+      }
+    }
+  ],
+  "source": 2000
+}

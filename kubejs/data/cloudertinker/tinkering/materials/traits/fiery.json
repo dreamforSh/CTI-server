@@ -6,15 +6,15 @@
         "level": 1
       },
       {
-        "name": "cloudertinker:superheat",
-        "level": 1
+        "name": "cti:replaced_conducting",
+        "level": 2
+      },
+      {
+        "name": "cti:high_heat",
+        "level": 3
       },
       {
         "name": "tconstruct:autosmelt",
-        "level": 1
-      },
-      {
-        "name": "tconstruct:fiery",
         "level": 1
       }
     ],
@@ -24,15 +24,15 @@
         "level": 1
       },
       {
-        "name": "cloudertinker:superheat",
-        "level": 1
+        "name": "cti:replaced_conducting",
+        "level": 2
+      },
+      {
+        "name": "cti:replaced_fiery",
+        "level": 2
       },
       {
         "name": "tconstruct:autosmelt",
-        "level": 1
-      },
-      {
-        "name": "tconstruct:fiery",
         "level": 1
       }
     ],
@@ -42,15 +42,15 @@
         "level": 1
       },
       {
-        "name": "cloudertinker:superheat",
-        "level": 1
+        "name": "cti:replaced_conducting",
+        "level": 2
+      },
+      {
+        "name": "cti:high_heat",
+        "level": 3
       },
       {
         "name": "tconstruct:autosmelt",
-        "level": 1
-      },
-      {
-        "name": "tconstruct:fiery",
         "level": 1
       }
     ],
@@ -83,38 +83,41 @@
       }
     ],
     "tconstruct:plating_helmet": [
-
       {
-        "name": "cloudertinker:fire_react",
-        "level": 3
+        "level": 3,
+        "name": "cti:fiery_capable"
       }
     ],
     "tconstruct:plating_chestplate": [
-
       {
-        "name": "cloudertinker:fire_react",
-        "level": 3
+        "level": 2,
+        "name": "cti:scorched"
+      },
+      {
+        "level": 2,
+        "name": "cti:fiery_capable"
       }
     ],
     "tconstruct:plating_leggings": [
-
       {
-        "name": "cloudertinker:fire_react",
-        "level": 3
+        "level": 2,
+        "name": "cti:scorched"
+      },
+      {
+        "level": 2,
+        "name": "cti:fiery_capable"
       }
     ],
     "tconstruct:plating_boots": [
-
       {
-        "name": "cloudertinker:fire_react",
-        "level": 3
+        "level": 3,
+        "name": "cti:fiery_capable"
       }
     ],
     "tconstruct:plating_shield": [
-
       {
-        "name": "cloudertinker:fire_react",
-        "level": 3
+        "level": 3,
+        "name": "cti:fiery_capable"
       }
     ]
   }

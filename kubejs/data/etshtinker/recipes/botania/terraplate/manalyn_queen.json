@@ -2,7 +2,7 @@
   "type": "botania:terra_plate",
   "ingredients": [
     {
-      "item": "appbot:mana_storage_cell_16k"
+      "item": "appbot:mana_storage_cell_256k"
     },
     {
       "item": "tconstruct:manyullyn_ingot"

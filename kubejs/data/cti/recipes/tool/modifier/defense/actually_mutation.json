@@ -1,0 +1,36 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": false,
+  "inputs": [
+    {
+      "item": "biomancy:absorption_boost",
+      "amount_needed": 8
+    },
+    {
+      "item": "kubejs:heart"
+    },
+    {
+      "item": "biomancy:enlargement_serum",
+      "amount_needed": 8
+    },
+    {
+      "item": "biomancy:nutrient_bar",
+      "amount_needed": 59
+    },
+    {
+      "item": "tinkerscalibration:witherium_ingot",
+      "amount_needed": 2
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "result": "cti:actually_mutation",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

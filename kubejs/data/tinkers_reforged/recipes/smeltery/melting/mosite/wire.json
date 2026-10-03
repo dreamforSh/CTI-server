@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:wires/mosite"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:wires/mosite"
+  },
+  "result": {
+    "amount": 45,
+    "fluid": "tinkers_reforged:mosite"
+  },
+  "temperature": 1955,
+  "time": 14
+}

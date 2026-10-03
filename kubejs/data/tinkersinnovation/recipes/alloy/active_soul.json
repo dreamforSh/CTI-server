@@ -6,8 +6,12 @@
   },
   "inputs": [
     {
+      "name": "tinkerscalibration:molteninertwitherium",
+      "amount": 180
+    },
+     {
       "tag": "tconstruct:blazing_blood",
-      "amount": 4000
+      "amount": 1000
     },
     {
       "tag": "tconstruct:liquid_soul",

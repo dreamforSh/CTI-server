@@ -7,7 +7,12 @@
     "cti:temporary_armor_drops",
     "l2hostility:hard_skin_drop_iron",
     "l2hostility:hard_skin_drop_armor_steel",
-    "l2hostility:purify_drop_star_dust"
+    "l2hostility:purify_drop_star_dust",
+    "cti:corrosion_drop_basalz_signalum",
+    "cti:erosion_drop_basalz_signalum",
+    "cti:farewell_gift_drop_eco",
+    "cti:farewell_gift_drop_evil_essence",
+    "cti:farewell_gift_drop_nautilus_shell"
   ],
   "replace": false
 }

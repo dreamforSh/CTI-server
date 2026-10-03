@@ -1960,29 +1960,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["4642E2061CBE498A"]
-			description: [
-				"被诅咒者们对抗诅咒的最终产物之一，是支配诅咒之力的究极遗物"
-				"&b非常强大，单是七咒之戒就可以提供七层加成，并且饰品的诅咒附魔也可以提供加成，推荐做一个&r"
-			]
-			hide: true
-			id: "60D2FC03EF6AD381"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3A71AF83687A55E4"
-				table_id: 8409694950077344958L
-				type: "random"
-			}]
-			tasks: [{
-				id: "7C08BE04A59B099B"
-				item: "enigmaticlegacy:cursed_scroll"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4AD608A1A7B651AA"]

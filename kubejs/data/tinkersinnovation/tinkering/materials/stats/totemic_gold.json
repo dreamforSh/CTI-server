@@ -1,0 +1,80 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 0.25,
+      "mining_speed": -0.05,
+      "melee_speed": 0.2,
+      "melee_damage": 0.1
+    },
+    "tconstruct:head": {
+      "durability": 210,
+      "mining_speed": 5,
+      "mining_tier": "minecraft:iron",
+      "melee_attack": 2.0
+    },
+    "tconstruct:limb": {
+      "durability": 210,
+      "draw_speed": 0.1,
+      "velocity": 0.1,
+      "accuracy": -0.15
+    },
+    "tconstruct:grip": {
+      "durability": 0.2,
+      "accuracy": -0.1,
+      "melee_damage": 2.0
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_boots": {
+      "armor": 6.0,
+      "durability": 195,
+      "knockback_resistance": 0.01,
+      "toughness": 0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 9.0,
+      "durability": 240,
+      "knockback_resistance": 0,
+      "toughness": 0
+    },
+    "tconstruct:plating_helmet": {
+      "armor": 6.0,
+      "durability": 165,
+      "knockback_resistance": 0,
+      "toughness": 0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 6.0,
+      "durability": 225,
+      "knockback_resistance": 0,
+      "toughness": 0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 250,
+      "knockback_resistance": 0,
+      "toughness": 0
+    },
+    "tinkersinnovation:shield_plate": {
+      "durability": 250,
+      "armor": 5.0,
+      "toughness": 0,
+      "knockback_resistance": 0,
+      "block_amount": 0.05,
+      "shield_amount": 38
+    },
+    "tinkersinnovation:bomb_core": {
+      "durability": 0.2,
+      "bomb_radius": 3,
+      "velocity": 0.1,
+      "accuracy": -0.15
+    },
+    "tinkersinnovation:bomb_shell": {
+      "durability": 210,
+      "piece_count": 5,
+      "piece_damage": 1.2,
+      "melee_range_damage": 2
+    },
+    "tinkers_ingenuity:curio_extra": null,
+    "tinkers_ingenuity:curio_main": null
+  }
+}

@@ -2,7 +2,7 @@
   "type": "tconstruct:alloy",
   "inputs": [
     {
-      "name": "tconstruct:liquid_soul",
+      "name": "tinkersinnovation:molten_active_soul",
       "amount": 1000
     },
     {

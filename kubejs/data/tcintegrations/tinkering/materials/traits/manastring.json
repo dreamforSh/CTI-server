@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:manarepair",
+      "level": 1
+    },
+    {
+      "name": "cti:burst_accelerate",
+      "level": 1
+    },
+    {
+      "name": "cti:mana_capacity",
+      "level": 1
+    }
+  ]
+}

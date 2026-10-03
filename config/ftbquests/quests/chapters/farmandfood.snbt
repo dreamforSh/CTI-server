@@ -2136,18 +2136,11 @@
 				type: "loot"
 			}]
 			subtitle: "锄禾日当午"
-			tasks: [
-				{
-					id: "7BBD956720A2FD65"
-					item: "farmersdelight:rice"
-					type: "item"
-				}
-				{
-					id: "766862A26A9F3341"
-					item: "tofucraft:seeds_rice"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7BBD956720A2FD65"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
 			title: "水稻种植"
 			x: -2.0d
 			y: 5.0d
@@ -2173,7 +2166,7 @@
 				item: "extradelight:mint"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 6.0d
 		}
 		{
@@ -2212,7 +2205,7 @@
 				item: "extradelight:cinnamon_bark"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 6.0d
 		}
 		{
@@ -2289,7 +2282,7 @@
 				type: "item"
 			}]
 			title: "茶叶种植"
-			x: -5.0d
+			x: -4.5d
 			y: 6.0d
 		}
 		{
@@ -2333,7 +2326,7 @@
 				item: "farmersrespite:rose_hips"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 6.0d
 		}
 		{
@@ -2376,7 +2369,7 @@
 				item: "ends_delight:non_hatchable_dragon_egg"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.5d
 			y: 6.0d
 		}
 		{
@@ -2411,7 +2404,7 @@
 									name: "cti:united_insatiable"
 								}
 								{
-									level: 12
+									level: 24
 									name: "cti:insatiable_handler"
 								}
 								{
@@ -2449,9 +2442,10 @@
 								abilities: -1
 							}
 							tic_stats: {
-								"cti:insatiable_base": 144.0f
+								"cti:insatiable_base": 192.0f
+								"cti:overslime_base": 375.0f
 								"cti:overslime_consumption": 16.0f
-								"cti:overslime_mul": 0.75f
+								"cti:overslime_mul": 1.5f
 								"tconstruct:attack_damage": 29.6f
 								"tconstruct:attack_speed": 3.6f
 								"tconstruct:durability": 6144.0f

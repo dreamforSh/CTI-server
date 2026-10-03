@@ -1,0 +1,58 @@
+{
+  "perStat": {
+    "tconstruct:ranged": [
+      {
+        "name": "cti:industrial",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:light_like_glass",
+        "level": 1
+      },
+      {
+        "name": "tinkerscalibration:fragile_like_glass",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:industrial",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:thtwe",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:bonechilling",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:filament",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:sharpness",
+        "level": 3
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "cti:industrial_armor",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:thtwe",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:bonechilling",
+        "level": 1
+      },
+      {
+        "name": "solidarytinker:glassprotect",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -29,7 +29,8 @@ LootJS.modifiers(event => {
             { item: 'ae2:dense_energy_cell', count: 1, chance: 0.8 },
             { item: 'megacells:mega_energy_cell', count: 1, chance: 0.2 },
             { item: 'gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit', count: 1, chance: 0.2 },
-            { item: 'ae2:creative_energy_cell', count: 1, chance: 0.05 },
+            { item: 'cti:creative_energy_cell_4k', count: 1, chance: 0.1 },
+            { item: 'cti:meteor_shower_tablet', count: 1, chance: 0.05 },
         ],
         //金星
         pygroVillage: [
@@ -73,30 +74,39 @@ LootJS.modifiers(event => {
         //下界堡垒
         fortress: [
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 0.85 },//山铜碎块
-            { item: 'etshtinker:basalz_signalum', count: 1, chance: 1 },//地岩信素
-            { item: 'etshtinker:basalz_signalum', count: 3, chance: 0.8 },
+            { item: 'thermal:basalz_rod', count: 1, chance: 1 },//地岩信素
+            { item: 'thermal:basalz_rod', count: 2, chance: 0.8 },
+            { item: 'thermal:basalz_rod', count: 3, chance: 0.6 },
         ],
         //末地城
         end_city: [
-            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.7 },//山铜碎块
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 3, chance: 0.6 },//山铜碎块
+            { item: "tinkers_ingenuity:orichalcum_fragment", count: 2, chance: 0.8 },
             { item: "tinkers_ingenuity:orichalcum_fragment", count: 1, chance: 1 },
             { item: "tinkers_ingenuity:ender_residual_interest", count: 1, chance: 1 },//末影残息
         ],
         //悚陵
         mausoleum: [
-            { item: 'etshtinker:blizz_enderium', count: 5, chance: 0.6 },//霜覆末影
-            { item: 'etshtinker:blizz_enderium', count: 2, chance: 1 },
+            { item: 'thermal:blizz_rod', count: 6, chance: 0.6 },//霜覆末影
+            { item: 'thermal:blizz_rod', count: 4, chance: 0.8 },
+            { item: 'thermal:blizz_rod', count: 2, chance: 1 },
         ],
         //沙漠神殿
         desertPyramid: [
-            { item: 'etshtinker:blitz_lumium', count: 1, chance: 1 },//震荡流明
-            { item: 'etshtinker:blitz_lumium', count: 3, chance: 0.85 },
+            { item: 'thermal:blitz_rod', count: 2, chance: 1 },//震荡流明
+            { item: 'thermal:blitz_rod', count: 4, chance: 0.8 },
+            { item: 'thermal:blitz_rod', count: 6, chance: 0.6 },
         ],
         //迷阵冰封箱子
         frozenChest: [
             { item: 'avaritia:infinity_nugget', count: 1, chance: 1 },//无尽液滴
             { item: 'obscure_api:astral_dust', count: 1, chance: 1 },//保底星体尘尘
-            { item: Item.of('tconstruct:creative_slot', '{slot:"abilities"}'), count: 1, chance: 0.8 },//创造能力槽
+            { item: 'avaritia:infinity_catalyst', count: 1, chance: 1 },//无尽催化剂
+            { item: 'avaritia:infinity_catalyst', count: 2, chance: 0.8 },//无尽催化剂
+            { item: 'avaritia:infinity_catalyst', count: 3, chance: 0.6 },//无尽催化剂
+            { item: 'cti:extereme_speed_augment', count: 1, chance: 1 },//恶念组件
+            { item: 'cti:extereme_output_augment', count: 1, chance: 1 },//恶念组件
+            { item: 'cti:upgrade_augment_9', count: 2, chance: 1 },//恶念组件
         ],
         //亡灵海盗船普通宝藏
         seas_dungeon_ship_cheap: [

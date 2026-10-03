@@ -1,0 +1,10 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "cti:phantom_forged",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "DAD",
+    "DCD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:end_crystal"
+    },
+    "B": {
+      "tag": "forge:nuggets/enderium"
+    },
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "result": {
+    "item": "cloudertinker:void_power_round",
+    "count": 8
+  }
+}

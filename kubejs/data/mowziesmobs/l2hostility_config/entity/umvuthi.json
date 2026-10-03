@@ -7,7 +7,7 @@
         ],
         "difficulty": {
           "apply_chance": 1.0,
-          "base": 200,
+          "base": 400,
           "min": 400,
           "scale": 0.0,
           "trait_chance": 1.0,

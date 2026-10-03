@@ -5,7 +5,7 @@
     "ABBBBBBBA",
     "A CCCCC A",
     "A  DED  A",
-    "AFFDEDFFA",
+    "AFFDHDFFA",
     "A  DED  A",
     "A GGGGG A",
     "ABBBBBBBA",
@@ -32,6 +32,9 @@
     },
     "G": {
       "item": "mekanism:chemical_washer"
+    },
+    "H": {
+      "item": "kubejs:aetherium_core"
     }
   },
   "result": {

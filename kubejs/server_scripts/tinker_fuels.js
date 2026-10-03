@@ -157,33 +157,10 @@ ServerEvents.recipes(event => {
         "input2": {
             "type": "pneumaticcraft:fluid",
             "amount": 4000,
-            "fluid": "cti:lava_overheated"
-        },
-        "item_output": {
-            "item": "minecraft:blaze_powder"
-        },
-        "pressure": 3.0,
-        "time": 40
-    })
-
-    event.custom({
-        "type": "pneumaticcraft:fluid_mixer",
-        "fluid_output": {
-            "amount": 4000,
-            "fluid": "cti:lava_plasmatic"
-        },
-        "input1": {
-            "type": "pneumaticcraft:fluid",
-            "amount": 16000,
-            "fluid": "mekanismgenerators:fusion_fuel"
-        },
-        "input2": {
-            "type": "pneumaticcraft:fluid",
-            "amount": 4000,
             "fluid": "cti:lava_gaseous"
         },
         "item_output": {
-            "item": "avaritia:neutron_pile"
+            "item": "minecraft:blaze_powder"
         },
         "pressure": 3.0,
         "time": 40

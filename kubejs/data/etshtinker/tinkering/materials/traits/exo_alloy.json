@@ -1,0 +1,62 @@
+{
+  "default": [
+    {
+      "name": "etshtinker:godlymetal",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:worldforceex",
+      "level": 1
+    },
+    {
+      "name": "etshtinker:beconcerted",
+      "level": 1
+    },
+    {
+      "name": "cti:shadow_of_vigrid",
+      "level": 5
+    }
+  ],
+  "perStat": {
+    "etshtinker:ionizer": [
+      {
+        "name": "etshtinker:godlymetal",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:worldforceex",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:beconcerted",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:miracle_catalyst",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "etshtinker:mindprotection",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:solidex",
+        "level": 1
+      },
+      {
+        "name": "etshtinker:beconcerted",
+        "level": 1
+      },
+      {
+        "name": "cti:shadow_of_vigrid",
+        "level": 5
+      }
+    ]
+  }
+}

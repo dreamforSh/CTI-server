@@ -48,14 +48,14 @@
 			color: 16711680
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["1级材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 22.0d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -63,14 +63,14 @@
 			color: 16723989
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["2级材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 26.5d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -78,14 +78,14 @@
 			color: 16736304
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["3级材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 31.0d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -93,13 +93,13 @@
 			color: 16748613
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["4级材料"]
 			image: "#FFFFFF"
 			rotation: 0.0d
 			width: 4.0d
 			x: 35.5d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -107,13 +107,13 @@
 			color: 16760949
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["5级材料"]
 			image: "#FFFFFF"
 			rotation: 0.0d
 			width: 4.0d
 			x: 40.0d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -121,13 +121,13 @@
 			color: 16773269
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["6级材料"]
 			image: "#FFFFFF"
 			rotation: 0.0d
 			width: 4.0d
 			x: 44.5d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -135,14 +135,14 @@
 			color: 15794112
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["7级材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 49.0d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -198,14 +198,14 @@
 			color: 15794175
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["8级材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 53.5d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			alpha: 72
@@ -213,14 +213,14 @@
 			color: 12632319
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["9级材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 58.0d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -252,14 +252,14 @@
 			color: 9466111
 			corner: false
 			dev: false
-			height: 16.0d
+			height: 32.0d
 			hover: ["贡献者材料"]
 			image: "#FFFFFF"
 			order: -1
 			rotation: 0.0d
 			width: 4.0d
 			x: 62.5d
-			y: 3.0d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -302,8 +302,37 @@
 			x: 40.5d
 			y: 0.5d
 		}
+		{
+			alpha: 20
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: ["魔力脉冲流派材料"]
+			image: "#FFFFFF"
+			order: -2
+			rotation: 0.0d
+			width: 55.0d
+			x: 40.5d
+			y: 7.5d
+		}
+		{
+			alpha: 20
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: ["灼伤材料"]
+			image: "#FFFFFF"
+			order: -2
+			rotation: 0.0d
+			width: 55.0d
+			x: 40.5d
+			y: 11.0d
+		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -346,8 +375,12 @@
 							name: "tconstruct:severing"
 						}
 						{
-							level: 2
+							level: 3
 							name: "tconstruct:looting"
+						}
+						{
+							level: 4
+							name: "cti:supercrithit"
 						}
 						{
 							level: 1
@@ -355,22 +388,22 @@
 						}
 					]
 					tic_multipliers: {
-						"tconstruct:attack_damage": 1.5f
-						"tconstruct:durability": 3.5f
+						"tconstruct:attack_damage": 1.6f
+						"tconstruct:durability": 2.5f
 						"tconstruct:mining_speed": 0.25f
 					}
 					tic_persistent: { }
 					tic_stats: {
 						"cti:insatiable_base": 16.0f
-						"tconstruct:attack_damage": 16.605f
-						"tconstruct:attack_speed": 0.95f
-						"tconstruct:durability": 4812.5f
+						"tconstruct:attack_damage": 27.830002f
+						"tconstruct:attack_speed": 0.9375f
+						"tconstruct:durability": 6152.3438f
 						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 1.4625f
+						"tconstruct:mining_speed": 2.4882812f
 					}
 					tic_volatile_data: {
-						abilities: 1
-						upgrades: 2
+						abilities: 2
+						upgrades: 3
 					}
 				}
 			}
@@ -581,18 +614,6 @@
 			y: 0.0d
 		}
 		{
-			description: ["护甲末影也可以与主手末影打combo"]
-			id: "169F46DB555D2D1F"
-			subtitle: "纯数值"
-			tasks: [{
-				id: "42A0074559D6535E"
-				item: "thermal:enderium_ingot"
-				type: "item"
-			}]
-			x: 39.5d
-			y: 0.5d
-		}
-		{
 			id: "04235C0F17481FAB"
 			subtitle: "神能晶与黏液覆层，交叉融合！"
 			tasks: [{
@@ -600,7 +621,7 @@
 				item: "kubejs:swet_bronze_ingot"
 				type: "item"
 			}]
-			x: 40.5d
+			x: 45.5d
 			y: 0.5d
 		}
 		{
@@ -612,7 +633,7 @@
 				item: "tinkerscalibration:mangobberslime_ingot"
 				type: "item"
 			}]
-			x: 44.0d
+			x: 43.5d
 			y: 0.5d
 		}
 		{
@@ -624,7 +645,7 @@
 				item: "tinkers_ingenuity:blue_sky_ingot"
 				type: "item"
 			}]
-			x: 45.0d
+			x: 44.5d
 			y: 0.5d
 		}
 		{
@@ -637,6 +658,7 @@
 				"&8（&m力量战飞剑回旋镖，你知道吗&r&8）"
 				""
 				"      同时这个增伤的生效顺序非常靠后。虽然这意味着&e贪婪的增伤不会被绝大部分伤害增幅加成&r，但相应的，这也意味着&6贪婪的增伤不会被绝大部分减伤所减免&r！"
+				"&8（&m懂你意思风之歌固伤流&r&8）"
 				""
 				"      贪婪流派的最大贪婪属性和部分词条效果能在&6护甲和副手&r生效"
 			]
@@ -734,10 +756,11 @@
 				item: "tinkersinnovation:hostilium_ingot"
 				type: "item"
 			}]
-			x: 49.0d
+			x: 48.5d
 			y: 4.0d
 		}
 		{
+			description: ["      原料中的末影残息在末地城宝箱中能找到"]
 			id: "098367887044E96F"
 			subtitle: "上限材料，如果叠加贪婪的速度够快就能打出极高伤害"
 			tasks: [{
@@ -806,6 +829,429 @@
 			}]
 			x: 16.0d
 			y: 0.5d
+		}
+		{
+			description: [
+				"      魔力脉冲流派是一种能赋予近战武器远程攻击手段的流派。它会让工具消耗&a植物魔法&r的&b魔力&r发射出魔力脉冲。"
+				""
+				"      当魔力脉冲命中目标时，其魔力会减少（命中实体减少&b实体魔力消耗&r，命中方块减少&b方块魔力消耗&r）。魔力归零时脉冲就会消失，所以你可以近似把脉冲魔力携带看作魔力脉冲的穿透次数。"
+				""
+				" &b     专业化魔力脉冲词条&r是一类特殊的词条，它对魔力脉冲有着极强的增幅，但是同一把工具&e同时只能持有一种&r专业化魔力脉冲强化。"
+			]
+			icon: "botania:life_essence"
+			id: "10F6DB9578455387"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "015DF91A3E51AB67"
+				type: "checkmark"
+			}]
+			title: "魔力脉冲流派"
+			x: 18.5d
+			y: 7.5d
+		}
+		{
+			id: "666D7B3A3FD2B52A"
+			tasks: [{
+				id: "33A925D70CBB8228"
+				item: "tinkers_reforged:etryx_ingot"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.5d
+		}
+		{
+			description: ["      节魔之戒可以减少它的魔源消耗，多戴几个就能前期也可以魔力脉冲爽射"]
+			id: "22DAA42DFC534042"
+			subtitle: "魔源转魔力，但是手动化"
+			tasks: [{
+				id: "2DAF32BDDB7BD585"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.5d
+		}
+		{
+			id: "66330443DDA175C6"
+			subtitle: "增加大量的脉冲携带魔力"
+			tasks: [{
+				id: "29011687AFCE6EE6"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 7.5d
+		}
+		{
+			id: "68A5AC8D6270C181"
+			subtitle: "加初速度还不错，不过不给数值还是有点弱"
+			tasks: [{
+				id: "5075678B6EFFBC8B"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 7.5d
+		}
+		{
+			id: "3982583D53F01E99"
+			subtitle: "提供脉冲数值，在发射脉冲时回血"
+			tasks: [{
+				id: "6F862F590C6739FF"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 7.5d
+		}
+		{
+			id: "2EB4D327620643B5"
+			subtitle: "增强魔力脉冲的穿透能力"
+			tasks: [{
+				id: "02652E420FC7501B"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 7.5d
+		}
+		{
+			id: "1DDD2EAC89C83F9F"
+			subtitle: "泰拉钢plus，同时附带了其它特殊效果"
+			tasks: [{
+				id: "7479E166E6F2895D"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 7.5d
+		}
+		{
+			id: "50D0E98CA4C56302"
+			subtitle: "魔力脉冲的跨流派联动材料"
+			tasks: [{
+				id: "2756257DAF4FB7CE"
+				item: "etshtinker:manalyn_queen"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"      灼伤流派是以持续伤害为主要特色出伤的流派"
+				""
+				"      有&6最大灼伤叠加、灼伤攻击速度&r两种属性，可以在L2属性面板查看"
+				""
+				"       最大灼伤叠加：顾名思义灼伤的最大叠加层数，每层在出伤时造成1伤害"
+				""
+				"       灼伤攻击速度：决定灼伤的攻击间隔，灼伤攻击间隔=20/灼伤攻击速度，玩家初始有2灼伤攻击速度"
+			]
+			icon: "tconstruct:blazing_blood_bucket"
+			id: "2730FAB11BB4808B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "161226313106BF77"
+				type: "checkmark"
+			}]
+			title: "灼伤流派"
+			x: 18.5d
+			y: 11.0d
+		}
+		{
+			id: "6D25A777F17EA80B"
+			tasks: [{
+				id: "31833FF01044FA94"
+				item: "kubejs:industrial_gel"
+				type: "item"
+			}]
+			x: 48.5d
+			y: 0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "27F2356C8C023F83"
+			rewards: [{
+				ftb_money: 125L
+				id: "7A71960BF2CE69C3"
+				type: "sdmshop:money"
+			}]
+			subtitle: "显著增加灼伤攻击速度，少量增加最大灼伤叠加"
+			tasks: [{
+				icon: "tconstruct:scorched_brick"
+				id: "16C413CC3D73423E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:scorched_stone"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:polished_scorched_stone"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_bricks"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_road"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:chiseled_scorched_bricks"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:scorched_brick"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "焦褐"
+			x: 26.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"      提供除了造成火伤外的另外灼伤叠加手段"
+				""
+				"      护甲提供着火时减伤（好像有听过什么材料是烧自己）"
+			]
+			hide_dependency_lines: true
+			id: "2DD849E9B364A0B1"
+			rewards: [{
+				ftb_money: 200L
+				id: "4D60DC2C7B8D5209"
+				type: "sdmshop:money"
+			}]
+			subtitle: "叠加灼伤和自动冶炼，着火时增加保护"
+			tasks: [{
+				id: "56FB215947AD20D6"
+				item: "tconstruct:blazewood"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"叠加灼伤的一种手段，比烈焰木叠加速度更快"
+				""
+				"增伤很可观而且甚至可以和护甲一起叠，但是需要着火终究还是太恶心了，不推荐"
+			]
+			hide_dependency_lines: true
+			id: "7B481D3F82A52BF7"
+			rewards: [{
+				ftb_money: 666L
+				id: "4E87327AF2955E6E"
+				type: "sdmshop:money"
+			}]
+			subtitle: "增加灼伤叠加，降低受到火焰伤害，攻击导致自身着火，若自身着火则增伤"
+			tasks: [{
+				id: "71D8ABEBFD83096F"
+				item: "tinkers_ingenuity:dye_fire_alloy"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"击败图腾鸟后处理战利品获取"
+				""
+				"作为武器时特效好看！"
+				"&7（当然叠加灼伤也很猛）"
+			]
+			hide_dependency_lines: true
+			id: "0141A5217570206A"
+			rewards: [{
+				ftb_money: 375L
+				id: "0EB5983ACF3D3F33"
+				random_bonus: 375
+				type: "sdmshop:money"
+			}]
+			shape: "circle"
+			subtitle: "继承太阳图腾的鸟形神性生物（拉？）"
+			tasks: [{
+				id: "60C98EBC0E62DB36"
+				item: "tinkers_ingenuity:shine_alloy_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 11.0d
+		}
+		{
+			description: ["好看，能提供基础的灼伤数值"]
+			id: "2C346A815B9B3CB2"
+			rewards: [{
+				ftb_money: 300L
+				id: "286A87BF924AB89D"
+				random_bonus: 300
+				type: "sdmshop:money"
+			}]
+			subtitle: "增加灼伤叠加，着火目标加伤，自动冶炼"
+			tasks: [{
+				id: "32E16BD06FF2D33D"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 40.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"&l&o&n&4已然归来&r"
+				""
+				"灼伤流派分支-&c过热效果&r的第一个来源。在目标受到灼伤伤害时叠加过热，过热效果期间固定攻速并释放剑气。"
+				""
+				"顶端有炼狱效果，是很强力的百分比词条"
+			]
+			id: "0638C89CBC0F6346"
+			rewards: [
+				{
+					count: 2
+					id: "34B87000352E81FE"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+				{
+					ftb_money: 300L
+					id: "69C5413DF8AD95C9"
+					type: "sdmshop:money"
+				}
+			]
+			shape: "circle"
+			subtitle: "&l&o&n&4一刀一刀燃烧刀&r"
+			tasks: [{
+				id: "524A1308D78882CD"
+				item: "cloudertinker:glavenus_ingot"
+				type: "item"
+			}]
+			x: 39.5d
+			y: 11.0d
+		}
+		{
+			description: ["      灼伤攻击速度的最大来源，氧气消耗方式与太空服强化一致，读取你贮液器槽内贮液器内的液氧，一次消耗10mB"]
+			id: "4A665C2143017628"
+			subtitle: "“什么叫富发动机燃烧”"
+			tasks: [{
+				id: "3BEE2A56AF20663E"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"灼伤的优质叠加手段，会发激光的大剑你见过没（）"
+				""
+				"过热期间还能让激光触发近战特效"
+				""
+				"另外它还有通量装载"
+				"&m&8孩子们真问了"
+			]
+			hide_dependency_lines: true
+			id: "43C8E5C04BF84D25"
+			rewards: [{
+				ftb_money: 2000L
+				id: "2265FEF7B8C3E414"
+				type: "sdmshop:money"
+			}]
+			shape: "circle"
+			subtitle: "谁家近战武器射激光攻击啊"
+			tasks: [{
+				id: "245CD9D295910758"
+				item: "thermal:ruby"
+				type: "item"
+			}]
+			title: "红宝石"
+			x: 49.0d
+			y: 11.0d
+		}
+		{
+			description: ["      灼伤流派的毕业材料，灼焱的上位材料。"]
+			id: "508AE6367D762DAE"
+			subtitle: "现在它不止有远程了"
+			tasks: [{
+				id: "7AA0D78A70304F48"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"作为元素合金有点灼伤属性很合理"
+				""
+				"后面冰和电流派加入后活化彩钢也会拥有这些流派的属性"
+			]
+			id: "07FA28805DD56373"
+			subtitle: "你谁。"
+			tasks: [{
+				id: "45F22F420F6BDEC8"
+				item: "etshtinker:activated_chroma_plate"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 11.0d
+		}
+		{
+			id: "1B0ABF570CCF34B8"
+			subtitle: "适合搭配一些加算数值较高的黏液材料"
+			tasks: [{
+				id: "291DAE8F67F8710C"
+				item: "etshtinker:manalyn_queen"
+				type: "item"
+			}]
+			x: 49.5d
+			y: 0.5d
+		}
+		{
+			id: "05F6B53C86216BB6"
+			subtitle: "实际上魔灵皇更偏向贪婪流，因其多段的性质"
+			tasks: [{
+				id: "5AD750F2E0BA2337"
+				item: "etshtinker:manalyn_queen"
+				type: "item"
+			}]
+			x: 49.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10F6DB9578455387"]
+			description: [
+				"      用魔力手镜绑定魔力池，然后它就会视作一个复制了魔力池魔力存储的魔力石板，向这个魔力池加入魔力手镜就也会同步更新魔力。"
+				""
+				"      用福鲁伊克斯魔力池就可以绑定ME网络里的魔力"
+			]
+			id: "24971802CEED07C3"
+			subtitle: "如何把家里的魔力供应给工具？"
+			tasks: [
+				{
+					id: "0AC7B4396192FB76"
+					item: "botania:mana_mirror"
+					type: "item"
+				}
+				{
+					id: "7074C801B740E982"
+					item: "appbot:fluix_mana_pool"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 7.5d
 		}
 	]
 	title: "材料流派大全"

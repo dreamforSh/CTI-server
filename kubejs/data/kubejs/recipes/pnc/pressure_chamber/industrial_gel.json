@@ -1,0 +1,42 @@
+{
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "type": "forge:nbt",
+        "item": "mekanism:gauge_dropper",
+        "count": 1,
+        "nbt": "{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:16000,FluidName:\"immersiveengineering:phenolic_resin\"}}]}}"
+      },
+      {
+        "type": "forge:nbt",
+        "item": "mekanism:gauge_dropper",
+        "count": 1,
+        "nbt": "{mekData:{GasTanks:[{Tank:0b,stored:{amount:16000L,gasName:\"cti:polymer\"}}]}}"
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "kubejs:tungsten_steel_ingot",
+        "count": 8
+      },
+      {
+        "type": "pneumaticcraft:stacked_item",
+        "item": "industrialforegoing:pink_slime_ingot",
+        "count": 1
+      }
+    ],
+    "pressure": 3.0,
+    "results": [
+      {
+        "item": "kubejs:industrial_gel",
+        "count": 8
+      },
+      {
+        "item": "mekanism:gauge_dropper",
+        "count": 1
+      },
+      {
+        "item": "mekanism:gauge_dropper",
+        "count": 1
+      }
+    ]
+  }

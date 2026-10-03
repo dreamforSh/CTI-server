@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "cti:oxidizing_flame"
+    },
+    {
+      "level": 2,
+      "name": "cti:fiery_capable"
+    }
+  ]
+}

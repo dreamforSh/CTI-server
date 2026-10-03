@@ -1,0 +1,12 @@
+{
+    "default": [
+        {
+            "level": 1,
+            "name": "cti:terra_burst"
+        },
+        {
+            "name": "etshtinker:manarepair",
+            "level": 1
+        }
+    ]
+}
